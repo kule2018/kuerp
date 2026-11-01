@@ -1,1 +1,169 @@
-IyDov5vplIDlrZggRVJQ77yI5byA5rqQ54mI77yJDQoNCj4g5LiA5aWX5Z+65LqO546w5Luj5oqA5pyv5qCI5LuO6Zu25a6e546w55qE6L+b6ZSA5a2YIC8g5ZWG6LS4IEVSUCDns7vnu5/vvIzljIXlkKsgKirlkI7nq68gQVBJKirjgIEqKlBDIOeuoeeQhuWQjuWPsCoqIOS4jiAqKuenu+WKqOerr++8iOiuoui0p+mAmuWwj+eoi+W6j++8iSoqIOS4ieerr++8jOW8gOeuseWNs+eUqO+8jOWPr+engeacieWMlumDqOe9suOAgg0KDQrmnKzpobnnm67kuLrlrozlhajlvIDmupDnmoTov5vplIDlrZjnrqHnkIbop6PlhrPmlrnmoYjvvIzopobnm5bph4fotK3jgIHplIDllK7jgIHlupPlrZjjgIHotYTph5HjgIHmiqXooajjgIHmiZPljbDjgIHnp7vliqjorqLotKfnrYnmoLjlv4PllYbotLjlnLrmma/vvIzlubblhoXnva7kuIDlpZflj6/mj5Lmi5TnmoQgQUkg6IO95Yqb5Lit5b+D77yI5a+56K+dIC8gQWdlbnQgLyDlt6XlhbfosIPnlKggLyBSQUcg5qOA57SiIC8g57uT5p6E5YyW6L6T5Ye677yJ44CCDQoNCi0tLQ0KDQojIyDnibnmgKcNCg0KLSAqKuWJjeWQjuerr+WIhuemuyoq77yaUkVTVGZ1bCBBUEkgKyDni6znq4vliY3nq6/vvIzkvr/kuo7kuozmrKHlvIDlj5HkuI7pm4bmiJDjgIINCi0gKirpgJrnlKjliqjmgIHooajlvJXmk44qKu+8muS4gOS4qumAmueUqOaOpeWPo+WNs+WPr+mpseWKqOWFqOmDqOS4muWKoeihqO+8iOWinuWIoOaUueafpSAvIOWuoeaguCAvIOWbnuaUtuermSAvIOWvvOWFpeWvvOWHuu+8ie+8jOaWsOWinuS4muWKoeaooeWdl+mbtuagt+adv+S7o+eggeOAgg0KLSAqKuWujOaVtOWVhui0uOmXreeOryoq77ya5ZWG5ZOB6LWE5paZ44CB6YeH6LSt44CB6ZSA5ZSu44CB5LuT5bqT44CB6LWE6YeR44CB5pS25LuY5qy+5qC46ZSA44CB57uE6KOF5ouG5Y2444CB5bqP5YiX5Y+3L+aJueasoeOAgeaIkOacrOiwg+aVtOOAgee7k+i0puWPjee7k+i0puOAgg0KLSAqKuS4sOWvjOaKpeihqOS4juaJk+WNsCoq77ya5Yip5ram6KGo44CB5b6A5p2l5qyg5qy+6KGo44CB5bqT5a2Y6aKE6K2m44CB6YeH6LStL+mUgOWUruaxh+aAu+OAgUE0IOaJk+WNsOS4jiBDU1Yg5a+85Ye644CCDQotICoq56e75Yqo6K6i6LSn6YCaKirvvJpVbmlhcHAg5bCP56iL5bqP77yI6aaW6aG1IC8g5YiG57G7IC8g6K6i6LSn5Y2VIC8g5oiR55qEIC8g5pS26LSn5Zyw5Z2AIC8g54mp5rWB6Lef6LiqIC8gQUkg5a6i5pyN77yJ44CCDQotICoq5byA5pS+IEFQSSoq77ya6Z2i5ZCR56ys5LiJ5pa557O757uf55qE562+5ZCN6Ym05p2D5o6l5Y+j77yI5ZWG5ZOBIC8g5a6i5oi3IC8g6ZSA6LSn5Y2V77yJ44CCDQotICoqQUkg6IO95Yqb5Lit5b+DKirvvJrln7rkuo4gT3BlbkFJIOWFvOWuueWNj+iuru+8iERlZXBTZWVrIC8g6YCa5LmJIC8gT3BlbkFJIC8g5pys5ZywIE9sbGFtYe+8ie+8jOaUr+aMgeaooeWei+mFjee9ruOAgVByb21wdCDmqKHmnb/jgIFGdW5jdGlvbiBDYWxsaW5n44CBUmVBY3QgQWdlbnTjgIFSQUcg5qOA57Si44CB57uT5p6E5YyWIEpTT04g5LiO6LCD55So5pel5b+X44CCDQotICoq5LiA6ZSu6YOo572yKirvvJpEb2NrZXIgQ29tcG9zZSDnvJbmjpIgTXlTUUwgKyDlkI7nq68gKyDliY3nq6/vvIhOZ2lueCDlj43ku6PvvInvvIzlkIzmupDpg6jnvbLlvIDnrrHljbPnlKjjgIINCg0KLS0tDQoNCiMjIOaKgOacr+aetuaehA0KDQp8IOerryB8IOaKgOacr+agiCB8DQp8LS0tfC0tLXwNCnwg5ZCO56uvIEFQSSB8IE5lc3RKUyAxMCDCtyBUeXBlT1JNIMK3IE15U1FMIDUuNysgwrcgSldUIMK3IFBhc3Nwb3J0IHwNCnwgUEMg566h55CG5ZCO5Y+wIHwgVnVlIDMgwrcgVml0ZSDCtyBQaW5pYSDCtyBWdWUtUm91dGVyIMK3IEF4aW9zIMK3IOiHqueglCBgZHNgIOe7hOS7tuW6kyB8DQp8IOenu+WKqOerryB8IFVuaUFwcO+8iFZ1ZTIg6K+t5rOV77yJwrcgdVZpZXcgVUkgwrcg5b6u5L+h5bCP56iL5bqPIC8gSDUgLyBBcHAgfA0KfCDpg6jnvbIgfCBEb2NrZXIgwrcgRG9ja2VyIENvbXBvc2UgwrcgTmdpbnggfA0KDQotLS0NCg0KIyMg5LuT5bqT57uT5p6EDQoNCj4g5Lul5LiL5Li65pys5LuT5bqT5byA5rqQ5Lqk5LuY55qE5Luj56CB6YOo5YiG77yI5LiN5ZCr5Lu75L2V56ys5LiJ5pa55Y6G5Y+y5rqQ56CB77yJ44CCDQoNCmBgYA0K6L+b6ZSA5a2Y57O757ufLw0K4pSc4pSA4pSAIG5lc3Rqcy1lcnAvICAgICAgICAgICMg5ZCO56uvIEFQSe+8iE5lc3RKUyArIFR5cGVPUk0gKyBNeVNRTO+8iQ0K4pSCICAg4pSc4pSA4pSAIHNyYy8NCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBhdXRoLyAgICAgICAgIyDnmbvlvZUgLyBKV1QgLyDmlLnlr4YNCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBzeXN0ZW0vICAgICAgIyDnrqHnkIblkZjnrYnns7vnu5/ln7rnoYANCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBhaS8gICAgICAgICAgIyDimIUgQUkg6IO95Yqb5qih5Z2X77yI5qih5Z6LL1Byb21wdC/lt6XlhbcvQWdlbnQv5qOA57SiL+aXpeW/l++8iQ0K4pSCICAg4pSCICAg4pSc4pSA4pSAIGt1ZXJwLyAgICAgICAjIOKYhSDov5vplIDlrZjkuJrliqENCuKUgiAgIOKUgiAgIOKUgiAgIOKUnOKUgOKUgCB0YWJsZS8gICAjICAg6YCa55So5Yqo5oCB6KGoIENSVUQv5a6h5qC4ICsgL2t1ZXJwLzp0YWJsZS8qIOaOp+WItuWZqA0K4pSCICAg4pSCICAg4pSCICAg4pSc4pSA4pSAIGJpei8gICAgICMgICDkuJrliqHkuJPnlKjnq6/ngrnvvIjku7fmoLwv5bqP5YiX5Y+3L+iuoui0p+WNlS/moLjplIAv5bqT5a2Y5qCh6aqM77yJDQrilIIgICDilIIgICDilIIgICDilJzilIDilIAgZnVuZHMvICAgIyAgIOi1hOmHkei/h+i0piAvIOWGsui9rA0K4pSCICAg4pSCICAg4pSCICAg4pSc4pSA4pSAIHBvc3RpbmcvICMgICDmmbrog73ooaXotKcgLyDku6XplIDlrprotK3nnIvmnb8NCuKUgiAgIOKUgiAgIOKUgiAgIOKUlOKUgOKUgCBhcHByb3ZhbC8jICAg5a6h5om55rWBDQrilIIgICDilIIgICDilJzilIDilIAgb3BlbmFwaS8gICAgICMg5byA5pS+IEFQSe+8iOi0puWPtyArIOetvuWQje+8iQ0K4pSCICAg4pSCICAg4pSc4pSA4pSAIHNob3AvICAgICAgICAjIOenu+WKqOerr+WVhuWfjiAvIOW+ruS/oSAvIOefreS/oQ0K4pSCICAg4pSCICAg4pSU4pSA4pSAIGNvbW1vbi8gICAgICAjIOe8k+WtmCAvIOS4iuS8oCAvIOWuoeiuoSAvIOa2iOaBryAvIOW+ruS/oSAvIOWumuaXtuS7u+WKoSAvIOWBpeW6t+ajgOafpQ0K4pSCICAg4pSc4pSA4pSAIGRiLyAgICAgICAgICAgICAgIyDlu7rooaggU1FM77yI5Lia5Yqh6KGoICsgQUkg6KGoICsg5p2D6ZmQ6KGoICsg5ZWG5Z+O6KGo77yJDQrilIIgICDilJzilIDilIAgZG9jcy9BUEkubWQgICAgICAjIOiHquWKqOeUn+aIkOeahOaOpeWPo+aWh+ahow0K4pSCICAg4pSU4pSA4pSAIERvY2tlcmZpbGUNCuKUnOKUgOKUgCB2dWUzLWVycC8gICAgICAgICAgICAjIFBDIOeuoeeQhuWQjuWPsO+8iFZ1ZTMgKyBWaXRl77yJDQrilIIgICDilJzilIDilIAgc3JjLw0K4pSCICAg4pSCICAg4pSc4pSA4pSAIHJvdXRlci8gICAgICAjIOi3r+eUsSArIOmJtOadg+WuiOWNqw0K4pSCICAg4pSCICAg4pSc4pSA4pSAIHN0b3JlLyAgICAgICAjIFBpbmlh77yI55m75b2V5oCBIC8g5raI5oGv77yJDQrilIIgICDilIIgICDilJzilIDilIAgY29tcG9uZW50cy8gICMg6YCa55So57uE5Lu2ICsg6Ieq56CUIGRzIOe7hOS7tuW6kw0K4pSCICAg4pSCICAg4pSc4pSA4pSAIHZpZXdzLyAgICAgICAjIOeZu+W9lSAvIOW3peS9nOWPsCAvIOS4muWKoeaooeWdlyAvIOaKpeihqCAvIOaJk+WNsCAvIEFJDQrilIIgICDilIIgICDilJTilIDilIAgdXRpbHMvICAgICAgICMg6K+35rGC5bCB6KOFIC8g5omT5Y2wIC8g5p2D6ZmQDQrilIIgICDilJTilIDilIAgRG9ja2VyZmlsZQ0K4pSc4pSA4pSAIFVuaWFwcOWJjeerr+a6kOeggS8gICAgICAgIyDnp7vliqjnq6/vvIjorqLotKfpgJrlsI/nqIvluo/vvIkNCuKUnOKUgOKUgCBkb2NrZXItY29tcG9zZS55bWwgICAjIOWFqOagiOS4gOmUrue8luaOku+8iE15U1FMICsg5ZCO56uvICsg5YmN56uv77yJDQrilJTilIDilIAgZG9jcy8gICAgICAgICAgICAgICAgIyDmnKzmlofmoaPpm4YNCiAgICDilJzilIDilIAgYXJjaGl0ZWN0dXJlLm1kICAjIOaetuaehOivpuinow0KICAgIOKUlOKUgOKUgCBkZXBsb3ltZW50Lm1kICAgICMg6YOo572y5oyH5Y2XDQpgYGANCg0KLS0tDQoNCiMjIOW/q+mAn+W8gOWniw0KDQojIyMg5pa55byP5LiA77yaRG9ja2VyIOS4gOmUrumDqOe9su+8iOaOqOiNkO+8iQ0KDQpgYGBiYXNoDQojIOWcqOmhueebruagueebruW9leaJp+ihjO+8iOmcgOaPkOWJjeWuieijhSBEb2NrZXIgJiBEb2NrZXIgQ29tcG9zZe+8iQ0KZG9ja2VyIGNvbXBvc2UgdXAgLWQgLS1idWlsZA0KYGBgDQoNCi0g6K6/6Zeu566h55CG5ZCO5Y+w77yaPGh0dHA6Ly9sb2NhbGhvc3Q6ODA4MD4NCi0g5ZCO56uvIEFQSSDnm7Tov57vvIjosIPor5XvvInvvJo8aHR0cDovL2xvY2FsaG9zdDozMDAwPg0KLSDpu5jorqTotKblj7fvvJpgYWRtaW5gIC8gYDEyMzQ1NmANCg0K6aaW5qyh5ZCv5Yqo5Lya6Ieq5Yqo5Yib5bu6IGBrdWVycF9lcnBgIOaVsOaNruW6k+W5tuWvvOWFpeWFqOmDqOW7uuihqOiEmuacrO+8iOingSBgZG9ja2VyLWNvbXBvc2UueW1sYCDkuK3mjILovb3nmoQgYGRiLyouc3FsYO+8ieOAgg0KDQojIyMg5pa55byP5LqM77ya5pys5Zyw5byA5Y+RDQoNCioqMS4g5ZCv5Yqo5pWw5o2u5bqTKioNCg0KYGBgYmFzaA0KY2QgbmVzdGpzLWVycA0KZG9ja2VyIGNvbXBvc2UgdXAgLWQgICAgICAgICAgIyDku4XotbcgTXlTUUzvvIzpppbmrKHoh6rliqjlu7rooagNCmBgYA0KDQoqKjIuIOWQr+WKqOWQjuerryoqDQoNCmBgYGJhc2gNCmNkIG5lc3Rqcy1lcnANCmNwIC5lbnYuZXhhbXBsZSAuZW52ICAgICAgICAgICMg5oyJ6ZyA5L+u5pS5IERCXyogLyBKV1RfU0VDUkVUIC8gQUlfKg0KbnBtIGluc3RhbGwNCm5wbSBydW4gYnVpbGQgICAgICAgICAgICAgICAgICMgdHNjIOe8luivkeWIsCBkaXN0Lw0KbnBtIHN0YXJ0ICAgICAgICAgICAgICAgICAgICAgIyBub2RlIGRpc3QvbWFpbi5qcyDihpIgaHR0cDovL2xvY2FsaG9zdDozMDAwDQpgYGANCg0KKiozLiDlkK/liqggUEMg566h55CG5ZCO5Y+wKioNCg0KYGBgYmFzaA0KY2QgdnVlMy1lcnANCm5wbSBpbnN0YWxsDQpucG0gcnVuIGRldiAgICAgICAgICAgICAgICAgICAjIOKGkiBodHRwOi8vbG9jYWxob3N0OjUxNzPvvIjlt7LphY3nva4gL2t1ZXJwIC9haSAvYXV0aCDku6PnkIbliLAgOjMwMDDvvIkNCmBgYA0KDQoqKjQuIOi/kOihjOenu+WKqOerryoqDQoNCuS9v+eUqCBIQnVpbGRlclgg5omT5byAIGBVbmlhcHDliY3nq6/mupDnoIEvYO+8jOmAieaLqeOAjOi/kOihjOWIsOW+ruS/oeWwj+eoi+W6j+OAjeaIluOAjOi/kOihjOWIsOa1j+iniOWZqOOAjeWNs+WPr+mihOiniOOAgg0KDQo+IOivpue7humDqOe9suS4jui/kOe7tOivtOaYjuingSBbZG9jcy9kZXBsb3ltZW50Lm1kXShkb2NzL2RlcGxveW1lbnQubWQp77yb5p625p6E5LiO5qih5Z2X6K6+6K6h6KeBIFtkb2NzL2FyY2hpdGVjdHVyZS5tZF0oZG9jcy9hcmNoaXRlY3R1cmUubWQp77yb5o6l5Y+j5riF5Y2V6KeBIFtuZXN0anMtZXJwL2RvY3MvQVBJLm1kXSguLi9uZXN0anMtZXJwL2RvY3MvQVBJLm1kKeOAgg0KDQotLS0NCg0KIyMg5Yqf6IO95qih5Z2X5LiA6KeIDQoNCnwg6aKG5Z+fIHwg5Li76KaB6aG16Z2iIC8g5o6l5Y+jIHwNCnwtLS18LS0tfA0KfCDlt6XkvZzlj7AgfCDmlbDmja7pnaLmnb/vvIjmoLjlv4PmjIfmoIfogZrlkIjvvIkgfA0KfCDotYTmlpkgfCDllYblk4HjgIHnsbvliKvjgIHljZXkvY3jgIHlrqLmiLfjgIHkvpvlupTllYbjgIHku5PlupPjgIHpl6jlupcgfA0KfCDph4fotK0gfCDph4fotK3orqLljZXjgIHotK3otKfljZXjgIHotK3otKfpgIDotKfljZUgfA0KfCDplIDllK4gfCDplIDllK7orqLljZXjgIHplIDotKfljZXjgIHplIDotKfpgIDotKfljZXjgIHmlLbpk7blj7DvvIhQT1PvvIkgfA0KfCDku5PlupMgfCDosIPmi6jjgIHlhbbku5blh7rlhaXlupPjgIHnu4Too4UgLyDmi4bljbjjgIHmiJDmnKzosIPmlbTjgIHnm5jngrnjgIHluo/liJflj7cgLyDmibnmrKEgfA0KfCDotYTph5EgfCDmlLbmrL7ljZXjgIHku5jmrL7ljZXjgIHmoLjplIDjgIHotKbmiLfkvZnpop0gfA0KfCDmiqXooaggfCDliKnmtqbooajjgIHlvoDmnaXmrKDmrL7ooajjgIHlupPlrZjpooTorabjgIHph4fotK0gLyDplIDllK7msYfmgLvjgIHmjpLooYzjgIHlr7notKYgfA0KfCDns7vnu58gfCDnrqHnkIblkZjjgIHop5LoibLmnYPpmZDvvIhSQkFD77yJ44CB5pON5L2c5pel5b+X44CB5raI5oGv44CB5a6a5pe25Lu75Yqh44CB57yT5a2Y44CB5Y2V5Y+36K6+572u44CB57uT6LSmIC8g5Y+N57uT6LSmIHwNCnwg56e75Yqo6K6i6LSn6YCaIHwg6aaW6aG144CB5YiG57G744CB6K6i6LSn5Y2V44CB5pS26LSn5Zyw5Z2A44CB54mp5rWB44CB5oiR55qE44CBQUkg5a6i5pyN77yI5ZCO5Y+w5L6n55SxIGBzaG9wYCDmqKHlnZfmlK/mkpHvvIkgfA0KfCBBSSDog73lipvkuK3lv4MgfCDmqKHlnovphY3nva7jgIFQcm9tcHQg5qih5p2/44CB5a+56K+dIC8gQWdlbnTjgIHlt6XlhbfosIPnlKjjgIFSQUcg5qOA57Si44CB6LCD55So5pel5b+XIHwNCg0KLS0tDQoNCiMjIOaWh+aho+WvvOiIqg0KDQotIFvmnrbmnoTor6bop6MgZG9jcy9hcmNoaXRlY3R1cmUubWRdKGRvY3MvYXJjaGl0ZWN0dXJlLm1kKQ0KLSBb6YOo572y5oyH5Y2XIGRvY3MvZGVwbG95bWVudC5tZF0oZG9jcy9kZXBsb3ltZW50Lm1kKQ0KLSBb5ZCO56uv5o6l5Y+j5paH5qGjIG5lc3Rqcy1lcnAvZG9jcy9BUEkubWRdKC4uL25lc3Rqcy1lcnAvZG9jcy9BUEkubWQpDQotIFvlkI7nq68gUkVBRE1FIG5lc3Rqcy1lcnAvUkVBRE1FLm1kXSguLi9uZXN0anMtZXJwL1JFQURNRS5tZCkNCi0gW1BDIOWJjeerryBSRUFETUUgdnVlMy1lcnAvUkVBRE1FLm1kXSguLi92dWUzLWVycC9SRUFETUUubWQpDQotIFvnp7vliqjnq68gUkVBRE1FIFVuaWFwcOWJjeerr+a6kOeggS9SRUFETUUubWRdKC4uL1VuaWFwcOWJjeerr+a6kOeggS9SRUFETUUubWQpDQoNCi0tLQ0KDQojIyDpu5jorqTotKblj7cNCg0KfCDotKblj7cgfCDlr4bnoIEgfCDor7TmmI4gfA0KfC0tLXwtLS18LS0tfA0KfCBgYWRtaW5gIHwgYDEyMzQ1NmAgfCDotoXnuqfnrqHnkIblkZjvvIznlJ/kuqfnjq/looPor7fliqHlv4Xkv67mlLkgfA0KDQotLS0NCg0KIyMg5byA5rqQ5Y2P6K6uDQoNCuacrOmhueebruWfuuS6jiBbTUlUIOWNj+iurl0oTElDRU5TRSkg5byA5rqQ44CCDQoNCiMjIOi0oeeMrg0KDQrmrKLov47mj5DkuqQgSXNzdWUg5LiOIFB1bGwgUmVxdWVzdO+8jOivpuingSBbQ09OVFJJQlVUSU5HLm1kXShDT05UUklCVVRJTkcubWQp44CCDQoNCiMjIOWFjei0o+WjsOaYjg0KDQrmnKzpobnnm67kuLrni6znq4vnmoTlvIDmupDov5vplIDlrZjlrp7njrDvvIzml6jlnKjmj5Dkvpvlj6/lrabkuaDjgIHlj6/np4HmnInljJbpg6jnvbLnmoTllYbotLggRVJQIOWPguiAg+aWueahiOOAguS9v+eUqOacrOi9r+S7tuaJgOS6p+eUn+eahOS7u+S9leS4muWKoemjjumZqeS4juaVsOaNrui0o+S7u+eUseS9v+eUqOiAheiHquihjOaJv+aLheOAgg0K
+# 进销存 ERP（开源版）
+
+> 一套基于现代技术栈从零实现的进销存 / 商贸 ERP 系统，包含 **后端 API**、**PC 管理后台** 与 **移动端（订货通小程序）** 三端，开箱即用，可私有化部署。
+
+本项目为完全开源的进销存管理解决方案，覆盖采购、销售、库存、资金、报表、打印、移动订货等核心商贸场景，并内置一套可插拔的 AI 能力中心（对话 / Agent / 工具调用 / RAG 检索 / 结构化输出）。
+
+---
+
+## 特性
+
+- **前后端分离**：RESTful API + 独立前端，便于二次开发与集成。
+- **通用动态表引擎**：一个通用接口即可驱动全部业务表（增删改查 / 审核 / 回收站 / 导入导出），新增业务模块零样板代码。
+- **完整商贸闭环**：商品资料、采购、销售、仓库、资金、收付款核销、组装拆卸、序列号/批次、成本调整、结账反结账。
+- **丰富报表与打印**：利润表、往来欠款表、库存预警、采购/销售汇总、A4 打印与 CSV 导出。
+- **移动订货通**：Uniapp 小程序（首页 / 分类 / 订货单 / 我的 / 收货地址 / 物流跟踪 / AI 客服）。
+- **开放 API**：面向第三方系统的签名鉴权接口（商品 / 客户 / 销货单）。
+- **AI 能力中心**：基于 OpenAI 兼容协议（DeepSeek / 通义 / OpenAI / 本地 Ollama），支持模型配置、Prompt 模板、Function Calling、ReAct Agent、RAG 检索、结构化 JSON 与调用日志。
+- **一键部署**：Docker Compose 编排 MySQL + 后端 + 前端（Nginx 反代），同源部署开箱即用。
+
+---
+
+## 技术架构
+
+| 端 | 技术栈 |
+|---|---|
+| 后端 API | NestJS 10 · TypeORM · MySQL 5.7+ · JWT · Passport |
+| PC 管理后台 | Vue 3 · Vite · Pinia · Vue-Router · Axios · 自研 `ds` 组件库 |
+| 移动端 | UniApp（Vue2 语法）· uView UI · 微信小程序 / H5 / App |
+| 部署 | Docker · Docker Compose · Nginx |
+
+---
+
+## 仓库结构
+
+> 以下为本仓库开源交付的代码部分（不含任何第三方历史源码）。
+
+```
+进销存系统/
+├── nestjs-erp/          # 后端 API（NestJS + TypeORM + MySQL）
+│   ├── src/
+│   │   ├── auth/        # 登录 / JWT / 改密
+│   │   ├── system/      # 管理员等系统基础
+│   │   ├── ai/          # ★ AI 能力模块（模型/Prompt/工具/Agent/检索/日志）
+│   │   ├── kuerp/       # ★ 进销存业务
+│   │   │   ├── table/   #   通用动态表 CRUD/审核 + /kuerp/:table/* 控制器
+│   │   │   ├── biz/     #   业务专用端点（价格/序列号/订货单/核销/库存校验）
+│   │   │   ├── funds/   #   资金过账 / 冲转
+│   │   │   ├── posting/ #   智能补货 / 以销定购看板
+│   │   │   └── approval/#   审批流
+│   │   ├── openapi/     # 开放 API（账号 + 签名）
+│   │   ├── shop/        # 移动端商城 / 微信 / 短信
+│   │   └── common/      # 缓存 / 上传 / 审计 / 消息 / 微信 / 定时任务 / 健康检查
+│   ├── db/              # 建表 SQL（业务表 + AI 表 + 权限表 + 商城表）
+│   ├── docs/API.md      # 自动生成的接口文档
+│   └── Dockerfile
+├── vue3-erp/            # PC 管理后台（Vue3 + Vite）
+│   ├── src/
+│   │   ├── router/      # 路由 + 鉴权守卫
+│   │   ├── store/       # Pinia（登录态 / 消息）
+│   │   ├── components/  # 通用组件 + 自研 ds 组件库
+│   │   ├── views/       # 登录 / 工作台 / 业务模块 / 报表 / 打印 / AI
+│   │   └── utils/       # 请求封装 / 打印 / 权限
+│   └── Dockerfile
+├── Uniapp前端源码/       # 移动端（订货通小程序）
+├── docker-compose.yml   # 全栈一键编排（MySQL + 后端 + 前端）
+└── docs/                # 本文档集
+    ├── architecture.md  # 架构详解
+    └── deployment.md    # 部署指南
+```
+
+---
+
+## 快速开始
+
+### 方式一：Docker 一键部署（推荐）
+
+```bash
+# 在项目根目录执行（需提前安装 Docker & Docker Compose）
+docker compose up -d --build
+```
+
+- 访问管理后台：<http://localhost:8080>
+- 后端 API 直连（调试）：<http://localhost:3000>
+- 默认账号：`admin` / `123456`
+
+首次启动会自动创建 `kuerp_erp` 数据库并导入全部建表脚本（见 `docker-compose.yml` 中挂载的 `db/*.sql`）。
+
+### 方式二：本地开发
+
+**1. 启动数据库**
+
+```bash
+cd nestjs-erp
+docker compose up -d          # 仅起 MySQL，首次自动建表
+```
+
+**2. 启动后端**
+
+```bash
+cd nestjs-erp
+cp .env.example .env          # 按需修改 DB_* / JWT_SECRET / AI_*
+npm install
+npm run build                 # tsc 编译到 dist/
+npm start                     # node dist/main.js → http://localhost:3000
+```
+
+**3. 启动 PC 管理后台**
+
+```bash
+cd vue3-erp
+npm install
+npm run dev                   # → http://localhost:5173（已配置 /kuerp /ai /auth 代理到 :3000）
+```
+
+**4. 运行移动端**
+
+使用 HBuilderX 打开 `Uniapp前端源码/`，选择「运行到微信小程序」或「运行到浏览器」即可预览。
+
+> 详细部署与运维说明见 [docs/deployment.md](docs/deployment.md)；架构与模块设计见 [docs/architecture.md](docs/architecture.md)；接口清单见 [nestjs-erp/docs/API.md](../nestjs-erp/docs/API.md)。
+
+---
+
+## 功能模块一览
+
+| 领域 | 主要页面 / 接口 |
+|---|---|
+| 工作台 | 数据面板（核心指标聚合） |
+| 资料 | 商品、类别、单位、客户、供应商、仓库、门店 |
+| 采购 | 采购订单、购货单、购货退货单 |
+| 销售 | 销售订单、销货单、销货退货单、收银台（POS） |
+| 仓库 | 调拨、其他出入库、组装 / 拆卸、成本调整、盘点、序列号 / 批次 |
+| 资金 | 收款单、付款单、核销、账户余额 |
+| 报表 | 利润表、往来欠款表、库存预警、采购 / 销售汇总、排行、对账 |
+| 系统 | 管理员、角色权限（RBAC）、操作日志、消息、定时任务、缓存、单号设置、结账 / 反结账 |
+| 移动订货通 | 首页、分类、订货单、收货地址、物流、我的、AI 客服（后台侧由 `shop` 模块支撑） |
+| AI 能力中心 | 模型配置、Prompt 模板、对话 / Agent、工具调用、RAG 检索、调用日志 |
+
+---
+
+## 文档导航
+
+- [架构详解 docs/architecture.md](docs/architecture.md)
+- [部署指南 docs/deployment.md](docs/deployment.md)
+- [后端接口文档 nestjs-erp/docs/API.md](../nestjs-erp/docs/API.md)
+- [后端 README nestjs-erp/README.md](../nestjs-erp/README.md)
+- [PC 前端 README vue3-erp/README.md](../vue3-erp/README.md)
+- [移动端 README Uniapp前端源码/README.md](../Uniapp前端源码/README.md)
+
+---
+
+## 默认账号
+
+| 账号 | 密码 | 说明 |
+|---|---|---|
+| `admin` | `123456` | 超级管理员，生产环境请务必修改 |
+
+---
+
+## 开源协议
+
+本项目基于 [MIT 协议](LICENSE) 开源。
+
+## 贡献
+
+欢迎提交 Issue 与 Pull Request，详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 免责声明
+
+本项目为独立的开源进销存实现，旨在提供可学习、可私有化部署的商贸 ERP 参考方案。使用本软件所产生的任何业务风险与数据责任由使用者自行承担。
