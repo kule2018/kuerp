@@ -1,4 +1,0 @@
-﻿
-PORT_OPEN iter=0
-port open, not ready: mysql: [Warning] Using a password on the command line interface can be insecure. ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
-PORT_OPEN iter=1
