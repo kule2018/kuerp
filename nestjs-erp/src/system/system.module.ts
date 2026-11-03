@@ -1,1 +1,13 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBUeXBlT3JtTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy90eXBlb3JtJzsKaW1wb3J0IHsgU3lzdGVtU2VydmljZSB9IGZyb20gJy4vc3lzdGVtLnNlcnZpY2UnOwppbXBvcnQgeyBTeXN0ZW1Db250cm9sbGVyIH0gZnJvbSAnLi9zeXN0ZW0uY29udHJvbGxlcic7CmltcG9ydCB7IEFkbWluIH0gZnJvbSAnLi9lbnRpdGllcy9hZG1pbi5lbnRpdHknOwoKQE1vZHVsZSh7CiAgaW1wb3J0czogW1R5cGVPcm1Nb2R1bGUuZm9yRmVhdHVyZShbQWRtaW5dKV0sCiAgcHJvdmlkZXJzOiBbU3lzdGVtU2VydmljZV0sCiAgY29udHJvbGxlcnM6IFtTeXN0ZW1Db250cm9sbGVyXSwKICBleHBvcnRzOiBbU3lzdGVtU2VydmljZV0sCn0pCmV4cG9ydCBjbGFzcyBTeXN0ZW1Nb2R1bGUge30K
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { SystemService } from './system.service';
+import { SystemController } from './system.controller';
+import { Admin } from './entities/admin.entity';
+
+@Module({
+  imports: [TypeOrmModule.forFeature([Admin])],
+  providers: [SystemService],
+  controllers: [SystemController],
+  exports: [SystemService],
+})
+export class SystemModule {}

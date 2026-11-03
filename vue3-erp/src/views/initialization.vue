@@ -1,1 +1,51 @@
-PHRlbXBsYXRlPgogIDxEc0NhcmQ+CiAgICA8dGVtcGxhdGUgI3RpdGxlPgogICAgICA8c3Bhbj7ph43mlrDliJ3lp4vljJY8L3NwYW4+CiAgICA8L3RlbXBsYXRlPgoKICAgIDxEc0FsZXJ0IHR5cGU9ImVycm9yIiA6Y2xvc2FibGU9ImZhbHNlIiBzaG93LWljb24gdGl0bGU9IumrmOWNseaTjeS9nO+8muWwhua4heepuuWFqOmDqOS4muWKoeWNleaNruS4jui1hOaWmeaVsOaNru+8iOWVhuWTgS/lrqLmiLcv5L6b5bqU5ZWGL+i0rei0py/plIDotKcv5bqT5a2YL+i1hOmHkeetie+8ie+8jOS4lOS4jeWPr+aBouWkje+8gSIgZGVzY3JpcHRpb249Iuezu+e7n+WPguaVsOOAgeWNleWPt+iuvue9ruOAgei0puaIt+OAgUFJIOmFjee9ruetieWfuuehgOaVsOaNruS8muS/neeVmeOAguaJp+ihjOWJjeivt+ehruiupOW3suWkh+S7veaVsOaNruW6k+OAgiIgLz4KCiAgICA8ZGl2IGNsYXNzPSJjb25maXJtLWJveCI+CiAgICAgIDxwPuehruiupOaJp+ihjOivt+WcqOS4i+aWuei+k+WFpSA8c3Bhbj48Yj5JTklUPC9iPjwvc3Bhbj4g77yaPC9wPgogICAgICA8RHNJbnB1dCB2LW1vZGVsPSJ0ZXh0IiBzdHlsZT0id2lkdGg6IDI0MHB4IiBwbGFjZWhvbGRlcj0i6L6T5YWlIElOSVQiIC8+CiAgICAgIDxEc0J1dHRvbiBjbGFzcz0ibWwiIHZhcmlhbnQ9ImRhbmdlciIgOmRpc2FibGVkPSJ0ZXh0ICE9PSAnSU5JVCciIDpsb2FkaW5nPSJydW5uaW5nIiBAY2xpY2s9Im9uSW5pdCI+56Gu6K6k5Yid5aeL5YyWPC9Ec0J1dHRvbj4KICAgIDwvZGl2PgogIDwvRHNDYXJkPgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KLyoqCiAqIOmHjeaWsOWIneWni+WMlumhte+8mjE6MSDov5jljp/ljp/ns7vnu5/jgIzph43mlrDliJ3lp4vljJbjgI3jgIIKICog5riF56m65YWo6YOo5Lia5Yqh6KGo77yI5L+d55WZ57O757uf5Y+C5pWwL+WNleWPty/otKbmiLcvQUkg6YWN572u77yJ77yMCiAqIOWQjuerryBQT1NUIC9rdWVycC9pbml0aWFsaXplIOimgeaxgiBjb25maXJtPUlOSVQg5Y+M56Gu6K6k77yM6Ziy5q2i6K+v5pON5L2c44CCCiAqLwppbXBvcnQgeyByZWYgfSBmcm9tICd2dWUnOwppbXBvcnQgeyBtZXNzYWdlLCBjb25maXJtIH0gZnJvbSAnQC91dGlscy91aSc7CmltcG9ydCByZXF1ZXN0IGZyb20gJy4uL3V0aWxzL3JlcXVlc3QnOwoKY29uc3QgdGV4dCA9IHJlZignJyk7CmNvbnN0IHJ1bm5pbmcgPSByZWYoZmFsc2UpOwoKLyoqIOaJp+ihjOWIneWni+WMlu+8iOS6jOasoeehruiupCArIOaWh+acrOagoemqjCArIOWQjuerryBjb25maXJtIOWPguaVsOS4iemHjeS/neaKpO+8iSAqLwphc3luYyBmdW5jdGlvbiBvbkluaXQoKSB7CiAgYXdhaXQgY29uZmlybSgn5YaN5qyh56Gu6K6k77ya5Yid5aeL5YyW5ZCO5Lia5Yqh5pWw5o2u5LiN5Y+v5oGi5aSN77yM5piv5ZCm57un57ut77yfJywgJ+acgOe7iOehruiupCcsIHsKICAgIHR5cGU6ICd3YXJuaW5nJywKICAgIGNvbmZpcm1CdXR0b25UZXh0OiAn57un57utJywKICAgIGNhbmNlbEJ1dHRvblRleHQ6ICflj5bmtognLAogIH0pOwogIHJ1bm5pbmcudmFsdWUgPSB0cnVlOwogIHRyeSB7CiAgICBjb25zdCByID0gYXdhaXQgcmVxdWVzdC5wb3N0KCcva3VlcnAvaW5pdGlhbGl6ZScsIHsgY29uZmlybTogJ0lOSVQnIH0pOwogICAgbWVzc2FnZS5zdWNjZXNzKHI/Lm1zZyB8fCAn5Yid5aeL5YyW5a6M5oiQJyk7CiAgICB0ZXh0LnZhbHVlID0gJyc7CiAgfSBmaW5hbGx5IHsKICAgIHJ1bm5pbmcudmFsdWUgPSBmYWxzZTsKICB9Cn0KPC9zY3JpcHQ+Cgo8c3R5bGUgc2NvcGVkPgouY29uZmlybS1ib3ggeyBtYXJnaW4tdG9wOiAxNnB4OyBkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogY2VudGVyOyBnYXA6IDhweDsgfQoubWwgeyBtYXJnaW4tbGVmdDogOHB4OyB9Cjwvc3R5bGU+Cg==
+<template>
+  <DsCard>
+    <template #title>
+      <span>重新初始化</span>
+    </template>
+
+    <DsAlert type="error" :closable="false" show-icon title="高危操作：将清空全部业务单据与资料数据（商品/客户/供应商/购货/销货/库存/资金等），且不可恢复！" description="系统参数、单号设置、账户、AI 配置等基础数据会保留。执行前请确认已备份数据库。" />
+
+    <div class="confirm-box">
+      <p>确认执行请在下方输入 <span><b>INIT</b></span> ：</p>
+      <DsInput v-model="text" style="width: 240px" placeholder="输入 INIT" />
+      <DsButton class="ml" variant="danger" :disabled="text !== 'INIT'" :loading="running" @click="onInit">确认初始化</DsButton>
+    </div>
+  </DsCard>
+</template>
+
+<script setup>
+/**
+ * 重新初始化页：1:1 还原原系统「重新初始化」。
+ * 清空全部业务表（保留系统参数/单号/账户/AI 配置），
+ * 后端 POST /kuerp/initialize 要求 confirm=INIT 双确认，防止误操作。
+ */
+import { ref } from 'vue';
+import { message, confirm } from '@/utils/ui';
+import request from '../utils/request';
+
+const text = ref('');
+const running = ref(false);
+
+/** 执行初始化（二次确认 + 文本校验 + 后端 confirm 参数三重保护） */
+async function onInit() {
+  await confirm('再次确认：初始化后业务数据不可恢复，是否继续？', '最终确认', {
+    type: 'warning',
+    confirmButtonText: '继续',
+    cancelButtonText: '取消',
+  });
+  running.value = true;
+  try {
+    const r = await request.post('/kuerp/initialize', { confirm: 'INIT' });
+    message.success(r?.msg || '初始化完成');
+    text.value = '';
+  } finally {
+    running.value = false;
+  }
+}
+</script>
+
+<style scoped>
+.confirm-box { margin-top: 16px; display: flex; align-items: center; gap: 8px; }
+.ml { margin-left: 8px; }
+</style>

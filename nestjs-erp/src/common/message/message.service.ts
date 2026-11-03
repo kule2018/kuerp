@@ -1,1 +1,253 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgTG9nZ2VyIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBEYXRhU291cmNlIH0gZnJvbSAndHlwZW9ybSc7CgovKiog5LiA5p2h5b6F5YaZ5YWl55qE5raI5oGvICovCmV4cG9ydCBpbnRlcmZhY2UgTWVzc2FnZUlucHV0IHsKICAvKiog5o6l5pS25Lq6SUTvvJswIOihqOekuuWFqOWRmOW5v+aSrSAqLwogIHRvQWRtaW5JZD86IG51bWJlcjsKICAvKiog57G75Z6L77yac3RvY2tfd2FybmluZyAvIGJhdGNoX2V4cGlyeSAvIGFyX2R1ZSAvIGFwcHJvdmFsIC8gc3lzdGVtICovCiAgdHlwZTogc3RyaW5nOwogIC8qKiDnuqfliKvvvJppbmZvIC8gd2FybiAvIGRhbmdlciAqLwogIGxldmVsPzogJ2luZm8nIHwgJ3dhcm4nIHwgJ2Rhbmdlcic7CiAgLyoqIOagh+mimCAqLwogIHRpdGxlOiBzdHJpbmc7CiAgLyoqIOWGheWuuSAqLwogIGNvbnRlbnQ/OiBzdHJpbmc7CiAgLyoqIOeCueWHu+i3s+i9rOeahOWJjeerr+i3r+eUsSAqLwogIGxpbms/OiBzdHJpbmc7CiAgLyoqIOWFs+iBlOihqO+8iOS4jeWQqyBrdWVycF8g5YmN57yA77yJICovCiAgcmVmVGFibGU/OiBzdHJpbmc7CiAgLyoqIOWFs+iBlOiusOW9lUlEICovCiAgcmVmSWQ/OiBzdHJpbmcgfCBudW1iZXI7Cn0KCi8qKiDmtojmga/mn6Xor6LmnaHku7YgKi8KZXhwb3J0IGludGVyZmFjZSBNZXNzYWdlUXVlcnkgewogIHBhZ2U/OiBudW1iZXI7CiAgbGltaXQ/OiBudW1iZXI7CiAgLyoqIOS7heacquivuyAqLwogIHVucmVhZD86IGJvb2xlYW47CiAgLyoqIOexu+Wei+i/h+a7pCAqLwogIHR5cGU/OiBzdHJpbmc7CiAgLyoqIOaOpeaUtuS6uu+8iDAg5pe25ZCM5pe26L+U5Zue5bm/5pKt5raI5oGv77yJICovCiAgdG9BZG1pbklkPzogbnVtYmVyOwp9CgovKioKICog5raI5oGv5Lit5b+D5pyN5Yqh44CCCiAqCiAqIOiuvuiuoeWPluiIje+8mgogKiAxKSDlj6rlhpnkuI3luLjmlLnvvIzkuI7mk43kvZzml6Xlv5fkuIDmoLfnm7TmjqXnlKggRGF0YVNvdXJjZSDot5Hljp/nlJ8gU1FM77yM5LiN5bu6IEVudGl0ee+8mwogKiAyKSDjgIzlhajlkZjlub/mkq3jgI3nlKggdG9fYWRtaW5faWQgPSAwIOihqOekuu+8jOafpeivouaXtuS7pSAodG9fYWRtaW5faWQgPSA/IE9SIHRvX2FkbWluX2lkID0gMCkg5ZG95Lit77yMCiAqICAgIOmBv+WFjeS4uuavj+adoeW5v+aSrea2iOaBr+e7meavj+S4queuoeeQhuWRmOWQhOaPkuS4gOihjO+8iE4g5YCN5YaZ5pS+5aSn77yJ77ybCiAqIDMpIOW3suivu+eKtuaAgeaYr+OAjOavj+S6uuS4gOS7veOAjeeahO+8jOaJgOS7peW5v+aSrea2iOaBr+eahOW3suivu+iusOW9leiQveWcqCBrdWVycF9tZXNzYWdlX3JlYWQg6KGo77yMCiAqICAgIOiAjOS4jeaYr+WcqCBrdWVycF9tZXNzYWdlIOS4iuaUuSBpc19yZWFk77yI5ZCm5YiZ5LiA5Liq5Lq66K+75LqG5omA5pyJ5Lq66YO95Y+Y5bey6K+777yJ44CCCiAqLwpASW5qZWN0YWJsZSgpCmV4cG9ydCBjbGFzcyBNZXNzYWdlU2VydmljZSB7CiAgcHJpdmF0ZSByZWFkb25seSBsb2dnZXIgPSBuZXcgTG9nZ2VyKE1lc3NhZ2VTZXJ2aWNlLm5hbWUpOwoKICBjb25zdHJ1Y3Rvcihwcml2YXRlIHJlYWRvbmx5IGRhdGFTb3VyY2U6IERhdGFTb3VyY2UpIHt9CgogIC8qKiDlvZPliY3np5Lnuqfml7bpl7TmiLMgKi8KICBwcml2YXRlIG5vdygpOiBudW1iZXIgewogICAgcmV0dXJuIE1hdGguZmxvb3IoRGF0ZS5ub3coKSAvIDEwMDApOwogIH0KCiAgLyoqCiAgICog5YaZ5YWl5LiA5p2h5raI5oGv44CCCiAgICogQHBhcmFtIGlucHV0IOa2iOaBr+WGheWuuQogICAqIEByZXR1cm5zIOaWsOa2iOaBryBJRO+8iOWGmeWFpeWksei0pei/lOWbniAw77yM5LiN5oqb6ZSZ4oCU4oCU5raI5oGv5o6o6YCB5LiN5bqU6Zi75pat5Li75Lia5Yqh77yJCiAgICovCiAgYXN5bmMgY3JlYXRlKGlucHV0OiBNZXNzYWdlSW5wdXQpOiBQcm9taXNlPG51bWJlcj4gewogICAgdHJ5IHsKICAgICAgY29uc3QgciA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgICBgSU5TRVJUIElOVE8ga3VlcnBfbWVzc2FnZQogICAgICAgICAgICh0b19hZG1pbl9pZCwgdHlwZSwgbGV2ZWwsIHRpdGxlLCBjb250ZW50LCBsaW5rLCByZWZfdGFibGUsIHJlZl9pZCwgaXNfcmVhZCwgY3JlYXRldGltZSkKICAgICAgICAgVkFMVUVTICg/LCA/LCA/LCA/LCA/LCA/LCA/LCA/LCAwLCA/KWAsCiAgICAgICAgWwogICAgICAgICAgaW5wdXQudG9BZG1pbklkID8/IDAsCiAgICAgICAgICBpbnB1dC50eXBlIHx8ICdzeXN0ZW0nLAogICAgICAgICAgaW5wdXQubGV2ZWwgfHwgJ2luZm8nLAogICAgICAgICAgKGlucHV0LnRpdGxlIHx8ICcnKS5zbGljZSgwLCAyMDApLAogICAgICAgICAgKGlucHV0LmNvbnRlbnQgfHwgJycpLnNsaWNlKDAsIDEwMDApLAogICAgICAgICAgKGlucHV0LmxpbmsgfHwgJycpLnNsaWNlKDAsIDI1NSksCiAgICAgICAgICBpbnB1dC5yZWZUYWJsZSB8fCAnJywKICAgICAgICAgIFN0cmluZyhpbnB1dC5yZWZJZCA/PyAnJyksCiAgICAgICAgICB0aGlzLm5vdygpLAogICAgICAgIF0sCiAgICAgICk7CiAgICAgIHJldHVybiBOdW1iZXIocj8uaW5zZXJ0SWQgfHwgMCk7CiAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgdGhpcy5sb2dnZXIud2Fybihg5YaZ5raI5oGv5aSx6LSl77yaJHtlPy5tZXNzYWdlIHx8IGV9YCk7CiAgICAgIHJldHVybiAwOwogICAgfQogIH0KCiAgLyoqCiAgICog5om56YeP5YaZ5YWl5raI5oGv77yI6YCQ5p2h5o+S5YWl77yM5Lu75LiA5p2h5aSx6LSl5LiN5b2x5ZON5YW25L2Z77yJ44CCCiAgICogQHBhcmFtIGxpc3Qg5raI5oGv5pWw57uECiAgICogQHJldHVybnMg5oiQ5Yqf5YaZ5YWl5p2h5pWwCiAgICovCiAgYXN5bmMgY3JlYXRlTWFueShsaXN0OiBNZXNzYWdlSW5wdXRbXSk6IFByb21pc2U8bnVtYmVyPiB7CiAgICBsZXQgbiA9IDA7CiAgICBmb3IgKGNvbnN0IG0gb2YgbGlzdCkgewogICAgICBjb25zdCBpZCA9IGF3YWl0IHRoaXMuY3JlYXRlKG0pOwogICAgICBpZiAoaWQpIG4rKzsKICAgIH0KICAgIHJldHVybiBuOwogIH0KCiAgLyoqCiAgICog5YiG6aG15p+l6K+i5raI5oGv44CCCiAgICogQHBhcmFtIHEg5p+l6K+i5p2h5Lu2CiAgICogQHJldHVybnMgeyBsaXN0LCBjb3VudCB9CiAgICovCiAgYXN5bmMgbGlzdChxOiBNZXNzYWdlUXVlcnkpIHsKICAgIGNvbnN0IHBhZ2UgPSBNYXRoLm1heCgxLCBOdW1iZXIocS5wYWdlKSB8fCAxKTsKICAgIGNvbnN0IGxpbWl0ID0gTWF0aC5taW4oMjAwLCBNYXRoLm1heCgxLCBOdW1iZXIocS5saW1pdCkgfHwgMjApKTsKICAgIGNvbnN0IGFkbWluSWQgPSBOdW1iZXIocS50b0FkbWluSWQgfHwgMCk7CgogICAgLy8g5Y+v6KeB6IyD5Zu077ya6Ieq5bex55qEICsg5YWo5ZGY5bm/5pKtCiAgICBjb25zdCB3aGVyZTogc3RyaW5nW10gPSBbJ20uZGVsZXRldGltZSBJUyBOVUxMJywgJyhtLnRvX2FkbWluX2lkID0gPyBPUiBtLnRvX2FkbWluX2lkID0gMCknXTsKICAgIGNvbnN0IHBhcmFtczogYW55W10gPSBbYWRtaW5JZF07CiAgICBpZiAocS51bnJlYWQpIHsKICAgICAgLy8g5bm/5pKt5raI5oGv55qE5bey6K+754q25oCB5ZyoIGt1ZXJwX21lc3NhZ2VfcmVhZO+8m+i/memHjOeUqCBOT1QgRVhJU1RTIOe7n+S4gOihqOi+vgogICAgICB3aGVyZS5wdXNoKCdOT1QgRVhJU1RTIChTRUxFQ1QgMSBGUk9NIGt1ZXJwX21lc3NhZ2VfcmVhZCByZCBXSEVSRSByZC5tZXNzYWdlX2lkID0gbS5pZCBBTkQgcmQuYWRtaW5faWQgPSA/KScpOwogICAgICBwYXJhbXMucHVzaChhZG1pbklkKTsKICAgIH0KICAgIGlmIChxLnR5cGUpIHsKICAgICAgd2hlcmUucHVzaCgnbS50eXBlID0gPycpOwogICAgICBwYXJhbXMucHVzaChxLnR5cGUpOwogICAgfQogICAgY29uc3Qgd2hlcmVTcWwgPSB3aGVyZS5qb2luKCcgQU5EICcpOwoKICAgIGNvbnN0IHJvd3MgPSBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgIGBTRUxFQ1QgbS4qLAogICAgICAgICAgICAgIEVYSVNUUyAoU0VMRUNUIDEgRlJPTSBrdWVycF9tZXNzYWdlX3JlYWQgcmQgV0hFUkUgcmQubWVzc2FnZV9pZCA9IG0uaWQgQU5EIHJkLmFkbWluX2lkID0gPykgQVMgaXNfcmVhZF9ieV9tZQogICAgICAgICBGUk9NIGt1ZXJwX21lc3NhZ2UgbQogICAgICAgIFdIRVJFICR7d2hlcmVTcWx9CiAgICAgICAgT1JERVIgQlkgbS5pZCBERVNDCiAgICAgICAgTElNSVQgPyBPRkZTRVQgP2AsCiAgICAgIFthZG1pbklkLCAuLi5wYXJhbXMsIGxpbWl0LCAocGFnZSAtIDEpICogbGltaXRdLAogICAgKTsKICAgIGNvbnN0IGNudCA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgYFNFTEVDVCBDT1VOVCgqKSBBUyBjIEZST00ga3VlcnBfbWVzc2FnZSBtIFdIRVJFICR7d2hlcmVTcWx9YCwKICAgICAgcGFyYW1zLAogICAgKTsKCiAgICByZXR1cm4gewogICAgICBsaXN0OiAocm93cyB8fCBbXSkubWFwKChyOiBhbnkpID0+ICh7CiAgICAgICAgLi4uciwKICAgICAgICBpc19yZWFkOiBOdW1iZXIoci5pc19yZWFkX2J5X21lKSA9PT0gMSB8fCBOdW1iZXIoci5pc19yZWFkKSA9PT0gMSA/IDEgOiAwLAogICAgICB9KSksCiAgICAgIGNvdW50OiBOdW1iZXIoY250Py5bMF0/LmMgfHwgMCksCiAgICB9OwogIH0KCiAgLyoqCiAgICog5pyq6K+75p2h5pWw77yI5L6n5qCP5b695qCH55So77yJ44CCCiAgICogQHBhcmFtIGFkbWluSWQg5b2T5YmN566h55CG5ZGYSUQKICAgKiBAcGFyYW0gdHlwZSDlj6/pgInnsbvlnovov4fmu6QKICAgKiBAcmV0dXJucyDmnKror7vmnaHmlbAKICAgKi8KICBhc3luYyB1bnJlYWRDb3VudChhZG1pbklkOiBudW1iZXIsIHR5cGU/OiBzdHJpbmcpOiBQcm9taXNlPG51bWJlcj4gewogICAgY29uc3QgcGFyYW1zOiBhbnlbXSA9IFthZG1pbklkLCBhZG1pbklkXTsKICAgIGxldCBleHRyYSA9ICcnOwogICAgaWYgKHR5cGUpIHsKICAgICAgZXh0cmEgPSAnIEFORCBtLnR5cGUgPSA/JzsKICAgICAgcGFyYW1zLnB1c2godHlwZSk7CiAgICB9CiAgICBjb25zdCByID0gYXdhaXQgdGhpcy5kYXRhU291cmNlLnF1ZXJ5KAogICAgICBgU0VMRUNUIENPVU5UKCopIEFTIGMKICAgICAgICAgRlJPTSBrdWVycF9tZXNzYWdlIG0KICAgICAgICBXSEVSRSBtLmRlbGV0ZXRpbWUgSVMgTlVMTAogICAgICAgICAgQU5EIChtLnRvX2FkbWluX2lkID0gPyBPUiBtLnRvX2FkbWluX2lkID0gMCkKICAgICAgICAgIEFORCBtLmlzX3JlYWQgPSAwCiAgICAgICAgICBBTkQgTk9UIEVYSVNUUyAoU0VMRUNUIDEgRlJPTSBrdWVycF9tZXNzYWdlX3JlYWQgcmQgV0hFUkUgcmQubWVzc2FnZV9pZCA9IG0uaWQgQU5EIHJkLmFkbWluX2lkID0gPykKICAgICAgICAgICR7ZXh0cmF9YCwKICAgICAgcGFyYW1zLAogICAgKTsKICAgIHJldHVybiBOdW1iZXIocj8uWzBdPy5jIHx8IDApOwogIH0KCiAgLyoqCiAgICog5qCH6K6w5Y2V5p2h5bey6K+744CCCiAgICogQHBhcmFtIGlkIOa2iOaBr0lECiAgICogQHBhcmFtIGFkbWluSWQg5b2T5YmN566h55CG5ZGYSUQKICAgKiBAcmV0dXJucyDmmK/lkKbmiJDlip8KICAgKi8KICBhc3luYyBtYXJrUmVhZChpZDogbnVtYmVyLCBhZG1pbklkOiBudW1iZXIpOiBQcm9taXNlPGJvb2xlYW4+IHsKICAgIGNvbnN0IHJvd3MgPSBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoJ1NFTEVDVCB0b19hZG1pbl9pZCBGUk9NIGt1ZXJwX21lc3NhZ2UgV0hFUkUgaWQgPSA/IExJTUlUIDEnLCBbaWRdKTsKICAgIGlmICghcm93cz8ubGVuZ3RoKSByZXR1cm4gZmFsc2U7CiAgICBjb25zdCB0b0lkID0gTnVtYmVyKHJvd3NbMF0udG9fYWRtaW5faWQgfHwgMCk7CiAgICAvLyDnp4HmnInmtojmga/vvJrnm7TmjqXmlLnmoIflv5fkvY3vvJvlub/mkq3mtojmga/vvJrlhpnlt7Lor7vmmI7nu4booagKICAgIGlmICh0b0lkID09PSAwKSB7CiAgICAgIGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgICBgSU5TRVJUIElHTk9SRSBJTlRPIGt1ZXJwX21lc3NhZ2VfcmVhZCAobWVzc2FnZV9pZCwgYWRtaW5faWQsIHJlYWR0aW1lKSBWQUxVRVMgKD8sID8sID8pYCwKICAgICAgICBbaWQsIGFkbWluSWQsIHRoaXMubm93KCldLAogICAgICApOwogICAgfSBlbHNlIHsKICAgICAgYXdhaXQgdGhpcy5kYXRhU291cmNlLnF1ZXJ5KAogICAgICAgICdVUERBVEUga3VlcnBfbWVzc2FnZSBTRVQgaXNfcmVhZCA9IDEsIHJlYWR0aW1lID0gPyBXSEVSRSBpZCA9ID8gQU5EIHRvX2FkbWluX2lkID0gPycsCiAgICAgICAgW3RoaXMubm93KCksIGlkLCBhZG1pbklkXSwKICAgICAgKTsKICAgIH0KICAgIHJldHVybiB0cnVlOwogIH0KCiAgLyoqCiAgICog5YWo6YOo5qCH6K6w5bey6K+777yI5b2T5YmN55So5oi35Y+v6KeB6IyD5Zu05YaF77yJ44CCCiAgICogQHBhcmFtIGFkbWluSWQg5b2T5YmN566h55CG5ZGYSUQKICAgKiBAcmV0dXJucyDlvbHlk43mnaHmlbAKICAgKi8KICBhc3luYyBtYXJrQWxsUmVhZChhZG1pbklkOiBudW1iZXIpOiBQcm9taXNlPG51bWJlcj4gewogICAgLy8g56eB5pyJ5raI5oGv5om56YeP572u5L2NCiAgICBjb25zdCByMSA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgJ1VQREFURSBrdWVycF9tZXNzYWdlIFNFVCBpc19yZWFkID0gMSwgcmVhZHRpbWUgPSA/IFdIRVJFIHRvX2FkbWluX2lkID0gPyBBTkQgaXNfcmVhZCA9IDAnLAogICAgICBbdGhpcy5ub3coKSwgYWRtaW5JZF0sCiAgICApOwogICAgLy8g5bm/5pKt5raI5oGv6YCQ5p2h6KGl5bey6K+75piO57uG77yI5pWw6YeP5pyJ6ZmQ77yM6YCQ5p2hIElOU0VSVCBJR05PUkUg5Y+v5o6l5Y+X77yJCiAgICBjb25zdCBicm9hZGNhc3RzID0gYXdhaXQgdGhpcy5kYXRhU291cmNlLnF1ZXJ5KAogICAgICBgU0VMRUNUIG0uaWQgRlJPTSBrdWVycF9tZXNzYWdlIG0KICAgICAgICBXSEVSRSBtLnRvX2FkbWluX2lkID0gMCBBTkQgbS5kZWxldGV0aW1lIElTIE5VTEwgQU5EIG0uaXNfcmVhZCA9IDAKICAgICAgICAgIEFORCBOT1QgRVhJU1RTIChTRUxFQ1QgMSBGUk9NIGt1ZXJwX21lc3NhZ2VfcmVhZCByZCBXSEVSRSByZC5tZXNzYWdlX2lkID0gbS5pZCBBTkQgcmQuYWRtaW5faWQgPSA/KWAsCiAgICAgIFthZG1pbklkXSwKICAgICk7CiAgICBmb3IgKGNvbnN0IGIgb2YgYnJvYWRjYXN0cyB8fCBbXSkgewogICAgICBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgICAgJ0lOU0VSVCBJR05PUkUgSU5UTyBrdWVycF9tZXNzYWdlX3JlYWQgKG1lc3NhZ2VfaWQsIGFkbWluX2lkLCByZWFkdGltZSkgVkFMVUVTICg/LCA/LCA/KScsCiAgICAgICAgW2IuaWQsIGFkbWluSWQsIHRoaXMubm93KCldLAogICAgICApOwogICAgfQogICAgcmV0dXJuIE51bWJlcihyMT8uYWZmZWN0ZWRSb3dzIHx8IDApICsgKGJyb2FkY2FzdHM/Lmxlbmd0aCB8fCAwKTsKICB9CgogIC8qKgogICAqIOi9r+WIoOmZpOS4gOadoea2iOaBr++8iOS7hemZkOiHquW3seeahOa2iOaBr++8m+W5v+aSrea2iOaBr+S4jeWPr+WIoO+8ieOAggogICAqIEBwYXJhbSBpZCDmtojmga9JRAogICAqIEBwYXJhbSBhZG1pbklkIOW9k+WJjeeuoeeQhuWRmElECiAgICogQHJldHVybnMg5piv5ZCm5oiQ5YqfCiAgICovCiAgYXN5bmMgcmVtb3ZlKGlkOiBudW1iZXIsIGFkbWluSWQ6IG51bWJlcik6IFByb21pc2U8Ym9vbGVhbj4gewogICAgY29uc3QgciA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgJ1VQREFURSBrdWVycF9tZXNzYWdlIFNFVCBkZWxldGV0aW1lID0gPyBXSEVSRSBpZCA9ID8gQU5EIHRvX2FkbWluX2lkID0gPycsCiAgICAgIFt0aGlzLm5vdygpLCBpZCwgYWRtaW5JZF0sCiAgICApOwogICAgcmV0dXJuIE51bWJlcihyPy5hZmZlY3RlZFJvd3MgfHwgMCkgPiAwOwogIH0KCiAgLyoqCiAgICog5riF55CGIE4g5aSp5YmN55qE5bey6K+75raI5oGv77yI5L6b5a6a5pe25Lu75Yqh6LCD55So77yM6YG/5YWN5raI5oGv6KGo5peg6ZmQ6Iao6IOA77yJ44CCCiAgICogQHBhcmFtIGRheXMg5L+d55WZ5aSp5pWwCiAgICogQHJldHVybnMg5Yig6Zmk5p2h5pWwCiAgICovCiAgYXN5bmMgcHVyZ2VSZWFkKGRheXMgPSA5MCk6IFByb21pc2U8bnVtYmVyPiB7CiAgICBjb25zdCBiZWZvcmUgPSB0aGlzLm5vdygpIC0gZGF5cyAqIDg2NDAwOwogICAgY29uc3QgciA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgJ0RFTEVURSBGUk9NIGt1ZXJwX21lc3NhZ2UgV0hFUkUgaXNfcmVhZCA9IDEgQU5EIGNyZWF0ZXRpbWUgPCA/IExJTUlUIDIwMDAnLAogICAgICBbYmVmb3JlXSwKICAgICk7CiAgICByZXR1cm4gTnVtYmVyKHI/LmFmZmVjdGVkUm93cyB8fCAwKTsKICB9Cn0K
+import { Injectable, Logger } from '@nestjs/common';
+import { DataSource } from 'typeorm';
+
+/** 一条待写入的消息 */
+export interface MessageInput {
+  /** 接收人ID；0 表示全员广播 */
+  toAdminId?: number;
+  /** 类型：stock_warning / batch_expiry / ar_due / approval / system */
+  type: string;
+  /** 级别：info / warn / danger */
+  level?: 'info' | 'warn' | 'danger';
+  /** 标题 */
+  title: string;
+  /** 内容 */
+  content?: string;
+  /** 点击跳转的前端路由 */
+  link?: string;
+  /** 关联表（不含 kuerp_ 前缀） */
+  refTable?: string;
+  /** 关联记录ID */
+  refId?: string | number;
+}
+
+/** 消息查询条件 */
+export interface MessageQuery {
+  page?: number;
+  limit?: number;
+  /** 仅未读 */
+  unread?: boolean;
+  /** 类型过滤 */
+  type?: string;
+  /** 接收人（0 时同时返回广播消息） */
+  toAdminId?: number;
+}
+
+/**
+ * 消息中心服务。
+ *
+ * 设计取舍：
+ * 1) 只写不常改，与操作日志一样直接用 DataSource 跑原生 SQL，不建 Entity；
+ * 2) 「全员广播」用 to_admin_id = 0 表示，查询时以 (to_admin_id = ? OR to_admin_id = 0) 命中，
+ *    避免为每条广播消息给每个管理员各插一行（N 倍写放大）；
+ * 3) 已读状态是「每人一份」的，所以广播消息的已读记录落在 kuerp_message_read 表，
+ *    而不是在 kuerp_message 上改 is_read（否则一个人读了所有人都变已读）。
+ */
+@Injectable()
+export class MessageService {
+  private readonly logger = new Logger(MessageService.name);
+
+  constructor(private readonly dataSource: DataSource) {}
+
+  /** 当前秒级时间戳 */
+  private now(): number {
+    return Math.floor(Date.now() / 1000);
+  }
+
+  /**
+   * 写入一条消息。
+   * @param input 消息内容
+   * @returns 新消息 ID（写入失败返回 0，不抛错——消息推送不应阻断主业务）
+   */
+  async create(input: MessageInput): Promise<number> {
+    try {
+      const r = await this.dataSource.query(
+        `INSERT INTO kuerp_message
+           (to_admin_id, type, level, title, content, link, ref_table, ref_id, is_read, createtime)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, 0, ?)`,
+        [
+          input.toAdminId ?? 0,
+          input.type || 'system',
+          input.level || 'info',
+          (input.title || '').slice(0, 200),
+          (input.content || '').slice(0, 1000),
+          (input.link || '').slice(0, 255),
+          input.refTable || '',
+          String(input.refId ?? ''),
+          this.now(),
+        ],
+      );
+      return Number(r?.insertId || 0);
+    } catch (e: any) {
+      this.logger.warn(`写消息失败：${e?.message || e}`);
+      return 0;
+    }
+  }
+
+  /**
+   * 批量写入消息（逐条插入，任一条失败不影响其余）。
+   * @param list 消息数组
+   * @returns 成功写入条数
+   */
+  async createMany(list: MessageInput[]): Promise<number> {
+    let n = 0;
+    for (const m of list) {
+      const id = await this.create(m);
+      if (id) n++;
+    }
+    return n;
+  }
+
+  /**
+   * 分页查询消息。
+   * @param q 查询条件
+   * @returns { list, count }
+   */
+  async list(q: MessageQuery) {
+    const page = Math.max(1, Number(q.page) || 1);
+    const limit = Math.min(200, Math.max(1, Number(q.limit) || 20));
+    const adminId = Number(q.toAdminId || 0);
+
+    // 可见范围：自己的 + 全员广播
+    const where: string[] = ['m.deletetime IS NULL', '(m.to_admin_id = ? OR m.to_admin_id = 0)'];
+    const params: any[] = [adminId];
+    if (q.unread) {
+      // 广播消息的已读状态在 kuerp_message_read；这里用 NOT EXISTS 统一表达
+      where.push('NOT EXISTS (SELECT 1 FROM kuerp_message_read rd WHERE rd.message_id = m.id AND rd.admin_id = ?)');
+      params.push(adminId);
+    }
+    if (q.type) {
+      where.push('m.type = ?');
+      params.push(q.type);
+    }
+    const whereSql = where.join(' AND ');
+
+    const rows = await this.dataSource.query(
+      `SELECT m.*,
+              EXISTS (SELECT 1 FROM kuerp_message_read rd WHERE rd.message_id = m.id AND rd.admin_id = ?) AS is_read_by_me
+         FROM kuerp_message m
+        WHERE ${whereSql}
+        ORDER BY m.id DESC
+        LIMIT ? OFFSET ?`,
+      [adminId, ...params, limit, (page - 1) * limit],
+    );
+    const cnt = await this.dataSource.query(
+      `SELECT COUNT(*) AS c FROM kuerp_message m WHERE ${whereSql}`,
+      params,
+    );
+
+    return {
+      list: (rows || []).map((r: any) => ({
+        ...r,
+        is_read: Number(r.is_read_by_me) === 1 || Number(r.is_read) === 1 ? 1 : 0,
+      })),
+      count: Number(cnt?.[0]?.c || 0),
+    };
+  }
+
+  /**
+   * 未读条数（侧栏徽标用）。
+   * @param adminId 当前管理员ID
+   * @param type 可选类型过滤
+   * @returns 未读条数
+   */
+  async unreadCount(adminId: number, type?: string): Promise<number> {
+    const params: any[] = [adminId, adminId];
+    let extra = '';
+    if (type) {
+      extra = ' AND m.type = ?';
+      params.push(type);
+    }
+    const r = await this.dataSource.query(
+      `SELECT COUNT(*) AS c
+         FROM kuerp_message m
+        WHERE m.deletetime IS NULL
+          AND (m.to_admin_id = ? OR m.to_admin_id = 0)
+          AND m.is_read = 0
+          AND NOT EXISTS (SELECT 1 FROM kuerp_message_read rd WHERE rd.message_id = m.id AND rd.admin_id = ?)
+          ${extra}`,
+      params,
+    );
+    return Number(r?.[0]?.c || 0);
+  }
+
+  /**
+   * 标记单条已读。
+   * @param id 消息ID
+   * @param adminId 当前管理员ID
+   * @returns 是否成功
+   */
+  async markRead(id: number, adminId: number): Promise<boolean> {
+    const rows = await this.dataSource.query('SELECT to_admin_id FROM kuerp_message WHERE id = ? LIMIT 1', [id]);
+    if (!rows?.length) return false;
+    const toId = Number(rows[0].to_admin_id || 0);
+    // 私有消息：直接改标志位；广播消息：写已读明细表
+    if (toId === 0) {
+      await this.dataSource.query(
+        `INSERT IGNORE INTO kuerp_message_read (message_id, admin_id, readtime) VALUES (?, ?, ?)`,
+        [id, adminId, this.now()],
+      );
+    } else {
+      await this.dataSource.query(
+        'UPDATE kuerp_message SET is_read = 1, readtime = ? WHERE id = ? AND to_admin_id = ?',
+        [this.now(), id, adminId],
+      );
+    }
+    return true;
+  }
+
+  /**
+   * 全部标记已读（当前用户可见范围内）。
+   * @param adminId 当前管理员ID
+   * @returns 影响条数
+   */
+  async markAllRead(adminId: number): Promise<number> {
+    // 私有消息批量置位
+    const r1 = await this.dataSource.query(
+      'UPDATE kuerp_message SET is_read = 1, readtime = ? WHERE to_admin_id = ? AND is_read = 0',
+      [this.now(), adminId],
+    );
+    // 广播消息逐条补已读明细（数量有限，逐条 INSERT IGNORE 可接受）
+    const broadcasts = await this.dataSource.query(
+      `SELECT m.id FROM kuerp_message m
+        WHERE m.to_admin_id = 0 AND m.deletetime IS NULL AND m.is_read = 0
+          AND NOT EXISTS (SELECT 1 FROM kuerp_message_read rd WHERE rd.message_id = m.id AND rd.admin_id = ?)`,
+      [adminId],
+    );
+    for (const b of broadcasts || []) {
+      await this.dataSource.query(
+        'INSERT IGNORE INTO kuerp_message_read (message_id, admin_id, readtime) VALUES (?, ?, ?)',
+        [b.id, adminId, this.now()],
+      );
+    }
+    return Number(r1?.affectedRows || 0) + (broadcasts?.length || 0);
+  }
+
+  /**
+   * 软删除一条消息（仅限自己的消息；广播消息不可删）。
+   * @param id 消息ID
+   * @param adminId 当前管理员ID
+   * @returns 是否成功
+   */
+  async remove(id: number, adminId: number): Promise<boolean> {
+    const r = await this.dataSource.query(
+      'UPDATE kuerp_message SET deletetime = ? WHERE id = ? AND to_admin_id = ?',
+      [this.now(), id, adminId],
+    );
+    return Number(r?.affectedRows || 0) > 0;
+  }
+
+  /**
+   * 清理 N 天前的已读消息（供定时任务调用，避免消息表无限膨胀）。
+   * @param days 保留天数
+   * @returns 删除条数
+   */
+  async purgeRead(days = 90): Promise<number> {
+    const before = this.now() - days * 86400;
+    const r = await this.dataSource.query(
+      'DELETE FROM kuerp_message WHERE is_read = 1 AND createtime < ? LIMIT 2000',
+      [before],
+    );
+    return Number(r?.affectedRows || 0);
+  }
+}

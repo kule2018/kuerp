@@ -1,1 +1,37 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgR2V0LCBQb3N0LCBCb2R5LCBVc2VHdWFyZHMgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7CmltcG9ydCB7IEp3dEF1dGhHdWFyZCB9IGZyb20gJy4uLy4uL2NvbW1vbi9ndWFyZHMvand0LWF1dGguZ3VhcmQnOwppbXBvcnQgeyBSYmFjR3VhcmQgfSBmcm9tICcuLi8uLi9jb21tb24vZ3VhcmRzL3JiYWMuZ3VhcmQnOwppbXBvcnQgeyBvayB9IGZyb20gJy4uLy4uL2NvbW1vbi9yZXNwb25zZS5pbnRlcmNlcHRvcic7CmltcG9ydCB7IFBvc3RpbmdTZXJ2aWNlIH0gZnJvbSAnLi9wb3N0aW5nLnNlcnZpY2UnOwoKLyoqCiAqIOeci+advyAvIOmHh+i0reeUn+aIkOaOp+WItuWZqO+8iOaVsOaNrumdouadv+OAjOeUn+aIkOWNleaNruOAjeiDveWKm++8jOingeW8gOWPkeaWh+ahoyA1Lui0rei0py8xMC7ku6XplIDlrprotK3nnIvmnb8ubWTjgIExMS7mmbrog73ooaXotKcubWTvvInjgIIKICog6Lev55Sx5YmN57yAIC9rdWVycC9ib2FyZHPvvIzkuI7pgJrnlKjliqjmgIHooaggL2t1ZXJwLzp0YWJsZS8qIOS4ieautemdmeaAgei3r+W+hOS4jeWGsueqgeOAggogKiDlhajpg6jmjqXlj6PpnIAgSldUIOmJtOadgyArIFJCQUMg6IqC54K55qCh6aqM44CCCiAqLwpAQ29udHJvbGxlcigna3VlcnAvYm9hcmRzJykKQFVzZUd1YXJkcyhKd3RBdXRoR3VhcmQsIFJiYWNHdWFyZCkKZXhwb3J0IGNsYXNzIFBvc3RpbmdDb250cm9sbGVyIHsKICBjb25zdHJ1Y3Rvcihwcml2YXRlIHJlYWRvbmx5IHN2YzogUG9zdGluZ1NlcnZpY2UpIHt9CgogIC8qKiDmmbrog73ooaXotKfnnIvmnb/vvJrplIDotKforqLljZXlvoXlj5Hph48gLSDlvZPliY3lupPlrZggPSDlu7rorq7ph4fotK3ph48gKi8KICBAR2V0KCdyZXBsZW5pc2htZW50JykKICBhc3luYyByZXBsZW5pc2htZW50KCkgewogICAgcmV0dXJuIG9rKGF3YWl0IHRoaXMuc3ZjLnJlcGxlbmlzaG1lbnRCb2FyZCgpKTsKICB9CgogIC8qKiDku6XplIDlrprotK3nnIvmnb/vvJrku6XplIDlrprotK3pqbHliqjph4fotK3lu7rorq4gKi8KICBAR2V0KCdwdXJjaGFzZWJ5JykKICBhc3luYyBwdXJjaGFzZWJ5KCkgewogICAgcmV0dXJuIG9rKGF3YWl0IHRoaXMuc3ZjLnB1cmNoYXNlQnlCb2FyZCgpKTsKICB9CgogIC8qKgogICAqIOeUseeci+adv+WLvumAieeUn+aIkOi0rei0p+iuouWNleOAggogICAqIGJvZHk6IHsgcm93czogW3sgZ29vZHNfY29kZSwgbnVtYmVyLCB1bml0X3ByaWNlPywgc3VwcGx5ZXJfY29kZT8gfV0gfQogICAqLwogIEBQb3N0KCdnZW5lcmF0ZScpCiAgYXN5bmMgZ2VuZXJhdGUoQEJvZHkoKSBib2R5OiB7IHJvd3M6IGFueVtdIH0pIHsKICAgIHJldHVybiBvayhhd2FpdCB0aGlzLnN2Yy5nZW5lcmF0ZVB1cmNoYXNlT3JkZXIoYm9keT8ucm93cyB8fCBbXSksICflt7LnlJ/miJDotK3otKforqLljZUnKTsKICB9Cn0K
+import { Controller, Get, Post, Body, UseGuards } from '@nestjs/common';
+import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
+import { RbacGuard } from '../../common/guards/rbac.guard';
+import { ok } from '../../common/response.interceptor';
+import { PostingService } from './posting.service';
+
+/**
+ * 看板 / 采购生成控制器（数据面板「生成单据」能力，见开发文档 5.购货/10.以销定购看板.md、11.智能补货.md）。
+ * 路由前缀 /kuerp/boards，与通用动态表 /kuerp/:table/* 三段静态路径不冲突。
+ * 全部接口需 JWT 鉴权 + RBAC 节点校验。
+ */
+@Controller('kuerp/boards')
+@UseGuards(JwtAuthGuard, RbacGuard)
+export class PostingController {
+  constructor(private readonly svc: PostingService) {}
+
+  /** 智能补货看板：销货订单待发量 - 当前库存 = 建议采购量 */
+  @Get('replenishment')
+  async replenishment() {
+    return ok(await this.svc.replenishmentBoard());
+  }
+
+  /** 以销定购看板：以销定购驱动采购建议 */
+  @Get('purchaseby')
+  async purchaseby() {
+    return ok(await this.svc.purchaseByBoard());
+  }
+
+  /**
+   * 由看板勾选生成购货订单。
+   * body: { rows: [{ goods_code, number, unit_price?, supplyer_code? }] }
+   */
+  @Post('generate')
+  async generate(@Body() body: { rows: any[] }) {
+    return ok(await this.svc.generatePurchaseOrder(body?.rows || []), '已生成购货订单');
+  }
+}

@@ -1,1 +1,60 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgUG9zdCwgQm9keSwgR2V0LCBVc2VHdWFyZHMsIFJlcXVlc3QgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7DQppbXBvcnQgeyBBdXRoU2VydmljZSB9IGZyb20gJy4vYXV0aC5zZXJ2aWNlJzsNCmltcG9ydCB7IExvZ2luRHRvLCBDaGFuZ2VQd2REdG8gfSBmcm9tICcuL2R0by9sb2dpbi5kdG8nOw0KaW1wb3J0IHsgSnd0QXV0aEd1YXJkIH0gZnJvbSAnLi4vY29tbW9uL2d1YXJkcy9qd3QtYXV0aC5ndWFyZCc7DQppbXBvcnQgeyBDdXJyZW50VXNlciB9IGZyb20gJy4uL2NvbW1vbi9kZWNvcmF0b3JzL2N1cnJlbnQtdXNlci5kZWNvcmF0b3InOw0KaW1wb3J0IHsgb2sgfSBmcm9tICcuLi9jb21tb24vcmVzcG9uc2UuaW50ZXJjZXB0b3InOw0KDQovKioNCiAqIOiupOivgeaOpeWPo++8mueZu+W9lSAvIOW9k+WJjeeUqOaItyAvIOaUueWvhg0KICog6Lev55Sx5YmN57yA5L+d5oyB5LiO5Y6f57O757ufIGFkbWluIOaooeWdl+S4gOiHtO+8iOi/memHjOeUqCAvYXV0aO+8ieOAgg0KICovDQpAQ29udHJvbGxlcignYXV0aCcpDQpleHBvcnQgY2xhc3MgQXV0aENvbnRyb2xsZXIgew0KICBjb25zdHJ1Y3Rvcihwcml2YXRlIHJlYWRvbmx5IGF1dGhTZXJ2aWNlOiBBdXRoU2VydmljZSkge30NCg0KICAvKioNCiAgICog6LSm5Y+35a+G56CB55m75b2V77yM5oiQ5Yqf5ZCO6L+U5ZueIEpXVCDkuI7nlKjmiLfln7rmnKzkv6Hmga/jgIINCiAgICogQHBhcmFtIGR0byB7IHVzZXJuYW1lIOi0puWPtywgcGFzc3dvcmQg5a+G56CBIH0NCiAgICogQHJldHVybnMgeyB0b2tlbiwgdXNlcjogeyBpZCwgdXNlcm5hbWUsIG5pY2tuYW1lLCBhdmF0YXIgfSB9DQogICAqLw0KICBAUG9zdCgnbG9naW4nKQ0KICBhc3luYyBsb2dpbihAQm9keSgpIGR0bzogTG9naW5EdG8pIHsNCiAgICBjb25zdCBkYXRhID0gYXdhaXQgdGhpcy5hdXRoU2VydmljZS5sb2dpbihkdG8udXNlcm5hbWUsIGR0by5wYXNzd29yZCk7DQogICAgcmV0dXJuIG9rKGRhdGEpOw0KICB9DQoNCiAgLyoqDQogICAqIOivu+WPluW9k+WJjeeZu+W9leeUqOaIt+eahOi1hOaWme+8iOWQq+inkuiJsuOAgeiPnOWNleagke+8ieOAgg0KICAgKiBAcGFyYW0gdXNlcklkIOW9k+WJjeeUqOaItyBJRO+8iOeUsSBKV1Qg6Kej5Ye677yM5LiN55Sx5YmN56uv5Lyg5YWl77yJDQogICAqIEByZXR1cm5zIOeUqOaIt+i1hOaWmeWvueixoQ0KICAgKi8NCiAgQFVzZUd1YXJkcyhKd3RBdXRoR3VhcmQpDQogIEBHZXQoJ3Byb2ZpbGUnKQ0KICBhc3luYyBwcm9maWxlKEBDdXJyZW50VXNlcignaWQnKSB1c2VySWQ6IG51bWJlcikgew0KICAgIHJldHVybiBvayhhd2FpdCB0aGlzLmF1dGhTZXJ2aWNlLnByb2ZpbGUodXNlcklkKSk7DQogIH0NCg0KICAvKioNCiAgICog5b2T5YmN55So5oi35p2D6ZmQ6ZuG5ZCI77yI5oyJ6ZKu57qn5p2D6ZmQ55So77yJ44CCDQogICAqIOi/lOWbniB7IGlzU3VwZXIsIG5vZGVzLCB0YWJsZXMsIG1lbnVzIH3vvIzlj6PlvoTkuI4gUmJhY0d1YXJkIOS4gOiHtOOAgg0KICAgKi8NCiAgQFVzZUd1YXJkcyhKd3RBdXRoR3VhcmQpDQogIEBHZXQoJ3Blcm1zJykNCiAgYXN5bmMgcGVybXMoQEN1cnJlbnRVc2VyKCdpZCcpIHVzZXJJZDogbnVtYmVyKSB7DQogICAgcmV0dXJuIG9rKGF3YWl0IHRoaXMuYXV0aFNlcnZpY2UucGVybXModXNlcklkKSk7DQogIH0NCg0KICAvKioNCiAgICog5L+u5pS55pys5Lq65a+G56CB77yI6ZyA5YWI5qCh6aqM5Y6f5a+G56CB77yJ44CCDQogICAqIEBwYXJhbSB1c2VySWQg5b2T5YmN55So5oi3IElEDQogICAqIEBwYXJhbSBkdG8geyBvbGRQYXNzd29yZCDljp/lr4bnoIEsIG5ld1Bhc3N3b3JkIOaWsOWvhueggSB9DQogICAqIEByZXR1cm5zIG51bGwNCiAgICovDQogIEBVc2VHdWFyZHMoSnd0QXV0aEd1YXJkKQ0KICBAUG9zdCgnY2hhbmdlLXB3ZCcpDQogIGFzeW5jIGNoYW5nZVB3ZChAQ3VycmVudFVzZXIoJ2lkJykgdXNlcklkOiBudW1iZXIsIEBCb2R5KCkgZHRvOiBDaGFuZ2VQd2REdG8pIHsNCiAgICBhd2FpdCB0aGlzLmF1dGhTZXJ2aWNlLmNoYW5nZVBhc3N3b3JkKHVzZXJJZCwgZHRvLm9sZFBhc3N3b3JkLCBkdG8ubmV3UGFzc3dvcmQpOw0KICAgIHJldHVybiBvayhudWxsLCAn5a+G56CB5bey5L+u5pS5Jyk7DQogIH0NCn0NCg==
+import { Controller, Post, Body, Get, UseGuards, Request } from '@nestjs/common';
+import { AuthService } from './auth.service';
+import { LoginDto, ChangePwdDto } from './dto/login.dto';
+import { JwtAuthGuard } from '../common/guards/jwt-auth.guard';
+import { CurrentUser } from '../common/decorators/current-user.decorator';
+import { ok } from '../common/response.interceptor';
+
+/**
+ * 认证接口：登录 / 当前用户 / 改密
+ * 路由前缀保持与原系统 admin 模块一致（这里用 /auth）。
+ */
+@Controller('auth')
+export class AuthController {
+  constructor(private readonly authService: AuthService) {}
+
+  /**
+   * 账号密码登录，成功后返回 JWT 与用户基本信息。
+   * @param dto { username 账号, password 密码 }
+   * @returns { token, user: { id, username, nickname, avatar } }
+   */
+  @Post('login')
+  async login(@Body() dto: LoginDto) {
+    const data = await this.authService.login(dto.username, dto.password);
+    return ok(data);
+  }
+
+  /**
+   * 读取当前登录用户的资料（含角色、菜单树）。
+   * @param userId 当前用户 ID（由 JWT 解出，不由前端传入）
+   * @returns 用户资料对象
+   */
+  @UseGuards(JwtAuthGuard)
+  @Get('profile')
+  async profile(@CurrentUser('id') userId: number) {
+    return ok(await this.authService.profile(userId));
+  }
+
+  /**
+   * 当前用户权限集合（按钮级权限用）。
+   * 返回 { isSuper, nodes, tables, menus }，口径与 RbacGuard 一致。
+   */
+  @UseGuards(JwtAuthGuard)
+  @Get('perms')
+  async perms(@CurrentUser('id') userId: number) {
+    return ok(await this.authService.perms(userId));
+  }
+
+  /**
+   * 修改本人密码（需先校验原密码）。
+   * @param userId 当前用户 ID
+   * @param dto { oldPassword 原密码, newPassword 新密码 }
+   * @returns null
+   */
+  @UseGuards(JwtAuthGuard)
+  @Post('change-pwd')
+  async changePwd(@CurrentUser('id') userId: number, @Body() dto: ChangePwdDto) {
+    await this.authService.changePassword(userId, dto.oldPassword, dto.newPassword);
+    return ok(null, '密码已修改');
+  }
+}

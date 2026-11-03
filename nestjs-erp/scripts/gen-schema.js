@@ -1,1 +1,31 @@
-LyoqCiAqIOS7juWOn+ezu+e7nyBpbnN0YWxsLnNxbCDnlJ/miJDlubLlh4Dlj6/miafooYznmoQgTXlTUUwgc2NoZW1h77yIMToxIOi/mOWOnyAxNTkg5bygIGt1ZXJwXyog6KGo77yJ44CCCiAqIOS7heWBmuWJjee8gOabv+aNouS4jue8lueggeinhOaVtO+8jOS4jeaUueWKqOihqOe7k+aehOS4juWIneWni+aVsOaNru+8jOS/neivgeaVsOaNruW6k+WxgiAxOjHjgIIKICovCmNvbnN0IGZzID0gcmVxdWlyZSgnZnMnKTsKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsKCmNvbnN0IHNyY1BhdGggPSBwYXRoLmpvaW4oX19kaXJuYW1lLCAnLi4nLCAnLi4nLCAna3VlcnAtMS42LjEzLWV4dGVuZGVkJywgJ2luc3RhbGwuc3FsJyk7CmNvbnN0IG91dERpciA9IHBhdGguam9pbihfX2Rpcm5hbWUsICcuLicsICdkYicpOwpjb25zdCBvdXRQYXRoID0gcGF0aC5qb2luKG91dERpciwgJ3NjaGVtYS5zcWwnKTsKCmlmICghZnMuZXhpc3RzU3luYyhzcmNQYXRoKSkgewogIGNvbnNvbGUuZXJyb3IoJ+acquaJvuWIsOWOnyBpbnN0YWxsLnNxbDonLCBzcmNQYXRoKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0KCmxldCBzcWwgPSBmcy5yZWFkRmlsZVN5bmMoc3JjUGF0aCwgJ3V0ZjgnKTsKY29uc3QgYmVmb3JlID0gKHNxbC5tYXRjaCgvQ1JFQVRFIFRBQkxFL2dpKSB8fCBbXSkubGVuZ3RoOwovLyDmm7/mjaLooajliY3nvIDljaDkvY3nrKbvvIjljp/ooajlkI0gX19QUkVGSVhfX2t1ZXJwX3h4eCAtPiBrdWVycF94eHjvvIkKc3FsID0gc3FsLnJlcGxhY2UoL19fUFJFRklYX18vZywgJycpOwovLyDnu5/kuIDlvJXmk44v5a2X56ym6ZuG77yI5YW85a65IE15U1FMIDUuNyvvvIkKc3FsID0gc3FsLnJlcGxhY2UoL0RFRkFVTFQgQ0hBUlNFVD11dGY4XGIvZ2ksICdERUZBVUxUIENIQVJTRVQ9dXRmOG1iNCcpOwpzcWwgPSBzcWwucmVwbGFjZSgvRU5HSU5FPU15SVNBTS9naSwgJ0VOR0lORT1Jbm5vREInKTsKCmZzLm1rZGlyU3luYyhvdXREaXIsIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwpmcy53cml0ZUZpbGVTeW5jKG91dFBhdGgsIHNxbCwgJ3V0ZjgnKTsKCmNvbnN0IHRhYmxlcyA9IChzcWwubWF0Y2goL0NSRUFURSBUQUJMRSBJRiBOT1QgRVhJU1RTIGAvZykgfHwgW10pLmxlbmd0aDsKY29uc29sZS5sb2coYOKchSBzY2hlbWEg5bey55Sf5oiQOiAke291dFBhdGh9YCk7CmNvbnNvbGUubG9nKGAgICDljp/lp4sgQ1JFQVRFIFRBQkxFIOivreWPpTogJHtiZWZvcmV9IOadoWApOwpjb25zb2xlLmxvZyhgICAg55Sf5oiQ6KGo5pWw6YePOiAke3RhYmxlc30g5bygYCk7Cg==
+/**
+ * 从原系统 install.sql 生成干净可执行的 MySQL schema（1:1 还原 159 张 kuerp_* 表）。
+ * 仅做前缀替换与编码规整，不改动表结构与初始数据，保证数据库层 1:1。
+ */
+const fs = require('fs');
+const path = require('path');
+
+const srcPath = path.join(__dirname, '..', '..', 'kuerp-1.6.13-extended', 'install.sql');
+const outDir = path.join(__dirname, '..', 'db');
+const outPath = path.join(outDir, 'schema.sql');
+
+if (!fs.existsSync(srcPath)) {
+  console.error('未找到原 install.sql:', srcPath);
+  process.exit(1);
+}
+
+let sql = fs.readFileSync(srcPath, 'utf8');
+const before = (sql.match(/CREATE TABLE/gi) || []).length;
+// 替换表前缀占位符（原表名 __PREFIX__kuerp_xxx -> kuerp_xxx）
+sql = sql.replace(/__PREFIX__/g, '');
+// 统一引擎/字符集（兼容 MySQL 5.7+）
+sql = sql.replace(/DEFAULT CHARSET=utf8\b/gi, 'DEFAULT CHARSET=utf8mb4');
+sql = sql.replace(/ENGINE=MyISAM/gi, 'ENGINE=InnoDB');
+
+fs.mkdirSync(outDir, { recursive: true });
+fs.writeFileSync(outPath, sql, 'utf8');
+
+const tables = (sql.match(/CREATE TABLE IF NOT EXISTS `/g) || []).length;
+console.log(`✅ schema 已生成: ${outPath}`);
+console.log(`   原始 CREATE TABLE 语句: ${before} 条`);
+console.log(`   生成表数量: ${tables} 张`);

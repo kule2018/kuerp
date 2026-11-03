@@ -1,1 +1,88 @@
-aW1wb3J0IHsKICBEeW5hbWljTW9kdWxlLAogIENvbnRyb2xsZXIsCiAgR2V0LAogIFBvc3QsCiAgRGVsZXRlLAogIEJvZHksCiAgUXVlcnksCiAgVXNlR3VhcmRzLAogIEluamVjdCwKICBNb2R1bGUsCn0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBUeXBlT3JtTW9kdWxlLCBnZXRSZXBvc2l0b3J5VG9rZW4gfSBmcm9tICdAbmVzdGpzL3R5cGVvcm0nOwppbXBvcnQgeyBSZXBvc2l0b3J5IH0gZnJvbSAndHlwZW9ybSc7CmltcG9ydCB7IEp3dEF1dGhHdWFyZCB9IGZyb20gJy4uLy4uL2NvbW1vbi9ndWFyZHMvand0LWF1dGguZ3VhcmQnOwppbXBvcnQgeyBvayB9IGZyb20gJy4uLy4uL2NvbW1vbi9yZXNwb25zZS5pbnRlcmNlcHRvcic7CmltcG9ydCB7IENydWRTZXJ2aWNlIH0gZnJvbSAnLi9jcnVkLnNlcnZpY2UnOwoKLyoqCiAqIOmAmueUqCBDUlVEIOaOp+WItuWZqOW3peWOgu+8muagueaNriBlbnRpdHkgKyDot6/nlLEgKyDmkJzntKLlrZfmrrXvvIznlJ/miJDkuIDlpZfmoIflh4YgUkVTVCDmjqXlj6PjgIIKICog5o6l5Y+j6Lev5b6E5b2i5aaCIC9rdWVycC9nb29kcy9pbmRleHxnZXR8YWRkfGVkaXR8ZGVs77yM5LiO5Y6fIEZhc3RBZG1pbiDpo47moLwgMToxIOWvuem9kOOAggogKi8KZnVuY3Rpb24gbWFrZUNydWRDb250cm9sbGVyKHJvdXRlOiBzdHJpbmcsIHNlYXJjaEZpZWxkczogc3RyaW5nW10sIHRva2VuOiBzeW1ib2wpOiBhbnkgewogIEBDb250cm9sbGVyKHJvdXRlKQogIEBVc2VHdWFyZHMoSnd0QXV0aEd1YXJkKQogIGNsYXNzIENydWRDb250cm9sbGVyIHsKICAgIGNvbnN0cnVjdG9yKEBJbmplY3QodG9rZW4pIHByb3RlY3RlZCByZWFkb25seSBzdmM6IENydWRTZXJ2aWNlPGFueT4pIHt9CgogICAgQEdldCgnaW5kZXgnKQogICAgYXN5bmMgaW5kZXgoQFF1ZXJ5KCkgcTogYW55KSB7CiAgICAgIGNvbnN0IHIgPSBhd2FpdCB0aGlzLnN2Yy5pbmRleCh7IC4uLnEsIHNlYXJjaEZpZWxkcyB9KTsKICAgICAgcmV0dXJuIG9rKHIubGlzdCwgJ3N1Y2Nlc3MnKTsKICAgIH0KCiAgICBAR2V0KCdnZXQnKQogICAgYXN5bmMgZ2V0KEBRdWVyeSgnaWQnKSBpZDogc3RyaW5nKSB7CiAgICAgIHJldHVybiBvayhhd2FpdCB0aGlzLnN2Yy5nZXQoTnVtYmVyKGlkKSkpOwogICAgfQoKICAgIEBQb3N0KCdhZGQnKQogICAgYXN5bmMgYWRkKEBCb2R5KCkgZHRvOiBhbnkpIHsKICAgICAgcmV0dXJuIG9rKGF3YWl0IHRoaXMuc3ZjLmFkZChkdG8pLCAn5re75Yqg5oiQ5YqfJyk7CiAgICB9CgogICAgQFBvc3QoJ2VkaXQnKQogICAgYXN5bmMgZWRpdChAQm9keSgnaWQnKSBpZDogc3RyaW5nLCBAQm9keSgpIGR0bzogYW55KSB7CiAgICAgIHJldHVybiBvayhhd2FpdCB0aGlzLnN2Yy5lZGl0KE51bWJlcihpZCksIGR0byksICfkv53lrZjmiJDlip8nKTsKICAgIH0KCiAgICBARGVsZXRlKCdkZWwnKQogICAgYXN5bmMgZGVsKEBCb2R5KCdpZCcpIGlkOiBzdHJpbmcpIHsKICAgICAgYXdhaXQgdGhpcy5zdmMuZGVsKE51bWJlcihpZCkpOwogICAgICByZXR1cm4gb2sobnVsbCwgJ+WIoOmZpOaIkOWKnycpOwogICAgfQogIH0KICByZXR1cm4gQ3J1ZENvbnRyb2xsZXI7Cn0KCmNvbnN0IHRva2VuTWFwID0gbmV3IE1hcDxzdHJpbmcsIHN5bWJvbD4oKTsKZnVuY3Rpb24gc3ZjVG9rZW4oZW50aXR5OiBhbnkpOiBzeW1ib2wgewogIGlmICghdG9rZW5NYXAuaGFzKGVudGl0eS5uYW1lKSkgdG9rZW5NYXAuc2V0KGVudGl0eS5uYW1lLCBTeW1ib2woYCR7ZW50aXR5Lm5hbWV9Q3J1ZFNlcnZpY2VgKSk7CiAgcmV0dXJuIHRva2VuTWFwLmdldChlbnRpdHkubmFtZSkhOwp9CgovKioKICog6YCa55SoIENSVUQg5qih5Z2X5bel5Y6C77ya5Li65Lu75oSP5a6e5L2T5b+r6YCf55Sf5oiQ44CMY29udHJvbGxlciArIHNlcnZpY2UgKyDku5PlgqjjgI3jgIIKICog55So5rOV77yaQ3J1ZE1vZHVsZUZhY3RvcnkoR29vZHNFbnRpdHksICdrdWVycC9nb29kcycsIFsnZ29vZHNfbmFtZScsJ2dvb2RzX2NvZGUnXSkKICovCmV4cG9ydCBmdW5jdGlvbiBDcnVkTW9kdWxlRmFjdG9yeShlbnRpdHk6IGFueSwgcm91dGU6IHN0cmluZywgc2VhcmNoRmllbGRzOiBzdHJpbmdbXSk6IER5bmFtaWNNb2R1bGUgewogIGNvbnN0IHRva2VuID0gc3ZjVG9rZW4oZW50aXR5KTsKICBjb25zdCBjb250cm9sbGVyID0gbWFrZUNydWRDb250cm9sbGVyKHJvdXRlLCBzZWFyY2hGaWVsZHMsIHRva2VuKTsKCiAgQE1vZHVsZSh7CiAgICBpbXBvcnRzOiBbVHlwZU9ybU1vZHVsZS5mb3JGZWF0dXJlKFtlbnRpdHldKV0sCiAgICBwcm92aWRlcnM6IFsKICAgICAgewogICAgICAgIHByb3ZpZGU6IHRva2VuLAogICAgICAgIHVzZUZhY3Rvcnk6IChyZXBvOiBSZXBvc2l0b3J5PGFueT4pID0+IG5ldyBDcnVkU2VydmljZShyZXBvKSwKICAgICAgICBpbmplY3Q6IFtnZXRSZXBvc2l0b3J5VG9rZW4oZW50aXR5KV0sCiAgICAgIH0sCiAgICBdLAogICAgY29udHJvbGxlcnM6IFtjb250cm9sbGVyXSwKICAgIGV4cG9ydHM6IFt0b2tlbl0sCiAgfSkKICBjbGFzcyBEeW5hbWljQ3J1ZE1vZHVsZSB7fQoKICByZXR1cm4geyBtb2R1bGU6IER5bmFtaWNDcnVkTW9kdWxlIH07Cn0K
+import {
+  DynamicModule,
+  Controller,
+  Get,
+  Post,
+  Delete,
+  Body,
+  Query,
+  UseGuards,
+  Inject,
+  Module,
+} from '@nestjs/common';
+import { TypeOrmModule, getRepositoryToken } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
+import { ok } from '../../common/response.interceptor';
+import { CrudService } from './crud.service';
+
+/**
+ * 通用 CRUD 控制器工厂：根据 entity + 路由 + 搜索字段，生成一套标准 REST 接口。
+ * 接口路径形如 /kuerp/goods/index|get|add|edit|del，与原 FastAdmin 风格 1:1 对齐。
+ */
+function makeCrudController(route: string, searchFields: string[], token: symbol): any {
+  @Controller(route)
+  @UseGuards(JwtAuthGuard)
+  class CrudController {
+    constructor(@Inject(token) protected readonly svc: CrudService<any>) {}
+
+    @Get('index')
+    async index(@Query() q: any) {
+      const r = await this.svc.index({ ...q, searchFields });
+      return ok(r.list, 'success');
+    }
+
+    @Get('get')
+    async get(@Query('id') id: string) {
+      return ok(await this.svc.get(Number(id)));
+    }
+
+    @Post('add')
+    async add(@Body() dto: any) {
+      return ok(await this.svc.add(dto), '添加成功');
+    }
+
+    @Post('edit')
+    async edit(@Body('id') id: string, @Body() dto: any) {
+      return ok(await this.svc.edit(Number(id), dto), '保存成功');
+    }
+
+    @Delete('del')
+    async del(@Body('id') id: string) {
+      await this.svc.del(Number(id));
+      return ok(null, '删除成功');
+    }
+  }
+  return CrudController;
+}
+
+const tokenMap = new Map<string, symbol>();
+function svcToken(entity: any): symbol {
+  if (!tokenMap.has(entity.name)) tokenMap.set(entity.name, Symbol(`${entity.name}CrudService`));
+  return tokenMap.get(entity.name)!;
+}
+
+/**
+ * 通用 CRUD 模块工厂：为任意实体快速生成「controller + service + 仓储」。
+ * 用法：CrudModuleFactory(GoodsEntity, 'kuerp/goods', ['goods_name','goods_code'])
+ */
+export function CrudModuleFactory(entity: any, route: string, searchFields: string[]): DynamicModule {
+  const token = svcToken(entity);
+  const controller = makeCrudController(route, searchFields, token);
+
+  @Module({
+    imports: [TypeOrmModule.forFeature([entity])],
+    providers: [
+      {
+        provide: token,
+        useFactory: (repo: Repository<any>) => new CrudService(repo),
+        inject: [getRepositoryToken(entity)],
+      },
+    ],
+    controllers: [controller],
+    exports: [token],
+  })
+  class DynamicCrudModule {}
+
+  return { module: DynamicCrudModule };
+}

@@ -1,1 +1,47 @@
-aW1wb3J0IHsKICBFeGNlcHRpb25GaWx0ZXIsCiAgQ2F0Y2gsCiAgQXJndW1lbnRzSG9zdCwKICBIdHRwRXhjZXB0aW9uLAogIEh0dHBTdGF0dXMsCiAgTG9nZ2VyLAp9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsKCi8qKgogKiDnu5/kuIDlvILluLjov4fmu6TlmajvvJrmiorlvILluLjljIXmiJDkuI7ljp/ns7vnu5/kuIDoh7TnmoQgeyBjb2RlOiAwLCBtc2csIGRhdGE6IG51bGwgfQogKi8KQENhdGNoKCkKZXhwb3J0IGNsYXNzIEh0dHBFeGNlcHRpb25GaWx0ZXIgaW1wbGVtZW50cyBFeGNlcHRpb25GaWx0ZXIgewogIHByaXZhdGUgcmVhZG9ubHkgbG9nZ2VyID0gbmV3IExvZ2dlcihIdHRwRXhjZXB0aW9uRmlsdGVyLm5hbWUpOwoKICBjYXRjaChleGNlcHRpb246IHVua25vd24sIGhvc3Q6IEFyZ3VtZW50c0hvc3QpIHsKICAgIGNvbnN0IGN0eCA9IGhvc3Quc3dpdGNoVG9IdHRwKCk7CiAgICBjb25zdCByZXNwb25zZTogYW55ID0gY3R4LmdldFJlc3BvbnNlKCk7CiAgICBjb25zdCByZXF1ZXN0ID0gY3R4LmdldFJlcXVlc3QoKTsKCiAgICBsZXQgc3RhdHVzID0gSHR0cFN0YXR1cy5JTlRFUk5BTF9TRVJWRVJfRVJST1I7CiAgICBsZXQgbXNnID0gJ+acjeWKoeWZqOWGhemDqOmUmeivryc7CgogICAgaWYgKGV4Y2VwdGlvbiBpbnN0YW5jZW9mIEh0dHBFeGNlcHRpb24pIHsKICAgICAgc3RhdHVzID0gZXhjZXB0aW9uLmdldFN0YXR1cygpOwogICAgICBjb25zdCByZXM6IGFueSA9IGV4Y2VwdGlvbi5nZXRSZXNwb25zZSgpOwogICAgICBtc2cgPSAocmVzICYmIHJlcy5tZXNzYWdlKSB8fCBleGNlcHRpb24ubWVzc2FnZSB8fCAn6K+35rGC6ZSZ6K+vJzsKICAgICAgaWYgKEFycmF5LmlzQXJyYXkobXNnKSkgbXNnID0gbXNnLmpvaW4oJzsgJyk7CiAgICAgIC8vIHBhc3Nwb3J0LWp3dCDlr7nov4fmnJ8v6Z2e5rOVIHRva2VuIOaKm+eahOaYr+m7mOiupOiLseaWh+OAjFVuYXV0aG9yaXplZOOAje+8jAogICAgICAvLyDnu5/kuIDmjaLmiJDnlKjmiLfog73nnIvmh4LnmoTmj5DnpLrvvJvnrZbnlaXph4zoh6rlrprkuYnnmoTjgIznmbvlvZXlt7Lov4fmnJ8v6LSm5Y+35LiN5Y+v55So44CN5Y6f5qC35L+d55WZCiAgICAgIGlmIChzdGF0dXMgPT09IEh0dHBTdGF0dXMuVU5BVVRIT1JJWkVEICYmIG1zZyA9PT0gJ1VuYXV0aG9yaXplZCcpIHsKICAgICAgICBtc2cgPSAn55m75b2V5bey6L+H5pyf77yM6K+36YeN5paw55m75b2VJzsKICAgICAgfQogICAgfSBlbHNlIGlmIChleGNlcHRpb24gaW5zdGFuY2VvZiBFcnJvcikgewogICAgICBtc2cgPSBleGNlcHRpb24ubWVzc2FnZTsKICAgICAgdGhpcy5sb2dnZXIuZXJyb3IoYFtVbmhhbmRsZWRdICR7ZXhjZXB0aW9uLnN0YWNrfWApOwogICAgfQoKICAgIGNvbnN0IGJvZHkgPSB7IGNvZGU6IDAsIG1zZywgZGF0YTogbnVsbCB9OwogICAgLy8g5L+d55WZ55yf5a6eIEhUVFAg54q25oCB56CB77yINDAxLzQwMy80MDDigKbvvInvvIzkuI3lho3miorplJnor6/ljIXmiJAgMjAw4oCU4oCUCiAgICAvLyDlkKbliJkgUkJBQyDlrojljavmipvlh7rnmoQgNDAz77yI6LaK5p2D77yJ44CBUGFzc3BvcnQg55qEIDQwMe+8iOacqueZu+W9le+8ieS8muiiq+mdmem7mOaIkAogICAgLy8g44CM5oiQ5Yqf5ZON5bqU44CN77yM5a+86Ie05o6l5Y+j5p2D6ZmQL+eZu+W9leWkseaViOOAjOeci+i1t+adpeayoeeUn+aViOOAjeOAggogICAgLy8g5YmN56uv5ZON5bqU5oum5oiq5Zmo5Lya5oyJ55yf5a6e54q25oCB56CB5o+Q56S677yINDAxIOi3s+eZu+W9lemhteOAgeWFtuWug+W8uemUmeivr+aWh+ahiO+8ieOAggogICAgcmVzcG9uc2Uuc3RhdHVzKHN0YXR1cykuanNvbihib2R5KTsKICB9Cn0K
+import {
+  ExceptionFilter,
+  Catch,
+  ArgumentsHost,
+  HttpException,
+  HttpStatus,
+  Logger,
+} from '@nestjs/common';
+
+/**
+ * 统一异常过滤器：把异常包成与原系统一致的 { code: 0, msg, data: null }
+ */
+@Catch()
+export class HttpExceptionFilter implements ExceptionFilter {
+  private readonly logger = new Logger(HttpExceptionFilter.name);
+
+  catch(exception: unknown, host: ArgumentsHost) {
+    const ctx = host.switchToHttp();
+    const response: any = ctx.getResponse();
+    const request = ctx.getRequest();
+
+    let status = HttpStatus.INTERNAL_SERVER_ERROR;
+    let msg = '服务器内部错误';
+
+    if (exception instanceof HttpException) {
+      status = exception.getStatus();
+      const res: any = exception.getResponse();
+      msg = (res && res.message) || exception.message || '请求错误';
+      if (Array.isArray(msg)) msg = msg.join('; ');
+      // passport-jwt 对过期/非法 token 抛的是默认英文「Unauthorized」，
+      // 统一换成用户能看懂的提示；策略里自定义的「登录已过期/账号不可用」原样保留
+      if (status === HttpStatus.UNAUTHORIZED && msg === 'Unauthorized') {
+        msg = '登录已过期，请重新登录';
+      }
+    } else if (exception instanceof Error) {
+      msg = exception.message;
+      this.logger.error(`[Unhandled] ${exception.stack}`);
+    }
+
+    const body = { code: 0, msg, data: null };
+    // 保留真实 HTTP 状态码（401/403/400…），不再把错误包成 200——
+    // 否则 RBAC 守卫抛出的 403（越权）、Passport 的 401（未登录）会被静默成
+    // 「成功响应」，导致接口权限/登录失效「看起来没生效」。
+    // 前端响应拦截器会按真实状态码提示（401 跳登录页、其它弹错误文案）。
+    response.status(status).json(body);
+  }
+}

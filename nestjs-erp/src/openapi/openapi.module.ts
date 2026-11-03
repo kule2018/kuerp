@@ -1,1 +1,23 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBPcGVuQXBpQ29udHJvbGxlciB9IGZyb20gJy4vb3BlbmFwaS5jb250cm9sbGVyJzsKaW1wb3J0IHsgT3BlbkFwaVNlcnZpY2UgfSBmcm9tICcuL29wZW5hcGkuc2VydmljZSc7CmltcG9ydCB7IFRhYmxlTW9kdWxlIH0gZnJvbSAnLi4va3VlcnAvdGFibGUvdGFibGUubW9kdWxlJzsKCi8qKgogKiDlvIDmlL7lr7nmjqUgQVBJIOaooeWdl++8iOetieS7t+WOn+ezu+e7nyBhcHBsaWNhdGlvbi9hcGkvY29udHJvbGxlci9rdWVycC90aGlyZC8q77yJ44CCCiAqCiAqIOmdouWQkeS4ieaWueezu+e7n++8iOe6v+S4iuWVhuWfjiAvIENSTSAvIE9B77yJ5o+Q5L6b5ZWG5ZOB44CB5a6i5oi344CB6ZSA6LSn5Y2V55qE5Y+q6K+75LiO5YaZ5YWl5o6l5Y+j77yMCiAqIOmJtOadg+aWueW8j+S4juWOn+ezu+e7nyAxOjHvvJphY2NvdW50ICsgcmVxdWVzdF90aW1lKDMwMHMg5pe25pWIKSArIE1ENSDnrb7lkI0KICog77yI562+5ZCN566X5rOV77ya5Y+C5LiO562+5ZCN55qE5Y+C5pWwIGtzb3J0IOWQjuaMiSBrPXYg55SoICYg5ou85o6l77yM5pyr5bC+5ou8IGtleT08c2FsdD4g5ZCO5Y+WIE1ENe+8jAogKiAgIHNhbHQg5Li6IGt1ZXJwX3RoaXJkX2FjY291bnQg6KGo5Lit6K+l6LSm5oi355qE5a+G6ZKl77yJ77yM6ZSZ6K+v56CBIDIwLTI3IOS4juWOn+ezu+e7n+S4gOiHtOOAggogKgogKiDlhpnlhaXnsbvmjqXlj6PvvIjkuIvljZUv6YCA6LSn77yJ5aSN55So6YCa55So5Y2V5Y+36KeE5YiZ5byV5pOO77yIVGFibGVTZXJ2aWNlLmdlbkNvZGVCeVJ1bGXvvIkKICog5LiO5a6h5qC46L+H6LSm5byV5pOO77yIVGFibGVTZXJ2aWNlLmV4YW1pbmUg4oaSIFBvc3RpbmdTZXJ2aWNlL0Z1bmRzU2VydmljZe+8ie+8jAogKiDkv53or4HlvIDmlL7ljZXmja7kuI7lkI7lj7DmiYvlt6XljZXmja7otbDlkIzkuIDlpZflupPlrZgv6LWE6YeR6L+H6LSm6ZO+6Lev44CCCiAqLwpATW9kdWxlKHsKICBpbXBvcnRzOiBbVGFibGVNb2R1bGVdLAogIGNvbnRyb2xsZXJzOiBbT3BlbkFwaUNvbnRyb2xsZXJdLAogIHByb3ZpZGVyczogW09wZW5BcGlTZXJ2aWNlXSwKfSkKZXhwb3J0IGNsYXNzIE9wZW5BcGlNb2R1bGUge30K
+import { Module } from '@nestjs/common';
+import { OpenApiController } from './openapi.controller';
+import { OpenApiService } from './openapi.service';
+import { TableModule } from '../kuerp/table/table.module';
+
+/**
+ * 开放对接 API 模块（等价原系统 application/api/controller/kuerp/third/*）。
+ *
+ * 面向三方系统（线上商城 / CRM / OA）提供商品、客户、销货单的只读与写入接口，
+ * 鉴权方式与原系统 1:1：account + request_time(300s 时效) + MD5 签名
+ * （签名算法：参与签名的参数 ksort 后按 k=v 用 & 拼接，末尾拼 key=<salt> 后取 MD5，
+ *   salt 为 kuerp_third_account 表中该账户的密钥），错误码 20-27 与原系统一致。
+ *
+ * 写入类接口（下单/退货）复用通用单号规则引擎（TableService.genCodeByRule）
+ * 与审核过账引擎（TableService.examine → PostingService/FundsService），
+ * 保证开放单据与后台手工单据走同一套库存/资金过账链路。
+ */
+@Module({
+  imports: [TableModule],
+  controllers: [OpenApiController],
+  providers: [OpenApiService],
+})
+export class OpenApiModule {}

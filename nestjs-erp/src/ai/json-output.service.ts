@@ -1,1 +1,56 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsKaW1wb3J0IHsgQ2hhdE1vZGVsU2VydmljZSB9IGZyb20gJy4vY2hhdC1tb2RlbC5zZXJ2aWNlJzsKCi8qKgogKiDnu5PmnoTljJYgSlNPTiDovpPlh7rmnI3liqHjgILnrYnmlYggU3ByaW5nIEFJIOeahCBCZWFuT3V0cHV0Q29udmVydGVyIC8gTWFwT3V0cHV0Q29udmVydGVy44CCCiAqIOmAmui/hyByZXNwb25zZV9mb3JtYXQ9anNvbl9vYmplY3QgKyDns7vnu5/mjIfku6TvvIzlvLrliLbmqKHlnovov5Tlm57lj6/op6PmnpDnmoTnu5PmnoTljJYgSlNPTuOAggogKi8KQEluamVjdGFibGUoKQpleHBvcnQgY2xhc3MgSnNvbk91dHB1dFNlcnZpY2UgewogIGNvbnN0cnVjdG9yKHByaXZhdGUgcmVhZG9ubHkgY2hhdE1vZGVsOiBDaGF0TW9kZWxTZXJ2aWNlKSB7fQoKICAvKioKICAgKiDor7fmsYLmqKHlnovov5Tlm57nu5PmnoTljJYgSlNPTuOAggogICAqIEBwYXJhbSBzY2hlbWEg57uT5p6E5o+P6L+w5paH5pys77yI5aaCICJ7bmFtZTpzdHJpbmcsIHRvdGFsOm51bWJlcn0i77yJ5oiWIEpTT04gU2NoZW1hCiAgICogQHBhcmFtIHVzZXIg55So5oi36Zeu6aKYCiAgICogQHBhcmFtIHN5c3RlbSDlj6/pgInns7vnu5/mj5DnpLoKICAgKi8KICBhc3luYyByZXF1ZXN0T2JqZWN0KG9wdHM6IHsKICAgIHVzZXI6IHN0cmluZzsKICAgIHN5c3RlbT86IHN0cmluZzsKICAgIHNjaGVtYT86IHN0cmluZyB8IFJlY29yZDxzdHJpbmcsIGFueT47CiAgICBtb2RlbENvbmZpZ0lkPzogbnVtYmVyOwogIH0pOiBQcm9taXNlPHsgZGF0YTogYW55OyByYXc6IHN0cmluZyB9PiB7CiAgICBjb25zdCBzY2hlbWFUZXh0ID0KICAgICAgdHlwZW9mIG9wdHMuc2NoZW1hID09PSAnc3RyaW5nJwogICAgICAgID8gb3B0cy5zY2hlbWEKICAgICAgICA6IG9wdHMuc2NoZW1hCiAgICAgICAgPyBKU09OLnN0cmluZ2lmeShvcHRzLnNjaGVtYSwgbnVsbCwgMikKICAgICAgICA6ICfoh6rnlLHnu5PmnoQnOwoKICAgIGNvbnN0IHN5c3RlbSA9CiAgICAgIChvcHRzLnN5c3RlbSB8fCAnJykgKwogICAgICBgXG7kvaDmmK/kuIDkuKrnu5PmnoTljJbmlbDmja7mj5Dlj5blmajjgILlj6rovpPlh7rkuIDkuKrlkIjms5XnmoQgSlNPTiDlr7nosaHvvIzkuI3opoHljIXlkKvku7vkvZXop6Pph4rmgKfmloflrZfjgIHkuI3opoHkvb/nlKggbWFya2Rvd24g5Luj56CB5Z2X44CCYCArCiAgICAgIGBcbuimgeaxguWtl+autee7k+aehOWmguS4i++8mlxuJHtzY2hlbWFUZXh0fWA7CgogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgdGhpcy5jaGF0TW9kZWwuY29tcGxldGUoewogICAgICBtb2RlbENvbmZpZ0lkOiBvcHRzLm1vZGVsQ29uZmlnSWQsCiAgICAgIG1lc3NhZ2VzOiBbCiAgICAgICAgeyByb2xlOiAnc3lzdGVtJywgY29udGVudDogc3lzdGVtIH0sCiAgICAgICAgeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6IG9wdHMudXNlciB9LAogICAgICBdLAogICAgICByZXNwb25zZUZvcm1hdDogeyB0eXBlOiAnanNvbl9vYmplY3QnIH0sCiAgICB9KTsKCiAgICBjb25zdCByYXcgPSByZXN1bHQuY29udGVudC50cmltKCk7CiAgICBsZXQgZGF0YTogYW55ID0gbnVsbDsKICAgIHRyeSB7CiAgICAgIC8vIOWFnOW6leWOu+aOieWPr+iDveeahCBgYGBqc29uIGBgYCDljIXoo7kKICAgICAgY29uc3QgY2xlYW5lZCA9IHJhdy5yZXBsYWNlKC9eYGBgKD86anNvbik/L2ksICcnKS5yZXBsYWNlKC9gYGAkLywgJycpLnRyaW0oKTsKICAgICAgZGF0YSA9IEpTT04ucGFyc2UoY2xlYW5lZCk7CiAgICB9IGNhdGNoIHsKICAgICAgZGF0YSA9IG51bGw7CiAgICB9CiAgICByZXR1cm4geyBkYXRhLCByYXcgfTsKICB9Cn0K
+import { Injectable } from '@nestjs/common';
+import { ChatModelService } from './chat-model.service';
+
+/**
+ * 结构化 JSON 输出服务。等效 Spring AI 的 BeanOutputConverter / MapOutputConverter。
+ * 通过 response_format=json_object + 系统指令，强制模型返回可解析的结构化 JSON。
+ */
+@Injectable()
+export class JsonOutputService {
+  constructor(private readonly chatModel: ChatModelService) {}
+
+  /**
+   * 请求模型返回结构化 JSON。
+   * @param schema 结构描述文本（如 "{name:string, total:number}"）或 JSON Schema
+   * @param user 用户问题
+   * @param system 可选系统提示
+   */
+  async requestObject(opts: {
+    user: string;
+    system?: string;
+    schema?: string | Record<string, any>;
+    modelConfigId?: number;
+  }): Promise<{ data: any; raw: string }> {
+    const schemaText =
+      typeof opts.schema === 'string'
+        ? opts.schema
+        : opts.schema
+        ? JSON.stringify(opts.schema, null, 2)
+        : '自由结构';
+
+    const system =
+      (opts.system || '') +
+      `\n你是一个结构化数据提取器。只输出一个合法的 JSON 对象，不要包含任何解释性文字、不要使用 markdown 代码块。` +
+      `\n要求字段结构如下：\n${schemaText}`;
+
+    const result = await this.chatModel.complete({
+      modelConfigId: opts.modelConfigId,
+      messages: [
+        { role: 'system', content: system },
+        { role: 'user', content: opts.user },
+      ],
+      responseFormat: { type: 'json_object' },
+    });
+
+    const raw = result.content.trim();
+    let data: any = null;
+    try {
+      // 兜底去掉可能的 ```json ``` 包裹
+      const cleaned = raw.replace(/^```(?:json)?/i, '').replace(/```$/, '').trim();
+      data = JSON.parse(cleaned);
+    } catch {
+      data = null;
+    }
+    return { data, raw };
+  }
+}

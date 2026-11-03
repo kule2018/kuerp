@@ -1,1 +1,22 @@
-aW1wb3J0IHsgZGVmaW5lU3RvcmUgfSBmcm9tICdwaW5pYSc7CgpleHBvcnQgY29uc3QgdXNlQXV0aFN0b3JlID0gZGVmaW5lU3RvcmUoJ2F1dGgnLCB7CiAgc3RhdGU6ICgpID0+ICh7CiAgICB0b2tlbjogbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3Rva2VuJykgfHwgJycsCiAgICB1c2VyOiBKU09OLnBhcnNlKGxvY2FsU3RvcmFnZS5nZXRJdGVtKCd1c2VyJykgfHwgJ251bGwnKSwKICB9KSwKICBhY3Rpb25zOiB7CiAgICBzZXRBdXRoKHRva2VuLCB1c2VyKSB7CiAgICAgIHRoaXMudG9rZW4gPSB0b2tlbjsKICAgICAgdGhpcy51c2VyID0gdXNlcjsKICAgICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oJ3Rva2VuJywgdG9rZW4pOwogICAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgndXNlcicsIEpTT04uc3RyaW5naWZ5KHVzZXIpKTsKICAgIH0sCiAgICBsb2dvdXQoKSB7CiAgICAgIHRoaXMudG9rZW4gPSAnJzsKICAgICAgdGhpcy51c2VyID0gbnVsbDsKICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ3Rva2VuJyk7CiAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCd1c2VyJyk7CiAgICB9LAogIH0sCn0pOwo=
+import { defineStore } from 'pinia';
+
+export const useAuthStore = defineStore('auth', {
+  state: () => ({
+    token: localStorage.getItem('token') || '',
+    user: JSON.parse(localStorage.getItem('user') || 'null'),
+  }),
+  actions: {
+    setAuth(token, user) {
+      this.token = token;
+      this.user = user;
+      localStorage.setItem('token', token);
+      localStorage.setItem('user', JSON.stringify(user));
+    },
+    logout() {
+      this.token = '';
+      this.user = null;
+      localStorage.removeItem('token');
+      localStorage.removeItem('user');
+    },
+  },
+});

@@ -1,1 +1,88 @@
-LyoqCiAqIOmAmueUqOagvOW8j+WMluW3peWFt++8iOaXtumXtCAvIOmHkeminSAvIOaVsOmHj++8ieOAggogKgogKiDkuI4gdXRpbHMvcHJpbnQuanMg55qE5Yy65Yir77yacHJpbnQuanMg6Z2i5ZCR5omT5Y2w5o6S54mI77yI5Zu65a6a5Lik5L2N5bCP5pWw44CB5bim5biB56eN56ym5Y+377yJ77yMCiAqIOi/memHjOmdouWQkeeVjOmdouWxleekuu+8iOiHqumAguW6lOOAgeW4puOAjOWHoOWIhumSn+WJjeOAjei/meexu+ebuOWvueaXtumXtO+8ie+8jOS4pOiAheS6kuS4jeWkjeeUqOmBv+WFjeiApuWQiOOAggogKi8KCi8qKgogKiDnp5Lnuqfml7bpl7TmiLMgLT4gJ1lZWVktTU0tREQgSEg6bW06c3Mn44CCCiAqIEBwYXJhbSB7bnVtYmVyfHN0cmluZ30gc2VjIOenkue6p+aXtumXtOaIs++8iOWQjuerr+WFqOW6k+e7n+S4gOeUqOenku+8iQogKiBAcGFyYW0ge3N0cmluZ30gZmFsbGJhY2sg56m65YC85pe255qE5Y2g5L2NCiAqIEByZXR1cm5zIHtzdHJpbmd9CiAqLwpleHBvcnQgZnVuY3Rpb24gZm10VGltZShzZWMsIGZhbGxiYWNrID0gJ+KAlCcpIHsKICBjb25zdCBuID0gTnVtYmVyKHNlYyk7CiAgaWYgKCFuIHx8IE51bWJlci5pc05hTihuKSkgcmV0dXJuIGZhbGxiYWNrOwogIGNvbnN0IGQgPSBuZXcgRGF0ZShuICogMTAwMCk7CiAgY29uc3QgcCA9ICh2KSA9PiBTdHJpbmcodikucGFkU3RhcnQoMiwgJzAnKTsKICByZXR1cm4gYCR7ZC5nZXRGdWxsWWVhcigpfS0ke3AoZC5nZXRNb250aCgpICsgMSl9LSR7cChkLmdldERhdGUoKSl9ICR7cChkLmdldEhvdXJzKCkpfToke3AoZC5nZXRNaW51dGVzKCkpfToke3AoZC5nZXRTZWNvbmRzKCkpfWA7Cn0KCi8qKgogKiDnp5Lnuqfml7bpl7TmiLMgLT4gJ1lZWVktTU0tREQn44CCCiAqIEBwYXJhbSB7bnVtYmVyfHN0cmluZ30gc2VjIOenkue6p+aXtumXtOaIswogKiBAcGFyYW0ge3N0cmluZ30gZmFsbGJhY2sg56m65YC85Y2g5L2NCiAqIEByZXR1cm5zIHtzdHJpbmd9CiAqLwpleHBvcnQgZnVuY3Rpb24gZm10RGF5KHNlYywgZmFsbGJhY2sgPSAn4oCUJykgewogIGNvbnN0IHMgPSBmbXRUaW1lKHNlYywgJycpOwogIHJldHVybiBzID8gcy5zbGljZSgwLCAxMCkgOiBmYWxsYmFjazsKfQoKLyoqCiAqIOebuOWvueaXtumXtO+8muWmguOAjDMg5YiG6ZKf5YmN44CN44CMMiDlpKnliY3jgI3jgIIKICog6LaF6L+HIDMwIOWkqeebtOaOpeaYvuekuuaXpeacn++8jOmBv+WFjeOAjDIxNyDlpKnliY3jgI3ov5nnp43msqHmnInkv6Hmga/ph4/nmoTooajov7DjgIIKICogQHBhcmFtIHtudW1iZXJ8c3RyaW5nfSBzZWMg56eS57qn5pe26Ze05oizCiAqIEBwYXJhbSB7c3RyaW5nfSBmYWxsYmFjayDnqbrlgLzljaDkvY0KICogQHJldHVybnMge3N0cmluZ30KICovCmV4cG9ydCBmdW5jdGlvbiB0aW1lQWdvKHNlYywgZmFsbGJhY2sgPSAn4oCUJykgewogIGNvbnN0IG4gPSBOdW1iZXIoc2VjKTsKICBpZiAoIW4gfHwgTnVtYmVyLmlzTmFOKG4pKSByZXR1cm4gZmFsbGJhY2s7CiAgY29uc3QgZGlmZiA9IE1hdGguZmxvb3IoRGF0ZS5ub3coKSAvIDEwMDApIC0gbjsKICBpZiAoZGlmZiA8IDApIHJldHVybiBmbXRUaW1lKHNlYywgZmFsbGJhY2spOwogIGlmIChkaWZmIDwgNjApIHJldHVybiAn5Yia5YiaJzsKICBpZiAoZGlmZiA8IDM2MDApIHJldHVybiBgJHtNYXRoLmZsb29yKGRpZmYgLyA2MCl9IOWIhumSn+WJjWA7CiAgaWYgKGRpZmYgPCA4NjQwMCkgcmV0dXJuIGAke01hdGguZmxvb3IoZGlmZiAvIDM2MDApfSDlsI/ml7bliY1gOwogIGlmIChkaWZmIDwgODY0MDAgKiAzMCkgcmV0dXJuIGAke01hdGguZmxvb3IoZGlmZiAvIDg2NDAwKX0g5aSp5YmNYDsKICByZXR1cm4gZm10RGF5KHNlYywgZmFsbGJhY2spOwp9CgovKioKICog5pWw5a2X5Y2D5YiG5L2N77yI5L+d55WZ5oyH5a6a5bCP5pWw5L2N77yJ44CCCiAqIEBwYXJhbSB7YW55fSB2IOWAvAogKiBAcGFyYW0ge251bWJlcn0gZGlnaXRzIOWwj+aVsOS9je+8jOm7mOiupCAyCiAqIEByZXR1cm5zIHtzdHJpbmd9CiAqLwpleHBvcnQgZnVuY3Rpb24gZm10TnVtKHYsIGRpZ2l0cyA9IDIpIHsKICBjb25zdCBuID0gTnVtYmVyKHYpOwogIGlmIChOdW1iZXIuaXNOYU4obikpIHJldHVybiAn4oCUJzsKICByZXR1cm4gbi50b0xvY2FsZVN0cmluZygnemgtQ04nLCB7IG1pbmltdW1GcmFjdGlvbkRpZ2l0czogZGlnaXRzLCBtYXhpbXVtRnJhY3Rpb25EaWdpdHM6IGRpZ2l0cyB9KTsKfQoKLyoqCiAqIOmHkemineWxleekuu+8msKlIOWJjee8gCArIOWNg+WIhuS9jeOAgui0n+aVsO+8iOWmguavm+WIqeS4uui0n++8ieS/neeVmei0n+WPt+WcqCDCpSDkuYvliY3vvIzlvaLlpoIgLcKlMSwyMzQuMDDjgIIKICogQHBhcmFtIHthbnl9IHYg5YC8CiAqIEBwYXJhbSB7bnVtYmVyfSBkaWdpdHMg5bCP5pWw5L2N77yM6buY6K6kIDIKICogQHJldHVybnMge3N0cmluZ30KICovCmV4cG9ydCBmdW5jdGlvbiBmbXRNb25leSh2LCBkaWdpdHMgPSAyKSB7CiAgY29uc3QgbiA9IE51bWJlcih2KTsKICBpZiAoTnVtYmVyLmlzTmFOKG4pKSByZXR1cm4gJ+KAlCc7CiAgY29uc3QgYWJzID0gZm10TnVtKE1hdGguYWJzKG4pLCBkaWdpdHMpOwogIHJldHVybiBgJHtuIDwgMCA/ICctJyA6ICcnfcKlJHthYnN9YDsKfQoKLyoqCiAqIOaWh+S7tuWtl+iKguaVsOi9rOWPr+ivu+S9k+enr+OAggogKiBAcGFyYW0ge251bWJlcn0gYnl0ZXMg5a2X6IqCCiAqIEByZXR1cm5zIHtzdHJpbmd9CiAqLwpleHBvcnQgZnVuY3Rpb24gZm10Qnl0ZXMoYnl0ZXMpIHsKICBjb25zdCBuID0gTnVtYmVyKGJ5dGVzKSB8fCAwOwogIGlmIChuIDwgMTAyNCkgcmV0dXJuIGAke259IEJgOwogIGlmIChuIDwgMTAyNCAqIDEwMjQpIHJldHVybiBgJHsobiAvIDEwMjQpLnRvRml4ZWQoMSl9IEtCYDsKICBpZiAobiA8IDEwMjQgKiAxMDI0ICogMTAyNCkgcmV0dXJuIGAkeyhuIC8gMTAyNCAvIDEwMjQpLnRvRml4ZWQoMSl9IE1CYDsKICByZXR1cm4gYCR7KG4gLyAxMDI0IC8gMTAyNCAvIDEwMjQpLnRvRml4ZWQoMil9IEdCYDsKfQo=
+/**
+ * 通用格式化工具（时间 / 金额 / 数量）。
+ *
+ * 与 utils/print.js 的区别：print.js 面向打印排版（固定两位小数、带币种符号），
+ * 这里面向界面展示（自适应、带「几分钟前」这类相对时间），两者互不复用避免耦合。
+ */
+
+/**
+ * 秒级时间戳 -> 'YYYY-MM-DD HH:mm:ss'。
+ * @param {number|string} sec 秒级时间戳（后端全库统一用秒）
+ * @param {string} fallback 空值时的占位
+ * @returns {string}
+ */
+export function fmtTime(sec, fallback = '—') {
+  const n = Number(sec);
+  if (!n || Number.isNaN(n)) return fallback;
+  const d = new Date(n * 1000);
+  const p = (v) => String(v).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}`;
+}
+
+/**
+ * 秒级时间戳 -> 'YYYY-MM-DD'。
+ * @param {number|string} sec 秒级时间戳
+ * @param {string} fallback 空值占位
+ * @returns {string}
+ */
+export function fmtDay(sec, fallback = '—') {
+  const s = fmtTime(sec, '');
+  return s ? s.slice(0, 10) : fallback;
+}
+
+/**
+ * 相对时间：如「3 分钟前」「2 天前」。
+ * 超过 30 天直接显示日期，避免「217 天前」这种没有信息量的表述。
+ * @param {number|string} sec 秒级时间戳
+ * @param {string} fallback 空值占位
+ * @returns {string}
+ */
+export function timeAgo(sec, fallback = '—') {
+  const n = Number(sec);
+  if (!n || Number.isNaN(n)) return fallback;
+  const diff = Math.floor(Date.now() / 1000) - n;
+  if (diff < 0) return fmtTime(sec, fallback);
+  if (diff < 60) return '刚刚';
+  if (diff < 3600) return `${Math.floor(diff / 60)} 分钟前`;
+  if (diff < 86400) return `${Math.floor(diff / 3600)} 小时前`;
+  if (diff < 86400 * 30) return `${Math.floor(diff / 86400)} 天前`;
+  return fmtDay(sec, fallback);
+}
+
+/**
+ * 数字千分位（保留指定小数位）。
+ * @param {any} v 值
+ * @param {number} digits 小数位，默认 2
+ * @returns {string}
+ */
+export function fmtNum(v, digits = 2) {
+  const n = Number(v);
+  if (Number.isNaN(n)) return '—';
+  return n.toLocaleString('zh-CN', { minimumFractionDigits: digits, maximumFractionDigits: digits });
+}
+
+/**
+ * 金额展示：¥ 前缀 + 千分位。负数（如毛利为负）保留负号在 ¥ 之前，形如 -¥1,234.00。
+ * @param {any} v 值
+ * @param {number} digits 小数位，默认 2
+ * @returns {string}
+ */
+export function fmtMoney(v, digits = 2) {
+  const n = Number(v);
+  if (Number.isNaN(n)) return '—';
+  const abs = fmtNum(Math.abs(n), digits);
+  return `${n < 0 ? '-' : ''}¥${abs}`;
+}
+
+/**
+ * 文件字节数转可读体积。
+ * @param {number} bytes 字节
+ * @returns {string}
+ */
+export function fmtBytes(bytes) {
+  const n = Number(bytes) || 0;
+  if (n < 1024) return `${n} B`;
+  if (n < 1024 * 1024) return `${(n / 1024).toFixed(1)} KB`;
+  if (n < 1024 * 1024 * 1024) return `${(n / 1024 / 1024).toFixed(1)} MB`;
+  return `${(n / 1024 / 1024 / 1024).toFixed(2)} GB`;
+}

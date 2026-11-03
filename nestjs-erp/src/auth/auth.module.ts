@@ -1,1 +1,28 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBKd3RNb2R1bGUgfSBmcm9tICdAbmVzdGpzL2p3dCc7CmltcG9ydCB7IFBhc3Nwb3J0TW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9wYXNzcG9ydCc7CmltcG9ydCB7IFR5cGVPcm1Nb2R1bGUgfSBmcm9tICdAbmVzdGpzL3R5cGVvcm0nOwppbXBvcnQgeyBDb25maWdNb2R1bGUsIENvbmZpZ1NlcnZpY2UgfSBmcm9tICdAbmVzdGpzL2NvbmZpZyc7CmltcG9ydCB7IEF1dGhTZXJ2aWNlIH0gZnJvbSAnLi9hdXRoLnNlcnZpY2UnOwppbXBvcnQgeyBBdXRoQ29udHJvbGxlciB9IGZyb20gJy4vYXV0aC5jb250cm9sbGVyJzsKaW1wb3J0IHsgSnd0U3RyYXRlZ3kgfSBmcm9tICcuL2p3dC5zdHJhdGVneSc7CmltcG9ydCB7IEFkbWluIH0gZnJvbSAnLi4vc3lzdGVtL2VudGl0aWVzL2FkbWluLmVudGl0eSc7CgpATW9kdWxlKHsKICBpbXBvcnRzOiBbCiAgICBUeXBlT3JtTW9kdWxlLmZvckZlYXR1cmUoW0FkbWluXSksCiAgICBQYXNzcG9ydE1vZHVsZSwKICAgIEp3dE1vZHVsZS5yZWdpc3RlckFzeW5jKHsKICAgICAgaW1wb3J0czogW0NvbmZpZ01vZHVsZV0sCiAgICAgIGluamVjdDogW0NvbmZpZ1NlcnZpY2VdLAogICAgICB1c2VGYWN0b3J5OiAoY2ZnOiBDb25maWdTZXJ2aWNlKSA9PiAoewogICAgICAgIHNlY3JldDogY2ZnLmdldDxzdHJpbmc+KCdKV1RfU0VDUkVUJykgfHwgJ3NlY3JldCcsCiAgICAgICAgc2lnbk9wdGlvbnM6IHsgZXhwaXJlc0luOiBOdW1iZXIoY2ZnLmdldCgnSldUX0VYUElSRVNfSU4nKSB8fCA3MjAwKSB9LAogICAgICB9KSwKICAgIH0pLAogIF0sCiAgcHJvdmlkZXJzOiBbQXV0aFNlcnZpY2UsIEp3dFN0cmF0ZWd5XSwKICBjb250cm9sbGVyczogW0F1dGhDb250cm9sbGVyXSwKICBleHBvcnRzOiBbQXV0aFNlcnZpY2VdLAp9KQpleHBvcnQgY2xhc3MgQXV0aE1vZHVsZSB7fQo=
+import { Module } from '@nestjs/common';
+import { JwtModule } from '@nestjs/jwt';
+import { PassportModule } from '@nestjs/passport';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { ConfigModule, ConfigService } from '@nestjs/config';
+import { AuthService } from './auth.service';
+import { AuthController } from './auth.controller';
+import { JwtStrategy } from './jwt.strategy';
+import { Admin } from '../system/entities/admin.entity';
+
+@Module({
+  imports: [
+    TypeOrmModule.forFeature([Admin]),
+    PassportModule,
+    JwtModule.registerAsync({
+      imports: [ConfigModule],
+      inject: [ConfigService],
+      useFactory: (cfg: ConfigService) => ({
+        secret: cfg.get<string>('JWT_SECRET') || 'secret',
+        signOptions: { expiresIn: Number(cfg.get('JWT_EXPIRES_IN') || 7200) },
+      }),
+    }),
+  ],
+  providers: [AuthService, JwtStrategy],
+  controllers: [AuthController],
+  exports: [AuthService],
+})
+export class AuthModule {}

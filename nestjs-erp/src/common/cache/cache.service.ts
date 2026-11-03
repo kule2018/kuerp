@@ -1,1 +1,210 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgTG9nZ2VyLCBPbk1vZHVsZURlc3Ryb3kgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7CgovKioKICog5YaF5a2Y57yT5a2Y5pyN5Yqh77yI6L+b56iL5YaFIExSVSArIFRUTO+8ieOAggogKgogKiDjgJDkuLrku4DkuYjkuI3nlKggUmVkaXPjgJEKICog5pys6aG555uu5piv5Y2V5py66YOo572y55qE5Lit5bCP5L2T6YePIEVSUO+8jOe8k+WtmOeahOWvueixoeWPquacieS4ieexu++8muezu+e7n+WPguaVsOOAgeS4i+aLiemAiemhueOAgeadg+mZkOiKgueCueOAggogKiDlvJXlhaUgUmVkaXMg5Lya5aSa5Ye65LiA5Liq5b+F6aG76L+Q57u055qE57uE5Lu277yM6ICM5pS255uK5LuF5piv44CM5aSa5a6e5L6L5YWx5Lqr44CN4oCU4oCUCiAqIOW9k+WJjemDqOe9suW9ouaAgeayoeacieWkmuWunuS+i++8jOWboOatpOeUqOi/m+eoi+WGhee8k+WtmOWNs+WPr++8iOmbtuS+nei1luOAgembtui/kOe7tO+8ieOAggogKiDoi6XlsIbmnaXmqKrlkJHmianlrrnvvIzlj6rpnIDmiormnKzmnI3liqHnmoQgZ2V0L3NldC9kZWwvZGVsQnlQcmVmaXgg5o2i5oiQIFJlZGlzIOWunueOsO+8jOiwg+eUqOaWueaXoOmcgOaUueWKqOOAggogKgogKiDjgJDmt5jmsbDnrZbnlaXjgJEKICog5Lik5bGC77ya4pGgIOaDsOaAp+i/h+acn+KAlOKAlOivu+WPluaXtuWPkeeOsOW3sui/h+acn+eri+WNs+S4ouW8g+W5tuiuoeWFpSBtaXNz77ybCiAqICAgICAg4pGhIOWuuemHj+S4iumZkOKAlOKAlOi2hei/hyBtYXgg5pe25oyJ44CM5pyA5bCR5L2/55So44CN5reY5rGw77yITWFwIOeahOaPkuWFpemhuuW6j+WFheW9kyBMUlUg6ZO+77yMCiAqICAgICAgICAgZ2V0IOWRveS4reWQjumHjeaWsCBzZXQg5oqK5a6D56e75Yiw6ZO+5bC+77yJ44CCCiAqIOWPpuacieavjyA2MCDnp5LnmoTlkI7lj7DmuIXmiavvvIzpgb/lhY3lpKfph4/lhpnlhaXlkI7ov4fmnJ/plK7plb/mnJ/ljaDnlKjlhoXlrZjjgIIKICoKICog44CQ5Y2V5L6L44CRCiAqIENhY2hlTW9kdWxlIOWjsOaYjuS4uiBAR2xvYmFsKCnvvIzlhajlupTnlKjlhbHkuqvlkIzkuIDlrp7kvovvvJsKICog5Zug5q2kIGtleSDlv4XpobvluKbkuJrliqHliY3nvIDvvIjlpoIgYG9wdDprdWVycF9nb29kc2DjgIFgc2V0OnN0b2NrX25lZ2F0aXZlYO+8ie+8jAogKiDlpLHmlYjml7bmjInliY3nvIDmibnph4/liKDpmaTvvIzpgb/lhY3or6/kvKTlhbblroPmqKHlnZfnmoTnvJPlrZjjgIIKICovCkBJbmplY3RhYmxlKCkKZXhwb3J0IGNsYXNzIENhY2hlU2VydmljZSBpbXBsZW1lbnRzIE9uTW9kdWxlRGVzdHJveSB7CiAgcHJpdmF0ZSByZWFkb25seSBsb2dnZXIgPSBuZXcgTG9nZ2VyKENhY2hlU2VydmljZS5uYW1lKTsKCiAgLyoqIOe8k+WtmOS4u+S9k++8mmtleSAtPiDmnaHnm67vvJtNYXAg55qE5o+S5YWl6aG65bqP5Y2zIExSVSDpobrluo/vvIjpmJ/pppbmnIDml6fvvIkgKi8KICBwcml2YXRlIHJlYWRvbmx5IHN0b3JlID0gbmV3IE1hcDxzdHJpbmcsIHsgdmFsdWU6IGFueTsgZXhwaXJlQXQ6IG51bWJlciB9PigpOwoKICAvKiog5a656YeP5LiK6ZmQ77yM6LaF6L+H5ZCO5oyJIExSVSDmt5jmsbAgKi8KICBwcml2YXRlIHJlYWRvbmx5IG1heDogbnVtYmVyOwoKICAvKiog6buY6K6k5a2Y5rS756eS5pWw77yI6LCD55So5pa55pyq5pi+5byP5LygIHR0bCDml7bkvb/nlKjvvIkgKi8KICBwcml2YXRlIHJlYWRvbmx5IGRlZmF1bHRUdGw6IG51bWJlcjsKCiAgLyoqIOWRveS4rS/mnKrlkb3kuK0v5reY5rGw6K6h5pWw77yM5L6b6L+Q57u05o6l5Y+j6KeC5rWL57yT5a2Y5pS255uKICovCiAgcHJpdmF0ZSBoaXRzID0gMDsKICBwcml2YXRlIG1pc3NlcyA9IDA7CiAgcHJpdmF0ZSBldmljdGlvbnMgPSAwOwoKICAvKiog5ZCO5Y+w5riF5omr5a6a5pe25Zmo77yIdW5yZWYg5ZCO5LiN6Zi75aGe6L+b56iL6YCA5Ye677yJICovCiAgcHJpdmF0ZSByZWFkb25seSBzd2VlcGVyOiBOb2RlSlMuVGltZW91dDsKCiAgLyoqCiAgICog5p6E6YCg5Ye95pWw77ya6K+75Y+W546v5aKD5Y+Y6YeP6YWN572u5bm25ZCv5Yqo5riF5omr5a6a5pe25Zmo44CCCiAgICoKICAgKiDnjq/looPlj5jph4/vvJoKICAgKiAgIENBQ0hFX01BWCAgICAgICAg5p2h55uu5LiK6ZmQ77yM6buY6K6kIDIwMDAKICAgKiAgIENBQ0hFX1RUTCAgICAgICAg6buY6K6k5a2Y5rS756eS5pWw77yM6buY6K6kIDYwCiAgICogICBDQUNIRV9TV0VFUF9TRUMgIOa4heaJq+mXtOmalOenkuaVsO+8jOm7mOiupCA2MO+8iDAg6KGo56S65YWz6Zet5riF5omr77yJCiAgICovCiAgY29uc3RydWN0b3IoKSB7CiAgICB0aGlzLm1heCA9IE1hdGgubWF4KDEwMCwgTnVtYmVyKHByb2Nlc3MuZW52LkNBQ0hFX01BWCB8fCAyMDAwKSk7CiAgICB0aGlzLmRlZmF1bHRUdGwgPSBNYXRoLm1heCgxLCBOdW1iZXIocHJvY2Vzcy5lbnYuQ0FDSEVfVFRMIHx8IDYwKSk7CiAgICBjb25zdCBzd2VlcFNlYyA9IE51bWJlcihwcm9jZXNzLmVudi5DQUNIRV9TV0VFUF9TRUMgPz8gNjApOwogICAgdGhpcy5zd2VlcGVyID0gc2V0SW50ZXJ2YWwoKCkgPT4gdGhpcy5zd2VlcCgpLCBNYXRoLm1heCgxLCBzd2VlcFNlYykgKiAxMDAwKTsKICAgIC8vIHVucmVm77ya5a6a5pe25Zmo5LiN5bqU6Zi75q2iIE5vZGUg6L+b56iL6Ieq54S26YCA5Ye677yI5a655Zmo5LyY6ZuF5YGc5py65pe25Lya55So5Yiw77yJCiAgICBpZiAodHlwZW9mIHRoaXMuc3dlZXBlci51bnJlZiA9PT0gJ2Z1bmN0aW9uJykgdGhpcy5zd2VlcGVyLnVucmVmKCk7CiAgfQoKICAvKioKICAgKiDmqKHlnZfplIDmr4Hml7bmuIXnkIblrprml7blmajjgIIKICAgKiBAcmV0dXJucyDml6AKICAgKi8KICBvbk1vZHVsZURlc3Ryb3koKTogdm9pZCB7CiAgICBjbGVhckludGVydmFsKHRoaXMuc3dlZXBlcik7CiAgfQoKICAvKioKICAgKiDor7vlj5bnvJPlrZjjgIIKICAgKgogICAqIEBwYXJhbSBrZXkg57yT5a2Y6ZSu77yI5bu66K6uIGDkuJrliqHliY3nvIA65Li76ZSuYCDlvaLlvI/vvIkKICAgKiBAcmV0dXJucyDlkb3kuK3kuJTmnKrov4fmnJ/ml7bov5Tlm57nvJPlrZjlgLzvvJvlkKbliJnov5Tlm54gbnVsbAogICAqLwogIGdldDxUID0gYW55PihrZXk6IHN0cmluZyk6IFQgfCBudWxsIHsKICAgIGNvbnN0IGhpdCA9IHRoaXMuc3RvcmUuZ2V0KGtleSk7CiAgICBpZiAoIWhpdCkgewogICAgICB0aGlzLm1pc3NlcyArPSAxOwogICAgICByZXR1cm4gbnVsbDsKICAgIH0KICAgIGlmIChoaXQuZXhwaXJlQXQgPiAwICYmIGhpdC5leHBpcmVBdCA8PSBEYXRlLm5vdygpKSB7CiAgICAgIC8vIOaDsOaAp+i/h+acn++8mumhuuaJi+WIoOmZpO+8jOmBv+WFjei/h+acn+mUrue7p+e7reWNoOS9jQogICAgICB0aGlzLnN0b3JlLmRlbGV0ZShrZXkpOwogICAgICB0aGlzLm1pc3NlcyArPSAxOwogICAgICByZXR1cm4gbnVsbDsKICAgIH0KICAgIC8vIOWRveS4reWQjumHjeaWsOaPkuWFpe+8jOaKiuWug+enu+WIsCBNYXAg5bC+6YOo77yITFJV77ya5bC+6YOoPeacgOi/keS9v+eUqO+8iQogICAgdGhpcy5zdG9yZS5kZWxldGUoa2V5KTsKICAgIHRoaXMuc3RvcmUuc2V0KGtleSwgaGl0KTsKICAgIHRoaXMuaGl0cyArPSAxOwogICAgcmV0dXJuIGhpdC52YWx1ZSBhcyBUOwogIH0KCiAgLyoqCiAgICog5YaZ5YWl57yT5a2Y44CCCiAgICoKICAgKiBAcGFyYW0ga2V5IOe8k+WtmOmUrgogICAqIEBwYXJhbSB2YWx1ZSDnvJPlrZjlgLzvvIjms6jmhI/vvJrkv53lrZjnmoTmmK/lvJXnlKjvvIzosIPnlKjmlrnkuI3opoHkv67mlLnlt7LmlL7lhaXnvJPlrZjnmoTlr7nosaHvvIkKICAgKiBAcGFyYW0gdHRsIOWtmOa0u+enkuaVsO+8mzw9MCDooajnpLrmsLjkuI3ov4fmnJ/vvIjmhY7nlKjvvIzku4XpmZDpnZnmgIHlrZflhbjvvIkKICAgKiBAcmV0dXJucyDml6AKICAgKi8KICBzZXQoa2V5OiBzdHJpbmcsIHZhbHVlOiBhbnksIHR0bD86IG51bWJlcik6IHZvaWQgewogICAgY29uc3Qgc2Vjb25kcyA9IHR0bCA9PT0gdW5kZWZpbmVkID8gdGhpcy5kZWZhdWx0VHRsIDogdHRsOwogICAgaWYgKCF0aGlzLnN0b3JlLmhhcyhrZXkpICYmIHRoaXMuc3RvcmUuc2l6ZSA+PSB0aGlzLm1heCkgewogICAgICAvLyDlrrnph4/lt7Lmu6HvvJrmt5jmsbDpmJ/pppbvvIjmnIDkuYXmnKrkvb/nlKjvvInnmoTkuIDmnaEKICAgICAgY29uc3Qgb2xkZXN0ID0gdGhpcy5zdG9yZS5rZXlzKCkubmV4dCgpLnZhbHVlIGFzIHN0cmluZyB8IHVuZGVmaW5lZDsKICAgICAgaWYgKG9sZGVzdCAhPT0gdW5kZWZpbmVkKSB7CiAgICAgICAgdGhpcy5zdG9yZS5kZWxldGUob2xkZXN0KTsKICAgICAgICB0aGlzLmV2aWN0aW9ucyArPSAxOwogICAgICB9CiAgICB9CiAgICAvLyDlhYjliKDlkI7mj5LvvJrkv53or4HlkIwga2V5IOabtOaWsOaXtuS5n+enu+WKqOWIsCBMUlUg6ZO+5bC+CiAgICB0aGlzLnN0b3JlLmRlbGV0ZShrZXkpOwogICAgdGhpcy5zdG9yZS5zZXQoa2V5LCB7IHZhbHVlLCBleHBpcmVBdDogc2Vjb25kcyA+IDAgPyBEYXRlLm5vdygpICsgc2Vjb25kcyAqIDEwMDAgOiAwIH0pOwogIH0KCiAgLyoqCiAgICog5Yig6Zmk5Y2V5Liq57yT5a2Y6ZSu44CCCiAgICogQHBhcmFtIGtleSDnvJPlrZjplK4KICAgKiBAcmV0dXJucyDmmK/lkKbnoa7lrp7liKDpmaTkuobmn5DkuIDpobkKICAgKi8KICBkZWwoa2V5OiBzdHJpbmcpOiBib29sZWFuIHsKICAgIHJldHVybiB0aGlzLnN0b3JlLmRlbGV0ZShrZXkpOwogIH0KCiAgLyoqCiAgICog5oyJ5YmN57yA5om56YeP5Yig6Zmk77yI5YaZ5pON5L2c5ZCO5aSx5pWI55u45YWz57yT5a2Y55qE5Li76KaB5omL5q6177yJ44CCCiAgICoKICAgKiBAcGFyYW0gcHJlZml4IOWJjee8gO+8jOS+i+WmgiBgb3B0Omt1ZXJwX2dvb2RzYAogICAqIEByZXR1cm5zIOiiq+WIoOmZpOeahOadoeebruaVsOmHjwogICAqLwogIGRlbEJ5UHJlZml4KHByZWZpeDogc3RyaW5nKTogbnVtYmVyIHsKICAgIGxldCBuID0gMDsKICAgIGZvciAoY29uc3QgayBvZiBbLi4udGhpcy5zdG9yZS5rZXlzKCldKSB7CiAgICAgIGlmIChrLnN0YXJ0c1dpdGgocHJlZml4KSkgewogICAgICAgIHRoaXMuc3RvcmUuZGVsZXRlKGspOwogICAgICAgIG4gKz0gMTsKICAgICAgfQogICAgfQogICAgcmV0dXJuIG47CiAgfQoKICAvKioKICAgKiDmuIXnqbrlhajpg6jnvJPlrZjvvIjov5Dnu7TmiYvliqjlubLpooTnlKjvvInjgIIKICAgKiBAcmV0dXJucyDooqvmuIXnqbrnmoTmnaHnm67mlbDph48KICAgKi8KICBjbGVhcigpOiBudW1iZXIgewogICAgY29uc3QgbiA9IHRoaXMuc3RvcmUuc2l6ZTsKICAgIHRoaXMuc3RvcmUuY2xlYXIoKTsKICAgIHJldHVybiBuOwogIH0KCiAgLyoqCiAgICog6K+757yT5a2Y77yM5pyq5ZG95Lit5YiZ5omn6KGMIGxvYWRlciDlubblm57loavvvIjmnIDluLjnlKjnmoTlhaXlj6PvvInjgIIKICAgKgogICAqIOazqOaEj++8mmxvYWRlciDmipvplJnml7bkuI3lhpnnvJPlrZjvvIzlvILluLjljp/moLfkuIrmipvigJTigJQKICAgKiDkuI3og73miorlpLHotKXnu5PmnpznvJPlrZjkvY/vvIzlkKbliJnkuIDmrKHmlbDmja7lupPmipbliqjkvJrlr7zoh7TmjqXlj6PlnKggVFRMIOWGheaMgee7reaKpemUmeOAggogICAqCiAgICogQHBhcmFtIGtleSDnvJPlrZjplK4KICAgKiBAcGFyYW0gdHRsIOWtmOa0u+enkuaVsAogICAqIEBwYXJhbSBsb2FkZXIg5pyq5ZG95Lit5pe255qE5Yqg6L295Ye95pWwCiAgICogQHJldHVybnMgbG9hZGVyIOeahOi/lOWbnuWAvOaIlue8k+WtmOWAvAogICAqLwogIGFzeW5jIHdyYXA8VD4oa2V5OiBzdHJpbmcsIHR0bDogbnVtYmVyLCBsb2FkZXI6ICgpID0+IFByb21pc2U8VD4pOiBQcm9taXNlPFQ+IHsKICAgIGNvbnN0IGNhY2hlZCA9IHRoaXMuZ2V0PFQ+KGtleSk7CiAgICBpZiAoY2FjaGVkICE9PSBudWxsICYmIGNhY2hlZCAhPT0gdW5kZWZpbmVkKSByZXR1cm4gY2FjaGVkOwogICAgY29uc3QgdmFsdWUgPSBhd2FpdCBsb2FkZXIoKTsKICAgIHRoaXMuc2V0KGtleSwgdmFsdWUsIHR0bCk7CiAgICByZXR1cm4gdmFsdWU7CiAgfQoKICAvKioKICAgKiDnu5/orqHkv6Hmga/vvIjov5Dnu7TmjqXlj6MgL3N5c3RlbS9jYWNoZS9zdGF0cyDkvb/nlKjvvInjgIIKICAgKgogICAqIEByZXR1cm5zIOadoeebruaVsOOAgeWuuemHj+OAgeWRveS4reeOh+S4juWQhOexu+iuoeaVsAogICAqLwogIHN0YXRzKCkgewogICAgY29uc3QgdG90YWwgPSB0aGlzLmhpdHMgKyB0aGlzLm1pc3NlczsKICAgIHJldHVybiB7CiAgICAgIHNpemU6IHRoaXMuc3RvcmUuc2l6ZSwKICAgICAgbWF4OiB0aGlzLm1heCwKICAgICAgZGVmYXVsdFR0bDogdGhpcy5kZWZhdWx0VHRsLAogICAgICBoaXRzOiB0aGlzLmhpdHMsCiAgICAgIG1pc3NlczogdGhpcy5taXNzZXMsCiAgICAgIGV2aWN0aW9uczogdGhpcy5ldmljdGlvbnMsCiAgICAgIGhpdFJhdGU6IHRvdGFsID8gTnVtYmVyKCh0aGlzLmhpdHMgLyB0b3RhbCkudG9GaXhlZCg0KSkgOiAwLAogICAgfTsKICB9CgogIC8qKgogICAqIOWQjuWPsOa4heaJq++8mumBjeWOhuWIoOmZpOW3sui/h+acn+adoeebruOAggogICAqCiAgICog5Li65LuA5LmI6ZyA6KaB5a6D77ya5oOw5oCn6L+H5pyf5Y+q5Zyo44CM5pyJ5Lq66K+76L+Z5LiqIGtleeOAjeaXtueUn+aViO+8jAogICAqIOWkp+mHj+S4gOasoeaApyBrZXnvvIjlpoLmjInmn6Xor6LmnaHku7bmi7znmoTkuIvmi4nnvJPlrZjvvInlhpnlhaXlkI7lj6/og73lho3ml6Dkurror7vlj5bvvIwKICAgKiDkvJrkuIDnm7TljaDnnYDlhoXlrZjvvIzlv4XpobvpnaDlrprml7bmuIXmiavlm57mlLbjgIIKICAgKgogICAqIEByZXR1cm5zIOaXoAogICAqLwogIHByaXZhdGUgc3dlZXAoKTogdm9pZCB7CiAgICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwogICAgbGV0IG4gPSAwOwogICAgZm9yIChjb25zdCBbaywgdl0gb2YgdGhpcy5zdG9yZSkgewogICAgICBpZiAodi5leHBpcmVBdCA+IDAgJiYgdi5leHBpcmVBdCA8PSBub3cpIHsKICAgICAgICB0aGlzLnN0b3JlLmRlbGV0ZShrKTsKICAgICAgICBuICs9IDE7CiAgICAgIH0KICAgIH0KICAgIGlmIChuID4gMCkgdGhpcy5sb2dnZXIuZGVidWcoYOe8k+WtmOa4heaJq++8muWbnuaUtiAke259IOadoei/h+acn+aVsOaNru+8jOW9k+WJjSAke3RoaXMuc3RvcmUuc2l6ZX0g5p2hYCk7CiAgfQp9Cg==
+import { Injectable, Logger, OnModuleDestroy } from '@nestjs/common';
+
+/**
+ * 内存缓存服务（进程内 LRU + TTL）。
+ *
+ * 【为什么不用 Redis】
+ * 本项目是单机部署的中小体量 ERP，缓存的对象只有三类：系统参数、下拉选项、权限节点。
+ * 引入 Redis 会多出一个必须运维的组件，而收益仅是「多实例共享」——
+ * 当前部署形态没有多实例，因此用进程内缓存即可（零依赖、零运维）。
+ * 若将来横向扩容，只需把本服务的 get/set/del/delByPrefix 换成 Redis 实现，调用方无需改动。
+ *
+ * 【淘汰策略】
+ * 两层：① 惰性过期——读取时发现已过期立即丢弃并计入 miss；
+ *      ② 容量上限——超过 max 时按「最少使用」淘汰（Map 的插入顺序充当 LRU 链，
+ *         get 命中后重新 set 把它移到链尾）。
+ * 另有每 60 秒的后台清扫，避免大量写入后过期键长期占用内存。
+ *
+ * 【单例】
+ * CacheModule 声明为 @Global()，全应用共享同一实例；
+ * 因此 key 必须带业务前缀（如 `opt:kuerp_goods`、`set:stock_negative`），
+ * 失效时按前缀批量删除，避免误伤其它模块的缓存。
+ */
+@Injectable()
+export class CacheService implements OnModuleDestroy {
+  private readonly logger = new Logger(CacheService.name);
+
+  /** 缓存主体：key -> 条目；Map 的插入顺序即 LRU 顺序（队首最旧） */
+  private readonly store = new Map<string, { value: any; expireAt: number }>();
+
+  /** 容量上限，超过后按 LRU 淘汰 */
+  private readonly max: number;
+
+  /** 默认存活秒数（调用方未显式传 ttl 时使用） */
+  private readonly defaultTtl: number;
+
+  /** 命中/未命中/淘汰计数，供运维接口观测缓存收益 */
+  private hits = 0;
+  private misses = 0;
+  private evictions = 0;
+
+  /** 后台清扫定时器（unref 后不阻塞进程退出） */
+  private readonly sweeper: NodeJS.Timeout;
+
+  /**
+   * 构造函数：读取环境变量配置并启动清扫定时器。
+   *
+   * 环境变量：
+   *   CACHE_MAX        条目上限，默认 2000
+   *   CACHE_TTL        默认存活秒数，默认 60
+   *   CACHE_SWEEP_SEC  清扫间隔秒数，默认 60（0 表示关闭清扫）
+   */
+  constructor() {
+    this.max = Math.max(100, Number(process.env.CACHE_MAX || 2000));
+    this.defaultTtl = Math.max(1, Number(process.env.CACHE_TTL || 60));
+    const sweepSec = Number(process.env.CACHE_SWEEP_SEC ?? 60);
+    this.sweeper = setInterval(() => this.sweep(), Math.max(1, sweepSec) * 1000);
+    // unref：定时器不应阻止 Node 进程自然退出（容器优雅停机时会用到）
+    if (typeof this.sweeper.unref === 'function') this.sweeper.unref();
+  }
+
+  /**
+   * 模块销毁时清理定时器。
+   * @returns 无
+   */
+  onModuleDestroy(): void {
+    clearInterval(this.sweeper);
+  }
+
+  /**
+   * 读取缓存。
+   *
+   * @param key 缓存键（建议 `业务前缀:主键` 形式）
+   * @returns 命中且未过期时返回缓存值；否则返回 null
+   */
+  get<T = any>(key: string): T | null {
+    const hit = this.store.get(key);
+    if (!hit) {
+      this.misses += 1;
+      return null;
+    }
+    if (hit.expireAt > 0 && hit.expireAt <= Date.now()) {
+      // 惰性过期：顺手删除，避免过期键继续占位
+      this.store.delete(key);
+      this.misses += 1;
+      return null;
+    }
+    // 命中后重新插入，把它移到 Map 尾部（LRU：尾部=最近使用）
+    this.store.delete(key);
+    this.store.set(key, hit);
+    this.hits += 1;
+    return hit.value as T;
+  }
+
+  /**
+   * 写入缓存。
+   *
+   * @param key 缓存键
+   * @param value 缓存值（注意：保存的是引用，调用方不要修改已放入缓存的对象）
+   * @param ttl 存活秒数；<=0 表示永不过期（慎用，仅限静态字典）
+   * @returns 无
+   */
+  set(key: string, value: any, ttl?: number): void {
+    const seconds = ttl === undefined ? this.defaultTtl : ttl;
+    if (!this.store.has(key) && this.store.size >= this.max) {
+      // 容量已满：淘汰队首（最久未使用）的一条
+      const oldest = this.store.keys().next().value as string | undefined;
+      if (oldest !== undefined) {
+        this.store.delete(oldest);
+        this.evictions += 1;
+      }
+    }
+    // 先删后插：保证同 key 更新时也移动到 LRU 链尾
+    this.store.delete(key);
+    this.store.set(key, { value, expireAt: seconds > 0 ? Date.now() + seconds * 1000 : 0 });
+  }
+
+  /**
+   * 删除单个缓存键。
+   * @param key 缓存键
+   * @returns 是否确实删除了某一项
+   */
+  del(key: string): boolean {
+    return this.store.delete(key);
+  }
+
+  /**
+   * 按前缀批量删除（写操作后失效相关缓存的主要手段）。
+   *
+   * @param prefix 前缀，例如 `opt:kuerp_goods`
+   * @returns 被删除的条目数量
+   */
+  delByPrefix(prefix: string): number {
+    let n = 0;
+    for (const k of [...this.store.keys()]) {
+      if (k.startsWith(prefix)) {
+        this.store.delete(k);
+        n += 1;
+      }
+    }
+    return n;
+  }
+
+  /**
+   * 清空全部缓存（运维手动干预用）。
+   * @returns 被清空的条目数量
+   */
+  clear(): number {
+    const n = this.store.size;
+    this.store.clear();
+    return n;
+  }
+
+  /**
+   * 读缓存，未命中则执行 loader 并回填（最常用的入口）。
+   *
+   * 注意：loader 抛错时不写缓存，异常原样上抛——
+   * 不能把失败结果缓存住，否则一次数据库抖动会导致接口在 TTL 内持续报错。
+   *
+   * @param key 缓存键
+   * @param ttl 存活秒数
+   * @param loader 未命中时的加载函数
+   * @returns loader 的返回值或缓存值
+   */
+  async wrap<T>(key: string, ttl: number, loader: () => Promise<T>): Promise<T> {
+    const cached = this.get<T>(key);
+    if (cached !== null && cached !== undefined) return cached;
+    const value = await loader();
+    this.set(key, value, ttl);
+    return value;
+  }
+
+  /**
+   * 统计信息（运维接口 /system/cache/stats 使用）。
+   *
+   * @returns 条目数、容量、命中率与各类计数
+   */
+  stats() {
+    const total = this.hits + this.misses;
+    return {
+      size: this.store.size,
+      max: this.max,
+      defaultTtl: this.defaultTtl,
+      hits: this.hits,
+      misses: this.misses,
+      evictions: this.evictions,
+      hitRate: total ? Number((this.hits / total).toFixed(4)) : 0,
+    };
+  }
+
+  /**
+   * 后台清扫：遍历删除已过期条目。
+   *
+   * 为什么需要它：惰性过期只在「有人读这个 key」时生效，
+   * 大量一次性 key（如按查询条件拼的下拉缓存）写入后可能再无人读取，
+   * 会一直占着内存，必须靠定时清扫回收。
+   *
+   * @returns 无
+   */
+  private sweep(): void {
+    const now = Date.now();
+    let n = 0;
+    for (const [k, v] of this.store) {
+      if (v.expireAt > 0 && v.expireAt <= now) {
+        this.store.delete(k);
+        n += 1;
+      }
+    }
+    if (n > 0) this.logger.debug(`缓存清扫：回收 ${n} 条过期数据，当前 ${this.store.size} 条`);
+  }
+}

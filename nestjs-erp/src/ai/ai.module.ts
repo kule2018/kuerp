@@ -1,1 +1,65 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBUeXBlT3JtTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy90eXBlb3JtJzsKaW1wb3J0IHsgVGFibGVNb2R1bGUgfSBmcm9tICcuLi9rdWVycC90YWJsZS90YWJsZS5tb2R1bGUnOwppbXBvcnQgeyBBaU1vZGVsQ29uZmlnIH0gZnJvbSAnLi9lbnRpdGllcy9haS1tb2RlbC1jb25maWcuZW50aXR5JzsKaW1wb3J0IHsgQWlQcm9tcHRUZW1wbGF0ZSB9IGZyb20gJy4vZW50aXRpZXMvYWktcHJvbXB0LXRlbXBsYXRlLmVudGl0eSc7CmltcG9ydCB7IEFpQ2FsbExvZyB9IGZyb20gJy4vZW50aXRpZXMvYWktY2FsbC1sb2cuZW50aXR5JzsKaW1wb3J0IHsgQWlUb29sQ2FsbExvZyB9IGZyb20gJy4vZW50aXRpZXMvYWktdG9vbC1jYWxsLWxvZy5lbnRpdHknOwppbXBvcnQgeyBBaU1vZGVsQ29uZmlnU2VydmljZSB9IGZyb20gJy4vYWktbW9kZWwtY29uZmlnLnNlcnZpY2UnOwppbXBvcnQgeyBQcm9tcHRUZW1wbGF0ZVNlcnZpY2UgfSBmcm9tICcuL3Byb21wdC10ZW1wbGF0ZS5zZXJ2aWNlJzsKaW1wb3J0IHsgQ2hhdE1vZGVsU2VydmljZSB9IGZyb20gJy4vY2hhdC1tb2RlbC5zZXJ2aWNlJzsKaW1wb3J0IHsgQ2hhdENsaWVudFNlcnZpY2UgfSBmcm9tICcuL2NoYXQtY2xpZW50JzsKaW1wb3J0IHsgQWdlbnRTZXJ2aWNlIH0gZnJvbSAnLi9hZ2VudC5zZXJ2aWNlJzsKaW1wb3J0IHsgSnNvbk91dHB1dFNlcnZpY2UgfSBmcm9tICcuL2pzb24tb3V0cHV0LnNlcnZpY2UnOwppbXBvcnQgeyBLZXl3b3JkUmV0cmlldmFsU2VydmljZSB9IGZyb20gJy4va2V5d29yZC1yZXRyaWV2YWwuc2VydmljZSc7CmltcG9ydCB7IEFpTG9nU2VydmljZSB9IGZyb20gJy4vYWktbG9nLnNlcnZpY2UnOwppbXBvcnQgeyBUb29sUmVnaXN0cnkgfSBmcm9tICcuL3Rvb2wucmVnaXN0cnknOwppbXBvcnQgeyBFcnBEZW1vVG9vbHMgfSBmcm9tICcuL2RlbW8tdG9vbHMnOwppbXBvcnQgeyBCaXpBaVRvb2xzIH0gZnJvbSAnLi9iaXotdG9vbHMnOwppbXBvcnQgeyBUb29sQm9vdHN0cmFwIH0gZnJvbSAnLi90b29sLWJvb3RzdHJhcCc7CmltcG9ydCB7IEFpQ29udHJvbGxlciB9IGZyb20gJy4vYWkuY29udHJvbGxlcic7CmltcG9ydCB7IFNob3BNb2R1bGUgfSBmcm9tICcuLi9zaG9wL3Nob3AubW9kdWxlJzsKaW1wb3J0IHsgQXV0aE1vZHVsZSB9IGZyb20gJy4uL2F1dGgvYXV0aC5tb2R1bGUnOwppbXBvcnQgeyBTaG9wT3JKd3RHdWFyZCB9IGZyb20gJy4uL2NvbW1vbi9ndWFyZHMvc2hvcC1vci1qd3QuZ3VhcmQnOwoKLyoqCiAqIEFJIOiDveWKm+aooeWdl++8muetieS7tyBTcHJpbmcgQUkg5YWo5aWX6IO95Yqb77yI5qih5Z6L6YWN572u5bqTIC8gUHJvbXB0IOaooeadvyAvIEBUb29sIC8gVG9vbENhbGxiYWNrcyAvIEFnZW50IC8g5YWz6ZSu6K+N5qOA57SiIC8gSlNPTiDovpPlh7ogLyDosIPnlKjml6Xlv5fvvInjgIIKICog5a+85Ye655qE5pyN5Yqh5Y+v5L6bIGt1ZXJwIOS4muWKoeaooeWdl+ebtOaOpeWkjeeUqO+8iOWmguWNleaNruWuoeaguOaXtuiwg+eUqCBBSeOAgeaKpeihqCBBSSDop6Por7vnrYnvvInjgIIKICovCkBNb2R1bGUoewogIGltcG9ydHM6IFsKICAgIFR5cGVPcm1Nb2R1bGUuZm9yRmVhdHVyZShbQWlNb2RlbENvbmZpZywgQWlQcm9tcHRUZW1wbGF0ZSwgQWlDYWxsTG9nLCBBaVRvb2xDYWxsTG9nXSksCiAgICBUeXBlT3JtTW9kdWxlLAogICAgVGFibGVNb2R1bGUsCiAgICBTaG9wTW9kdWxlLAogICAgQXV0aE1vZHVsZSwKICBdLAogIHByb3ZpZGVyczogWwogICAgQWlNb2RlbENvbmZpZ1NlcnZpY2UsCiAgICBQcm9tcHRUZW1wbGF0ZVNlcnZpY2UsCiAgICBDaGF0TW9kZWxTZXJ2aWNlLAogICAgQ2hhdENsaWVudFNlcnZpY2UsCiAgICBBZ2VudFNlcnZpY2UsCiAgICBKc29uT3V0cHV0U2VydmljZSwKICAgIEtleXdvcmRSZXRyaWV2YWxTZXJ2aWNlLAogICAgQWlMb2dTZXJ2aWNlLAogICAgVG9vbFJlZ2lzdHJ5LAogICAgRXJwRGVtb1Rvb2xzLAogICAgQml6QWlUb29scywKICAgIFRvb2xCb290c3RyYXAsCiAgICBTaG9wT3JKd3RHdWFyZCwKICBdLAogIGNvbnRyb2xsZXJzOiBbQWlDb250cm9sbGVyXSwKICBleHBvcnRzOiBbCiAgICBUb29sUmVnaXN0cnksCiAgICBDaGF0Q2xpZW50U2VydmljZSwKICAgIEFnZW50U2VydmljZSwKICAgIEpzb25PdXRwdXRTZXJ2aWNlLAogICAgS2V5d29yZFJldHJpZXZhbFNlcnZpY2UsCiAgICBBaU1vZGVsQ29uZmlnU2VydmljZSwKICAgIFByb21wdFRlbXBsYXRlU2VydmljZSwKICAgIEFpTG9nU2VydmljZSwKICAgIEJpekFpVG9vbHMsCiAgXSwKfSkKZXhwb3J0IGNsYXNzIEFpTW9kdWxlIHt9Cg==
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { TableModule } from '../kuerp/table/table.module';
+import { AiModelConfig } from './entities/ai-model-config.entity';
+import { AiPromptTemplate } from './entities/ai-prompt-template.entity';
+import { AiCallLog } from './entities/ai-call-log.entity';
+import { AiToolCallLog } from './entities/ai-tool-call-log.entity';
+import { AiModelConfigService } from './ai-model-config.service';
+import { PromptTemplateService } from './prompt-template.service';
+import { ChatModelService } from './chat-model.service';
+import { ChatClientService } from './chat-client';
+import { AgentService } from './agent.service';
+import { JsonOutputService } from './json-output.service';
+import { KeywordRetrievalService } from './keyword-retrieval.service';
+import { AiLogService } from './ai-log.service';
+import { ToolRegistry } from './tool.registry';
+import { ErpDemoTools } from './demo-tools';
+import { BizAiTools } from './biz-tools';
+import { ToolBootstrap } from './tool-bootstrap';
+import { AiController } from './ai.controller';
+import { ShopModule } from '../shop/shop.module';
+import { AuthModule } from '../auth/auth.module';
+import { ShopOrJwtGuard } from '../common/guards/shop-or-jwt.guard';
+
+/**
+ * AI 能力模块：等价 Spring AI 全套能力（模型配置库 / Prompt 模板 / @Tool / ToolCallbacks / Agent / 关键词检索 / JSON 输出 / 调用日志）。
+ * 导出的服务可供 kuerp 业务模块直接复用（如单据审核时调用 AI、报表 AI 解读等）。
+ */
+@Module({
+  imports: [
+    TypeOrmModule.forFeature([AiModelConfig, AiPromptTemplate, AiCallLog, AiToolCallLog]),
+    TypeOrmModule,
+    TableModule,
+    ShopModule,
+    AuthModule,
+  ],
+  providers: [
+    AiModelConfigService,
+    PromptTemplateService,
+    ChatModelService,
+    ChatClientService,
+    AgentService,
+    JsonOutputService,
+    KeywordRetrievalService,
+    AiLogService,
+    ToolRegistry,
+    ErpDemoTools,
+    BizAiTools,
+    ToolBootstrap,
+    ShopOrJwtGuard,
+  ],
+  controllers: [AiController],
+  exports: [
+    ToolRegistry,
+    ChatClientService,
+    AgentService,
+    JsonOutputService,
+    KeywordRetrievalService,
+    AiModelConfigService,
+    PromptTemplateService,
+    AiLogService,
+    BizAiTools,
+  ],
+})
+export class AiModule {}

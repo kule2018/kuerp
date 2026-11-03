@@ -1,1 +1,73 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgRm9yYmlkZGVuRXhjZXB0aW9uLCBHZXQsIFBvc3QsIFF1ZXJ5LCBVc2VHdWFyZHMgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7CmltcG9ydCB7IEp3dEF1dGhHdWFyZCB9IGZyb20gJy4uL2d1YXJkcy9qd3QtYXV0aC5ndWFyZCc7CmltcG9ydCB7IEN1cnJlbnRVc2VyIH0gZnJvbSAnLi4vZGVjb3JhdG9ycy9jdXJyZW50LXVzZXIuZGVjb3JhdG9yJzsKaW1wb3J0IHsgb2sgfSBmcm9tICcuLi9yZXNwb25zZS5pbnRlcmNlcHRvcic7CmltcG9ydCB7IENhY2hlU2VydmljZSB9IGZyb20gJy4vY2FjaGUuc2VydmljZSc7CgovKioKICog57yT5a2Y6L+Q57u05o6l5Y+j44CCCiAqCiAqIOi3r+eUseaMguWcqCAvc3lzdGVtL2NhY2hlIOiAjOS4jeaYryAva3VlcnAvLi4u77yaCiAqIOe8k+WtmOS4jeaYr+S4muWKoeihqO+8jOi1sCAva3VlcnAvIOS8muiiqyBSYmFjR3VhcmQg5b2T5oiQIGt1ZXJwX2NhY2hlIOihqOagoemqjOiAjOivr+aLpuaIquOAggogKgogKiDku4XotoXnuqfnrqHnkIblkZjlj6/orr/pl67vvJrmuIXnvJPlrZjkvJrnn63ml7bmiqzpq5jmlbDmja7lupPljovlipvvvIwKICog5pmu6YCa6KeS6Imy6K+v54K55Lya6YCg5oiQ5YWo5bGA5oCn6IO95oqW5Yqo77yM5Zug5q2k5LiN5pS+5byA44CCCiAqLwpAQ29udHJvbGxlcignc3lzdGVtL2NhY2hlJykKQFVzZUd1YXJkcyhKd3RBdXRoR3VhcmQpCmV4cG9ydCBjbGFzcyBDYWNoZUNvbnRyb2xsZXIgewogIGNvbnN0cnVjdG9yKHByaXZhdGUgcmVhZG9ubHkgY2FjaGU6IENhY2hlU2VydmljZSkge30KCiAgLyoqCiAgICog5p+l6K+i57yT5a2Y6L+Q6KGM54q25oCB77yI5a656YeP44CB5ZG95Lit546H44CB5reY5rGw5qyh5pWw77yJ44CCCiAgICogQHBhcmFtIHVzZXIg5b2T5YmN55m75b2V55So5oi3CiAgICogQHJldHVybnMg57uf6K6h5a+56LGhCiAgICovCiAgQEdldCgnc3RhdHMnKQogIHN0YXRzKEBDdXJyZW50VXNlcigpIHVzZXI6IGFueSkgewogICAgdGhpcy5hc3NlcnRTdXBlckFkbWluKHVzZXIpOwogICAgcmV0dXJuIG9rKHRoaXMuY2FjaGUuc3RhdHMoKSk7CiAgfQoKICAvKioKICAgKiDmuIXnqbrlhajpg6jnvJPlrZjjgIIKICAgKgogICAqIOS9v+eUqOWcuuaZr++8muaUueS6huezu+e7n+WPguaVsOWNtOS4jeaDs+etiSBUVEwg6Ieq54S26L+H5pyf77ybCiAgICog5oiW5oCA55aR5p+Q5aSE57yT5a2Y6ISP6K+75pe255qE5omL5Yqo5YWc5bqV44CCCiAgICoKICAgKiBAcGFyYW0gdXNlciDlvZPliY3nmbvlvZXnlKjmiLcKICAgKiBAcmV0dXJucyB7IGNsZWFyZWQ6IOiiq+a4heepuueahOadoeebruaVsCB9CiAgICovCiAgQFBvc3QoJ2NsZWFyJykKICBjbGVhcihAQ3VycmVudFVzZXIoKSB1c2VyOiBhbnkpIHsKICAgIHRoaXMuYXNzZXJ0U3VwZXJBZG1pbih1c2VyKTsKICAgIGNvbnN0IGNsZWFyZWQgPSB0aGlzLmNhY2hlLmNsZWFyKCk7CiAgICByZXR1cm4gb2soeyBjbGVhcmVkIH0pOwogIH0KCiAgLyoqCiAgICog5oyJ5YmN57yA5aSx5pWI57yT5a2Y77yI5L6L5aaC5Y+q5riF5p+Q5Liq6KGo55qE5LiL5ouJ6YCJ6aG577yJ44CCCiAgICoKICAgKiBAcGFyYW0gcHJlZml4IOWJjee8gO+8jOWmgiBgb3B0Omt1ZXJwX2dvb2RzYAogICAqIEBwYXJhbSB1c2VyIOW9k+WJjeeZu+W9leeUqOaItwogICAqIEByZXR1cm5zIHsgcmVtb3ZlZDog6KKr5Yig6Zmk55qE5p2h55uu5pWwIH0KICAgKi8KICBAUG9zdCgnZXZpY3QnKQogIGV2aWN0KEBRdWVyeSgncHJlZml4JykgcHJlZml4OiBzdHJpbmcsIEBDdXJyZW50VXNlcigpIHVzZXI6IGFueSkgewogICAgdGhpcy5hc3NlcnRTdXBlckFkbWluKHVzZXIpOwogICAgY29uc3QgcCA9IFN0cmluZyhwcmVmaXggfHwgJycpLnRyaW0oKTsKICAgIC8vIOepuuWJjee8gOetieS7t+S6jua4heW6k++8jOW/hemhu+aYvuW8j+i1sCAvY2xlYXLvvIzpgb/lhY3or6/mk43kvZwKICAgIGlmICghcCkgdGhyb3cgbmV3IEZvcmJpZGRlbkV4Y2VwdGlvbigncHJlZml4IOS4jeiDveS4uuepuu+8jOa4heepuuWFqOmDqOivt+iwg+eUqCAvc3lzdGVtL2NhY2hlL2NsZWFyJyk7CiAgICByZXR1cm4gb2soeyByZW1vdmVkOiB0aGlzLmNhY2hlLmRlbEJ5UHJlZml4KHApIH0pOwogIH0KCiAgLyoqCiAgICog5LuF6LaF566h5Y+v6K6/6Zeu55qE5pat6KiA44CCCiAgICogQHBhcmFtIHVzZXIg5b2T5YmN55m75b2V55So5oi3CiAgICovCiAgcHJpdmF0ZSBhc3NlcnRTdXBlckFkbWluKHVzZXI6IGFueSk6IHZvaWQgewogICAgaWYgKE51bWJlcih1c2VyPy5pZCkgIT09IDEpIHsKICAgICAgdGhyb3cgbmV3IEZvcmJpZGRlbkV4Y2VwdGlvbign5LuF6LaF57qn566h55CG5ZGY5Y+v5pON5L2c57yT5a2YJyk7CiAgICB9CiAgfQp9Cg==
+import { Controller, ForbiddenException, Get, Post, Query, UseGuards } from '@nestjs/common';
+import { JwtAuthGuard } from '../guards/jwt-auth.guard';
+import { CurrentUser } from '../decorators/current-user.decorator';
+import { ok } from '../response.interceptor';
+import { CacheService } from './cache.service';
+
+/**
+ * 缓存运维接口。
+ *
+ * 路由挂在 /system/cache 而不是 /kuerp/...：
+ * 缓存不是业务表，走 /kuerp/ 会被 RbacGuard 当成 kuerp_cache 表校验而误拦截。
+ *
+ * 仅超级管理员可访问：清缓存会短时抬高数据库压力，
+ * 普通角色误点会造成全局性能抖动，因此不放开。
+ */
+@Controller('system/cache')
+@UseGuards(JwtAuthGuard)
+export class CacheController {
+  constructor(private readonly cache: CacheService) {}
+
+  /**
+   * 查询缓存运行状态（容量、命中率、淘汰次数）。
+   * @param user 当前登录用户
+   * @returns 统计对象
+   */
+  @Get('stats')
+  stats(@CurrentUser() user: any) {
+    this.assertSuperAdmin(user);
+    return ok(this.cache.stats());
+  }
+
+  /**
+   * 清空全部缓存。
+   *
+   * 使用场景：改了系统参数却不想等 TTL 自然过期；
+   * 或怀疑某处缓存脏读时的手动兜底。
+   *
+   * @param user 当前登录用户
+   * @returns { cleared: 被清空的条目数 }
+   */
+  @Post('clear')
+  clear(@CurrentUser() user: any) {
+    this.assertSuperAdmin(user);
+    const cleared = this.cache.clear();
+    return ok({ cleared });
+  }
+
+  /**
+   * 按前缀失效缓存（例如只清某个表的下拉选项）。
+   *
+   * @param prefix 前缀，如 `opt:kuerp_goods`
+   * @param user 当前登录用户
+   * @returns { removed: 被删除的条目数 }
+   */
+  @Post('evict')
+  evict(@Query('prefix') prefix: string, @CurrentUser() user: any) {
+    this.assertSuperAdmin(user);
+    const p = String(prefix || '').trim();
+    // 空前缀等价于清库，必须显式走 /clear，避免误操作
+    if (!p) throw new ForbiddenException('prefix 不能为空，清空全部请调用 /system/cache/clear');
+    return ok({ removed: this.cache.delByPrefix(p) });
+  }
+
+  /**
+   * 仅超管可访问的断言。
+   * @param user 当前登录用户
+   */
+  private assertSuperAdmin(user: any): void {
+    if (Number(user?.id) !== 1) {
+      throw new ForbiddenException('仅超级管理员可操作缓存');
+    }
+  }
+}

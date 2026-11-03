@@ -1,1 +1,146 @@
-IyDmnrbmnoTor6bop6MNCg0K5pys5paH5qGj6K+05piO6L+b6ZSA5a2YIEVSUCDlvIDmupDniYjnmoTmlbTkvZPmnrbmnoTjgIHmqKHlnZfogYzotKPkuI7mioDmnK/opoHngrnjgILphY3lpZfmjqXlj6PmuIXljZXop4EgYG5lc3Rqcy1lcnAvZG9jcy9BUEkubWRg44CCDQoNCi0tLQ0KDQojIyDkuIDjgIHmlbTkvZPmnrbmnoQNCg0KYGBgDQrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAgICAgICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJAgICAgICDilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJANCuKUgiAgIFBDIOeuoeeQhuWQjuWPsCAgICAgICDilIIgICAgICDilIIgICDnp7vliqjorqLotKfpgJogICAgICAgIOKUgiAgICAgIOKUgiAgIOesrOS4ieaWueezu+e7nyAgICAgICAg4pSCDQrilIIgICAodnVlMy1lcnApICAgICAgIOKUgiAgICAgIOKUgiAgKFVuaWFwcCDlsI/nqIvluo8pICAg4pSCICAgICAg4pSCICAo5byA5pS+IEFQSSDlr7nmjqUpICAg4pSCDQrilIIgICBWdWUzICsgZHMg57uE5Lu25bqTICDilIIgICAgICDilIIgIHVWaWV3IFVJICAgICAgICAgIOKUgiAgICAgIOKUgiAgICAgICAgICAgICAgICAgICAg4pSCDQrilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilKzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJggICAgICDilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilKzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJggICAgICDilJTilIDilIDilIDilIDilIDilIDilIDilIDilIDilKzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJgNCiAgICAgICAgICDilIIgIC9rdWVycCAvYWkgL2F1dGggICAgICAgICDilIIgIC9zaG9wLyogICAgICAgICAgICAgICAgICDilIIgIC9vcGVuYXBpL3RoaXJkLyoNCiAgICAgICAgICDilIIgIC9zeXN0ZW0gL2FwaSAgICAgICAgICAgICAg4pSCICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCDQogICAgICAgICAg4pa8ICAgICAgICAgICAgICAgICAgICAgICAgICAg4pa8ICAgICAgICAgICAgICAgICAgICAgICAgICAg4pa8DQrilIzilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilIDilJANCuKUgiAgICAgICAgICAgICAgICAgICAgICAgICBOZXN0SlMg5ZCO56uvIChuZXN0anMtZXJwKSAgICAgICAgICAgICAgICAgICAgICAgICDilIINCuKUgiAgQXV0aChKV1QpIMK3IFJCQUMgwrcg6YCa55So5Yqo5oCB6KGo5byV5pOOIMK3IOS4muWKoeaooeWdlyDCtyBBSSDog73lipvkuK3lv4Mgwrcg5byA5pS+QVBJIMK3IOWVhuWfjiDilIINCuKUlOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUrOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUgOKUmA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIOKUgiBUeXBlT1JNDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg4pa8DQogICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSM4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSQDQogICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSCICAgTXlTUUwgNS43KyAoa3VlcnBfZXJwKSDilIINCiAgICAgICAgICAgICAgICAgICAgICAgICAgICDilIIgICDkuJrliqHooaggKyBBSSDooaggKyDmnYPpmZDooagg4pSCDQogICAgICAgICAgICAgICAgICAgICAgICAgICAg4pSU4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSA4pSYDQpgYGANCg0K6YOo572y5b2i5oCB77ya5qC555uu5b2VIGBkb2NrZXItY29tcG9zZS55bWxgIOe8luaOkiBgbXlzcWxgICsgYGJhY2tlbmRgICsgYGZyb250ZW5kYCDkuInkuKrlrrnlmajvvIzliY3nq6/nlLEgTmdpbngg5Y+N5ZCR5Luj55CG5Yiw5ZCO56uv77yM5YmN5ZCO56uv5ZCM5rqQ77yb5Lmf5Y+v5ZCE6Ieq54us56uL6L+Q6KGM77yI5pys5Zyw5byA5Y+R5qih5byP77yJ44CCDQoNCi0tLQ0KDQojIyDkuozjgIHlkI7nq6/mqKHlnZfvvIhuZXN0anMtZXJwL3NyY++8iQ0KDQp8IOaooeWdlyB8IOiBjOi0oyB8DQp8LS0tfC0tLXwNCnwgYGF1dGhgIHwg6LSm5Y+35a+G56CB55m75b2V44CBSldUIOetvuWPkeOAgeS4quS6uuS/oeaBr+OAgeadg+mZkOmbhuWQiOOAgeaUueWvhiB8DQp8IGBzeXN0ZW1gIHwg566h55CG5ZGY566h55CG77yI5ZCrIFJCQUMg6KeS6ImyIC8g5p2D6ZmQ6IqC54K577yJIHwNCnwgYGFpYCB8IEFJIOiDveWKm+S4reW/g++8muaooeWei+mFjee9ruOAgVByb21wdCDmqKHmnb/jgIHlt6Xlhbfms6jlhozjgIFSZUFjdCBBZ2VudOOAgVJBRyDmo4DntKLjgIHnu5PmnoTljJbovpPlh7rjgIHosIPnlKjml6Xlv5cgfA0KfCBga3VlcnAvdGFibGVgIHwg4piFIOmAmueUqOWKqOaAgeihqOW8leaTju+8muimhuebluWFqOmDqOS4muWKoeihqOeahCBgaW5kZXgvZ2V0L2FkZC9lZGl0L2RlbC9leGFtaW5lL2NvbHVtbnMvb3B0aW9ucy9pbXBvcnQvZXhwb3J0L3JlY3ljbGViaW5gIOetieWKqOS9nCB8DQp8IGBrdWVycC9iaXpgIHwg5Lia5Yqh5LiT55So56uv54K577ya5Lu35qC85Y+j5b6E44CB5bqP5YiX5Y+344CB5omr56CB44CB57G75Yir5qCR44CB5qC46ZSA5rqQ5Y2V44CB6K6i6LSn5Y2V5a6h5qC4L+WPkei0py/nlJ/miJDplIDotKfljZXjgIHlupPlrZjmoKHpqozjgIHnu4Too4Xmi4bljbjmqKHmnb8gfA0KfCBga3VlcnAvZnVuZHNgIHwg6LWE6YeR6L+H6LSm77yIcG9zdO+8iS8g5Yay6L2s77yIdW5wb3N077yJ77yM5bmC562JIHwNCnwgYGt1ZXJwL3Bvc3RpbmdgIHwg5pm66IO96KGl6LSnIC8g5Lul6ZSA5a6a6LSt55yL5p2/77yM55Sx55yL5p2/55Sf5oiQ6LSt6LSn6K6i5Y2VIHwNCnwgYGt1ZXJwL2FwcHJvdmFsYCB8IOWuoeaJuea1ge+8muaPkOS6pCAvIOmAmui/hyAvIOmps+WbniAvIOi/m+W6piAvIOWOhuWPsiAvIOW+heWKniB8DQp8IGBvcGVuYXBpYCB8IOmdouWQkeesrOS4ieaWueeahOW8gOaUvuaOpeWPo++8iOi0puWPtyArIOetvuWQjemJtOadg++8ie+8muWVhuWTgeOAgeWuouaIt+OAgemUgOi0p+WNlSB8DQp8IGBzaG9wYCB8IOenu+WKqOerr+WVhuWfjuWQjuerr++8mumFjee9ruOAgeW+ruS/oeeZu+W9lS/mlK/ku5jjgIHnn63kv6HjgIHkvJrlkZjjgIHotK3nianovabjgIHorqLotKfljZXjgIHmlLbotKflnLDlnYAgfA0KfCBgY29tbW9uYCB8IOe8k+WtmOOAgeS4iuS8oOOAgeWuoeiuoeaXpeW/l+OAgea2iOaBr+S4reW/g+OAgeW+ruS/oeS7pOeJjOOAgeWumuaXtuS7u+WKoeOAgeWBpeW6t+ajgOafpSB8DQoNCiMjIyDpgJrnlKjliqjmgIHooajlvJXmk47vvIjmoLjlv4Porr7orqHvvIkNCg0K5Y6f57O757uf5q+P5byg5Lia5Yqh6KGo5YWx55So5LiA5aWX6YCa55So5qih5Z6L5Yqo5L2c44CC5pys6aG555uu55SoKirljZXmjqfliLblmaggKyDliqjmgIHooajlkI0qKuetieaViOi/mOWOn++8jOS4gOS4qiBgL2t1ZXJwLzp0YWJsZS8qYCDopobnm5blhajpg6jkuJrliqHooajvvJoNCg0KYGBgDQpHRVQgICAgL2t1ZXJwLzp0YWJsZS9pbmRleCAgICAg5YiX6KGoIC8g5qOA57Si77yIcGFnZS9saW1pdC9zZWFyY2gvZmlsdGVyL2xpa2Uvc29ydC9vcmRlcu+8iQ0KR0VUICAgIC9rdWVycC86dGFibGUvZ2V0ICAgICAgIOivpuaDhe+8iD9pZD3vvIkNCkdFVCAgICAva3VlcnAvOnRhYmxlL2NvbHVtbnMgICDooajlrZfmrrXlhYPkv6Hmga/vvIjliY3nq6/liqjmgIHmuLLmn5PliJfooajliJfkuI7ooajljZXvvIkNCkdFVCAgICAva3VlcnAvOnRhYmxlL29wdGlvbnMgICDlpJbplK7lrZfmrrXkuIvmi4npgInpobkNClBPU1QgICAva3VlcnAvOnRhYmxlL2FkZCAgICAgICDmlrDlop4NClBPU1QgICAva3VlcnAvOnRhYmxlL2VkaXQgICAgICDnvJbovpHvvIhib2R5Lmlk77yJDQpERUxFVEUgL2t1ZXJwLzp0YWJsZS9kZWwgICAgICAg5Yig6Zmk77yI6L2v5Yig6ZmkIGRlbGV0ZXRpbWXvvIkNClBPU1QgICAva3VlcnAvOnRhYmxlL2V4YW1pbmUgICDlrqHmoLggLyDlj43lrqHvvIhzdGF0dXPvvIkNClBPU1QgICAva3VlcnAvOnRhYmxlL2NvdW50ZXIgICDlr7nljZUgLyDlj43lr7nljZUNCkdFVCAgICAva3VlcnAvdGFibGVzICAgICAgICAgICDliJflh7rmiYDmnInkuJrliqHooajvvIjliY3nq6/lr7zoiKrvvIkNCmBgYA0KDQotIOihqOWQjeaUr+aMgei/nuWtl+espu+8iGBnb29kcy10eXBlYCDihpIg54mp55CG6KGoIGBrdWVycF9nb29kc190eXBlYO+8ieOAgg0KLSAqKuWuieWFqCoq77yaU1FMIOWFqOWPguaVsOWMlu+8m+ihqOWQjSAvIOWIl+WQjei1sOeZveWQjeWNle+8iOato+WImSArIGBJTkZPUk1BVElPTl9TQ0hFTUFgIOWFg+aVsOaNruagoemqjO+8ie+8jOadnOe7neazqOWFpeOAgg0KLSAqKuaJqeWxlSoq77ya6ZyA6KaB54m55q6K5Lia5Yqh6IGU5Yqo55qE6KGo77yI5aaC6LSt6LSnL+mUgOi0p+WuoeaguOaUueW6k+WtmOOAgei1hOmHkeaguOmUgOaUueS9memine+8ieaMieWQjOS4gOaooeW8j+WPoOWKoOS4k+eUqOaOp+WItuWZqO+8jCoq6Z2Z5oCB6Lev55Sx5LyY5YWIKirkuo7liqjmgIHot6/nlLHvvIzkupLkuI3lvbHlk43jgIINCg0KLS0tDQoNCiMjIOS4ieOAgeaVsOaNruaooeWeiw0KDQrmlbDmja7lupMgYGt1ZXJwX2VycGDvvIzlrZfnrKbpm4YgYHV0ZjhtYjRg44CC5bu66KGo6ISa5pys5L2N5LqOIGBuZXN0anMtZXJwL2RiL2DvvJoNCg0KfCDmlofku7YgfCDlhoXlrrkgfA0KfC0tLXwtLS18DQp8IGBzY2hlbWEuc3FsYCB8IOaguOW/g+i/m+mUgOWtmOS4muWKoeihqO+8iOWVhuWTgeOAgemHh+i0reOAgemUgOWUruOAgeS7k+W6k+OAgei1hOmHkeOAgeaKpeihqOetie+8iSB8DQp8IGBhaS1zY2hlbWEuc3FsYCB8IEFJIOiDveWKm+ihqO+8iOaooeWei+mFjee9ruOAgVByb21wdCDmqKHmnb/jgIHosIPnlKjml6Xlv5fjgIHlt6Xlhbfml6Xlv5fnrYnvvIkgfA0KfCBgYWRtaW4tc2NoZW1hLnNxbGAgfCDnrqHnkIblkZggLyDnrqHnkIblkZjml6Xlv5cgfA0KfCBgcmJhYy1zY2hlbWEuc3FsYCB8IOinkuiJsiAvIOadg+mZkOiKgueCuSAvIOeUqOaIty3op5LoibLlhbPogZQgfA0KfCBgc2hvcC1zY2hlbWEuc3FsYCB8IOenu+WKqOerr+WVhuWfju+8iOS8muWRmOOAgei0reeJqei9puOAgeiuoui0p+WNleOAgeWcsOWdgOOAgemFjee9ruOAgei9ruaSre+8iSB8DQp8IGBleHRlbnNpb24tc2NoZW1hLnNxbGAgfCDmianlsZXog73lipvvvIjlrqHmibnjgIHmtojmga/jgIHlrprml7bku7vliqHjgIHkuIrkvKDnrYnvvIkgfA0KDQrpgJrnlKjnuqblrprvvJoNCi0g5pe26Ze05oiz57uf5LiA5Li6Kirnp5LnuqfmlbTmlbAqKiBgYmlnaW50YO+8iGBjcmVhdGV0aW1lYCAvIGB1cGRhdGV0aW1lYCAvIGBkZWxldGV0aW1lYO+8ie+8jOWunuS9k+WxgiBgQmlnSW50VHJhbnNmb3JtZXJgIOi9rCBgbnVtYmVyYOOAgg0KLSDova/liKDpmaTvvJpgZGVsZXRldGltZSA+IDBgIOihqOekuuW3suWIoOmZpO+8jOafpeivoum7mOiupOi/h+a7pOOAgg0KLSDlk43lupTmoLzlvI/vvJpgeyBjb2RlOiAxLCBtc2csIGRhdGEgfWDvvIjmiJDlip8gYGNvZGU6MWDvvIzlpLHotKUgYGNvZGU6MGDvvInvvIzkuI7liY3nq6/mi6bmiKrlmajnuqblrprkuIDoh7TjgIINCg0KLS0tDQoNCiMjIOWbm+OAgemJtOadg+S4juadg+mZkO+8iFJCQUPvvIkNCg0KLSDnmbvlvZXvvJpgUE9TVCAvYXV0aC9sb2dpbmAg6L+U5ZueIEpXVO+8jOWQjue7reivt+axguWcqCBgQXV0aG9yaXphdGlvbjogQmVhcmVyIDx0b2tlbj5gIOaQuuW4puOAgg0KLSDmnYPpmZDmqKHlnovvvJrop5LoibIg4oaSIOadg+mZkOiKgueCue+8iOiPnOWNlSAvIOaMiemSrue6p++8ie+8m+eZu+W9leWQjiBgL2F1dGgvcGVybXNgIOi/lOWbnuW9k+WJjeeUqOaIt+adg+mZkOmbhuWQiO+8jOWJjeerr+aNruatpOaOp+WItuiPnOWNleS4juaMiemSruaYvumakOOAgg0KLSDkuJrliqHmjqXlj6Pnu4bnspLluqbmnYPpmZDvvJrliqjmgIHooajlj4rkuJPnlKjnq6/ngrnph4fnlKjjgIznmbvlvZUgKyDmnYPpmZDoioLngrnjgI3lj4zph43moKHpqozjgIINCi0g5byA5pS+IEFQSe+8mueLrOeri+S6jiBKV1TvvIzkvb/nlKjjgIzkuInmlrnotKblj7cgKyDnrb7lkI3jgI3mnLrliLbvvIhgL29wZW5hcGkvdGhpcmQvKmDvvInvvIznlLEgYG9wZW5hcGlgIOaooeWdl+agoemqjOetvuWQjeWQjuaUvuihjOOAgg0KDQotLS0NCg0KIyMg5LqU44CBQUkg6IO95Yqb5Lit5b+D77yIc3JjL2Fp77yJDQoNCuW6leWxgue7n+S4gOi1sCAqKk9wZW5BSSDlhbzlrrkgQVBJKirvvIhgZmV0Y2hg77yJ77yM5Zug5q2k5Y+v5a+55o6lIERlZXBTZWVrIC8g6YCa5LmJIC8gT3BlbkFJIC8g5pys5ZywIE9sbGFtYSDnrYnvvIzlj6rpnIDlnKjjgIzmqKHlnovphY3nva7jgI3kuK3loavlhpkgQmFzZVVSTCArIEtleSArIOaooeWei+WQjeOAgg0KDQp8IOiDveWKmyB8IOWunueOsCB8IOS9jee9riB8DQp8LS0tfC0tLXwtLS18DQp8IOWvueivnSAvIENoYXRDbGllbnQgfCBgQ2hhdE1vZGVsU2VydmljZWAgKyDmtYHlvI8gQnVpbGRlciB8IGBhaS9jaGF0LWNsaWVudC50c2AgfA0KfCDmqKHlnovphY3nva7mlbDmja7lupPljJYgfCBgQWlNb2RlbENvbmZpZ2Ag5a6e5L2TICsg6L+Q6KGM5pe26YCJ5oupIHwgYGFpL2VudGl0aWVzL2AgfA0KfCBQcm9tcHQg5qih5p2/IHwgYEFpUHJvbXB0VGVtcGxhdGVgICsgYHt2YXJ9YCDmuLLmn5MgfCBgYWkvcHJvbXB0LXRlbXBsYXRlLnNlcnZpY2UudHNgIHwNCnwgRnVuY3Rpb24gQ2FsbGluZyB8IGBAVG9vbGAg6KOF6aWw5ZmoICsgYFRvb2xSZWdpc3RyeWAgfCBgYWkvdG9vbC5kZWNvcmF0b3IudHNgIGB0b29sLnJlZ2lzdHJ5LnRzYCB8DQp8IFJlQWN0IEFnZW50IHwgYEFnZW50U2VydmljZWDvvIjmqKHlnovihpLlt6XlhbfihpLlho3mqKHlnovlvqrnjq/vvIkgfCBgYWkvYWdlbnQuc2VydmljZS50c2AgfA0KfCBSQUcg5qOA57SiIHwgYEtleXdvcmRSZXRyaWV2YWxTZXJ2aWNlYO+8iOWGheWtmOWAkuaOkiArIHRvcEvvvIkgfCBgYWkva2V5d29yZC1yZXRyaWV2YWwuc2VydmljZS50c2AgfA0KfCDnu5PmnoTljJYgSlNPTiB8IGBKc29uT3V0cHV0U2VydmljZWDvvIhKU09OIOaooeW8jyArIOmHjeivle+8iSB8IGBhaS9qc29uLW91dHB1dC5zZXJ2aWNlLnRzYCB8DQp8IOiwg+eUqCAvIOW3peWFt+aXpeW/lyB8IGBBaUNhbGxMb2dgIC8gYEFpVG9vbENhbGxMb2dgIOiQveW6kyB8IGBhaS9haS1sb2cuc2VydmljZS50c2AgfA0KDQrkuLvopoHmjqXlj6PvvIhgL2FpLypg77yM5Z2H6ZyAIEpXVO+8ie+8muaooeWei+mFjee9ruOAgVByb21wdCDmqKHmnb/vvIjlkKsgYHJlbmRlcmDvvInjgIHlt6XlhbfliJfooajjgIHlr7nor53jgIFBZ2VudOOAgee7k+aehOWMlui+k+WHuuOAgee0ouW8lS/mo4DntKLjgIHosIPnlKgv5bel5YW35pel5b+X44CCDQoNCi0tLQ0KDQojIyDlha3jgIFQQyDliY3nq6/vvIh2dWUzLWVycO+8iQ0KDQotIOaKgOacr+agiO+8mlZ1ZSAzICsgVml0ZSArIFBpbmlhICsgVnVlLVJvdXRlciArIEF4aW9zICsg6Ieq56CUIGBkc2Ag57uE5Lu25bqT77yI5L2N5LqOIGBzcmMvY29tcG9uZW50cy9kc2DvvInjgIINCi0g6Lev55Sx5a6I5Y2r5ZyoIGByb3V0ZXIvaW5kZXguanNg77yM6Ym05p2D5oCB5oyB5LmF5YyW5ZyoIGBzdG9yZS9hdXRoLmpzYOOAgg0KLSAqKumAmueUqOS4muWKoemhtSBgY3J1ZC1wYWdlLnZ1ZWAqKu+8muWKqOaAgeWIlyArIOWKqOaAgeihqOWNlSArIOWinuWIoOaUueafpS/lrqHmoLjvvIzpgJrov4fot6/nlLEgYG1ldGEuYXBpYO+8iOWmgiBgL2t1ZXJwL2dvb2RzLXB1cmNoYXNlYO+8ieaMh+WQkeWvueW6lOihqO+8m+WIl+S4juihqOWNleWcqOi/kOihjOacn+S7jiBgL2t1ZXJwLzp0YWJsZS9jb2x1bW5zYCDliqjmgIHnlJ/miJDvvIzku47ogIzku6Xpm7bmoLfmnb/opobnm5blhajpg6jmqKHlnZfjgIINCi0g5LiT55So6aG177ya5bel5L2c5Y+w44CB5oql6KGo77yI5Yip5ramL+asoOasvi/pooTorabvvInjgIHmiZPljbDkuK3lv4PjgIFQT1Mg5pS26ZO25Y+w44CB6K6i6LSn5Y2V566h55CG44CB57uE6KOFL+aLhuWNuOWNleaNruetieOAgg0KLSDnvZHnu5zlsYLvvJpgdXRpbHMvcmVxdWVzdC5qc2Ag6Ieq5Yqo5rOo5YWlIEpXVCDlubbop6PljIUgYHsgY29kZSwgbXNnLCBkYXRhIH1g44CCDQoNCi0tLQ0KDQojIyDkuIPjgIHnp7vliqjnq6/vvIhVbmlhcHDliY3nq6/mupDnoIHvvIkNCg0KLSDmioDmnK/moIjvvJpVbmlBcHDvvIhWdWUyIOivreazle+8iSsgdVZpZXcgVUnvvIzlj6/nvJbor5HliLDlvq7kv6HlsI/nqIvluo8gLyBINSAvIEFwcOOAgg0KLSDkuLvopoHpobXpnaLvvIhgcGFnZXMuanNvbmDvvInvvJrnmbvlvZXjgIHpppbpobXjgIHliIbnsbvjgIHorqLotKfljZXjgIHmj5DkuqTorqLljZXjgIHmlLbotKflnLDlnYDjgIHmiJHnmoTjgIHorqLljZXkuI7nianmtYHjgIHotKbmiLfnrqHnkIbjgIFBSSDmmbrog73lrqLmnI3jgIINCi0g5ZCO56uv55SxIGBuZXN0anMtZXJwL3NyYy9zaG9wYCDmqKHlnZfmlK/mkpHvvJrkvJrlkZjjgIHotK3nianovabjgIHorqLotKfljZXjgIHmlLbotKflnLDlnYDjgIHlvq7kv6HnmbvlvZUv5pSv5LuY44CB55+t5L+h6aqM6K+B56CB44CB6L2u5pKt5LiO6YWN572u44CCDQoNCi0tLQ0KDQojIyDlhavjgIHln7rnoYDorr7mlr0NCg0KLSAqKue8k+WtmCoq77ya6L+b56iL5YaF57yT5a2Y77yIYGNvbW1vbi9jYWNoZWDvvInvvIzmlK/mjIHmjInliY3nvIDlpLHmlYjvvJtgL3N5c3RlbS9jYWNoZS8qYCDlj6/mn6XnnIvnu5/orqHkuI7muIXnkIbjgIINCi0gKirkuIrkvKAqKu+8mmAvYXBpL3VwbG9hZGDvvIzljZXmlofku7YgLyDlpJrmlofku7YgLyDlm77niYfvvIzmlofku7bokL0gYHVwbG9hZHMvYCDnm67lvZXvvIhEb2NrZXIg5Lit5Lul5Y235oyC6L2977yM5a655Zmo6YeN5bu65LiN5Lii77yJ44CCDQotICoq5a6h6K6hKirvvJrmk43kvZzml6Xlv5cgYGNvbW1vbi9hdWRpdGAg4oaSIGAvc3lzdGVtL2xvZy8qYOOAgg0KLSAqKua2iOaBryoq77ya56uZ5YaF5raI5oGvIGBjb21tb24vbWVzc2FnZWAg4oaSIGAvc3lzdGVtL21lc3NhZ2UvKmDjgIINCi0gKirlrprml7bku7vliqEqKu+8mmBjb21tb24vc2NoZWR1bGVyYCDihpIgYC9zeXN0ZW0vam9iLypg77yI5L2c5Lia5riF5Y2VIC8g5omL5Yqo6Kem5Y+RIC8g5omn6KGM5Y6G5Y+y77yJ44CCDQotICoq5YGl5bq35qOA5p+lKirvvJpgL2hlYWx0aGDvvIjlhazlvIDvvIzlkKsgYFNFTEVDVCAxYCDmlbDmja7lupPov57pgJrmoKHpqozvvInvvIzkvpvlrrnlmajmjqLpkojkvb/nlKjjgIINCg==
+# 架构详解
+
+本文档说明进销存 ERP 开源版的整体架构、模块职责与技术要点。配套接口清单见 `nestjs-erp/docs/API.md`。
+
+---
+
+## 一、整体架构
+
+```
+┌────────────────────┐      ┌────────────────────┐      ┌────────────────────┐
+│   PC 管理后台       │      │   移动订货通        │      │   第三方系统        │
+│   (vue3-erp)       │      │  (Uniapp 小程序)   │      │  (开放 API 对接)   │
+│   Vue3 + ds 组件库  │      │  uView UI          │      │                    │
+└─────────┬──────────┘      └─────────┬──────────┘      └─────────┬──────────┘
+          │  /kuerp /ai /auth         │  /shop/*                  │  /openapi/third/*
+          │  /system /api              │                           │
+          ▼                           ▼                           ▼
+┌─────────────────────────────────────────────────────────────────────────┐
+│                         NestJS 后端 (nestjs-erp)                         │
+│  Auth(JWT) · RBAC · 通用动态表引擎 · 业务模块 · AI 能力中心 · 开放API · 商城 │
+└───────────────────────────────────────┬─────────────────────────────────┘
+                                        │ TypeORM
+                                        ▼
+                            ┌──────────────────────────┐
+                            │   MySQL 5.7+ (kuerp_erp) │
+                            │   业务表 + AI 表 + 权限表 │
+                            └──────────────────────────┘
+```
+
+部署形态：根目录 `docker-compose.yml` 编排 `mysql` + `backend` + `frontend` 三个容器，前端由 Nginx 反向代理到后端，前后端同源；也可各自独立运行（本地开发模式）。
+
+---
+
+## 二、后端模块（nestjs-erp/src）
+
+| 模块 | 职责 |
+|---|---|
+| `auth` | 账号密码登录、JWT 签发、个人信息、权限集合、改密 |
+| `system` | 管理员管理（含 RBAC 角色 / 权限节点） |
+| `ai` | AI 能力中心：模型配置、Prompt 模板、工具注册、ReAct Agent、RAG 检索、结构化输出、调用日志 |
+| `kuerp/table` | ★ 通用动态表引擎：覆盖全部业务表的 `index/get/add/edit/del/examine/columns/options/import/export/recyclebin` 等动作 |
+| `kuerp/biz` | 业务专用端点：价格口径、序列号、扫码、类别树、核销源单、订货单审核/发货/生成销货单、库存校验、组装拆卸模板 |
+| `kuerp/funds` | 资金过账（post）/ 冲转（unpost），幂等 |
+| `kuerp/posting` | 智能补货 / 以销定购看板，由看板生成购货订单 |
+| `kuerp/approval` | 审批流：提交 / 通过 / 驳回 / 进度 / 历史 / 待办 |
+| `openapi` | 面向第三方的开放接口（账号 + 签名鉴权）：商品、客户、销货单 |
+| `shop` | 移动端商城后端：配置、微信登录/支付、短信、会员、购物车、订货单、收货地址 |
+| `common` | 缓存、上传、审计日志、消息中心、微信令牌、定时任务、健康检查 |
+
+### 通用动态表引擎（核心设计）
+
+原系统每张业务表共用一套通用模型动作。本项目用**单控制器 + 动态表名**等效还原，一个 `/kuerp/:table/*` 覆盖全部业务表：
+
+```
+GET    /kuerp/:table/index     列表 / 检索（page/limit/search/filter/like/sort/order）
+GET    /kuerp/:table/get       详情（?id=）
+GET    /kuerp/:table/columns   表字段元信息（前端动态渲染列表列与表单）
+GET    /kuerp/:table/options   外键字段下拉选项
+POST   /kuerp/:table/add       新增
+POST   /kuerp/:table/edit      编辑（body.id）
+DELETE /kuerp/:table/del       删除（软删除 deletetime）
+POST   /kuerp/:table/examine   审核 / 反审（status）
+POST   /kuerp/:table/counter   对单 / 反对单
+GET    /kuerp/tables           列出所有业务表（前端导航）
+```
+
+- 表名支持连字符（`goods-type` → 物理表 `kuerp_goods_type`）。
+- **安全**：SQL 全参数化；表名 / 列名走白名单（正则 + `INFORMATION_SCHEMA` 元数据校验），杜绝注入。
+- **扩展**：需要特殊业务联动的表（如购货/销货审核改库存、资金核销改余额）按同一模式叠加专用控制器，**静态路由优先**于动态路由，互不影响。
+
+---
+
+## 三、数据模型
+
+数据库 `kuerp_erp`，字符集 `utf8mb4`。建表脚本位于 `nestjs-erp/db/`：
+
+| 文件 | 内容 |
+|---|---|
+| `schema.sql` | 核心进销存业务表（商品、采购、销售、仓库、资金、报表等） |
+| `ai-schema.sql` | AI 能力表（模型配置、Prompt 模板、调用日志、工具日志等） |
+| `admin-schema.sql` | 管理员 / 管理员日志 |
+| `rbac-schema.sql` | 角色 / 权限节点 / 用户-角色关联 |
+| `shop-schema.sql` | 移动端商城（会员、购物车、订货单、地址、配置、轮播） |
+| `extension-schema.sql` | 扩展能力（审批、消息、定时任务、上传等） |
+
+通用约定：
+- 时间戳统一为**秒级整数** `bigint`（`createtime` / `updatetime` / `deletetime`），实体层 `BigIntTransformer` 转 `number`。
+- 软删除：`deletetime > 0` 表示已删除，查询默认过滤。
+- 响应格式：`{ code: 1, msg, data }`（成功 `code:1`，失败 `code:0`），与前端拦截器约定一致。
+
+---
+
+## 四、鉴权与权限（RBAC）
+
+- 登录：`POST /auth/login` 返回 JWT，后续请求在 `Authorization: Bearer <token>` 携带。
+- 权限模型：角色 → 权限节点（菜单 / 按钮级）；登录后 `/auth/perms` 返回当前用户权限集合，前端据此控制菜单与按钮显隐。
+- 业务接口细粒度权限：动态表及专用端点采用「登录 + 权限节点」双重校验。
+- 开放 API：独立于 JWT，使用「三方账号 + 签名」机制（`/openapi/third/*`），由 `openapi` 模块校验签名后放行。
+
+---
+
+## 五、AI 能力中心（src/ai）
+
+底层统一走 **OpenAI 兼容 API**（`fetch`），因此可对接 DeepSeek / 通义 / OpenAI / 本地 Ollama 等，只需在「模型配置」中填写 BaseURL + Key + 模型名。
+
+| 能力 | 实现 | 位置 |
+|---|---|---|
+| 对话 / ChatClient | `ChatModelService` + 流式 Builder | `ai/chat-client.ts` |
+| 模型配置数据库化 | `AiModelConfig` 实体 + 运行时选择 | `ai/entities/` |
+| Prompt 模板 | `AiPromptTemplate` + `{var}` 渲染 | `ai/prompt-template.service.ts` |
+| Function Calling | `@Tool` 装饰器 + `ToolRegistry` | `ai/tool.decorator.ts` `tool.registry.ts` |
+| ReAct Agent | `AgentService`（模型→工具→再模型循环） | `ai/agent.service.ts` |
+| RAG 检索 | `KeywordRetrievalService`（内存倒排 + topK） | `ai/keyword-retrieval.service.ts` |
+| 结构化 JSON | `JsonOutputService`（JSON 模式 + 重试） | `ai/json-output.service.ts` |
+| 调用 / 工具日志 | `AiCallLog` / `AiToolCallLog` 落库 | `ai/ai-log.service.ts` |
+
+主要接口（`/ai/*`，均需 JWT）：模型配置、Prompt 模板（含 `render`）、工具列表、对话、Agent、结构化输出、索引/检索、调用/工具日志。
+
+---
+
+## 六、PC 前端（vue3-erp）
+
+- 技术栈：Vue 3 + Vite + Pinia + Vue-Router + Axios + 自研 `ds` 组件库（位于 `src/components/ds`）。
+- 路由守卫在 `router/index.js`，鉴权态持久化在 `store/auth.js`。
+- **通用业务页 `crud-page.vue`**：动态列 + 动态表单 + 增删改查/审核，通过路由 `meta.api`（如 `/kuerp/goods-purchase`）指向对应表；列与表单在运行期从 `/kuerp/:table/columns` 动态生成，从而以零样板覆盖全部模块。
+- 专用页：工作台、报表（利润/欠款/预警）、打印中心、POS 收银台、订货单管理、组装/拆卸单据等。
+- 网络层：`utils/request.js` 自动注入 JWT 并解包 `{ code, msg, data }`。
+
+---
+
+## 七、移动端（Uniapp前端源码）
+
+- 技术栈：UniApp（Vue2 语法）+ uView UI，可编译到微信小程序 / H5 / App。
+- 主要页面（`pages.json`）：登录、首页、分类、订货单、提交订单、收货地址、我的、订单与物流、账户管理、AI 智能客服。
+- 后端由 `nestjs-erp/src/shop` 模块支撑：会员、购物车、订货单、收货地址、微信登录/支付、短信验证码、轮播与配置。
+
+---
+
+## 八、基础设施
+
+- **缓存**：进程内缓存（`common/cache`），支持按前缀失效；`/system/cache/*` 可查看统计与清理。
+- **上传**：`/api/upload`，单文件 / 多文件 / 图片，文件落 `uploads/` 目录（Docker 中以卷挂载，容器重建不丢）。
+- **审计**：操作日志 `common/audit` → `/system/log/*`。
+- **消息**：站内消息 `common/message` → `/system/message/*`。
+- **定时任务**：`common/scheduler` → `/system/job/*`（作业清单 / 手动触发 / 执行历史）。
+- **健康检查**：`/health`（公开，含 `SELECT 1` 数据库连通校验），供容器探针使用。

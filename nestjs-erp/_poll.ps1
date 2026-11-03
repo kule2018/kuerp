@@ -1,1 +1,11 @@
-JGxvZyA9ICJmOi9lcnDns7vnu58v6L+b6ZSA5a2Y57O757ufL25lc3Rqcy1lcnAvX3JlYWR5NS50eHQiDQoiIiB8IFNldC1Db250ZW50IC1FbmNvZGluZyB1dGY4ICRsb2cNCmZvciAoJGkgPSAwOyAkaSAtbHQgMTIwOyAkaSsrKSB7DQogIFN0YXJ0LVNsZWVwIC1TZWNvbmRzIDUNCiAgJHN0ID0gZG9ja2VyIHBzIC0tZmlsdGVyIG5hbWU9a3VlcnAtbXlzcWwgLS1mb3JtYXQgInt7LlN0YXR1c319IiAyPiRudWxsDQogIGlmICgkc3QgLW5vdG1hdGNoICJVcCIpIHsgQWRkLUNvbnRlbnQgLUVuY29kaW5nIHV0ZjggJGxvZyAiQ1JBU0hFRCAkaSA6ICRzdCI7IGJyZWFrIH0NCiAgJHIgPSBkb2NrZXIgZXhlYyBrdWVycC1teXNxbCBteXNxbCAtdXJvb3QgLXByb290IC1OIC1lICJTRUxFQ1QgdXNlcm5hbWUgRlJPTSBrdWVycF9lcnAua3VlcnBfYWRtaW4gTElNSVQgMTsiIDI+JG51bGwNCiAgaWYgKCRMQVNURVhJVENPREUgLWVxIDAgLWFuZCAkciAtbWF0Y2ggImFkbWluIikgeyBBZGQtQ29udGVudCAtRW5jb2RpbmcgdXRmOCAkbG9nICJBRE1JTl9PSyAkaSA6ICRyIjsgYnJlYWsgfQ0KICBBZGQtQ29udGVudCAtRW5jb2RpbmcgdXRmOCAkbG9nICJ3YWl0aW5nICRpIg0KfQ0KQWRkLUNvbnRlbnQgLUVuY29kaW5nIHV0ZjggJGxvZyAiRE9ORSINCg==
+$log = "f:/erp系统/进销存系统/nestjs-erp/_ready5.txt"
+"" | Set-Content -Encoding utf8 $log
+for ($i = 0; $i -lt 120; $i++) {
+  Start-Sleep -Seconds 5
+  $st = docker ps --filter name=kuerp-mysql --format "{{.Status}}" 2>$null
+  if ($st -notmatch "Up") { Add-Content -Encoding utf8 $log "CRASHED $i : $st"; break }
+  $r = docker exec kuerp-mysql mysql -uroot -proot -N -e "SELECT username FROM kuerp_erp.kuerp_admin LIMIT 1;" 2>$null
+  if ($LASTEXITCODE -eq 0 -and $r -match "admin") { Add-Content -Encoding utf8 $log "ADMIN_OK $i : $r"; break }
+  Add-Content -Encoding utf8 $log "waiting $i"
+}
+Add-Content -Encoding utf8 $log "DONE"

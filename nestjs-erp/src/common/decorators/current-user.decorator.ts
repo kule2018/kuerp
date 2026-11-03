@@ -1,1 +1,12 @@
-aW1wb3J0IHsgY3JlYXRlUGFyYW1EZWNvcmF0b3IsIEV4ZWN1dGlvbkNvbnRleHQgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7CgovKioKICog5o+Q5Y+W5b2T5YmN55m75b2V55So5oi377yaQEN1cnJlbnRVc2VyKCkg562J5Lu35LqOIFNwcmluZyBTZWN1cml0eSDnmoQgU2VjdXJpdHlDb250ZXh044CCCiAqLwpleHBvcnQgY29uc3QgQ3VycmVudFVzZXIgPSBjcmVhdGVQYXJhbURlY29yYXRvcigKICAoZGF0YTogc3RyaW5nIHwgdW5kZWZpbmVkLCBjdHg6IEV4ZWN1dGlvbkNvbnRleHQpID0+IHsKICAgIGNvbnN0IHJlcXVlc3QgPSBjdHguc3dpdGNoVG9IdHRwKCkuZ2V0UmVxdWVzdCgpOwogICAgY29uc3QgdXNlciA9IHJlcXVlc3QudXNlcjsKICAgIHJldHVybiBkYXRhID8gdXNlcj8uW2RhdGFdIDogdXNlcjsKICB9LAopOwo=
+import { createParamDecorator, ExecutionContext } from '@nestjs/common';
+
+/**
+ * 提取当前登录用户：@CurrentUser() 等价于 Spring Security 的 SecurityContext。
+ */
+export const CurrentUser = createParamDecorator(
+  (data: string | undefined, ctx: ExecutionContext) => {
+    const request = ctx.switchToHttp().getRequest();
+    const user = request.user;
+    return data ? user?.[data] : user;
+  },
+);

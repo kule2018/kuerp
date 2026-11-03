@@ -1,1 +1,43 @@
-aW1wb3J0IHsgQm9keSwgQ29udHJvbGxlciwgUG9zdCwgVXNlR3VhcmRzIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBKd3RBdXRoR3VhcmQgfSBmcm9tICcuLi8uLi9jb21tb24vZ3VhcmRzL2p3dC1hdXRoLmd1YXJkJzsKaW1wb3J0IHsgUmJhY0d1YXJkIH0gZnJvbSAnLi4vLi4vY29tbW9uL2d1YXJkcy9yYmFjLmd1YXJkJzsKaW1wb3J0IHsgb2sgfSBmcm9tICcuLi8uLi9jb21tb24vcmVzcG9uc2UuaW50ZXJjZXB0b3InOwppbXBvcnQgeyBGdW5kc1NlcnZpY2UgfSBmcm9tICcuL2Z1bmRzLnNlcnZpY2UnOwoKLyoqCiAqIOi1hOmHkei/h+i0puaOp+WItuWZqOOAggogKgogKiDogYzotKPvvJrmmrTpnLLotYTph5Hov4fotKYv5Yay6L2s55qE5omL5Yqo6Kem5Y+R5o6l5Y+j44CC5bi46KeE5rWB56iL5LiLIFRhYmxlU2VydmljZS5leGFtaW5lKCkKICog5Lya5Zyo5a6h5qC4L+WPjeWuoeaXtuiHquWKqOiwg+eUqCBGdW5kc1NlcnZpY2XvvIzmnKzmjqfliLblmajnlKjkuo7vvJoKICogICAxLiDmlbDmja7kv67lpI3lnLrmma/vvIjlpoLljoblj7LljZXmja7ooaXov4fotKYgLyDph43mlrDlhrLovazvvInvvJsKICogICAyLiDkuI7lupPlrZjov4fotKblvJXmk47vvIhQb3N0aW5nQ29udHJvbGxlcu+8ieS/neaMgeWvueensOeahOaJi+WKqOi/kOe7tOWFpeWPo+OAggogKiDot6/nlLHliY3nvIAgL2t1ZXJwL2Z1bmRz77yM5LiO6YCa55So5Yqo5oCB6KGoIC9rdWVycC86dGFibGUvKiDkuInmrrXpnZnmgIHot6/lvoTkuI3lhrLnqoHjgIIKICog5YWo6YOo5o6l5Y+j6ZyAIEpXVCDpibTmnYMgKyBSQkFDIOiKgueCueagoemqjOOAggogKi8KQFVzZUd1YXJkcyhKd3RBdXRoR3VhcmQsIFJiYWNHdWFyZCkKQENvbnRyb2xsZXIoJ2t1ZXJwL2Z1bmRzJykKZXhwb3J0IGNsYXNzIEZ1bmRzQ29udHJvbGxlciB7CiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBmdW5kczogRnVuZHNTZXJ2aWNlKSB7fQoKICAvKioKICAgKiDmiYvliqjov4fotKbvvJrlr7nmjIflrprljZXmja7miafooYzotYTph5Hov4fotKbvvIjluYLnrYnvvIzlt7Lov4fotKbliJnot7Pov4fvvInjgIIKICAgKiBQT1NUIC9rdWVycC9mdW5kcy9wb3N0ICBib2R5OiB7IHRhYmxlLCBpZCB9CiAgICogQHBhcmFtIHRhYmxlIOWNleaNruihqOWQje+8iOWmgiBjb2xsZWN0aW9uIC8ga3VlcnBfcGF5bWVudCAvIGdvb2RzX3B1cmNoYXNl77yJCiAgICogQHBhcmFtIGlkIOWNleaNruS4u+mUrgogICAqLwogIEBQb3N0KCdwb3N0JykKICBhc3luYyBwb3N0KEBCb2R5KCd0YWJsZScpIHRhYmxlOiBzdHJpbmcsIEBCb2R5KCdpZCcpIGlkOiBudW1iZXIpIHsKICAgIHJldHVybiBvayhhd2FpdCB0aGlzLmZ1bmRzLnBvc3QodGFibGUsIE51bWJlcihpZCkpKTsKICB9CgogIC8qKgogICAqIOaJi+WKqOWGsui9rO+8muWvueaMh+WumuWNleaNruaJp+ihjOi1hOmHkeWPjeWuoeWGsui9rO+8iOW5guetie+8jOacquWuoeaguOWImei3s+i/h++8ieOAggogICAqIFBPU1QgL2t1ZXJwL2Z1bmRzL3VucG9zdCAgYm9keTogeyB0YWJsZSwgaWQgfQogICAqIEBwYXJhbSB0YWJsZSDljZXmja7ooajlkI0KICAgKiBAcGFyYW0gaWQg5Y2V5o2u5Li76ZSuCiAgICovCiAgQFBvc3QoJ3VucG9zdCcpCiAgYXN5bmMgdW5wb3N0KEBCb2R5KCd0YWJsZScpIHRhYmxlOiBzdHJpbmcsIEBCb2R5KCdpZCcpIGlkOiBudW1iZXIpIHsKICAgIHJldHVybiBvayhhd2FpdCB0aGlzLmZ1bmRzLnVucG9zdCh0YWJsZSwgTnVtYmVyKGlkKSkpOwogIH0KfQo=
+import { Body, Controller, Post, UseGuards } from '@nestjs/common';
+import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
+import { RbacGuard } from '../../common/guards/rbac.guard';
+import { ok } from '../../common/response.interceptor';
+import { FundsService } from './funds.service';
+
+/**
+ * 资金过账控制器。
+ *
+ * 职责：暴露资金过账/冲转的手动触发接口。常规流程下 TableService.examine()
+ * 会在审核/反审时自动调用 FundsService，本控制器用于：
+ *   1. 数据修复场景（如历史单据补过账 / 重新冲转）；
+ *   2. 与库存过账引擎（PostingController）保持对称的手动运维入口。
+ * 路由前缀 /kuerp/funds，与通用动态表 /kuerp/:table/* 三段静态路径不冲突。
+ * 全部接口需 JWT 鉴权 + RBAC 节点校验。
+ */
+@UseGuards(JwtAuthGuard, RbacGuard)
+@Controller('kuerp/funds')
+export class FundsController {
+  constructor(private readonly funds: FundsService) {}
+
+  /**
+   * 手动过账：对指定单据执行资金过账（幂等，已过账则跳过）。
+   * POST /kuerp/funds/post  body: { table, id }
+   * @param table 单据表名（如 collection / kuerp_payment / goods_purchase）
+   * @param id 单据主键
+   */
+  @Post('post')
+  async post(@Body('table') table: string, @Body('id') id: number) {
+    return ok(await this.funds.post(table, Number(id)));
+  }
+
+  /**
+   * 手动冲转：对指定单据执行资金反审冲转（幂等，未审核则跳过）。
+   * POST /kuerp/funds/unpost  body: { table, id }
+   * @param table 单据表名
+   * @param id 单据主键
+   */
+  @Post('unpost')
+  async unpost(@Body('table') table: string, @Body('id') id: number) {
+    return ok(await this.funds.unpost(table, Number(id)));
+  }
+}

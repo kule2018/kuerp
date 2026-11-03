@@ -1,1 +1,94 @@
-LyoqDQogKiDnnIHluILljLrogZTliqjmlbDmja7lt6XlhbfvvJrku47pgJrnlKjooajmjqXlj6MgL2t1ZXJwL2FyZWEvaW5kZXgg5ouJ5Y+WIGt1ZXJwX2FyZWHvvIgzNzEzIOadoe+8ie+8jA0KICog5oyJIHBpZO+8iOeItue6pyBpZO+8iS8gbGV2ZWzvvIgxPeecgSAyPeW4giAzPeWMuu+8ieW7uue0ouW8le+8jOS+m+WKqOaAgeihqOWNlea4suafk+S4iee6p+iBlOWKqOS4i+aLieOAgg0KICoNCiAqIC0g5YWo6YeP5pWw5o2u6L+b56iL5YaF57yT5a2Y77yIUHJvbWlzZSDlpI3nlKjvvIzlpJrpobXpnaLlhbHkuqvvvIzlj6rmi4nkuIDmrKHvvInvvJsNCiAqIC0g6YCJ6aG55oyJIGFkY29kZe+8iOihjOaUv+WMuuWIkuegge+8ieaOkuW6j++8jOmhuuW6j+S4juW4uOingeihjOaUv+WMuuWIkuS4gOiHtO+8iOWMl+S6rOKGkuWkqea0peKGkuays+WMl+KApu+8ie+8mw0KICogLSDlj5blgLzlrZjljLrln58gaWTvvIhpbnTvvInvvIzkuI4ga3VlcnBfYWRkcmVzcyDnrYnooajnmoQgcHJvdmluY2UvY2l0eS9hcmVhIOWIl+ebtOaOpeWvueW6lOOAgg0KICovDQppbXBvcnQgcmVxdWVzdCBmcm9tICcuL3JlcXVlc3QnOw0KaW1wb3J0IHsgcmVmIH0gZnJvbSAndnVlJzsNCg0KbGV0IGNhY2hlUHJvbWlzZSA9IG51bGw7DQovKiogaWQgLT4g5Yy65Z+f6K6w5b2V77ybcGlkIC0+IOWtkOe6p+aVsOe7hO+8m2xldmVsIC0+IOivpee6p+mAiemhueaVsOe7hCAqLw0KbGV0IGJ5SWQgPSBuZXcgTWFwKCk7DQpsZXQgY2hpbGRyZW5PZiA9IG5ldyBNYXAoKTsNCmNvbnN0IG9wdGlvbnNCeUxldmVsID0geyAxOiBbXSwgMjogW10sIDM6IFtdIH07DQoNCi8qKg0KICog5ZON5bqU5byP54mI5pys5Y+377ya5Yy65Z+f57Si5byV5pys6Lqr5piv5pmu6YCaIE1hcO+8iOaVsOWNg+adoeiusOW9le+8jOWMheaIkCByZWFjdGl2ZSDlvIDplIDlpKfvvInvvIwNCiAqIOivu+WPluWHveaVsOmHjOW8leeUqOWug+W7uueri+S+nei1liDigJTigJQg5YiX6KGo5YWI5riy5p+T44CB5Yy65Z+f5ZCO5Yiw5pe277yM5Yqg6L295a6M5oiQ5Lya6Kem5Y+R6YeN5riy5p+T77yMDQogKiDnnIHluILljLrljZXlhYPmoLzmiY3og73ku47oo7ggaWQg5Y+Y5oiQ5Lit5paH5ZCN56ew44CCDQogKi8NCmNvbnN0IHZlcnNpb24gPSByZWYoMCk7DQoNCi8qKg0KICog5ouJ5Y+W5bm257Si5byV5Yy65Z+f5pWw5o2u77yI5bm25Y+R6LCD55So5YWx5Lqr5ZCM5LiA6K+35rGC77yJ44CCDQogKiBAcmV0dXJucyB7UHJvbWlzZTxib29sZWFuPn0g5piv5ZCm5Yqg6L295oiQ5YqfDQogKi8NCmV4cG9ydCBmdW5jdGlvbiBsb2FkUmVnaW9ucygpIHsNCiAgaWYgKCFjYWNoZVByb21pc2UpIHsNCiAgICBjYWNoZVByb21pc2UgPSByZXF1ZXN0DQogICAgICAuZ2V0KCcva3VlcnAvYXJlYS9pbmRleCcsIHsgcGFyYW1zOiB7IHBhZ2U6IDEsIGxpbWl0OiA1MDAwIH0gfSkNCiAgICAgIC50aGVuKChyKSA9PiB7DQogICAgICAgIGNvbnN0IHJvd3MgPSByPy5saXN0IHx8IFtdOw0KICAgICAgICBieUlkID0gbmV3IE1hcChyb3dzLm1hcCgoeCkgPT4gW3guaWQsIHhdKSk7DQogICAgICAgIGNoaWxkcmVuT2YgPSBuZXcgTWFwKCk7DQogICAgICAgIGZvciAoY29uc3QgeCBvZiByb3dzKSB7DQogICAgICAgICAgaWYgKCFjaGlsZHJlbk9mLmhhcyh4LnBpZCkpIGNoaWxkcmVuT2Yuc2V0KHgucGlkLCBbXSk7DQogICAgICAgICAgY2hpbGRyZW5PZi5nZXQoeC5waWQpLnB1c2goeCk7DQogICAgICAgIH0NCiAgICAgICAgLy8g5q+P57qn5oyJ6KGM5pS/5Yy65YiS56CB5o6S5bqP77yM5bGV56S66aG65bqP56iz5a6aDQogICAgICAgIGZvciAoY29uc3QgeCBvZiByb3dzKSB7DQogICAgICAgICAgY29uc3QgYXJyID0gb3B0aW9uc0J5TGV2ZWxbeC5sZXZlbF07DQogICAgICAgICAgaWYgKGFycikgYXJyLnB1c2goeCk7DQogICAgICAgIH0NCiAgICAgICAgZm9yIChjb25zdCBrZXkgb2YgT2JqZWN0LmtleXMob3B0aW9uc0J5TGV2ZWwpKSB7DQogICAgICAgICAgb3B0aW9uc0J5TGV2ZWxba2V5XS5zb3J0KChhLCBiKSA9PiBTdHJpbmcoYS5hZGNvZGUpLmxvY2FsZUNvbXBhcmUoU3RyaW5nKGIuYWRjb2RlKSkpOw0KICAgICAgICB9DQogICAgICAgIGZvciAoY29uc3QgYXJyIG9mIGNoaWxkcmVuT2YudmFsdWVzKCkpIHsNCiAgICAgICAgICBhcnIuc29ydCgoYSwgYikgPT4gU3RyaW5nKGEuYWRjb2RlKS5sb2NhbGVDb21wYXJlKFN0cmluZyhiLmFkY29kZSkpKTsNCiAgICAgICAgfQ0KICAgICAgICB2ZXJzaW9uLnZhbHVlKys7IC8vIOmAmuefpeS+nei1luWMuuWfn+aVsOaNrueahOa4suafk++8iOWNleWFg+agvC/kuIvmi4nvvInph43muLLmn5MNCiAgICAgICAgcmV0dXJuIHRydWU7DQogICAgICB9KQ0KICAgICAgLmNhdGNoKCgpID0+IHsNCiAgICAgICAgY2FjaGVQcm9taXNlID0gbnVsbDsgLy8g5aSx6LSl5YWB6K646YeN6K+VDQogICAgICAgIHJldHVybiBmYWxzZTsNCiAgICAgIH0pOw0KICB9DQogIHJldHVybiBjYWNoZVByb21pc2U7DQp9DQoNCi8qKg0KICog5p+Q5LiA57qn5Yir55qE6YCJ6aG55YiX6KGo77yIe3ZhbHVlLGxhYmVsfe+8ieOAgg0KICogQHBhcmFtIHsxfDJ8M30gbGV2ZWwgMT3nnIEgMj3luIIgMz3ljLoNCiAqLw0KZXhwb3J0IGZ1bmN0aW9uIHJlZ2lvbk9wdGlvbnMobGV2ZWwpIHsNCiAgdmVyc2lvbi52YWx1ZTsgLy8g5bu656uL5ZON5bqU5L6d6LWWDQogIHJldHVybiAob3B0aW9uc0J5TGV2ZWxbbGV2ZWxdIHx8IFtdKS5tYXAoKHgpID0+ICh7IHZhbHVlOiB4LmlkLCBsYWJlbDogeC5uYW1lIH0pKTsNCn0NCg0KLyoqDQogKiDmjIflrprniLbnuqfkuIvnmoTlrZDnuqfpgInpobnvvIjnnIHkuIvnmoTluIIgLyDluILkuIvnmoTljLrvvInjgIINCiAqIEBwYXJhbSB7bnVtYmVyfSBwaWQg54i257qn5Yy65Z+fIGlkDQogKi8NCmV4cG9ydCBmdW5jdGlvbiByZWdpb25DaGlsZHJlbihwaWQpIHsNCiAgdmVyc2lvbi52YWx1ZTsgLy8g5bu656uL5ZON5bqU5L6d6LWWDQogIHJldHVybiAoY2hpbGRyZW5PZi5nZXQoTnVtYmVyKHBpZCkpIHx8IFtdKS5tYXAoKHgpID0+ICh7IHZhbHVlOiB4LmlkLCBsYWJlbDogeC5uYW1lIH0pKTsNCn0NCg0KLyoqDQogKiDljLrln58gaWQg4oaSIOWQjeensO+8iOihqOagvOWNleWFg+agvOe/u+ivkeeUqO+8ie+8jOacquWRveS4reWOn+agt+i/lOWbnuOAgg0KICogQHBhcmFtIHthbnl9IGlkIOWMuuWfnyBpZA0KICovDQpleHBvcnQgZnVuY3Rpb24gcmVnaW9uTmFtZShpZCkgew0KICB2ZXJzaW9uLnZhbHVlOyAvLyDlu7rnq4vlk43lupTkvp3otZbvvJrljLrln5/mlbDmja7liqDovb3lrozmiJDlkI7ljZXlhYPmoLzph43muLLmn5PkuLrlkI3np7ANCiAgY29uc3QgaGl0ID0gYnlJZC5nZXQoTnVtYmVyKGlkKSk7DQogIHJldHVybiBoaXQgPyBoaXQubmFtZSA6IGlkOw0KfQ0KDQovKiog6KGo5Y2V6YeM5piv5ZCm6YCJ5LqG5pyJ5pWI55yBL+W4gu+8iOiBlOWKqOmHjee9ruWIpOaWreeUqO+8iSAqLw0KZXhwb3J0IGZ1bmN0aW9uIGlzVmFsaWRSZWdpb24odikgew0KICByZXR1cm4gdiAhPT0gJycgJiYgdiAhPT0gbnVsbCAmJiB2ICE9PSB1bmRlZmluZWQgJiYgYnlJZC5oYXMoTnVtYmVyKHYpKTsNCn0NCg==
+/**
+ * 省市区联动数据工具：从通用表接口 /kuerp/area/index 拉取 kuerp_area（3713 条），
+ * 按 pid（父级 id）/ level（1=省 2=市 3=区）建索引，供动态表单渲染三级联动下拉。
+ *
+ * - 全量数据进程内缓存（Promise 复用，多页面共享，只拉一次）；
+ * - 选项按 adcode（行政区划码）排序，顺序与常见行政区划一致（北京→天津→河北…）；
+ * - 取值存区域 id（int），与 kuerp_address 等表的 province/city/area 列直接对应。
+ */
+import request from './request';
+import { ref } from 'vue';
+
+let cachePromise = null;
+/** id -> 区域记录；pid -> 子级数组；level -> 该级选项数组 */
+let byId = new Map();
+let childrenOf = new Map();
+const optionsByLevel = { 1: [], 2: [], 3: [] };
+
+/**
+ * 响应式版本号：区域索引本身是普通 Map（数千条记录，包成 reactive 开销大），
+ * 读取函数里引用它建立依赖 —— 列表先渲染、区域后到时，加载完成会触发重渲染，
+ * 省市区单元格才能从裸 id 变成中文名称。
+ */
+const version = ref(0);
+
+/**
+ * 拉取并索引区域数据（并发调用共享同一请求）。
+ * @returns {Promise<boolean>} 是否加载成功
+ */
+export function loadRegions() {
+  if (!cachePromise) {
+    cachePromise = request
+      .get('/kuerp/area/index', { params: { page: 1, limit: 5000 } })
+      .then((r) => {
+        const rows = r?.list || [];
+        byId = new Map(rows.map((x) => [x.id, x]));
+        childrenOf = new Map();
+        for (const x of rows) {
+          if (!childrenOf.has(x.pid)) childrenOf.set(x.pid, []);
+          childrenOf.get(x.pid).push(x);
+        }
+        // 每级按行政区划码排序，展示顺序稳定
+        for (const x of rows) {
+          const arr = optionsByLevel[x.level];
+          if (arr) arr.push(x);
+        }
+        for (const key of Object.keys(optionsByLevel)) {
+          optionsByLevel[key].sort((a, b) => String(a.adcode).localeCompare(String(b.adcode)));
+        }
+        for (const arr of childrenOf.values()) {
+          arr.sort((a, b) => String(a.adcode).localeCompare(String(b.adcode)));
+        }
+        version.value++; // 通知依赖区域数据的渲染（单元格/下拉）重渲染
+        return true;
+      })
+      .catch(() => {
+        cachePromise = null; // 失败允许重试
+        return false;
+      });
+  }
+  return cachePromise;
+}
+
+/**
+ * 某一级别的选项列表（{value,label}）。
+ * @param {1|2|3} level 1=省 2=市 3=区
+ */
+export function regionOptions(level) {
+  version.value; // 建立响应依赖
+  return (optionsByLevel[level] || []).map((x) => ({ value: x.id, label: x.name }));
+}
+
+/**
+ * 指定父级下的子级选项（省下的市 / 市下的区）。
+ * @param {number} pid 父级区域 id
+ */
+export function regionChildren(pid) {
+  version.value; // 建立响应依赖
+  return (childrenOf.get(Number(pid)) || []).map((x) => ({ value: x.id, label: x.name }));
+}
+
+/**
+ * 区域 id → 名称（表格单元格翻译用），未命中原样返回。
+ * @param {any} id 区域 id
+ */
+export function regionName(id) {
+  version.value; // 建立响应依赖：区域数据加载完成后单元格重渲染为名称
+  const hit = byId.get(Number(id));
+  return hit ? hit.name : id;
+}
+
+/** 表单里是否选了有效省/市（联动重置判断用） */
+export function isValidRegion(v) {
+  return v !== '' && v !== null && v !== undefined && byId.has(Number(v));
+}

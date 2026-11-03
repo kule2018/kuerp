@@ -1,1 +1,25 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBNdWx0ZXJNb2R1bGUgfSBmcm9tICdAbmVzdGpzL3BsYXRmb3JtLWV4cHJlc3MnOwppbXBvcnQgeyBVcGxvYWRDb250cm9sbGVyIH0gZnJvbSAnLi91cGxvYWQuY29udHJvbGxlcic7CmltcG9ydCB7IFVwbG9hZFNlcnZpY2UsIGNyZWF0ZU11bHRlck9wdGlvbnMgfSBmcm9tICcuL3VwbG9hZC5zZXJ2aWNlJzsKaW1wb3J0IHsgU2hvcE1vZHVsZSB9IGZyb20gJy4uLy4uL3Nob3Avc2hvcC5tb2R1bGUnOwppbXBvcnQgeyBBdXRoTW9kdWxlIH0gZnJvbSAnLi4vLi4vYXV0aC9hdXRoLm1vZHVsZSc7CmltcG9ydCB7IFNob3BPckp3dEd1YXJkIH0gZnJvbSAnLi4vZ3VhcmRzL3Nob3Atb3Itand0Lmd1YXJkJzsKCi8qKgogKiDmlofku7bkuIrkvKDmqKHlnZfvvIjmoYbmnrbog73lipvvvIzpnZ7kuJrliqHmqKHlnZfvvInjgIIKICoKICog5L6b57uZ5YWz57O777yaCiAqIC0gTXVsdGVyTW9kdWxlIOazqOWGjOWFqOWxgOWtmOWCqC/moKHpqoznrZbnlaXvvIhjcmVhdGVNdWx0ZXJPcHRpb25z77yJ77ybCiAqIC0gVXBsb2FkQ29udHJvbGxlciDmmrTpnLIgUE9TVCAvYXBpL3VwbG9hZOOAgS9hcGkvdXBsb2FkL211bHRp44CBL2FwaS91cGxvYWQvaW1hZ2Ug5LiOIEdFVCAvYXBpL3VwbG9hZC9jb25maWfvvJsKICogLSBVcGxvYWRTZXJ2aWNlIOWvvOWHuue7meWFtuWug+aooeWdl++8iOWmgiBzeXN0ZW0g55qEIExvZ28g5LiK5Lyg6ZyA6KaB5b2S5LiA5YyW57uT5p6c5pe25aSN55So77yJ44CCCiAqCiAqIOmdmeaAgeiuv+mXrueUsSBtYWluLnRzIOeahCB1c2VTdGF0aWNBc3NldHMg5oyC6L2977yM5LiN5Zyo5qih5Z2X5YaF5aOw5piO44CCCiAqLwpATW9kdWxlKHsKICBpbXBvcnRzOiBbTXVsdGVyTW9kdWxlLnJlZ2lzdGVyKGNyZWF0ZU11bHRlck9wdGlvbnMoKSksIFNob3BNb2R1bGUsIEF1dGhNb2R1bGVdLAogIGNvbnRyb2xsZXJzOiBbVXBsb2FkQ29udHJvbGxlcl0sCiAgcHJvdmlkZXJzOiBbVXBsb2FkU2VydmljZSwgU2hvcE9ySnd0R3VhcmRdLAogIGV4cG9ydHM6IFtVcGxvYWRTZXJ2aWNlLCBNdWx0ZXJNb2R1bGVdLAp9KQpleHBvcnQgY2xhc3MgVXBsb2FkTW9kdWxlIHt9Cg==
+import { Module } from '@nestjs/common';
+import { MulterModule } from '@nestjs/platform-express';
+import { UploadController } from './upload.controller';
+import { UploadService, createMulterOptions } from './upload.service';
+import { ShopModule } from '../../shop/shop.module';
+import { AuthModule } from '../../auth/auth.module';
+import { ShopOrJwtGuard } from '../guards/shop-or-jwt.guard';
+
+/**
+ * 文件上传模块（框架能力，非业务模块）。
+ *
+ * 供给关系：
+ * - MulterModule 注册全局存储/校验策略（createMulterOptions）；
+ * - UploadController 暴露 POST /api/upload、/api/upload/multi、/api/upload/image 与 GET /api/upload/config；
+ * - UploadService 导出给其它模块（如 system 的 Logo 上传需要归一化结果时复用）。
+ *
+ * 静态访问由 main.ts 的 useStaticAssets 挂载，不在模块内声明。
+ */
+@Module({
+  imports: [MulterModule.register(createMulterOptions()), ShopModule, AuthModule],
+  controllers: [UploadController],
+  providers: [UploadService, ShopOrJwtGuard],
+  exports: [UploadService, MulterModule],
+})
+export class UploadModule {}

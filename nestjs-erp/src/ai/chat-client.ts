@@ -1,1 +1,146 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsKaW1wb3J0IHsgQ2hhdE1vZGVsU2VydmljZSwgQ2hhdE1lc3NhZ2UsIENvbXBsZXRlUmVzdWx0IH0gZnJvbSAnLi9jaGF0LW1vZGVsLnNlcnZpY2UnOwppbXBvcnQgeyBUb29sUmVnaXN0cnksIFRvb2xEZWZpbml0aW9uIH0gZnJvbSAnLi90b29sLnJlZ2lzdHJ5JzsKaW1wb3J0IHsgQWlNb2RlbENvbmZpZyB9IGZyb20gJy4vZW50aXRpZXMvYWktbW9kZWwtY29uZmlnLmVudGl0eSc7CgovKioKICogQWR2aXNvcu+8muWcqOivt+axguWPkeWHuuWJjeWvuSBQcm9tcHQgLyDkuIrkuIvmloflgZrlop7lvLrvvIhTcHJpbmcgQUkg5ZCM5ZCN5qaC5b+177yJ44CCCiAqIOS+i+WmgiBMb2dnaW5nQWR2aXNvcu+8iOaXpeW/l++8ieOAgVF1ZXN0aW9uQW5zd2VyQWR2aXNvcu+8iFJBRyDmo4DntKLms6jlhaXkuIrkuIvmlofvvInjgIIKICovCmV4cG9ydCBpbnRlcmZhY2UgQWR2aXNvciB7CiAgbmFtZTogc3RyaW5nOwogIGJlZm9yZT86IChjdHg6IEFkdmlzb3JDb250ZXh0KSA9PiBQcm9taXNlPHZvaWQ+IHwgdm9pZDsKfQoKZXhwb3J0IGludGVyZmFjZSBBZHZpc29yQ29udGV4dCB7CiAgbWVzc2FnZXM6IENoYXRNZXNzYWdlW107CiAgdG9vbHM6IFRvb2xEZWZpbml0aW9uW107CiAgY29uZmlnPzogQWlNb2RlbENvbmZpZyB8IG51bGw7CiAgbW9kZWxDb25maWdJZD86IG51bWJlcjsKICByZXNwb25zZUZvcm1hdD86IGFueTsKfQoKZXhwb3J0IGludGVyZmFjZSBDYWxsUmVzcG9uc2UgewogIGNvbnRlbnQ6ICgpID0+IFByb21pc2U8c3RyaW5nPjsKICByZXNwb25zZUVudGl0eTogKCkgPT4gUHJvbWlzZTxDb21wbGV0ZVJlc3VsdD47Cn0KCi8qKgogKiBDaGF0Q2xpZW5077ya5rWB5byPIEJ1aWxkZXIgQVBJ77yM562J5Lu3IFNwcmluZyBBSSDnmoQgQ2hhdENsaWVudOOAggogKgogKiDnlKjms5XvvJoKICogICBjb25zdCBjbGllbnQgPSBjaGF0Q2xpZW50U2VydmljZS5jcmVhdGUoKTsKICogICBjb25zdCBhbnN3ZXIgPSBhd2FpdCBjbGllbnQKICogICAgIC5wcm9tcHQoKQogKiAgICAgLnN5c3RlbSgn5L2g5piv6L+b6ZSA5a2Y5Yqp5omLJykKICogICAgIC51c2VyKCfluK7miJHmn6XlupPlrZjkvY7kuo4gMTAg55qE5ZWG5ZOBJykKICogICAgIC50b29scyh0b29sUmVnaXN0cnkpCiAqICAgICAuYWR2aXNvcnMobmV3IExvZ2dpbmdBZHZpc29yKCkpCiAqICAgICAuY2FsbCgpCiAqICAgICAuY29udGVudCgpOwogKi8KZXhwb3J0IGNsYXNzIENoYXRDbGllbnQgewogIHByaXZhdGUgX3N5c3RlbT86IHN0cmluZzsKICBwcml2YXRlIF91c2VyPzogc3RyaW5nOwogIHByaXZhdGUgdG9vbERlZnM6IFRvb2xEZWZpbml0aW9uW10gPSBbXTsKICBwcml2YXRlIF9hZHZpc29yczogQWR2aXNvcltdID0gW107CiAgcHJpdmF0ZSByZXNwb25zZUZvcm1hdD86IGFueTsKICBwcml2YXRlIGNvbmZpZz86IEFpTW9kZWxDb25maWcgfCBudWxsOwogIHByaXZhdGUgbW9kZWxDb25maWdJZD86IG51bWJlcjsKCiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBjaGF0TW9kZWw6IENoYXRNb2RlbFNlcnZpY2UpIHt9CgogIHByb21wdCgpOiB0aGlzIHsKICAgIHJldHVybiB0aGlzOwogIH0KCiAgc3lzdGVtKHRleHQ6IHN0cmluZyk6IHRoaXMgewogICAgdGhpcy5fc3lzdGVtID0gdGV4dDsKICAgIHJldHVybiB0aGlzOwogIH0KCiAgdXNlcih0ZXh0OiBzdHJpbmcpOiB0aGlzIHsKICAgIHRoaXMuX3VzZXIgPSB0ZXh0OwogICAgcmV0dXJuIHRoaXM7CiAgfQoKICB0b29scyhkZWZzOiBUb29sRGVmaW5pdGlvbltdIHwgVG9vbFJlZ2lzdHJ5KTogdGhpcyB7CiAgICB0aGlzLnRvb2xEZWZzID0gQXJyYXkuaXNBcnJheShkZWZzKSA/IGRlZnMgOiBkZWZzLmxpc3QoKTsKICAgIHJldHVybiB0aGlzOwogIH0KCiAgYWR2aXNvcnMoLi4uYWRzOiBBZHZpc29yW10pOiB0aGlzIHsKICAgIHRoaXMuX2Fkdmlzb3JzLnB1c2goLi4uYWRzKTsKICAgIHJldHVybiB0aGlzOwogIH0KCiAgd2l0aENvbmZpZyhjZmc6IEFpTW9kZWxDb25maWcpOiB0aGlzIHsKICAgIHRoaXMuY29uZmlnID0gY2ZnOwogICAgcmV0dXJuIHRoaXM7CiAgfQoKICB3aXRoTW9kZWxDb25maWdJZChpZDogbnVtYmVyKTogdGhpcyB7CiAgICB0aGlzLm1vZGVsQ29uZmlnSWQgPSBpZDsKICAgIHJldHVybiB0aGlzOwogIH0KCiAgd2l0aFJlc3BvbnNlRm9ybWF0KHJmOiBhbnkpOiB0aGlzIHsKICAgIHRoaXMucmVzcG9uc2VGb3JtYXQgPSByZjsKICAgIHJldHVybiB0aGlzOwogIH0KCiAgcHJpdmF0ZSBidWlsZE1lc3NhZ2VzKCk6IENoYXRNZXNzYWdlW10gewogICAgY29uc3QgbXNnczogQ2hhdE1lc3NhZ2VbXSA9IFtdOwogICAgaWYgKHRoaXMuX3N5c3RlbSkgbXNncy5wdXNoKHsgcm9sZTogJ3N5c3RlbScsIGNvbnRlbnQ6IHRoaXMuX3N5c3RlbSB9KTsKICAgIGlmICh0aGlzLl91c2VyKSBtc2dzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6IHRoaXMuX3VzZXIgfSk7CiAgICByZXR1cm4gbXNnczsKICB9CgogIGFzeW5jIGNhbGwoKTogUHJvbWlzZTxDYWxsUmVzcG9uc2U+IHsKICAgIGNvbnN0IGN0eDogQWR2aXNvckNvbnRleHQgPSB7CiAgICAgIG1lc3NhZ2VzOiB0aGlzLmJ1aWxkTWVzc2FnZXMoKSwKICAgICAgdG9vbHM6IHRoaXMudG9vbERlZnMsCiAgICAgIGNvbmZpZzogdGhpcy5jb25maWcsCiAgICAgIG1vZGVsQ29uZmlnSWQ6IHRoaXMubW9kZWxDb25maWdJZCwKICAgICAgcmVzcG9uc2VGb3JtYXQ6IHRoaXMucmVzcG9uc2VGb3JtYXQsCiAgICB9OwogICAgZm9yIChjb25zdCBhIG9mIHRoaXMuX2Fkdmlzb3JzKSBhd2FpdCBhLmJlZm9yZT8uKGN0eCk7CiAgICBjb25zdCByZXN1bHQgPSBhd2FpdCB0aGlzLmNoYXRNb2RlbC5jb21wbGV0ZSh7CiAgICAgIGNvbmZpZzogdGhpcy5jb25maWcsCiAgICAgIG1vZGVsQ29uZmlnSWQ6IHRoaXMubW9kZWxDb25maWdJZCwKICAgICAgbWVzc2FnZXM6IGN0eC5tZXNzYWdlcywKICAgICAgdG9vbHM6IHRoaXMudG9vbERlZnMubGVuZ3RoID8gVG9vbFJlZ2lzdHJ5LnRvT3BlbkFpVG9vbHModGhpcy50b29sRGVmcykgOiB1bmRlZmluZWQsCiAgICAgIHJlc3BvbnNlRm9ybWF0OiB0aGlzLnJlc3BvbnNlRm9ybWF0LAogICAgfSk7CiAgICByZXR1cm4gewogICAgICBjb250ZW50OiAoKSA9PiBQcm9taXNlLnJlc29sdmUocmVzdWx0LmNvbnRlbnQpLAogICAgICByZXNwb25zZUVudGl0eTogKCkgPT4gUHJvbWlzZS5yZXNvbHZlKHJlc3VsdCksCiAgICB9OwogIH0KCiAgYXN5bmMgKnN0cmVhbSgpOiBBc3luY0dlbmVyYXRvcjxzdHJpbmc+IHsKICAgIGNvbnN0IHIgPSBhd2FpdCB0aGlzLmNhbGwoKTsKICAgIHlpZWxkIGF3YWl0IHIuY29udGVudCgpOwogIH0KfQoKLyoqCiAqIENoYXRDbGllbnQg5bel5Y6C77ya5q+P5Liq6K+35rGCIG5ldyDkuIDkuKogQ2hhdENsaWVudO+8iOetieS7tyBTcHJpbmcgQUkg55qEIENoYXRDbGllbnQuQnVpbGRlci5idWlsZCgp77yJ44CCCiAqLwpASW5qZWN0YWJsZSgpCmV4cG9ydCBjbGFzcyBDaGF0Q2xpZW50U2VydmljZSB7CiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBjaGF0TW9kZWw6IENoYXRNb2RlbFNlcnZpY2UpIHt9CgogIGNyZWF0ZSgpOiBDaGF0Q2xpZW50IHsKICAgIHJldHVybiBuZXcgQ2hhdENsaWVudCh0aGlzLmNoYXRNb2RlbCk7CiAgfQp9CgovKiog5YaF572u5pel5b+XIEFkdmlzb3LvvJrmiormnKzova4gc3lzdGVtL3VzZXIg5omT5Yiw5o6n5Yi25Y+w77yI6JC95bqT55SxIENoYXRNb2RlbFNlcnZpY2Ug57uf5LiA5aSE55CG77yJICovCmV4cG9ydCBjbGFzcyBMb2dnaW5nQWR2aXNvciBpbXBsZW1lbnRzIEFkdmlzb3IgewogIG5hbWUgPSAnTG9nZ2luZ0Fkdmlzb3InOwogIGJlZm9yZShjdHg6IEFkdmlzb3JDb250ZXh0KSB7CiAgICAvLyDlrp7pmYXokL3lupPlnKggQ2hhdE1vZGVsU2VydmljZS5jb21wbGV0ZSDlhoXlrozmiJDvvJvmraTlpITku4XlgZror7fmsYLnuqfml6Xlv5cKICAgIHZvaWQgY3R4OwogIH0KfQo=
+import { Injectable } from '@nestjs/common';
+import { ChatModelService, ChatMessage, CompleteResult } from './chat-model.service';
+import { ToolRegistry, ToolDefinition } from './tool.registry';
+import { AiModelConfig } from './entities/ai-model-config.entity';
+
+/**
+ * Advisor：在请求发出前对 Prompt / 上下文做增强（Spring AI 同名概念）。
+ * 例如 LoggingAdvisor（日志）、QuestionAnswerAdvisor（RAG 检索注入上下文）。
+ */
+export interface Advisor {
+  name: string;
+  before?: (ctx: AdvisorContext) => Promise<void> | void;
+}
+
+export interface AdvisorContext {
+  messages: ChatMessage[];
+  tools: ToolDefinition[];
+  config?: AiModelConfig | null;
+  modelConfigId?: number;
+  responseFormat?: any;
+}
+
+export interface CallResponse {
+  content: () => Promise<string>;
+  responseEntity: () => Promise<CompleteResult>;
+}
+
+/**
+ * ChatClient：流式 Builder API，等价 Spring AI 的 ChatClient。
+ *
+ * 用法：
+ *   const client = chatClientService.create();
+ *   const answer = await client
+ *     .prompt()
+ *     .system('你是进销存助手')
+ *     .user('帮我查库存低于 10 的商品')
+ *     .tools(toolRegistry)
+ *     .advisors(new LoggingAdvisor())
+ *     .call()
+ *     .content();
+ */
+export class ChatClient {
+  private _system?: string;
+  private _user?: string;
+  private toolDefs: ToolDefinition[] = [];
+  private _advisors: Advisor[] = [];
+  private responseFormat?: any;
+  private config?: AiModelConfig | null;
+  private modelConfigId?: number;
+
+  constructor(private readonly chatModel: ChatModelService) {}
+
+  prompt(): this {
+    return this;
+  }
+
+  system(text: string): this {
+    this._system = text;
+    return this;
+  }
+
+  user(text: string): this {
+    this._user = text;
+    return this;
+  }
+
+  tools(defs: ToolDefinition[] | ToolRegistry): this {
+    this.toolDefs = Array.isArray(defs) ? defs : defs.list();
+    return this;
+  }
+
+  advisors(...ads: Advisor[]): this {
+    this._advisors.push(...ads);
+    return this;
+  }
+
+  withConfig(cfg: AiModelConfig): this {
+    this.config = cfg;
+    return this;
+  }
+
+  withModelConfigId(id: number): this {
+    this.modelConfigId = id;
+    return this;
+  }
+
+  withResponseFormat(rf: any): this {
+    this.responseFormat = rf;
+    return this;
+  }
+
+  private buildMessages(): ChatMessage[] {
+    const msgs: ChatMessage[] = [];
+    if (this._system) msgs.push({ role: 'system', content: this._system });
+    if (this._user) msgs.push({ role: 'user', content: this._user });
+    return msgs;
+  }
+
+  async call(): Promise<CallResponse> {
+    const ctx: AdvisorContext = {
+      messages: this.buildMessages(),
+      tools: this.toolDefs,
+      config: this.config,
+      modelConfigId: this.modelConfigId,
+      responseFormat: this.responseFormat,
+    };
+    for (const a of this._advisors) await a.before?.(ctx);
+    const result = await this.chatModel.complete({
+      config: this.config,
+      modelConfigId: this.modelConfigId,
+      messages: ctx.messages,
+      tools: this.toolDefs.length ? ToolRegistry.toOpenAiTools(this.toolDefs) : undefined,
+      responseFormat: this.responseFormat,
+    });
+    return {
+      content: () => Promise.resolve(result.content),
+      responseEntity: () => Promise.resolve(result),
+    };
+  }
+
+  async *stream(): AsyncGenerator<string> {
+    const r = await this.call();
+    yield await r.content();
+  }
+}
+
+/**
+ * ChatClient 工厂：每个请求 new 一个 ChatClient（等价 Spring AI 的 ChatClient.Builder.build()）。
+ */
+@Injectable()
+export class ChatClientService {
+  constructor(private readonly chatModel: ChatModelService) {}
+
+  create(): ChatClient {
+    return new ChatClient(this.chatModel);
+  }
+}
+
+/** 内置日志 Advisor：把本轮 system/user 打到控制台（落库由 ChatModelService 统一处理） */
+export class LoggingAdvisor implements Advisor {
+  name = 'LoggingAdvisor';
+  before(ctx: AdvisorContext) {
+    // 实际落库在 ChatModelService.complete 内完成；此处仅做请求级日志
+    void ctx;
+  }
+}

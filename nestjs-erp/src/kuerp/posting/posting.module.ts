@@ -1,1 +1,20 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBUeXBlT3JtTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy90eXBlb3JtJzsKaW1wb3J0IHsgUG9zdGluZ1NlcnZpY2UgfSBmcm9tICcuL3Bvc3Rpbmcuc2VydmljZSc7CmltcG9ydCB7IFN1bW1hcnlTZXJ2aWNlIH0gZnJvbSAnLi9zdW1tYXJ5LnNlcnZpY2UnOwppbXBvcnQgeyBQb3N0aW5nQ29udHJvbGxlciB9IGZyb20gJy4vcG9zdGluZy5jb250cm9sbGVyJzsKaW1wb3J0IHsgUmJhY0d1YXJkIH0gZnJvbSAnLi4vLi4vY29tbW9uL2d1YXJkcy9yYmFjLmd1YXJkJzsKCi8qKgogKiDkuJrliqHov4fotKYgLyDnnIvmnb/mqKHlnZfvvJoKICogLSBQb3N0aW5nU2VydmljZe+8muWuoeaguOWNleaNruiBlOWKqOW6k+WtmOOAgeaUtuWPkeaYjue7huOAgeenu+WKqOW5s+Wdh+aIkOacrO+8jOaUr+aMgeWPjeWuoeWGsui9rO+8mwogKiAtIFBvc3RpbmdDb250cm9sbGVy77ya5Lul6ZSA5a6a6LStIC8g5pm66IO96KGl6LSn55yL5p2/ICsg55Sf5oiQ6LSt6LSn6K6i5Y2V44CCCiAqIOWvvOWHuiBQb3N0aW5nU2VydmljZSDkvpsgVGFibGVTZXJ2aWNlIOWcqCBleGFtaW5lIOaXtuiwg+eUqOOAggogKi8KQE1vZHVsZSh7CiAgaW1wb3J0czogW1R5cGVPcm1Nb2R1bGVdLAogIHByb3ZpZGVyczogW1Bvc3RpbmdTZXJ2aWNlLCBTdW1tYXJ5U2VydmljZSwgUmJhY0d1YXJkXSwKICBjb250cm9sbGVyczogW1Bvc3RpbmdDb250cm9sbGVyXSwKICBleHBvcnRzOiBbUG9zdGluZ1NlcnZpY2VdLAp9KQpleHBvcnQgY2xhc3MgUG9zdGluZ01vZHVsZSB7fQo=
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { PostingService } from './posting.service';
+import { SummaryService } from './summary.service';
+import { PostingController } from './posting.controller';
+import { RbacGuard } from '../../common/guards/rbac.guard';
+
+/**
+ * 业务过账 / 看板模块：
+ * - PostingService：审核单据联动库存、收发明细、移动平均成本，支持反审冲转；
+ * - PostingController：以销定购 / 智能补货看板 + 生成购货订单。
+ * 导出 PostingService 供 TableService 在 examine 时调用。
+ */
+@Module({
+  imports: [TypeOrmModule],
+  providers: [PostingService, SummaryService, RbacGuard],
+  controllers: [PostingController],
+  exports: [PostingService],
+})
+export class PostingModule {}

@@ -1,1 +1,25 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgT25Nb2R1bGVJbml0IH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBUb29sUmVnaXN0cnkgfSBmcm9tICcuL3Rvb2wucmVnaXN0cnknOwppbXBvcnQgeyBFcnBEZW1vVG9vbHMgfSBmcm9tICcuL2RlbW8tdG9vbHMnOwppbXBvcnQgeyBCaXpBaVRvb2xzIH0gZnJvbSAnLi9iaXotdG9vbHMnOwoKLyoqCiAqIOW3peWFt+W8leWvvO+8muaKiuW4piBAVG9vbCDnmoQgcHJvdmlkZXIg55m76K6w6L+bIFRvb2xSZWdpc3Ryee+8jOW5tuWcqOaooeWdl+WIneWni+WMluWQjuaJq+aPj+azqOWGjOOAggogKiDmlrDlop7lt6Xlhbflj6rpnIDvvJoxKSDlnKjku7vmhI8gQEluamVjdGFibGUoKSDnsbvmlrnms5XkuIrlhpkgQFRvb2zvvJsyKSDlnKggQWlNb2R1bGUgcHJvdmlkZXJzIOazqOWGjOivpeexu++8mwogKiAzKSDlnKjmraTmnoTpgKDlj4LmlbDkuK3ms6jlhaXlroPljbPlj6/oh6rliqjooqsgQWdlbnQg6LCD55So44CCCiAqLwpASW5qZWN0YWJsZSgpCmV4cG9ydCBjbGFzcyBUb29sQm9vdHN0cmFwIGltcGxlbWVudHMgT25Nb2R1bGVJbml0IHsKICBjb25zdHJ1Y3RvcigKICAgIHByaXZhdGUgcmVhZG9ubHkgcmVnaXN0cnk6IFRvb2xSZWdpc3RyeSwKICAgIHByaXZhdGUgcmVhZG9ubHkgZXJwRGVtb1Rvb2xzOiBFcnBEZW1vVG9vbHMsCiAgICBwcml2YXRlIHJlYWRvbmx5IGJpelRvb2xzOiBCaXpBaVRvb2xzLAogICkgewogICAgdGhpcy5yZWdpc3RyeS5yZWdpc3RlclByb3ZpZGVyKGVycERlbW9Ub29scyk7CiAgICB0aGlzLnJlZ2lzdHJ5LnJlZ2lzdGVyUHJvdmlkZXIoYml6VG9vbHMpOwogIH0KCiAgb25Nb2R1bGVJbml0KCkgewogICAgdGhpcy5yZWdpc3RyeS5zY2FuKCk7CiAgfQp9Cg==
+import { Injectable, OnModuleInit } from '@nestjs/common';
+import { ToolRegistry } from './tool.registry';
+import { ErpDemoTools } from './demo-tools';
+import { BizAiTools } from './biz-tools';
+
+/**
+ * 工具引导：把带 @Tool 的 provider 登记进 ToolRegistry，并在模块初始化后扫描注册。
+ * 新增工具只需：1) 在任意 @Injectable() 类方法上写 @Tool；2) 在 AiModule providers 注册该类；
+ * 3) 在此构造参数中注入它即可自动被 Agent 调用。
+ */
+@Injectable()
+export class ToolBootstrap implements OnModuleInit {
+  constructor(
+    private readonly registry: ToolRegistry,
+    private readonly erpDemoTools: ErpDemoTools,
+    private readonly bizTools: BizAiTools,
+  ) {
+    this.registry.registerProvider(erpDemoTools);
+    this.registry.registerProvider(bizTools);
+  }
+
+  onModuleInit() {
+    this.registry.scan();
+  }
+}

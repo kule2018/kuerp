@@ -1,1 +1,35 @@
-aW1wb3J0IHsgRW50aXR5LCBDb2x1bW4gfSBmcm9tICd0eXBlb3JtJzsKaW1wb3J0IHsgQmFzZUVudGl0eSB9IGZyb20gJy4uLy4uL2NvbW1vbi9iYXNlLmVudGl0eSc7CgovKioKICog5ZCO5Y+w566h55CG5ZGY77yI562J5pWI5Y6f57O757ufIGt1ZXJwX2FkbWluIOeZu+W9lei0puaIt++8jEZhc3RBZG1pbiDmoYbmnrbnuqfooajvvIkKICovCkBFbnRpdHkoJ2t1ZXJwX2FkbWluJykKZXhwb3J0IGNsYXNzIEFkbWluIGV4dGVuZHMgQmFzZUVudGl0eSB7CiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiA1MCwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICfnlKjmiLflkI0nIH0pCiAgdXNlcm5hbWU6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiA2NCwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICflr4bnoIHlk4jluIwnIH0pCiAgcGFzc3dvcmQ6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiA2NCwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICflr4bnoIHnm5AnIH0pCiAgc2FsdDogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDUwLCBkZWZhdWx0OiAnJywgY29tbWVudDogJ+aYteensCcgfSkKICBuaWNrbmFtZTogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDEwMCwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICflpLTlg48nIH0pCiAgYXZhdGFyOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogMTAwLCBkZWZhdWx0OiAnJywgY29tbWVudDogJ+mCrueusScgfSkKICBlbWFpbDogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ2JpZ2ludCcsIG51bGxhYmxlOiB0cnVlLCBkZWZhdWx0OiAwLCBjb21tZW50OiAn5pyA5ZCO55m75b2V5pe26Ze0JyB9KQogIGxvZ2ludGltZT86IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiA1MCwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICfmnIDlkI7nmbvlvZVJUCcgfSkKICBsb2dpbmlwOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndGlueWludCcsIGRlZmF1bHQ6IDEsIGNvbW1lbnQ6ICfnirbmgIE6MT3mraPluLgsMD3npoHnlKgnIH0pCiAgc3RhdHVzOiBudW1iZXI7Cn0K
+import { Entity, Column } from 'typeorm';
+import { BaseEntity } from '../../common/base.entity';
+
+/**
+ * 后台管理员（等效原系统 kuerp_admin 登录账户，FastAdmin 框架级表）
+ */
+@Entity('kuerp_admin')
+export class Admin extends BaseEntity {
+  @Column({ type: 'varchar', length: 50, default: '', comment: '用户名' })
+  username: string;
+
+  @Column({ type: 'varchar', length: 64, default: '', comment: '密码哈希' })
+  password: string;
+
+  @Column({ type: 'varchar', length: 64, default: '', comment: '密码盐' })
+  salt: string;
+
+  @Column({ type: 'varchar', length: 50, default: '', comment: '昵称' })
+  nickname: string;
+
+  @Column({ type: 'varchar', length: 100, default: '', comment: '头像' })
+  avatar: string;
+
+  @Column({ type: 'varchar', length: 100, default: '', comment: '邮箱' })
+  email: string;
+
+  @Column({ type: 'bigint', nullable: true, default: 0, comment: '最后登录时间' })
+  logintime?: number;
+
+  @Column({ type: 'varchar', length: 50, default: '', comment: '最后登录IP' })
+  loginip: string;
+
+  @Column({ type: 'tinyint', default: 1, comment: '状态:1=正常,0=禁用' })
+  status: number;
+}

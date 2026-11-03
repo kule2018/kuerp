@@ -1,1 +1,17 @@
-aW1wb3J0IHsgR2xvYmFsLCBNb2R1bGUgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7CmltcG9ydCB7IENhY2hlU2VydmljZSB9IGZyb20gJy4vY2FjaGUuc2VydmljZSc7CmltcG9ydCB7IENhY2hlQ29udHJvbGxlciB9IGZyb20gJy4vY2FjaGUuY29udHJvbGxlcic7CgovKioKICog5YaF5a2Y57yT5a2Y5qih5Z2X44CCCiAqCiAqIOWjsOaYjuS4uiBAR2xvYmFsKCnvvJrnvJPlrZjmmK/mqKrliIfln7rnoYDorr7mlr3vvIzkuJrliqHmqKHlnZfvvIjooajmoLzjgIHov4fotKbjgIHmnYPpmZDvvInpg73opoHnlKjvvIwKICog5YWo5bGA5rOo5YaM5ZCO5ZCE5qih5Z2X5peg6ZyAIGltcG9ydHMg5Y2z5Y+v5rOo5YWlIENhY2hlU2VydmljZe+8jOmBv+WFjeWcqOWNgeWkmuS4qiBtb2R1bGUg6YeM6YeN5aSN5aOw5piO44CCCiAqLwpAR2xvYmFsKCkKQE1vZHVsZSh7CiAgY29udHJvbGxlcnM6IFtDYWNoZUNvbnRyb2xsZXJdLAogIHByb3ZpZGVyczogW0NhY2hlU2VydmljZV0sCiAgZXhwb3J0czogW0NhY2hlU2VydmljZV0sCn0pCmV4cG9ydCBjbGFzcyBDYWNoZU1vZHVsZSB7fQo=
+import { Global, Module } from '@nestjs/common';
+import { CacheService } from './cache.service';
+import { CacheController } from './cache.controller';
+
+/**
+ * 内存缓存模块。
+ *
+ * 声明为 @Global()：缓存是横切基础设施，业务模块（表格、过账、权限）都要用，
+ * 全局注册后各模块无需 imports 即可注入 CacheService，避免在十多个 module 里重复声明。
+ */
+@Global()
+@Module({
+  controllers: [CacheController],
+  providers: [CacheService],
+  exports: [CacheService],
+})
+export class CacheModule {}

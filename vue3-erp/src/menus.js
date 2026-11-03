@@ -1,1 +1,362 @@
-LyoqCiAqIOS+p+i+ueagj+iPnOWNle+8iDE6MSDov5jljp/ljp/phbfmn5rmmJPmsZsgS3VlcnAg5ZCO5Y+w5YWo6YOo5qih5Z2X77yJ44CCCiAqCiAqIOivtOaYju+8mgogKiAtIOavj+S4quWPtuWtkOiKgueCuSA9IOWOn+ezu+e7n+S4gOS4quaOp+WItuWZqC/pobXpnaLvvJthcGkg5a2X5q615oyH5ZCR5ZCO56uv6YCa55So5Yqo5oCB6KGo5o6l5Y+jIC9rdWVycC86dGFibGXvvIwKICogICDooajlkI3kuI7ljp/ns7vnu58gTW9kZWwtPiRuYW1lIOS4gOS4gOWvueW6lO+8iOW3sumAkOS4gOaguOWvuSBhcHBsaWNhdGlvbi9hZG1pbi9tb2RlbC9rdWVycC8qLnBocO+8ieOAggogKiAtIGNvbXBvbmVudDogJ2NydWQnIOihqOekuuWkjeeUqOmAmueUqOWKqOaAgeihqOagvOmhte+8m+eJueauiumhtemdou+8iOW3peS9nOWPsC/lpKflsY8v5omT5Y2wL0FJL+adg+mZkOetie+8ieWNleeLrOaMh+WumuOAggogKiAtIOacrOaWh+S7tuaYr+i3r+eUseeahOWUr+S4gOS6i+Wunua6kO+8mnJvdXRlci9pbmRleC5qcyDmja7mraToh6rliqjnlJ/miJDlhajpg6jot6/nlLHjgIIKICovCgovLyDpgJrnlKjooajmoLzpobXot6/nlLHlt6XljoLvvJpwYXRoIOS4uuWJjeerr+i3r+eUse+8jGFwaSDkuLrlkI7nq6/ooajmjqXlj6PvvIjov57lrZfnrKbkvJroh6rliqjovazkuIvliJLnur/vvIkKY29uc3QgYyA9ICh0aXRsZSwgcGF0aCwgYXBpLCBleHRyYSA9IHt9KSA9PiAoewogIHRpdGxlLAogIG5hbWU6IHBhdGgucmVwbGFjZSgvWy0vXS9nLCAnXycpLnJlcGxhY2UoL15fLywgJycpLAogIHBhdGgsCiAgYXBpLAogIGNvbXBvbmVudDogJ2NydWQnLAogIC4uLmV4dHJhLAp9KTsKCi8vIOaKpeihqOmhteW3peWOgu+8muWcqCBjIOWfuuehgOS4iuagh+iusOS4uuWPquivu+aKpeihqO+8iOaXpeacn+etm+mAiSArIOWQiOiuoeihjO+8ieOAggovLyDnlKjkuo7ljp/ns7vnu5/kuK3lkITnsbvjgIzmsYfmgLvooaggLyDmmI7nu4booaggLyDliKnmtqbooaggLyDlr7notKbooajjgI3pobXpnaLjgIIKY29uc3QgciA9ICh0aXRsZSwgcGF0aCwgYXBpLCBleHRyYSA9IHt9KSA9PiBjKHRpdGxlLCBwYXRoLCBhcGksIHsgLi4uZXh0cmEsIGNvbXBvbmVudDogJ3JlcG9ydCcgfSk7CgovLyDotYTph5HljZXmja7pobXlt6XljoLvvJrooajlpLQgKyDlrZDooajvvIjnu5PnrpfotKbmiLcv5qC46ZSA5rqQ5Y2VL+i9rOi0puaYjue7hi/mlK/lh7rmmI7nu4bvvInnvJbovpHlmajjgIIKLy8gZnVuZCDphY3nva7nu48gcm91dGVyIOmAj+S8oOWIsCByb3V0ZS5tZXRhLmZ1bmTvvIznlLEgZnVuZC1kb2MudnVlIOa2iOi0ue+8mgovLyAgIG1vZGUgICAgICAgYWNjb3VudD3mlLbmrL4v5LuY5qy+5Y2VKOi0puaItyvmupDljZUpIC8gd3JpdGVvZmY95qC46ZSA5Y2VKOa6kOWNlSkgLwovLyAgICAgICAgICAgICAgdHJhbnNmZXI96L2s6LSm5Y2VKOi9rOWFpei9rOWHuikgLyBleHBlbmQ95YW25LuW5pSv5Ye65Y2VKOaUr+WHuuaYjue7hikKLy8gICBwcmVmaXggICAgIOWNleaNrue8luWPt+WJjee8gO+8iFNLL0ZLL0hYL1paL1pD77yJCi8vICAgY291bnRlcnBhcnR5IOW+gOadpeWNleS9jeWPo+W+hO+8mmN1c3RvbWVyPeWuouaItyAvIHN1cHBsaWVyPeS+m+W6lOWVhgovLyAgIGFjY291bnRJbmZvL3NvdXJjZUluZm8vdHJhbnNmZXJJbmZvL3NpbXBsZUluZm8g5a2Q6KGo5o6l5Y+jCmNvbnN0IGQgPSAodGl0bGUsIHBhdGgsIGFwaSwgZnVuZCA9IHt9KSA9PiAoewogIHRpdGxlLAogIG5hbWU6IHBhdGgucmVwbGFjZSgvWy0vXS9nLCAnXycpLnJlcGxhY2UoL15fLywgJycpLAogIHBhdGgsCiAgYXBpLAogIGNvbXBvbmVudDogJ2Z1bmQtZG9jJywKICBtZXRhOiB7IGZ1bmQgfSwKfSk7CgovLyDlupPlrZjljZXmja7pobXlt6XljoLvvJrooajlpLQgKyDmmI7nu4blrZDooajnvJbovpHlmajvvIhkb2MtZWRpdG9yLnZ1ZSDmtojotLkgcm91dGUubWV0YS5kb2PvvInvvJoKLy8gICBpbmZvICAgICAgICAgICAg5piO57uG6KGoIEFQSSDliY3nvIDvvIjlpoIgZ29vZHMtcHVyY2hhc2UtaW5mb++8iQovLyAgIHByZWZpeCAgICAgICAgICDljZXmja7nvJblj7fliY3nvIDvvIjkuI4ga3VlcnBfcHJlZml4IOenjeWtkOS4gOiHtO+8mkdIRC9YSEQvREIvUEQvLi4u77yJCi8vICAgY291bnRlcnBhcnR5ICAgIHN1cHBsaWVyPeS+m+W6lOWVhijotK3otKfnsbspIC8gY3VzdG9tZXI95a6i5oi3KOmUgOi0p+exuykgLyAnJz3ml6AKLy8gICBjb3VudGVycGFydHlCeUlkIHRydWU96KGo5aS05a2YIGN1c3RvbWVyc19pZChJRCnvvJtmYWxzZT3lrZggc3VwcGx5ZXJfY29kZSjnvJblj7cpCi8vICAgc2hhcGUgICAgICAgICAgIGdvb2RzPei0remUgOmAgOi0pyjlkKvph5Hpop0pIC8gb3JkZXI96K6i5Y2VKOWQq+mHkeminSkgLyB0cmFuc2Zlcj3osIPmi6go5Y+M5LuT5bqTKQovLyAgICAgICAgICAgICAgICAgICAgc3RvY2t0YWtlPeebmOeCuSjns7vnu5/lupPlrZgr55uI5LqPKSAvIGFkanVzdD3miJDmnKzosIPmlbQo5LuF6YeR6aKdKSAvIGJvbT3nu4Too4Xmi4bljbgo57uE5ZCI5Lu2K+WtkOS7tikKLy8gICBib20gICAgICAgICAgICAgYXNzZW1ibGU957uE6KOF5Y2VKOWtkOS7tuWHuuW6kyvnu4TlkIjku7blhaXlupMpIC8gc3BsaXQ95ouG5Y245Y2VKOe7hOWQiOS7tuWHuuW6kyvlrZDku7blhaXlupMp77yM6YWN5ZCIIHNoYXBlOidib20nCi8vICAgcHJpY2VCYXNlICAgICAgIHNlbGw96buY6K6k6Zu25ZSu5Lu3IC8gcHVyY2hhc2U96buY6K6k6L+b5Lu3Ci8vICAgYnlJZCAgICAgICAgICAgIHRydWU95piO57uG5oyJ6KGo5aS05Li76ZSu5YWz6IGU77yI6LCD5ouo5Y2VIGFsbG9jYXRpb25faWTvvIkKY29uc3QgZyA9ICh0aXRsZSwgcGF0aCwgYXBpLCBkb2MgPSB7fSkgPT4gKHsKICB0aXRsZSwKICBuYW1lOiBwYXRoLnJlcGxhY2UoL1stL10vZywgJ18nKS5yZXBsYWNlKC9eXy8sICcnKSwKICBwYXRoLAogIGFwaSwKICBjb21wb25lbnQ6ICdkb2MtZWRpdG9yJywKICBtZXRhOiB7IGRvYyB9LAp9KTsKCmV4cG9ydCBjb25zdCBtZW51cyA9IFsKICB7IHRpdGxlOiAn5bel5L2c5Y+wJywgaWNvbjogJ09kb21ldGVyJywgbmFtZTogJ0Rhc2hib2FyZCcsIHBhdGg6ICdkYXNoYm9hcmQnLCBjb21wb25lbnQ6ICdkYXNoYm9hcmQnIH0sCiAgeyB0aXRsZTogJ+aVsOWtl+Wkp+WxjycsIGljb246ICdEYXRhTGluZScsIG5hbWU6ICdTY3JlZW4nLCBwYXRoOiAnc2NyZWVuJywgY29tcG9uZW50OiAnc2NyZWVuJyB9LAogIHsgdGl0bGU6ICfmiZPljbDkuK3lv4MnLCBpY29uOiAnUHJpbnRlcicsIG5hbWU6ICdQcmludENlbnRlcicsIHBhdGg6ICdwcmludC1jZW50ZXInLCBjb21wb25lbnQ6ICdwcmludC1jZW50ZXInIH0sCgogIC8vID09PT09PT09PT09PT09PT09PT09PSDln7rnoYDotYTmlpkgPT09PT09PT09PT09PT09PT09PT09CiAgewogICAgdGl0bGU6ICfln7rnoYDotYTmlpknLAogICAgaWNvbjogJ0dvb2RzJywKICAgIGNoaWxkcmVuOiBbCiAgICAgIHsgdGl0bGU6ICfllYblk4HnrqHnkIYnLCBpY29uOiAnR29vZHMnLCBuYW1lOiAnR29vZHMnLCBwYXRoOiAnZ29vZHMnLCBjb21wb25lbnQ6ICdnb29kcycgfSwKICAgICAgYygn5ZWG5ZOB57G75YirJywgJ2dvb2RzLXR5cGUnLCAnL2t1ZXJwL2dvb2RzLXR5cGUnKSwKICAgICAgYygn5ZWG5ZOB6L6F5Yqp5bGe5oCnJywgJ2F1eGlsaWFyeScsICcva3VlcnAvYXV4aWxpYXJ5JyksCiAgICAgIGMoJ+WuouaIt+eJqeaWmee8lueggScsICdjdXN0b21lci1nb29kc2NvZGluZycsICcva3VlcnAvY3VzdG9tZXItZ29vZHNjb2RpbmcnKSwKICAgICAgYygn6K6h6YeP5Y2V5L2NJywgJ3VuaXQnLCAnL2t1ZXJwL3VuaXQnKSwKICAgICAgYygn5Y2V5L2N5o2i566XJywgJ3VuaXQtY29udmVyc2lvbicsICcva3VlcnAvdW5pdC1jb252ZXJzaW9uJyksCiAgICAgIGMoJ+S7k+W6k+euoeeQhicsICdzdG9yZXMnLCAnL2t1ZXJwL3N0b3JlcycpLAogICAgICBjKCfmlLbotKflnLDlnYDnrqHnkIYnLCAnYWRkcmVzcycsICcva3VlcnAvYWRkcmVzcycpLAogICAgICBjKCflrqLmiLfnrqHnkIYnLCAnY3VzdG9tZXJzJywgJy9rdWVycC9jdXN0b21lcnMnKSwKICAgICAgYygn5a6i5oi35YiG57G7JywgJ2N1c3RvbWVydHlwZScsICcva3VlcnAvY3VzdG9tZXJ0eXBlJyksCiAgICAgIGMoJ+WuouaIt+etiee6pycsICdjdXN0b21lcmxldmVsJywgJy9rdWVycC9jdXN0b21lcmxldmVsJyksCiAgICAgIGMoJ+S+m+W6lOWVhueuoeeQhicsICdzdXBwbGllcnMnLCAnL2t1ZXJwL3N1cHBsaWVycycpLAogICAgICBjKCfkvpvlupTllYbliIbnsbsnLCAnc3VwcGx5ZXJ0eXBlJywgJy9rdWVycC9zdXBwbHllcnR5cGUnKSwKICAgICAgYygn5L6b5bqU5ZWG6IGU57O75Lq6JywgJ3N1cHBsaWVycy11c2VyJywgJy9rdWVycC9zdXBwbGllcnMtdXNlcicpLAogICAgICBjKCfogYzlkZjnrqHnkIYnLCAnc3RhZmYtbWVtYmVyJywgJy9rdWVycC9zdGFmZi1tZW1iZXInKSwKICAgICAgYygn5Y+45py6566h55CGJywgJ2RyaXZlcicsICcva3VlcnAvZHJpdmVyJyksCiAgICAgIGMoJ+iuoui0p+mAmueUqOaItycsICdjdXN0b21lcnMtdXNlcicsICcva3VlcnAvY3VzdG9tZXJzLXVzZXInKSwKICAgICAgYygn6LSm5oi3566h55CGJywgJ2FjY291bnRzJywgJy9rdWVycC9hY2NvdW50cycpLAogICAgICBjKCfku5jmrL7otKbmiLcnLCAncGF5bWVudC1hY2NvdW50JywgJy9rdWVycC9wYXltZW50LWFjY291bnQnKSwKICAgICAgYygn56ys5LiJ5pa55biQ5Y+3566h55CGJywgJ3RoaXJkLWFjY291bnQnLCAnL2t1ZXJwL3RoaXJkLWFjY291bnQnKSwKICAgICAgYygn6K6i6LSn6YCa6YWN572uJywgJ3VzZXItc2V0cycsICcva3VlcnAvdXNlci1zZXRzJyksCiAgICAgIGMoJ+e7k+eul+aWueW8jycsICdzZXR0bGVtZW50dHlwZScsICcva3VlcnAvc2V0dGxlbWVudHR5cGUnKSwKICAgICAgYygn5pSv5Ye657G75Yir566h55CGJywgJ2V4cGVuZC10eXBlJywgJy9rdWVycC9leHBlbmQtdHlwZScpLAogICAgICBjKCfmlLblhaXnsbvliKvnrqHnkIYnLCAnaW5jb21lLXR5cGUnLCAnL2t1ZXJwL2luY29tZS10eXBlJyksCiAgICAgIGMoJ+i9ruaSreeuoeeQhicsICdiYW5uZXInLCAnL2t1ZXJwL2Jhbm5lcicpLAogICAgXSwKICB9LAoKICAvLyA9PT09PT09PT09PT09PT09PT09PT0g6LSt6LSnID09PT09PT09PT09PT09PT09PT09PQogIHsKICAgIHRpdGxlOiAn6LSt6LSn566h55CGJywKICAgIGljb246ICdTaG9wcGluZ0NhcnQnLAogICAgY2hpbGRyZW46IFsKICAgICAgZygn6LSt6LSn6K6i5Y2VJywgJ2dvb2RzLXB1cmNoYXNlLW9yZGVyJywgJy9rdWVycC9nb29kcy1wdXJjaGFzZS1vcmRlcicsIHsgaW5mbzogJ2dvb2RzLXB1cmNoYXNlLW9yZGVyLWluZm8nLCBwcmVmaXg6ICdHSEREJywgY291bnRlcnBhcnR5OiAnc3VwcGxpZXInLCBzaGFwZTogJ29yZGVyJywgcHJpY2VCYXNlOiAncHVyY2hhc2UnIH0pLAogICAgICByKCfph4fotK3orqLljZXot5/ouKrooagnLCAnZ29vZHMtcHVyY2hhc2Utb3JkZXItdHJhY2tpbmcnLCAnL2t1ZXJwL2dvb2RzLXB1cmNoYXNlLW9yZGVyJywgeyBtZXRhOiB7IGRhdGVGaWVsZDogJ3B1cmNoYXNlX3RpbWUnIH0gfSksCiAgICAgIGcoJ+i0rei0p+WNlScsICdnb29kcy1wdXJjaGFzZScsICcva3VlcnAvZ29vZHMtcHVyY2hhc2UnLCB7IGluZm86ICdnb29kcy1wdXJjaGFzZS1pbmZvJywgcHJlZml4OiAnR0hEJywgY291bnRlcnBhcnR5OiAnc3VwcGxpZXInLCBzaGFwZTogJ2dvb2RzJywgcHJpY2VCYXNlOiAncHVyY2hhc2UnIH0pLAogICAgICBjKCfotK3otKforqLljZXmmI7nu4YnLCAnZ29vZHMtcHVyY2hhc2Utb3JkZXItaW5mbycsICcva3VlcnAvZ29vZHMtcHVyY2hhc2Utb3JkZXItaW5mbycpLAogICAgICBnKCfotK3otKfpgIDotKfljZUnLCAnZ29vZHMtZXhjaGFuZ2UnLCAnL2t1ZXJwL2dvb2RzLWV4Y2hhbmdlJywgeyBpbmZvOiAnZ29vZHMtZXhjaGFuZ2UtaW5mbycsIHByZWZpeDogJ0dIVEgnLCBjb3VudGVycGFydHk6ICdzdXBwbGllcicsIHNoYXBlOiAnZ29vZHMnLCBwcmljZUJhc2U6ICdwdXJjaGFzZScgfSksCiAgICAgIGMoJ+i0rei0p+mAgOi0p+aYjue7hicsICdnb29kcy1leGNoYW5nZS1pbmZvJywgJy9rdWVycC9nb29kcy1leGNoYW5nZS1pbmZvJyksCiAgICAgIHIoJ+mHh+i0reaYjue7huihqCcsICdnb29kcy1wdXJjaGFzZS1pbmZvJywgJy9rdWVycC9nb29kcy1wdXJjaGFzZS1pbmZvJyksCiAgICAgIHIoJ+mHh+i0reaxh+aAu+ihqO+8iOWVhuWTge+8iScsICdnb29kcy1wdXJjaGFzZS1zdW1tYXJ5JywgJy9rdWVycC9nb29kcy1wdXJjaGFzZS1zdW1tYXJ5JyksCiAgICAgIHIoJ+mHh+i0reaxh+aAu+ihqO+8iOS+m+W6lOWVhu+8iScsICdnb29kcy1wdXJjaGFzZS1zdW1tYXJ5cycsICcva3VlcnAvZ29vZHMtcHVyY2hhc2Utc3VtbWFyeXMnKSwKICAgICAgcign6YeH6LSt5LuY5qy+5LiA6KeI6KGoJywgJ3BheW1lbnQtbG9nJywgJy9rdWVycC9wYXltZW50LWxvZycpLAogICAgICByKCfph4fotK3lvIDnpajnrqHnkIYnLCAnaW52b2ljaW5nJywgJy9rdWVycC9pbnZvaWNpbmcnKSwKICAgICAgcign6YeH6LSt5byA56Wo6K6w5b2VJywgJ2ludm9pY2luZy1sb2cnLCAnL2t1ZXJwL2ludm9pY2luZy1sb2cnKSwKICAgICAgYygn6YeH6LSt6ZSA5ZSu6LS555So5riF5Y2VJywgJ2Nvc3QnLCAnL2t1ZXJwL2Nvc3QnKSwKICAgICAgeyB0aXRsZTogJ+S7pemUgOWumui0reeci+advycsIGljb246ICdUcmVuZENoYXJ0cycsIG5hbWU6ICdQdXJjaGFzZWJ5JywgcGF0aDogJ3B1cmNoYXNlYnknLCBjb21wb25lbnQ6ICdib2FyZCcsIGFwaTogJy9rdWVycC9ib2FyZHMvcHVyY2hhc2VieScgfSwKICAgICAgeyB0aXRsZTogJ+aZuuiDveihpei0pycsIGljb246ICdNYWdpY1N0aWNrJywgbmFtZTogJ1JlcGxlbmlzaG1lbnQnLCBwYXRoOiAncmVwbGVuaXNobWVudCcsIGNvbXBvbmVudDogJ2JvYXJkJywgYXBpOiAnL2t1ZXJwL2JvYXJkcy9yZXBsZW5pc2htZW50JyB9LAogICAgICBjKCfljp/lp4vljZXmja4nLCAnZW5jbG9zdXJlJywgJy9rdWVycC9lbmNsb3N1cmUnKSwKICAgIF0sCiAgfSwKCiAgLy8gPT09PT09PT09PT09PT09PT09PT09IOmUgOi0pyA9PT09PT09PT09PT09PT09PT09PT0KICB7CiAgICB0aXRsZTogJ+mUgOi0p+euoeeQhicsCiAgICBpY29uOiAnU2VsbCcsCiAgICBjaGlsZHJlbjogWwogICAgICBnKCfplIDotKforqLljZUnLCAnZ29vZHMtc2FsZXMtb3JkZXInLCAnL2t1ZXJwL2dvb2RzLXNhbGVzLW9yZGVyJywgeyBpbmZvOiAnZ29vZHMtc2FsZXMtb3JkZXItaW5mbycsIHByZWZpeDogJ1hIREQnLCBjb3VudGVycGFydHk6ICdjdXN0b21lcicsIGNvdW50ZXJwYXJ0eUJ5SWQ6IHRydWUsIHNoYXBlOiAnb3JkZXInLCBwcmljZUJhc2U6ICdzZWxsJyB9KSwKICAgICAgcign6ZSA5ZSu6K6i5Y2V6Lef6Liq6KGoJywgJ2dvb2RzLXNhbGVzLW9yZGVyLXRyYWNraW5nJywgJy9rdWVycC9nb29kcy1zYWxlcy1vcmRlcicsIHsgbWV0YTogeyBkYXRlRmllbGQ6ICdwdXJjaGFzZV90aW1lJyB9IH0pLAogICAgICBnKCfplIDotKfljZUnLCAnZ29vZHMtc2FsZXMnLCAnL2t1ZXJwL2dvb2RzLXNhbGVzJywgeyBpbmZvOiAnZ29vZHMtc2FsZXMtaW5mbycsIHByZWZpeDogJ1hIRCcsIGNvdW50ZXJwYXJ0eTogJ2N1c3RvbWVyJywgY291bnRlcnBhcnR5QnlJZDogdHJ1ZSwgc2hhcGU6ICdnb29kcycsIHByaWNlQmFzZTogJ3NlbGwnIH0pLAogICAgICBjKCfplIDotKforqLljZXmmI7nu4YnLCAnZ29vZHMtc2FsZXMtb3JkZXItaW5mbycsICcva3VlcnAvZ29vZHMtc2FsZXMtb3JkZXItaW5mbycpLAogICAgICBnKCfplIDotKfpgIDotKfljZUnLCAnZ29vZHMtc2FsZXMtZXhjaGFuZ2UnLCAnL2t1ZXJwL2dvb2RzLXNhbGVzLWV4Y2hhbmdlJywgeyBpbmZvOiAnZ29vZHMtc2FsZXMtZXhjaGFuZ2UtaW5mbycsIHByZWZpeDogJ1hIVEgnLCBjb3VudGVycGFydHk6ICdjdXN0b21lcicsIGNvdW50ZXJwYXJ0eUJ5SWQ6IHRydWUsIHNoYXBlOiAnZ29vZHMnLCBwcmljZUJhc2U6ICdzZWxsJyB9KSwKICAgICAgYygn6ZSA6LSn6YCA6LSn5piO57uGJywgJ2dvb2RzLXNhbGVzLWV4Y2hhbmdlLWluZm8nLCAnL2t1ZXJwL2dvb2RzLXNhbGVzLWV4Y2hhbmdlLWluZm8nKSwKICAgICAgcign5ZWG5ZOB6ZSA5ZSu5piO57uGJywgJ2dvb2RzLXNhbGVzLWluZm8nLCAnL2t1ZXJwL2dvb2RzLXNhbGVzLWluZm8nKSwKICAgICAgcign6ZSA5ZSu5rGH5oC76KGo77yI5oyJ5ZWG5ZOB77yJJywgJ2dvb2RzLXNhbGVzLXN1bW1hcnknLCAnL2t1ZXJwL2dvb2RzLXNhbGVzLXN1bW1hcnknKSwKICAgICAgcign6ZSA5ZSu5rGH5oC76KGo77yI5oyJ5a6i5oi377yJJywgJ2dvb2RzLXNhbGVzLXN1bW1hcnljJywgJy9rdWVycC9nb29kcy1zYWxlcy1zdW1tYXJ5YycpLAogICAgICByKCfplIDllK7msYfmgLvooajvvIjmjInplIDllK7lkZjvvIknLCAnZ29vZHMtc2FsZXMtc3VtbWFyeXMnLCAnL2t1ZXJwL2dvb2RzLXNhbGVzLXN1bW1hcnlzJyksCiAgICAgIHIoJ+mUgOWUruWIqea2pueuoeeQhicsICdnb29kcy1zYWxlcy1wcm9maXQnLCAnL2t1ZXJwL2dvb2RzLXNhbGVzLXByb2ZpdCcpLAogICAgICByKCfplIDllK7liKnmtqbooagnLCAnc2FsZXNwcm9maXQnLCAnL2t1ZXJwL2dvb2RzLXNhbGVzLXByb2ZpdCcpLAogICAgICByKCfplIDllK7mlLbmrL7kuIDop4jooagnLCAnc2FsZXMtcGF5bWVudC1sb2cnLCAnL2t1ZXJwL3NhbGVzLXBheW1lbnQtbG9nJyksCiAgICAgIHIoJ+mUgOi0p+W8gOelqOeuoeeQhicsICdzYWxlcy1pbnZvaWNpbmcnLCAnL2t1ZXJwL3NhbGVzLWludm9pY2luZycpLAogICAgICByKCfplIDotKflvIDnpajorrDlvZUnLCAnc2FsZXMtaW52b2ljaW5nLWxvZycsICcva3VlcnAvc2FsZXMtaW52b2ljaW5nLWxvZycpLAogICAgICB7IHRpdGxlOiAn5b6A5p2l5Y2V5L2N5qyg5qy+6KGoJywgbmFtZTogJ2ludGVyY291cnNlJywgcGF0aDogJ2ludGVyY291cnNlJywgYXBpOiAnL2t1ZXJwL2ludGVyY291cnNlJywgY29tcG9uZW50OiAncmVwb3J0LWFyJyB9LAogICAgICByKCfplIDllK7mjpLooYzooagnLCAnZ29vZHMtc2FsZXMtcmFua2luZycsICcva3VlcnAvZ29vZHMtc2FsZXMtcmFua2luZycpLAogICAgICBjKCfljp/lp4vljZXmja7vvIjplIDotKfvvIknLCAnZW5jbG9zdXJlc2FsZScsICcva3VlcnAvZW5jbG9zdXJlJyksCiAgICAgIGMoJ+mbtuWUrumUgOi0pycsICdyZXRhaWwtZ29vZHMtc2FsZXMnLCAnL2t1ZXJwL2dvb2RzLXNhbGVzJywgeyBjb21wb25lbnQ6ICdwb3MnIH0pLAogICAgICAvLyDpm7bllK7mjaLotKfvvJrlkIzkuIDmlLbpk7blj7DpobXvvIznu48gcm91dGUubWV0YS5tb2RlIOWIh+aNouWIsOmAgOi0p+WPo+W+hO+8iGdvb2RzX3NhbGVzX2V4Y2hhbmdl77yJCiAgICAgIGMoJ+mbtuWUruaNoui0pycsICdyZXRhaWwtZ29vZHMtc2FsZXMtZXhjaGFuZ2UnLCAnL2t1ZXJwL2dvb2RzLXNhbGVzLWV4Y2hhbmdlJywgewogICAgICAgIGNvbXBvbmVudDogJ3BvcycsCiAgICAgICAgbWV0YTogeyBtb2RlOiAnZXhjaGFuZ2UnIH0sCiAgICAgIH0pLAogICAgXSwKICB9LAoKICAvLyA9PT09PT09PT09PT09PT09PT09PT0g5LuT5bqTID09PT09PT09PT09PT09PT09PT09PQogIHsKICAgIHRpdGxlOiAn5LuT5bqT566h55CGJywKICAgIGljb246ICdCb3gnLAogICAgY2hpbGRyZW46IFsKICAgICAgcign5ZWG5ZOB5bqT5a2Y566h55CGJywgJ2dvb2RzLXN0b2NrJywgJy9rdWVycC9nb29kcy1zdG9jaycpLAogICAgICByKCfllYblk4HlupPlrZjkvZnpop3ooagnLCAnZ29vZHMtc3RvY2stYmFsYW5jZScsICcva3VlcnAvZ29vZHMtc3RvY2stYmFsYW5jZScpLAogICAgICB7IHRpdGxlOiAn5bqT5a2Y6aKE6K2mJywgbmFtZTogJ2dvb2RzX3N0b2NrX3dhcm5pbmcnLCBwYXRoOiAnZ29vZHMtc3RvY2std2FybmluZycsIGFwaTogJy9rdWVycC9nb29kcy1zdG9jay13YXJuaW5nJywgY29tcG9uZW50OiAncmVwb3J0LXdhcm5pbmcnIH0sCiAgICAgIGcoJ+iwg+aLqOWNlScsICdhbGxvY2F0aW9uJywgJy9rdWVycC9hbGxvY2F0aW9uJywgeyBpbmZvOiAnYWxsb2NhdGlvbi1pbmZvJywgcHJlZml4OiAnREInLCBzaGFwZTogJ3RyYW5zZmVyJywgYnlJZDogdHJ1ZSB9KSwKICAgICAgZygn55uY54K5JywgJ2ludmVudG9yeScsICcva3VlcnAvaW52ZW50b3J5JywgeyBpbmZvOiAnaW52ZW50b3J5LWluZm8nLCBwcmVmaXg6ICdQRCcsIHNoYXBlOiAnc3RvY2t0YWtlJyB9KSwKICAgICAgeyB0aXRsZTogJ+W6j+WIl+WPt+ebmOeCuScsIGljb246ICdDaGVja2VkJywgbmFtZTogJ0ludmVudG9yeVNlcmlhbCcsIHBhdGg6ICdpbnZlbnRvcnktc2VyaWFsJywgY29tcG9uZW50OiAnc2VyaWFsLWludmVudG9yeScsIGFwaTogJy9rdWVycC9pbnZlbnRvcnktc2VyaWFsJyB9LAogICAgICBnKCflhbbku5blhaXlupPljZUnLCAnd2FyZWhvdXNpbmcnLCAnL2t1ZXJwL3dhcmVob3VzaW5nJywgeyBpbmZvOiAnd2FyZWhvdXNpbmctaW5mbycsIHByZWZpeDogJ1FUUksnLCBzaGFwZTogJ2dvb2RzJyB9KSwKICAgICAgZygn5YW25LuW5Ye65bqT5Y2VJywgJ3dhcmVob3VzZScsICcva3VlcnAvd2FyZWhvdXNlJywgeyBpbmZvOiAnd2FyZWhvdXNlLWluZm8nLCBwcmVmaXg6ICdRVENLJywgc2hhcGU6ICdnb29kcycgfSksCiAgICAgIGcoJ+e7hOijheWNlScsICdhc3NlbWJsZScsICcva3VlcnAvYXNzZW1ibGUnLCB7IGluZm86ICdhc3NlbWJsZS1pbmZvJywgcHJlZml4OiAnWlonLCBzaGFwZTogJ2JvbScsIGJvbTogJ2Fzc2VtYmxlJyB9KSwKICAgICAgYygn57uE6KOF5Y2V5qih5p2/JywgJ2Fzc2VtYmxlLXRlbXAnLCAnL2t1ZXJwL2Fzc2VtYmxlLXRlbXAnKSwKICAgICAgZygn5ouG5Y245Y2VJywgJ3NwbGl0JywgJy9rdWVycC9zcGxpdCcsIHsgaW5mbzogJ3NwbGl0LWluZm8nLCBwcmVmaXg6ICdDWCcsIHNoYXBlOiAnYm9tJywgYm9tOiAnc3BsaXQnIH0pLAogICAgICBjKCfmi4bljbjljZXmqKHmnb8nLCAnc3BsaXQtdGVtcCcsICcva3VlcnAvc3BsaXQtdGVtcCcpLAogICAgICBnKCfmiJDmnKzosIPmlbTljZUnLCAnYWRqdXN0bWVudCcsICcva3VlcnAvYWRqdXN0bWVudCcsIHsgaW5mbzogJ2FkanVzdG1lbnQtaW5mbycsIHByZWZpeDogJ0NCVFonLCBzaGFwZTogJ2FkanVzdCcgfSksCiAgICAgIHIoJ+WVhuWTgeaUtuWPkeaYjue7huihqCcsICdnb29kcy1sb2cnLCAnL2t1ZXJwL2dvb2RzLWxvZycpLAogICAgICByKCfllYblk4HmlLblj5HmsYfmgLvooagnLCAnZ29vZHMtbG9nLXN1bW1hcnknLCAnL2t1ZXJwL2dvb2RzLWxvZy1zdW1tYXJ5JyksCiAgICAgIGMoJ+WVhuWTgeaJueasoeeuoeeQhicsICdnb29kcy1iYXRjaCcsICcva3VlcnAvZ29vZHMtYmF0Y2gnKSwKICAgICAgYygn5ZWG5ZOB5om55qyh6K+m5oOFJywgJ2dvb2RzLWJhdGNoLWluZm8nLCAnL2t1ZXJwL2dvb2RzLWJhdGNoLWluZm8nKSwKICAgICAgcign5om55qyh6Lef6Liq6KGoJywgJ2dvb2RzLWJhdGNoLWxvZycsICcva3VlcnAvZ29vZHMtYmF0Y2gtbG9nJyksCiAgICAgIHIoJ+WVhuWTgeaJueasoeW6k+WtmCcsICdnb29kcy1iYXRjaC1zdG9jaycsICcva3VlcnAvZ29vZHMtYmF0Y2gtc3RvY2snKSwKICAgICAgcign5om55qyh5L+d6LSo5pyf5riF5Y2VJywgJ2dvb2RzLWJhdGNoLWV4cGlyeScsICcva3VlcnAvZ29vZHMtYmF0Y2gtZXhwaXJ5JyksCiAgICAgIGMoJ+WVhuWTgeW6j+WIl+WPtycsICdnb29kcy1zZXJpYWwnLCAnL2t1ZXJwL2dvb2RzLXNlcmlhbCcpLAogICAgICByKCfluo/liJflj7fot5/ouKrooagnLCAnZ29vZHMtc2VyaWFsLWxvZycsICcva3VlcnAvZ29vZHMtc2VyaWFsLWxvZycpLAogICAgICByKCfluo/liJflj7fnirbmgIHooagnLCAnZ29vZHMtc2VyaWFsLXN0YXR1cycsICcva3VlcnAvZ29vZHMtc2VyaWFsLXN0YXR1cycpLAogICAgICB7IHRpdGxlOiAn5ZWG5ZOB5pyf6Ze0JywgaWNvbjogJ0NhbGVuZGFyJywgbmFtZTogJ0dvb2RzUGVyaW9kJywgcGF0aDogJ2dvb2RzLXBlcmlvZCcsIGNvbXBvbmVudDogJ2dvb2RzLXBlcmlvZCcgfSwKICAgIF0sCiAgfSwKCiAgLy8gPT09PT09PT09PT09PT09PT09PT09IOi1hOmHkSA9PT09PT09PT09PT09PT09PT09PT0KICB7CiAgICB0aXRsZTogJ+i1hOmHkeeuoeeQhicsCiAgICBpY29uOiAnTW9uZXknLAogICAgY2hpbGRyZW46IFsKICAgICAgZCgn5pS25qy+5Y2VJywgJ2NvbGxlY3Rpb24nLCAnL2t1ZXJwL2NvbGxlY3Rpb24nLCB7CiAgICAgICAgbW9kZTogJ2FjY291bnQnLCBwcmVmaXg6ICdTSycsIGNvdW50ZXJwYXJ0eTogJ2N1c3RvbWVyJywKICAgICAgICBhY2NvdW50SW5mbzogJy9rdWVycC9jb2xsZWN0aW9uLWFjY291bnQnLCBzb3VyY2VJbmZvOiAnL2t1ZXJwL2NvbGxlY3Rpb24tc2FsZScsCiAgICAgIH0pLAogICAgICBkKCfku5jmrL7ljZUnLCAncGF5bWVudCcsICcva3VlcnAvcGF5bWVudCcsIHsKICAgICAgICBtb2RlOiAnYWNjb3VudCcsIHByZWZpeDogJ0ZLJywgY291bnRlcnBhcnR5OiAnc3VwcGxpZXInLAogICAgICAgIGFjY291bnRJbmZvOiAnL2t1ZXJwL3BheW1lbnQtYWNjb3VudCcsIHNvdXJjZUluZm86ICcva3VlcnAvcGF5bWVudC1zYWxlJywKICAgICAgfSksCiAgICAgIGQoJ+aguOmUgOWNlScsICd3cml0ZW9mZicsICcva3VlcnAvd3JpdGVvZmYnLCB7CiAgICAgICAgbW9kZTogJ3dyaXRlb2ZmJywgcHJlZml4OiAnSFgnLCBjb3VudGVycGFydHk6ICdjdXN0b21lcicsCiAgICAgICAgc291cmNlSW5mbzogJy9rdWVycC93cml0ZW9mZi1pbmZvJywKICAgICAgfSksCiAgICAgIGMoJ+aguOmUgOiusOW9lScsICd3cml0ZW9mZi1sb2cnLCAnL2t1ZXJwL3dyaXRlb2ZmLWxvZycpLAogICAgICByKCflupTmlLbotKbmrL7mmI7nu4booagnLCAnYWNjb3VudHMtcmVjZWl2YWJsZScsICcva3VlcnAvYWNjb3VudHMtcmVjZWl2YWJsZScpLAogICAgICByKCflupTku5jotKbmrL7mmI7nu4booagnLCAnYWNjb3VudHMtY29wZXdpdGgnLCAnL2t1ZXJwL2FjY291bnRzLWNvcGV3aXRoJyksCiAgICAgIGQoJ+WFtuS7luaUtuWFpeWNlScsICdpbmNvbWUnLCAnL2t1ZXJwL2luY29tZScsIHsKICAgICAgICBtb2RlOiAnaW5jb21lJywgcHJlZml4OiAnUVRTUicsIGNvdW50ZXJwYXJ0eTogJ2N1c3RvbWVyJywKICAgICAgICBzaW1wbGVJbmZvOiAnL2t1ZXJwL2luY29tZS1pbmZvJywKICAgICAgfSksCiAgICAgIGQoJ+WFtuS7luaUr+WHuuWNlScsICdleHBlbmRpdHVyZScsICcva3VlcnAvZXhwZW5kaXR1cmUnLCB7CiAgICAgICAgbW9kZTogJ2V4cGVuZCcsIHByZWZpeDogJ1FUWkMnLCBjb3VudGVycGFydHk6ICdzdXBwbGllcicsCiAgICAgICAgc2ltcGxlSW5mbzogJy9rdWVycC9leHBlbmRpdHVyZS1pbmZvJywKICAgICAgfSksCiAgICAgIGQoJ+i1hOmHkei9rOi0puWNlScsICdhY2NvdW50cy10cmFuc2ZlcicsICcva3VlcnAvYWNjb3VudHMtdHJhbnNmZXInLCB7CiAgICAgICAgbW9kZTogJ3RyYW5zZmVyJywgcHJlZml4OiAnWkpaWicsIHRyYW5zZmVySW5mbzogJy9rdWVycC9hY2NvdW50cy10cmFuc2Zlci1pbmZvJywKICAgICAgfSksCiAgICAgIGMoJ+i0puaIt+iusOW9leeuoeeQhicsICdhY2NvdW50cy1sb2cnLCAnL2t1ZXJwL2FjY291bnRzLWxvZycpLAogICAgICByKCfnjrDph5Hpk7booYzmiqXooagnLCAnY2FzaC1iYW5rJywgJy9rdWVycC9jYXNoLWJhbmsnKSwKICAgICAgcign5YW25LuW5pS25pSv5piO57uG6KGoJywgJ3JldmVudWUnLCAnL2t1ZXJwL3JldmVudWUnKSwKICAgICAgcign5a6i5oi35a+56LSm5Y2VJywgJ2N1c3RvbWVycy1yZWNvbicsICcva3VlcnAvY3VzdG9tZXJzLXJlY29uJyksCiAgICAgIHIoJ+S+m+W6lOWVhuWvuei0puWNlScsICdzdXBwbGllcnMtcmVjb24nLCAnL2t1ZXJwL3N1cHBsaWVycy1yZWNvbicpLAogICAgICB7IHRpdGxlOiAn5Yip5ram6KGoJywgbmFtZTogJ3Byb2ZpdCcsIHBhdGg6ICdwcm9maXQnLCBhcGk6ICcva3VlcnAvcHJvZml0JywgY29tcG9uZW50OiAncmVwb3J0LXByb2ZpdCcgfSwKICAgIF0sCiAgfSwKCiAgLy8gPT09PT09PT09PT09PT09PT09PT09IOiuoui0p+mAmu+8iOenu+WKqOerr++8iT09PT09PT09PT09PT09PT09PT09PQogIHsKICAgIHRpdGxlOiAn56e75Yqo56uv6K6i6LSn6YCaJywKICAgIGljb246ICdJcGhvbmUnLAogICAgY2hpbGRyZW46IFsKICAgICAgYygn6K6i6LSn5Y2V566h55CGJywgJ3VzZXItb3JkZXInLCAnL2t1ZXJwL3VzZXItb3JkZXInLCB7IGNvbXBvbmVudDogJ3VzZXItb3JkZXInIH0pLAogICAgICBjKCfnlKjmiLfnrqHnkIYnLCAna3VlcnAtdXNlcicsICcva3VlcnAvdXNlcicpLAogICAgXSwKICB9LAoKICAvLyA9PT09PT09PT09PT09PT09PT09PT0g57O757uf6K6+572uID09PT09PT09PT09PT09PT09PT09PQogIHsKICAgIHRpdGxlOiAn57O757uf6K6+572uJywKICAgIGljb246ICdTZXR0aW5nJywKICAgIGNoaWxkcmVuOiBbCiAgICAgIHsgdGl0bGU6ICfns7vnu5/lj4LmlbAnLCBpY29uOiAnU2V0dGluZycsIG5hbWU6ICdTZXRzJywgcGF0aDogJ3NldHMnLCBjb21wb25lbnQ6ICdzZXRzJywgYXBpOiAnL2t1ZXJwL3NldHMnIH0sCiAgICAgIGMoJ+WNleWPt+iuvue9ricsICdwcmVmaXgnLCAnL2t1ZXJwL3ByZWZpeCcpLAogICAgICB7IHRpdGxlOiAn57uT6LSmL+WPjee7k+i0picsIGljb246ICdDYWxlbmRhcicsIG5hbWU6ICdDaGVja291dCcsIHBhdGg6ICdjaGVja291dCcsIGNvbXBvbmVudDogJ2NoZWNrb3V0JyB9LAogICAgICB7IHRpdGxlOiAn5pWw5o2u566h55CGJywgaWNvbjogJ0ZpbGVzJywgbmFtZTogJ0RhdGFpbmZvJywgcGF0aDogJ2RhdGFpbmZvJywgY29tcG9uZW50OiAnZGF0YWluZm8nIH0sCiAgICAgIHsgdGl0bGU6ICfph43mlrDliJ3lp4vljJYnLCBpY29uOiAnUmVmcmVzaExlZnQnLCBuYW1lOiAnSW5pdGlhbGl6YXRpb24nLCBwYXRoOiAnaW5pdGlhbGl6YXRpb24nLCBjb21wb25lbnQ6ICdpbml0aWFsaXphdGlvbicgfSwKICAgICAgeyB0aXRsZTogJ+inkuiJsueuoeeQhicsIGljb246ICdVc2VyRmlsbGVkJywgbmFtZTogJ0F1dGhHcm91cCcsIHBhdGg6ICdhdXRoLWdyb3VwJywgY29tcG9uZW50OiAnYXV0aC1ncm91cCcgfSwKICAgICAgeyB0aXRsZTogJ+euoeeQhuWRmOeuoeeQhicsIGljb246ICdBdmF0YXInLCBuYW1lOiAnQXV0aEFkbWluJywgcGF0aDogJ2F1dGgtYWRtaW4nLCBjb21wb25lbnQ6ICdhdXRoLWFkbWluJyB9LAogICAgICBjKCfmnYPpmZDop4TliJknLCAnYXV0aC1ydWxlJywgJy9rdWVycC9hdXRoLXJ1bGUnKSwKICAgICAgeyB0aXRsZTogJ+aTjeS9nOaXpeW/lycsIGljb246ICdUaWNrZXRzJywgbmFtZTogJ1N5c0xvZycsIHBhdGg6ICdzeXN0ZW0vbG9nJywgY29tcG9uZW50OiAnc3lzLWxvZycgfSwKICAgICAgeyB0aXRsZTogJ+a2iOaBr+S4reW/gycsIGljb246ICdDaGF0RG90Um91bmQnLCBuYW1lOiAnU3lzTWVzc2FnZScsIHBhdGg6ICdzeXN0ZW0vbWVzc2FnZScsIGNvbXBvbmVudDogJ3N5cy1tZXNzYWdlJyB9LAogICAgICB7IHRpdGxlOiAn5a6h5om55b6F5YqeJywgaWNvbjogJ0NoZWNrZWQnLCBuYW1lOiAnU3lzQXBwcm92YWxUb2RvJywgcGF0aDogJ3N5c3RlbS9hcHByb3ZhbC10b2RvJywgY29tcG9uZW50OiAnc3lzLWFwcHJvdmFsLXRvZG8nIH0sCiAgICAgIHsgdGl0bGU6ICflrprml7bkvZzkuJonLCBpY29uOiAnUmVmcmVzaExlZnQnLCBuYW1lOiAnU3lzSm9iJywgcGF0aDogJ3N5c3RlbS9qb2InLCBjb21wb25lbnQ6ICdzeXMtam9iJyB9LAogICAgXSwKICB9LAoKICAvLyA9PT09PT09PT09PT09PT09PT09PT0g5o6l5Y+j566h55CG77yI56e75Yqo56uv5ZWG5Z+OIG9yZGVyIC8g56ys5LiJ5pa55a+55o6lIHRoaXJk77yJPT09PT09PT09PT09PT09PT09PT09CiAgLy8g5Y6f57O757ufIGFwcGxpY2F0aW9uL2FwaS9jb250cm9sbGVyL2t1ZXJwL29yZGVy44CBdGhpcmQg5Lik57uE5a+55aSW5o6l5Y+j77yMCiAgLy8g5ZCO56uv5bey55SxIG5lc3Rqcy1lcnAg55qEIHNob3AgLyBvcGVuYXBpIOaooeWdlyAxOjEg5a6e546w77ybCiAgLy8g5q2k5aSE5LuF5oqK5ZCE5o6n5Yi25Zmo5oyC5Yiw5ZCO5Y+w6I+c5Y2V77yM54K55Ye76L+b5YWlIGFwaS1kb2Mg6K+05piO6aG177yI5Y+q6K+75o6l5Y+j5Y+C6ICD77yJ44CCCiAgewogICAgdGl0bGU6ICflsI/nqIvluo/llYbln47mjqXlj6MgKG9yZGVyKScsCiAgICBpY29uOiAnSXBob25lJywKICAgIGNoaWxkcmVuOiBbCiAgICAgIHsgdGl0bGU6ICdJbmRleCDllYblk4Ev6K6i5Y2VL+aUr+S7mCcsIHBhdGg6ICdhcGktb3JkZXItaW5kZXgnLCBjb21wb25lbnQ6ICdhcGktZG9jJywgaWNvbjogJ09kb21ldGVyJywgbWV0YTogeyBkb2NLZXk6ICdvcmRlci1pbmRleCcgfSB9LAogICAgICB7IHRpdGxlOiAnVXNlciDkvJrlkZgnLCBwYXRoOiAnYXBpLW9yZGVyLXVzZXInLCBjb21wb25lbnQ6ICdhcGktZG9jJywgaWNvbjogJ0F2YXRhcicsIG1ldGE6IHsgZG9jS2V5OiAnb3JkZXItdXNlcicgfSB9LAogICAgICB7IHRpdGxlOiAnV2VpeGluIOW+ruS/oScsIHBhdGg6ICdhcGktb3JkZXItd2VpeGluJywgY29tcG9uZW50OiAnYXBpLWRvYycsIGljb246ICdDaGF0RG90Um91bmQnLCBtZXRhOiB7IGRvY0tleTogJ29yZGVyLXdlaXhpbicgfSB9LAogICAgICB7IHRpdGxlOiAnU21zIOefreS/oScsIHBhdGg6ICdhcGktb3JkZXItc21zJywgY29tcG9uZW50OiAnYXBpLWRvYycsIGljb246ICdEb2N1bWVudCcsIG1ldGE6IHsgZG9jS2V5OiAnb3JkZXItc21zJyB9IH0sCiAgICAgIHsgdGl0bGU6ICdBZGRyZXNzIOWcsOWdgCcsIHBhdGg6ICdhcGktb3JkZXItYWRkcmVzcycsIGNvbXBvbmVudDogJ2FwaS1kb2MnLCBpY29uOiAnQm94JywgbWV0YTogeyBkb2NLZXk6ICdvcmRlci1hZGRyZXNzJyB9IH0sCiAgICAgIHsgdGl0bGU6ICdDb25maWcg6YWN572uJywgcGF0aDogJ2FwaS1vcmRlci1jb25maWcnLCBjb21wb25lbnQ6ICdhcGktZG9jJywgaWNvbjogJ1NldHRpbmcnLCBtZXRhOiB7IGRvY0tleTogJ29yZGVyLWNvbmZpZycgfSB9LAogICAgICB7IHRpdGxlOiAnQ29tbW9uIOmAmueUqCcsIHBhdGg6ICdhcGktb3JkZXItY29tbW9uJywgY29tcG9uZW50OiAnYXBpLWRvYycsIGljb246ICdPZG9tZXRlcicsIG1ldGE6IHsgZG9jS2V5OiAnb3JkZXItY29tbW9uJyB9IH0sCiAgICBdLAogIH0sCiAgewogICAgdGl0bGU6ICfnrKzkuInmlrnlr7nmjqUgKHRoaXJkKScsCiAgICBpY29uOiAnTGluaycsCiAgICBjaGlsZHJlbjogWwogICAgICB7IHRpdGxlOiAnVGhpcmRzIOaAu+aOpyjnrb7lkI3pibTmnYMpJywgcGF0aDogJ2FwaS10aGlyZC10aGlyZHMnLCBjb21wb25lbnQ6ICdhcGktZG9jJywgaWNvbjogJ1NldHRpbmcnLCBtZXRhOiB7IGRvY0tleTogJ3RoaXJkLXRoaXJkcycgfSB9LAogICAgICB7IHRpdGxlOiAnR29vZHMg5ZWG5ZOBJywgcGF0aDogJ2FwaS10aGlyZC1nb29kcycsIGNvbXBvbmVudDogJ2FwaS1kb2MnLCBpY29uOiAnQm94JywgbWV0YTogeyBkb2NLZXk6ICd0aGlyZC1nb29kcycgfSB9LAogICAgICB7IHRpdGxlOiAnQ3VzdG9tZXJzIOWuouaItycsIHBhdGg6ICdhcGktdGhpcmQtY3VzdG9tZXJzJywgY29tcG9uZW50OiAnYXBpLWRvYycsIGljb246ICdBdmF0YXInLCBtZXRhOiB7IGRvY0tleTogJ3RoaXJkLWN1c3RvbWVycycgfSB9LAogICAgICB7IHRpdGxlOiAnU2FsZXMg6ZSA6LSnJywgcGF0aDogJ2FwaS10aGlyZC1zYWxlcycsIGNvbXBvbmVudDogJ2FwaS1kb2MnLCBpY29uOiAnU2hvcHBpbmdDYXJ0JywgbWV0YTogeyBkb2NLZXk6ICd0aGlyZC1zYWxlcycgfSB9LAogICAgXSwKICB9LAoKICAvLyA9PT09PT09PT09PT09PT09PT09PT0gQUkg6IO95Yqb5Lit5b+DID09PT09PT09PT09PT09PT09PT09PQogIHsKICAgIHRpdGxlOiAnQUkg6IO95Yqb5Lit5b+DJywKICAgIGljb246ICdDcHUnLAogICAgY2hpbGRyZW46IFsKICAgICAgeyB0aXRsZTogJ+aooeWei+mFjee9ricsIGljb246ICdTZXR0aW5nJywgbmFtZTogJ0FpTW9kZWxDb25maWcnLCBwYXRoOiAnYWkvbW9kZWwtY29uZmlnJywgY29tcG9uZW50OiAnYWkvbW9kZWwtY29uZmlnJyB9LAogICAgICB7IHRpdGxlOiAnUHJvbXB0IOaooeadvycsIGljb246ICdEb2N1bWVudCcsIG5hbWU6ICdBaVByb21wdCcsIHBhdGg6ICdhaS9wcm9tcHQtdGVtcGxhdGUnLCBjb21wb25lbnQ6ICdhaS9wcm9tcHQtdGVtcGxhdGUnIH0sCiAgICAgIHsgdGl0bGU6ICflr7nor50gLyBBZ2VudCcsIGljb246ICdDaGF0RG90Um91bmQnLCBuYW1lOiAnQWlQbGF5Z3JvdW5kJywgcGF0aDogJ2FpL3BsYXlncm91bmQnLCBjb21wb25lbnQ6ICdhaS9wbGF5Z3JvdW5kJyB9LAogICAgICB7IHRpdGxlOiAnQUkg57uP6JCl5Yqp5omLJywgaWNvbjogJ01hZ2ljU3RpY2snLCBuYW1lOiAnQWlBc3Npc3RhbnQnLCBwYXRoOiAnYWkvYXNzaXN0YW50JywgY29tcG9uZW50OiAnYWkvYXNzaXN0YW50JyB9LAogICAgICB7IHRpdGxlOiAn6LCD55So5pel5b+XJywgaWNvbjogJ1RpY2tldHMnLCBuYW1lOiAnQWlMb2dzJywgcGF0aDogJ2FpL2xvZ3MnLCBjb21wb25lbnQ6ICdhaS9sb2dzJyB9LAogICAgXSwKICB9LApdOwoKLyoqCiAqIOmdnuS4muWKoeihqOmhte+8iOaXoCAva3VlcnAgYXBp77yJ55qE6I+c5Y2V57qn5p2D6ZmQ6IqC54K55pig5bCE44CCCiAqIOS4muWKoeihqOmhteeahOiKgueCueeUsSBhcGkg6Ieq5Yqo5o6o5a+85Li6IGBrdWVycC886KGo5ZCNPmDvvJsKICog6L+Z6YeM55qEIGtleSDmmK/oj5zljZUgcGF0aO+8jHZhbHVlIOaYryBhdXRoX3J1bGUg6YeM55qE6I+c5Y2V6IqC54K55ZCN44CCCiAqIOacquWcqOatpOWIl+WHuuS4lOaXoCBhcGkg55qE6aG16Z2i77yI5aaC5o6l5Y+j6K+05piO6aG177yJ6KeG5Li65YWs5byA6aG177yI55m75b2V5Y2z5Y+v6KeB77yJ44CCCiAqLwpjb25zdCBNRU5VX1BFUk0gPSB7CiAgZGFzaGJvYXJkOiAnZGFzaGJvYXJkJywKICBzY3JlZW46ICdzY3JlZW4nLAogICdwcmludC1jZW50ZXInOiAncHJpbnQnLAogIGdvb2RzOiAna3VlcnAvZ29vZHMnLAogIHNldHM6ICdrdWVycC9zZXRzJywKICBjaGVja291dDogJ2t1ZXJwL2NoZWNrb3V0JywKICBkYXRhaW5mbzogJ2RhdGFpbmZvJywKICBpbml0aWFsaXphdGlvbjogJ2luaXRpYWxpemF0aW9uJywKICAnYXV0aC1ncm91cCc6ICdhdXRoL2dyb3VwJywKICAnYXV0aC1hZG1pbic6ICdhdXRoL2FkbWluJywKICAnYXV0aC1ydWxlJzogJ2F1dGgvcnVsZScsCiAgJ3N5c3RlbS9sb2cnOiAnc3lzdGVtL2xvZycsCiAgJ3N5c3RlbS9tZXNzYWdlJzogJ3N5c3RlbS9tZXNzYWdlJywKICAnc3lzdGVtL2FwcHJvdmFsLXRvZG8nOiAnc3lzdGVtL2FwcHJvdmFsLXRvZG8nLAogICdzeXN0ZW0vam9iJzogJ3N5c3RlbS9qb2InLAogICdhaS9tb2RlbC1jb25maWcnOiAnYWkvbW9kZWwtY29uZmlnJywKICAnYWkvcHJvbXB0LXRlbXBsYXRlJzogJ2FpL3Byb21wdC10ZW1wbGF0ZScsCiAgJ2FpL3BsYXlncm91bmQnOiAnYWkvcGxheWdyb3VuZCcsCiAgJ2FpL2Fzc2lzdGFudCc6ICdhaS9hc3Npc3RhbnQnLAogICdhaS9sb2dzJzogJ2FpL2xvZ3MnLAp9OwoKLyoqCiAqIOe7meavj+S4quWPtuWtkOiPnOWNleaMguS4iuadg+mZkOiKgueCue+8iOS+m+WJjeerr+iPnOWNlei/h+a7pCArIOi3r+eUseWuiOWNq+WIpOWumu+8ieOAggogKiAtIOaciSBhcGkg55qE5Lia5Yqh6aG177ya6IqC54K5ID0gYGt1ZXJwLzzooajlkI0+YO+8iOi/nuWtl+espui9rOS4i+WIkue6v++8jOS4juWQjuerryBSYmFjR3VhcmQg5LiA6Ie077yJ77ybCiAqIC0g5pegIGFwaSDnmoTns7vnu58v55yL5p2/6aG177ya5Y+WIE1FTlVfUEVSTSDmmKDlsITvvJsKICogLSDlhbbkvZnvvIjmjqXlj6Por7TmmI7pobXnrYnvvInvvJrkuI3orr7oioLngrnvvIzop4bkuLrlhazlvIDpobXjgIIKICog55u05o6lIG11dGF0ZSDljp/lr7nosaHvvIxyb3V0ZXIgLyBsYXlvdXQg5YWx5Lqr5ZCM5LiA5Lu96I+c5Y2V5pWw5o2u44CCCiAqLwooZnVuY3Rpb24gYXR0YWNoUGVybSgpIHsKICBjb25zdCB3YWxrID0gKGl0ZW1zKSA9PgogICAgaXRlbXMuZm9yRWFjaCgobSkgPT4gewogICAgICBpZiAobS5jaGlsZHJlbikgd2FsayhtLmNoaWxkcmVuKTsKICAgICAgZWxzZSBpZiAoIW0ucGVybSkgewogICAgICAgIGlmIChtLmFwaSAmJiBtLmFwaS5zdGFydHNXaXRoKCcva3VlcnAvJykpIHsKICAgICAgICAgIG0ucGVybSA9ICdrdWVycC8nICsgbS5hcGkucmVwbGFjZSgnL2t1ZXJwLycsICcnKS5yZXBsYWNlKC8tL2csICdfJyk7CiAgICAgICAgfSBlbHNlIGlmIChNRU5VX1BFUk1bbS5wYXRoXSkgewogICAgICAgICAgbS5wZXJtID0gTUVOVV9QRVJNW20ucGF0aF07CiAgICAgICAgfQogICAgICB9CiAgICB9KTsKICB3YWxrKG1lbnVzKTsKfSkoKTsKCi8qKgogKiDmiYHlubPljJboj5zljZXkuLrot6/nlLHmlbDnu4TvvIjkvpsgcm91dGVyIOS9v+eUqO+8ieOAggogKiBAcmV0dXJucyBbeyBuYW1lLCBwYXRoLCB0aXRsZSwgYXBpLCBjb21wb25lbnQgfV0KICovCmV4cG9ydCBmdW5jdGlvbiBmbGF0dGVuTWVudXMoKSB7CiAgY29uc3Qgb3V0ID0gW107CiAgY29uc3Qgd2FsayA9IChpdGVtcykgPT4KICAgIGl0ZW1zLmZvckVhY2goKG0pID0+IHsKICAgICAgaWYgKG0uY2hpbGRyZW4pIHdhbGsobS5jaGlsZHJlbik7CiAgICAgIGVsc2UgaWYgKG0ucGF0aCkgb3V0LnB1c2gobSk7CiAgICB9KTsKICB3YWxrKG1lbnVzKTsKICByZXR1cm4gb3V0Owp9Cg==
+/**
+ * 侧边栏菜单（1:1 还原原酷柚易汛 Kuerp 后台全部模块）。
+ *
+ * 说明：
+ * - 每个叶子节点 = 原系统一个控制器/页面；api 字段指向后端通用动态表接口 /kuerp/:table，
+ *   表名与原系统 Model->$name 一一对应（已逐一核对 application/admin/model/kuerp/*.php）。
+ * - component: 'crud' 表示复用通用动态表格页；特殊页面（工作台/大屏/打印/AI/权限等）单独指定。
+ * - 本文件是路由的唯一事实源：router/index.js 据此自动生成全部路由。
+ */
+
+// 通用表格页路由工厂：path 为前端路由，api 为后端表接口（连字符会自动转下划线）
+const c = (title, path, api, extra = {}) => ({
+  title,
+  name: path.replace(/[-/]/g, '_').replace(/^_/, ''),
+  path,
+  api,
+  component: 'crud',
+  ...extra,
+});
+
+// 报表页工厂：在 c 基础上标记为只读报表（日期筛选 + 合计行）。
+// 用于原系统中各类「汇总表 / 明细表 / 利润表 / 对账表」页面。
+const r = (title, path, api, extra = {}) => c(title, path, api, { ...extra, component: 'report' });
+
+// 资金单据页工厂：表头 + 子表（结算账户/核销源单/转账明细/支出明细）编辑器。
+// fund 配置经 router 透传到 route.meta.fund，由 fund-doc.vue 消费：
+//   mode       account=收款/付款单(账户+源单) / writeoff=核销单(源单) /
+//              transfer=转账单(转入转出) / expend=其他支出单(支出明细)
+//   prefix     单据编号前缀（SK/FK/HX/ZZ/ZC）
+//   counterparty 往来单位口径：customer=客户 / supplier=供应商
+//   accountInfo/sourceInfo/transferInfo/simpleInfo 子表接口
+const d = (title, path, api, fund = {}) => ({
+  title,
+  name: path.replace(/[-/]/g, '_').replace(/^_/, ''),
+  path,
+  api,
+  component: 'fund-doc',
+  meta: { fund },
+});
+
+// 库存单据页工厂：表头 + 明细子表编辑器（doc-editor.vue 消费 route.meta.doc）：
+//   info            明细表 API 前缀（如 goods-purchase-info）
+//   prefix          单据编号前缀（与 kuerp_prefix 种子一致：GHD/XHD/DB/PD/...）
+//   counterparty    supplier=供应商(购货类) / customer=客户(销货类) / ''=无
+//   counterpartyById true=表头存 customers_id(ID)；false=存 supplyer_code(编号)
+//   shape           goods=购销退货(含金额) / order=订单(含金额) / transfer=调拨(双仓库)
+//                    stocktake=盘点(系统库存+盈亏) / adjust=成本调整(仅金额) / bom=组装拆卸(组合件+子件)
+//   bom             assemble=组装单(子件出库+组合件入库) / split=拆卸单(组合件出库+子件入库)，配合 shape:'bom'
+//   priceBase       sell=默认零售价 / purchase=默认进价
+//   byId            true=明细按表头主键关联（调拨单 allocation_id）
+const g = (title, path, api, doc = {}) => ({
+  title,
+  name: path.replace(/[-/]/g, '_').replace(/^_/, ''),
+  path,
+  api,
+  component: 'doc-editor',
+  meta: { doc },
+});
+
+export const menus = [
+  { title: '工作台', icon: 'Odometer', name: 'Dashboard', path: 'dashboard', component: 'dashboard' },
+  { title: '数字大屏', icon: 'DataLine', name: 'Screen', path: 'screen', component: 'screen' },
+  { title: '打印中心', icon: 'Printer', name: 'PrintCenter', path: 'print-center', component: 'print-center' },
+
+  // ===================== 基础资料 =====================
+  {
+    title: '基础资料',
+    icon: 'Goods',
+    children: [
+      { title: '商品管理', icon: 'Goods', name: 'Goods', path: 'goods', component: 'goods' },
+      c('商品类别', 'goods-type', '/kuerp/goods-type'),
+      c('商品辅助属性', 'auxiliary', '/kuerp/auxiliary'),
+      c('客户物料编码', 'customer-goodscoding', '/kuerp/customer-goodscoding'),
+      c('计量单位', 'unit', '/kuerp/unit'),
+      c('单位换算', 'unit-conversion', '/kuerp/unit-conversion'),
+      c('仓库管理', 'stores', '/kuerp/stores'),
+      c('收货地址管理', 'address', '/kuerp/address'),
+      c('客户管理', 'customers', '/kuerp/customers'),
+      c('客户分类', 'customertype', '/kuerp/customertype'),
+      c('客户等级', 'customerlevel', '/kuerp/customerlevel'),
+      c('供应商管理', 'suppliers', '/kuerp/suppliers'),
+      c('供应商分类', 'supplyertype', '/kuerp/supplyertype'),
+      c('供应商联系人', 'suppliers-user', '/kuerp/suppliers-user'),
+      c('职员管理', 'staff-member', '/kuerp/staff-member'),
+      c('司机管理', 'driver', '/kuerp/driver'),
+      c('订货通用户', 'customers-user', '/kuerp/customers-user'),
+      c('账户管理', 'accounts', '/kuerp/accounts'),
+      c('付款账户', 'payment-account', '/kuerp/payment-account'),
+      c('第三方帐号管理', 'third-account', '/kuerp/third-account'),
+      c('订货通配置', 'user-sets', '/kuerp/user-sets'),
+      c('结算方式', 'settlementtype', '/kuerp/settlementtype'),
+      c('支出类别管理', 'expend-type', '/kuerp/expend-type'),
+      c('收入类别管理', 'income-type', '/kuerp/income-type'),
+      c('轮播管理', 'banner', '/kuerp/banner'),
+    ],
+  },
+
+  // ===================== 购货 =====================
+  {
+    title: '购货管理',
+    icon: 'ShoppingCart',
+    children: [
+      g('购货订单', 'goods-purchase-order', '/kuerp/goods-purchase-order', { info: 'goods-purchase-order-info', prefix: 'GHDD', counterparty: 'supplier', shape: 'order', priceBase: 'purchase' }),
+      r('采购订单跟踪表', 'goods-purchase-order-tracking', '/kuerp/goods-purchase-order', { meta: { dateField: 'purchase_time' } }),
+      g('购货单', 'goods-purchase', '/kuerp/goods-purchase', { info: 'goods-purchase-info', prefix: 'GHD', counterparty: 'supplier', shape: 'goods', priceBase: 'purchase' }),
+      c('购货订单明细', 'goods-purchase-order-info', '/kuerp/goods-purchase-order-info'),
+      g('购货退货单', 'goods-exchange', '/kuerp/goods-exchange', { info: 'goods-exchange-info', prefix: 'GHTH', counterparty: 'supplier', shape: 'goods', priceBase: 'purchase' }),
+      c('购货退货明细', 'goods-exchange-info', '/kuerp/goods-exchange-info'),
+      r('采购明细表', 'goods-purchase-info', '/kuerp/goods-purchase-info'),
+      r('采购汇总表（商品）', 'goods-purchase-summary', '/kuerp/goods-purchase-summary'),
+      r('采购汇总表（供应商）', 'goods-purchase-summarys', '/kuerp/goods-purchase-summarys'),
+      r('采购付款一览表', 'payment-log', '/kuerp/payment-log'),
+      r('采购开票管理', 'invoicing', '/kuerp/invoicing'),
+      r('采购开票记录', 'invoicing-log', '/kuerp/invoicing-log'),
+      c('采购销售费用清单', 'cost', '/kuerp/cost'),
+      { title: '以销定购看板', icon: 'TrendCharts', name: 'Purchaseby', path: 'purchaseby', component: 'board', api: '/kuerp/boards/purchaseby' },
+      { title: '智能补货', icon: 'MagicStick', name: 'Replenishment', path: 'replenishment', component: 'board', api: '/kuerp/boards/replenishment' },
+      c('原始单据', 'enclosure', '/kuerp/enclosure'),
+    ],
+  },
+
+  // ===================== 销货 =====================
+  {
+    title: '销货管理',
+    icon: 'Sell',
+    children: [
+      g('销货订单', 'goods-sales-order', '/kuerp/goods-sales-order', { info: 'goods-sales-order-info', prefix: 'XHDD', counterparty: 'customer', counterpartyById: true, shape: 'order', priceBase: 'sell' }),
+      r('销售订单跟踪表', 'goods-sales-order-tracking', '/kuerp/goods-sales-order', { meta: { dateField: 'purchase_time' } }),
+      g('销货单', 'goods-sales', '/kuerp/goods-sales', { info: 'goods-sales-info', prefix: 'XHD', counterparty: 'customer', counterpartyById: true, shape: 'goods', priceBase: 'sell' }),
+      c('销货订单明细', 'goods-sales-order-info', '/kuerp/goods-sales-order-info'),
+      g('销货退货单', 'goods-sales-exchange', '/kuerp/goods-sales-exchange', { info: 'goods-sales-exchange-info', prefix: 'XHTH', counterparty: 'customer', counterpartyById: true, shape: 'goods', priceBase: 'sell' }),
+      c('销货退货明细', 'goods-sales-exchange-info', '/kuerp/goods-sales-exchange-info'),
+      r('商品销售明细', 'goods-sales-info', '/kuerp/goods-sales-info'),
+      r('销售汇总表（按商品）', 'goods-sales-summary', '/kuerp/goods-sales-summary'),
+      r('销售汇总表（按客户）', 'goods-sales-summaryc', '/kuerp/goods-sales-summaryc'),
+      r('销售汇总表（按销售员）', 'goods-sales-summarys', '/kuerp/goods-sales-summarys'),
+      r('销售利润管理', 'goods-sales-profit', '/kuerp/goods-sales-profit'),
+      r('销售利润表', 'salesprofit', '/kuerp/goods-sales-profit'),
+      r('销售收款一览表', 'sales-payment-log', '/kuerp/sales-payment-log'),
+      r('销货开票管理', 'sales-invoicing', '/kuerp/sales-invoicing'),
+      r('销货开票记录', 'sales-invoicing-log', '/kuerp/sales-invoicing-log'),
+      { title: '往来单位欠款表', name: 'intercourse', path: 'intercourse', api: '/kuerp/intercourse', component: 'report-ar' },
+      r('销售排行表', 'goods-sales-ranking', '/kuerp/goods-sales-ranking'),
+      c('原始单据（销货）', 'enclosuresale', '/kuerp/enclosure'),
+      c('零售销货', 'retail-goods-sales', '/kuerp/goods-sales', { component: 'pos' }),
+      // 零售换货：同一收银台页，经 route.meta.mode 切换到退货口径（goods_sales_exchange）
+      c('零售换货', 'retail-goods-sales-exchange', '/kuerp/goods-sales-exchange', {
+        component: 'pos',
+        meta: { mode: 'exchange' },
+      }),
+    ],
+  },
+
+  // ===================== 仓库 =====================
+  {
+    title: '仓库管理',
+    icon: 'Box',
+    children: [
+      r('商品库存管理', 'goods-stock', '/kuerp/goods-stock'),
+      r('商品库存余额表', 'goods-stock-balance', '/kuerp/goods-stock-balance'),
+      { title: '库存预警', name: 'goods_stock_warning', path: 'goods-stock-warning', api: '/kuerp/goods-stock-warning', component: 'report-warning' },
+      g('调拨单', 'allocation', '/kuerp/allocation', { info: 'allocation-info', prefix: 'DB', shape: 'transfer', byId: true }),
+      g('盘点', 'inventory', '/kuerp/inventory', { info: 'inventory-info', prefix: 'PD', shape: 'stocktake' }),
+      { title: '序列号盘点', icon: 'Checked', name: 'InventorySerial', path: 'inventory-serial', component: 'serial-inventory', api: '/kuerp/inventory-serial' },
+      g('其他入库单', 'warehousing', '/kuerp/warehousing', { info: 'warehousing-info', prefix: 'QTRK', shape: 'goods' }),
+      g('其他出库单', 'warehouse', '/kuerp/warehouse', { info: 'warehouse-info', prefix: 'QTCK', shape: 'goods' }),
+      g('组装单', 'assemble', '/kuerp/assemble', { info: 'assemble-info', prefix: 'ZZ', shape: 'bom', bom: 'assemble' }),
+      c('组装单模板', 'assemble-temp', '/kuerp/assemble-temp'),
+      g('拆卸单', 'split', '/kuerp/split', { info: 'split-info', prefix: 'CX', shape: 'bom', bom: 'split' }),
+      c('拆卸单模板', 'split-temp', '/kuerp/split-temp'),
+      g('成本调整单', 'adjustment', '/kuerp/adjustment', { info: 'adjustment-info', prefix: 'CBTZ', shape: 'adjust' }),
+      r('商品收发明细表', 'goods-log', '/kuerp/goods-log'),
+      r('商品收发汇总表', 'goods-log-summary', '/kuerp/goods-log-summary'),
+      c('商品批次管理', 'goods-batch', '/kuerp/goods-batch'),
+      c('商品批次详情', 'goods-batch-info', '/kuerp/goods-batch-info'),
+      r('批次跟踪表', 'goods-batch-log', '/kuerp/goods-batch-log'),
+      r('商品批次库存', 'goods-batch-stock', '/kuerp/goods-batch-stock'),
+      r('批次保质期清单', 'goods-batch-expiry', '/kuerp/goods-batch-expiry'),
+      c('商品序列号', 'goods-serial', '/kuerp/goods-serial'),
+      r('序列号跟踪表', 'goods-serial-log', '/kuerp/goods-serial-log'),
+      r('序列号状态表', 'goods-serial-status', '/kuerp/goods-serial-status'),
+      { title: '商品期间', icon: 'Calendar', name: 'GoodsPeriod', path: 'goods-period', component: 'goods-period' },
+    ],
+  },
+
+  // ===================== 资金 =====================
+  {
+    title: '资金管理',
+    icon: 'Money',
+    children: [
+      d('收款单', 'collection', '/kuerp/collection', {
+        mode: 'account', prefix: 'SK', counterparty: 'customer',
+        accountInfo: '/kuerp/collection-account', sourceInfo: '/kuerp/collection-sale',
+      }),
+      d('付款单', 'payment', '/kuerp/payment', {
+        mode: 'account', prefix: 'FK', counterparty: 'supplier',
+        accountInfo: '/kuerp/payment-account', sourceInfo: '/kuerp/payment-sale',
+      }),
+      d('核销单', 'writeoff', '/kuerp/writeoff', {
+        mode: 'writeoff', prefix: 'HX', counterparty: 'customer',
+        sourceInfo: '/kuerp/writeoff-info',
+      }),
+      c('核销记录', 'writeoff-log', '/kuerp/writeoff-log'),
+      r('应收账款明细表', 'accounts-receivable', '/kuerp/accounts-receivable'),
+      r('应付账款明细表', 'accounts-copewith', '/kuerp/accounts-copewith'),
+      d('其他收入单', 'income', '/kuerp/income', {
+        mode: 'income', prefix: 'QTSR', counterparty: 'customer',
+        simpleInfo: '/kuerp/income-info',
+      }),
+      d('其他支出单', 'expenditure', '/kuerp/expenditure', {
+        mode: 'expend', prefix: 'QTZC', counterparty: 'supplier',
+        simpleInfo: '/kuerp/expenditure-info',
+      }),
+      d('资金转账单', 'accounts-transfer', '/kuerp/accounts-transfer', {
+        mode: 'transfer', prefix: 'ZJZZ', transferInfo: '/kuerp/accounts-transfer-info',
+      }),
+      c('账户记录管理', 'accounts-log', '/kuerp/accounts-log'),
+      r('现金银行报表', 'cash-bank', '/kuerp/cash-bank'),
+      r('其他收支明细表', 'revenue', '/kuerp/revenue'),
+      r('客户对账单', 'customers-recon', '/kuerp/customers-recon'),
+      r('供应商对账单', 'suppliers-recon', '/kuerp/suppliers-recon'),
+      { title: '利润表', name: 'profit', path: 'profit', api: '/kuerp/profit', component: 'report-profit' },
+    ],
+  },
+
+  // ===================== 订货通（移动端）=====================
+  {
+    title: '移动端订货通',
+    icon: 'Iphone',
+    children: [
+      c('订货单管理', 'user-order', '/kuerp/user-order', { component: 'user-order' }),
+      c('用户管理', 'kuerp-user', '/kuerp/user'),
+    ],
+  },
+
+  // ===================== 系统设置 =====================
+  {
+    title: '系统设置',
+    icon: 'Setting',
+    children: [
+      { title: '系统参数', icon: 'Setting', name: 'Sets', path: 'sets', component: 'sets', api: '/kuerp/sets' },
+      c('单号设置', 'prefix', '/kuerp/prefix'),
+      { title: '结账/反结账', icon: 'Calendar', name: 'Checkout', path: 'checkout', component: 'checkout' },
+      { title: '数据管理', icon: 'Files', name: 'Datainfo', path: 'datainfo', component: 'datainfo' },
+      { title: '重新初始化', icon: 'RefreshLeft', name: 'Initialization', path: 'initialization', component: 'initialization' },
+      { title: '角色管理', icon: 'UserFilled', name: 'AuthGroup', path: 'auth-group', component: 'auth-group' },
+      { title: '管理员管理', icon: 'Avatar', name: 'AuthAdmin', path: 'auth-admin', component: 'auth-admin' },
+      c('权限规则', 'auth-rule', '/kuerp/auth-rule'),
+      { title: '操作日志', icon: 'Tickets', name: 'SysLog', path: 'system/log', component: 'sys-log' },
+      { title: '消息中心', icon: 'ChatDotRound', name: 'SysMessage', path: 'system/message', component: 'sys-message' },
+      { title: '审批待办', icon: 'Checked', name: 'SysApprovalTodo', path: 'system/approval-todo', component: 'sys-approval-todo' },
+      { title: '定时作业', icon: 'RefreshLeft', name: 'SysJob', path: 'system/job', component: 'sys-job' },
+    ],
+  },
+
+  // ===================== 接口管理（移动端商城 order / 第三方对接 third）=====================
+  // 原系统 application/api/controller/kuerp/order、third 两组对外接口，
+  // 后端已由 nestjs-erp 的 shop / openapi 模块 1:1 实现；
+  // 此处仅把各控制器挂到后台菜单，点击进入 api-doc 说明页（只读接口参考）。
+  {
+    title: '小程序商城接口 (order)',
+    icon: 'Iphone',
+    children: [
+      { title: 'Index 商品/订单/支付', path: 'api-order-index', component: 'api-doc', icon: 'Odometer', meta: { docKey: 'order-index' } },
+      { title: 'User 会员', path: 'api-order-user', component: 'api-doc', icon: 'Avatar', meta: { docKey: 'order-user' } },
+      { title: 'Weixin 微信', path: 'api-order-weixin', component: 'api-doc', icon: 'ChatDotRound', meta: { docKey: 'order-weixin' } },
+      { title: 'Sms 短信', path: 'api-order-sms', component: 'api-doc', icon: 'Document', meta: { docKey: 'order-sms' } },
+      { title: 'Address 地址', path: 'api-order-address', component: 'api-doc', icon: 'Box', meta: { docKey: 'order-address' } },
+      { title: 'Config 配置', path: 'api-order-config', component: 'api-doc', icon: 'Setting', meta: { docKey: 'order-config' } },
+      { title: 'Common 通用', path: 'api-order-common', component: 'api-doc', icon: 'Odometer', meta: { docKey: 'order-common' } },
+    ],
+  },
+  {
+    title: '第三方对接 (third)',
+    icon: 'Link',
+    children: [
+      { title: 'Thirds 总控(签名鉴权)', path: 'api-third-thirds', component: 'api-doc', icon: 'Setting', meta: { docKey: 'third-thirds' } },
+      { title: 'Goods 商品', path: 'api-third-goods', component: 'api-doc', icon: 'Box', meta: { docKey: 'third-goods' } },
+      { title: 'Customers 客户', path: 'api-third-customers', component: 'api-doc', icon: 'Avatar', meta: { docKey: 'third-customers' } },
+      { title: 'Sales 销货', path: 'api-third-sales', component: 'api-doc', icon: 'ShoppingCart', meta: { docKey: 'third-sales' } },
+    ],
+  },
+
+  // ===================== AI 能力中心 =====================
+  {
+    title: 'AI 能力中心',
+    icon: 'Cpu',
+    children: [
+      { title: '模型配置', icon: 'Setting', name: 'AiModelConfig', path: 'ai/model-config', component: 'ai/model-config' },
+      { title: 'Prompt 模板', icon: 'Document', name: 'AiPrompt', path: 'ai/prompt-template', component: 'ai/prompt-template' },
+      { title: '对话 / Agent', icon: 'ChatDotRound', name: 'AiPlayground', path: 'ai/playground', component: 'ai/playground' },
+      { title: 'AI 经营助手', icon: 'MagicStick', name: 'AiAssistant', path: 'ai/assistant', component: 'ai/assistant' },
+      { title: '调用日志', icon: 'Tickets', name: 'AiLogs', path: 'ai/logs', component: 'ai/logs' },
+    ],
+  },
+];
+
+/**
+ * 非业务表页（无 /kuerp api）的菜单级权限节点映射。
+ * 业务表页的节点由 api 自动推导为 `kuerp/<表名>`；
+ * 这里的 key 是菜单 path，value 是 auth_rule 里的菜单节点名。
+ * 未在此列出且无 api 的页面（如接口说明页）视为公开页（登录即可见）。
+ */
+const MENU_PERM = {
+  dashboard: 'dashboard',
+  screen: 'screen',
+  'print-center': 'print',
+  goods: 'kuerp/goods',
+  sets: 'kuerp/sets',
+  checkout: 'kuerp/checkout',
+  datainfo: 'datainfo',
+  initialization: 'initialization',
+  'auth-group': 'auth/group',
+  'auth-admin': 'auth/admin',
+  'auth-rule': 'auth/rule',
+  'system/log': 'system/log',
+  'system/message': 'system/message',
+  'system/approval-todo': 'system/approval-todo',
+  'system/job': 'system/job',
+  'ai/model-config': 'ai/model-config',
+  'ai/prompt-template': 'ai/prompt-template',
+  'ai/playground': 'ai/playground',
+  'ai/assistant': 'ai/assistant',
+  'ai/logs': 'ai/logs',
+};
+
+/**
+ * 给每个叶子菜单挂上权限节点（供前端菜单过滤 + 路由守卫判定）。
+ * - 有 api 的业务页：节点 = `kuerp/<表名>`（连字符转下划线，与后端 RbacGuard 一致）；
+ * - 无 api 的系统/看板页：取 MENU_PERM 映射；
+ * - 其余（接口说明页等）：不设节点，视为公开页。
+ * 直接 mutate 原对象，router / layout 共享同一份菜单数据。
+ */
+(function attachPerm() {
+  const walk = (items) =>
+    items.forEach((m) => {
+      if (m.children) walk(m.children);
+      else if (!m.perm) {
+        if (m.api && m.api.startsWith('/kuerp/')) {
+          m.perm = 'kuerp/' + m.api.replace('/kuerp/', '').replace(/-/g, '_');
+        } else if (MENU_PERM[m.path]) {
+          m.perm = MENU_PERM[m.path];
+        }
+      }
+    });
+  walk(menus);
+})();
+
+/**
+ * 扁平化菜单为路由数组（供 router 使用）。
+ * @returns [{ name, path, title, api, component }]
+ */
+export function flattenMenus() {
+  const out = [];
+  const walk = (items) =>
+    items.forEach((m) => {
+      if (m.children) walk(m.children);
+      else if (m.path) out.push(m);
+    });
+  walk(menus);
+  return out;
+}

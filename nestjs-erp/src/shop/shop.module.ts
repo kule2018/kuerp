@@ -1,1 +1,42 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBTaG9wQXV0aFNlcnZpY2UgfSBmcm9tICcuL3Nob3AtYXV0aC5zZXJ2aWNlJzsKaW1wb3J0IHsgU2hvcFNlcnZpY2UgfSBmcm9tICcuL3Nob3Auc2VydmljZSc7CmltcG9ydCB7IFNob3BTbXNTZXJ2aWNlIH0gZnJvbSAnLi9zaG9wLXNtcy5zZXJ2aWNlJzsKaW1wb3J0IHsgU2hvcFdlY2hhdFNlcnZpY2UgfSBmcm9tICcuL3Nob3Atd2VjaGF0LnNlcnZpY2UnOwppbXBvcnQgewogIFNob3BBZGRyZXNzQ29udHJvbGxlciwKICBTaG9wQ29tbW9uQ29udHJvbGxlciwKICBTaG9wQ29uZmlnQ29udHJvbGxlciwKICBTaG9wSW5kZXhDb250cm9sbGVyLAogIFNob3BTbXNDb250cm9sbGVyLAogIFNob3BVc2VyQ29udHJvbGxlciwKICBTaG9wV2VpeGluQ29udHJvbGxlciwKfSBmcm9tICcuL3Nob3AuY29udHJvbGxlcic7CgovKioKICog6K6i6LSn6YCa77yI5b6u5L+h5bCP56iL5bqP56uv77yJ5qih5Z2X44CCCiAqCiAqIOetieS7t+WOn+ezu+e7nyBgYXBwbGljYXRpb24vYXBpL2NvbnRyb2xsZXIva3VlcnAvb3JkZXIvKmAg5LiD57uE5o6n5Yi25Zmo77yaCiAqICAgQ29tbW9u77yI5Yid5aeL5YyW77yJLyBDb25maWfvvIjns7vnu5/phY3nva7vvIkvIEFkZHJlc3PvvIjmlLbotKflnLDlnYDvvIkvIFNtc++8iOmqjOivgeegge+8iS8KICogICBVc2Vy77yI5Lya5ZGY5Lit5b+D77yJLyBXZWl4aW7vvIjlsI/nqIvluo/nmbvlvZXkuI7mlK/ku5jvvIkvIEluZGV477yI5ZWG5ZOBwrfotK3nianovabCt+iuouWNle+8ieOAggogKgogKiDkuI7lkI7lj7DnrqHnkIbnq6/nmoTljLrliKvvvJrmnKzmqKHlnZfpnaLlkJEgQyDnq6/kvJrlkZjvvIzkvb/nlKggYGt1ZXJwX3VzZXIudG9rZW5gIOWBmuS7pOeJjOmJtOadg++8jAogKiDlk43lupTnoIHkuLrorqLotKfpgJrnuqblrprvvIgyMDAg5oiQ5YqfIC8gMjUwIOacqueZu+W9lSAvIDUwMCDlpLHotKXvvInvvIzkuI3lj4LkuI7lkI7lj7AgUkJBQyDmnYPpmZDkvZPns7vjgIIKICoKICog5pWw5o2u6K6/6Zeu55u05o6l5aSN55So5YWo5bGAIERhdGFTb3VyY2XvvIjkuI4gT3BlbkFwaU1vZHVsZSDkuIDoh7TvvInvvIwKICog5Zug5Li66K6i6LSn6YCa5p+l6K+i5aSn6YeP5raJ5Y+K5aSa6KGo6IGU5p+l5LiO6IGa5ZCI77yM6LWw6YCa55So5Yqo5oCB6KGo5o6l5Y+j5Y+N6ICM5pu05L2O5pWI44CCCiAqLwpATW9kdWxlKHsKICBjb250cm9sbGVyczogWwogICAgU2hvcEluZGV4Q29udHJvbGxlciwKICAgIFNob3BBZGRyZXNzQ29udHJvbGxlciwKICAgIFNob3BDb25maWdDb250cm9sbGVyLAogICAgU2hvcFNtc0NvbnRyb2xsZXIsCiAgICBTaG9wVXNlckNvbnRyb2xsZXIsCiAgICBTaG9wV2VpeGluQ29udHJvbGxlciwKICAgIFNob3BDb21tb25Db250cm9sbGVyLAogIF0sCiAgcHJvdmlkZXJzOiBbU2hvcEF1dGhTZXJ2aWNlLCBTaG9wU2VydmljZSwgU2hvcFNtc1NlcnZpY2UsIFNob3BXZWNoYXRTZXJ2aWNlXSwKICBleHBvcnRzOiBbU2hvcFNlcnZpY2UsIFNob3BBdXRoU2VydmljZV0sCn0pCmV4cG9ydCBjbGFzcyBTaG9wTW9kdWxlIHt9Cg==
+import { Module } from '@nestjs/common';
+import { ShopAuthService } from './shop-auth.service';
+import { ShopService } from './shop.service';
+import { ShopSmsService } from './shop-sms.service';
+import { ShopWechatService } from './shop-wechat.service';
+import {
+  ShopAddressController,
+  ShopCommonController,
+  ShopConfigController,
+  ShopIndexController,
+  ShopSmsController,
+  ShopUserController,
+  ShopWeixinController,
+} from './shop.controller';
+
+/**
+ * 订货通（微信小程序端）模块。
+ *
+ * 等价原系统 `application/api/controller/kuerp/order/*` 七组控制器：
+ *   Common（初始化）/ Config（系统配置）/ Address（收货地址）/ Sms（验证码）/
+ *   User（会员中心）/ Weixin（小程序登录与支付）/ Index（商品·购物车·订单）。
+ *
+ * 与后台管理端的区别：本模块面向 C 端会员，使用 `kuerp_user.token` 做令牌鉴权，
+ * 响应码为订货通约定（200 成功 / 250 未登录 / 500 失败），不参与后台 RBAC 权限体系。
+ *
+ * 数据访问直接复用全局 DataSource（与 OpenApiModule 一致），
+ * 因为订货通查询大量涉及多表联查与聚合，走通用动态表接口反而更低效。
+ */
+@Module({
+  controllers: [
+    ShopIndexController,
+    ShopAddressController,
+    ShopConfigController,
+    ShopSmsController,
+    ShopUserController,
+    ShopWeixinController,
+    ShopCommonController,
+  ],
+  providers: [ShopAuthService, ShopService, ShopSmsService, ShopWechatService],
+  exports: [ShopService, ShopAuthService],
+})
+export class ShopModule {}

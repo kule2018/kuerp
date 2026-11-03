@@ -1,1 +1,118 @@
-PHRlbXBsYXRlPgogIDxEc0NhcmQ+CiAgICA8IS0tIOW3peWFt+agj++8iOWOnyBlbC1mb3JtIGlubGluZSDlj6rljIXkuIDkuKrmjInpkq7vvIznroDljJbkuLrmma7pgJrooYzvvIkgLS0+CiAgICA8ZGl2IGNsYXNzPSJiYXIiPgogICAgICA8RHNCdXR0b24gdmFyaWFudD0icHJpbWFyeSIgQGNsaWNrPSJvcGVuQWRkIj7mlrDlop7mqKHlnovphY3nva48L0RzQnV0dG9uPgogICAgPC9kaXY+CgogICAgPERzVGFibGUgOmNvbHVtbnM9ImNvbHVtbnMiIDpkYXRhPSJsaXN0IiA6bG9hZGluZz0ibG9hZGluZyIgOnN0cmlwZWQ9InRydWUiPgogICAgICA8IS0tIOWQr+eUqOeKtuaAgSAtLT4KICAgICAgPHRlbXBsYXRlICNzdGF0dXM9Insgcm93IH0iPgogICAgICAgIDxEc1RhZyA6Y29sb3I9InJvdy5zdGF0dXMgPT09ICcxJyA/ICdzdWNjZXNzJyA6ICduZXV0cmFsJyI+e3sgcm93LnN0YXR1cyA9PT0gJzEnID8gJ+WQr+eUqCcgOiAn5YGc55SoJyB9fTwvRHNUYWc+CiAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwhLS0g5pON5L2c5YiXIC0tPgogICAgICA8dGVtcGxhdGUgI19hY3Rpb249Insgcm93IH0iPgogICAgICAgIDxkaXYgY2xhc3M9Im9wcyI+CiAgICAgICAgICA8RHNCdXR0b24gdmFyaWFudD0idGV4dCIgQGNsaWNrPSJvcGVuRWRpdChyb3cpIj7nvJbovpE8L0RzQnV0dG9uPgogICAgICAgICAgPERzQnV0dG9uIHZhcmlhbnQ9InRleHQiIEBjbGljaz0ib25EZWwocm93LmlkKSI+5Yig6ZmkPC9Ec0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC90ZW1wbGF0ZT4KICAgIDwvRHNUYWJsZT4KCiAgICA8RHNNb2RhbCA6dGl0bGU9ImVkaXRpbmcgPyAn57yW6L6R5qih5Z6L6YWN572uJyA6ICfmlrDlop7mqKHlnovphY3nva4nIiB2LW1vZGVsPSJkaWFsb2ciIDp3aWR0aD0iNjAwIj4KICAgICAgPCEtLSDooajljZXvvJrljp8gZWwtZm9ybe+8iGxhYmVsLXdpZHRoIDExMHB477yJ5pS55Li6IERzRmllbGQgLS0+CiAgICAgIDxEc0ZpZWxkIGxhYmVsPSLlkI3np7AiPjxEc0lucHV0IHYtbW9kZWw9ImZvcm0ubmFtZSIgLz48L0RzRmllbGQ+CiAgICAgIDxEc0ZpZWxkIGxhYmVsPSLmj5DkvpvllYYiPjxEc0lucHV0IHYtbW9kZWw9ImZvcm0ucHJvdmlkZXIiIHBsYWNlaG9sZGVyPSJvcGVuYWkvZGVlcHNlZWsvLi4uIiAvPjwvRHNGaWVsZD4KICAgICAgPERzRmllbGQgbGFiZWw9IuaooeWeiyI+PERzSW5wdXQgdi1tb2RlbD0iZm9ybS5tb2RlbCIgcGxhY2Vob2xkZXI9IuWmgiBkZWVwc2Vlay1jaGF0IC8gZ3B0LTRvLW1pbmkiIC8+PC9Ec0ZpZWxkPgogICAgICA8RHNGaWVsZCBsYWJlbD0iQmFzZVVSTCI+PERzSW5wdXQgdi1tb2RlbD0iZm9ybS5iYXNlX3VybCIgcGxhY2Vob2xkZXI9Imh0dHBzOi8vYXBpLmRlZXBzZWVrLmNvbS92MSIgLz48L0RzRmllbGQ+CiAgICAgIDxEc0ZpZWxkIGxhYmVsPSJBUEkgS2V5Ij48RHNJbnB1dCB2LW1vZGVsPSJmb3JtLmFwaV9rZXkiIHR5cGU9InBhc3N3b3JkIiAvPjwvRHNGaWVsZD4KICAgICAgPERzRmllbGQgbGFiZWw9Iua4qeW6piI+PERzSW5wdXQgdHlwZT0ibnVtYmVyIiB2LW1vZGVsPSJmb3JtLnRlbXBlcmF0dXJlIiAvPjwvRHNGaWVsZD4KICAgICAgPERzRmllbGQgbGFiZWw9IuacgOWkp1Rva2VucyI+PERzSW5wdXQgdHlwZT0ibnVtYmVyIiB2LW1vZGVsPSJmb3JtLm1heF90b2tlbnMiIC8+PC9Ec0ZpZWxkPgogICAgICA8IS0tIOW8gOWFs++8muWOnyBlbC1zd2l0Y2gg55qEIGFjdGl2ZS12YWx1ZT0nMScgLyBpbmFjdGl2ZS12YWx1ZT0nMCfvvIxkcyDlj6rorqTluIPlsJTmlYXlnKjmraTovazmjaIgLS0+CiAgICAgIDxEc0ZpZWxkIGxhYmVsPSLlkK/nlKgiPgogICAgICAgIDxEc1N3aXRjaCA6bW9kZWwtdmFsdWU9IlN0cmluZyhmb3JtLnN0YXR1cykgPT09ICcxJyIgQGNoYW5nZT0iKHYpID0+IChmb3JtLnN0YXR1cyA9IHYgPyAnMScgOiAnMCcpIiAvPgogICAgICA8L0RzRmllbGQ+CiAgICAgIDx0ZW1wbGF0ZSAjZm9vdGVyPgogICAgICAgIDxEc0J1dHRvbiBAY2xpY2s9ImRpYWxvZyA9IGZhbHNlIj7lj5bmtog8L0RzQnV0dG9uPgogICAgICAgIDxEc0J1dHRvbiB2YXJpYW50PSJwcmltYXJ5IiA6bG9hZGluZz0ic2F2aW5nIiBAY2xpY2s9InN1Ym1pdCI+5L+d5a2YPC9Ec0J1dHRvbj4KICAgICAgPC90ZW1wbGF0ZT4KICAgIDwvRHNNb2RhbD4KICA8L0RzQ2FyZD4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXA+Ci8qKgogKiBBSSDmqKHlnovphY3nva7nrqHnkIbvvIjmlbDmja7lupPljJbvvInvvJrlr7nlupTlkI7nq68gL2FpL21vZGVsLWNvbmZpZ+OAggogKiDmlK/mjIHlpJrlrrYgT3BlbkFJIOWFvOWuueaPkOS+m+WVhu+8iERlZXBTZWVrIOetie+8ie+8jOmFjee9ruaMgeS5heWMluWIsCBrdWVycF9haV9tb2RlbF9jb25maWcg6KGo44CCCiAqLwppbXBvcnQgeyByZWYsIG9uTW91bnRlZCB9IGZyb20gJ3Z1ZSc7CmltcG9ydCB7IG1lc3NhZ2UsIGNvbmZpcm0gfSBmcm9tICdAL3V0aWxzL3VpJzsKaW1wb3J0IHJlcXVlc3QgZnJvbSAnLi4vLi4vdXRpbHMvcmVxdWVzdCc7Cgpjb25zdCBsaXN0ID0gcmVmKFtdKTsKY29uc3QgbG9hZGluZyA9IHJlZihmYWxzZSk7CmNvbnN0IGRpYWxvZyA9IHJlZihmYWxzZSk7CmNvbnN0IGVkaXRpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBzYXZpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBmb3JtID0gcmVmKHt9KTsKCi8qKiBEc1RhYmxlIOWIl+mFjee9riAqLwpjb25zdCBjb2x1bW5zID0gWwogIHsga2V5OiAnaWQnLCB0aXRsZTogJ0lEJywgd2lkdGg6ICc3MCcgfSwKICB7IGtleTogJ25hbWUnLCB0aXRsZTogJ+WQjeensCcsIHdpZHRoOiAnMTQwJyB9LAogIHsga2V5OiAncHJvdmlkZXInLCB0aXRsZTogJ+aPkOS+m+WVhicsIHdpZHRoOiAnMTIwJyB9LAogIHsga2V5OiAnbW9kZWwnLCB0aXRsZTogJ+aooeWeiycsIHdpZHRoOiAnMTYwJyB9LAogIHsga2V5OiAnYmFzZV91cmwnLCB0aXRsZTogJ0Jhc2VVUkwnLCB3aWR0aDogJzIwMCcgfSwKICB7IGtleTogJ3N0YXR1cycsIHRpdGxlOiAn5ZCv55SoJywgd2lkdGg6ICc4MCcgfSwKICB7IGtleTogJ19hY3Rpb24nLCB0aXRsZTogJ+aTjeS9nCcsIHdpZHRoOiAnMTUwJyB9LApdOwoKYXN5bmMgZnVuY3Rpb24gbG9hZCgpIHsKICBsb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgbGlzdC52YWx1ZSA9IChhd2FpdCByZXF1ZXN0LmdldCgnL2FpL21vZGVsLWNvbmZpZycpKSB8fCBbXTsKICB9IGZpbmFsbHkgewogICAgbG9hZGluZy52YWx1ZSA9IGZhbHNlOwogIH0KfQoKZnVuY3Rpb24gb3BlbkFkZCgpIHsKICBlZGl0aW5nLnZhbHVlID0gZmFsc2U7CiAgZm9ybS52YWx1ZSA9IHsgc3RhdHVzOiAnMScsIHRlbXBlcmF0dXJlOiAwLjcsIG1heF90b2tlbnM6IDIwNDgsIHByb3ZpZGVyOiAnb3BlbmFpJyB9OwogIGRpYWxvZy52YWx1ZSA9IHRydWU7Cn0KZnVuY3Rpb24gb3BlbkVkaXQocm93KSB7CiAgZWRpdGluZy52YWx1ZSA9IHRydWU7CiAgZm9ybS52YWx1ZSA9IHsgLi4ucm93IH07CiAgZGlhbG9nLnZhbHVlID0gdHJ1ZTsKfQphc3luYyBmdW5jdGlvbiBzdWJtaXQoKSB7CiAgc2F2aW5nLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgaWYgKGVkaXRpbmcudmFsdWUpIHsKICAgICAgYXdhaXQgcmVxdWVzdC5wb3N0KCcvYWkvbW9kZWwtY29uZmlnL2VkaXQnLCB7IGlkOiBmb3JtLnZhbHVlLmlkLCAuLi5mb3JtLnZhbHVlIH0pOwogICAgfSBlbHNlIHsKICAgICAgYXdhaXQgcmVxdWVzdC5wb3N0KCcvYWkvbW9kZWwtY29uZmlnL2FkZCcsIGZvcm0udmFsdWUpOwogICAgfQogICAgbWVzc2FnZS5zdWNjZXNzKCfkv53lrZjmiJDlip8nKTsKICAgIGRpYWxvZy52YWx1ZSA9IGZhbHNlOwogICAgbG9hZCgpOwogIH0gZmluYWxseSB7CiAgICBzYXZpbmcudmFsdWUgPSBmYWxzZTsKICB9Cn0KYXN5bmMgZnVuY3Rpb24gb25EZWwoaWQpIHsKICBhd2FpdCBjb25maXJtKCfnoa7orqTliKDpmaTor6XmqKHlnovphY3nva7vvJ8nLCAn5o+Q56S6JywgeyB0eXBlOiAnd2FybmluZycgfSk7CiAgYXdhaXQgcmVxdWVzdC5kZWxldGUoJy9haS9tb2RlbC1jb25maWcvZGVsJywgeyBkYXRhOiB7IGlkIH0gfSk7CiAgbWVzc2FnZS5zdWNjZXNzKCflt7LliKDpmaQnKTsKICBsb2FkKCk7Cn0KCm9uTW91bnRlZChsb2FkKTsKPC9zY3JpcHQ+Cgo8c3R5bGUgc2NvcGVkPgovKiDlt6XlhbfmoI/kuI7mk43kvZzliJfmjInpkq7nu4QgKi8KLmJhciB7IG1hcmdpbi1ib3R0b206IDEycHg7IH0KLm9wcyB7IGRpc3BsYXk6IGZsZXg7IGdhcDogNHB4OyB9Cjwvc3R5bGU+Cg==
+<template>
+  <DsCard>
+    <!-- 工具栏（原 el-form inline 只包一个按钮，简化为普通行） -->
+    <div class="bar">
+      <DsButton variant="primary" @click="openAdd">新增模型配置</DsButton>
+    </div>
+
+    <DsTable :columns="columns" :data="list" :loading="loading" :striped="true">
+      <!-- 启用状态 -->
+      <template #status="{ row }">
+        <DsTag :color="row.status === '1' ? 'success' : 'neutral'">{{ row.status === '1' ? '启用' : '停用' }}</DsTag>
+      </template>
+      <!-- 操作列 -->
+      <template #_action="{ row }">
+        <div class="ops">
+          <DsButton variant="text" @click="openEdit(row)">编辑</DsButton>
+          <DsButton variant="text" @click="onDel(row.id)">删除</DsButton>
+        </div>
+      </template>
+    </DsTable>
+
+    <DsModal :title="editing ? '编辑模型配置' : '新增模型配置'" v-model="dialog" :width="600">
+      <!-- 表单：原 el-form（label-width 110px）改为 DsField -->
+      <DsField label="名称"><DsInput v-model="form.name" /></DsField>
+      <DsField label="提供商"><DsInput v-model="form.provider" placeholder="openai/deepseek/..." /></DsField>
+      <DsField label="模型"><DsInput v-model="form.model" placeholder="如 deepseek-chat / gpt-4o-mini" /></DsField>
+      <DsField label="BaseURL"><DsInput v-model="form.base_url" placeholder="https://api.deepseek.com/v1" /></DsField>
+      <DsField label="API Key"><DsInput v-model="form.api_key" type="password" /></DsField>
+      <DsField label="温度"><DsInput type="number" v-model="form.temperature" /></DsField>
+      <DsField label="最大Tokens"><DsInput type="number" v-model="form.max_tokens" /></DsField>
+      <!-- 开关：原 el-switch 的 active-value='1' / inactive-value='0'，ds 只认布尔故在此转换 -->
+      <DsField label="启用">
+        <DsSwitch :model-value="String(form.status) === '1'" @change="(v) => (form.status = v ? '1' : '0')" />
+      </DsField>
+      <template #footer>
+        <DsButton @click="dialog = false">取消</DsButton>
+        <DsButton variant="primary" :loading="saving" @click="submit">保存</DsButton>
+      </template>
+    </DsModal>
+  </DsCard>
+</template>
+
+<script setup>
+/**
+ * AI 模型配置管理（数据库化）：对应后端 /ai/model-config。
+ * 支持多家 OpenAI 兼容提供商（DeepSeek 等），配置持久化到 kuerp_ai_model_config 表。
+ */
+import { ref, onMounted } from 'vue';
+import { message, confirm } from '@/utils/ui';
+import request from '../../utils/request';
+
+const list = ref([]);
+const loading = ref(false);
+const dialog = ref(false);
+const editing = ref(false);
+const saving = ref(false);
+const form = ref({});
+
+/** DsTable 列配置 */
+const columns = [
+  { key: 'id', title: 'ID', width: '70' },
+  { key: 'name', title: '名称', width: '140' },
+  { key: 'provider', title: '提供商', width: '120' },
+  { key: 'model', title: '模型', width: '160' },
+  { key: 'base_url', title: 'BaseURL', width: '200' },
+  { key: 'status', title: '启用', width: '80' },
+  { key: '_action', title: '操作', width: '150' },
+];
+
+async function load() {
+  loading.value = true;
+  try {
+    list.value = (await request.get('/ai/model-config')) || [];
+  } finally {
+    loading.value = false;
+  }
+}
+
+function openAdd() {
+  editing.value = false;
+  form.value = { status: '1', temperature: 0.7, max_tokens: 2048, provider: 'openai' };
+  dialog.value = true;
+}
+function openEdit(row) {
+  editing.value = true;
+  form.value = { ...row };
+  dialog.value = true;
+}
+async function submit() {
+  saving.value = true;
+  try {
+    if (editing.value) {
+      await request.post('/ai/model-config/edit', { id: form.value.id, ...form.value });
+    } else {
+      await request.post('/ai/model-config/add', form.value);
+    }
+    message.success('保存成功');
+    dialog.value = false;
+    load();
+  } finally {
+    saving.value = false;
+  }
+}
+async function onDel(id) {
+  await confirm('确认删除该模型配置？', '提示', { type: 'warning' });
+  await request.delete('/ai/model-config/del', { data: { id } });
+  message.success('已删除');
+  load();
+}
+
+onMounted(load);
+</script>
+
+<style scoped>
+/* 工具栏与操作列按钮组 */
+.bar { margin-bottom: 12px; }
+.ops { display: flex; gap: 4px; }
+</style>

@@ -1,1 +1,123 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgVW5hdXRob3JpemVkRXhjZXB0aW9uIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBKd3RTZXJ2aWNlIH0gZnJvbSAnQG5lc3Rqcy9qd3QnOwppbXBvcnQgeyBJbmplY3RSZXBvc2l0b3J5IH0gZnJvbSAnQG5lc3Rqcy90eXBlb3JtJzsKaW1wb3J0IHsgRGF0YVNvdXJjZSwgUmVwb3NpdG9yeSB9IGZyb20gJ3R5cGVvcm0nOwppbXBvcnQgeyBBZG1pbiB9IGZyb20gJy4uL3N5c3RlbS9lbnRpdGllcy9hZG1pbi5lbnRpdHknOwppbXBvcnQgeyB2ZXJpZnlQYXNzd29yZCwgZW5jcnlwdFBhc3N3b3JkIH0gZnJvbSAnLi4vY29tbW9uL3V0aWxzL3Bhc3N3b3JkJzsKaW1wb3J0IHsgbm93U2VjIH0gZnJvbSAnLi4vY29tbW9uL2JpZ2ludC50cmFuc2Zvcm1lcic7CmltcG9ydCAqIGFzIGNyeXB0byBmcm9tICdjcnlwdG8nOwoKLyoqCiAqIOiupOivgeacjeWKoe+8mueZu+W9leetvuWPkSBKV1TjgIHkv67mlLnlr4bnoIHjgIHlvZPliY3nlKjmiLfkv6Hmga/jgIHmnYPpmZDpm4blkIjjgIIKICovCkBJbmplY3RhYmxlKCkKZXhwb3J0IGNsYXNzIEF1dGhTZXJ2aWNlIHsKICBjb25zdHJ1Y3RvcigKICAgIEBJbmplY3RSZXBvc2l0b3J5KEFkbWluKSBwcml2YXRlIHJlYWRvbmx5IGFkbWluUmVwbzogUmVwb3NpdG9yeTxBZG1pbj4sCiAgICBwcml2YXRlIHJlYWRvbmx5IGp3dDogSnd0U2VydmljZSwKICAgIHByaXZhdGUgcmVhZG9ubHkgZGF0YVNvdXJjZTogRGF0YVNvdXJjZSwKICApIHt9CgogIGFzeW5jIGxvZ2luKHVzZXJuYW1lOiBzdHJpbmcsIHBhc3N3b3JkOiBzdHJpbmcpIHsKICAgIGNvbnN0IHVzZXIgPSBhd2FpdCB0aGlzLmFkbWluUmVwby5maW5kT25lKHsgd2hlcmU6IHsgdXNlcm5hbWUgfSBhcyBhbnkgfSk7CiAgICBpZiAoIXVzZXIpIHRocm93IG5ldyBVbmF1dGhvcml6ZWRFeGNlcHRpb24oJ+i0puWPt+aIluWvhueggemUmeivrycpOwogICAgaWYgKHVzZXIuc3RhdHVzICE9PSAxKSB0aHJvdyBuZXcgVW5hdXRob3JpemVkRXhjZXB0aW9uKCfotKblj7flt7LooqvnpoHnlKgnKTsKICAgIGlmICghdmVyaWZ5UGFzc3dvcmQocGFzc3dvcmQsIHVzZXIuc2FsdCwgdXNlci5wYXNzd29yZCkpIHsKICAgICAgdGhyb3cgbmV3IFVuYXV0aG9yaXplZEV4Y2VwdGlvbign6LSm5Y+35oiW5a+G56CB6ZSZ6K+vJyk7CiAgICB9CiAgICB1c2VyLmxvZ2ludGltZSA9IG5vd1NlYygpOwogICAgYXdhaXQgdGhpcy5hZG1pblJlcG8udXBkYXRlKHVzZXIuaWQsIHsgbG9naW50aW1lOiBub3dTZWMoKSB9IGFzIGFueSk7CiAgICBjb25zdCB0b2tlbiA9IHRoaXMuand0LnNpZ24oeyBzdWI6IHVzZXIuaWQsIHVzZXJuYW1lOiB1c2VyLnVzZXJuYW1lIH0pOwogICAgcmV0dXJuIHsKICAgICAgdG9rZW46ICdCZWFyZXIgJyArIHRva2VuLAogICAgICBleHBpcmVzX2luOiBOdW1iZXIocHJvY2Vzcy5lbnYuSldUX0VYUElSRVNfSU4gfHwgNzIwMCksCiAgICAgIHVzZXI6IHsgaWQ6IHVzZXIuaWQsIHVzZXJuYW1lOiB1c2VyLnVzZXJuYW1lLCBuaWNrbmFtZTogdXNlci5uaWNrbmFtZSwgYXZhdGFyOiB1c2VyLmF2YXRhciB9LAogICAgfTsKICB9CgogIGFzeW5jIHByb2ZpbGUodXNlcklkOiBudW1iZXIpIHsKICAgIGNvbnN0IHVzZXIgPSBhd2FpdCB0aGlzLmFkbWluUmVwby5maW5kT25lKHsgd2hlcmU6IHsgaWQ6IHVzZXJJZCB9IGFzIGFueSB9KTsKICAgIGlmICghdXNlcikgdGhyb3cgbmV3IFVuYXV0aG9yaXplZEV4Y2VwdGlvbign55So5oi35LiN5a2Y5ZyoJyk7CiAgICByZXR1cm4geyBpZDogdXNlci5pZCwgdXNlcm5hbWU6IHVzZXIudXNlcm5hbWUsIG5pY2tuYW1lOiB1c2VyLm5pY2tuYW1lLCBhdmF0YXI6IHVzZXIuYXZhdGFyLCBlbWFpbDogdXNlci5lbWFpbCB9OwogIH0KCiAgYXN5bmMgY2hhbmdlUGFzc3dvcmQodXNlcklkOiBudW1iZXIsIG9sZFB3ZDogc3RyaW5nLCBuZXdQd2Q6IHN0cmluZykgewogICAgY29uc3QgdXNlciA9IGF3YWl0IHRoaXMuYWRtaW5SZXBvLmZpbmRPbmUoeyB3aGVyZTogeyBpZDogdXNlcklkIH0gYXMgYW55IH0pOwogICAgaWYgKCF1c2VyKSB0aHJvdyBuZXcgVW5hdXRob3JpemVkRXhjZXB0aW9uKCfnlKjmiLfkuI3lrZjlnKgnKTsKICAgIGlmICghdmVyaWZ5UGFzc3dvcmQob2xkUHdkLCB1c2VyLnNhbHQsIHVzZXIucGFzc3dvcmQpKSB7CiAgICAgIHRocm93IG5ldyBVbmF1dGhvcml6ZWRFeGNlcHRpb24oJ+WOn+WvhueggemUmeivrycpOwogICAgfQogICAgY29uc3Qgc2FsdCA9IGNyeXB0by5yYW5kb21CeXRlcygxNikudG9TdHJpbmcoJ2hleCcpOwogICAgY29uc3QgaGFzaCA9IGVuY3J5cHRQYXNzd29yZChuZXdQd2QsIHNhbHQpOwogICAgYXdhaXQgdGhpcy5hZG1pblJlcG8udXBkYXRlKHVzZXIuaWQsIHsgcGFzc3dvcmQ6IGhhc2gsIHNhbHQgfSBhcyBhbnkpOwogICAgcmV0dXJuIHRydWU7CiAgfQoKICAvKioKICAgKiDmn6Xor6LlvZPliY3nlKjmiLfnmoTmnYPpmZDpm4blkIjvvIjkvpvliY3nq6/lgZrmjInpkq7nuqfmmL7pmpDvvInjgIIKICAgKgogICAqIOi/lOWbnue7k+aehOiuvuiuoe+8mgogICAqIC0gaXNTdXBlcu+8mui2heeuoeS4uiB0cnVl77yM5YmN56uv5Y+v55u05o6l5YWo6YOo5pS+6KGM77yM5LiN5b+F6YCQ6aG55Yik5pat77ybCiAgICogLSBub2Rlc++8muWOn+Wni+iKgueCueaVsOe7hO+8iCdrdWVycC9nb29kcyfjgIEna3VlcnAvZ29vZHM6YWRkJ+OAgScqJyDnrYnvvInvvIzkvr/kuo7osIPor5XvvJsKICAgKiAtIHRhYmxlc++8muaKiuiKgueCueW9kuW5tuaIkOOAjOihqCDihpIg5Y+v55So5Yqo5L2c44CN77yMJyonIOihqOekuuivpeihqOWFqOmDqOWKqOS9nO+8jAogICAqICAg5pWw57uE6KGo56S65LuF6L+Z5Lqb5Yqo5L2c44CC5b2S5bm25ZCO5YmN56uv5Y+q6ZyAIGhhc1Blcm0odGFibGUsIGFjdGlvbikg5LiA5qyh5Yik5pat77yMCiAgICogICDkuI3lv4XlnKjmuLLmn5Pml7blj43lpI3op6PmnpDlrZfnrKbkuLLvvJsKICAgKiAtIG1lbnVz77ya6Z2eIGt1ZXJwIOWJjee8gOeahOiKgueCue+8iGRhc2hib2FyZC9zY3JlZW4g562J6I+c5Y2V57qn6IqC54K577yJ44CCCiAgICoKICAgKiDliKTlrprlj6PlvoTkuI4gUmJhY0d1YXJkIOS4peagvOS4gOiHtO+8muihqOe6p+iKgueCue+8iOaXoOWGkuWPt++8ieinhuS4uuivpeihqOWFqOmDqOWKqOS9nOOAggogICAqCiAgICogQHBhcmFtIHVzZXJJZCDlvZPliY3nmbvlvZXnlKjmiLdJRAogICAqIEByZXR1cm5zIOadg+mZkOmbhuWQiAogICAqLwogIGFzeW5jIHBlcm1zKHVzZXJJZDogbnVtYmVyKSB7CiAgICBjb25zdCBpc1N1cGVyID0gTnVtYmVyKHVzZXJJZCkgPT09IDE7CiAgICBpZiAoaXNTdXBlcikgewogICAgICByZXR1cm4geyBpc1N1cGVyOiB0cnVlLCBub2RlczogWycqJ10sIHRhYmxlczoge30gYXMgUmVjb3JkPHN0cmluZywgJyonIHwgc3RyaW5nW10+LCBtZW51czogWycqJ10gfTsKICAgIH0KCiAgICBsZXQgbm9kZXM6IHN0cmluZ1tdID0gW107CiAgICB0cnkgewogICAgICBjb25zdCByb3dzID0gYXdhaXQgdGhpcy5kYXRhU291cmNlLnF1ZXJ5KAogICAgICAgIGBTRUxFQ1QgZy5ydWxlcyBBUyBydWxlcwogICAgICAgICAgIEZST00ga3VlcnBfYXV0aF9ncm91cF9hY2Nlc3MgYQogICAgICAgICAgIEpPSU4ga3VlcnBfYXV0aF9ncm91cCBnIE9OIGcuaWQgPSBhLmdyb3VwX2lkCiAgICAgICAgICBXSEVSRSBhLmFkbWluX2lkID0gPyBBTkQgZy5zdGF0dXMgPSAxYCwKICAgICAgICBbdXNlcklkXSwKICAgICAgKTsKICAgICAgbm9kZXMgPSAocm93cyB8fCBbXSkKICAgICAgICAubWFwKChyOiBhbnkpID0+IFN0cmluZyhyLnJ1bGVzIHx8ICcnKSkKICAgICAgICAuam9pbignLCcpCiAgICAgICAgLnNwbGl0KCcsJykKICAgICAgICAubWFwKChzOiBzdHJpbmcpID0+IHMudHJpbSgpKQogICAgICAgIC5maWx0ZXIoQm9vbGVhbik7CiAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgLy8g5pyq5omn6KGMIHJiYWMtc2NoZW1hLnNxbCDnmoTml6flupPvvJrov5Tlm57nqbrpm4bvvIzliY3nq6/kvJrpgIDljJbkuLrjgIzlj6rmmL7npLroj5zljZXjgIHkuI3pmpDol4/mjInpkq7jgI0KICAgICAgaWYgKFN0cmluZyhlPy5jb2RlIHx8ICcnKSAhPT0gJ0VSX05PX1NVQ0hfVEFCTEUnKSB0aHJvdyBlOwogICAgICBub2RlcyA9IFtdOwogICAgfQoKICAgIGNvbnN0IHRhYmxlczogUmVjb3JkPHN0cmluZywgJyonIHwgc3RyaW5nW10+ID0ge307CiAgICBjb25zdCBtZW51czogc3RyaW5nW10gPSBbXTsKICAgIGZvciAoY29uc3QgbiBvZiBub2RlcykgewogICAgICBpZiAoIW4uc3RhcnRzV2l0aCgna3VlcnAvJykpIHsKICAgICAgICBtZW51cy5wdXNoKG4pOwogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIGNvbnN0IHJlc3QgPSBuLnNsaWNlKCdrdWVycC8nLmxlbmd0aCk7CiAgICAgIGNvbnN0IFtyYXdUYWJsZSwgcmF3QWN0aW9uXSA9IHJlc3Quc3BsaXQoJzonKTsKICAgICAgY29uc3Qga2V5ID0gU3RyaW5nKHJhd1RhYmxlIHx8ICcnKS5yZXBsYWNlKC8tL2csICdfJyk7CiAgICAgIGlmICgha2V5KSBjb250aW51ZTsKICAgICAgaWYgKCFyYXdBY3Rpb24gfHwgcmF3QWN0aW9uID09PSAnKicpIHsKICAgICAgICB0YWJsZXNba2V5XSA9ICcqJzsKICAgICAgICBjb250aW51ZTsKICAgICAgfQogICAgICAvLyDlt7LmoIforrDkuLrjgIzlhajpg6jliqjkvZzjgI3nmoTooajkuI3lho3pmY3nuqfkuLrliqjkvZzmlbDnu4QKICAgICAgaWYgKHRhYmxlc1trZXldID09PSAnKicpIGNvbnRpbnVlOwogICAgICBjb25zdCBsaXN0ID0gQXJyYXkuaXNBcnJheSh0YWJsZXNba2V5XSkgPyAodGFibGVzW2tleV0gYXMgc3RyaW5nW10pIDogW107CiAgICAgIGlmICghbGlzdC5pbmNsdWRlcyhyYXdBY3Rpb24pKSBsaXN0LnB1c2gocmF3QWN0aW9uKTsKICAgICAgdGFibGVzW2tleV0gPSBsaXN0OwogICAgfQoKICAgIHJldHVybiB7IGlzU3VwZXI6IG5vZGVzLmluY2x1ZGVzKCcqJyksIG5vZGVzLCB0YWJsZXMsIG1lbnVzIH07CiAgfQp9Cg==
+import { Injectable, UnauthorizedException } from '@nestjs/common';
+import { JwtService } from '@nestjs/jwt';
+import { InjectRepository } from '@nestjs/typeorm';
+import { DataSource, Repository } from 'typeorm';
+import { Admin } from '../system/entities/admin.entity';
+import { verifyPassword, encryptPassword } from '../common/utils/password';
+import { nowSec } from '../common/bigint.transformer';
+import * as crypto from 'crypto';
+
+/**
+ * 认证服务：登录签发 JWT、修改密码、当前用户信息、权限集合。
+ */
+@Injectable()
+export class AuthService {
+  constructor(
+    @InjectRepository(Admin) private readonly adminRepo: Repository<Admin>,
+    private readonly jwt: JwtService,
+    private readonly dataSource: DataSource,
+  ) {}
+
+  async login(username: string, password: string) {
+    const user = await this.adminRepo.findOne({ where: { username } as any });
+    if (!user) throw new UnauthorizedException('账号或密码错误');
+    if (user.status !== 1) throw new UnauthorizedException('账号已被禁用');
+    if (!verifyPassword(password, user.salt, user.password)) {
+      throw new UnauthorizedException('账号或密码错误');
+    }
+    user.logintime = nowSec();
+    await this.adminRepo.update(user.id, { logintime: nowSec() } as any);
+    const token = this.jwt.sign({ sub: user.id, username: user.username });
+    return {
+      token: 'Bearer ' + token,
+      expires_in: Number(process.env.JWT_EXPIRES_IN || 7200),
+      user: { id: user.id, username: user.username, nickname: user.nickname, avatar: user.avatar },
+    };
+  }
+
+  async profile(userId: number) {
+    const user = await this.adminRepo.findOne({ where: { id: userId } as any });
+    if (!user) throw new UnauthorizedException('用户不存在');
+    return { id: user.id, username: user.username, nickname: user.nickname, avatar: user.avatar, email: user.email };
+  }
+
+  async changePassword(userId: number, oldPwd: string, newPwd: string) {
+    const user = await this.adminRepo.findOne({ where: { id: userId } as any });
+    if (!user) throw new UnauthorizedException('用户不存在');
+    if (!verifyPassword(oldPwd, user.salt, user.password)) {
+      throw new UnauthorizedException('原密码错误');
+    }
+    const salt = crypto.randomBytes(16).toString('hex');
+    const hash = encryptPassword(newPwd, salt);
+    await this.adminRepo.update(user.id, { password: hash, salt } as any);
+    return true;
+  }
+
+  /**
+   * 查询当前用户的权限集合（供前端做按钮级显隐）。
+   *
+   * 返回结构设计：
+   * - isSuper：超管为 true，前端可直接全部放行，不必逐项判断；
+   * - nodes：原始节点数组（'kuerp/goods'、'kuerp/goods:add'、'*' 等），便于调试；
+   * - tables：把节点归并成「表 → 可用动作」，'*' 表示该表全部动作，
+   *   数组表示仅这些动作。归并后前端只需 hasPerm(table, action) 一次判断，
+   *   不必在渲染时反复解析字符串；
+   * - menus：非 kuerp 前缀的节点（dashboard/screen 等菜单级节点）。
+   *
+   * 判定口径与 RbacGuard 严格一致：表级节点（无冒号）视为该表全部动作。
+   *
+   * @param userId 当前登录用户ID
+   * @returns 权限集合
+   */
+  async perms(userId: number) {
+    const isSuper = Number(userId) === 1;
+    if (isSuper) {
+      return { isSuper: true, nodes: ['*'], tables: {} as Record<string, '*' | string[]>, menus: ['*'] };
+    }
+
+    let nodes: string[] = [];
+    try {
+      const rows = await this.dataSource.query(
+        `SELECT g.rules AS rules
+           FROM kuerp_auth_group_access a
+           JOIN kuerp_auth_group g ON g.id = a.group_id
+          WHERE a.admin_id = ? AND g.status = 1`,
+        [userId],
+      );
+      nodes = (rows || [])
+        .map((r: any) => String(r.rules || ''))
+        .join(',')
+        .split(',')
+        .map((s: string) => s.trim())
+        .filter(Boolean);
+    } catch (e: any) {
+      // 未执行 rbac-schema.sql 的旧库：返回空集，前端会退化为「只显示菜单、不隐藏按钮」
+      if (String(e?.code || '') !== 'ER_NO_SUCH_TABLE') throw e;
+      nodes = [];
+    }
+
+    const tables: Record<string, '*' | string[]> = {};
+    const menus: string[] = [];
+    for (const n of nodes) {
+      if (!n.startsWith('kuerp/')) {
+        menus.push(n);
+        continue;
+      }
+      const rest = n.slice('kuerp/'.length);
+      const [rawTable, rawAction] = rest.split(':');
+      const key = String(rawTable || '').replace(/-/g, '_');
+      if (!key) continue;
+      if (!rawAction || rawAction === '*') {
+        tables[key] = '*';
+        continue;
+      }
+      // 已标记为「全部动作」的表不再降级为动作数组
+      if (tables[key] === '*') continue;
+      const list = Array.isArray(tables[key]) ? (tables[key] as string[]) : [];
+      if (!list.includes(rawAction)) list.push(rawAction);
+      tables[key] = list;
+    }
+
+    return { isSuper: nodes.includes('*'), nodes, tables, menus };
+  }
+}

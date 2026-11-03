@@ -1,1 +1,352 @@
-PHRlbXBsYXRlPg0KICA8ZGl2IGNsYXNzPSJhcGktZG9jIj4NCiAgICA8aGVhZGVyIGNsYXNzPSJhcGktZG9jX19oZWFkIj4NCiAgICAgIDxoMj57eyBkb2MudGl0bGUgfX08L2gyPg0KICAgICAgPGNvZGUgY2xhc3M9ImFwaS1kb2NfX2Jhc2UiPnt7IGRvYy5iYXNlIH19PC9jb2RlPg0KICAgIDwvaGVhZGVyPg0KDQogICAgPHAgY2xhc3M9ImFwaS1kb2NfX2Rlc2MiPnt7IGRvYy5kZXNjIH19PC9wPg0KDQogICAgPCEtLSDmgLvmjqcv562+5ZCN6Ym05p2D6K+05piOIC0tPg0KICAgIDx0ZW1wbGF0ZSB2LWlmPSJkb2Muc2lnbiI+DQogICAgICA8ZGl2IGNsYXNzPSJhcGktZG9jX19jYXJkIj4NCiAgICAgICAgPGgzPuWFrOWFseWPguaVsO+8iOavj+S4quaOpeWPo+W/heS8oO+8iTwvaDM+DQogICAgICAgIDx1bCBjbGFzcz0iYXBpLWRvY19fcGFyYW1zIj4NCiAgICAgICAgICA8bGkgdi1mb3I9InAgaW4gZG9jLnNpZ25QYXJhbXMiIDprZXk9InAiPjxjb2RlPnt7IHAgfX08L2NvZGU+PC9saT4NCiAgICAgICAgPC91bD4NCiAgICAgICAgPGgzPuetvuWQjeinhOWImTwvaDM+DQogICAgICAgIDxwIGNsYXNzPSJhcGktZG9jX19oaW50Ij4NCiAgICAgICAgICDlj5bmjqXlj6Plr7nlupTnmoTjgIzlj4LkuI7nrb7lkI3lj4LmlbDjgI3nu4TmiJDmlbDnu4TvvIzpgJDlrZfmrrUgPGNvZGU+dHJpbTwvY29kZT4g5ZCO5oyJ6ZSu5ZCN5bCP5YaZ44CBDQogICAgICAgICAg5a2X5YW45bqPIChrc29ydCkg5o6S5bqP77yM5ou85o6l5Li6IDxjb2RlPms9djwvY29kZT4g55SoIDxjb2RlPiZhbXA7PC9jb2RlPiDov57mjqXvvIwNCiAgICAgICAgICDmnKvlsL7ov73liqAgPGNvZGU+a2V5PSZsdDtzYWx0Jmd0OzwvY29kZT7vvIzlr7nmlbTkvZPlj5YgPGNvZGU+TUQ1PC9jb2RlPiDlvpfliLAgPGNvZGU+c2lnbjwvY29kZT7jgIINCiAgICAgICAgICDor7fmsYLml7bpl7QgPGNvZGU+cmVxdWVzdF90aW1lPC9jb2RlPiDkuI7mnI3liqHlmajor6/lt67pobvlsI/kuo4gMzAwIOenku+8jOWQpuWImei/lOWbnuOAjOaXoOaViOivt+axgigyMynjgI3jgIINCiAgICAgICAgPC9wPg0KICAgICAgICA8dGFibGUgY2xhc3M9ImFwaS1kb2NfX3RhYmxlIj4NCiAgICAgICAgICA8dGhlYWQ+DQogICAgICAgICAgICA8dHI+PHRoPuaOpeWPozwvdGg+PHRoPuWPguS4juetvuWQjeWPguaVsDwvdGg+PC90cj4NCiAgICAgICAgICA8L3RoZWFkPg0KICAgICAgICAgIDx0Ym9keT4NCiAgICAgICAgICAgIDx0ciB2LWZvcj0iciBpbiBkb2Muc2lnblJ1bGVzIiA6a2V5PSJyLmFwaSI+DQogICAgICAgICAgICAgIDx0ZD48Y29kZT57eyByLmFwaSB9fTwvY29kZT48L3RkPg0KICAgICAgICAgICAgICA8dGQ+e3sgci5wYXJhbXMgfX08L3RkPg0KICAgICAgICAgICAgPC90cj4NCiAgICAgICAgICA8L3Rib2R5Pg0KICAgICAgICA8L3RhYmxlPg0KICAgICAgPC9kaXY+DQogICAgPC90ZW1wbGF0ZT4NCg0KICAgIDwhLS0g5o6l5Y+j5YiX6KGoIC0tPg0KICAgIDx0ZW1wbGF0ZSB2LWVsc2U+DQogICAgICA8dGFibGUgY2xhc3M9ImFwaS1kb2NfX3RhYmxlIj4NCiAgICAgICAgPHRoZWFkPg0KICAgICAgICAgIDx0cj48dGggc3R5bGU9IndpZHRoOjkwcHgiPuaWueazlTwvdGg+PHRoPuaOpeWPo+i3r+W+hDwvdGg+PHRoPuivtOaYjjwvdGg+PC90cj4NCiAgICAgICAgPC90aGVhZD4NCiAgICAgICAgPHRib2R5Pg0KICAgICAgICAgIDx0ciB2LWZvcj0iZSBpbiBkb2MuZW5kcG9pbnRzIiA6a2V5PSJlLmFjdGlvbiI+DQogICAgICAgICAgICA8dGQ+PHNwYW4gY2xhc3M9ImFwaS1kb2NfX21ldGhvZCIgOmNsYXNzPSJlLm1ldGhvZCA9PT0gJ0dFVCcgPyAnaXMtZ2V0JyA6ICdpcy1wb3N0JyI+e3sgZS5tZXRob2QgfX08L3NwYW4+PC90ZD4NCiAgICAgICAgICAgIDx0ZD48Y29kZT57eyBkb2MuYmFzZSB9fS97eyBlLmFjdGlvbiB9fTwvY29kZT48L3RkPg0KICAgICAgICAgICAgPHRkPnt7IGUubm90ZSB9fTwvdGQ+DQogICAgICAgICAgPC90cj4NCiAgICAgICAgPC90Ym9keT4NCiAgICAgIDwvdGFibGU+DQogICAgPC90ZW1wbGF0ZT4NCg0KICAgIDxmb290ZXIgY2xhc3M9ImFwaS1kb2NfX2Zvb3QiPg0KICAgICAg5ZON5bqU57uT5p6E77yaPGNvZGU+eyBjb2RlLCBtc2csIHRpbWUsIGRhdGEgfTwvY29kZT4NCiAgICAgIO+8iGNvZGU6IDEvMjAwPeaIkOWKn++8jDI1MD3mnKrnmbvlvZXvvIwyMD3mjqXlj6PlnLDlnYDplJnor6/vvIwyMT3otKbmiLfkuI3lrZjlnKjvvIwyMj3otKbmiLflvILluLjvvIwyMz3ml6DmlYjor7fmsYLvvIwyND3nrb7lkI3plJnor6/vvIwyNT3lj4LmlbDplJnor6/vvIwyNz3kuJrliqHlpLHotKXvvInjgIINCiAgICAgIOWQjuerr+WunueOsO+8mjxjb2RlPm5lc3Rqcy1lcnAvc3JjL3Nob3AvKjwvY29kZT4g5LiOIDxjb2RlPm5lc3Rqcy1lcnAvc3JjL29wZW5hcGkvKjwvY29kZT7jgIINCiAgICA8L2Zvb3Rlcj4NCiAgPC9kaXY+DQo8L3RlbXBsYXRlPg0KDQo8c2NyaXB0IHNldHVwPg0KLyoqDQogKiBBUEkg5o6l5Y+j6K+05piO6aG177yI5Y+q6K+75Y+C6ICD77yJ44CCDQogKiDnlLHlkI7lj7Doj5zljZXjgIzmjqXlj6PnrqHnkIbjgI3liIbnu4TkuIvnmoTlkITmjqfliLblmajlj7blrZDoioLngrnpqbHliqjvvIwNCiAqIOmAmui/hyByb3V0ZS5tZXRhLmRvY0tleSDlj5blhoXnva7mjqXlj6PlrZflhbjmuLLmn5PvvIzkuI3osIPnlKjku7vkvZXkuJrliqHmjqXlj6PjgIINCiAqLw0KaW1wb3J0IHsgY29tcHV0ZWQgfSBmcm9tICd2dWUnOw0KaW1wb3J0IHsgdXNlUm91dGUgfSBmcm9tICd2dWUtcm91dGVyJzsNCg0KY29uc3Qgcm91dGUgPSB1c2VSb3V0ZSgpOw0KDQovLyDlkITmjqfliLblmajmjqXlj6PlrZflhbjvvIjkuI7ljp/ns7vnu58gYXBpL2t1ZXJwL29yZGVyLyog5LiOIGFwaS9rdWVycC90aGlyZC8qIDE6MSDlr7npvZDvvIkNCmNvbnN0IERPQ1MgPSB7DQogICdvcmRlci1pbmRleCc6IHsNCiAgICB0aXRsZTogJ0luZGV4IMK3IOWVhuWTgS/orqLljZUv5pSv5LuYJywNCiAgICBiYXNlOiAnL3Nob3AvaW5kZXgnLA0KICAgIGRlc2M6ICflsI/nqIvluo/llYbln47moLjlv4PmjqXlj6PvvJrllYblk4HmtY/op4jjgIHotK3nianovabjgIHorqLotKfljZXjgIHlvq7kv6HmlK/ku5jjgIHova7mkq3kuI7lnLDljLrjgIInLA0KICAgIGVuZHBvaW50czogWw0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnZ2V0Q29uZmlnJywgbm90ZTogJ+aUr+S7mOmFjee9ricgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ3d4cGF5cycsIG5vdGU6ICflvq7kv6HmlK/ku5jkuIvljZXvvIh2Me+8iScgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ3d4cGF5Jywgbm90ZTogJ+W+ruS/oeaUr+S7mOS4i+WNle+8iHYyIOWFpeWPo++8iScgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ25vdGlmeScsIG5vdGU6ICflvq7kv6HmlK/ku5jlm57osIMnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdnZXRBcmVhJywgbm90ZTogJ+WcsOWMuuivpuaDhScgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2FkZHJlc3NfbGlzdCcsIG5vdGU6ICflj5HotKflnLDlnYAgLyDoh6rmj5Dpl6jlupfliJfooagnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdiYW5uZXInLCBub3RlOiAn6L2u5pKt5Zu+JyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnZ29vZHNUeXBlTGlzdCcsIG5vdGU6ICfllYblk4HliIbnsbsnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdnb29kc0dvb2RzTGlzdCcsIG5vdGU6ICfllYblk4HliJfooagnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdnb29kc0dvb2RzSW5mbycsIG5vdGU6ICfllYblk4Hor6bmg4UnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdnZXRHb29kc1VuaXQnLCBub3RlOiAn5ZWG5ZOB5aSa5Y2V5L2N5LiO5Y2V5L2N5Lu3JyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnZ2V0R29vZHNBdXhpbGlhcnknLCBub3RlOiAn5ZWG5ZOB6L6F5Yqp5bGe5oCnJyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnZ2V0SGlzdG9yeScsIG5vdGU6ICfmtY/op4jljoblj7InIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdnZXRDYXJ0TnVtYmVyJywgbm90ZTogJ+i0reeJqei9puaVsOmHjycgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2dldENhcnQnLCBub3RlOiAn6LSt54mp6L2m5YiX6KGoJyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnYWRkQ2FydCcsIG5vdGU6ICfliqDlhaXotK3nianovaYnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdlZGl0Q2FydCcsIG5vdGU6ICfkv67mlLnotK3nianovaYnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdkZWxDYXJ0Jywgbm90ZTogJ+WIoOmZpOi0reeJqei9puWVhuWTgScgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2NhbmNlbENhcnQnLCBub3RlOiAn5riF56m66LSt54mp6L2mJyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnbGVhdmluZycsIG5vdGU6ICfllYblk4HnlZnoqIAnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdjcmVhdGVPcmRlcicsIG5vdGU6ICfliJvlu7rorqLotKfljZUnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdnZXRPcmRlckxpc3QnLCBub3RlOiAn6K6i5Y2V5YiX6KGoJyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnb3JkZXJJbmZvJywgbm90ZTogJ+iuouWNleivpuaDhScgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ3JlY2VpdmluZycsIG5vdGU6ICfnoa7orqTmlLbotKcnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdjYW5jZWxPcmRlcicsIG5vdGU6ICflj5bmtojorqLljZUnIH0sDQogICAgXSwNCiAgfSwNCiAgJ29yZGVyLXVzZXInOiB7DQogICAgdGl0bGU6ICdVc2VyIMK3IOS8muWRmCcsDQogICAgYmFzZTogJy9zaG9wL3VzZXInLA0KICAgIGRlc2M6ICflsI/nqIvluo/kvJrlkZjkuK3lv4PvvJrnmbvlvZXjgIHms6jlhozjgIHotYTmlpnkuI7miYvmnLov6YKu566x57uR5a6a44CCJywNCiAgICBlbmRwb2ludHM6IFsNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2luZGV4Jywgbm90ZTogJ+S8muWRmOS4reW/g+asoui/juivrScgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2xvZ2luJywgbm90ZTogJ+i0puWPt+WvhueggeeZu+W9lScgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ21vYmlsZWxvZ2luJywgbm90ZTogJ+aJi+acuumqjOivgeeggeeZu+W9lSAvIOiHquWKqOazqOWGjCcgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ3JlZ2lzdGVyJywgbm90ZTogJ+azqOWGjOS8muWRmCcgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2xvZ291dCcsIG5vdGU6ICfpgIDlh7rnmbvlvZUnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdwcm9maWxlJywgbm90ZTogJ+S/ruaUueaYteensCAvIOWktOWDjycgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2NoYW5nZWVtYWlsJywgbm90ZTogJ+S/ruaUuemCrueusScgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2NoYW5nZW1vYmlsZScsIG5vdGU6ICfnu5HlrprmiYvmnLrlj7cnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdyZXNldHB3ZCcsIG5vdGU6ICfph43nva7lr4bnoIEnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICd1c2VySW5mbycsIG5vdGU6ICflj5bkvJrlkZjkv6Hmga8nIH0sDQogICAgXSwNCiAgfSwNCiAgJ29yZGVyLXdlaXhpbic6IHsNCiAgICB0aXRsZTogJ1dlaXhpbiDCtyDlvq7kv6EnLA0KICAgIGJhc2U6ICcvc2hvcC93ZWl4aW4nLA0KICAgIGRlc2M6ICflsI/nqIvluo/lvq7kv6HnmbvlvZXjgIHkvJror53lr4bpkqXmjaLlj5bkuI7kuInmlrnmjojmnYPnu5HlrprjgIInLA0KICAgIGVuZHBvaW50czogWw0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnZ2V0V3hNaW5pUHJvZ3JhbVNlc3Npb25LZXknLCBub3RlOiAnY29kZSDmjaIgc2Vzc2lvbl9rZXknIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICd3eE1pbmlQcm9ncmFtT2F1dGgnLCBub3RlOiAn5bCP56iL5bqP5o6I5p2D55m75b2VJyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnYmluZCcsIG5vdGU6ICfnu5HlrprmiYvmnLrlj7cnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICd0aGlyZE9hdXRoSW5mbycsIG5vdGU6ICfkuInmlrnmjojmnYPkv6Hmga8nIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICd1bmJpbmRUaGlyZE9hdXRoJywgbm90ZTogJ+ino+mZpOS4ieaWuee7keWumicgfSwNCiAgICBdLA0KICB9LA0KICAnb3JkZXItc21zJzogew0KICAgIHRpdGxlOiAnU21zIMK3IOefreS/oScsDQogICAgYmFzZTogJy9zaG9wL3NtcycsDQogICAgZGVzYzogJ+mqjOivgeeggeWPkemAgeS4juagoemqjO+8iOazqOWGjCAvIOeZu+W9lSAvIOaUuee7ke+8ieOAgicsDQogICAgZW5kcG9pbnRzOiBbDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdzZW5kJywgbm90ZTogJ+WPkemAgemqjOivgeeggScgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2NoZWNrJywgbm90ZTogJ+agoemqjOmqjOivgeeggScgfSwNCiAgICBdLA0KICB9LA0KICAnb3JkZXItYWRkcmVzcyc6IHsNCiAgICB0aXRsZTogJ0FkZHJlc3Mgwrcg5Zyw5Z2AJywNCiAgICBiYXNlOiAnL3Nob3AvYWRkcmVzcycsDQogICAgZGVzYzogJ+S8muWRmOaUtui0p+WcsOWdgOeuoeeQhuS4juecgeW4guWMuuiBlOWKqOOAgicsDQogICAgZW5kcG9pbnRzOiBbDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdnZXRsaXN0Jywgbm90ZTogJ+aUtui0p+WcsOWdgOWIl+ihqCcgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2dldGRldGFpbCcsIG5vdGU6ICfmlLbotKflnLDlnYDor6bmg4UnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdhZGRkZXRhaWwnLCBub3RlOiAn5paw5aKe5pS26LSn5Zyw5Z2AJyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnZWRpdGRldGFpbCcsIG5vdGU6ICfnvJbovpHmlLbotKflnLDlnYAnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdkZWxkZXRhaWwnLCBub3RlOiAn5Yig6Zmk5pS26LSn5Zyw5Z2AJyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnYXJlYScsIG5vdGU6ICfnnIHluILljLrogZTliqgnIH0sDQogICAgXSwNCiAgfSwNCiAgJ29yZGVyLWNvbmZpZyc6IHsNCiAgICB0aXRsZTogJ0NvbmZpZyDCtyDphY3nva4nLA0KICAgIGJhc2U6ICcvc2hvcC9jb25maWcnLA0KICAgIGRlc2M6ICflsI/nqIvluo/lkK/liqjml7bor7vlj5YgLyDnu7TmiqTorqLotKfpgJrphY3nva7jgIInLA0KICAgIGVuZHBvaW50czogWw0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnZ2V0ZGV0YWlsJywgbm90ZTogJ+mFjee9ruivpuaDhScgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2FkZGRldGFpbCcsIG5vdGU6ICfmlrDlop7phY3nva4nIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdlZGl0ZGV0YWlsJywgbm90ZTogJ+e8lui+kemFjee9ricgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2dldFNldCcsIG5vdGU6ICflj5bljZXkuKrphY3nva7lgLwnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdnZXRDb25maWcnLCBub3RlOiAn5om56YeP5Y+W6K6i6LSn6YCa6YWN572uJyB9LA0KICAgIF0sDQogIH0sDQogICdvcmRlci1jb21tb24nOiB7DQogICAgdGl0bGU6ICdDb21tb24gwrcg6YCa55SoJywNCiAgICBiYXNlOiAnL3Nob3AvY29tbW9uJywNCiAgICBkZXNjOiAn5bCP56iL5bqP5Yid5aeL5YyW5LiO5YGl5bq35qOA5p+l44CCJywNCiAgICBlbmRwb2ludHM6IFsNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2luaXQnLCBub3RlOiAn5bCP56iL5bqP5Yid5aeL5YyWJyB9LA0KICAgICAgeyBtZXRob2Q6ICdHRVQnLCBhY3Rpb246ICdwaW5nJywgbm90ZTogJ+WBpeW6t+ajgOafpScgfSwNCiAgICBdLA0KICB9LA0KICAndGhpcmQtdGhpcmRzJzogew0KICAgIHRpdGxlOiAnVGhpcmRzIMK3IOaAu+aOp++8iOetvuWQjemJtOadg++8iScsDQogICAgYmFzZTogJy9vcGVuYXBpL3RoaXJkJywNCiAgICBkZXNjOiAn56ys5LiJ5pa55a+55o6l5oC75o6n77ya5omA5pyJIHRoaXJkIOaOpeWPo+eahOe7n+S4gOetvuWQjeagoemqjOWFpeWPo++8iOetieS7t+WOn+ezu+e7nyBUaGlyZHMucGhw77yJ44CCJywNCiAgICBzaWduOiB0cnVlLA0KICAgIHNpZ25QYXJhbXM6IFsnYWNjb3VudCDlvIDmlL7lubPlj7DotKblj7cnLCAnc2lnbiDnrb7lkI3kuLLvvIhNRDXvvIknLCAncmVxdWVzdF90aW1lIOivt+axguaXtumXtOaIs++8iOS4juacjeWKoeWZqOivr+W3riA8IDMwMCDnp5LvvIknXSwNCiAgICBzaWduUnVsZXM6IFsNCiAgICAgIHsgYXBpOiAnZ29vZHMvZ29vZHNUeXBlTGlzdCcsIHBhcmFtczogJ2FjY291bnQnIH0sDQogICAgICB7IGFwaTogJ2dvb2RzL2dldEdvb2RzTGlzdCcsIHBhcmFtczogJ2FjY291bnQnIH0sDQogICAgICB7IGFwaTogJ2dvb2RzL2dldEdvb2RzSW5mbycsIHBhcmFtczogJ2FjY291bnQsIGlkJyB9LA0KICAgICAgeyBhcGk6ICdjdXN0b21lcnMvZ2V0U2FsZXNMaXN0JywgcGFyYW1zOiAnYWNjb3VudCcgfSwNCiAgICAgIHsgYXBpOiAnY3VzdG9tZXJzL2dldEN1c3RvbWVyc0xpc3QnLCBwYXJhbXM6ICdhY2NvdW50JyB9LA0KICAgICAgeyBhcGk6ICdjdXN0b21lcnMvam9pbkN1c3RvbWVycycsIHBhcmFtczogJ2FjY291bnQsIG5hbWUsIG1vYmlsZScgfSwNCiAgICAgIHsgYXBpOiAnY3VzdG9tZXJzL2N1c3RvbWVyc0luZm8nLCBwYXJhbXM6ICdhY2NvdW50LCBtb2JpbGUnIH0sDQogICAgICB7IGFwaTogJ2N1c3RvbWVycy9lZGl0Q3VzdG9tZXJzJywgcGFyYW1zOiAnYWNjb3VudCwgY29kZSwgbmFtZSwgbW9iaWxlJyB9LA0KICAgICAgeyBhcGk6ICdjdXN0b21lcnMvZGVsQ3VzdG9tZXJzJywgcGFyYW1zOiAnYWNjb3VudCwgbW9iaWxlJyB9LA0KICAgICAgeyBhcGk6ICdzYWxlcy9nZXRTYWxlc0xpc3QnLCBwYXJhbXM6ICdhY2NvdW50JyB9LA0KICAgICAgeyBhcGk6ICdzYWxlcy9zYWxlcycsIHBhcmFtczogJ2FjY291bnQsIG9yZGVyX251bSwgbW9iaWxlLCBnb29kcycgfSwNCiAgICAgIHsgYXBpOiAnc2FsZXMvc2FsZXNJbmZvJywgcGFyYW1zOiAnYWNjb3VudCwgcHVyY2hhc2VfY29kZScgfSwNCiAgICAgIHsgYXBpOiAnc2FsZXMvcmV0dXJuU2FsZXMnLCBwYXJhbXM6ICdhY2NvdW50LCBvcmRlcl9udW0sIG1vYmlsZSwgZ29vZHMnIH0sDQogICAgICB7IGFwaTogJ3NhbGVzL3JldHVyblNhbGVzSW5mbycsIHBhcmFtczogJ2FjY291bnQsIHB1cmNoYXNlX2NvZGUnIH0sDQogICAgXSwNCiAgfSwNCiAgJ3RoaXJkLWdvb2RzJzogew0KICAgIHRpdGxlOiAnR29vZHMgwrcg5ZWG5ZOBJywNCiAgICBiYXNlOiAnL29wZW5hcGkvdGhpcmQvZ29vZHMnLA0KICAgIGRlc2M6ICfkuInmlrnns7vnu5/mi4nlj5bllYblk4HliIbnsbsgLyDliJfooaggLyDor6bmg4XvvIjlkKvlpJrljZXkvY3kuI7lupPlrZjvvInjgIInLA0KICAgIGVuZHBvaW50czogWw0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnZ29vZHNUeXBlTGlzdCcsIG5vdGU6ICfllYblk4HliIbnsbvliJfooagnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdnZXRHb29kc0xpc3QnLCBub3RlOiAn5ZWG5ZOB5YiX6KGo77yI5YiG6aG177yJJyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnZ2V0R29vZHNJbmZvJywgbm90ZTogJ+WVhuWTgeivpuaDhScgfSwNCiAgICBdLA0KICB9LA0KICAndGhpcmQtY3VzdG9tZXJzJzogew0KICAgIHRpdGxlOiAnQ3VzdG9tZXJzIMK3IOWuouaItycsDQogICAgYmFzZTogJy9vcGVuYXBpL3RoaXJkL2N1c3RvbWVycycsDQogICAgZGVzYzogJ+S4ieaWueezu+e7n+afpeivoiAvIOe7tOaKpOWuouaIt+S4juiBjOWRmOOAgicsDQogICAgZW5kcG9pbnRzOiBbDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdnZXRTYWxlc0xpc3QnLCBub3RlOiAn6IGM5ZGY77yI5Lia5Yqh5ZGY77yJ5YiX6KGoJyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnZ2V0Q3VzdG9tZXJzTGlzdCcsIG5vdGU6ICflrqLmiLfliJfooajvvIjliIbpobXvvIknIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdqb2luQ3VzdG9tZXJzJywgbm90ZTogJ+a3u+WKoOWuouaItycgfSwNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2N1c3RvbWVyc0luZm8nLCBub3RlOiAn5a6i5oi36K+m5oOFJyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAnZWRpdEN1c3RvbWVycycsIG5vdGU6ICfnvJbovpHlrqLmiLcnIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdkZWxDdXN0b21lcnMnLCBub3RlOiAn5rOo6ZSA5a6i5oi3JyB9LA0KICAgIF0sDQogIH0sDQogICd0aGlyZC1zYWxlcyc6IHsNCiAgICB0aXRsZTogJ1NhbGVzIMK3IOmUgOi0pycsDQogICAgYmFzZTogJy9vcGVuYXBpL3RoaXJkL3NhbGVzJywNCiAgICBkZXNjOiAn5LiJ5pa557O757uf5LiL5Y2VIC8g6YCA6LSnIC8g5p+l5Y2V77yI6Ieq5Yqo55Sf5oiQ5Y2V5Y+35bm26L+H6LSm77yJ44CCJywNCiAgICBlbmRwb2ludHM6IFsNCiAgICAgIHsgbWV0aG9kOiAnUE9TVCcsIGFjdGlvbjogJ2dldFNhbGVzTGlzdCcsIG5vdGU6ICfplIDotKfljZXliJfooajvvIjliIbpobXvvIknIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdzYWxlcycsIG5vdGU6ICfmlrDlop7plIDotKfljZXvvIjlkKvmmI7nu4bvvIknIH0sDQogICAgICB7IG1ldGhvZDogJ1BPU1QnLCBhY3Rpb246ICdzYWxlc0luZm8nLCBub3RlOiAn6ZSA6LSn5Y2V6K+m5oOFJyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAncmV0dXJuU2FsZXMnLCBub3RlOiAn5paw5aKe6ZSA6LSn6YCA6LSn5Y2VJyB9LA0KICAgICAgeyBtZXRob2Q6ICdQT1NUJywgYWN0aW9uOiAncmV0dXJuU2FsZXNJbmZvJywgbm90ZTogJ+mUgOi0p+mAgOi0p+WNleivpuaDhScgfSwNCiAgICBdLA0KICB9LA0KfTsNCg0KY29uc3QgZG9jID0gY29tcHV0ZWQoKCkgPT4gRE9DU1tyb3V0ZS5tZXRhLmRvY0tleV0gfHwgeyB0aXRsZTogJ+aOpeWPo+ivtOaYjicsIGJhc2U6ICcnLCBkZXNjOiAn5pyq5om+5Yiw6K+l5o6l5Y+j55qE6K+05piO6YWN572u44CCJywgZW5kcG9pbnRzOiBbXSB9KTsNCjwvc2NyaXB0Pg0KDQo8c3R5bGUgc2NvcGVkPg0KLmFwaS1kb2Mgew0KICBwYWRkaW5nOiAyMHB4IDI0cHg7DQogIG1heC13aWR0aDogOTYwcHg7DQogIG1hcmdpbjogMCBhdXRvOw0KICBjb2xvcjogIzFmMjMyOTsNCn0NCi5hcGktZG9jX19oZWFkIHsNCiAgZGlzcGxheTogZmxleDsNCiAgYWxpZ24taXRlbXM6IGJhc2VsaW5lOw0KICBnYXA6IDEycHg7DQogIGZsZXgtd3JhcDogd3JhcDsNCn0NCi5hcGktZG9jX19oZWFkIGgyIHsNCiAgbWFyZ2luOiAwOw0KICBmb250LXNpemU6IDIwcHg7DQp9DQouYXBpLWRvY19fYmFzZSB7DQogIGJhY2tncm91bmQ6ICNmMmYzZjU7DQogIGJvcmRlci1yYWRpdXM6IDRweDsNCiAgcGFkZGluZzogMnB4IDhweDsNCiAgZm9udC1zaXplOiAxM3B4Ow0KICBjb2xvcjogIzY0NmE3MzsNCn0NCi5hcGktZG9jX19kZXNjIHsNCiAgY29sb3I6ICM2NDZhNzM7DQogIG1hcmdpbjogOHB4IDAgMThweDsNCiAgbGluZS1oZWlnaHQ6IDEuNjsNCn0NCi5hcGktZG9jX19jYXJkIHsNCiAgYm9yZGVyOiAxcHggc29saWQgI2U1ZTZlYjsNCiAgYm9yZGVyLXJhZGl1czogOHB4Ow0KICBwYWRkaW5nOiAxNnB4IDE4cHg7DQogIGJhY2tncm91bmQ6ICNmYWZiZmM7DQp9DQouYXBpLWRvY19fY2FyZCBoMyB7DQogIG1hcmdpbjogMTRweCAwIDhweDsNCiAgZm9udC1zaXplOiAxNXB4Ow0KfQ0KLmFwaS1kb2NfX2NhcmQgaDM6Zmlyc3QtY2hpbGQgew0KICBtYXJnaW4tdG9wOiAwOw0KfQ0KLmFwaS1kb2NfX3BhcmFtcyB7DQogIG1hcmdpbjogMDsNCiAgcGFkZGluZy1sZWZ0OiAxOHB4Ow0KICBsaW5lLWhlaWdodDogMS45Ow0KfQ0KLmFwaS1kb2NfX2hpbnQgew0KICBjb2xvcjogIzY0NmE3MzsNCiAgbGluZS1oZWlnaHQ6IDEuNzsNCiAgZm9udC1zaXplOiAxM3B4Ow0KfQ0KLmFwaS1kb2NfX3RhYmxlIHsNCiAgd2lkdGg6IDEwMCU7DQogIGJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7DQogIG1hcmdpbi10b3A6IDZweDsNCiAgYmFja2dyb3VuZDogI2ZmZjsNCiAgYm9yZGVyOiAxcHggc29saWQgI2U1ZTZlYjsNCiAgYm9yZGVyLXJhZGl1czogOHB4Ow0KICBvdmVyZmxvdzogaGlkZGVuOw0KICBmb250LXNpemU6IDE0cHg7DQp9DQouYXBpLWRvY19fdGFibGUgdGgsDQouYXBpLWRvY19fdGFibGUgdGQgew0KICB0ZXh0LWFsaWduOiBsZWZ0Ow0KICBwYWRkaW5nOiAxMHB4IDE0cHg7DQogIGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZjBmMWYzOw0KfQ0KLmFwaS1kb2NfX3RhYmxlIHRoIHsNCiAgYmFja2dyb3VuZDogI2Y3ZjhmYTsNCiAgZm9udC13ZWlnaHQ6IDYwMDsNCiAgY29sb3I6ICMxZjIzMjk7DQp9DQouYXBpLWRvY19fdGFibGUgdHI6bGFzdC1jaGlsZCB0ZCB7DQogIGJvcmRlci1ib3R0b206IG5vbmU7DQp9DQouYXBpLWRvY19fdGFibGUgY29kZSB7DQogIGJhY2tncm91bmQ6ICNmMmYzZjU7DQogIHBhZGRpbmc6IDFweCA2cHg7DQogIGJvcmRlci1yYWRpdXM6IDRweDsNCiAgZm9udC1zaXplOiAxMi41cHg7DQogIGNvbG9yOiAjMmEyZjM2Ow0KfQ0KLmFwaS1kb2NfX21ldGhvZCB7DQogIGRpc3BsYXk6IGlubGluZS1ibG9jazsNCiAgbWluLXdpZHRoOiA0NnB4Ow0KICB0ZXh0LWFsaWduOiBjZW50ZXI7DQogIGZvbnQtc2l6ZTogMTJweDsNCiAgZm9udC13ZWlnaHQ6IDYwMDsNCiAgcGFkZGluZzogMnB4IDZweDsNCiAgYm9yZGVyLXJhZGl1czogNHB4Ow0KICBjb2xvcjogI2ZmZjsNCn0NCi5hcGktZG9jX19tZXRob2QuaXMtcG9zdCB7DQogIGJhY2tncm91bmQ6ICMyZjdkMzQ7DQp9DQouYXBpLWRvY19fbWV0aG9kLmlzLWdldCB7DQogIGJhY2tncm91bmQ6ICMxZjZmZWI7DQp9DQouYXBpLWRvY19fZm9vdCB7DQogIG1hcmdpbi10b3A6IDE4cHg7DQogIGNvbG9yOiAjOGE5MDk5Ow0KICBmb250LXNpemU6IDEyLjVweDsNCiAgbGluZS1oZWlnaHQ6IDEuNzsNCn0NCi5hcGktZG9jX19mb290IGNvZGUgew0KICBiYWNrZ3JvdW5kOiAjZjJmM2Y1Ow0KICBwYWRkaW5nOiAxcHggNXB4Ow0KICBib3JkZXItcmFkaXVzOiA0cHg7DQp9DQo8L3N0eWxlPg0K
+<template>
+  <div class="api-doc">
+    <header class="api-doc__head">
+      <h2>{{ doc.title }}</h2>
+      <code class="api-doc__base">{{ doc.base }}</code>
+    </header>
+
+    <p class="api-doc__desc">{{ doc.desc }}</p>
+
+    <!-- 总控/签名鉴权说明 -->
+    <template v-if="doc.sign">
+      <div class="api-doc__card">
+        <h3>公共参数（每个接口必传）</h3>
+        <ul class="api-doc__params">
+          <li v-for="p in doc.signParams" :key="p"><code>{{ p }}</code></li>
+        </ul>
+        <h3>签名规则</h3>
+        <p class="api-doc__hint">
+          取接口对应的「参与签名参数」组成数组，逐字段 <code>trim</code> 后按键名小写、
+          字典序 (ksort) 排序，拼接为 <code>k=v</code> 用 <code>&amp;</code> 连接，
+          末尾追加 <code>key=&lt;salt&gt;</code>，对整体取 <code>MD5</code> 得到 <code>sign</code>。
+          请求时间 <code>request_time</code> 与服务器误差须小于 300 秒，否则返回「无效请求(23)」。
+        </p>
+        <table class="api-doc__table">
+          <thead>
+            <tr><th>接口</th><th>参与签名参数</th></tr>
+          </thead>
+          <tbody>
+            <tr v-for="r in doc.signRules" :key="r.api">
+              <td><code>{{ r.api }}</code></td>
+              <td>{{ r.params }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </template>
+
+    <!-- 接口列表 -->
+    <template v-else>
+      <table class="api-doc__table">
+        <thead>
+          <tr><th style="width:90px">方法</th><th>接口路径</th><th>说明</th></tr>
+        </thead>
+        <tbody>
+          <tr v-for="e in doc.endpoints" :key="e.action">
+            <td><span class="api-doc__method" :class="e.method === 'GET' ? 'is-get' : 'is-post'">{{ e.method }}</span></td>
+            <td><code>{{ doc.base }}/{{ e.action }}</code></td>
+            <td>{{ e.note }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </template>
+
+    <footer class="api-doc__foot">
+      响应结构：<code>{ code, msg, time, data }</code>
+      （code: 1/200=成功，250=未登录，20=接口地址错误，21=账户不存在，22=账户异常，23=无效请求，24=签名错误，25=参数错误，27=业务失败）。
+      后端实现：<code>nestjs-erp/src/shop/*</code> 与 <code>nestjs-erp/src/openapi/*</code>。
+    </footer>
+  </div>
+</template>
+
+<script setup>
+/**
+ * API 接口说明页（只读参考）。
+ * 由后台菜单「接口管理」分组下的各控制器叶子节点驱动，
+ * 通过 route.meta.docKey 取内置接口字典渲染，不调用任何业务接口。
+ */
+import { computed } from 'vue';
+import { useRoute } from 'vue-router';
+
+const route = useRoute();
+
+// 各控制器接口字典（与原系统 api/kuerp/order/* 与 api/kuerp/third/* 1:1 对齐）
+const DOCS = {
+  'order-index': {
+    title: 'Index · 商品/订单/支付',
+    base: '/shop/index',
+    desc: '小程序商城核心接口：商品浏览、购物车、订货单、微信支付、轮播与地区。',
+    endpoints: [
+      { method: 'POST', action: 'getConfig', note: '支付配置' },
+      { method: 'POST', action: 'wxpays', note: '微信支付下单（v1）' },
+      { method: 'POST', action: 'wxpay', note: '微信支付下单（v2 入口）' },
+      { method: 'POST', action: 'notify', note: '微信支付回调' },
+      { method: 'POST', action: 'getArea', note: '地区详情' },
+      { method: 'POST', action: 'address_list', note: '发货地址 / 自提门店列表' },
+      { method: 'POST', action: 'banner', note: '轮播图' },
+      { method: 'POST', action: 'goodsTypeList', note: '商品分类' },
+      { method: 'POST', action: 'goodsGoodsList', note: '商品列表' },
+      { method: 'POST', action: 'goodsGoodsInfo', note: '商品详情' },
+      { method: 'POST', action: 'getGoodsUnit', note: '商品多单位与单位价' },
+      { method: 'POST', action: 'getGoodsAuxiliary', note: '商品辅助属性' },
+      { method: 'POST', action: 'getHistory', note: '浏览历史' },
+      { method: 'POST', action: 'getCartNumber', note: '购物车数量' },
+      { method: 'POST', action: 'getCart', note: '购物车列表' },
+      { method: 'POST', action: 'addCart', note: '加入购物车' },
+      { method: 'POST', action: 'editCart', note: '修改购物车' },
+      { method: 'POST', action: 'delCart', note: '删除购物车商品' },
+      { method: 'POST', action: 'cancelCart', note: '清空购物车' },
+      { method: 'POST', action: 'leaving', note: '商品留言' },
+      { method: 'POST', action: 'createOrder', note: '创建订货单' },
+      { method: 'POST', action: 'getOrderList', note: '订单列表' },
+      { method: 'POST', action: 'orderInfo', note: '订单详情' },
+      { method: 'POST', action: 'receiving', note: '确认收货' },
+      { method: 'POST', action: 'cancelOrder', note: '取消订单' },
+    ],
+  },
+  'order-user': {
+    title: 'User · 会员',
+    base: '/shop/user',
+    desc: '小程序会员中心：登录、注册、资料与手机/邮箱绑定。',
+    endpoints: [
+      { method: 'POST', action: 'index', note: '会员中心欢迎语' },
+      { method: 'POST', action: 'login', note: '账号密码登录' },
+      { method: 'POST', action: 'mobilelogin', note: '手机验证码登录 / 自动注册' },
+      { method: 'POST', action: 'register', note: '注册会员' },
+      { method: 'POST', action: 'logout', note: '退出登录' },
+      { method: 'POST', action: 'profile', note: '修改昵称 / 头像' },
+      { method: 'POST', action: 'changeemail', note: '修改邮箱' },
+      { method: 'POST', action: 'changemobile', note: '绑定手机号' },
+      { method: 'POST', action: 'resetpwd', note: '重置密码' },
+      { method: 'POST', action: 'userInfo', note: '取会员信息' },
+    ],
+  },
+  'order-weixin': {
+    title: 'Weixin · 微信',
+    base: '/shop/weixin',
+    desc: '小程序微信登录、会话密钥换取与三方授权绑定。',
+    endpoints: [
+      { method: 'POST', action: 'getWxMiniProgramSessionKey', note: 'code 换 session_key' },
+      { method: 'POST', action: 'wxMiniProgramOauth', note: '小程序授权登录' },
+      { method: 'POST', action: 'bind', note: '绑定手机号' },
+      { method: 'POST', action: 'thirdOauthInfo', note: '三方授权信息' },
+      { method: 'POST', action: 'unbindThirdOauth', note: '解除三方绑定' },
+    ],
+  },
+  'order-sms': {
+    title: 'Sms · 短信',
+    base: '/shop/sms',
+    desc: '验证码发送与校验（注册 / 登录 / 改绑）。',
+    endpoints: [
+      { method: 'POST', action: 'send', note: '发送验证码' },
+      { method: 'POST', action: 'check', note: '校验验证码' },
+    ],
+  },
+  'order-address': {
+    title: 'Address · 地址',
+    base: '/shop/address',
+    desc: '会员收货地址管理与省市区联动。',
+    endpoints: [
+      { method: 'POST', action: 'getlist', note: '收货地址列表' },
+      { method: 'POST', action: 'getdetail', note: '收货地址详情' },
+      { method: 'POST', action: 'adddetail', note: '新增收货地址' },
+      { method: 'POST', action: 'editdetail', note: '编辑收货地址' },
+      { method: 'POST', action: 'deldetail', note: '删除收货地址' },
+      { method: 'POST', action: 'area', note: '省市区联动' },
+    ],
+  },
+  'order-config': {
+    title: 'Config · 配置',
+    base: '/shop/config',
+    desc: '小程序启动时读取 / 维护订货通配置。',
+    endpoints: [
+      { method: 'POST', action: 'getdetail', note: '配置详情' },
+      { method: 'POST', action: 'adddetail', note: '新增配置' },
+      { method: 'POST', action: 'editdetail', note: '编辑配置' },
+      { method: 'POST', action: 'getSet', note: '取单个配置值' },
+      { method: 'POST', action: 'getConfig', note: '批量取订货通配置' },
+    ],
+  },
+  'order-common': {
+    title: 'Common · 通用',
+    base: '/shop/common',
+    desc: '小程序初始化与健康检查。',
+    endpoints: [
+      { method: 'POST', action: 'init', note: '小程序初始化' },
+      { method: 'GET', action: 'ping', note: '健康检查' },
+    ],
+  },
+  'third-thirds': {
+    title: 'Thirds · 总控（签名鉴权）',
+    base: '/openapi/third',
+    desc: '第三方对接总控：所有 third 接口的统一签名校验入口（等价原系统 Thirds.php）。',
+    sign: true,
+    signParams: ['account 开放平台账号', 'sign 签名串（MD5）', 'request_time 请求时间戳（与服务器误差 < 300 秒）'],
+    signRules: [
+      { api: 'goods/goodsTypeList', params: 'account' },
+      { api: 'goods/getGoodsList', params: 'account' },
+      { api: 'goods/getGoodsInfo', params: 'account, id' },
+      { api: 'customers/getSalesList', params: 'account' },
+      { api: 'customers/getCustomersList', params: 'account' },
+      { api: 'customers/joinCustomers', params: 'account, name, mobile' },
+      { api: 'customers/customersInfo', params: 'account, mobile' },
+      { api: 'customers/editCustomers', params: 'account, code, name, mobile' },
+      { api: 'customers/delCustomers', params: 'account, mobile' },
+      { api: 'sales/getSalesList', params: 'account' },
+      { api: 'sales/sales', params: 'account, order_num, mobile, goods' },
+      { api: 'sales/salesInfo', params: 'account, purchase_code' },
+      { api: 'sales/returnSales', params: 'account, order_num, mobile, goods' },
+      { api: 'sales/returnSalesInfo', params: 'account, purchase_code' },
+    ],
+  },
+  'third-goods': {
+    title: 'Goods · 商品',
+    base: '/openapi/third/goods',
+    desc: '三方系统拉取商品分类 / 列表 / 详情（含多单位与库存）。',
+    endpoints: [
+      { method: 'POST', action: 'goodsTypeList', note: '商品分类列表' },
+      { method: 'POST', action: 'getGoodsList', note: '商品列表（分页）' },
+      { method: 'POST', action: 'getGoodsInfo', note: '商品详情' },
+    ],
+  },
+  'third-customers': {
+    title: 'Customers · 客户',
+    base: '/openapi/third/customers',
+    desc: '三方系统查询 / 维护客户与职员。',
+    endpoints: [
+      { method: 'POST', action: 'getSalesList', note: '职员（业务员）列表' },
+      { method: 'POST', action: 'getCustomersList', note: '客户列表（分页）' },
+      { method: 'POST', action: 'joinCustomers', note: '添加客户' },
+      { method: 'POST', action: 'customersInfo', note: '客户详情' },
+      { method: 'POST', action: 'editCustomers', note: '编辑客户' },
+      { method: 'POST', action: 'delCustomers', note: '注销客户' },
+    ],
+  },
+  'third-sales': {
+    title: 'Sales · 销货',
+    base: '/openapi/third/sales',
+    desc: '三方系统下单 / 退货 / 查单（自动生成单号并过账）。',
+    endpoints: [
+      { method: 'POST', action: 'getSalesList', note: '销货单列表（分页）' },
+      { method: 'POST', action: 'sales', note: '新增销货单（含明细）' },
+      { method: 'POST', action: 'salesInfo', note: '销货单详情' },
+      { method: 'POST', action: 'returnSales', note: '新增销货退货单' },
+      { method: 'POST', action: 'returnSalesInfo', note: '销货退货单详情' },
+    ],
+  },
+};
+
+const doc = computed(() => DOCS[route.meta.docKey] || { title: '接口说明', base: '', desc: '未找到该接口的说明配置。', endpoints: [] });
+</script>
+
+<style scoped>
+.api-doc {
+  padding: 20px 24px;
+  max-width: 960px;
+  margin: 0 auto;
+  color: #1f2329;
+}
+.api-doc__head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.api-doc__head h2 {
+  margin: 0;
+  font-size: 20px;
+}
+.api-doc__base {
+  background: #f2f3f5;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 13px;
+  color: #646a73;
+}
+.api-doc__desc {
+  color: #646a73;
+  margin: 8px 0 18px;
+  line-height: 1.6;
+}
+.api-doc__card {
+  border: 1px solid #e5e6eb;
+  border-radius: 8px;
+  padding: 16px 18px;
+  background: #fafbfc;
+}
+.api-doc__card h3 {
+  margin: 14px 0 8px;
+  font-size: 15px;
+}
+.api-doc__card h3:first-child {
+  margin-top: 0;
+}
+.api-doc__params {
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.9;
+}
+.api-doc__hint {
+  color: #646a73;
+  line-height: 1.7;
+  font-size: 13px;
+}
+.api-doc__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 6px;
+  background: #fff;
+  border: 1px solid #e5e6eb;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 14px;
+}
+.api-doc__table th,
+.api-doc__table td {
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid #f0f1f3;
+}
+.api-doc__table th {
+  background: #f7f8fa;
+  font-weight: 600;
+  color: #1f2329;
+}
+.api-doc__table tr:last-child td {
+  border-bottom: none;
+}
+.api-doc__table code {
+  background: #f2f3f5;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 12.5px;
+  color: #2a2f36;
+}
+.api-doc__method {
+  display: inline-block;
+  min-width: 46px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: #fff;
+}
+.api-doc__method.is-post {
+  background: #2f7d34;
+}
+.api-doc__method.is-get {
+  background: #1f6feb;
+}
+.api-doc__foot {
+  margin-top: 18px;
+  color: #8a9099;
+  font-size: 12.5px;
+  line-height: 1.7;
+}
+.api-doc__foot code {
+  background: #f2f3f5;
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+</style>

@@ -1,1 +1,55 @@
-aW1wb3J0IHsgTmVzdEZhY3RvcnkgfSBmcm9tICdAbmVzdGpzL2NvcmUnOwppbXBvcnQgeyBWYWxpZGF0aW9uUGlwZSwgTG9nZ2VyLCBIdHRwU3RhdHVzIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBOZXN0RXhwcmVzc0FwcGxpY2F0aW9uIH0gZnJvbSAnQG5lc3Rqcy9wbGF0Zm9ybS1leHByZXNzJzsKaW1wb3J0IHsgQ29uZmlnU2VydmljZSB9IGZyb20gJ0BuZXN0anMvY29uZmlnJzsKaW1wb3J0IHsgQXBwTW9kdWxlIH0gZnJvbSAnLi9hcHAubW9kdWxlJzsKaW1wb3J0IHsgSHR0cEV4Y2VwdGlvbkZpbHRlciB9IGZyb20gJy4vY29tbW9uL2h0dHAtZXhjZXB0aW9uLmZpbHRlcic7CmltcG9ydCB7IFJlc3BvbnNlSW50ZXJjZXB0b3IgfSBmcm9tICcuL2NvbW1vbi9yZXNwb25zZS5pbnRlcmNlcHRvcic7CmltcG9ydCB7IFVQTE9BRF9ST09ULCBVUExPQURfVVJMX1BSRUZJWCwgZW5zdXJlRGlyIH0gZnJvbSAnLi9jb21tb24vdXBsb2FkL3VwbG9hZC5jb25maWcnOwppbXBvcnQgeyBBdWRpdEludGVyY2VwdG9yIH0gZnJvbSAnLi9jb21tb24vYXVkaXQvYXVkaXQuaW50ZXJjZXB0b3InOwppbXBvcnQgeyBBdWRpdFNlcnZpY2UgfSBmcm9tICcuL2NvbW1vbi9hdWRpdC9hdWRpdC5zZXJ2aWNlJzsKCi8qKgogKiDlupTnlKjlkK/liqjlhaXlj6MKICogLSDlhajlsYDlvIDlkK8gY2xhc3MtdmFsaWRhdG9yIOagoemqjO+8iHRyYW5zZm9ybSDoh6rliqjovazmjaLlhaXlj4LnsbvlnovvvIkKICogLSDms6jlhoznu5/kuIDlk43lupTmi6bmiKrlmajkuI7nu5/kuIDlvILluLjov4fmu6TlmajvvIjkuI7ljp8gRmFzdEFkbWluIOeahCB7Y29kZSxtc2csZGF0YX0g6aOO5qC85a+56b2Q77yJCiAqIC0g5byA5ZCvIENPUlMg5Lul5pSv5oyB5YmN5ZCO56uv5YiG56a76YOo572yCiAqIC0g5omY566hIC91cGxvYWRzIOmdmeaAgeebruW9le+8jOS+m+S4iuS8oOWQjueahOWVhuWTgeWbvuOAgemZhOS7tuebtOaOpeS7pSBVUkwg6K6/6ZeuCiAqLwphc3luYyBmdW5jdGlvbiBib290c3RyYXAoKSB7CiAgLy8g55SoIE5lc3RFeHByZXNzQXBwbGljYXRpb24g6ICM6Z2e6buY6K6kIElOZXN0QXBwbGljYXRpb27vvIwKICAvLyDlkKbliJnmi7/kuI3liLAgdXNlU3RhdGljQXNzZXRz77yIZXhwcmVzcyDpgILphY3lmajkuJPmnInmlrnms5XvvIkKICBjb25zdCBhcHAgPSBhd2FpdCBOZXN0RmFjdG9yeS5jcmVhdGU8TmVzdEV4cHJlc3NBcHBsaWNhdGlvbj4oQXBwTW9kdWxlLCB7IGNvcnM6IHRydWUgfSk7CiAgY29uc3QgY29uZmlnID0gYXBwLmdldChDb25maWdTZXJ2aWNlKTsKICBjb25zdCBwcmVmaXggPSBjb25maWcuZ2V0PHN0cmluZz4oJ0dMT0JBTF9QUkVGSVgnKSB8fCAnJzsKICBpZiAocHJlZml4KSBhcHAuc2V0R2xvYmFsUHJlZml4KHByZWZpeCk7CgogIGFwcC51c2VHbG9iYWxQaXBlcygKICAgIG5ldyBWYWxpZGF0aW9uUGlwZSh7CiAgICAgIHRyYW5zZm9ybTogdHJ1ZSwKICAgICAgd2hpdGVsaXN0OiBmYWxzZSwKICAgICAgZm9yYmlkVW5rbm93blZhbHVlczogZmFsc2UsCiAgICAgIGVycm9ySHR0cFN0YXR1c0NvZGU6IEh0dHBTdGF0dXMuQkFEX1JFUVVFU1QsCiAgICB9KSwKICApOwogIC8vIOaLpuaIquWZqOmhuuW6j++8muWuoeiuoeWcqOWkluWxgu+8iOiDvea1i+WIsOWujOaVtOiAl+aXtuW5tuaKiuacgOe7iCBjb2RlL21zZyDorrDkuIvmnaXvvInvvIzlk43lupTljIXoo4XlnKjlhoXlsYIKICBhcHAudXNlR2xvYmFsSW50ZXJjZXB0b3JzKG5ldyBBdWRpdEludGVyY2VwdG9yKGFwcC5nZXQoQXVkaXRTZXJ2aWNlKSksIG5ldyBSZXNwb25zZUludGVyY2VwdG9yKCkpOwogIGFwcC51c2VHbG9iYWxGaWx0ZXJzKG5ldyBIdHRwRXhjZXB0aW9uRmlsdGVyKCkpOwogIGFwcC5lbmFibGVDb3JzKHsgb3JpZ2luOiB0cnVlLCBjcmVkZW50aWFsczogdHJ1ZSB9KTsKCiAgLy8g6Z2Z5oCB6LWE5rqQ77yaL3VwbG9hZHMveXl5eS9NTS9kZC94eHgucG5nIC0+IDxjd2Q+L3VwbG9hZHMveXl5eS9NTS9kZC94eHgucG5nCiAgLy8gaW5kZXg6ZmFsc2Ug6YG/5YWN55uu5b2V6KKr5b2T5L2c56uZ54K56aaW6aG177ybbWF4QWdlIOiuqea1j+iniOWZqOe8k+WtmCA3IOWkqe+8jOWbvueJh+S4jeW/heWPjeWkjeWbnua6kAogIGVuc3VyZURpcihVUExPQURfUk9PVCk7CiAgYXBwLnVzZVN0YXRpY0Fzc2V0cyhVUExPQURfUk9PVCwgewogICAgcHJlZml4OiBgJHtVUExPQURfVVJMX1BSRUZJWH0vYCwKICAgIGluZGV4OiBmYWxzZSwKICAgIG1heEFnZTogNyAqIDI0ICogNjAgKiA2MCAqIDEwMDAsCiAgfSk7CgogIGNvbnN0IHBvcnQgPSBjb25maWcuZ2V0PG51bWJlcj4oJ1BPUlQnKSB8fCAzMDAwOwogIGF3YWl0IGFwcC5saXN0ZW4ocG9ydCk7CiAgTG9nZ2VyLmxvZyhg6L+b6ZSA5a2YIEVSUCBBUEkg5bey5ZCv5YqoOiBodHRwOi8vbG9jYWxob3N0OiR7cG9ydH0ke3ByZWZpeCA/ICcvJyArIHByZWZpeCA6ICcnfWAsICdCb290c3RyYXAnKTsKICBMb2dnZXIubG9nKGDpnZnmgIHotYTmupDnm67lvZU6ICR7VVBMT0FEX1JPT1R9IC0+ICR7VVBMT0FEX1VSTF9QUkVGSVh9L2AsICdCb290c3RyYXAnKTsKfQoKYm9vdHN0cmFwKCk7Cg==
+import { NestFactory } from '@nestjs/core';
+import { ValidationPipe, Logger, HttpStatus } from '@nestjs/common';
+import { NestExpressApplication } from '@nestjs/platform-express';
+import { ConfigService } from '@nestjs/config';
+import { AppModule } from './app.module';
+import { HttpExceptionFilter } from './common/http-exception.filter';
+import { ResponseInterceptor } from './common/response.interceptor';
+import { UPLOAD_ROOT, UPLOAD_URL_PREFIX, ensureDir } from './common/upload/upload.config';
+import { AuditInterceptor } from './common/audit/audit.interceptor';
+import { AuditService } from './common/audit/audit.service';
+
+/**
+ * 应用启动入口
+ * - 全局开启 class-validator 校验（transform 自动转换入参类型）
+ * - 注册统一响应拦截器与统一异常过滤器（与原 FastAdmin 的 {code,msg,data} 风格对齐）
+ * - 开启 CORS 以支持前后端分离部署
+ * - 托管 /uploads 静态目录，供上传后的商品图、附件直接以 URL 访问
+ */
+async function bootstrap() {
+  // 用 NestExpressApplication 而非默认 INestApplication，
+  // 否则拿不到 useStaticAssets（express 适配器专有方法）
+  const app = await NestFactory.create<NestExpressApplication>(AppModule, { cors: true });
+  const config = app.get(ConfigService);
+  const prefix = config.get<string>('GLOBAL_PREFIX') || '';
+  if (prefix) app.setGlobalPrefix(prefix);
+
+  app.useGlobalPipes(
+    new ValidationPipe({
+      transform: true,
+      whitelist: false,
+      forbidUnknownValues: false,
+      errorHttpStatusCode: HttpStatus.BAD_REQUEST,
+    }),
+  );
+  // 拦截器顺序：审计在外层（能测到完整耗时并把最终 code/msg 记下来），响应包装在内层
+  app.useGlobalInterceptors(new AuditInterceptor(app.get(AuditService)), new ResponseInterceptor());
+  app.useGlobalFilters(new HttpExceptionFilter());
+  app.enableCors({ origin: true, credentials: true });
+
+  // 静态资源：/uploads/yyyy/MM/dd/xxx.png -> <cwd>/uploads/yyyy/MM/dd/xxx.png
+  // index:false 避免目录被当作站点首页；maxAge 让浏览器缓存 7 天，图片不必反复回源
+  ensureDir(UPLOAD_ROOT);
+  app.useStaticAssets(UPLOAD_ROOT, {
+    prefix: `${UPLOAD_URL_PREFIX}/`,
+    index: false,
+    maxAge: 7 * 24 * 60 * 60 * 1000,
+  });
+
+  const port = config.get<number>('PORT') || 3000;
+  await app.listen(port);
+  Logger.log(`进销存 ERP API 已启动: http://localhost:${port}${prefix ? '/' + prefix : ''}`, 'Bootstrap');
+  Logger.log(`静态资源目录: ${UPLOAD_ROOT} -> ${UPLOAD_URL_PREFIX}/`, 'Bootstrap');
+}
+
+bootstrap();

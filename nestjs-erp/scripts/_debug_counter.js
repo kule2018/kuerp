@@ -1,1 +1,49 @@
-LyoqIOS4tOaXtuiwg+ivle+8muaJk+WNsCBjb3VudGVyIOmTvui3r+S4i+WPkeeahCBTUUzjgILnlKjlrozljbPliKDjgIIgKi8KcmVxdWlyZSgncmVmbGVjdC1tZXRhZGF0YScpOwpjb25zdCB7IFRhYmxlU2VydmljZSB9ID0gcmVxdWlyZSgnLi4vZGlzdC9rdWVycC90YWJsZS90YWJsZS5zZXJ2aWNlJyk7Cgpjb25zdCBDT0xVTU5TID0gewogIGt1ZXJwX2dvb2RzX3B1cmNoYXNlOiBbCiAgICB7IG5hbWU6ICdpZCcsIHR5cGU6ICdpbnQnLCBja2V5OiAnUFJJJyB9LAogICAgeyBuYW1lOiAncHVyY2hhc2VfY29kZScsIHR5cGU6ICd2YXJjaGFyJyB9LAogICAgeyBuYW1lOiAncHVyY2hhc2VfdGltZScsIHR5cGU6ICdiaWdpbnQnIH0sCiAgICB7IG5hbWU6ICdleGFtaW5lX3N0YXR1cycsIHR5cGU6ICdlbnVtJyB9LAogICAgeyBuYW1lOiAnY2hlY2tfc3RhdHVzJywgdHlwZTogJ2VudW0nIH0sCiAgICB7IG5hbWU6ICdvcGVyYXRpb25faWQnLCB0eXBlOiAnaW50JyB9LAogICAgeyBuYW1lOiAndXBkYXRldGltZScsIHR5cGU6ICdiaWdpbnQnIH0sCiAgXSwKfTsKY29uc3Qgc3RvcmUgPSB7CiAga3VlcnBfZ29vZHNfcHVyY2hhc2U6IFsKICAgIHsgaWQ6IDEsIHB1cmNoYXNlX2NvZGU6ICdHSEQxJywgcHVyY2hhc2VfdGltZTogMTAwMCwgZXhhbWluZV9zdGF0dXM6ICcxJywgY2hlY2tfc3RhdHVzOiAnMCcsIG9wZXJhdGlvbl9pZDogMCB9LAogICAgeyBpZDogMiwgcHVyY2hhc2VfY29kZTogJ0dIRDInLCBwdXJjaGFzZV90aW1lOiAyMDAwLCBleGFtaW5lX3N0YXR1czogJzAnLCBjaGVja19zdGF0dXM6ICcxJywgb3BlcmF0aW9uX2lkOiAwIH0sCiAgXSwKICBrdWVycF9jaGVja291dDogW10sCn07CmNvbnN0IGZha2UgPSB7CiAgb3B0aW9uczogeyB0eXBlOiAnbXlzcWwnIH0sCiAgYXN5bmMgcXVlcnkoc3FsLCBwYXJhbXMgPSBbXSkgewogICAgY29uc3QgcyA9IFN0cmluZyhzcWwpLnJlcGxhY2UoL1xzKy9nLCAnICcpLnRyaW0oKTsKICAgIGNvbnNvbGUubG9nKCdTUUw+JywgcywgJ3x8JywgSlNPTi5zdHJpbmdpZnkocGFyYW1zKSk7CiAgICBpZiAoL15TRUxFQ1QgVEFCTEVfTkFNRSBBUy8udGVzdChzKSkgcmV0dXJuIFt7IHRhYmxlOiAna3VlcnBfZ29vZHNfcHVyY2hhc2UnIH1dOwogICAgaWYgKC9eU0VMRUNUIENPTFVNTl9OQU1FIEFTIG5hbWUvLnRlc3QocykpIHJldHVybiBDT0xVTU5TLmt1ZXJwX2dvb2RzX3B1cmNoYXNlOwogICAgaWYgKC9eU0VMRUNUIGNoZWNrdGltZSBGUk9NLy50ZXN0KHMpKSByZXR1cm4gW107CiAgICBpZiAoL15TRUxFQ1QgQ09VTlQvLnRlc3QocykpIHJldHVybiBbeyBjOiAxIH1dOwogICAgaWYgKC9eVVBEQVRFLy50ZXN0KHMpKSB7CiAgICAgIGNvbnN0IHRvID0gcGFyYW1zWzBdOwogICAgICBjb25zdCBmcm9tID0gcGFyYW1zW3BhcmFtcy5sZW5ndGggLSAxIC0gKHBhcmFtcy5sZW5ndGggLSAzKV07CiAgICAgIGZvciAoY29uc3QgciBvZiBzdG9yZS5rdWVycF9nb29kc19wdXJjaGFzZSkgewogICAgICAgIGlmIChTdHJpbmcoci5jaGVja19zdGF0dXMpID09PSBTdHJpbmcocGFyYW1zW3BhcmFtcy5sZW5ndGggLSAxXSkpIHsKICAgICAgICAgIHIuY2hlY2tfc3RhdHVzID0gU3RyaW5nKHRvKTsKICAgICAgICB9CiAgICAgIH0KICAgICAgcmV0dXJuIHsgYWZmZWN0ZWRSb3dzOiAxIH07CiAgICB9CiAgICByZXR1cm4gW107CiAgfSwKfTsKY29uc3Qgc3ZjID0gbmV3IFRhYmxlU2VydmljZShmYWtlLCB7fSwge30pOwpzdmMuY291bnRlcignZ29vZHMtcHVyY2hhc2UnLCBbMSwgMl0sIDEsIDcpLnRoZW4oKHIpID0+IHsKICBjb25zb2xlLmxvZygnUkVTVUxUOicsIEpTT04uc3RyaW5naWZ5KHIpKTsKICBjb25zb2xlLmxvZygnU1RPUkU6JywgSlNPTi5zdHJpbmdpZnkoc3RvcmUua3VlcnBfZ29vZHNfcHVyY2hhc2UubWFwKChyKSA9PiAoeyBpZDogci5pZCwgY2hlY2tfc3RhdHVzOiByLmNoZWNrX3N0YXR1cywgb3BlcmF0aW9uX2lkOiByLm9wZXJhdGlvbl9pZCB9KSkpKTsKfSkuY2F0Y2goKGUpID0+IGNvbnNvbGUubG9nKCdFUlI6JywgZS5tZXNzYWdlKSk7Cg==
+/** 临时调试：打印 counter 链路下发的 SQL。用完即删。 */
+require('reflect-metadata');
+const { TableService } = require('../dist/kuerp/table/table.service');
+
+const COLUMNS = {
+  kuerp_goods_purchase: [
+    { name: 'id', type: 'int', ckey: 'PRI' },
+    { name: 'purchase_code', type: 'varchar' },
+    { name: 'purchase_time', type: 'bigint' },
+    { name: 'examine_status', type: 'enum' },
+    { name: 'check_status', type: 'enum' },
+    { name: 'operation_id', type: 'int' },
+    { name: 'updatetime', type: 'bigint' },
+  ],
+};
+const store = {
+  kuerp_goods_purchase: [
+    { id: 1, purchase_code: 'GHD1', purchase_time: 1000, examine_status: '1', check_status: '0', operation_id: 0 },
+    { id: 2, purchase_code: 'GHD2', purchase_time: 2000, examine_status: '0', check_status: '1', operation_id: 0 },
+  ],
+  kuerp_checkout: [],
+};
+const fake = {
+  options: { type: 'mysql' },
+  async query(sql, params = []) {
+    const s = String(sql).replace(/\s+/g, ' ').trim();
+    console.log('SQL>', s, '||', JSON.stringify(params));
+    if (/^SELECT TABLE_NAME AS/.test(s)) return [{ table: 'kuerp_goods_purchase' }];
+    if (/^SELECT COLUMN_NAME AS name/.test(s)) return COLUMNS.kuerp_goods_purchase;
+    if (/^SELECT checktime FROM/.test(s)) return [];
+    if (/^SELECT COUNT/.test(s)) return [{ c: 1 }];
+    if (/^UPDATE/.test(s)) {
+      const to = params[0];
+      const from = params[params.length - 1 - (params.length - 3)];
+      for (const r of store.kuerp_goods_purchase) {
+        if (String(r.check_status) === String(params[params.length - 1])) {
+          r.check_status = String(to);
+        }
+      }
+      return { affectedRows: 1 };
+    }
+    return [];
+  },
+};
+const svc = new TableService(fake, {}, {});
+svc.counter('goods-purchase', [1, 2], 1, 7).then((r) => {
+  console.log('RESULT:', JSON.stringify(r));
+  console.log('STORE:', JSON.stringify(store.kuerp_goods_purchase.map((r) => ({ id: r.id, check_status: r.check_status, operation_id: r.operation_id }))));
+}).catch((e) => console.log('ERR:', e.message));

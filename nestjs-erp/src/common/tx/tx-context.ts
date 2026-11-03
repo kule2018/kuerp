@@ -1,1 +1,79 @@
-aW1wb3J0IHsgQXN5bmNMb2NhbFN0b3JhZ2UgfSBmcm9tICdhc3luY19ob29rcyc7CmltcG9ydCB7IERhdGFTb3VyY2UsIFF1ZXJ5UnVubmVyIH0gZnJvbSAndHlwZW9ybSc7CgovKioKICog5LqL5Yqh5LiK5LiL5paH77yI5Z+65LqOIEFzeW5jTG9jYWxTdG9yYWdl77yJ44CCCiAqCiAqIOOAkOS4uuS7gOS5iOmcgOimgeWug+OAkQogKiBQb3N0aW5nU2VydmljZSDph4znmoTov4fotKbpgLvovpHlvojplb/vvIgxNDAwKyDooYzvvInvvIzlhoXpg6jmnInlh6DljYHlpIQgYHRoaXMuZGF0YVNvdXJjZS5xdWVyeSguLi4pYOOAggogKiDlpoLmnpzkuLrkuobljIXkuovliqHlsLHmiormr4/kuIDlpITpg73mlLnmiJAgYG1hbmFnZXIucXVlcnkoLi4uKWDvvIzpnIDopoHmioogbWFuYWdlciDkuIDot6/lvZPlj4LmlbDkvKDov4cKICog5Y2B5Yeg5Liq56eB5pyJ5pa55rOV4oCU4oCU5pS55Yqo6Z2i5aSn44CB5a655piT5ryP77yM5LiU5LiA5pem5ryP5LiA5aSE5bCx5Lya44CM5LqL5Yqh6YeM55qE5LiA6YOo5YiG5pON5L2c6LeR5Yiw5LqL5Yqh5aSW44CN77yMCiAqIOWPjeiAjOavlOayoeacieS6i+WKoeabtOmakOiUveOAggogKgogKiDov5nph4znlKggQXN5bmNMb2NhbFN0b3JhZ2Ug5YGa44CM6ZqQ5byP5LqL5Yqh5LiK5LiL5paH44CN77yaCiAqIC0gcnVuSW5UeCgpIOW8gOWQr+S6i+WKoeW5tuaKiiBRdWVyeVJ1bm5lciDmlL7ov5vlvZPliY3lvILmraXkuIrkuIvmlofvvJsKICogLSDkuJrliqHku6PnoIHnhafml6fosIPnlKggcXVlcnkoKe+8jOeUsSB0eFF1ZXJ5KCkg5Yik5pat5b2T5YmN5piv5ZCm5pyJ5LqL5Yqh77yMCiAqICAg5pyJ5YiZ6LWw5LqL5Yqh6L+e5o6l77yM5rKh5pyJ5YiZ6LWw6L+e5o6l5rGg4oCU4oCU6LCD55So5pa56Zu25pS55Yqo44CCCiAqCiAqIOOAkOS4uuS7gOS5iOS4jeeUqOWunuS+i+Wtl+auteS/neWtmCBRdWVyeVJ1bm5lcuOAkQogKiBOZXN0IOeahCBTZXJ2aWNlIOm7mOiupOaYr+WNleS+i+OAguaKiiBRdWVyeVJ1bm5lciDlrZjliLAgdGhpcyDkuIrvvIzlubblj5Hor7fmsYLkvJrkupLnm7jopobnm5bvvIwKICog5Ye6546w44CMQSDor7fmsYLnmoTkuovliqHph4zmiafooYzkuoYgQiDor7fmsYLnmoQgU1FM44CN6L+Z56eN54G+6Zq+5oCn6Zeu6aKY44CCCiAqIEFzeW5jTG9jYWxTdG9yYWdlIOeahOWtmOWCqOaYr+aMieW8guatpeiwg+eUqOmTvumalOemu+eahO+8jOWkqeeEtuW5tuWPkeWuieWFqOOAggogKi8KCi8qKiDkv53lrZjlvZPliY3lvILmraXosIPnlKjpk77kuIrnmoTkuovliqHov57mjqUgKi8KY29uc3QgYWxzID0gbmV3IEFzeW5jTG9jYWxTdG9yYWdlPFF1ZXJ5UnVubmVyPigpOwoKLyoqCiAqIOWcqOW9k+WJjeW8guatpeS4iuS4i+aWh+mHjOaJp+ihjOS4gOS4quS6i+WKoeOAggogKgogKiDlm57osIPlhoXnmoTmiYDmnIkgcXVlcnkoKe+8iOe7j+eUsSB0eFF1ZXJ5IOaIliB0eFF1ZXJ5T3LvvInpg73kvJrokL3lnKjlkIzkuIDkuKrkuovliqHov57mjqXkuIrvvJsKICog5Zue6LCD5oqb6ZSZ5YiZ5pW05L2T5Zue5rua44CCCiAqCiAqIEBwYXJhbSBkYXRhU291cmNlIFR5cGVPUk0g5pWw5o2u5rqQCiAqIEBwYXJhbSBmbiDkuovliqHlhoXopoHmiafooYznmoTkuJrliqHpgLvovpEKICogQHJldHVybnMg5Zue6LCD6L+U5Zue5YC8CiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcnVuSW5UeDxUPihkYXRhU291cmNlOiBEYXRhU291cmNlLCBmbjogKCkgPT4gUHJvbWlzZTxUPik6IFByb21pc2U8VD4gewogIC8vIOW3suWcqOS6i+WKoeS4re+8muebtOaOpeWkjeeUqO+8jOmBv+WFjeW1jOWll+S6i+WKoeWvvOiHtOWGheWxgiBDT01NSVQg5o+Q5YmN5o+Q5Lqk5aSW5bGCCiAgaWYgKGFscy5nZXRTdG9yZSgpKSByZXR1cm4gZm4oKTsKCiAgY29uc3QgcnVubmVyID0gZGF0YVNvdXJjZS5jcmVhdGVRdWVyeVJ1bm5lcigpOwogIGF3YWl0IHJ1bm5lci5jb25uZWN0KCk7CiAgYXdhaXQgcnVubmVyLnN0YXJ0VHJhbnNhY3Rpb24oKTsKICB0cnkgewogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgYWxzLnJ1bihydW5uZXIsIGZuKTsKICAgIGF3YWl0IHJ1bm5lci5jb21taXRUcmFuc2FjdGlvbigpOwogICAgcmV0dXJuIHJlc3VsdDsKICB9IGNhdGNoIChlKSB7CiAgICB0cnkgewogICAgICBhd2FpdCBydW5uZXIucm9sbGJhY2tUcmFuc2FjdGlvbigpOwogICAgfSBjYXRjaCB7CiAgICAgIC8vIOWbnua7muWksei0pe+8iOWmgui/nuaOpeW3suaWre+8ieS4jeimhuebluWOn+Wni+W8guW4uO+8jOS6pOeUseS4iuWxguiusOW9lQogICAgfQogICAgdGhyb3cgZTsKICB9IGZpbmFsbHkgewogICAgYXdhaXQgcnVubmVyLnJlbGVhc2UoKTsKICB9Cn0KCi8qKgogKiDlnKjkuovliqHkuIrkuIvmlofkuK3miafooYzmn6Xor6LvvJvml6DkuovliqHml7bov5Tlm54gbnVsbOOAggogKgogKiBAcGFyYW0gc3FsIFNRTCDor63lj6UKICogQHBhcmFtIHBhcmFtcyDlj4LmlbDmlbDnu4QKICogQHJldHVybnMg5p+l6K+i57uT5p6c77yM5oiWIG51bGwg6KGo56S65b2T5YmN5LiN5Zyo5LqL5Yqh5LitCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gdHhRdWVyeShzcWw6IHN0cmluZywgcGFyYW1zPzogYW55W10pOiBQcm9taXNlPGFueVtdIHwgbnVsbD4gewogIGNvbnN0IHJ1bm5lciA9IGFscy5nZXRTdG9yZSgpOwogIGlmICghcnVubmVyKSByZXR1cm4gbnVsbDsKICByZXR1cm4gYXdhaXQgcnVubmVyLnF1ZXJ5KHNxbCwgcGFyYW1zKTsKfQoKLyoqCiAqIOW9k+WJjeaYr+WQpuWkhOS6juS6i+WKoeS4re+8iOS+m+mcgOimgeWMuuWIhuihjOS4uueahOWcuuaZr+S9v+eUqO+8ieOAggogKiBAcmV0dXJucyDmmK/lkKblnKjkuovliqHkuIrkuIvmlocKICovCmV4cG9ydCBmdW5jdGlvbiBpblR4KCk6IGJvb2xlYW4gewogIHJldHVybiAhIWFscy5nZXRTdG9yZSgpOwp9Cg==
+import { AsyncLocalStorage } from 'async_hooks';
+import { DataSource, QueryRunner } from 'typeorm';
+
+/**
+ * 事务上下文（基于 AsyncLocalStorage）。
+ *
+ * 【为什么需要它】
+ * PostingService 里的过账逻辑很长（1400+ 行），内部有几十处 `this.dataSource.query(...)`。
+ * 如果为了包事务就把每一处都改成 `manager.query(...)`，需要把 manager 一路当参数传过
+ * 十几个私有方法——改动面大、容易漏，且一旦漏一处就会「事务里的一部分操作跑到事务外」，
+ * 反而比没有事务更隐蔽。
+ *
+ * 这里用 AsyncLocalStorage 做「隐式事务上下文」：
+ * - runInTx() 开启事务并把 QueryRunner 放进当前异步上下文；
+ * - 业务代码照旧调用 query()，由 txQuery() 判断当前是否有事务，
+ *   有则走事务连接，没有则走连接池——调用方零改动。
+ *
+ * 【为什么不用实例字段保存 QueryRunner】
+ * Nest 的 Service 默认是单例。把 QueryRunner 存到 this 上，并发请求会互相覆盖，
+ * 出现「A 请求的事务里执行了 B 请求的 SQL」这种灾难性问题。
+ * AsyncLocalStorage 的存储是按异步调用链隔离的，天然并发安全。
+ */
+
+/** 保存当前异步调用链上的事务连接 */
+const als = new AsyncLocalStorage<QueryRunner>();
+
+/**
+ * 在当前异步上下文里执行一个事务。
+ *
+ * 回调内的所有 query()（经由 txQuery 或 txQueryOr）都会落在同一个事务连接上；
+ * 回调抛错则整体回滚。
+ *
+ * @param dataSource TypeORM 数据源
+ * @param fn 事务内要执行的业务逻辑
+ * @returns 回调返回值
+ */
+export async function runInTx<T>(dataSource: DataSource, fn: () => Promise<T>): Promise<T> {
+  // 已在事务中：直接复用，避免嵌套事务导致内层 COMMIT 提前提交外层
+  if (als.getStore()) return fn();
+
+  const runner = dataSource.createQueryRunner();
+  await runner.connect();
+  await runner.startTransaction();
+  try {
+    const result = await als.run(runner, fn);
+    await runner.commitTransaction();
+    return result;
+  } catch (e) {
+    try {
+      await runner.rollbackTransaction();
+    } catch {
+      // 回滚失败（如连接已断）不覆盖原始异常，交由上层记录
+    }
+    throw e;
+  } finally {
+    await runner.release();
+  }
+}
+
+/**
+ * 在事务上下文中执行查询；无事务时返回 null。
+ *
+ * @param sql SQL 语句
+ * @param params 参数数组
+ * @returns 查询结果，或 null 表示当前不在事务中
+ */
+export async function txQuery(sql: string, params?: any[]): Promise<any[] | null> {
+  const runner = als.getStore();
+  if (!runner) return null;
+  return await runner.query(sql, params);
+}
+
+/**
+ * 当前是否处于事务中（供需要区分行为的场景使用）。
+ * @returns 是否在事务上下文
+ */
+export function inTx(): boolean {
+  return !!als.getStore();
+}

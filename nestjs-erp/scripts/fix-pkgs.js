@@ -1,1 +1,128 @@
-LyoqCiAqIOS/ruWkjeiiq+S4reaWreeahCBucG0gaW5zdGFsbCDlhpnlnY/nmoQgbm9kZV9tb2R1bGVzIOWMhe+8iOacrOeOr+Wig+WuieWFqOWIoOmZpOmSqeWtkOS8muWvvOiHtAogKiBucG0g5YaZ5YWl6L+H56iL5Lit5Lii5paH5Lu277ya57y6IHBhY2thZ2UuanNvbiDlhaXlj6PlrZfmrrUgLyDnvLrlrZDmqKHlnZcgLyDnvLogLmQudHMg562J77yJ44CCCiAqCiAqIOaWueazle+8muWvueebruagh+WMhSBucG0gcGFjayDmi4nlrpjmlrkgdGFyYmFsbCDihpIg6Kej5YyFIOKGkiDopobnm5blvI/mi7flm54gbm9kZV9tb2R1bGVz44CCCiAqIOeJiOacrOaOoua1i+mhuuW6j++8mnBhY2thZ2UtbG9jay5qc29uIOKGkiDlt7Loo4UgcGFja2FnZS5qc29uIOKGkiBGQUxMQkFDS1Mg6KGo44CCCiAqCiAqIOeUqOazle+8mgogKiAgIG5vZGUgc2NyaXB0cy9maXgtcGtncy5qcyA8cGtnPltAPHZlcj5dIC4uLiAgICAgIyDmmL7lvI/mjIflrpoKICogICBub2RlIHNjcmlwdHMvZml4LXBrZ3MuanMgLS1mcm9tLWZpbGUgLmJyb2tlbi1wa2dzLnR4dCAgICMg5om56YeP77yIZGV0ZWN0LWJyb2tlbi5qcyDkuqflh7rvvIkKICovCmNvbnN0IGZzID0gcmVxdWlyZSgnZnMnKTsKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsKY29uc3QgeyBleGVjU3luYyB9ID0gcmVxdWlyZSgnY2hpbGRfcHJvY2VzcycpOwoKY29uc3Qgcm9vdCA9IHBhdGgucmVzb2x2ZShfX2Rpcm5hbWUsICcuLicpOwpjb25zdCB0bXAgPSBwYXRoLmpvaW4ocm9vdCwgJy5wa2dmaXgnKTsKCi8qKiDniYjmnKzmjqLmtYvlpLHotKXml7bnmoTlhZzlupXniYjmnKzvvIjkuI4gcGFja2FnZS5qc29uIOS+nei1luiMg+WbtOWFvOWuue+8iSAqLwpjb25zdCBGQUxMQkFDS1MgPSB7CiAgJ2ljb252LWxpdGUnOiAnMC42LjMnLAogIHV1aWQ6ICc5LjAuMScsCiAgJ3JlYWRhYmxlLXN0cmVhbSc6ICczLjYuMicsCiAgYmw6ICc1LjEuMCcsCiAgJ3Byb2Nlc3MtbmV4dGljay1hcmdzJzogJzIuMC4xJywKICAndXRpbC1kZXByZWNhdGUnOiAnMS4wLjInLAogIHJvdXRlcjogJzIuMi4wJywKICAnc2FmZS1idWZmZXInOiAnNS4yLjEnLAogIHN0cmluZ19kZWNvZGVyOiAnMS4zLjAnLAogIGluaGVyaXRzOiAnMi4wLjQnLAogIGllZWU3NTQ6ICcxLjIuMScsCiAgYnVmZmVyOiAnNi4wLjMnLAogIHFzOiAnNi4xMy4wJywKICAnc2lkZS1jaGFubmVsJzogJzEuMS4wJywKICAnb2JqZWN0LWluc3BlY3QnOiAnMS4xMy40JywKICB0c2xpYjogJzIuOC4xJywKfTsKCi8qKiDku44gbG9jayDmlofku7bmjqLmtYvmn5DljIXlt7Llronoo4XniYjmnKwgKi8KZnVuY3Rpb24gZGV0ZWN0VmVyc2lvbihuYW1lKSB7CiAgLy8gMS4gbG9jayDmlofku7YKICB0cnkgewogICAgY29uc3QgbG9jayA9IEpTT04ucGFyc2UoZnMucmVhZEZpbGVTeW5jKHBhdGguam9pbihyb290LCAncGFja2FnZS1sb2NrLmpzb24nKSwgJ3V0ZjgnKSk7CiAgICBjb25zdCBrZXkgPSBPYmplY3Qua2V5cyhsb2NrLnBhY2thZ2VzIHx8IHt9KS5maW5kKChrKSA9PiBrID09PSBgbm9kZV9tb2R1bGVzLyR7bmFtZX1gKTsKICAgIGlmIChrZXkgJiYgbG9jay5wYWNrYWdlc1trZXldLnZlcnNpb24pIHJldHVybiBsb2NrLnBhY2thZ2VzW2tleV0udmVyc2lvbjsKICB9IGNhdGNoIChfKSB7fQogIC8vIDIuIOW3suijhSBwYWNrYWdlLmpzb27vvIjlj6/og73mjZ/lnY/vvIzor7vkuI3liLAgdmVyc2lvbiDlsLHot7Pov4fvvIkKICB0cnkgewogICAgY29uc3QgcCA9IEpTT04ucGFyc2UoZnMucmVhZEZpbGVTeW5jKHBhdGguam9pbihyb290LCAnbm9kZV9tb2R1bGVzJywgbmFtZSwgJ3BhY2thZ2UuanNvbicpLCAndXRmOCcpKTsKICAgIGlmIChwLnZlcnNpb24pIHJldHVybiBwLnZlcnNpb247CiAgfSBjYXRjaCAoXykge30KICAvLyAzLiDlhZzlupXooagKICByZXR1cm4gRkFMTEJBQ0tTW25hbWVdIHx8IG51bGw7Cn0KCi8qKiDpgJLlvZLmi7fotJ3nm67lvZXvvIjopobnm5blvI/vvIzkuI3liKDpmaTnm67moIflpJrkvZnmlofku7bvvIzpgb/lhY3op6blj5HliKDpmaTpkqnlrZDvvIkgKi8KZnVuY3Rpb24gY29weURpcihzcmMsIGRzdCkgewogIGZzLm1rZGlyU3luYyhkc3QsIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwogIGZvciAoY29uc3QgZW50cnkgb2YgZnMucmVhZGRpclN5bmMoc3JjLCB7IHdpdGhGaWxlVHlwZXM6IHRydWUgfSkpIHsKICAgIGNvbnN0IHMgPSBwYXRoLmpvaW4oc3JjLCBlbnRyeS5uYW1lKTsKICAgIGNvbnN0IGQgPSBwYXRoLmpvaW4oZHN0LCBlbnRyeS5uYW1lKTsKICAgIGlmIChlbnRyeS5pc0RpcmVjdG9yeSgpKSBjb3B5RGlyKHMsIGQpOwogICAgZWxzZSBmcy5jb3B5RmlsZVN5bmMocywgZCk7CiAgfQp9CgovKiog5ouG5Ye65YyF5ZCN77yI5pSv5oyBIEBzY29wZS9wa2dAdmVyIOS4jiBwa2dAdmVy77yJICovCmZ1bmN0aW9uIHNwbGl0U3BlYyhzcGVjKSB7CiAgaWYgKHNwZWMuc3RhcnRzV2l0aCgnQCcpKSB7CiAgICBjb25zdCBhdCA9IHNwZWMuaW5kZXhPZignQCcsIDEpOwogICAgcmV0dXJuIGF0ID09PSAtMSA/IFtzcGVjLCBudWxsXSA6IFtzcGVjLnNsaWNlKDAsIGF0KSwgc3BlYy5zbGljZShhdCArIDEpXTsKICB9CiAgY29uc3QgYXQgPSBzcGVjLmluZGV4T2YoJ0AnKTsKICByZXR1cm4gYXQgPT09IC0xID8gW3NwZWMsIG51bGxdIDogW3NwZWMuc2xpY2UoMCwgYXQpLCBzcGVjLnNsaWNlKGF0ICsgMSldOwp9CgooYXN5bmMgKCkgPT4gewogIGxldCBzcGVjcyA9IFtdOwogIGlmIChwcm9jZXNzLmFyZ3ZbMl0gPT09ICctLWZyb20tZmlsZScpIHsKICAgIHNwZWNzID0gZnMKICAgICAgLnJlYWRGaWxlU3luYyhwcm9jZXNzLmFyZ3ZbM10sICd1dGY4JykKICAgICAgLnNwbGl0KCdcbicpCiAgICAgIC5tYXAoKHMpID0+IHMudHJpbSgpKQogICAgICAuZmlsdGVyKEJvb2xlYW4pOwogIH0gZWxzZSB7CiAgICBzcGVjcyA9IHByb2Nlc3MuYXJndi5zbGljZSgyKTsKICB9CiAgaWYgKCFzcGVjcy5sZW5ndGgpIHsKICAgIGNvbnNvbGUuZXJyb3IoJ+eUqOazlTogbm9kZSBzY3JpcHRzL2ZpeC1wa2dzLmpzIDxwa2c+W0A8dmVyPl0gLi4uIHwgLS1mcm9tLWZpbGUgPGZpbGU+Jyk7CiAgICBwcm9jZXNzLmV4aXQoMSk7CiAgfQoKICBmcy5ta2RpclN5bmModG1wLCB7IHJlY3Vyc2l2ZTogdHJ1ZSB9KTsKICBsZXQgZml4ZWQgPSAwOwogIGxldCBmYWlsZWQgPSAwOwogIHRyeSB7CiAgICBmb3IgKGNvbnN0IHNwZWMgb2Ygc3BlY3MpIHsKICAgICAgY29uc3QgW25hbWUsIHZlcl0gPSBzcGxpdFNwZWMoc3BlYyk7CiAgICAgIGNvbnN0IHZlcnNpb24gPSB2ZXIgfHwgZGV0ZWN0VmVyc2lvbihuYW1lKTsKICAgICAgaWYgKCF2ZXJzaW9uKSB7CiAgICAgICAgY29uc29sZS5lcnJvcihg4pqg77iPICAke25hbWV9IOaXoOazleaOoua1i+eJiOacrOS4lOaXoOWFnOW6leWAvO+8jOi3s+i/h2ApOwogICAgICAgIGZhaWxlZCsrOwogICAgICAgIGNvbnRpbnVlOwogICAgICB9CiAgICAgIHRyeSB7CiAgICAgICAgZXhlY1N5bmMoYG5wbSBwYWNrICR7bmFtZX1AJHt2ZXJzaW9ufSAtLXNpbGVudGAsIHsgY3dkOiB0bXAsIHN0ZGlvOiAncGlwZScgfSk7CiAgICAgICAgLy8gbnBtIHBhY2sg6L6T5Ye65paH5Lu25ZCN77ybLS1zaWxlbnQg5pe25LuF5LiA6KGMIHRhcmJhbGwg5ZCNCiAgICAgICAgY29uc3QgdGFyYmFsbHMgPSBmcy5yZWFkZGlyU3luYyh0bXApLmZpbHRlcigoZikgPT4gZi5lbmRzV2l0aCgnLnRneicpKTsKICAgICAgICBjb25zdCB0Z3ogPSB0YXJiYWxsc1t0YXJiYWxscy5sZW5ndGggLSAxXTsKICAgICAgICAvLyBNU1lTIHRhciDkvJrmiornm5jnrKbvvIhGOu+8ieivr+WIpOS4uui/nOeoi+S4u+acuu+8jOW/hemhu+eUqOebuOWvuei3r+W+hO+8iGN3ZD10bXDvvIkKICAgICAgICAvLyB0YXIg6Kej5Y6L5Lqn54mp5Li6IDx0bXA+L3BhY2thZ2Uv77yIbnBtIHRhcmJhbGwg5Zu65a6a5qC555uu5b2V5ZCN77yJCiAgICAgICAgZXhlY1N5bmMoYHRhciAteHpmICIke3Rnen0iYCwgeyBjd2Q6IHRtcCB9KTsKICAgICAgICBjb3B5RGlyKHBhdGguam9pbih0bXAsICdwYWNrYWdlJyksIHBhdGguam9pbihyb290LCAnbm9kZV9tb2R1bGVzJywgbmFtZSkpOwogICAgICAgIGZzLnJtU3luYyhwYXRoLmpvaW4odG1wLCB0Z3opLCB7IGZvcmNlOiB0cnVlIH0pOwogICAgICAgIGNvbnNvbGUubG9nKGDinIUgJHtuYW1lfUAke3ZlcnNpb259IOW3suS/ruWkjWApOwogICAgICAgIGZpeGVkKys7CiAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICBjb25zb2xlLmVycm9yKGDinYwgJHtuYW1lfUAke3ZlcnNpb259IOS/ruWkjeWksei0pTogJHtTdHJpbmcoZS5tZXNzYWdlKS5zcGxpdCgnXG4nKVswXX1gKTsKICAgICAgICBmYWlsZWQrKzsKICAgICAgfQogICAgfQogIH0gZmluYWxseSB7CiAgICBmcy5ybVN5bmModG1wLCB7IHJlY3Vyc2l2ZTogdHJ1ZSwgZm9yY2U6IHRydWUgfSk7CiAgfQogIGNvbnNvbGUubG9nKGBcbue7k+aenDog5L+u5aSNICR7Zml4ZWR9IOS4qu+8jOWksei0pSAke2ZhaWxlZH0g5LiqYCk7CiAgaWYgKGZhaWxlZCkgcHJvY2Vzcy5leGl0KDIpOwogIHByb2Nlc3MuZXhpdCgwKTsKfSkoKTsK
+/**
+ * 修复被中断的 npm install 写坏的 node_modules 包（本环境安全删除钩子会导致
+ * npm 写入过程中丢文件：缺 package.json 入口字段 / 缺子模块 / 缺 .d.ts 等）。
+ *
+ * 方法：对目标包 npm pack 拉官方 tarball → 解包 → 覆盖式拷回 node_modules。
+ * 版本探测顺序：package-lock.json → 已装 package.json → FALLBACKS 表。
+ *
+ * 用法：
+ *   node scripts/fix-pkgs.js <pkg>[@<ver>] ...     # 显式指定
+ *   node scripts/fix-pkgs.js --from-file .broken-pkgs.txt   # 批量（detect-broken.js 产出）
+ */
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+
+const root = path.resolve(__dirname, '..');
+const tmp = path.join(root, '.pkgfix');
+
+/** 版本探测失败时的兜底版本（与 package.json 依赖范围兼容） */
+const FALLBACKS = {
+  'iconv-lite': '0.6.3',
+  uuid: '9.0.1',
+  'readable-stream': '3.6.2',
+  bl: '5.1.0',
+  'process-nextick-args': '2.0.1',
+  'util-deprecate': '1.0.2',
+  router: '2.2.0',
+  'safe-buffer': '5.2.1',
+  string_decoder: '1.3.0',
+  inherits: '2.0.4',
+  ieee754: '1.2.1',
+  buffer: '6.0.3',
+  qs: '6.13.0',
+  'side-channel': '1.1.0',
+  'object-inspect': '1.13.4',
+  tslib: '2.8.1',
+};
+
+/** 从 lock 文件探测某包已安装版本 */
+function detectVersion(name) {
+  // 1. lock 文件
+  try {
+    const lock = JSON.parse(fs.readFileSync(path.join(root, 'package-lock.json'), 'utf8'));
+    const key = Object.keys(lock.packages || {}).find((k) => k === `node_modules/${name}`);
+    if (key && lock.packages[key].version) return lock.packages[key].version;
+  } catch (_) {}
+  // 2. 已装 package.json（可能损坏，读不到 version 就跳过）
+  try {
+    const p = JSON.parse(fs.readFileSync(path.join(root, 'node_modules', name, 'package.json'), 'utf8'));
+    if (p.version) return p.version;
+  } catch (_) {}
+  // 3. 兜底表
+  return FALLBACKS[name] || null;
+}
+
+/** 递归拷贝目录（覆盖式，不删除目标多余文件，避免触发删除钩子） */
+function copyDir(src, dst) {
+  fs.mkdirSync(dst, { recursive: true });
+  for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
+    const s = path.join(src, entry.name);
+    const d = path.join(dst, entry.name);
+    if (entry.isDirectory()) copyDir(s, d);
+    else fs.copyFileSync(s, d);
+  }
+}
+
+/** 拆出包名（支持 @scope/pkg@ver 与 pkg@ver） */
+function splitSpec(spec) {
+  if (spec.startsWith('@')) {
+    const at = spec.indexOf('@', 1);
+    return at === -1 ? [spec, null] : [spec.slice(0, at), spec.slice(at + 1)];
+  }
+  const at = spec.indexOf('@');
+  return at === -1 ? [spec, null] : [spec.slice(0, at), spec.slice(at + 1)];
+}
+
+(async () => {
+  let specs = [];
+  if (process.argv[2] === '--from-file') {
+    specs = fs
+      .readFileSync(process.argv[3], 'utf8')
+      .split('\n')
+      .map((s) => s.trim())
+      .filter(Boolean);
+  } else {
+    specs = process.argv.slice(2);
+  }
+  if (!specs.length) {
+    console.error('用法: node scripts/fix-pkgs.js <pkg>[@<ver>] ... | --from-file <file>');
+    process.exit(1);
+  }
+
+  fs.mkdirSync(tmp, { recursive: true });
+  let fixed = 0;
+  let failed = 0;
+  try {
+    for (const spec of specs) {
+      const [name, ver] = splitSpec(spec);
+      const version = ver || detectVersion(name);
+      if (!version) {
+        console.error(`⚠️  ${name} 无法探测版本且无兜底值，跳过`);
+        failed++;
+        continue;
+      }
+      try {
+        execSync(`npm pack ${name}@${version} --silent`, { cwd: tmp, stdio: 'pipe' });
+        // npm pack 输出文件名；--silent 时仅一行 tarball 名
+        const tarballs = fs.readdirSync(tmp).filter((f) => f.endsWith('.tgz'));
+        const tgz = tarballs[tarballs.length - 1];
+        // MSYS tar 会把盘符（F:）误判为远程主机，必须用相对路径（cwd=tmp）
+        // tar 解压产物为 <tmp>/package/（npm tarball 固定根目录名）
+        execSync(`tar -xzf "${tgz}"`, { cwd: tmp });
+        copyDir(path.join(tmp, 'package'), path.join(root, 'node_modules', name));
+        fs.rmSync(path.join(tmp, tgz), { force: true });
+        console.log(`✅ ${name}@${version} 已修复`);
+        fixed++;
+      } catch (e) {
+        console.error(`❌ ${name}@${version} 修复失败: ${String(e.message).split('\n')[0]}`);
+        failed++;
+      }
+    }
+  } finally {
+    fs.rmSync(tmp, { recursive: true, force: true });
+  }
+  console.log(`\n结果: 修复 ${fixed} 个，失败 ${failed} 个`);
+  if (failed) process.exit(2);
+  process.exit(0);
+})();

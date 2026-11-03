@@ -1,1 +1,72 @@
-aW1wb3J0IHsgQm9keSwgQ29udHJvbGxlciwgRm9yYmlkZGVuRXhjZXB0aW9uLCBHZXQsIFBvc3QsIFF1ZXJ5LCBVc2VHdWFyZHMgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7CmltcG9ydCB7IEp3dEF1dGhHdWFyZCB9IGZyb20gJy4uL2d1YXJkcy9qd3QtYXV0aC5ndWFyZCc7CmltcG9ydCB7IEN1cnJlbnRVc2VyIH0gZnJvbSAnLi4vZGVjb3JhdG9ycy9jdXJyZW50LXVzZXIuZGVjb3JhdG9yJzsKaW1wb3J0IHsgb2sgfSBmcm9tICcuLi9yZXNwb25zZS5pbnRlcmNlcHRvcic7CmltcG9ydCB7IFNjaGVkdWxlclNlcnZpY2UgfSBmcm9tICcuL3NjaGVkdWxlci5zZXJ2aWNlJzsKaW1wb3J0IHsgV2VjaGF0VG9rZW5TZXJ2aWNlIH0gZnJvbSAnLi4vd2VjaGF0L3dlY2hhdC10b2tlbi5zZXJ2aWNlJzsKCi8qKgogKiDlrprml7bkvZzkuJrnrqHnkIbmjqXlj6PjgIIKICoKICog5p2D6ZmQ77ya5LuF6LaF57qn566h55CG5ZGY44CC55CG55Sx5LiO5pON5L2c5pel5b+X5LiA6Ie04oCU4oCU5L2c5Lia5byA5YWz5LiO5omL5Yqo6Kem5Y+R5Lya5b2x5ZON5YWo57O757uf55qECiAqIOWQjuWPsOihjOS4uu+8iOS+i+WmguWFs+aOieW+ruS/oSB0b2tlbiDliLfmlrDkvJrorqnlsI/nqIvluo/mjqXlj6Ppm4bkvZPlj5jmhaLvvInvvIzkuI3pgILlkIjkuIvmlL7nu5nmma7pgJrop5LoibLjgIIKICovCkBDb250cm9sbGVyKCdzeXN0ZW0vam9iJykKQFVzZUd1YXJkcyhKd3RBdXRoR3VhcmQpCmV4cG9ydCBjbGFzcyBTY2hlZHVsZXJDb250cm9sbGVyIHsKICBjb25zdHJ1Y3RvcigKICAgIHByaXZhdGUgcmVhZG9ubHkgc2NoZWR1bGVyOiBTY2hlZHVsZXJTZXJ2aWNlLAogICAgcHJpdmF0ZSByZWFkb25seSB3ZWNoYXQ6IFdlY2hhdFRva2VuU2VydmljZSwKICApIHt9CgogIC8qKgogICAqIOS9nOS4mua4heWNle+8iOWQq+S4i+asoeaJp+ihjOaXtumXtOOAgeS4iuasoee7k+aenOOAgeW8gOWFs+eKtuaAge+8ieOAggogICAqIEBwYXJhbSB1c2VyIOW9k+WJjeeZu+W9leeUqOaItwogICAqIEByZXR1cm5zIHsgam9icywgd2VjaGF0IH0KICAgKi8KICBAR2V0KCdpbmRleCcpCiAgYXN5bmMgaW5kZXgoQEN1cnJlbnRVc2VyKCkgdXNlcjogYW55KSB7CiAgICB0aGlzLmFzc2VydFN1cGVyQWRtaW4odXNlcik7CiAgICByZXR1cm4gb2soeyBqb2JzOiBhd2FpdCB0aGlzLnNjaGVkdWxlci5saXN0KCksIHdlY2hhdDogdGhpcy53ZWNoYXQuc3RhdHVzKCkgfSk7CiAgfQoKICAvKioKICAgKiDmiYvliqjop6blj5HkuIDkuKrkvZzkuJrvvIjnlKjkuo7pqozor4HphY3nva7miJbooaXot5HvvInjgIIKICAgKiBAcGFyYW0gYm9keSB7IG5hbWUgfQogICAqIEBwYXJhbSB1c2VyIOW9k+WJjeeZu+W9leeUqOaItwogICAqIEByZXR1cm5zIHsgcmVzdWx0IH0KICAgKi8KICBAUG9zdCgncnVuJykKICBhc3luYyBydW4oQEJvZHkoKSBib2R5OiBhbnksIEBDdXJyZW50VXNlcigpIHVzZXI6IGFueSkgewogICAgdGhpcy5hc3NlcnRTdXBlckFkbWluKHVzZXIpOwogICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgdGhpcy5zY2hlZHVsZXIucnVuKFN0cmluZyhib2R5Py5uYW1lIHx8ICcnKSwgJ21hbnVhbCcpOwogICAgcmV0dXJuIG9rKHsgcmVzdWx0IH0pOwogIH0KCiAgLyoqCiAgICog5L2c5Lia5omn6KGM5Y6G5Y+y44CCCiAgICogQHBhcmFtIHF1ZXJ5IG5hbWUvcGFnZS9saW1pdAogICAqIEBwYXJhbSB1c2VyIOW9k+WJjeeZu+W9leeUqOaItwogICAqIEByZXR1cm5zIHsgbGlzdCwgY291bnQgfQogICAqLwogIEBHZXQoJ2xvZ3MnKQogIGFzeW5jIGxvZ3MoQFF1ZXJ5KCkgcXVlcnk6IGFueSwgQEN1cnJlbnRVc2VyKCkgdXNlcjogYW55KSB7CiAgICB0aGlzLmFzc2VydFN1cGVyQWRtaW4odXNlcik7CiAgICBjb25zdCBkYXRhID0gYXdhaXQgdGhpcy5zY2hlZHVsZXIubG9ncyh7CiAgICAgIG5hbWU6IHF1ZXJ5Lm5hbWUgfHwgJycsCiAgICAgIHBhZ2U6IE51bWJlcihxdWVyeS5wYWdlKSB8fCAxLAogICAgICBsaW1pdDogTnVtYmVyKHF1ZXJ5LmxpbWl0KSB8fCAyMCwKICAgIH0pOwogICAgcmV0dXJuIG9rKGRhdGEpOwogIH0KCiAgLyoqCiAgICog5LuF6LaF566h5Y+v6K6/6Zeu55qE5pat6KiA44CCCiAgICogQHBhcmFtIHVzZXIg5b2T5YmN55m75b2V55So5oi3CiAgICovCiAgcHJpdmF0ZSBhc3NlcnRTdXBlckFkbWluKHVzZXI6IGFueSk6IHZvaWQgewogICAgaWYgKE51bWJlcih1c2VyPy5pZCkgIT09IDEpIHsKICAgICAgdGhyb3cgbmV3IEZvcmJpZGRlbkV4Y2VwdGlvbign5LuF6LaF57qn566h55CG5ZGY5Y+v566h55CG5a6a5pe25L2c5LiaJyk7CiAgICB9CiAgfQp9Cg==
+import { Body, Controller, ForbiddenException, Get, Post, Query, UseGuards } from '@nestjs/common';
+import { JwtAuthGuard } from '../guards/jwt-auth.guard';
+import { CurrentUser } from '../decorators/current-user.decorator';
+import { ok } from '../response.interceptor';
+import { SchedulerService } from './scheduler.service';
+import { WechatTokenService } from '../wechat/wechat-token.service';
+
+/**
+ * 定时作业管理接口。
+ *
+ * 权限：仅超级管理员。理由与操作日志一致——作业开关与手动触发会影响全系统的
+ * 后台行为（例如关掉微信 token 刷新会让小程序接口集体变慢），不适合下放给普通角色。
+ */
+@Controller('system/job')
+@UseGuards(JwtAuthGuard)
+export class SchedulerController {
+  constructor(
+    private readonly scheduler: SchedulerService,
+    private readonly wechat: WechatTokenService,
+  ) {}
+
+  /**
+   * 作业清单（含下次执行时间、上次结果、开关状态）。
+   * @param user 当前登录用户
+   * @returns { jobs, wechat }
+   */
+  @Get('index')
+  async index(@CurrentUser() user: any) {
+    this.assertSuperAdmin(user);
+    return ok({ jobs: await this.scheduler.list(), wechat: this.wechat.status() });
+  }
+
+  /**
+   * 手动触发一个作业（用于验证配置或补跑）。
+   * @param body { name }
+   * @param user 当前登录用户
+   * @returns { result }
+   */
+  @Post('run')
+  async run(@Body() body: any, @CurrentUser() user: any) {
+    this.assertSuperAdmin(user);
+    const result = await this.scheduler.run(String(body?.name || ''), 'manual');
+    return ok({ result });
+  }
+
+  /**
+   * 作业执行历史。
+   * @param query name/page/limit
+   * @param user 当前登录用户
+   * @returns { list, count }
+   */
+  @Get('logs')
+  async logs(@Query() query: any, @CurrentUser() user: any) {
+    this.assertSuperAdmin(user);
+    const data = await this.scheduler.logs({
+      name: query.name || '',
+      page: Number(query.page) || 1,
+      limit: Number(query.limit) || 20,
+    });
+    return ok(data);
+  }
+
+  /**
+   * 仅超管可访问的断言。
+   * @param user 当前登录用户
+   */
+  private assertSuperAdmin(user: any): void {
+    if (Number(user?.id) !== 1) {
+      throw new ForbiddenException('仅超级管理员可管理定时作业');
+    }
+  }
+}

@@ -1,1 +1,97 @@
-aW1wb3J0IHsgQm9keSwgQ29udHJvbGxlciwgR2V0LCBQb3N0LCBRdWVyeSwgVXNlR3VhcmRzIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBKd3RBdXRoR3VhcmQgfSBmcm9tICcuLi8uLi9jb21tb24vZ3VhcmRzL2p3dC1hdXRoLmd1YXJkJzsKaW1wb3J0IHsgQ3VycmVudFVzZXIgfSBmcm9tICcuLi8uLi9jb21tb24vZGVjb3JhdG9ycy9jdXJyZW50LXVzZXIuZGVjb3JhdG9yJzsKaW1wb3J0IHsgb2sgfSBmcm9tICcuLi8uLi9jb21tb24vcmVzcG9uc2UuaW50ZXJjZXB0b3InOwppbXBvcnQgeyBBcHByb3ZhbFNlcnZpY2UsIEFwcHJvdmFsVXNlciB9IGZyb20gJy4vYXBwcm92YWwuc2VydmljZSc7CgovKioKICog5aSa57qn5a6h5om55rWB5o6n5Yi25Zmo44CCCiAqCiAqIOi3r+eUsea4heWNle+8iOaMguWcqCAva3VlcnAvYXBwcm92YWwvKu+8jOS4jumAmueUqOihqCAva3VlcnAvOnRhYmxlLzzmoIflh4bliqjkvZw+IOS4jeWGsueqge+8ie+8mgogKiAgIFBPU1QgL2t1ZXJwL2FwcHJvdmFsL3N1Ym1pdCAgICDmj5DkuqTlrqHmibnvvIjmjInph5Hpop3nlJ/miJDlrqHmibnpk77vvIkKICogICBQT1NUIC9rdWVycC9hcHByb3ZhbC9hcHByb3ZlICAg5a6h5om56YCa6L+H77yI5pyA5ZCO5LiA57qn6YCa6L+H5pe26Ieq5Yqo6L+H6LSm77yJCiAqICAgUE9TVCAva3VlcnAvYXBwcm92YWwvcmVqZWN0ICAgIOWuoeaJuemps+WbngogKiAgIEdFVCAgL2t1ZXJwL2FwcHJvdmFsL3N0YXR1cyAgICDmn5DljZXmja7nmoTlrqHmibnov5vluqbvvIjliY3nq6/nlLvov5vluqbmnaHvvIkKICogICBHRVQgIC9rdWVycC9hcHByb3ZhbC9oaXN0b3J5ICAg5p+Q5Y2V5o2u55qE5a6h5om55Y6G5Y+yCiAqICAgR0VUICAva3VlcnAvYXBwcm92YWwvdG9kbyAgICAgIOaIkeeahOW+heWKngogKgogKiDpibTmnYPor7TmmI7vvJrov5nph4wqKuWPquaMgiBKd3RBdXRoR3VhcmTvvIzkuI3mjIIgUmJhY0d1YXJkKirjgIIKICog5Y6f5Zug77yaYXBwcm92YWwg5LiN5piv5Lia5Yqh6KGo77yMcmJhYyDoioLngrnph4zkuI3lrZjlnKgga3VlcnAvYXBwcm92YWzvvJsKICog6Iul5by66KGM5oyC5LiK77yM6Z2e6LaF566h5Lya6KKr6I+c5Y2V57qn6IqC54K56Ym05p2D55u05o6l5oum5q2777yM6ICM5a6h5om55p2D6ZmQ5pys5bqU55SxCiAqIGt1ZXJwX2FwcHJvdmFsX2Zsb3cucm9sZV9pZCDnsr7nu4bmjqfliLbvvIjop4EgQXBwcm92YWxTZXJ2aWNlLmNhbkFwcHJvdmXvvInjgIIKICovCkBDb250cm9sbGVyKCdrdWVycC9hcHByb3ZhbCcpCkBVc2VHdWFyZHMoSnd0QXV0aEd1YXJkKQpleHBvcnQgY2xhc3MgQXBwcm92YWxDb250cm9sbGVyIHsKICBjb25zdHJ1Y3Rvcihwcml2YXRlIHJlYWRvbmx5IHN2YzogQXBwcm92YWxTZXJ2aWNlKSB7fQoKICAvKioKICAgKiDmj5DkuqTlrqHmibnjgIIKICAgKiBAcGFyYW0gYm9keSB7IGRvY190YWJsZSwgZG9jX2lkIH0KICAgKiBAcGFyYW0gdXNlciDlvZPliY3nlKjmiLcKICAgKi8KICBAUG9zdCgnc3VibWl0JykKICBhc3luYyBzdWJtaXQoQEJvZHkoKSBib2R5OiBhbnksIEBDdXJyZW50VXNlcigpIHVzZXI6IEFwcHJvdmFsVXNlcikgewogICAgY29uc3QgZG9jVGFibGUgPSBib2R5Py5kb2NfdGFibGUgfHwgYm9keT8uZG9jVGFibGU7CiAgICBjb25zdCBkb2NJZCA9IE51bWJlcihib2R5Py5kb2NfaWQgPz8gYm9keT8uZG9jSWQgPz8gMCk7CiAgICByZXR1cm4gb2soYXdhaXQgdGhpcy5zdmMuc3VibWl0KGRvY1RhYmxlLCBkb2NJZCwgdXNlcikpOwogIH0KCiAgLyoqCiAgICog5a6h5om56YCa6L+H44CCCiAgICogQHBhcmFtIGJvZHkgeyBkb2NfdGFibGUsIGRvY19pZCwgcmVtYXJrIH0KICAgKiBAcGFyYW0gdXNlciDlvZPliY3nlKjmiLcKICAgKi8KICBAUG9zdCgnYXBwcm92ZScpCiAgYXN5bmMgYXBwcm92ZShAQm9keSgpIGJvZHk6IGFueSwgQEN1cnJlbnRVc2VyKCkgdXNlcjogQXBwcm92YWxVc2VyKSB7CiAgICBjb25zdCBkb2NUYWJsZSA9IGJvZHk/LmRvY190YWJsZSB8fCBib2R5Py5kb2NUYWJsZTsKICAgIGNvbnN0IGRvY0lkID0gTnVtYmVyKGJvZHk/LmRvY19pZCA/PyBib2R5Py5kb2NJZCA/PyAwKTsKICAgIHJldHVybiBvayhhd2FpdCB0aGlzLnN2Yy5hcHByb3ZlKGRvY1RhYmxlLCBkb2NJZCwgdXNlciwgYm9keT8ucmVtYXJrIHx8ICcnKSk7CiAgfQoKICAvKioKICAgKiDlrqHmibnpqbPlm57jgIIKICAgKiBAcGFyYW0gYm9keSB7IGRvY190YWJsZSwgZG9jX2lkLCByZW1hcmsgfQogICAqIEBwYXJhbSB1c2VyIOW9k+WJjeeUqOaItwogICAqLwogIEBQb3N0KCdyZWplY3QnKQogIGFzeW5jIHJlamVjdChAQm9keSgpIGJvZHk6IGFueSwgQEN1cnJlbnRVc2VyKCkgdXNlcjogQXBwcm92YWxVc2VyKSB7CiAgICBjb25zdCBkb2NUYWJsZSA9IGJvZHk/LmRvY190YWJsZSB8fCBib2R5Py5kb2NUYWJsZTsKICAgIGNvbnN0IGRvY0lkID0gTnVtYmVyKGJvZHk/LmRvY19pZCA/PyBib2R5Py5kb2NJZCA/PyAwKTsKICAgIHJldHVybiBvayhhd2FpdCB0aGlzLnN2Yy5yZWplY3QoZG9jVGFibGUsIGRvY0lkLCB1c2VyLCBib2R5Py5yZW1hcmsgfHwgJycpKTsKICB9CgogIC8qKgogICAqIOWuoeaJuei/m+W6puOAggogICAqIEBwYXJhbSBxIHsgZG9jX3RhYmxlLCBkb2NfaWQgfQogICAqLwogIEBHZXQoJ3N0YXR1cycpCiAgYXN5bmMgc3RhdHVzKEBRdWVyeSgpIHE6IGFueSkgewogICAgcmV0dXJuIG9rKGF3YWl0IHRoaXMuc3ZjLnN0YXR1cyhxPy5kb2NfdGFibGUgfHwgcT8uZG9jVGFibGUsIE51bWJlcihxPy5kb2NfaWQgPz8gcT8uZG9jSWQgPz8gMCkpKTsKICB9CgogIC8qKgogICAqIOWuoeaJueWOhuWPsuOAggogICAqIEBwYXJhbSBxIHsgZG9jX3RhYmxlLCBkb2NfaWQgfQogICAqLwogIEBHZXQoJ2hpc3RvcnknKQogIGFzeW5jIGhpc3RvcnkoQFF1ZXJ5KCkgcTogYW55KSB7CiAgICByZXR1cm4gb2soYXdhaXQgdGhpcy5zdmMuaGlzdG9yeShxPy5kb2NfdGFibGUgfHwgcT8uZG9jVGFibGUsIE51bWJlcihxPy5kb2NfaWQgPz8gcT8uZG9jSWQgPz8gMCkpKTsKICB9CgogIC8qKgogICAqIOaIkeeahOW+heWKnuOAggogICAqIEBwYXJhbSBxIHsgcGFnZSwgbGltaXQsIGRvY190YWJsZSB9CiAgICogQHBhcmFtIHVzZXIg5b2T5YmN55So5oi3CiAgICovCiAgQEdldCgndG9kbycpCiAgYXN5bmMgdG9kbyhAUXVlcnkoKSBxOiBhbnksIEBDdXJyZW50VXNlcigpIHVzZXI6IEFwcHJvdmFsVXNlcikgewogICAgcmV0dXJuIG9rKAogICAgICBhd2FpdCB0aGlzLnN2Yy50b2RvKHVzZXIsIHsKICAgICAgICBwYWdlOiBOdW1iZXIocT8ucGFnZSkgfHwgMSwKICAgICAgICBsaW1pdDogTnVtYmVyKHE/LmxpbWl0KSB8fCAyMCwKICAgICAgICBkb2NUYWJsZTogcT8uZG9jX3RhYmxlIHx8IHE/LmRvY1RhYmxlIHx8ICcnLAogICAgICB9KSwKICAgICk7CiAgfQp9Cg==
+import { Body, Controller, Get, Post, Query, UseGuards } from '@nestjs/common';
+import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
+import { CurrentUser } from '../../common/decorators/current-user.decorator';
+import { ok } from '../../common/response.interceptor';
+import { ApprovalService, ApprovalUser } from './approval.service';
+
+/**
+ * 多级审批流控制器。
+ *
+ * 路由清单（挂在 /kuerp/approval/*，与通用表 /kuerp/:table/<标准动作> 不冲突）：
+ *   POST /kuerp/approval/submit    提交审批（按金额生成审批链）
+ *   POST /kuerp/approval/approve   审批通过（最后一级通过时自动过账）
+ *   POST /kuerp/approval/reject    审批驳回
+ *   GET  /kuerp/approval/status    某单据的审批进度（前端画进度条）
+ *   GET  /kuerp/approval/history   某单据的审批历史
+ *   GET  /kuerp/approval/todo      我的待办
+ *
+ * 鉴权说明：这里**只挂 JwtAuthGuard，不挂 RbacGuard**。
+ * 原因：approval 不是业务表，rbac 节点里不存在 kuerp/approval；
+ * 若强行挂上，非超管会被菜单级节点鉴权直接拦死，而审批权限本应由
+ * kuerp_approval_flow.role_id 精细控制（见 ApprovalService.canApprove）。
+ */
+@Controller('kuerp/approval')
+@UseGuards(JwtAuthGuard)
+export class ApprovalController {
+  constructor(private readonly svc: ApprovalService) {}
+
+  /**
+   * 提交审批。
+   * @param body { doc_table, doc_id }
+   * @param user 当前用户
+   */
+  @Post('submit')
+  async submit(@Body() body: any, @CurrentUser() user: ApprovalUser) {
+    const docTable = body?.doc_table || body?.docTable;
+    const docId = Number(body?.doc_id ?? body?.docId ?? 0);
+    return ok(await this.svc.submit(docTable, docId, user));
+  }
+
+  /**
+   * 审批通过。
+   * @param body { doc_table, doc_id, remark }
+   * @param user 当前用户
+   */
+  @Post('approve')
+  async approve(@Body() body: any, @CurrentUser() user: ApprovalUser) {
+    const docTable = body?.doc_table || body?.docTable;
+    const docId = Number(body?.doc_id ?? body?.docId ?? 0);
+    return ok(await this.svc.approve(docTable, docId, user, body?.remark || ''));
+  }
+
+  /**
+   * 审批驳回。
+   * @param body { doc_table, doc_id, remark }
+   * @param user 当前用户
+   */
+  @Post('reject')
+  async reject(@Body() body: any, @CurrentUser() user: ApprovalUser) {
+    const docTable = body?.doc_table || body?.docTable;
+    const docId = Number(body?.doc_id ?? body?.docId ?? 0);
+    return ok(await this.svc.reject(docTable, docId, user, body?.remark || ''));
+  }
+
+  /**
+   * 审批进度。
+   * @param q { doc_table, doc_id }
+   */
+  @Get('status')
+  async status(@Query() q: any) {
+    return ok(await this.svc.status(q?.doc_table || q?.docTable, Number(q?.doc_id ?? q?.docId ?? 0)));
+  }
+
+  /**
+   * 审批历史。
+   * @param q { doc_table, doc_id }
+   */
+  @Get('history')
+  async history(@Query() q: any) {
+    return ok(await this.svc.history(q?.doc_table || q?.docTable, Number(q?.doc_id ?? q?.docId ?? 0)));
+  }
+
+  /**
+   * 我的待办。
+   * @param q { page, limit, doc_table }
+   * @param user 当前用户
+   */
+  @Get('todo')
+  async todo(@Query() q: any, @CurrentUser() user: ApprovalUser) {
+    return ok(
+      await this.svc.todo(user, {
+        page: Number(q?.page) || 1,
+        limit: Number(q?.limit) || 20,
+        docTable: q?.doc_table || q?.docTable || '',
+      }),
+    );
+  }
+}

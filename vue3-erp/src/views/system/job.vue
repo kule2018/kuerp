@@ -1,1 +1,283 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImpvYi1wYWdlIj4KICAgIDxEc0NhcmQ+CiAgICAgIDx0ZW1wbGF0ZSAjdGl0bGU+5a6a5pe25L2c5LiaPC90ZW1wbGF0ZT4KCiAgICAgIDwhLS0g5b6u5L+h5Luk54mM54q25oCB5p2h77ya5bCP56iL5bqP55u45YWz5Yqf6IO955qE5YmN572u5p2h5Lu2IC0tPgogICAgICA8ZGl2IGNsYXNzPSJ0b2tlbiI+CiAgICAgICAgPERzVGFnIDpjb2xvcj0id2VjaGF0Lmhhc1Rva2VuID8gJ3N1Y2Nlc3MnIDogJ3dhcm5pbmcnIiBzaXplPSJzbSI+CiAgICAgICAgICB7eyB3ZWNoYXQuaGFzVG9rZW4gPyAnYWNjZXNzX3Rva2VuIOacieaViCcgOiAnYWNjZXNzX3Rva2VuIOacquiOt+WPlicgfX0KICAgICAgICA8L0RzVGFnPgogICAgICAgIDxzcGFuIHYtaWY9IndlY2hhdC5oYXNUb2tlbiIgY2xhc3M9InRva2VuX190eHQiPgogICAgICAgICAg5Ymp5L2ZIHt7IE1hdGguZmxvb3Iod2VjaGF0LnJlbWFpbiAvIDYwKSB9fSDliIbpkp/vvIh7eyB3ZWNoYXQudG9rZW5NYXNrIH1977yJCiAgICAgICAgPC9zcGFuPgogICAgICAgIDxzcGFuIHYtZWxzZSBjbGFzcz0idG9rZW5fX3R4dCBpcy13YXJuIj57eyB3ZWNoYXQubGFzdEVycm9yIHx8ICflsJrmnKrphY3nva7lsI/nqIvluo8gQXBwSUQgLyBBcHBTZWNyZXQnIH19PC9zcGFuPgogICAgICA8L2Rpdj4KCiAgICAgIDxEc1RhYmxlIDpjb2x1bW5zPSJjb2xzIiA6ZGF0YT0iam9icyIgcm93LWtleT0ibmFtZSIgOmxvYWRpbmc9ImxvYWRpbmciIDpzdHJpcGVkPSJ0cnVlIiBjbGFzcz0ibXQiPgogICAgICAgIDx0ZW1wbGF0ZSAjZW5hYmxlZD0ieyByb3cgfSI+CiAgICAgICAgICA8RHNUYWcgOmNvbG9yPSJyb3cuZW5hYmxlZCA/ICdzdWNjZXNzJyA6ICduZXV0cmFsJyIgc2l6ZT0ic20iPnt7IHJvdy5lbmFibGVkID8gJ+WQr+eUqCcgOiAn5YGc55SoJyB9fTwvRHNUYWc+CiAgICAgICAgPC90ZW1wbGF0ZT4KCiAgICAgICAgPHRlbXBsYXRlICNjcm9uPSJ7IHJvdyB9Ij4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJtb25vIj57eyByb3cuY3JvbiB9fTwvc3Bhbj4KICAgICAgICA8L3RlbXBsYXRlPgoKICAgICAgICA8dGVtcGxhdGUgI25leHRSdW5BdD0ieyByb3cgfSI+CiAgICAgICAgICA8c3BhbiBjbGFzcz0ibW9ubyI+e3sgcm93Lm5leHRSdW5BdCA/IGZtdFRpbWUocm93Lm5leHRSdW5BdCkgOiAn4oCUJyB9fTwvc3Bhbj4KICAgICAgICA8L3RlbXBsYXRlPgoKICAgICAgICA8dGVtcGxhdGUgI2xhc3RSdW5BdD0ieyByb3cgfSI+CiAgICAgICAgICA8c3BhbiBjbGFzcz0ibW9ubyI+e3sgcm93Lmxhc3RSdW5BdCA/IGZtdFRpbWUocm93Lmxhc3RSdW5BdCkgOiAn5pyq5omn6KGMJyB9fTwvc3Bhbj4KICAgICAgICA8L3RlbXBsYXRlPgoKICAgICAgICA8dGVtcGxhdGUgI2xhc3RNZXNzYWdlPSJ7IHJvdyB9Ij4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJtc2ciIDpjbGFzcz0ieyAnaXMtZXJyJzogIXJvdy5sYXN0U3VjY2VzcyB9Ij57eyByb3cubGFzdE1lc3NhZ2UgfHwgJ+KAlCcgfX08L3NwYW4+CiAgICAgICAgPC90ZW1wbGF0ZT4KCiAgICAgICAgPHRlbXBsYXRlICNfX2pvYl9vcD0ieyByb3cgfSI+CiAgICAgICAgICA8RHNCdXR0b24gc2l6ZT0ic20iIDpsb2FkaW5nPSJyb3cucnVubmluZyIgQGNsaWNrPSJydW5Kb2Iocm93KSI+56uL5Y2z5omn6KGMPC9Ec0J1dHRvbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L0RzVGFibGU+CgogICAgICA8cCBjbGFzcz0idGlwIj4KICAgICAgICDmj5DnpLrvvJrkvZzkuJrlvIDlhbPlnKjjgIzns7vnu5/lj4LmlbAg4oaSIOWumuaXtuS9nOS4muOAjemHjOWLvumAie+8iOWPguaVsOWQjSA8Y29kZT5qb2JfKjwvY29kZT7vvInjgIIKICAgICAgICDlgZznlKggPGNvZGU+am9iX3dlY2hhdF90b2tlbjwvY29kZT4g5ZCO5bCP56iL5bqP5o6l5Y+j5Lya6YCA5YyW5Li65q+P5qyh546w5Y+W5Luk54mM77yM6K+35rGC5piO5pi+5Y+Y5oWi44CCCiAgICAgIDwvcD4KICAgIDwvRHNDYXJkPgoKICAgIDxEc0NhcmQgY2xhc3M9Im10Ij4KICAgICAgPHRlbXBsYXRlICN0aXRsZT7miafooYzljoblj7I8L3RlbXBsYXRlPgogICAgICA8ZGl2IGNsYXNzPSJsb2ctYmFyIj4KICAgICAgICA8RHNTZWxlY3Qgdi1tb2RlbD0ibG9nSm9iIiA6b3B0aW9ucz0iam9iT3B0aW9ucyIgcGxhY2Vob2xkZXI9IuWFqOmDqOS9nOS4miIgY2xlYXJhYmxlIGNsYXNzPSJsb2ctc2VsIiBAdXBkYXRlOm1vZGVsVmFsdWU9ImxvYWRMb2dzIiAvPgogICAgICAgIDxEc0J1dHRvbiBAY2xpY2s9ImxvYWRMb2dzIj7liLfmlrA8L0RzQnV0dG9uPgogICAgICA8L2Rpdj4KCiAgICAgIDxEc1RhYmxlIDpjb2x1bW5zPSJsb2dDb2xzIiA6ZGF0YT0ibG9ncyIgcm93LWtleT0iaWQiIDpsb2FkaW5nPSJsb2dMb2FkaW5nIiA6c3RyaXBlZD0idHJ1ZSIgY2xhc3M9Im10Ij4KICAgICAgICA8dGVtcGxhdGUgI3N1Y2Nlc3M9Insgcm93IH0iPgogICAgICAgICAgPERzVGFnIDpjb2xvcj0icm93LnN1Y2Nlc3MgPyAnc3VjY2VzcycgOiAnZGFuZ2VyJyIgc2l6ZT0ic20iPnt7IHJvdy5zdWNjZXNzID8gJ+aIkOWKnycgOiAn5aSx6LSlJyB9fTwvRHNUYWc+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICA8dGVtcGxhdGUgI2NyZWF0ZXRpbWU9Insgcm93IH0iPgogICAgICAgICAgPHNwYW4gY2xhc3M9Im1vbm8iPnt7IGZtdFRpbWUocm93LmNyZWF0ZXRpbWUpIH19PC9zcGFuPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPHRlbXBsYXRlICNtZXNzYWdlPSJ7IHJvdyB9Ij4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJtc2ciPnt7IHJvdy5tZXNzYWdlIH19PC9zcGFuPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvRHNUYWJsZT4KCiAgICAgIDxEc1BhZ2luYXRpb24KICAgICAgICBjbGFzcz0ibXQiCiAgICAgICAgOmN1cnJlbnQtcGFnZT0ibG9nUGFnZSIKICAgICAgICA6cGFnZS1zaXplPSJsb2dTaXplIgogICAgICAgIDp0b3RhbD0ibG9nVG90YWwiCiAgICAgICAgOnBhZ2Utc2l6ZXM9IlsxMCwgMjAsIDUwLCAxMDBdIgogICAgICAgIGxheW91dD0idG90YWwsIHNpemVzLCBwcmV2LCBwYWdlciwgbmV4dCIKICAgICAgICBAdXBkYXRlOmN1cnJlbnRQYWdlPSJvbkxvZ1BhZ2UiCiAgICAgICAgQHVwZGF0ZTpwYWdlU2l6ZT0ib25Mb2dTaXplIgogICAgICAvPgogICAgPC9Ec0NhcmQ+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwPgovKioKICog5a6a5pe25L2c5Lia566h55CG6aG144CCCiAqCiAqIOWvueW6lOWQjuerryBHRVQgL3N5c3RlbS9qb2IvaW5kZXjvvIjkvZzkuJrmuIXljZUgKyDlvq7kv6Hku6TniYznirbmgIHvvInjgIEKICogUE9TVCAvc3lzdGVtL2pvYi9ydW7vvIjmiYvliqjop6blj5HvvInjgIFHRVQgL3N5c3RlbS9qb2IvbG9nc++8iOaJp+ihjOWOhuWPsu+8ieOAggogKiDku4XotoXnuqfnrqHnkIblkZjlj6/orr/pl67vvIjlkI7nq6/lvLrliLbvvInjgIIKICoKICog55So6YCU77ya6L+Q57u05pe256Gu6K6k44CM5L2c5Lia5pyJ5rKh5pyJ5Zyo6LeR44CB6LeR5oiQ5Yqf5rKh5pyJ44CB5LiL5qyh5LuA5LmI5pe25YCZ6LeR44CN77yMCiAqIOS7peWPiuWcqOmFjee9ruWPmOabtOWQjuaJi+WKqOihpei3keS4gOasoe+8iOS+i+WmguWImuWvvOWFpeWVhuWTgemihOitpuiuvue9ru+8jOS4jeaDs+etieWIsOaYjuWkqSAwODowMO+8ieOAggogKi8KaW1wb3J0IHsgcmVmLCBjb21wdXRlZCwgb25Nb3VudGVkIH0gZnJvbSAndnVlJzsKaW1wb3J0IHsgbWVzc2FnZSB9IGZyb20gJ0AvdXRpbHMvdWknOwppbXBvcnQgcmVxdWVzdCBmcm9tICdAL3V0aWxzL3JlcXVlc3QnOwoKLyoqIOS9nOS4mua4heWNlSAqLwpjb25zdCBqb2JzID0gcmVmKFtdKTsKY29uc3QgbG9hZGluZyA9IHJlZihmYWxzZSk7CgovKiog5b6u5L+h5Luk54mM54q25oCBICovCmNvbnN0IHdlY2hhdCA9IHJlZih7IGhhc1Rva2VuOiBmYWxzZSwgcmVtYWluOiAwLCB0b2tlbk1hc2s6ICcnLCBsYXN0RXJyb3I6ICcnIH0pOwoKLyoqIOaJp+ihjOWOhuWPsiAqLwpjb25zdCBsb2dzID0gcmVmKFtdKTsKY29uc3QgbG9nVG90YWwgPSByZWYoMCk7CmNvbnN0IGxvZ1BhZ2UgPSByZWYoMSk7CmNvbnN0IGxvZ1NpemUgPSByZWYoMjApOwpjb25zdCBsb2dKb2IgPSByZWYoJycpOwpjb25zdCBsb2dMb2FkaW5nID0gcmVmKGZhbHNlKTsKCi8qKiDkvZzkuJrkuIvmi4npgInpobnvvIjnlLHkvZzkuJrmuIXljZXmtL7nlJ/vvIkgKi8KY29uc3Qgam9iT3B0aW9ucyA9IGNvbXB1dGVkKCgpID0+IGpvYnMudmFsdWUubWFwKChqKSA9PiAoeyBsYWJlbDogai50aXRsZSwgdmFsdWU6IGoubmFtZSB9KSkpOwoKLyoqIOS9nOS4muihqOWIl+mFjee9riAqLwpjb25zdCBjb2xzID0gWwogIHsga2V5OiAndGl0bGUnLCB0aXRsZTogJ+S9nOS4micsIHdpZHRoOiAnMTgwcHgnIH0sCiAgeyBrZXk6ICdjcm9uJywgdGl0bGU6ICdDcm9uJywgd2lkdGg6ICcxMzBweCcgfSwKICB7IGtleTogJ2VuYWJsZWQnLCB0aXRsZTogJ+eKtuaAgScsIHdpZHRoOiAnODBweCcgfSwKICB7IGtleTogJ25leHRSdW5BdCcsIHRpdGxlOiAn5LiL5qyh5omn6KGMJywgd2lkdGg6ICcxNjhweCcgfSwKICB7IGtleTogJ2xhc3RSdW5BdCcsIHRpdGxlOiAn5LiK5qyh5omn6KGMJywgd2lkdGg6ICcxNjhweCcgfSwKICB7IGtleTogJ2xhc3RNZXNzYWdlJywgdGl0bGU6ICfkuIrmrKHnu5PmnpwnLCB3aWR0aDogJzMyMHB4JyB9LAogIHsga2V5OiAnX19qb2Jfb3AnLCB0aXRsZTogJ+aTjeS9nCcsIHdpZHRoOiAnMTEwcHgnLCBhbGlnbjogJ3JpZ2h0JyB9LApdOwoKLyoqIOWOhuWPsuihqOWIl+mFjee9riAqLwpjb25zdCBsb2dDb2xzID0gWwogIHsga2V5OiAnY3JlYXRldGltZScsIHRpdGxlOiAn5omn6KGM5pe26Ze0Jywgd2lkdGg6ICcxNjhweCcgfSwKICB7IGtleTogJ2pvYl90aXRsZScsIHRpdGxlOiAn5L2c5LiaJywgd2lkdGg6ICcxNjBweCcgfSwKICB7IGtleTogJ3N1Y2Nlc3MnLCB0aXRsZTogJ+e7k+aenCcsIHdpZHRoOiAnODBweCcgfSwKICB7IGtleTogJ2Nvc3RfbXMnLCB0aXRsZTogJ+iAl+aXtihtcyknLCB3aWR0aDogJzEwMHB4JywgYWxpZ246ICdyaWdodCcgfSwKICB7IGtleTogJ21lc3NhZ2UnLCB0aXRsZTogJ+aRmOimgScsIHdpZHRoOiAnNDIwcHgnIH0sCl07CgovKioKICog56eS57qn5pe26Ze05oiz6L2sIFlZWVktTU0tREQgSEg6bW06c3PjgIIKICogQHBhcmFtIHtudW1iZXJ9IHRzIOaXtumXtOaIswogKiBAcmV0dXJucyB7c3RyaW5nfSDmoLzlvI/ljJbml7bpl7QKICovCmZ1bmN0aW9uIGZtdFRpbWUodHMpIHsKICBjb25zdCBuID0gTnVtYmVyKHRzKTsKICBpZiAoIW4pIHJldHVybiAn4oCUJzsKICBjb25zdCBkID0gbmV3IERhdGUobiAqIDEwMDApOwogIGNvbnN0IHAgPSAoeCkgPT4gU3RyaW5nKHgpLnBhZFN0YXJ0KDIsICcwJyk7CiAgcmV0dXJuIGAke2QuZ2V0RnVsbFllYXIoKX0tJHtwKGQuZ2V0TW9udGgoKSArIDEpfS0ke3AoZC5nZXREYXRlKCkpfSAke3AoZC5nZXRIb3VycygpKX06JHtwKGQuZ2V0TWludXRlcygpKX06JHtwKGQuZ2V0U2Vjb25kcygpKX1gOwp9CgovKioKICog5ouJ5Y+W5L2c5Lia5riF5Y2V5LiO5b6u5L+h5Luk54mM54q25oCB44CCCiAqIEByZXR1cm5zIHtQcm9taXNlPHZvaWQ+fQogKi8KYXN5bmMgZnVuY3Rpb24gbG9hZCgpIHsKICBsb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgY29uc3QgciA9IGF3YWl0IHJlcXVlc3QuZ2V0KCcvc3lzdGVtL2pvYi9pbmRleCcpOwogICAgam9icy52YWx1ZSA9IHI/LmpvYnMgfHwgW107CiAgICB3ZWNoYXQudmFsdWUgPSByPy53ZWNoYXQgfHwgd2VjaGF0LnZhbHVlOwogIH0gZmluYWxseSB7CiAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9CgovKioKICog5ouJ5Y+W5omn6KGM5Y6G5Y+y44CCCiAqIEByZXR1cm5zIHtQcm9taXNlPHZvaWQ+fQogKi8KYXN5bmMgZnVuY3Rpb24gbG9hZExvZ3MoKSB7CiAgbG9nTG9hZGluZy52YWx1ZSA9IHRydWU7CiAgdHJ5IHsKICAgIGNvbnN0IHBhcmFtcyA9IHsgcGFnZTogbG9nUGFnZS52YWx1ZSwgbGltaXQ6IGxvZ1NpemUudmFsdWUgfTsKICAgIGlmIChsb2dKb2IudmFsdWUpIHBhcmFtcy5uYW1lID0gbG9nSm9iLnZhbHVlOwogICAgY29uc3QgciA9IGF3YWl0IHJlcXVlc3QuZ2V0KCcvc3lzdGVtL2pvYi9sb2dzJywgeyBwYXJhbXMgfSk7CiAgICBsb2dzLnZhbHVlID0gcj8ubGlzdCB8fCBbXTsKICAgIGxvZ1RvdGFsLnZhbHVlID0gTnVtYmVyKHI/LmNvdW50IHx8IDApOwogIH0gZmluYWxseSB7CiAgICBsb2dMb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9CgovKioKICog57+76aG177yI5Y6G5Y+y77yJ44CCCiAqIEBwYXJhbSB7bnVtYmVyfSBwIOmhteeggQogKi8KZnVuY3Rpb24gb25Mb2dQYWdlKHApIHsKICBsb2dQYWdlLnZhbHVlID0gcDsKICBsb2FkTG9ncygpOwp9CgovKioKICog5pS55q+P6aG15p2h5pWw77yI5Y6G5Y+y77yJ44CCCiAqIEBwYXJhbSB7bnVtYmVyfSBzIOadoeaVsAogKi8KZnVuY3Rpb24gb25Mb2dTaXplKHMpIHsKICBsb2dTaXplLnZhbHVlID0gczsKICBsb2dQYWdlLnZhbHVlID0gMTsKICBsb2FkTG9ncygpOwp9CgovKioKICog5omL5Yqo6Kem5Y+R5LiA5Liq5L2c5Lia77yM6ZqP5ZCO5Yi35paw5riF5Y2V5LiO5Y6G5Y+y44CCCiAqIEBwYXJhbSB7b2JqZWN0fSByb3cg5L2c5Lia6KGMCiAqIEByZXR1cm5zIHtQcm9taXNlPHZvaWQ+fQogKi8KYXN5bmMgZnVuY3Rpb24gcnVuSm9iKHJvdykgewogIHJvdy5ydW5uaW5nID0gdHJ1ZTsKICB0cnkgewogICAgY29uc3QgciA9IGF3YWl0IHJlcXVlc3QucG9zdCgnL3N5c3RlbS9qb2IvcnVuJywgeyBuYW1lOiByb3cubmFtZSB9KTsKICAgIGNvbnN0IHJlcyA9IHI/LnJlc3VsdDsKICAgIGlmIChyZXM/Lm1lc3NhZ2UpIG1lc3NhZ2Uuc3VjY2VzcyhyZXMubWVzc2FnZSk7CiAgICBlbHNlIG1lc3NhZ2Uud2FybmluZygn5L2c5Lia5q2j5Zyo5omn6KGM5Lit77yM6K+356iN5ZCO5Yi35paw5p+l55yLJyk7CiAgICBhd2FpdCBsb2FkKCk7CiAgICBsb2dKb2IudmFsdWUgPSByb3cubmFtZTsKICAgIGxvZ1BhZ2UudmFsdWUgPSAxOwogICAgYXdhaXQgbG9hZExvZ3MoKTsKICB9IGZpbmFsbHkgewogICAgcm93LnJ1bm5pbmcgPSBmYWxzZTsKICB9Cn0KCm9uTW91bnRlZCgoKSA9PiB7CiAgbG9hZCgpOwogIGxvYWRMb2dzKCk7Cn0pOwo8L3NjcmlwdD4KCjxzdHlsZSBzY29wZWQ+Ci5qb2ItcGFnZSB7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIGdhcDogMTJweDsKfQoKLyog5Luk54mM54q25oCB5p2hICovCi50b2tlbiB7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogMTBweDsKICBwYWRkaW5nOiAxMHB4IDEycHg7CiAgYm9yZGVyLXJhZGl1czogdmFyKC0tZHMtcmFkaXVzKTsKICBiYWNrZ3JvdW5kOiB2YXIoLS1kcy1iZy1zb2Z0KTsKICBmb250LXNpemU6IDEzcHg7Cn0KLnRva2VuX190eHQgeyBjb2xvcjogdmFyKC0tZHMtdGV4dC0yKTsgfQoudG9rZW5fX3R4dC5pcy13YXJuIHsgY29sb3I6IHZhcigtLWRzLXdhcm5pbmcsICNiNDUzMDkpOyB9CgoubW9ubyB7CiAgZm9udC12YXJpYW50LW51bWVyaWM6IHRhYnVsYXItbnVtczsKICBmb250LWZhbWlseTogdWktbW9ub3NwYWNlLCBTRk1vbm8tUmVndWxhciwgTWVubG8sIENvbnNvbGFzLCBtb25vc3BhY2U7CiAgZm9udC1zaXplOiAxMi41cHg7Cn0KLm1zZyB7CiAgZGlzcGxheTogaW5saW5lLWJsb2NrOwogIG1heC13aWR0aDogMTAwJTsKICBvdmVyZmxvdzogaGlkZGVuOwogIHRleHQtb3ZlcmZsb3c6IGVsbGlwc2lzOwogIHdoaXRlLXNwYWNlOiBub3dyYXA7CiAgZm9udC1zaXplOiAxMi41cHg7CiAgY29sb3I6IHZhcigtLWRzLXRleHQtMik7Cn0KLm1zZy5pcy1lcnIgeyBjb2xvcjogdmFyKC0tZHMtZGFuZ2VyLCAjZDkzMDI2KTsgfQoKLnRpcCB7CiAgbWFyZ2luOiAxMnB4IDAgMDsKICBmb250LXNpemU6IDEycHg7CiAgbGluZS1oZWlnaHQ6IDEuNzsKICBjb2xvcjogdmFyKC0tZHMtdGV4dC0zKTsKfQoudGlwIGNvZGUgewogIHBhZGRpbmc6IDFweCA1cHg7CiAgYm9yZGVyLXJhZGl1czogNHB4OwogIGJhY2tncm91bmQ6IHZhcigtLWRzLWJnLXNvZnQpOwogIGZvbnQtZmFtaWx5OiB1aS1tb25vc3BhY2UsIFNGTW9uby1SZWd1bGFyLCBNZW5sbywgQ29uc29sYXMsIG1vbm9zcGFjZTsKfQoKLmxvZy1iYXIgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDhweDsKfQoubG9nLXNlbCB7IHdpZHRoOiAxODBweDsgfQoKLm10IHsgbWFyZ2luLXRvcDogMTJweDsgfQo8L3N0eWxlPgo=
+<template>
+  <div class="job-page">
+    <DsCard>
+      <template #title>定时作业</template>
+
+      <!-- 微信令牌状态条：小程序相关功能的前置条件 -->
+      <div class="token">
+        <DsTag :color="wechat.hasToken ? 'success' : 'warning'" size="sm">
+          {{ wechat.hasToken ? 'access_token 有效' : 'access_token 未获取' }}
+        </DsTag>
+        <span v-if="wechat.hasToken" class="token__txt">
+          剩余 {{ Math.floor(wechat.remain / 60) }} 分钟（{{ wechat.tokenMask }}）
+        </span>
+        <span v-else class="token__txt is-warn">{{ wechat.lastError || '尚未配置小程序 AppID / AppSecret' }}</span>
+      </div>
+
+      <DsTable :columns="cols" :data="jobs" row-key="name" :loading="loading" :striped="true" class="mt">
+        <template #enabled="{ row }">
+          <DsTag :color="row.enabled ? 'success' : 'neutral'" size="sm">{{ row.enabled ? '启用' : '停用' }}</DsTag>
+        </template>
+
+        <template #cron="{ row }">
+          <span class="mono">{{ row.cron }}</span>
+        </template>
+
+        <template #nextRunAt="{ row }">
+          <span class="mono">{{ row.nextRunAt ? fmtTime(row.nextRunAt) : '—' }}</span>
+        </template>
+
+        <template #lastRunAt="{ row }">
+          <span class="mono">{{ row.lastRunAt ? fmtTime(row.lastRunAt) : '未执行' }}</span>
+        </template>
+
+        <template #lastMessage="{ row }">
+          <span class="msg" :class="{ 'is-err': !row.lastSuccess }">{{ row.lastMessage || '—' }}</span>
+        </template>
+
+        <template #__job_op="{ row }">
+          <DsButton size="sm" :loading="row.running" @click="runJob(row)">立即执行</DsButton>
+        </template>
+      </DsTable>
+
+      <p class="tip">
+        提示：作业开关在「系统参数 → 定时作业」里勾选（参数名 <code>job_*</code>）。
+        停用 <code>job_wechat_token</code> 后小程序接口会退化为每次现取令牌，请求明显变慢。
+      </p>
+    </DsCard>
+
+    <DsCard class="mt">
+      <template #title>执行历史</template>
+      <div class="log-bar">
+        <DsSelect v-model="logJob" :options="jobOptions" placeholder="全部作业" clearable class="log-sel" @update:modelValue="loadLogs" />
+        <DsButton @click="loadLogs">刷新</DsButton>
+      </div>
+
+      <DsTable :columns="logCols" :data="logs" row-key="id" :loading="logLoading" :striped="true" class="mt">
+        <template #success="{ row }">
+          <DsTag :color="row.success ? 'success' : 'danger'" size="sm">{{ row.success ? '成功' : '失败' }}</DsTag>
+        </template>
+        <template #createtime="{ row }">
+          <span class="mono">{{ fmtTime(row.createtime) }}</span>
+        </template>
+        <template #message="{ row }">
+          <span class="msg">{{ row.message }}</span>
+        </template>
+      </DsTable>
+
+      <DsPagination
+        class="mt"
+        :current-page="logPage"
+        :page-size="logSize"
+        :total="logTotal"
+        :page-sizes="[10, 20, 50, 100]"
+        layout="total, sizes, prev, pager, next"
+        @update:currentPage="onLogPage"
+        @update:pageSize="onLogSize"
+      />
+    </DsCard>
+  </div>
+</template>
+
+<script setup>
+/**
+ * 定时作业管理页。
+ *
+ * 对应后端 GET /system/job/index（作业清单 + 微信令牌状态）、
+ * POST /system/job/run（手动触发）、GET /system/job/logs（执行历史）。
+ * 仅超级管理员可访问（后端强制）。
+ *
+ * 用途：运维时确认「作业有没有在跑、跑成功没有、下次什么时候跑」，
+ * 以及在配置变更后手动补跑一次（例如刚导入商品预警设置，不想等到明天 08:00）。
+ */
+import { ref, computed, onMounted } from 'vue';
+import { message } from '@/utils/ui';
+import request from '@/utils/request';
+
+/** 作业清单 */
+const jobs = ref([]);
+const loading = ref(false);
+
+/** 微信令牌状态 */
+const wechat = ref({ hasToken: false, remain: 0, tokenMask: '', lastError: '' });
+
+/** 执行历史 */
+const logs = ref([]);
+const logTotal = ref(0);
+const logPage = ref(1);
+const logSize = ref(20);
+const logJob = ref('');
+const logLoading = ref(false);
+
+/** 作业下拉选项（由作业清单派生） */
+const jobOptions = computed(() => jobs.value.map((j) => ({ label: j.title, value: j.name })));
+
+/** 作业表列配置 */
+const cols = [
+  { key: 'title', title: '作业', width: '180px' },
+  { key: 'cron', title: 'Cron', width: '130px' },
+  { key: 'enabled', title: '状态', width: '80px' },
+  { key: 'nextRunAt', title: '下次执行', width: '168px' },
+  { key: 'lastRunAt', title: '上次执行', width: '168px' },
+  { key: 'lastMessage', title: '上次结果', width: '320px' },
+  { key: '__job_op', title: '操作', width: '110px', align: 'right' },
+];
+
+/** 历史表列配置 */
+const logCols = [
+  { key: 'createtime', title: '执行时间', width: '168px' },
+  { key: 'job_title', title: '作业', width: '160px' },
+  { key: 'success', title: '结果', width: '80px' },
+  { key: 'cost_ms', title: '耗时(ms)', width: '100px', align: 'right' },
+  { key: 'message', title: '摘要', width: '420px' },
+];
+
+/**
+ * 秒级时间戳转 YYYY-MM-DD HH:mm:ss。
+ * @param {number} ts 时间戳
+ * @returns {string} 格式化时间
+ */
+function fmtTime(ts) {
+  const n = Number(ts);
+  if (!n) return '—';
+  const d = new Date(n * 1000);
+  const p = (x) => String(x).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}`;
+}
+
+/**
+ * 拉取作业清单与微信令牌状态。
+ * @returns {Promise<void>}
+ */
+async function load() {
+  loading.value = true;
+  try {
+    const r = await request.get('/system/job/index');
+    jobs.value = r?.jobs || [];
+    wechat.value = r?.wechat || wechat.value;
+  } finally {
+    loading.value = false;
+  }
+}
+
+/**
+ * 拉取执行历史。
+ * @returns {Promise<void>}
+ */
+async function loadLogs() {
+  logLoading.value = true;
+  try {
+    const params = { page: logPage.value, limit: logSize.value };
+    if (logJob.value) params.name = logJob.value;
+    const r = await request.get('/system/job/logs', { params });
+    logs.value = r?.list || [];
+    logTotal.value = Number(r?.count || 0);
+  } finally {
+    logLoading.value = false;
+  }
+}
+
+/**
+ * 翻页（历史）。
+ * @param {number} p 页码
+ */
+function onLogPage(p) {
+  logPage.value = p;
+  loadLogs();
+}
+
+/**
+ * 改每页条数（历史）。
+ * @param {number} s 条数
+ */
+function onLogSize(s) {
+  logSize.value = s;
+  logPage.value = 1;
+  loadLogs();
+}
+
+/**
+ * 手动触发一个作业，随后刷新清单与历史。
+ * @param {object} row 作业行
+ * @returns {Promise<void>}
+ */
+async function runJob(row) {
+  row.running = true;
+  try {
+    const r = await request.post('/system/job/run', { name: row.name });
+    const res = r?.result;
+    if (res?.message) message.success(res.message);
+    else message.warning('作业正在执行中，请稍后刷新查看');
+    await load();
+    logJob.value = row.name;
+    logPage.value = 1;
+    await loadLogs();
+  } finally {
+    row.running = false;
+  }
+}
+
+onMounted(() => {
+  load();
+  loadLogs();
+});
+</script>
+
+<style scoped>
+.job-page {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* 令牌状态条 */
+.token {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border-radius: var(--ds-radius);
+  background: var(--ds-bg-soft);
+  font-size: 13px;
+}
+.token__txt { color: var(--ds-text-2); }
+.token__txt.is-warn { color: var(--ds-warning, #b45309); }
+
+.mono {
+  font-variant-numeric: tabular-nums;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 12.5px;
+}
+.msg {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12.5px;
+  color: var(--ds-text-2);
+}
+.msg.is-err { color: var(--ds-danger, #d93026); }
+
+.tip {
+  margin: 12px 0 0;
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--ds-text-3);
+}
+.tip code {
+  padding: 1px 5px;
+  border-radius: 4px;
+  background: var(--ds-bg-soft);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.log-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.log-sel { width: 180px; }
+
+.mt { margin-top: 12px; }
+</style>

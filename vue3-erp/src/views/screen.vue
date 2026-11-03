@@ -1,1 +1,242 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNjcmVlbiI+CiAgICA8IS0tIOmhtumDqOagh+mimOagjyAtLT4KICAgIDxkaXYgY2xhc3M9InNjcmVlbi1oZWFkIj4KICAgICAgPGgxPui/m+mUgOWtmOaVsOaNruWkp+WxjzwvaDE+CiAgICAgIDxzcGFuIGNsYXNzPSJ0aW1lIj57eyBub3cgfX08L3NwYW4+CiAgICA8L2Rpdj4KCiAgICA8IS0tIOaguOW/g+aMh+agh+WNoSAtLT4KICAgIDxkaXYgY2xhc3M9ImtwaS1yb3ciPgogICAgICA8ZGl2IGNsYXNzPSJrcGkiIHYtZm9yPSJrIGluIGtwaXMiIDprZXk9ImsubGFiZWwiPgogICAgICAgIDxkaXYgY2xhc3M9ImtwaS1sYWJlbCI+e3sgay5sYWJlbCB9fTwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImtwaS12YWx1ZSIgOnN0eWxlPSJ7IGNvbG9yOiBrLmNvbG9yIH0iPnt7IGsudmFsdWUgfX08L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IGNsYXNzPSJjaGFydC1yb3ciPgogICAgICA8IS0tIOmUgOWUrui2i+WKv++8iOaMiemUgOi0p+iuouWNlemHkemine+8jOe6ryBTVkcg5oqY57q/77yJIC0tPgogICAgICA8ZGl2IGNsYXNzPSJwYW5lbCI+CiAgICAgICAgPGRpdiBjbGFzcz0icGFuZWwtdGl0bGUiPumUgOWUrui2i+WKv++8iOi/kSAxMiDnrJTplIDotKforqLljZXph5Hpop3vvIk8L2Rpdj4KICAgICAgICA8c3ZnIHYtaWY9InNhbGVzVHJlbmQubGVuZ3RoIiB2aWV3Qm94PSIwIDAgNjAwIDIyMCIgY2xhc3M9ImNoYXJ0Ij4KICAgICAgICAgIDxwb2x5bGluZSA6cG9pbnRzPSJ0cmVuZFBvaW50cyIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZTc0YzNjIiBzdHJva2Utd2lkdGg9IjIuNSIgLz4KICAgICAgICAgIDxjaXJjbGUgdi1mb3I9IihwLCBpKSBpbiB0cmVuZERvdHMiIDprZXk9ImkiIDpjeD0icC54IiA6Y3k9InAueSIgcj0iMyIgZmlsbD0iI2U3NGMzYyIgLz4KICAgICAgICA8L3N2Zz4KICAgICAgICA8RHNFbXB0eSB2LWVsc2UgdGl0bGU9IuaaguaXoOmUgOi0p+iuouWNleaVsOaNriIgIC8+CiAgICAgIDwvZGl2PgoKICAgICAgPCEtLSDllYblk4HliIbnsbvljaDmr5TvvIjmnaHlvaLvvIkgLS0+CiAgICAgIDxkaXYgY2xhc3M9InBhbmVsIj4KICAgICAgICA8ZGl2IGNsYXNzPSJwYW5lbC10aXRsZSI+5ZWG5ZOB5YiG57G75pWw6YeP5Y2g5q+UPC9kaXY+CiAgICAgICAgPGRpdiB2LWlmPSJ0eXBlQmFycy5sZW5ndGgiIGNsYXNzPSJiYXJzIj4KICAgICAgICAgIDxkaXYgdi1mb3I9ImIgaW4gdHlwZUJhcnMiIDprZXk9ImIubGFiZWwiIGNsYXNzPSJiYXItcm93Ij4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImJhci1sYWJlbCI+e3sgYi5sYWJlbCB9fTwvc3Bhbj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iYmFyLXRyYWNrIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJiYXItZmlsbCIgOnN0eWxlPSJ7IHdpZHRoOiBiLnBjdCArICclJyB9IiAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImJhci1udW0iPnt7IGIudmFsdWUgfX08L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8RHNFbXB0eSB2LWVsc2UgdGl0bGU9IuaaguaXoOWVhuWTgeaVsOaNriIgIC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPGRpdiBjbGFzcz0iY2hhcnQtcm93Ij4KICAgICAgPCEtLSDlupPlrZggVE9QMTAgLS0+CiAgICAgIDxkaXYgY2xhc3M9InBhbmVsIj4KICAgICAgICA8ZGl2IGNsYXNzPSJwYW5lbC10aXRsZSI+5bqT5a2Y5pWw6YePIFRPUDEwPC9kaXY+CiAgICAgICAgPGRpdiB2LWlmPSJzdG9ja0JhcnMubGVuZ3RoIiBjbGFzcz0iYmFycyI+CiAgICAgICAgICA8ZGl2IHYtZm9yPSJiIGluIHN0b2NrQmFycyIgOmtleT0iYi5sYWJlbCIgY2xhc3M9ImJhci1yb3ciPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iYmFyLWxhYmVsIiA6dGl0bGU9ImIubGFiZWwiPnt7IGIubGFiZWwgfX08L3NwYW4+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImJhci10cmFjayI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iYmFyLWZpbGwgZ3JlZW4iIDpzdHlsZT0ieyB3aWR0aDogYi5wY3QgKyAnJScgfSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJiYXItbnVtIj57eyBiLnZhbHVlIH19PC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPERzRW1wdHkgdi1lbHNlIHRpdGxlPSLmmoLml6DlupPlrZjmlbDmja4iICAvPgogICAgICA8L2Rpdj4KCiAgICAgIDwhLS0g6LWE6YeR6LSm5oi35L2Z6aKdIC0tPgogICAgICA8ZGl2IGNsYXNzPSJwYW5lbCI+CiAgICAgICAgPGRpdiBjbGFzcz0icGFuZWwtdGl0bGUiPui1hOmHkei0puaIt+S9meminTwvZGl2PgogICAgICAgIDxEc1RhYmxlIDpjb2x1bW5zPSJhY2NvdW50Q29scyIgOmRhdGE9ImFjY291bnRzIiByb3cta2V5PSJpZCIgc3RyaXBlZD4KICAgICAgICAgIDx0ZW1wbGF0ZSAjYmFsYW5jZT0ieyByb3cgfSI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJtb25leSI+wqV7eyBmbXQocm93LmJhbGFuY2UpIH19PC9zcGFuPgogICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICA8L0RzVGFibGU+CiAgICAgICAgPERzRW1wdHkgdi1pZj0iIWFjY291bnRzLmxlbmd0aCIgdGl0bGU9IuaaguaXoOi0puaIt+aVsOaNriIgIC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPCEtLSDpooTorabliJfooaggLS0+CiAgICA8ZGl2IGNsYXNzPSJwYW5lbCB3aWRlIj4KICAgICAgPGRpdiBjbGFzcz0icGFuZWwtdGl0bGUiPuW6k+WtmOmihOitpu+8iOW6k+WtmOS9juS6jumihOitpue6v++8iTwvZGl2PgogICAgICA8RHNUYWJsZSA6Y29sdW1ucz0id2FybkNvbHMiIDpkYXRhPSJ3YXJuaW5ncyIgcm93LWtleT0iaWQiIHN0cmlwZWQgLz4KICAgICAgPERzRW1wdHkgdi1pZj0iIXdhcm5pbmdzLmxlbmd0aCIgdGl0bGU9IuaaguaXoOmihOitpuWVhuWTgSIgIC8+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXA+Ci8qKgogKiDmlbDlrZflpKflsY/vvJrlm77lvaLljJblsZXnpLrov5vplIDlrZjmoLjlv4Pnu4/okKXmlbDmja7vvIgxOjEg6L+Y5Y6f5Y6f57O757uf44CM5pWw5a2X5aSn5bGP44CN6aG177yJ44CCCiAqIOaVsOaNruWFqOmDqOadpeiHqumAmueUqOWKqOaAgeihqOaOpeWPo++8iC9rdWVycC86dGFibGUvaW5kZXjvvInvvIzlm77ooajnlKjnuq8gU1ZHL0NTUyDnu5jliLbvvIwKICog5LiN5byV5YWl6aKd5aSW5Zu+6KGo5bqT77yM5L+d5oyB5YmN56uv5L6d6LWW6L276YeP44CCCiAqLwppbXBvcnQgeyByZWYsIGNvbXB1dGVkLCBvbk1vdW50ZWQsIG9uVW5tb3VudGVkIH0gZnJvbSAndnVlJzsKaW1wb3J0IHJlcXVlc3QgZnJvbSAnLi4vdXRpbHMvcmVxdWVzdCc7Cgpjb25zdCBub3cgPSByZWYoJycpOwpsZXQgdGltZXIgPSBudWxsOwoKLy8g4oCU4oCUIEtQSSDmjIfmoIcg4oCU4oCUCmNvbnN0IGtwaXMgPSByZWYoWwogIHsgbGFiZWw6ICfllYblk4HmgLvmlbAnLCB2YWx1ZTogJzAnLCBjb2xvcjogJyM0MDllZmYnIH0sCiAgeyBsYWJlbDogJ+WuouaIt+aAu+aVsCcsIHZhbHVlOiAnMCcsIGNvbG9yOiAnIzY3YzIzYScgfSwKICB7IGxhYmVsOiAn5L6b5bqU5ZWG5oC75pWwJywgdmFsdWU6ICcwJywgY29sb3I6ICcjZTZhMjNjJyB9LAogIHsgbGFiZWw6ICflupPlrZjpooToraYnLCB2YWx1ZTogJzAnLCBjb2xvcjogJyNmNTZjNmMnIH0sCl0pOwoKLy8g4oCU4oCUIOmUgOWUrui2i+WKv++8iOmHkemineW6j+WIl++8ieKAlOKAlApjb25zdCBzYWxlc1RyZW5kID0gcmVmKFtdKTsKY29uc3QgdHJlbmRQb2ludHMgPSBjb21wdXRlZCgoKSA9PgogIHNhbGVzVHJlbmQudmFsdWUubWFwKCh2LCBpKSA9PiB7CiAgICBjb25zdCBtYXggPSBNYXRoLm1heCguLi5zYWxlc1RyZW5kLnZhbHVlLCAxKTsKICAgIGNvbnN0IHggPSBzYWxlc1RyZW5kLnZhbHVlLmxlbmd0aCA+IDEgPyAoaSAvIChzYWxlc1RyZW5kLnZhbHVlLmxlbmd0aCAtIDEpKSAqIDU4MCArIDEwIDogMzAwOwogICAgY29uc3QgeSA9IDIwMCAtICh2IC8gbWF4KSAqIDE3MDsKICAgIHJldHVybiBgJHt4fSwke3l9YDsKICB9KS5qb2luKCcgJyksCik7CmNvbnN0IHRyZW5kRG90cyA9IGNvbXB1dGVkKCgpID0+CiAgc2FsZXNUcmVuZC52YWx1ZS5tYXAoKHYsIGkpID0+IHsKICAgIGNvbnN0IG1heCA9IE1hdGgubWF4KC4uLnNhbGVzVHJlbmQudmFsdWUsIDEpOwogICAgY29uc3QgeCA9IHNhbGVzVHJlbmQudmFsdWUubGVuZ3RoID4gMSA/IChpIC8gKHNhbGVzVHJlbmQudmFsdWUubGVuZ3RoIC0gMSkpICogNTgwICsgMTAgOiAzMDA7CiAgICBjb25zdCB5ID0gMjAwIC0gKHYgLyBtYXgpICogMTcwOwogICAgcmV0dXJuIHsgeCwgeSB9OwogIH0pLAopOwoKLy8g4oCU4oCUIOi1hOmHkei0puaIt+ihqOagvOWIl++8iOS9memineWIl+eUqOaPkuanvemrmOS6ru+8iSDigJTigJQKY29uc3QgYWNjb3VudENvbHMgPSBbCiAgeyBrZXk6ICdhY2NvdW50X25hbWUnLCB0aXRsZTogJ+i0puaItycgfSwKICB7IGtleTogJ2JhbGFuY2UnLCB0aXRsZTogJ+S9meminScsIGFsaWduOiAncmlnaHQnLCBzbG90OiB0cnVlIH0sCl07CgovLyDigJTigJQg5bqT5a2Y6aKE6KGo5qC85YiXIOKAlOKAlApjb25zdCB3YXJuQ29scyA9IFsKICB7IGtleTogJ2dvb2RzX25hbWUnLCB0aXRsZTogJ+WVhuWTgScgfSwKICB7IGtleTogJ3N0b2NrJywgdGl0bGU6ICflvZPliY3lupPlrZgnLCBhbGlnbjogJ3JpZ2h0Jywgd2lkdGg6ICcxMjBweCcgfSwKICB7IGtleTogJ21pbl9zdG9jaycsIHRpdGxlOiAn6aKE6K2m57q/JywgYWxpZ246ICdyaWdodCcsIHdpZHRoOiAnMTIwcHgnIH0sCl07CgovLyDigJTigJQg5YiG57G75Y2g5q+UIC8g5bqT5a2YIFRPUDEwIC8g6LSm5oi3IC8g6aKE6K2mIOKAlOKAlApjb25zdCB0eXBlQmFycyA9IHJlZihbXSk7CmNvbnN0IHN0b2NrQmFycyA9IHJlZihbXSk7CmNvbnN0IGFjY291bnRzID0gcmVmKFtdKTsKY29uc3Qgd2FybmluZ3MgPSByZWYoW10pOwoKLyoqIOaVsOWtl+WNg+WIhuS9jeagvOW8j+WMliAqLwpmdW5jdGlvbiBmbXQobikgewogIHJldHVybiBOdW1iZXIobiB8fCAwKS50b0xvY2FsZVN0cmluZygnemgtQ04nLCB7IG1heGltdW1GcmFjdGlvbkRpZ2l0czogMiB9KTsKfQoKLyoqIOaLieWPluafkOihqOWIl+ihqOeahOS+v+aNt+aWueazlSAqLwphc3luYyBmdW5jdGlvbiBmZXRjaFRhYmxlKGFwaSwgbGltaXQgPSAxMDAsIGV4dHJhID0ge30pIHsKICBjb25zdCByID0gYXdhaXQgcmVxdWVzdC5nZXQoYCR7YXBpfS9pbmRleGAsIHsgcGFyYW1zOiB7IHBhZ2U6IDEsIGxpbWl0LCAuLi5leHRyYSB9IH0pOwogIHJldHVybiByPy5saXN0IHx8IFtdOwp9Cgpvbk1vdW50ZWQoYXN5bmMgKCkgPT4gewogIC8vIOaXtumSnwogIGNvbnN0IHRpY2sgPSAoKSA9PiB7IG5vdy52YWx1ZSA9IG5ldyBEYXRlKCkudG9Mb2NhbGVTdHJpbmcoJ3poLUNOJywgeyBob3VyMTI6IGZhbHNlIH0pOyB9OwogIHRpY2soKTsKICB0aW1lciA9IHNldEludGVydmFsKHRpY2ssIDEwMDApOwoKICB0cnkgewogICAgLy8gS1BJ77ya5ZWG5ZOBL+WuouaIty/kvpvlupTllYbmgLvmlbDvvIhpbmRleCDmjqXlj6Pov5Tlm54gY291bnTvvIkKICAgIGNvbnN0IGNudCA9IGFzeW5jIChhcGkpID0+IHsKICAgICAgY29uc3QgciA9IGF3YWl0IHJlcXVlc3QuZ2V0KGAke2FwaX0vaW5kZXhgLCB7IHBhcmFtczogeyBwYWdlOiAxLCBsaW1pdDogMSB9IH0pOwogICAgICByZXR1cm4gTnVtYmVyKHI/LmNvdW50IHx8IDApOwogICAgfTsKICAgIGNvbnN0IFtnYywgY2MsIHNjXSA9IGF3YWl0IFByb21pc2UuYWxsKFtjbnQoJy9rdWVycC9nb29kcycpLCBjbnQoJy9rdWVycC9jdXN0b21lcnMnKSwgY250KCcva3VlcnAvc3VwcGxpZXJzJyldKTsKICAgIGtwaXMudmFsdWVbMF0udmFsdWUgPSBmbXQoZ2MpOwogICAga3Bpcy52YWx1ZVsxXS52YWx1ZSA9IGZtdChjYyk7CiAgICBrcGlzLnZhbHVlWzJdLnZhbHVlID0gZm10KHNjKTsKCiAgICAvLyDlupPlrZjpooTorabvvJrllYblk4HlupPlrZjkvY7kuo7pooTorabnur/vvIhtaW5fc3RvY2sgPiAwIOS4lCBzdG9jayA8IG1pbl9zdG9ja++8iQogICAgY29uc3QgZ29vZHNBbGwgPSBhd2FpdCBmZXRjaFRhYmxlKCcva3VlcnAvZ29vZHMnLCA1MDApOwogICAgd2FybmluZ3MudmFsdWUgPSBnb29kc0FsbC5maWx0ZXIoCiAgICAgIChnKSA9PiBOdW1iZXIoZy5taW5fc3RvY2spID4gMCAmJiBOdW1iZXIoZy5zdG9jaykgPCBOdW1iZXIoZy5taW5fc3RvY2spLAogICAgKTsKICAgIGtwaXMudmFsdWVbM10udmFsdWUgPSBmbXQod2FybmluZ3MudmFsdWUubGVuZ3RoKTsKCiAgICAvLyDplIDllK7otovlir/vvJrov5EgMTIg56yU6ZSA6LSn6K6i5Y2V6YeR6aKd77yIYWxsX21vbmV5IOS4uuWNleaNrumHkemineWIl++8iQogICAgY29uc3Qgb3JkZXJzID0gYXdhaXQgZmV0Y2hUYWJsZSgnL2t1ZXJwL2dvb2RzLXNhbGVzLW9yZGVyJywgMTIsIHsgc29ydDogJ2lkJywgb3JkZXI6ICdERVNDJyB9KTsKICAgIHNhbGVzVHJlbmQudmFsdWUgPSBvcmRlcnMKICAgICAgLnNsaWNlKDAsIDEyKQogICAgICAucmV2ZXJzZSgpCiAgICAgIC5tYXAoKG8pID0+IE51bWJlcihvLmFsbF9tb25leSB8fCBvLnJlYWxfbW9uZXkgfHwgMCkpOwoKICAgIC8vIOWVhuWTgeWIhuexu+WNoOavlAogICAgY29uc3QgZ29vZHNMaXN0ID0gYXdhaXQgZmV0Y2hUYWJsZSgnL2t1ZXJwL2dvb2RzJywgMjAwKTsKICAgIGNvbnN0IGJ5VHlwZSA9IHt9OwogICAgZ29vZHNMaXN0LmZvckVhY2goKGcpID0+IHsKICAgICAgY29uc3Qga2V5ID0gZy5nb29kc190eXBlX2lkIHx8IGcudHlwZV9pZCB8fCAn5pyq5YiG57G7JzsKICAgICAgYnlUeXBlW2tleV0gPSAoYnlUeXBlW2tleV0gfHwgMCkgKyAxOwogICAgfSk7CiAgICBjb25zdCBtYXhUeXBlID0gTWF0aC5tYXgoLi4uT2JqZWN0LnZhbHVlcyhieVR5cGUpLCAxKTsKICAgIHR5cGVCYXJzLnZhbHVlID0gT2JqZWN0LmVudHJpZXMoYnlUeXBlKQogICAgICAuc29ydCgoYSwgYikgPT4gYlsxXSAtIGFbMV0pCiAgICAgIC5zbGljZSgwLCA4KQogICAgICAubWFwKChbbGFiZWwsIHZhbHVlXSkgPT4gKHsgbGFiZWw6IGDliIbnsbske2xhYmVsfWAsIHZhbHVlLCBwY3Q6ICh2YWx1ZSAvIG1heFR5cGUpICogMTAwIH0pKTsKCiAgICAvLyDlupPlrZggVE9QMTDvvIhrdWVycF9nb29kc19zdG9jayDml6DllYblk4HlkI3liJfvvIznlKggZ29vZHNfY29kZSDmoIfor4bvvIkKICAgIGNvbnN0IHN0b2NrcyA9IGF3YWl0IGZldGNoVGFibGUoJy9rdWVycC9nb29kcy1zdG9jaycsIDIwMCk7CiAgICBzdG9ja0JhcnMudmFsdWUgPSBzdG9ja3MKICAgICAgLm1hcCgocykgPT4gKHsgbGFiZWw6IHMuZ29vZHNfY29kZSB8fCBg5ZWG5ZOBJHtzLmdvb2RzX2lkfWAsIHZhbHVlOiBOdW1iZXIocy5udW1iZXIgfHwgMCkgfSkpCiAgICAgIC5zb3J0KChhLCBiKSA9PiBiLnZhbHVlIC0gYS52YWx1ZSkKICAgICAgLnNsaWNlKDAsIDEwKQogICAgICAubWFwKChzLCBfLCBhcnIpID0+ICh7IC4uLnMsIHBjdDogKHMudmFsdWUgLyBNYXRoLm1heCguLi5hcnIubWFwKCh4KSA9PiB4LnZhbHVlKSwgMSkpICogMTAwIH0pKTsKCiAgICAvLyDotKbmiLfkvZnpop0KICAgIGFjY291bnRzLnZhbHVlID0gYXdhaXQgZmV0Y2hUYWJsZSgnL2t1ZXJwL2FjY291bnRzJywgNTApOwogIH0gY2F0Y2ggKGUpIHsKICAgIC8vIOWkp+Wxj+S4uuWxleekuuWei+mhtemdou+8jOWNleihqOW8guW4uOS4jeW9seWTjeaVtOS9k+a4suafkwogICAgY29uc29sZS53YXJuKCflpKflsY/mlbDmja7liqDovb3lvILluLgnLCBlKTsKICB9Cn0pOwoKb25Vbm1vdW50ZWQoKCkgPT4geyBpZiAodGltZXIpIGNsZWFySW50ZXJ2YWwodGltZXIpOyB9KTsKPC9zY3JpcHQ+Cgo8c3R5bGUgc2NvcGVkPgovKiDlpKflsY/mlbTkvZPkuLrmt7HoibLlupXvvIzkuI7ljp/ns7vnu5/mlbDlrZflpKflsY/po47moLzkuIDoh7QgKi8KLnNjcmVlbiB7IGJhY2tncm91bmQ6ICMwYjFhMmE7IG1pbi1oZWlnaHQ6IGNhbGMoMTAwdmggLSA2MHB4KTsgbWFyZ2luOiAtMjBweDsgcGFkZGluZzogMTZweCAyMHB4OyBjb2xvcjogI2RiZTdmMzsgfQouc2NyZWVuLWhlYWQgeyBkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogYmFzZWxpbmU7IGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsgfQouc2NyZWVuLWhlYWQgaDEgeyBmb250LXNpemU6IDI2cHg7IGxldHRlci1zcGFjaW5nOiA0cHg7IG1hcmdpbjogMDsgY29sb3I6ICNmZmY7IH0KLnRpbWUgeyBjb2xvcjogIzdmOWJiOTsgZm9udC1zaXplOiAxM3B4OyB9Ci5rcGktcm93IHsgZGlzcGxheTogZ3JpZDsgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoNCwgMWZyKTsgZ2FwOiAxNHB4OyBtYXJnaW46IDE2cHggMDsgfQoua3BpIHsgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDE4MGRlZywgIzE0MjkzZiwgIzBmMjEzNSk7IGJvcmRlcjogMXB4IHNvbGlkICMxZTNhNTU7IGJvcmRlci1yYWRpdXM6IDhweDsgcGFkZGluZzogMTRweCAxOHB4OyB9Ci5rcGktbGFiZWwgeyBmb250LXNpemU6IDEzcHg7IGNvbG9yOiAjOGZiMGNjOyB9Ci5rcGktdmFsdWUgeyBmb250LXNpemU6IDMwcHg7IGZvbnQtd2VpZ2h0OiA3MDA7IG1hcmdpbi10b3A6IDZweDsgfQouY2hhcnQtcm93IHsgZGlzcGxheTogZ3JpZDsgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnIgMWZyOyBnYXA6IDE0cHg7IG1hcmdpbi1ib3R0b206IDE0cHg7IH0KLnBhbmVsIHsgYmFja2dyb3VuZDogIzBmMjEzNTsgYm9yZGVyOiAxcHggc29saWQgIzFlM2E1NTsgYm9yZGVyLXJhZGl1czogOHB4OyBwYWRkaW5nOiAxNHB4IDE2cHg7IH0KLnBhbmVsLndpZGUgeyBtYXJnaW4tYm90dG9tOiAxNHB4OyB9Ci5wYW5lbC10aXRsZSB7IGZvbnQtc2l6ZTogMTVweDsgZm9udC13ZWlnaHQ6IDYwMDsgY29sb3I6ICNjZmUyZjU7IG1hcmdpbi1ib3R0b206IDEwcHg7IH0KLmNoYXJ0IHsgd2lkdGg6IDEwMCU7IGhlaWdodDogMjIwcHg7IH0KLmJhcnMgeyBkaXNwbGF5OiBmbGV4OyBmbGV4LWRpcmVjdGlvbjogY29sdW1uOyBnYXA6IDhweDsgfQouYmFyLXJvdyB7IGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGdhcDogMTBweDsgZm9udC1zaXplOiAxMnB4OyB9Ci5iYXItbGFiZWwgeyB3aWR0aDogMTEwcHg7IHRleHQtYWxpZ246IHJpZ2h0OyBjb2xvcjogIzlkYjhkMjsgb3ZlcmZsb3c6IGhpZGRlbjsgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7IHdoaXRlLXNwYWNlOiBub3dyYXA7IH0KLmJhci10cmFjayB7IGZsZXg6IDE7IGJhY2tncm91bmQ6ICMxNDI5M2Y7IGJvcmRlci1yYWRpdXM6IDNweDsgaGVpZ2h0OiAxNHB4OyBvdmVyZmxvdzogaGlkZGVuOyB9Ci5iYXItZmlsbCB7IGhlaWdodDogMTAwJTsgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDkwZGVnLCAjZTc0YzNjLCAjZjM5YzEyKTsgYm9yZGVyLXJhZGl1czogM3B4OyB9Ci5iYXItZmlsbC5ncmVlbiB7IGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCg5MGRlZywgIzI3YWU2MCwgIzJlY2M3MSk7IH0KLmJhci1udW0geyB3aWR0aDogNjBweDsgY29sb3I6ICNkYmU3ZjM7IH0KLyog5aSn5bGP5YaF55qE6KGo5qC8L+epuuaAgemFjeiJsuimhuWGmeS4uua3seiJsu+8iOimhuebliBkcyDnu4Tku7bnmoQgQ1NTIOWPmOmHj+S9nOeUqOWfn++8iSAqLwoucGFuZWwgOmRlZXAoLmRzLXRhYmxlLXdyYXApIHsgLS1kcy1iZy1lbGV2YXRlZDogIzBmMjEzNTsgLS1kcy1iZy1zb2Z0OiAjMTQyOTNmOyAtLWRzLWJnLWhvdmVyOiAjMTYzMDRhOyAtLWRzLWJvcmRlcjogIzFlM2E1NTsgLS1kcy1kaXZpZGVyOiAjMWUzYTU1OyAtLWRzLXRleHQ6ICNkYmU3ZjM7IC0tZHMtdGV4dC0yOiAjOWRiOGQyOyAtLWRzLXRleHQtMzogIzdmOWJiOTsgfQoucGFuZWwgOmRlZXAoLmRzLXRhYmxlKSB7IGJhY2tncm91bmQ6IHRyYW5zcGFyZW50OyB9Ci5wYW5lbCA6ZGVlcCguZHMtdGFibGUgdGgpLCAucGFuZWwgOmRlZXAoLmRzLXRhYmxlIHRkKSB7IGJvcmRlci1jb2xvcjogIzFlM2E1NTsgfQoucGFuZWwgOmRlZXAoLmRzLXRhYmxlLWVtcHR5KSB7IGNvbG9yOiAjN2Y5YmI5OyB9Ci5wYW5lbCA6ZGVlcCguZHMtZW1wdHlfX2Rlc2MpIHsgY29sb3I6ICM3ZjliYjk7IH0KLm1vbmV5IHsgY29sb3I6ICNlNzRjM2M7IGZvbnQtd2VpZ2h0OiA2MDA7IH0KPC9zdHlsZT4K
+<template>
+  <div class="screen">
+    <!-- 顶部标题栏 -->
+    <div class="screen-head">
+      <h1>进销存数据大屏</h1>
+      <span class="time">{{ now }}</span>
+    </div>
+
+    <!-- 核心指标卡 -->
+    <div class="kpi-row">
+      <div class="kpi" v-for="k in kpis" :key="k.label">
+        <div class="kpi-label">{{ k.label }}</div>
+        <div class="kpi-value" :style="{ color: k.color }">{{ k.value }}</div>
+      </div>
+    </div>
+
+    <div class="chart-row">
+      <!-- 销售趋势（按销货订单金额，纯 SVG 折线） -->
+      <div class="panel">
+        <div class="panel-title">销售趋势（近 12 笔销货订单金额）</div>
+        <svg v-if="salesTrend.length" viewBox="0 0 600 220" class="chart">
+          <polyline :points="trendPoints" fill="none" stroke="#e74c3c" stroke-width="2.5" />
+          <circle v-for="(p, i) in trendDots" :key="i" :cx="p.x" :cy="p.y" r="3" fill="#e74c3c" />
+        </svg>
+        <DsEmpty v-else title="暂无销货订单数据"  />
+      </div>
+
+      <!-- 商品分类占比（条形） -->
+      <div class="panel">
+        <div class="panel-title">商品分类数量占比</div>
+        <div v-if="typeBars.length" class="bars">
+          <div v-for="b in typeBars" :key="b.label" class="bar-row">
+            <span class="bar-label">{{ b.label }}</span>
+            <div class="bar-track">
+              <div class="bar-fill" :style="{ width: b.pct + '%' }" />
+            </div>
+            <span class="bar-num">{{ b.value }}</span>
+          </div>
+        </div>
+        <DsEmpty v-else title="暂无商品数据"  />
+      </div>
+    </div>
+
+    <div class="chart-row">
+      <!-- 库存 TOP10 -->
+      <div class="panel">
+        <div class="panel-title">库存数量 TOP10</div>
+        <div v-if="stockBars.length" class="bars">
+          <div v-for="b in stockBars" :key="b.label" class="bar-row">
+            <span class="bar-label" :title="b.label">{{ b.label }}</span>
+            <div class="bar-track">
+              <div class="bar-fill green" :style="{ width: b.pct + '%' }" />
+            </div>
+            <span class="bar-num">{{ b.value }}</span>
+          </div>
+        </div>
+        <DsEmpty v-else title="暂无库存数据"  />
+      </div>
+
+      <!-- 资金账户余额 -->
+      <div class="panel">
+        <div class="panel-title">资金账户余额</div>
+        <DsTable :columns="accountCols" :data="accounts" row-key="id" striped>
+          <template #balance="{ row }">
+            <span class="money">¥{{ fmt(row.balance) }}</span>
+          </template>
+        </DsTable>
+        <DsEmpty v-if="!accounts.length" title="暂无账户数据"  />
+      </div>
+    </div>
+
+    <!-- 预警列表 -->
+    <div class="panel wide">
+      <div class="panel-title">库存预警（库存低于预警线）</div>
+      <DsTable :columns="warnCols" :data="warnings" row-key="id" striped />
+      <DsEmpty v-if="!warnings.length" title="暂无预警商品"  />
+    </div>
+  </div>
+</template>
+
+<script setup>
+/**
+ * 数字大屏：图形化展示进销存核心经营数据（1:1 还原原系统「数字大屏」页）。
+ * 数据全部来自通用动态表接口（/kuerp/:table/index），图表用纯 SVG/CSS 绘制，
+ * 不引入额外图表库，保持前端依赖轻量。
+ */
+import { ref, computed, onMounted, onUnmounted } from 'vue';
+import request from '../utils/request';
+
+const now = ref('');
+let timer = null;
+
+// —— KPI 指标 ——
+const kpis = ref([
+  { label: '商品总数', value: '0', color: '#409eff' },
+  { label: '客户总数', value: '0', color: '#67c23a' },
+  { label: '供应商总数', value: '0', color: '#e6a23c' },
+  { label: '库存预警', value: '0', color: '#f56c6c' },
+]);
+
+// —— 销售趋势（金额序列）——
+const salesTrend = ref([]);
+const trendPoints = computed(() =>
+  salesTrend.value.map((v, i) => {
+    const max = Math.max(...salesTrend.value, 1);
+    const x = salesTrend.value.length > 1 ? (i / (salesTrend.value.length - 1)) * 580 + 10 : 300;
+    const y = 200 - (v / max) * 170;
+    return `${x},${y}`;
+  }).join(' '),
+);
+const trendDots = computed(() =>
+  salesTrend.value.map((v, i) => {
+    const max = Math.max(...salesTrend.value, 1);
+    const x = salesTrend.value.length > 1 ? (i / (salesTrend.value.length - 1)) * 580 + 10 : 300;
+    const y = 200 - (v / max) * 170;
+    return { x, y };
+  }),
+);
+
+// —— 资金账户表格列（余额列用插槽高亮） ——
+const accountCols = [
+  { key: 'account_name', title: '账户' },
+  { key: 'balance', title: '余额', align: 'right', slot: true },
+];
+
+// —— 库存预表格列 ——
+const warnCols = [
+  { key: 'goods_name', title: '商品' },
+  { key: 'stock', title: '当前库存', align: 'right', width: '120px' },
+  { key: 'min_stock', title: '预警线', align: 'right', width: '120px' },
+];
+
+// —— 分类占比 / 库存 TOP10 / 账户 / 预警 ——
+const typeBars = ref([]);
+const stockBars = ref([]);
+const accounts = ref([]);
+const warnings = ref([]);
+
+/** 数字千分位格式化 */
+function fmt(n) {
+  return Number(n || 0).toLocaleString('zh-CN', { maximumFractionDigits: 2 });
+}
+
+/** 拉取某表列表的便捷方法 */
+async function fetchTable(api, limit = 100, extra = {}) {
+  const r = await request.get(`${api}/index`, { params: { page: 1, limit, ...extra } });
+  return r?.list || [];
+}
+
+onMounted(async () => {
+  // 时钟
+  const tick = () => { now.value = new Date().toLocaleString('zh-CN', { hour12: false }); };
+  tick();
+  timer = setInterval(tick, 1000);
+
+  try {
+    // KPI：商品/客户/供应商总数（index 接口返回 count）
+    const cnt = async (api) => {
+      const r = await request.get(`${api}/index`, { params: { page: 1, limit: 1 } });
+      return Number(r?.count || 0);
+    };
+    const [gc, cc, sc] = await Promise.all([cnt('/kuerp/goods'), cnt('/kuerp/customers'), cnt('/kuerp/suppliers')]);
+    kpis.value[0].value = fmt(gc);
+    kpis.value[1].value = fmt(cc);
+    kpis.value[2].value = fmt(sc);
+
+    // 库存预警：商品库存低于预警线（min_stock > 0 且 stock < min_stock）
+    const goodsAll = await fetchTable('/kuerp/goods', 500);
+    warnings.value = goodsAll.filter(
+      (g) => Number(g.min_stock) > 0 && Number(g.stock) < Number(g.min_stock),
+    );
+    kpis.value[3].value = fmt(warnings.value.length);
+
+    // 销售趋势：近 12 笔销货订单金额（all_money 为单据金额列）
+    const orders = await fetchTable('/kuerp/goods-sales-order', 12, { sort: 'id', order: 'DESC' });
+    salesTrend.value = orders
+      .slice(0, 12)
+      .reverse()
+      .map((o) => Number(o.all_money || o.real_money || 0));
+
+    // 商品分类占比
+    const goodsList = await fetchTable('/kuerp/goods', 200);
+    const byType = {};
+    goodsList.forEach((g) => {
+      const key = g.goods_type_id || g.type_id || '未分类';
+      byType[key] = (byType[key] || 0) + 1;
+    });
+    const maxType = Math.max(...Object.values(byType), 1);
+    typeBars.value = Object.entries(byType)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 8)
+      .map(([label, value]) => ({ label: `分类${label}`, value, pct: (value / maxType) * 100 }));
+
+    // 库存 TOP10（kuerp_goods_stock 无商品名列，用 goods_code 标识）
+    const stocks = await fetchTable('/kuerp/goods-stock', 200);
+    stockBars.value = stocks
+      .map((s) => ({ label: s.goods_code || `商品${s.goods_id}`, value: Number(s.number || 0) }))
+      .sort((a, b) => b.value - a.value)
+      .slice(0, 10)
+      .map((s, _, arr) => ({ ...s, pct: (s.value / Math.max(...arr.map((x) => x.value), 1)) * 100 }));
+
+    // 账户余额
+    accounts.value = await fetchTable('/kuerp/accounts', 50);
+  } catch (e) {
+    // 大屏为展示型页面，单表异常不影响整体渲染
+    console.warn('大屏数据加载异常', e);
+  }
+});
+
+onUnmounted(() => { if (timer) clearInterval(timer); });
+</script>
+
+<style scoped>
+/* 大屏整体为深色底，与原系统数字大屏风格一致 */
+.screen { background: #0b1a2a; min-height: calc(100vh - 60px); margin: -20px; padding: 16px 20px; color: #dbe7f3; }
+.screen-head { display: flex; align-items: baseline; justify-content: space-between; }
+.screen-head h1 { font-size: 26px; letter-spacing: 4px; margin: 0; color: #fff; }
+.time { color: #7f9bb9; font-size: 13px; }
+.kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 16px 0; }
+.kpi { background: linear-gradient(180deg, #14293f, #0f2135); border: 1px solid #1e3a55; border-radius: 8px; padding: 14px 18px; }
+.kpi-label { font-size: 13px; color: #8fb0cc; }
+.kpi-value { font-size: 30px; font-weight: 700; margin-top: 6px; }
+.chart-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+.panel { background: #0f2135; border: 1px solid #1e3a55; border-radius: 8px; padding: 14px 16px; }
+.panel.wide { margin-bottom: 14px; }
+.panel-title { font-size: 15px; font-weight: 600; color: #cfe2f5; margin-bottom: 10px; }
+.chart { width: 100%; height: 220px; }
+.bars { display: flex; flex-direction: column; gap: 8px; }
+.bar-row { display: flex; align-items: center; gap: 10px; font-size: 12px; }
+.bar-label { width: 110px; text-align: right; color: #9db8d2; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.bar-track { flex: 1; background: #14293f; border-radius: 3px; height: 14px; overflow: hidden; }
+.bar-fill { height: 100%; background: linear-gradient(90deg, #e74c3c, #f39c12); border-radius: 3px; }
+.bar-fill.green { background: linear-gradient(90deg, #27ae60, #2ecc71); }
+.bar-num { width: 60px; color: #dbe7f3; }
+/* 大屏内的表格/空态配色覆写为深色（覆盖 ds 组件的 CSS 变量作用域） */
+.panel :deep(.ds-table-wrap) { --ds-bg-elevated: #0f2135; --ds-bg-soft: #14293f; --ds-bg-hover: #16304a; --ds-border: #1e3a55; --ds-divider: #1e3a55; --ds-text: #dbe7f3; --ds-text-2: #9db8d2; --ds-text-3: #7f9bb9; }
+.panel :deep(.ds-table) { background: transparent; }
+.panel :deep(.ds-table th), .panel :deep(.ds-table td) { border-color: #1e3a55; }
+.panel :deep(.ds-table-empty) { color: #7f9bb9; }
+.panel :deep(.ds-empty__desc) { color: #7f9bb9; }
+.money { color: #e74c3c; font-weight: 600; }
+</style>

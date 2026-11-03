@@ -1,1 +1,174 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsKaW1wb3J0IHsgQWlNb2RlbENvbmZpZyB9IGZyb20gJy4vZW50aXRpZXMvYWktbW9kZWwtY29uZmlnLmVudGl0eSc7CmltcG9ydCB7IEFpTW9kZWxDb25maWdTZXJ2aWNlIH0gZnJvbSAnLi9haS1tb2RlbC1jb25maWcuc2VydmljZSc7CmltcG9ydCB7IEFpTG9nU2VydmljZSB9IGZyb20gJy4vYWktbG9nLnNlcnZpY2UnOwppbXBvcnQgeyBub3dTZWMgfSBmcm9tICcuLi9jb21tb24vYmlnaW50LnRyYW5zZm9ybWVyJzsKCmV4cG9ydCBpbnRlcmZhY2UgQ2hhdE1lc3NhZ2UgewogIHJvbGU6ICdzeXN0ZW0nIHwgJ3VzZXInIHwgJ2Fzc2lzdGFudCcgfCAndG9vbCc7CiAgY29udGVudDogc3RyaW5nOwogIC8qKiB0b29sIOinkuiJsuWbnuS8oOaXtumcgOimgSAqLwogIHRvb2xfY2FsbF9pZD86IHN0cmluZzsKICAvKiogYXNzaXN0YW50IOa2iOaBr+WPr+iDveaQuuW4pueahOW3peWFt+iwg+eUqO+8iOaooeWei+WPkei1t++8iSAqLwogIHRvb2xfY2FsbHM/OiBBcnJheTx7IGlkOiBzdHJpbmc7IHR5cGU6ICdmdW5jdGlvbic7IGZ1bmN0aW9uOiB7IG5hbWU6IHN0cmluZzsgYXJndW1lbnRzOiBzdHJpbmcgfSB9PjsKICBuYW1lPzogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIENvbXBsZXRlUGFyYW1zIHsKICBjb25maWc/OiBBaU1vZGVsQ29uZmlnIHwgbnVsbDsKICBtb2RlbENvbmZpZ0lkPzogbnVtYmVyOwogIG1lc3NhZ2VzOiBDaGF0TWVzc2FnZVtdOwogIHRvb2xzPzogYW55W107CiAgdG9vbENob2ljZT86IGFueTsKICByZXNwb25zZUZvcm1hdD86IHsgdHlwZTogJ2pzb25fb2JqZWN0JyB9IHwgeyB0eXBlOiAndGV4dCcgfTsKICB0ZW1wZXJhdHVyZT86IG51bWJlcjsKICBtYXhUb2tlbnM/OiBudW1iZXI7CiAgLyoqIOmAj+S8oOe7meaXpeW/l+eahOS4muWKoeagh+etviAqLwogIHRhZz86IHN0cmluZzsKfQoKZXhwb3J0IGludGVyZmFjZSBDb21wbGV0ZVJlc3VsdCB7CiAgY29udGVudDogc3RyaW5nOwogIHRvb2xDYWxsczogQXJyYXk8eyBpZDogc3RyaW5nOyBuYW1lOiBzdHJpbmc7IGFyZ3VtZW50czogYW55IH0+OwogIHVzYWdlOiB7IHByb21wdFRva2VuczogbnVtYmVyOyBjb21wbGV0aW9uVG9rZW5zOiBudW1iZXIgfTsKICBjYWxsTG9nSWQ6IG51bWJlcjsKICByYXc6IGFueTsKfQoKLyoqCiAqIENoYXRNb2RlbCDmnI3liqHvvJrlupXlsYLosIPnlKggT3BlbkFJIOWFvOWuueeahCAvdjEvY2hhdC9jb21wbGV0aW9uc+OAggogKiDnrYnmlYggU3ByaW5nIEFJIOeahCBDaGF0TW9kZWwg5a6e546w77yI5q2k5aSE5Li66Ieq56CU6L276YeP54mI77yM6Zu26aKd5aSW5L6d6LWW77yM55So5Y6f55SfIGZldGNo77yJ44CCCiAqIOi0n+i0o++8muino+aekOaooeWei+mFjee9ru+8iOaVsOaNruW6k+WMlu+8ieOAgeWPkemAgeivt+axguOAgeWkhOeQhiB0b29sX2NhbGxz44CB6K6w5b2V6LCD55So5pel5b+X44CCCiAqLwpASW5qZWN0YWJsZSgpCmV4cG9ydCBjbGFzcyBDaGF0TW9kZWxTZXJ2aWNlIHsKICBjb25zdHJ1Y3RvcigKICAgIHByaXZhdGUgcmVhZG9ubHkgY29uZmlnU2VydmljZTogQWlNb2RlbENvbmZpZ1NlcnZpY2UsCiAgICBwcml2YXRlIHJlYWRvbmx5IGxvZ1NlcnZpY2U6IEFpTG9nU2VydmljZSwKICApIHt9CgogIGFzeW5jIHJlc29sdmVDb25maWcocGFyYW0/OiBBaU1vZGVsQ29uZmlnIHwgbnVsbCwgbW9kZWxDb25maWdJZD86IG51bWJlcik6IFByb21pc2U8QWlNb2RlbENvbmZpZz4gewogICAgaWYgKHBhcmFtKSByZXR1cm4gcGFyYW07CiAgICBpZiAobW9kZWxDb25maWdJZCkgewogICAgICBjb25zdCBjID0gYXdhaXQgdGhpcy5jb25maWdTZXJ2aWNlLmdldChtb2RlbENvbmZpZ0lkKTsKICAgICAgaWYgKGMpIHJldHVybiBjOwogICAgfQogICAgY29uc3QgYWN0aXZlID0gYXdhaXQgdGhpcy5jb25maWdTZXJ2aWNlLmdldEFjdGl2ZUNvbmZpZygpOwogICAgaWYgKGFjdGl2ZSkgcmV0dXJuIGFjdGl2ZTsKICAgIC8vIOWbnumAgOWIsCAuZW52IOm7mOiupOmFjee9rgogICAgcmV0dXJuIHsKICAgICAgaWQ6IDAsCiAgICAgIG5hbWU6ICdlbnYtZGVmYXVsdCcsCiAgICAgIHByb3ZpZGVyOiAnb3BlbmFpJywKICAgICAgYmFzZVVybDogcHJvY2Vzcy5lbnYuQUlfREVGQVVMVF9CQVNFX1VSTCB8fCAnaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MScsCiAgICAgIGFwaUtleTogcHJvY2Vzcy5lbnYuQUlfREVGQVVMVF9BUElfS0VZIHx8ICcnLAogICAgICBtb2RlbDogcHJvY2Vzcy5lbnYuQUlfREVGQVVMVF9NT0RFTCB8fCAnZ3B0LTRvLW1pbmknLAogICAgICB0ZW1wZXJhdHVyZTogTnVtYmVyKHByb2Nlc3MuZW52LkFJX0RFRkFVTFRfVEVNUEVSQVRVUkUgfHwgMC43KSwKICAgICAgbWF4VG9rZW5zOiBOdW1iZXIocHJvY2Vzcy5lbnYuQUlfREVGQVVMVF9NQVhfVE9LRU5TIHx8IDIwNDgpLAogICAgICB0b3BQOiAxLAogICAgICBpc0RlZmF1bHQ6IDEsCiAgICAgIGVuYWJsZWQ6IDEsCiAgICAgIHJlbWFyazogJycsCiAgICAgIGNyZWF0ZXRpbWU6IG5vd1NlYygpLAogICAgICB1cGRhdGV0aW1lOiBub3dTZWMoKSwKICAgICAgZGVsZXRldGltZTogMCwKICAgIH0gYXMgQWlNb2RlbENvbmZpZzsKICB9CgogIGFzeW5jIGNvbXBsZXRlKHBhcmFtczogQ29tcGxldGVQYXJhbXMpOiBQcm9taXNlPENvbXBsZXRlUmVzdWx0PiB7CiAgICBjb25zdCBjZmcgPSBhd2FpdCB0aGlzLnJlc29sdmVDb25maWcocGFyYW1zLmNvbmZpZywgcGFyYW1zLm1vZGVsQ29uZmlnSWQpOwogICAgY29uc3QgdXJsID0gYCR7Y2ZnLmJhc2VVcmwucmVwbGFjZSgvXC8kLywgJycpfS9jaGF0L2NvbXBsZXRpb25zYDsKICAgIGNvbnN0IGJvZHk6IGFueSA9IHsKICAgICAgbW9kZWw6IGNmZy5tb2RlbCwKICAgICAgbWVzc2FnZXM6IHBhcmFtcy5tZXNzYWdlcywKICAgICAgdGVtcGVyYXR1cmU6IHBhcmFtcy50ZW1wZXJhdHVyZSA/PyBjZmcudGVtcGVyYXR1cmUsCiAgICAgIG1heF90b2tlbnM6IHBhcmFtcy5tYXhUb2tlbnMgPz8gY2ZnLm1heFRva2VucywKICAgICAgdG9wX3A6IGNmZy50b3BQLAogICAgfTsKICAgIGlmIChwYXJhbXMudG9vbHMgJiYgcGFyYW1zLnRvb2xzLmxlbmd0aCkgewogICAgICBib2R5LnRvb2xzID0gcGFyYW1zLnRvb2xzOwogICAgICBib2R5LnRvb2xfY2hvaWNlID0gcGFyYW1zLnRvb2xDaG9pY2UgfHwgJ2F1dG8nOwogICAgfQogICAgaWYgKHBhcmFtcy5yZXNwb25zZUZvcm1hdCkgYm9keS5yZXNwb25zZV9mb3JtYXQgPSBwYXJhbXMucmVzcG9uc2VGb3JtYXQ7CgogICAgY29uc3Qgc3RhcnRlZCA9IERhdGUubm93KCk7CiAgICBsZXQgY2FsbExvZ0lkID0gMDsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKHVybCwgewogICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAgIGhlYWRlcnM6IHsKICAgICAgICAgICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicsCiAgICAgICAgICBBdXRob3JpemF0aW9uOiBgQmVhcmVyICR7Y2ZnLmFwaUtleX1gLAogICAgICAgIH0sCiAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoYm9keSksCiAgICAgIH0pOwogICAgICBjb25zdCByYXcgPSBhd2FpdCByZXMuanNvbigpOwogICAgICBpZiAoIXJlcy5vaykgewogICAgICAgIGNvbnN0IGVyck1zZyA9IHJhdz8uZXJyb3I/Lm1lc3NhZ2UgfHwgYEhUVFAgJHtyZXMuc3RhdHVzfWA7CiAgICAgICAgY2FsbExvZ0lkID0gYXdhaXQgdGhpcy5sb2dTZXJ2aWNlLmxvZ0NhbGwoewogICAgICAgICAgbW9kZWxDb25maWdJZDogY2ZnLmlkLAogICAgICAgICAgbW9kZWw6IGNmZy5tb2RlbCwKICAgICAgICAgIHByb21wdDogSlNPTi5zdHJpbmdpZnkocGFyYW1zLm1lc3NhZ2VzKSwKICAgICAgICAgIGNvbXBsZXRpb246ICcnLAogICAgICAgICAgZWxhcHNlZE1zOiBEYXRlLm5vdygpIC0gc3RhcnRlZCwKICAgICAgICAgIHN0YXR1czogMCwKICAgICAgICAgIGVycm9yOiBlcnJNc2csCiAgICAgICAgfSk7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKGVyck1zZyk7CiAgICAgIH0KCiAgICAgIGNvbnN0IGNob2ljZSA9IHJhdy5jaG9pY2VzPy5bMF07CiAgICAgIGNvbnN0IG1lc3NhZ2UgPSBjaG9pY2U/Lm1lc3NhZ2UgfHwge307CiAgICAgIGNvbnN0IGNvbnRlbnQ6IHN0cmluZyA9IG1lc3NhZ2UuY29udGVudCB8fCAnJzsKICAgICAgY29uc3QgdG9vbENhbGxzID0gKG1lc3NhZ2UudG9vbF9jYWxscyB8fCBbXSkubWFwKCh0YzogYW55KSA9PiAoewogICAgICAgIGlkOiB0Yy5pZCwKICAgICAgICBuYW1lOiB0Yy5mdW5jdGlvbj8ubmFtZSwKICAgICAgICBhcmd1bWVudHM6IHRoaXMuc2FmZVBhcnNlKHRjLmZ1bmN0aW9uPy5hcmd1bWVudHMpLAogICAgICB9KSk7CgogICAgICBjYWxsTG9nSWQgPSBhd2FpdCB0aGlzLmxvZ1NlcnZpY2UubG9nQ2FsbCh7CiAgICAgICAgbW9kZWxDb25maWdJZDogY2ZnLmlkLAogICAgICAgIG1vZGVsOiBjZmcubW9kZWwsCiAgICAgICAgcHJvbXB0OiBKU09OLnN0cmluZ2lmeShwYXJhbXMubWVzc2FnZXMpLAogICAgICAgIGNvbXBsZXRpb246IGNvbnRlbnQsCiAgICAgICAgdG9rZW5zUHJvbXB0OiByYXcudXNhZ2U/LnByb21wdF90b2tlbnMgfHwgMCwKICAgICAgICB0b2tlbnNDb21wbGV0aW9uOiByYXcudXNhZ2U/LmNvbXBsZXRpb25fdG9rZW5zIHx8IDAsCiAgICAgICAgZWxhcHNlZE1zOiBEYXRlLm5vdygpIC0gc3RhcnRlZCwKICAgICAgICBzdGF0dXM6IDEsCiAgICAgIH0pOwoKICAgICAgcmV0dXJuIHsKICAgICAgICBjb250ZW50LAogICAgICAgIHRvb2xDYWxscywKICAgICAgICB1c2FnZTogewogICAgICAgICAgcHJvbXB0VG9rZW5zOiByYXcudXNhZ2U/LnByb21wdF90b2tlbnMgfHwgMCwKICAgICAgICAgIGNvbXBsZXRpb25Ub2tlbnM6IHJhdy51c2FnZT8uY29tcGxldGlvbl90b2tlbnMgfHwgMCwKICAgICAgICB9LAogICAgICAgIGNhbGxMb2dJZCwKICAgICAgICByYXcsCiAgICAgIH07CiAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgaWYgKCFjYWxsTG9nSWQpIHsKICAgICAgICBhd2FpdCB0aGlzLmxvZ1NlcnZpY2UubG9nQ2FsbCh7CiAgICAgICAgICBtb2RlbENvbmZpZ0lkOiBjZmcuaWQsCiAgICAgICAgICBtb2RlbDogY2ZnLm1vZGVsLAogICAgICAgICAgcHJvbXB0OiBKU09OLnN0cmluZ2lmeShwYXJhbXMubWVzc2FnZXMpLAogICAgICAgICAgY29tcGxldGlvbjogJycsCiAgICAgICAgICBlbGFwc2VkTXM6IERhdGUubm93KCkgLSBzdGFydGVkLAogICAgICAgICAgc3RhdHVzOiAwLAogICAgICAgICAgZXJyb3I6IGU/Lm1lc3NhZ2UgfHwgU3RyaW5nKGUpLAogICAgICAgIH0pOwogICAgICB9CiAgICAgIHRocm93IGU7CiAgICB9CiAgfQoKICBwcml2YXRlIHNhZmVQYXJzZShzPzogc3RyaW5nKTogYW55IHsKICAgIGlmICghcykgcmV0dXJuIHt9OwogICAgdHJ5IHsKICAgICAgcmV0dXJuIEpTT04ucGFyc2Uocyk7CiAgICB9IGNhdGNoIHsKICAgICAgcmV0dXJuIHM7CiAgICB9CiAgfQp9Cg==
+import { Injectable } from '@nestjs/common';
+import { AiModelConfig } from './entities/ai-model-config.entity';
+import { AiModelConfigService } from './ai-model-config.service';
+import { AiLogService } from './ai-log.service';
+import { nowSec } from '../common/bigint.transformer';
+
+export interface ChatMessage {
+  role: 'system' | 'user' | 'assistant' | 'tool';
+  content: string;
+  /** tool 角色回传时需要 */
+  tool_call_id?: string;
+  /** assistant 消息可能携带的工具调用（模型发起） */
+  tool_calls?: Array<{ id: string; type: 'function'; function: { name: string; arguments: string } }>;
+  name?: string;
+}
+
+export interface CompleteParams {
+  config?: AiModelConfig | null;
+  modelConfigId?: number;
+  messages: ChatMessage[];
+  tools?: any[];
+  toolChoice?: any;
+  responseFormat?: { type: 'json_object' } | { type: 'text' };
+  temperature?: number;
+  maxTokens?: number;
+  /** 透传给日志的业务标签 */
+  tag?: string;
+}
+
+export interface CompleteResult {
+  content: string;
+  toolCalls: Array<{ id: string; name: string; arguments: any }>;
+  usage: { promptTokens: number; completionTokens: number };
+  callLogId: number;
+  raw: any;
+}
+
+/**
+ * ChatModel 服务：底层调用 OpenAI 兼容的 /v1/chat/completions。
+ * 等效 Spring AI 的 ChatModel 实现（此处为自研轻量版，零额外依赖，用原生 fetch）。
+ * 负责：解析模型配置（数据库化）、发送请求、处理 tool_calls、记录调用日志。
+ */
+@Injectable()
+export class ChatModelService {
+  constructor(
+    private readonly configService: AiModelConfigService,
+    private readonly logService: AiLogService,
+  ) {}
+
+  async resolveConfig(param?: AiModelConfig | null, modelConfigId?: number): Promise<AiModelConfig> {
+    if (param) return param;
+    if (modelConfigId) {
+      const c = await this.configService.get(modelConfigId);
+      if (c) return c;
+    }
+    const active = await this.configService.getActiveConfig();
+    if (active) return active;
+    // 回退到 .env 默认配置
+    return {
+      id: 0,
+      name: 'env-default',
+      provider: 'openai',
+      baseUrl: process.env.AI_DEFAULT_BASE_URL || 'https://api.openai.com/v1',
+      apiKey: process.env.AI_DEFAULT_API_KEY || '',
+      model: process.env.AI_DEFAULT_MODEL || 'gpt-4o-mini',
+      temperature: Number(process.env.AI_DEFAULT_TEMPERATURE || 0.7),
+      maxTokens: Number(process.env.AI_DEFAULT_MAX_TOKENS || 2048),
+      topP: 1,
+      isDefault: 1,
+      enabled: 1,
+      remark: '',
+      createtime: nowSec(),
+      updatetime: nowSec(),
+      deletetime: 0,
+    } as AiModelConfig;
+  }
+
+  async complete(params: CompleteParams): Promise<CompleteResult> {
+    const cfg = await this.resolveConfig(params.config, params.modelConfigId);
+    const url = `${cfg.baseUrl.replace(/\/$/, '')}/chat/completions`;
+    const body: any = {
+      model: cfg.model,
+      messages: params.messages,
+      temperature: params.temperature ?? cfg.temperature,
+      max_tokens: params.maxTokens ?? cfg.maxTokens,
+      top_p: cfg.topP,
+    };
+    if (params.tools && params.tools.length) {
+      body.tools = params.tools;
+      body.tool_choice = params.toolChoice || 'auto';
+    }
+    if (params.responseFormat) body.response_format = params.responseFormat;
+
+    const started = Date.now();
+    let callLogId = 0;
+    try {
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${cfg.apiKey}`,
+        },
+        body: JSON.stringify(body),
+      });
+      const raw = await res.json();
+      if (!res.ok) {
+        const errMsg = raw?.error?.message || `HTTP ${res.status}`;
+        callLogId = await this.logService.logCall({
+          modelConfigId: cfg.id,
+          model: cfg.model,
+          prompt: JSON.stringify(params.messages),
+          completion: '',
+          elapsedMs: Date.now() - started,
+          status: 0,
+          error: errMsg,
+        });
+        throw new Error(errMsg);
+      }
+
+      const choice = raw.choices?.[0];
+      const message = choice?.message || {};
+      const content: string = message.content || '';
+      const toolCalls = (message.tool_calls || []).map((tc: any) => ({
+        id: tc.id,
+        name: tc.function?.name,
+        arguments: this.safeParse(tc.function?.arguments),
+      }));
+
+      callLogId = await this.logService.logCall({
+        modelConfigId: cfg.id,
+        model: cfg.model,
+        prompt: JSON.stringify(params.messages),
+        completion: content,
+        tokensPrompt: raw.usage?.prompt_tokens || 0,
+        tokensCompletion: raw.usage?.completion_tokens || 0,
+        elapsedMs: Date.now() - started,
+        status: 1,
+      });
+
+      return {
+        content,
+        toolCalls,
+        usage: {
+          promptTokens: raw.usage?.prompt_tokens || 0,
+          completionTokens: raw.usage?.completion_tokens || 0,
+        },
+        callLogId,
+        raw,
+      };
+    } catch (e: any) {
+      if (!callLogId) {
+        await this.logService.logCall({
+          modelConfigId: cfg.id,
+          model: cfg.model,
+          prompt: JSON.stringify(params.messages),
+          completion: '',
+          elapsedMs: Date.now() - started,
+          status: 0,
+          error: e?.message || String(e),
+        });
+      }
+      throw e;
+    }
+  }
+
+  private safeParse(s?: string): any {
+    if (!s) return {};
+    try {
+      return JSON.parse(s);
+    } catch {
+      return s;
+    }
+  }
+}

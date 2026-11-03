@@ -1,1 +1,58 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgR2V0LCBQb3N0LCBCb2R5LCBRdWVyeSwgUGFyYW0sIFVzZUd1YXJkcywgRGVsZXRlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgU3lzdGVtU2VydmljZSB9IGZyb20gJy4vc3lzdGVtLnNlcnZpY2UnOw0KaW1wb3J0IHsgSnd0QXV0aEd1YXJkIH0gZnJvbSAnLi4vY29tbW9uL2d1YXJkcy9qd3QtYXV0aC5ndWFyZCc7DQppbXBvcnQgeyBvayB9IGZyb20gJy4uL2NvbW1vbi9yZXNwb25zZS5pbnRlcmNlcHRvcic7DQppbXBvcnQgeyBBZG1pbiB9IGZyb20gJy4vZW50aXRpZXMvYWRtaW4uZW50aXR5JzsNCg0KQENvbnRyb2xsZXIoJ3N5c3RlbS9hZG1pbicpDQpAVXNlR3VhcmRzKEp3dEF1dGhHdWFyZCkNCmV4cG9ydCBjbGFzcyBTeXN0ZW1Db250cm9sbGVyIHsNCiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBzeXN0ZW1TZXJ2aWNlOiBTeXN0ZW1TZXJ2aWNlKSB7fQ0KDQogIC8qKg0KICAgKiDnrqHnkIblkZjliJfooajvvIjliIbpobUgKyDlhbPplK7lrZfmkJzntKLvvInjgIINCiAgICogQHBhcmFtIHBhZ2Ug6aG156CB77yM5LuOIDEg5byA5aeLDQogICAqIEBwYXJhbSBsaW1pdCDmr4/pobXmnaHmlbANCiAgICogQHBhcmFtIHNlYXJjaCDlhbPplK7lrZfvvIjljLnphY3otKblj7cv5pi156ew77yJDQogICAqIEByZXR1cm5zIOeuoeeQhuWRmOaVsOe7hA0KICAgKi8NCiAgQEdldCgnaW5kZXgnKQ0KICBhc3luYyBpbmRleChAUXVlcnkoJ3BhZ2UnKSBwYWdlID0gMSwgQFF1ZXJ5KCdsaW1pdCcpIGxpbWl0ID0gMTAsIEBRdWVyeSgnc2VhcmNoJykgc2VhcmNoID0gJycpIHsNCiAgICBjb25zdCBkYXRhID0gYXdhaXQgdGhpcy5zeXN0ZW1TZXJ2aWNlLmxpc3QoeyBwYWdlOiArcGFnZSwgbGltaXQ6ICtsaW1pdCwgc2VhcmNoIH0pOw0KICAgIHJldHVybiBvayhkYXRhLmxpc3QsICdzdWNjZXNzJyk7DQogIH0NCg0KICAvKioNCiAgICog5paw5aKe566h55CG5ZGY44CCDQogICAqIEBwYXJhbSBkdG8g6LSm5Y+35L+h5oGv77yIdXNlcm5hbWUvcGFzc3dvcmQvbmlja25hbWUvZ3JvdXBfaWTigKbvvIkNCiAgICogQHJldHVybnMg5paw5aKe5ZCO55qE6K6w5b2V77yI5LiN5ZCr5a+G56CB5piO5paH77yJDQogICAqLw0KICBAUG9zdCgnYWRkJykNCiAgYXN5bmMgYWRkKEBCb2R5KCkgZHRvOiBQYXJ0aWFsPEFkbWluPikgew0KICAgIHJldHVybiBvayhhd2FpdCB0aGlzLnN5c3RlbVNlcnZpY2UuY3JlYXRlKGR0byksICfmt7vliqDmiJDlip8nKTsNCiAgfQ0KDQogIC8qKg0KICAgKiDkv67mlLnnrqHnkIblkZjkv6Hmga/vvIjlr4bnoIHkuLrnqbrooajnpLrkuI3kv67mlLnvvInjgIINCiAgICogQHBhcmFtIGlkIOeuoeeQhuWRmCBJRA0KICAgKiBAcGFyYW0gZHRvIOW+heabtOaWsOWtl+autQ0KICAgKiBAcmV0dXJucyDmm7TmlrDlkI7nmoTorrDlvZUNCiAgICovDQogIEBQb3N0KCdlZGl0JykNCiAgYXN5bmMgZWRpdChAQm9keSgnaWQnKSBpZDogbnVtYmVyLCBAQm9keSgpIGR0bzogUGFydGlhbDxBZG1pbj4pIHsNCiAgICBjb25zdCBkYXRhID0gYXdhaXQgdGhpcy5zeXN0ZW1TZXJ2aWNlLnVwZGF0ZShpZCwgZHRvKTsNCiAgICByZXR1cm4gb2soZGF0YSwgJ+S/neWtmOaIkOWKnycpOw0KICB9DQoNCiAgLyoqDQogICAqIOWIoOmZpOeuoeeQhuWRmO+8iOi9r+WIoOmZpO+8ieOAgg0KICAgKiDlkIzml7bmj5DkvpsgREVMRVRFIOS4jiBQT1NUIOS4pOenjeiwg+eUqOaWueW8j++8jOS4jumAmueUqCBrdWVycCDmjqfliLblmajmg6/kvovkuIDoh7TvvIwNCiAgICog6YG/5YWN6YOo5YiGIEhUVFAg5a6i5oi356uv5Lii5byDIERFTEVURSBib2R5IOWvvOiHtOWIoOmZpOWkseaViOOAgg0KICAgKi8NCiAgQERlbGV0ZSgnZGVsJykNCiAgQFBvc3QoJ2RlbCcpDQogIGFzeW5jIGRlbChAQm9keSgnaWQnKSBpZDogbnVtYmVyKSB7DQogICAgYXdhaXQgdGhpcy5zeXN0ZW1TZXJ2aWNlLnJlbW92ZShpZCk7DQogICAgcmV0dXJuIG9rKG51bGwsICfliKDpmaTmiJDlip8nKTsNCiAgfQ0KfQ0K
+import { Controller, Get, Post, Body, Query, Param, UseGuards, Delete } from '@nestjs/common';
+import { SystemService } from './system.service';
+import { JwtAuthGuard } from '../common/guards/jwt-auth.guard';
+import { ok } from '../common/response.interceptor';
+import { Admin } from './entities/admin.entity';
+
+@Controller('system/admin')
+@UseGuards(JwtAuthGuard)
+export class SystemController {
+  constructor(private readonly systemService: SystemService) {}
+
+  /**
+   * 管理员列表（分页 + 关键字搜索）。
+   * @param page 页码，从 1 开始
+   * @param limit 每页条数
+   * @param search 关键字（匹配账号/昵称）
+   * @returns 管理员数组
+   */
+  @Get('index')
+  async index(@Query('page') page = 1, @Query('limit') limit = 10, @Query('search') search = '') {
+    const data = await this.systemService.list({ page: +page, limit: +limit, search });
+    return ok(data.list, 'success');
+  }
+
+  /**
+   * 新增管理员。
+   * @param dto 账号信息（username/password/nickname/group_id…）
+   * @returns 新增后的记录（不含密码明文）
+   */
+  @Post('add')
+  async add(@Body() dto: Partial<Admin>) {
+    return ok(await this.systemService.create(dto), '添加成功');
+  }
+
+  /**
+   * 修改管理员信息（密码为空表示不修改）。
+   * @param id 管理员 ID
+   * @param dto 待更新字段
+   * @returns 更新后的记录
+   */
+  @Post('edit')
+  async edit(@Body('id') id: number, @Body() dto: Partial<Admin>) {
+    const data = await this.systemService.update(id, dto);
+    return ok(data, '保存成功');
+  }
+
+  /**
+   * 删除管理员（软删除）。
+   * 同时提供 DELETE 与 POST 两种调用方式，与通用 kuerp 控制器惯例一致，
+   * 避免部分 HTTP 客户端丢弃 DELETE body 导致删除失效。
+   */
+  @Delete('del')
+  @Post('del')
+  async del(@Body('id') id: number) {
+    await this.systemService.remove(id);
+    return ok(null, '删除成功');
+  }
+}

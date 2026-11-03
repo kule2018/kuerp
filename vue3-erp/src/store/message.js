@@ -1,1 +1,53 @@
-aW1wb3J0IHsgZGVmaW5lU3RvcmUgfSBmcm9tICdwaW5pYSc7CmltcG9ydCByZXF1ZXN0IGZyb20gJy4uL3V0aWxzL3JlcXVlc3QnOwoKLyoqCiAqIOa2iOaBr+S4reW/g+eKtuaAge+8iOacquivu+iuoeaVsCArIOi9ruivou+8ieOAggogKgogKiDkuLrku4DkuYjljZXni6zlu7ogc3RvcmUg6ICM5LiN5piv5ZCE6aG16Z2i6Ieq5Y+W6Ieq55So77yaCiAqIOS+p+i+ueagj+W+veagh+OAgea2iOaBr+S4reW/g+mhteOAgeWuoeaJueW+heWKnuS4ieWkhOmDveimgeivu+acquivu+aVsO+8jOS4lOmDveimgeaxguOAjOivu+S6huWwseWPmOOAje+8jAogKiDnlKjkuIDkuKrlhajlsYDljZXkvosgKyDlrprml7bova7or6LmnIDnnIHkuovvvIzpgb/lhY3lkIToh6rnu7TmiqTlia/mnKzlr7zoh7TmlbDlrZfkuI3kuIDoh7TjgIIKICovCmV4cG9ydCBjb25zdCB1c2VNZXNzYWdlU3RvcmUgPSBkZWZpbmVTdG9yZSgnbWVzc2FnZScsIHsKICBzdGF0ZTogKCkgPT4gKHsKICAgIC8qKiDmnKror7vmnaHmlbAgKi8KICAgIHVucmVhZDogMCwKICAgIC8qKiDova7or6Llrprml7blmajvvIjpnZ7lk43lupTlvI/vvIzmjIIgc3RhdGUg5L6/5LqO57uf5LiA5riF55CG77yJICovCiAgICB0aW1lcjogbnVsbCwKICB9KSwKICBhY3Rpb25zOiB7CiAgICAvKioKICAgICAqIOWIt+aWsOacquivu+adoeaVsOOAggogICAgICogQHJldHVybnMge1Byb21pc2U8bnVtYmVyPn0g5pyA5paw5pyq6K+75pWw77yI5aSx6LSl5pe25L+d5oyB5Y6f5YC877yJCiAgICAgKi8KICAgIGFzeW5jIHJlZnJlc2goKSB7CiAgICAgIHRyeSB7CiAgICAgICAgY29uc3QgciA9IGF3YWl0IHJlcXVlc3QuZ2V0KCcvc3lzdGVtL21lc3NhZ2UvdW5yZWFkLWNvdW50Jyk7CiAgICAgICAgdGhpcy51bnJlYWQgPSBOdW1iZXIocj8uY291bnQgfHwgMCk7CiAgICAgIH0gY2F0Y2ggewogICAgICAgIC8vIOacqueZu+W9lSAvIOWQjuerr+acquWwsee7quaXtumdmem7mO+8jOS4jeaJk+aWreeVjOmdogogICAgICB9CiAgICAgIHJldHVybiB0aGlzLnVucmVhZDsKICAgIH0sCgogICAgLyoqCiAgICAgKiDlkK/liqggNjAg56eS6L2u6K+i77yI6YeN5aSN6LCD55So5LiN5Lya5Y+g5Yqg5a6a5pe25Zmo77yJ44CCCiAgICAgKiBAcmV0dXJucyDml6AKICAgICAqLwogICAgc3RhcnRQb2xsaW5nKCkgewogICAgICBpZiAodGhpcy50aW1lcikgcmV0dXJuOwogICAgICB0aGlzLnJlZnJlc2goKTsKICAgICAgdGhpcy50aW1lciA9IHNldEludGVydmFsKCgpID0+IHRoaXMucmVmcmVzaCgpLCA2MDAwMCk7CiAgICB9LAoKICAgIC8qKgogICAgICog5YGc5q2i6L2u6K+i77yI55m75Ye65pe26LCD55So77yJ44CCCiAgICAgKiBAcmV0dXJucyDml6AKICAgICAqLwogICAgc3RvcFBvbGxpbmcoKSB7CiAgICAgIGlmICh0aGlzLnRpbWVyKSBjbGVhckludGVydmFsKHRoaXMudGltZXIpOwogICAgICB0aGlzLnRpbWVyID0gbnVsbDsKICAgICAgdGhpcy51bnJlYWQgPSAwOwogICAgfSwKICB9LAp9KTsK
+import { defineStore } from 'pinia';
+import request from '../utils/request';
+
+/**
+ * 消息中心状态（未读计数 + 轮询）。
+ *
+ * 为什么单独建 store 而不是各页面自取自用：
+ * 侧边栏徽标、消息中心页、审批待办三处都要读未读数，且都要求「读了就变」，
+ * 用一个全局单例 + 定时轮询最省事，避免各自维护副本导致数字不一致。
+ */
+export const useMessageStore = defineStore('message', {
+  state: () => ({
+    /** 未读条数 */
+    unread: 0,
+    /** 轮询定时器（非响应式，挂 state 便于统一清理） */
+    timer: null,
+  }),
+  actions: {
+    /**
+     * 刷新未读条数。
+     * @returns {Promise<number>} 最新未读数（失败时保持原值）
+     */
+    async refresh() {
+      try {
+        const r = await request.get('/system/message/unread-count');
+        this.unread = Number(r?.count || 0);
+      } catch {
+        // 未登录 / 后端未就绪时静默，不打断界面
+      }
+      return this.unread;
+    },
+
+    /**
+     * 启动 60 秒轮询（重复调用不会叠加定时器）。
+     * @returns 无
+     */
+    startPolling() {
+      if (this.timer) return;
+      this.refresh();
+      this.timer = setInterval(() => this.refresh(), 60000);
+    },
+
+    /**
+     * 停止轮询（登出时调用）。
+     * @returns 无
+     */
+    stopPolling() {
+      if (this.timer) clearInterval(this.timer);
+      this.timer = null;
+      this.unread = 0;
+    },
+  },
+});

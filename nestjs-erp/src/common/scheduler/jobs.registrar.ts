@@ -1,1 +1,284 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgTG9nZ2VyLCBPbk1vZHVsZUluaXQgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7CmltcG9ydCB7IERhdGFTb3VyY2UgfSBmcm9tICd0eXBlb3JtJzsKaW1wb3J0IHsgTWVzc2FnZVNlcnZpY2UgfSBmcm9tICcuLi9tZXNzYWdlL21lc3NhZ2Uuc2VydmljZSc7CmltcG9ydCB7IFdlY2hhdFRva2VuU2VydmljZSB9IGZyb20gJy4uL3dlY2hhdC93ZWNoYXQtdG9rZW4uc2VydmljZSc7CmltcG9ydCB7IFNjaGVkdWxlclNlcnZpY2UgfSBmcm9tICcuL3NjaGVkdWxlci5zZXJ2aWNlJzsKCi8qKgogKiDlhoXnva7lrprml7bkvZzkuJrms6jlhozlmajjgIIKICoKICog5oqK44CM5L2c5Lia5a6a5LmJ44CN5LiO44CM6LCD5bqm5YaF5qC444CN5YiG5byA77yaCiAqIC0gU2NoZWR1bGVyU2VydmljZSDlj6rnrqHkvZXml7bot5HjgIHot5HlrozorrDml6Xlv5fvvJsKICogLSDmnKznsbvlj6rlhbPlv4Pmr4/kuKrkvZzkuJrmn6Xlk6rkupvooajjgIHkuqflh7rku4DkuYjmtojmga/jgIIKICog6L+Z5qC35Lul5ZCO5Yqg5L2c5Lia5LiN55So5Yqo5YaF5qC45Luj56CB44CCCiAqCiAqIOS6lOS4quS9nOS4mu+8mgogKiAgIDEpIHdlY2hhdF90b2tlbiAgIOavjyAzMCDliIbpkp/pooTng63lvq7kv6EgYWNjZXNzX3Rva2Vu77yI5pyJ5pWI5pyfIDcyMDAg56eS77yJCiAqICAgMikgc3RvY2tfd2FybmluZyAg5q+P5aSpIDA4OjAwIOaJq+W6k+WtmOmihOitpu+8iOS9juS6juS4i+mZkCAvIOmrmOS6juS4iumZkO+8iQogKiAgIDMpIGJhdGNoX2V4cGlyeSAgIOavj+WkqSAwODoxMCDmiavmibnmrKHkv53otKjmnJ/vvIjkuLTmnJ8gLyDov4fmnJ/vvIkKICogICA0KSBhcl9kdWUgICAgICAgICDmr4/lpKkgMDg6MjAg5omr5bqU5pS26YC+5pyf77yI5pyq5pS25qy+IC8g6YOo5YiG5pS25qy+5LiU6LaF6L+H6LSm5pyf5aSp5pWw77yJCiAqICAgNSkgbWVzc2FnZV9wdXJnZSAg5q+P5ZGo5LiAIDAzOjAwIOa4heeQhiA5MCDlpKnliY3lt7Lor7vmtojmga/vvIjpu5jorqTlhbPpl63vvIkKICoKICog5raI5oGv5YaZ5YWl5Y6f5YiZ77yaKirkuIDmrKHkvZzkuJrlj6rlhpnkuIDmnaHmsYfmgLvmtojmga8qKu+8jOS4jemAkOWVhuWTgemAkOWNleaNruWIt+Wxj+OAggogKiDmmI7nu4bmlL7lnKggZGV0YWlsIOmHjOS+m+S9nOS4muaXpeW/l+afpeeci++8jOa2iOaBr+ato+aWh+WPque7meaVsOmHj+S4juWJjeWHoOS4quekuuS+i+OAggogKi8KQEluamVjdGFibGUoKQpleHBvcnQgY2xhc3MgSm9ic1JlZ2lzdHJhciBpbXBsZW1lbnRzIE9uTW9kdWxlSW5pdCB7CiAgcHJpdmF0ZSByZWFkb25seSBsb2dnZXIgPSBuZXcgTG9nZ2VyKEpvYnNSZWdpc3RyYXIubmFtZSk7CgogIGNvbnN0cnVjdG9yKAogICAgcHJpdmF0ZSByZWFkb25seSBzY2hlZHVsZXI6IFNjaGVkdWxlclNlcnZpY2UsCiAgICBwcml2YXRlIHJlYWRvbmx5IGRhdGFTb3VyY2U6IERhdGFTb3VyY2UsCiAgICBwcml2YXRlIHJlYWRvbmx5IG1lc3NhZ2VzOiBNZXNzYWdlU2VydmljZSwKICAgIHByaXZhdGUgcmVhZG9ubHkgd2VjaGF0OiBXZWNoYXRUb2tlblNlcnZpY2UsCiAgKSB7fQoKICBvbk1vZHVsZUluaXQoKTogdm9pZCB7CiAgICB0aGlzLnJlZ2lzdGVyV2VjaGF0VG9rZW4oKTsKICAgIHRoaXMucmVnaXN0ZXJTdG9ja1dhcm5pbmcoKTsKICAgIHRoaXMucmVnaXN0ZXJCYXRjaEV4cGlyeSgpOwogICAgdGhpcy5yZWdpc3RlckFyRHVlKCk7CiAgICB0aGlzLnJlZ2lzdGVyTWVzc2FnZVB1cmdlKCk7CiAgfQoKICAvKiog5b2T5YmN56eS57qn5pe26Ze05oizICovCiAgcHJpdmF0ZSBub3coKTogbnVtYmVyIHsKICAgIHJldHVybiBNYXRoLmZsb29yKERhdGUubm93KCkgLyAxMDAwKTsKICB9CgogIC8qKgogICAqIOivu+WPluS4gOS4quWtl+espuS4suWei+ezu+e7n+WPguaVsOOAggogICAqIEBwYXJhbSBuYW1lIOWPguaVsOWQjQogICAqIEBwYXJhbSBkZWYg6buY6K6k5YC8CiAgICogQHJldHVybnMg5Y+C5pWw5YC8CiAgICovCiAgcHJpdmF0ZSBhc3luYyBzZXRWYWx1ZShuYW1lOiBzdHJpbmcsIGRlZiA9ICcnKTogUHJvbWlzZTxzdHJpbmc+IHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJvd3MgPSBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoJ1NFTEVDVCB2YWx1ZSBGUk9NIGt1ZXJwX3NldHMgV0hFUkUgbmFtZSA9ID8gTElNSVQgMScsIFtuYW1lXSk7CiAgICAgIGNvbnN0IHYgPSByb3dzPy5bMF0/LnZhbHVlOwogICAgICByZXR1cm4gdiA9PT0gbnVsbCB8fCB2ID09PSB1bmRlZmluZWQgfHwgdiA9PT0gJycgPyBkZWYgOiBTdHJpbmcodik7CiAgICB9IGNhdGNoIHsKICAgICAgcmV0dXJuIGRlZjsKICAgIH0KICB9CgogIC8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQogIC8vIDEpIOW+ruS/oSBhY2Nlc3NfdG9rZW4g6aKE54OtCiAgLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiAgcHJpdmF0ZSByZWdpc3RlcldlY2hhdFRva2VuKCk6IHZvaWQgewogICAgdGhpcy5zY2hlZHVsZXIucmVnaXN0ZXIoewogICAgICBuYW1lOiAnd2VjaGF0X3Rva2VuJywKICAgICAgdGl0bGU6ICflvq7kv6EgYWNjZXNzX3Rva2VuIOWIt+aWsCcsCiAgICAgIGNyb246ICcqLzMwICogKiAqIConLAogICAgICBkZXNjcmlwdGlvbjogJ+avjyAzMCDliIbpkp/liLfmlrDlsI/nqIvluo8gYWNjZXNzX3Rva2Vu77yI5pyJ5pWI5pyfIDcyMDAg56eS77yJ77yM6YG/5YWN6aaW5Liq6K+35rGC546w5Zy65Y+W5Luk54mM5Y+Y5oWi44CCJywKICAgICAgaGFuZGxlcjogYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IHIgPSBhd2FpdCB0aGlzLndlY2hhdC5nZXRUb2tlbih0cnVlKTsKICAgICAgICBpZiAoIXIub2spIHsKICAgICAgICAgIC8vIOacqumFjee9riBBcHBJRC9TZWNyZXQg5bGe5q2j5bi45oOF5Ya177yI5pyq5ZCv55So6K6i6LSn6YCa77yJ77yM5oyJ5oiQ5Yqf6K6w5b2V5L2G5rOo5piO5Y6f5Zug77yM6YG/5YWN5pel5b+X5ruh5bGP44CM5aSx6LSl44CNCiAgICAgICAgICByZXR1cm4geyBtZXNzYWdlOiBg5pyq5Y+W5YiwIGFjY2Vzc190b2tlbu+8miR7ci5tc2cgfHwgJ+acquefpeWOn+WboCd9YCwgZGV0YWlsOiByLm1zZyB8fCAnJyB9OwogICAgICAgIH0KICAgICAgICBjb25zdCBzID0gdGhpcy53ZWNoYXQuc3RhdHVzKCk7CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgIG1lc3NhZ2U6IGBhY2Nlc3NfdG9rZW4g5bey5Yi35paw77yM5Ymp5L2Z5pyJ5pWI5pyfICR7cy5yZW1haW59IOenkmAsCiAgICAgICAgICBkZXRhaWw6IGB0b2tlbj0ke3MudG9rZW5NYXNrfSBleHBpcmVBdD0ke3MuZXhwaXJlQXR9YCwKICAgICAgICB9OwogICAgICB9LAogICAgfSk7CiAgfQoKICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KICAvLyAyKSDlupPlrZjpooTorabmiavmj48KICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KICBwcml2YXRlIHJlZ2lzdGVyU3RvY2tXYXJuaW5nKCk6IHZvaWQgewogICAgdGhpcy5zY2hlZHVsZXIucmVnaXN0ZXIoewogICAgICBuYW1lOiAnc3RvY2tfd2FybmluZycsCiAgICAgIHRpdGxlOiAn5bqT5a2Y6aKE6K2m5omr5o+PJywKICAgICAgY3JvbjogJzAgOCAqICogKicsCiAgICAgIGRlc2NyaXB0aW9uOiAn5q+P5aSpIDA4OjAwIOaxh+aAu+WQhOS7k+W6k+WtmO+8jOS9juS6juacgOS9juW6k+WtmOaIlumrmOS6juacgOmrmOW6k+WtmOeahOWVhuWTgeWGmeWFpea2iOaBr+S4reW/g+OAgicsCiAgICAgIGhhbmRsZXI6IGFzeW5jICgpID0+IHsKICAgICAgICAvLyDmjInllYblk4HmsYfmgLvvvIjkuI3pmZDku5PlupPvvInvvJrljp/ns7vnu5/jgIzlupPlrZjpooTorabjgI3miqXooajkuZ/mmK/mjInllYblk4HnnIvmgLvlupPlrZgKICAgICAgICBjb25zdCByb3dzOiBhbnlbXSA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgICAgIGBTRUxFQ1QgZy5pZCwgZy5nb29kc19jb2RlLCBnLmdvb2RzX25hbWUsIGcubWluX3N0b2NrLCBnLm1heF9zdG9jaywKICAgICAgICAgICAgICAgICAgQ09BTEVTQ0UoU1VNKHMuc3RvY2spLCAwKSBBUyBzdG9jawogICAgICAgICAgICAgRlJPTSBrdWVycF9nb29kcyBnCiAgICAgICAgICAgICBMRUZUIEpPSU4ga3VlcnBfZ29vZHNfc3RvY2sgcyBPTiBzLmdvb2RzX2lkID0gZy5pZAogICAgICAgICAgICBXSEVSRSBnLnN0b2NrX3dhcm5pbmcgPSAnMScKICAgICAgICAgICAgICBBTkQgKGcuZGVsZXRldGltZSBJUyBOVUxMIE9SIGcuZGVsZXRldGltZSA9IDApCiAgICAgICAgICAgIEdST1VQIEJZIGcuaWQsIGcuZ29vZHNfY29kZSwgZy5nb29kc19uYW1lLCBnLm1pbl9zdG9jaywgZy5tYXhfc3RvY2sKICAgICAgICAgICBIQVZJTkcgc3RvY2sgPCBnLm1pbl9zdG9jayBPUiAoZy5tYXhfc3RvY2sgPiAwIEFORCBzdG9jayA+IGcubWF4X3N0b2NrKQogICAgICAgICAgICBPUkRFUiBCWSBnLmlkCiAgICAgICAgICAgIExJTUlUIDUwMGAsCiAgICAgICAgKTsKCiAgICAgICAgY29uc3QgbG93ID0gcm93cy5maWx0ZXIoKHIpID0+IE51bWJlcihyLnN0b2NrKSA8IE51bWJlcihyLm1pbl9zdG9jaykpOwogICAgICAgIGNvbnN0IGhpZ2ggPSByb3dzLmZpbHRlcigocikgPT4gTnVtYmVyKHIubWF4X3N0b2NrKSA+IDAgJiYgTnVtYmVyKHIuc3RvY2spID4gTnVtYmVyKHIubWF4X3N0b2NrKSk7CiAgICAgICAgaWYgKCFyb3dzLmxlbmd0aCkgcmV0dXJuIHsgbWVzc2FnZTogJ+W6k+WtmOmihOitpuaJq+aPj+WujOaIkO+8muaXoOW8guW4uOWVhuWTgScgfTsKCiAgICAgICAgLy8g5Y+q5YaZ5LiA5p2h5rGH5oC75raI5oGv77yM6YG/5YWN6YCQ5ZWG5ZOB5Yi35bGPCiAgICAgICAgY29uc3Qgc2FtcGxlID0gcm93cwogICAgICAgICAgLnNsaWNlKDAsIDUpCiAgICAgICAgICAubWFwKChyKSA9PiBgJHtyLmdvb2RzX25hbWUgfHwgci5nb29kc19jb2Rlfe+8iOeOsCAke051bWJlcihyLnN0b2NrKX3vvIlgKQogICAgICAgICAgLmpvaW4oJ+OAgScpOwogICAgICAgIGF3YWl0IHRoaXMubWVzc2FnZXMuY3JlYXRlKHsKICAgICAgICAgIHRvQWRtaW5JZDogMCwKICAgICAgICAgIHR5cGU6ICdzdG9ja193YXJuaW5nJywKICAgICAgICAgIGxldmVsOiBoaWdoLmxlbmd0aCAmJiAhbG93Lmxlbmd0aCA/ICdpbmZvJyA6ICd3YXJuJywKICAgICAgICAgIHRpdGxlOiBg5bqT5a2Y6aKE6K2m77yaJHtyb3dzLmxlbmd0aH0g5Liq5ZWG5ZOB6ZyA6KaB5aSE55CGYCwKICAgICAgICAgIGNvbnRlbnQ6IGDkvY7kuo7kuIvpmZAgJHtsb3cubGVuZ3RofSDkuKrvvIzpq5jkuo7kuIrpmZAgJHtoaWdoLmxlbmd0aH0g5Liq44CC56S65L6L77yaJHtzYW1wbGV9JHtyb3dzLmxlbmd0aCA+IDUgPyAnIOetiScgOiAnJ31gLAogICAgICAgICAgbGluazogJy9nb29kcy1zdG9jay13YXJuaW5nJywKICAgICAgICB9KTsKCiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgIG1lc3NhZ2U6IGDlupPlrZjpooToraYgJHtyb3dzLmxlbmd0aH0g5Liq77yI5L2O5LqO5LiL6ZmQICR7bG93Lmxlbmd0aH0gLyDpq5jkuo7kuIrpmZAgJHtoaWdoLmxlbmd0aH3vvIlgLAogICAgICAgICAgZGV0YWlsOiByb3dzCiAgICAgICAgICAgIC5tYXAoCiAgICAgICAgICAgICAgKHIpID0+CiAgICAgICAgICAgICAgICBgJHtyLmdvb2RzX2NvZGV9ICR7ci5nb29kc19uYW1lfSDnjrDlupPlrZg9JHtOdW1iZXIoci5zdG9jayl9IOS4i+mZkD0ke051bWJlcihyLm1pbl9zdG9jayl9IOS4iumZkD0ke051bWJlcihyLm1heF9zdG9jayl9YCwKICAgICAgICAgICAgKQogICAgICAgICAgICAuam9pbignXG4nKSwKICAgICAgICB9OwogICAgICB9LAogICAgfSk7CiAgfQoKICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KICAvLyAzKSDmibnmrKHkv53otKjmnJ/pooToraYKICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KICBwcml2YXRlIHJlZ2lzdGVyQmF0Y2hFeHBpcnkoKTogdm9pZCB7CiAgICB0aGlzLnNjaGVkdWxlci5yZWdpc3Rlcih7CiAgICAgIG5hbWU6ICdiYXRjaF9leHBpcnknLAogICAgICB0aXRsZTogJ+aJueasoeS/nei0qOacn+mihOitpicsCiAgICAgIGNyb246ICcxMCA4ICogKiAqJywKICAgICAgZGVzY3JpcHRpb246ICfmr4/lpKkgMDg6MTAg5omr5o+P5om55qyh5pyJ5pWI5pyf77yM5Li05pyf77yI6aKE6K2m5aSp5pWw5YaF77yJ5LiO5bey6L+H5pyf5om55qyh5YaZ5YWl5raI5oGv5Lit5b+D44CCJywKICAgICAgaGFuZGxlcjogYXN5bmMgKCkgPT4gewogICAgICAgIC8vIOm7mOiupOaPkOWJjSAzMCDlpKnpooTorabvvJvllYblk4Hoi6XmnIkgZWFybHlfd2FybmluZyDliJnnlKjllYblk4Hoh6rlt7HnmoTlpKnmlbAKICAgICAgICBjb25zdCBkZWZhdWx0RGF5cyA9IE51bWJlcihhd2FpdCB0aGlzLnNldFZhbHVlKCdiYXRjaF93YXJuaW5nX2RheXMnLCAnMzAnKSkgfHwgMzA7CiAgICAgICAgY29uc3QgbGltaXRTZWMgPSB0aGlzLm5vdygpICsgZGVmYXVsdERheXMgKiA4NjQwMDsKCiAgICAgICAgY29uc3Qgcm93czogYW55W10gPSBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgICAgICBgU0VMRUNUIGIuaWQsIGIuZ29vZHNfY29kZSwgYi5iYXRjaF9uYW1lLCBiLnZhbGlkaXR5LAogICAgICAgICAgICAgICAgICBnLmdvb2RzX25hbWUsIGcuZWFybHlfd2FybmluZwogICAgICAgICAgICAgRlJPTSBrdWVycF9nb29kc19iYXRjaCBiCiAgICAgICAgICAgICBMRUZUIEpPSU4ga3VlcnBfZ29vZHMgZyBPTiBnLmlkID0gYi5nb29kc19pZAogICAgICAgICAgICBXSEVSRSBiLnZhbGlkaXR5IElTIE5PVCBOVUxMIEFORCBiLnZhbGlkaXR5ID4gMAogICAgICAgICAgICAgIEFORCBiLnZhbGlkaXR5IDw9ID8KICAgICAgICAgICAgT1JERVIgQlkgYi52YWxpZGl0eSBBU0MKICAgICAgICAgICAgTElNSVQgNTAwYCwKICAgICAgICAgIFtsaW1pdFNlY10sCiAgICAgICAgKTsKCiAgICAgICAgaWYgKCFyb3dzLmxlbmd0aCkgcmV0dXJuIHsgbWVzc2FnZTogJ+aJueasoeS/nei0qOacn+aJq+aPj+WujOaIkO+8muaXoOS4tOacn+aIlui/h+acn+aJueasoScgfTsKCiAgICAgICAgY29uc3QgbiA9IHRoaXMubm93KCk7CiAgICAgICAgY29uc3QgZXhwaXJlZCA9IHJvd3MuZmlsdGVyKChyKSA9PiBOdW1iZXIoci52YWxpZGl0eSkgPD0gbik7CiAgICAgICAgY29uc3Qgc29vbiA9IHJvd3MuZmlsdGVyKChyKSA9PiBOdW1iZXIoci52YWxpZGl0eSkgPiBuKTsKICAgICAgICBjb25zdCBzYW1wbGUgPSByb3dzCiAgICAgICAgICAuc2xpY2UoMCwgNSkKICAgICAgICAgIC5tYXAoKHIpID0+IGAke3IuZ29vZHNfbmFtZSB8fCByLmdvb2RzX2NvZGV9LyR7ci5iYXRjaF9uYW1lIHx8ICctJ33vvIgke3RoaXMuZm10RGF0ZShyLnZhbGlkaXR5KX3vvIlgKQogICAgICAgICAgLmpvaW4oJ+OAgScpOwoKICAgICAgICBhd2FpdCB0aGlzLm1lc3NhZ2VzLmNyZWF0ZSh7CiAgICAgICAgICB0b0FkbWluSWQ6IDAsCiAgICAgICAgICB0eXBlOiAnYmF0Y2hfZXhwaXJ5JywKICAgICAgICAgIGxldmVsOiBleHBpcmVkLmxlbmd0aCA/ICdkYW5nZXInIDogJ3dhcm4nLAogICAgICAgICAgdGl0bGU6IGDmibnmrKHkv53otKjmnJ/pooTorabvvJoke3Jvd3MubGVuZ3RofSDkuKrmibnmrKFgLAogICAgICAgICAgY29udGVudDogYOW3sui/h+acnyAke2V4cGlyZWQubGVuZ3RofSDkuKrvvIwke2RlZmF1bHREYXlzfSDlpKnlhoXkuLTmnJ8gJHtzb29uLmxlbmd0aH0g5Liq44CC56S65L6L77yaJHtzYW1wbGV9JHtyb3dzLmxlbmd0aCA+IDUgPyAnIOetiScgOiAnJ31gLAogICAgICAgICAgbGluazogJy9nb29kcy1iYXRjaC1leHBpcnknLAogICAgICAgIH0pOwoKICAgICAgICByZXR1cm4gewogICAgICAgICAgbWVzc2FnZTogYOaJueasoemihOitpiAke3Jvd3MubGVuZ3RofSDkuKrvvIjov4fmnJ8gJHtleHBpcmVkLmxlbmd0aH0gLyDkuLTmnJ8gJHtzb29uLmxlbmd0aH3vvIlgLAogICAgICAgICAgZGV0YWlsOiByb3dzCiAgICAgICAgICAgIC5tYXAoKHIpID0+IGAke3IuZ29vZHNfY29kZX0gJHtyLmJhdGNoX25hbWUgfHwgJy0nfSDmnInmlYjmnJ/oh7MgJHt0aGlzLmZtdERhdGUoci52YWxpZGl0eSl9YCkKICAgICAgICAgICAgLmpvaW4oJ1xuJyksCiAgICAgICAgfTsKICAgICAgfSwKICAgIH0pOwogIH0KCiAgLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiAgLy8gNCkg5bqU5pS26YC+5pyf5o+Q6YaSCiAgLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiAgcHJpdmF0ZSByZWdpc3RlckFyRHVlKCk6IHZvaWQgewogICAgdGhpcy5zY2hlZHVsZXIucmVnaXN0ZXIoewogICAgICBuYW1lOiAnYXJfZHVlJywKICAgICAgdGl0bGU6ICflupTmlLbpgL7mnJ/mj5DphpInLAogICAgICBjcm9uOiAnMjAgOCAqICogKicsCiAgICAgIGRlc2NyaXB0aW9uOiAn5q+P5aSpIDA4OjIwIOaMiei0puacn+WkqeaVsO+8iOezu+e7n+WPguaVsCBhcl9kdWVfZGF5c++8jOm7mOiupCAzMCDlpKnvvInmib7lh7rpgL7mnJ/mnKrmlLblroznmoTplIDotKfljZXjgIInLAogICAgICBoYW5kbGVyOiBhc3luYyAoKSA9PiB7CiAgICAgICAgY29uc3QgZHVlRGF5cyA9IE51bWJlcihhd2FpdCB0aGlzLnNldFZhbHVlKCdhcl9kdWVfZGF5cycsICczMCcpKSB8fCAzMDsKICAgICAgICBjb25zdCBkZWFkbGluZSA9IHRoaXMubm93KCkgLSBkdWVEYXlzICogODY0MDA7CgogICAgICAgIC8vIOWPque7n+iuoeW3suWuoeaguOOAgeS4lOaUtuasvueKtuaAgeS4uuacquaUtuasvi/pg6jliIbmlLbmrL7nmoTplIDotKfljZUKICAgICAgICBjb25zdCByb3dzOiBhbnlbXSA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgICAgIGBTRUxFQ1Qgcy5pZCwgcy5wdXJjaGFzZV9jb2RlLCBzLnB1cmNoYXNlX3RpbWUsIHMubW9uZXlfdGF4X3ByaWNlLCBzLnBheV9tb25leSwgcy5wYXlfc3RhdHVzLAogICAgICAgICAgICAgICAgICBjLmN1c3RvbWVyX25hbWUKICAgICAgICAgICAgIEZST00ga3VlcnBfZ29vZHNfc2FsZXMgcwogICAgICAgICAgICAgTEVGVCBKT0lOIGt1ZXJwX2N1c3RvbWVycyBjIE9OIGMuaWQgPSBzLmN1c3RvbWVyc19pZAogICAgICAgICAgICBXSEVSRSBzLmV4YW1pbmVfc3RhdHVzID0gJzEnCiAgICAgICAgICAgICAgQU5EIHMucGF5X3N0YXR1cyBJTiAoJzAnLCcyJykKICAgICAgICAgICAgICBBTkQgcy5wdXJjaGFzZV90aW1lIElTIE5PVCBOVUxMIEFORCBzLnB1cmNoYXNlX3RpbWUgPiAwCiAgICAgICAgICAgICAgQU5EIHMucHVyY2hhc2VfdGltZSA8ID8KICAgICAgICAgICAgT1JERVIgQlkgcy5wdXJjaGFzZV90aW1lIEFTQwogICAgICAgICAgICBMSU1JVCA1MDBgLAogICAgICAgICAgW2RlYWRsaW5lXSwKICAgICAgICApOwoKICAgICAgICBpZiAoIXJvd3MubGVuZ3RoKSB7CiAgICAgICAgICByZXR1cm4geyBtZXNzYWdlOiBg5bqU5pS26YC+5pyf5omr5o+P5a6M5oiQ77ya6LSm5pyfICR7ZHVlRGF5c30g5aSp5YaF5peg6YC+5pyf5Y2V5o2uYCB9OwogICAgICAgIH0KCiAgICAgICAgbGV0IHN1bSA9IDA7CiAgICAgICAgY29uc3QgbGluZXMgPSByb3dzLm1hcCgocikgPT4gewogICAgICAgICAgY29uc3Qgb3dlZCA9IE1hdGgubWF4KDAsIE51bWJlcihyLm1vbmV5X3RheF9wcmljZSB8fCAwKSAtIE51bWJlcihyLnBheV9tb25leSB8fCAwKSk7CiAgICAgICAgICBzdW0gKz0gb3dlZDsKICAgICAgICAgIHJldHVybiBgJHtyLnB1cmNoYXNlX2NvZGV9ICR7ci5jdXN0b21lcl9uYW1lIHx8ICctJ30g5qygICR7b3dlZC50b0ZpeGVkKDIpfSDljZXmja7ml6XmnJ8gJHt0aGlzLmZtdERhdGUoci5wdXJjaGFzZV90aW1lKX1gOwogICAgICAgIH0pOwoKICAgICAgICBhd2FpdCB0aGlzLm1lc3NhZ2VzLmNyZWF0ZSh7CiAgICAgICAgICB0b0FkbWluSWQ6IDAsCiAgICAgICAgICB0eXBlOiAnYXJfZHVlJywKICAgICAgICAgIGxldmVsOiAnZGFuZ2VyJywKICAgICAgICAgIHRpdGxlOiBg5bqU5pS26YC+5pyf77yaJHtyb3dzLmxlbmd0aH0g5byg6ZSA6LSn5Y2V77yM5ZCI6K6hICR7c3VtLnRvRml4ZWQoMil9IOWFg2AsCiAgICAgICAgICBjb250ZW50OiBg6LaF6L+H6LSm5pyfICR7ZHVlRGF5c30g5aSp5LuN5pyq5pS25a6M5qy+77yM5pyA6ZW/6YC+5pyf56S65L6L77yaJHtsaW5lcy5zbGljZSgwLCAzKS5qb2luKCfvvJsnKX0ke3Jvd3MubGVuZ3RoID4gMyA/ICcg562JJyA6ICcnfWAsCiAgICAgICAgICBsaW5rOiAnL2FjY291bnRzLXJlY2VpdmFibGUnLAogICAgICAgIH0pOwoKICAgICAgICByZXR1cm4gewogICAgICAgICAgbWVzc2FnZTogYOW6lOaUtumAvuacnyAke3Jvd3MubGVuZ3RofSDlvKDvvIzlkIjorqEgJHtzdW0udG9GaXhlZCgyKX0g5YWD77yI6LSm5pyfICR7ZHVlRGF5c30g5aSp77yJYCwKICAgICAgICAgIGRldGFpbDogbGluZXMuam9pbignXG4nKSwKICAgICAgICB9OwogICAgICB9LAogICAgfSk7CiAgfQoKICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KICAvLyA1KSDmuIXnkIbov4fmnJ/lt7Lor7vmtojmga8KICAvLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KICBwcml2YXRlIHJlZ2lzdGVyTWVzc2FnZVB1cmdlKCk6IHZvaWQgewogICAgdGhpcy5zY2hlZHVsZXIucmVnaXN0ZXIoewogICAgICBuYW1lOiAnbWVzc2FnZV9wdXJnZScsCiAgICAgIHRpdGxlOiAn5riF55CG6L+H5pyf5bey6K+75raI5oGvJywKICAgICAgY3JvbjogJzAgMyAqICogMScsCiAgICAgIGRlc2NyaXB0aW9uOiAn5q+P5ZGo5LiAIDAzOjAwIOWIoOmZpCA5MCDlpKnliY3lt7Lor7vnmoTmtojmga/vvIjpu5jorqTlhbPpl63vvIzlj6/lnKjns7vnu5/lj4LmlbDlvIDlkK/vvInjgIInLAogICAgICBlbmFibGVkQnlEZWZhdWx0OiBmYWxzZSwKICAgICAgaGFuZGxlcjogYXN5bmMgKCkgPT4gewogICAgICAgIGNvbnN0IG4gPSBhd2FpdCB0aGlzLm1lc3NhZ2VzLnB1cmdlUmVhZCg5MCk7CiAgICAgICAgcmV0dXJuIHsgbWVzc2FnZTogYOa4heeQhuW3suivu+a2iOaBryAke259IOadoWAgfTsKICAgICAgfSwKICAgIH0pOwogIH0KCiAgLyoqCiAgICog5pe26Ze05oiz6L2sIFlZWVktTU0tRETjgIIKICAgKiBAcGFyYW0gdHMg56eS57qn5pe26Ze05oizCiAgICogQHJldHVybnMg5pel5pyf5a2X56ym5LiyCiAgICovCiAgcHJpdmF0ZSBmbXREYXRlKHRzOiBudW1iZXIgfCBzdHJpbmcpOiBzdHJpbmcgewogICAgY29uc3QgbiA9IE51bWJlcih0cyk7CiAgICBpZiAoIW4pIHJldHVybiAn4oCUJzsKICAgIGNvbnN0IGQgPSBuZXcgRGF0ZShuICogMTAwMCk7CiAgICBjb25zdCBwID0gKHg6IG51bWJlcikgPT4gU3RyaW5nKHgpLnBhZFN0YXJ0KDIsICcwJyk7CiAgICByZXR1cm4gYCR7ZC5nZXRGdWxsWWVhcigpfS0ke3AoZC5nZXRNb250aCgpICsgMSl9LSR7cChkLmdldERhdGUoKSl9YDsKICB9Cn0K
+import { Injectable, Logger, OnModuleInit } from '@nestjs/common';
+import { DataSource } from 'typeorm';
+import { MessageService } from '../message/message.service';
+import { WechatTokenService } from '../wechat/wechat-token.service';
+import { SchedulerService } from './scheduler.service';
+
+/**
+ * 内置定时作业注册器。
+ *
+ * 把「作业定义」与「调度内核」分开：
+ * - SchedulerService 只管何时跑、跑完记日志；
+ * - 本类只关心每个作业查哪些表、产出什么消息。
+ * 这样以后加作业不用动内核代码。
+ *
+ * 五个作业：
+ *   1) wechat_token   每 30 分钟预热微信 access_token（有效期 7200 秒）
+ *   2) stock_warning  每天 08:00 扫库存预警（低于下限 / 高于上限）
+ *   3) batch_expiry   每天 08:10 扫批次保质期（临期 / 过期）
+ *   4) ar_due         每天 08:20 扫应收逾期（未收款 / 部分收款且超过账期天数）
+ *   5) message_purge  每周一 03:00 清理 90 天前已读消息（默认关闭）
+ *
+ * 消息写入原则：**一次作业只写一条汇总消息**，不逐商品逐单据刷屏。
+ * 明细放在 detail 里供作业日志查看，消息正文只给数量与前几个示例。
+ */
+@Injectable()
+export class JobsRegistrar implements OnModuleInit {
+  private readonly logger = new Logger(JobsRegistrar.name);
+
+  constructor(
+    private readonly scheduler: SchedulerService,
+    private readonly dataSource: DataSource,
+    private readonly messages: MessageService,
+    private readonly wechat: WechatTokenService,
+  ) {}
+
+  onModuleInit(): void {
+    this.registerWechatToken();
+    this.registerStockWarning();
+    this.registerBatchExpiry();
+    this.registerArDue();
+    this.registerMessagePurge();
+  }
+
+  /** 当前秒级时间戳 */
+  private now(): number {
+    return Math.floor(Date.now() / 1000);
+  }
+
+  /**
+   * 读取一个字符串型系统参数。
+   * @param name 参数名
+   * @param def 默认值
+   * @returns 参数值
+   */
+  private async setValue(name: string, def = ''): Promise<string> {
+    try {
+      const rows = await this.dataSource.query('SELECT value FROM kuerp_sets WHERE name = ? LIMIT 1', [name]);
+      const v = rows?.[0]?.value;
+      return v === null || v === undefined || v === '' ? def : String(v);
+    } catch {
+      return def;
+    }
+  }
+
+  // ==================================================================
+  // 1) 微信 access_token 预热
+  // ==================================================================
+  private registerWechatToken(): void {
+    this.scheduler.register({
+      name: 'wechat_token',
+      title: '微信 access_token 刷新',
+      cron: '*/30 * * * *',
+      description: '每 30 分钟刷新小程序 access_token（有效期 7200 秒），避免首个请求现场取令牌变慢。',
+      handler: async () => {
+        const r = await this.wechat.getToken(true);
+        if (!r.ok) {
+          // 未配置 AppID/Secret 属正常情况（未启用订货通），按成功记录但注明原因，避免日志满屏「失败」
+          return { message: `未取到 access_token：${r.msg || '未知原因'}`, detail: r.msg || '' };
+        }
+        const s = this.wechat.status();
+        return {
+          message: `access_token 已刷新，剩余有效期 ${s.remain} 秒`,
+          detail: `token=${s.tokenMask} expireAt=${s.expireAt}`,
+        };
+      },
+    });
+  }
+
+  // ==================================================================
+  // 2) 库存预警扫描
+  // ==================================================================
+  private registerStockWarning(): void {
+    this.scheduler.register({
+      name: 'stock_warning',
+      title: '库存预警扫描',
+      cron: '0 8 * * *',
+      description: '每天 08:00 汇总各仓库存，低于最低库存或高于最高库存的商品写入消息中心。',
+      handler: async () => {
+        // 按商品汇总（不限仓库）：原系统「库存预警」报表也是按商品看总库存
+        const rows: any[] = await this.dataSource.query(
+          `SELECT g.id, g.goods_code, g.goods_name, g.min_stock, g.max_stock,
+                  COALESCE(SUM(s.stock), 0) AS stock
+             FROM kuerp_goods g
+             LEFT JOIN kuerp_goods_stock s ON s.goods_id = g.id
+            WHERE g.stock_warning = '1'
+              AND (g.deletetime IS NULL OR g.deletetime = 0)
+            GROUP BY g.id, g.goods_code, g.goods_name, g.min_stock, g.max_stock
+           HAVING stock < g.min_stock OR (g.max_stock > 0 AND stock > g.max_stock)
+            ORDER BY g.id
+            LIMIT 500`,
+        );
+
+        const low = rows.filter((r) => Number(r.stock) < Number(r.min_stock));
+        const high = rows.filter((r) => Number(r.max_stock) > 0 && Number(r.stock) > Number(r.max_stock));
+        if (!rows.length) return { message: '库存预警扫描完成：无异常商品' };
+
+        // 只写一条汇总消息，避免逐商品刷屏
+        const sample = rows
+          .slice(0, 5)
+          .map((r) => `${r.goods_name || r.goods_code}（现 ${Number(r.stock)}）`)
+          .join('、');
+        await this.messages.create({
+          toAdminId: 0,
+          type: 'stock_warning',
+          level: high.length && !low.length ? 'info' : 'warn',
+          title: `库存预警：${rows.length} 个商品需要处理`,
+          content: `低于下限 ${low.length} 个，高于上限 ${high.length} 个。示例：${sample}${rows.length > 5 ? ' 等' : ''}`,
+          link: '/goods-stock-warning',
+        });
+
+        return {
+          message: `库存预警 ${rows.length} 个（低于下限 ${low.length} / 高于上限 ${high.length}）`,
+          detail: rows
+            .map(
+              (r) =>
+                `${r.goods_code} ${r.goods_name} 现库存=${Number(r.stock)} 下限=${Number(r.min_stock)} 上限=${Number(r.max_stock)}`,
+            )
+            .join('\n'),
+        };
+      },
+    });
+  }
+
+  // ==================================================================
+  // 3) 批次保质期预警
+  // ==================================================================
+  private registerBatchExpiry(): void {
+    this.scheduler.register({
+      name: 'batch_expiry',
+      title: '批次保质期预警',
+      cron: '10 8 * * *',
+      description: '每天 08:10 扫描批次有效期，临期（预警天数内）与已过期批次写入消息中心。',
+      handler: async () => {
+        // 默认提前 30 天预警；商品若有 early_warning 则用商品自己的天数
+        const defaultDays = Number(await this.setValue('batch_warning_days', '30')) || 30;
+        const limitSec = this.now() + defaultDays * 86400;
+
+        const rows: any[] = await this.dataSource.query(
+          `SELECT b.id, b.goods_code, b.batch_name, b.validity,
+                  g.goods_name, g.early_warning
+             FROM kuerp_goods_batch b
+             LEFT JOIN kuerp_goods g ON g.id = b.goods_id
+            WHERE b.validity IS NOT NULL AND b.validity > 0
+              AND b.validity <= ?
+            ORDER BY b.validity ASC
+            LIMIT 500`,
+          [limitSec],
+        );
+
+        if (!rows.length) return { message: '批次保质期扫描完成：无临期或过期批次' };
+
+        const n = this.now();
+        const expired = rows.filter((r) => Number(r.validity) <= n);
+        const soon = rows.filter((r) => Number(r.validity) > n);
+        const sample = rows
+          .slice(0, 5)
+          .map((r) => `${r.goods_name || r.goods_code}/${r.batch_name || '-'}（${this.fmtDate(r.validity)}）`)
+          .join('、');
+
+        await this.messages.create({
+          toAdminId: 0,
+          type: 'batch_expiry',
+          level: expired.length ? 'danger' : 'warn',
+          title: `批次保质期预警：${rows.length} 个批次`,
+          content: `已过期 ${expired.length} 个，${defaultDays} 天内临期 ${soon.length} 个。示例：${sample}${rows.length > 5 ? ' 等' : ''}`,
+          link: '/goods-batch-expiry',
+        });
+
+        return {
+          message: `批次预警 ${rows.length} 个（过期 ${expired.length} / 临期 ${soon.length}）`,
+          detail: rows
+            .map((r) => `${r.goods_code} ${r.batch_name || '-'} 有效期至 ${this.fmtDate(r.validity)}`)
+            .join('\n'),
+        };
+      },
+    });
+  }
+
+  // ==================================================================
+  // 4) 应收逾期提醒
+  // ==================================================================
+  private registerArDue(): void {
+    this.scheduler.register({
+      name: 'ar_due',
+      title: '应收逾期提醒',
+      cron: '20 8 * * *',
+      description: '每天 08:20 按账期天数（系统参数 ar_due_days，默认 30 天）找出逾期未收完的销货单。',
+      handler: async () => {
+        const dueDays = Number(await this.setValue('ar_due_days', '30')) || 30;
+        const deadline = this.now() - dueDays * 86400;
+
+        // 只统计已审核、且收款状态为未收款/部分收款的销货单
+        const rows: any[] = await this.dataSource.query(
+          `SELECT s.id, s.purchase_code, s.purchase_time, s.money_tax_price, s.pay_money, s.pay_status,
+                  c.customer_name
+             FROM kuerp_goods_sales s
+             LEFT JOIN kuerp_customers c ON c.id = s.customers_id
+            WHERE s.examine_status = '1'
+              AND s.pay_status IN ('0','2')
+              AND s.purchase_time IS NOT NULL AND s.purchase_time > 0
+              AND s.purchase_time < ?
+            ORDER BY s.purchase_time ASC
+            LIMIT 500`,
+          [deadline],
+        );
+
+        if (!rows.length) {
+          return { message: `应收逾期扫描完成：账期 ${dueDays} 天内无逾期单据` };
+        }
+
+        let sum = 0;
+        const lines = rows.map((r) => {
+          const owed = Math.max(0, Number(r.money_tax_price || 0) - Number(r.pay_money || 0));
+          sum += owed;
+          return `${r.purchase_code} ${r.customer_name || '-'} 欠 ${owed.toFixed(2)} 单据日期 ${this.fmtDate(r.purchase_time)}`;
+        });
+
+        await this.messages.create({
+          toAdminId: 0,
+          type: 'ar_due',
+          level: 'danger',
+          title: `应收逾期：${rows.length} 张销货单，合计 ${sum.toFixed(2)} 元`,
+          content: `超过账期 ${dueDays} 天仍未收完款，最长逾期示例：${lines.slice(0, 3).join('；')}${rows.length > 3 ? ' 等' : ''}`,
+          link: '/accounts-receivable',
+        });
+
+        return {
+          message: `应收逾期 ${rows.length} 张，合计 ${sum.toFixed(2)} 元（账期 ${dueDays} 天）`,
+          detail: lines.join('\n'),
+        };
+      },
+    });
+  }
+
+  // ==================================================================
+  // 5) 清理过期已读消息
+  // ==================================================================
+  private registerMessagePurge(): void {
+    this.scheduler.register({
+      name: 'message_purge',
+      title: '清理过期已读消息',
+      cron: '0 3 * * 1',
+      description: '每周一 03:00 删除 90 天前已读的消息（默认关闭，可在系统参数开启）。',
+      enabledByDefault: false,
+      handler: async () => {
+        const n = await this.messages.purgeRead(90);
+        return { message: `清理已读消息 ${n} 条` };
+      },
+    });
+  }
+
+  /**
+   * 时间戳转 YYYY-MM-DD。
+   * @param ts 秒级时间戳
+   * @returns 日期字符串
+   */
+  private fmtDate(ts: number | string): string {
+    const n = Number(ts);
+    if (!n) return '—';
+    const d = new Date(n * 1000);
+    const p = (x: number) => String(x).padStart(2, '0');
+    return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+  }
+}

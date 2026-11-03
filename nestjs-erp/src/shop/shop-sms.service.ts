@@ -1,1 +1,141 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgTG9nZ2VyIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBEYXRhU291cmNlIH0gZnJvbSAndHlwZW9ybSc7CgovKioKICog55+t5L+h6aqM6K+B56CB5pyN5Yqh77yIMToxIOi/mOWOnyBPcmRlclxTbXMgKyBGYXN0QWRtaW4gYGFwcFxjb21tb25cbGlicmFyeVxTbXNg77yJ44CCCiAqCiAqIOWOn+ezu+e7n+aKiumqjOivgeeggeWtmCBgZmFfc21zYCDooajlubbkvp3otZblkI7lj7Dlronoo4XnmoTnn63kv6Hmj5Lku7bkuIvlj5HvvJsKICog5pys6YeN5bu65bqT55SoIGBrdWVycF9zbXNg77yI6KeBIGRiL3Nob3Atc2NoZW1hLnNxbO+8ieWtmOWCqO+8jOS4i+WPkemAmumBk+aUueS4ugogKiDjgIzlj6/phY3nva7nmoQgSFRUUCDnvZHlhbPjgI3vvJoKICogICAtIOmFjee9riBTTVNfR0FURVdBWV9VUkwg5pe277yMUE9TVCB7bW9iaWxlLCBjb2RlLCBldmVudH0g5Yiw6K+l5Zyw5Z2A5a6M5oiQ5LiL5Y+R77ybCiAqICAgLSDmnKrphY3nva7ml7blj6rokL3lupPlubblj5HlkYrorabml6Xlv5fvvIzoi6UgU01TX0RFQlVHPXRydWUg5YiZ5oqK6aqM6K+B56CB5Zue5Lyg57uZ5a6i5oi356uv77yMCiAqICAgICDmlrnkvr/mnKzlnLAv6IGU6LCD546v5aKD6LWw6YCa5rOo5YaM44CB57uR5a6a44CB5pS55a+G562J5rWB56iL77yI55Sf5Lqn546v5aKD5b+F6aG75YWz6Zet77yJ44CCCiAqCiAqIOmikeeOh+mZkOWItuS4juWOn+ezu+e7n+S4gOiHtO+8muWQjOaJi+acuuWPt+WQjOS6i+S7tiA2MCDnp5LkuIDmrKHvvJvlkIwgSVAg5q+P5bCP5pe25pyA5aSaIDUg5p2h44CCCiAqLwpASW5qZWN0YWJsZSgpCmV4cG9ydCBjbGFzcyBTaG9wU21zU2VydmljZSB7CiAgcHJpdmF0ZSByZWFkb25seSBsb2dnZXIgPSBuZXcgTG9nZ2VyKCdTaG9wU21zJyk7CgogIGNvbnN0cnVjdG9yKHByaXZhdGUgcmVhZG9ubHkgZGF0YVNvdXJjZTogRGF0YVNvdXJjZSkge30KCiAgLyoqIOW9k+WJjeenkue6p+aXtumXtOaIsyAqLwogIHByaXZhdGUgbm93KCk6IG51bWJlciB7CiAgICByZXR1cm4gTWF0aC5mbG9vcihEYXRlLm5vdygpIC8gMTAwMCk7CiAgfQoKICAvKioKICAgKiDlj5HpgIHpqozor4HnoIHjgIIKICAgKgogICAqIEBwYXJhbSBtb2JpbGUg5omL5py65Y+3CiAgICogQHBhcmFtIGV2ZW50IOS6i+S7tu+8mnJlZ2lzdGVyIC8gbG9naW4gLyByZXNldHB3ZCAvIGNoYW5nZW1vYmlsZSAvIG1vYmlsZWxvZ2luIC8gYmluZAogICAqIEBwYXJhbSBpcCDor7fmsYIgSVAKICAgKiBAcmV0dXJucyB7IG9rLCBtc2csIGNvZGU/IH3vvIxjb2RlIOS7heWcqCBTTVNfREVCVUc9dHJ1ZSDml7blm57kvKAKICAgKi8KICBhc3luYyBzZW5kKG1vYmlsZTogc3RyaW5nLCBldmVudCA9ICdyZWdpc3RlcicsIGlwID0gJycpOiBQcm9taXNlPHsgb2s6IGJvb2xlYW47IG1zZzogc3RyaW5nOyBjb2RlPzogc3RyaW5nIH0+IHsKICAgIGlmICghL14xXGR7MTB9JC8udGVzdChTdHJpbmcobW9iaWxlIHx8ICcnKSkpIHJldHVybiB7IG9rOiBmYWxzZSwgbXNnOiAn5omL5py65Y+35LiN5q2j56GuJyB9OwoKICAgIC8vIDEpIOWQjOaJi+acuuWPt+WQjOS6i+S7tiA2MCDnp5LlhoXkuI3lj6/ph43lpI3lj5HpgIEKICAgIGNvbnN0IGxhc3QgPSBhd2FpdCB0aGlzLmRhdGFTb3VyY2UKICAgICAgLnF1ZXJ5KCdTRUxFQ1QgYGNyZWF0ZXRpbWVgIEZST00gYGt1ZXJwX3Ntc2AgV0hFUkUgYG1vYmlsZWAgPSA/IEFORCBgZXZlbnRgID0gPyBPUkRFUiBCWSBgaWRgIERFU0MgTElNSVQgMScsIFsKICAgICAgICBtb2JpbGUsCiAgICAgICAgZXZlbnQsCiAgICAgIF0pCiAgICAgIC50aGVuKChyOiBhbnlbXSkgPT4gcj8uWzBdID8/IG51bGwpOwogICAgaWYgKGxhc3QgJiYgdGhpcy5ub3coKSAtIE51bWJlcihsYXN0LmNyZWF0ZXRpbWUgfHwgMCkgPCA2MCkgcmV0dXJuIHsgb2s6IGZhbHNlLCBtc2c6ICflj5HpgIHpopHnuYEnIH07CgogICAgLy8gMikg5ZCMIElQIOavj+Wwj+aXtuacgOWkmiA1IOadoQogICAgaWYgKGlwKSB7CiAgICAgIGNvbnN0IGlwUm93czogYW55W10gPSBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgICAgJ1NFTEVDVCBDT1VOVCgqKSBBUyBgY2AgRlJPTSBga3VlcnBfc21zYCBXSEVSRSBgaXBgID0gPyBBTkQgYGNyZWF0ZXRpbWVgID49ID8nLAogICAgICAgIFtpcCwgdGhpcy5ub3coKSAtIDM2MDBdLAogICAgICApOwogICAgICBpZiAoTnVtYmVyKGlwUm93cz8uWzBdPy5jIHx8IDApID49IDUpIHJldHVybiB7IG9rOiBmYWxzZSwgbXNnOiAn5Y+R6YCB6aKR57mBJyB9OwogICAgfQoKICAgIC8vIDMpIOS4muWKoeWJjee9ruagoemqjO+8muS4juWOn+ezu+e7n+WujOWFqOS4gOiHtAogICAgY29uc3QgdXNlciA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZQogICAgICAucXVlcnkoJ1NFTEVDVCBgaWRgIEZST00gYGt1ZXJwX3VzZXJgIFdIRVJFIGBtb2JpbGVgID0gPyBBTkQgKGBkZWxldGV0aW1lYCBJUyBOVUxMIE9SIGBkZWxldGV0aW1lYCA9IDApIExJTUlUIDEnLCBbCiAgICAgICAgbW9iaWxlLAogICAgICBdKQogICAgICAudGhlbigocjogYW55W10pID0+IHI/LlswXSA/PyBudWxsKTsKCiAgICBpZiAoZXZlbnQgPT09ICdyZWdpc3RlcicgJiYgdXNlcikgcmV0dXJuIHsgb2s6IGZhbHNlLCBtc2c6ICflt7Looqvms6jlhownIH07CiAgICBpZiAoZXZlbnQgPT09ICdjaGFuZ2Vtb2JpbGUnICYmIHVzZXIpIHJldHVybiB7IG9rOiBmYWxzZSwgbXNnOiAn5bey6KKr5Y2g55SoJyB9OwogICAgaWYgKChldmVudCA9PT0gJ2NoYW5nZXB3ZCcgfHwgZXZlbnQgPT09ICdyZXNldHB3ZCcpICYmICF1c2VyKSByZXR1cm4geyBvazogZmFsc2UsIG1zZzogJ+acquazqOWGjCcgfTsKICAgIGlmIChldmVudCA9PT0gJ2JpbmQnICYmICF1c2VyKSByZXR1cm4geyBvazogZmFsc2UsIG1zZzogJ+acquaJvuWIsOatpOi0puWPt+S/oeaBrycgfTsKCiAgICAvLyA0KSDnlJ/miJDlubbokL3lupPvvIg2IOS9jeaVsOWtl++8jDUg5YiG6ZKf5pyJ5pWI55Sx5qCh6aqM5pe255qEIGNyZWF0ZXRpbWUg5Yik5a6a77yJCiAgICBjb25zdCBjb2RlID0gU3RyaW5nKE1hdGguZmxvb3IoMTAwMDAwICsgTWF0aC5yYW5kb20oKSAqIDkwMDAwMCkpOwogICAgYXdhaXQgdGhpcy5kYXRhU291cmNlLnF1ZXJ5KAogICAgICAnSU5TRVJUIElOVE8gYGt1ZXJwX3Ntc2AgKGBldmVudGAsYG1vYmlsZWAsYGNvZGVgLGB0aW1lc2AsYGlwYCxgY3JlYXRldGltZWApIFZBTFVFUyAoPyw/LD8sPyw/LD8pJywKICAgICAgW2V2ZW50LCBtb2JpbGUsIGNvZGUsIDAsIGlwIHx8ICcnLCB0aGlzLm5vdygpXSwKICAgICk7CgogICAgLy8gNSkg5LiL5Y+RCiAgICBjb25zdCBnYXRld2F5ID0gU3RyaW5nKHByb2Nlc3MuZW52LlNNU19HQVRFV0FZX1VSTCB8fCAnJykudHJpbSgpOwogICAgaWYgKGdhdGV3YXkpIHsKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChnYXRld2F5LCB7CiAgICAgICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgICAgIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJyB9LAogICAgICAgICAgYm9keTogSlNPTi5zdHJpbmdpZnkoeyBtb2JpbGUsIGNvZGUsIGV2ZW50IH0pLAogICAgICAgIH0pOwogICAgICAgIGlmICghcmVzLm9rKSB7CiAgICAgICAgICB0aGlzLmxvZ2dlci5lcnJvcihg55+t5L+h572R5YWz6L+U5ZueICR7cmVzLnN0YXR1c33vvJoke2F3YWl0IHJlcy50ZXh0KCkuY2F0Y2goKCkgPT4gJycpfWApOwogICAgICAgICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBtc2c6ICflj5HpgIHlpLHotKXvvIzor7fmo4Dmn6Xnn63kv6HphY3nva7mmK/lkKbmraPnoa4nIH07CiAgICAgICAgfQogICAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgICB0aGlzLmxvZ2dlci5lcnJvcign55+t5L+h572R5YWz6LCD55So5byC5bi477yaJyArIChlPy5tZXNzYWdlIHx8IGUpKTsKICAgICAgICByZXR1cm4geyBvazogZmFsc2UsIG1zZzogJ+WPkemAgeWksei0pe+8jOivt+ajgOafpeefreS/oemFjee9ruaYr+WQpuato+ehricgfTsKICAgICAgfQogICAgICByZXR1cm4geyBvazogdHJ1ZSwgbXNnOiAn5Y+R6YCB5oiQ5YqfJyB9OwogICAgfQoKICAgIHRoaXMubG9nZ2VyLndhcm4oYOacqumFjee9riBTTVNfR0FURVdBWV9VUkzvvIzpqozor4HnoIHku4XokL3lupPvvJptb2JpbGU9JHttb2JpbGV9IGV2ZW50PSR7ZXZlbnR9YCk7CiAgICAvLyDosIPor5XmqKHlvI/miY3lm57kvKDpqozor4HnoIHvvIznlJ/kuqfnpoHmraLlvIDlkK8KICAgIGlmIChTdHJpbmcocHJvY2Vzcy5lbnYuU01TX0RFQlVHIHx8ICcnKS50b0xvd2VyQ2FzZSgpID09PSAndHJ1ZScpIHsKICAgICAgcmV0dXJuIHsgb2s6IHRydWUsIG1zZzogJ+WPkemAgeaIkOWKn++8iOiwg+ivleaooeW8j++8jOmqjOivgeeggemaj+WTjeW6lOi/lOWbnu+8iScsIGNvZGUgfTsKICAgIH0KICAgIHJldHVybiB7IG9rOiB0cnVlLCBtc2c6ICflj5HpgIHmiJDlip8nIH07CiAgfQoKICAvKioKICAgKiDmoKHpqozpqozor4HnoIHvvIjnrYnku7cgU21zOjpjaGVja++8ieOAguagoemqjOaIkOWKn+S4jeWIoOmZpOiusOW9le+8jOeUsSBmbHVzaCDmmL7lvI/muIXnkIbjgIIKICAgKgogICAqIEBwYXJhbSBtb2JpbGUg5omL5py65Y+3CiAgICogQHBhcmFtIGNhcHRjaGEg55So5oi36L6T5YWl55qE6aqM6K+B56CBCiAgICogQHBhcmFtIGV2ZW50IOS6i+S7tuWQjQogICAqIEBwYXJhbSB0dGxTZWNvbmRzIOacieaViOacn++8jOm7mOiupCAzMDAg56eS77yI5LiO5Y6f57O757uf5LiA6Ie077yJCiAgICogQHJldHVybnMg5piv5ZCm6YCa6L+HCiAgICovCiAgYXN5bmMgY2hlY2sobW9iaWxlOiBzdHJpbmcsIGNhcHRjaGE6IHN0cmluZywgZXZlbnQgPSAncmVnaXN0ZXInLCB0dGxTZWNvbmRzID0gMzAwKTogUHJvbWlzZTxib29sZWFuPiB7CiAgICBpZiAoIS9eMVxkezEwfSQvLnRlc3QoU3RyaW5nKG1vYmlsZSB8fCAnJykpKSByZXR1cm4gZmFsc2U7CiAgICBjb25zdCBjb2RlID0gU3RyaW5nKGNhcHRjaGEgfHwgJycpLnRyaW0oKTsKICAgIGlmICghY29kZSkgcmV0dXJuIGZhbHNlOwoKICAgIGNvbnN0IHJvdzogYW55ID0gYXdhaXQgdGhpcy5kYXRhU291cmNlCiAgICAgIC5xdWVyeSgKICAgICAgICAnU0VMRUNUIGBpZGAsYGNvZGVgLGBjcmVhdGV0aW1lYCxgdGltZXNgIEZST00gYGt1ZXJwX3Ntc2AgV0hFUkUgYG1vYmlsZWAgPSA/IEFORCBgZXZlbnRgID0gPyBPUkRFUiBCWSBgaWRgIERFU0MgTElNSVQgMScsCiAgICAgICAgW21vYmlsZSwgZXZlbnRdLAogICAgICApCiAgICAgIC50aGVuKChyOiBhbnlbXSkgPT4gcj8uWzBdID8/IG51bGwpOwogICAgaWYgKCFyb3cpIHJldHVybiBmYWxzZTsKICAgIGlmICh0aGlzLm5vdygpIC0gTnVtYmVyKHJvdy5jcmVhdGV0aW1lIHx8IDApID4gdHRsU2Vjb25kcykgcmV0dXJuIGZhbHNlOwogICAgaWYgKFN0cmluZyhyb3cuY29kZSkgIT09IGNvZGUpIHsKICAgICAgLy8g6K6w5b2V6ZSZ6K+v5qyh5pWw77yM5L6/5LqO6aOO5o6n5o6S5p+lCiAgICAgIGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgnVVBEQVRFIGBrdWVycF9zbXNgIFNFVCBgdGltZXNgID0gYHRpbWVzYCArIDEgV0hFUkUgYGlkYCA9ID8nLCBbcm93LmlkXSk7CiAgICAgIHJldHVybiBmYWxzZTsKICAgIH0KICAgIHJldHVybiB0cnVlOwogIH0KCiAgLyoqCiAgICog5riF6Zmk5p+Q5omL5py65Y+35p+Q5LqL5Lu255qE6aqM6K+B56CB77yI562J5Lu3IFNtczo6Zmx1c2jvvInjgIIKICAgKiBAcGFyYW0gbW9iaWxlIOaJi+acuuWPtwogICAqIEBwYXJhbSBldmVudCDkuovku7blkI3vvIzpu5jorqQgZGVmYXVsdAogICAqLwogIGFzeW5jIGZsdXNoKG1vYmlsZTogc3RyaW5nLCBldmVudCA9ICdkZWZhdWx0Jyk6IFByb21pc2U8dm9pZD4gewogICAgYXdhaXQgdGhpcy5kYXRhU291cmNlLnF1ZXJ5KCdERUxFVEUgRlJPTSBga3VlcnBfc21zYCBXSEVSRSBgbW9iaWxlYCA9ID8gQU5EIGBldmVudGAgPSA/JywgW21vYmlsZSwgZXZlbnRdKTsKICB9Cn0K
+import { Injectable, Logger } from '@nestjs/common';
+import { DataSource } from 'typeorm';
+
+/**
+ * 短信验证码服务（1:1 还原 Order\Sms + FastAdmin `app\common\library\Sms`）。
+ *
+ * 原系统把验证码存 `fa_sms` 表并依赖后台安装的短信插件下发；
+ * 本重建库用 `kuerp_sms`（见 db/shop-schema.sql）存储，下发通道改为
+ * 「可配置的 HTTP 网关」：
+ *   - 配置 SMS_GATEWAY_URL 时，POST {mobile, code, event} 到该地址完成下发；
+ *   - 未配置时只落库并发告警日志，若 SMS_DEBUG=true 则把验证码回传给客户端，
+ *     方便本地/联调环境走通注册、绑定、改密等流程（生产环境必须关闭）。
+ *
+ * 频率限制与原系统一致：同手机号同事件 60 秒一次；同 IP 每小时最多 5 条。
+ */
+@Injectable()
+export class ShopSmsService {
+  private readonly logger = new Logger('ShopSms');
+
+  constructor(private readonly dataSource: DataSource) {}
+
+  /** 当前秒级时间戳 */
+  private now(): number {
+    return Math.floor(Date.now() / 1000);
+  }
+
+  /**
+   * 发送验证码。
+   *
+   * @param mobile 手机号
+   * @param event 事件：register / login / resetpwd / changemobile / mobilelogin / bind
+   * @param ip 请求 IP
+   * @returns { ok, msg, code? }，code 仅在 SMS_DEBUG=true 时回传
+   */
+  async send(mobile: string, event = 'register', ip = ''): Promise<{ ok: boolean; msg: string; code?: string }> {
+    if (!/^1\d{10}$/.test(String(mobile || ''))) return { ok: false, msg: '手机号不正确' };
+
+    // 1) 同手机号同事件 60 秒内不可重复发送
+    const last = await this.dataSource
+      .query('SELECT `createtime` FROM `kuerp_sms` WHERE `mobile` = ? AND `event` = ? ORDER BY `id` DESC LIMIT 1', [
+        mobile,
+        event,
+      ])
+      .then((r: any[]) => r?.[0] ?? null);
+    if (last && this.now() - Number(last.createtime || 0) < 60) return { ok: false, msg: '发送频繁' };
+
+    // 2) 同 IP 每小时最多 5 条
+    if (ip) {
+      const ipRows: any[] = await this.dataSource.query(
+        'SELECT COUNT(*) AS `c` FROM `kuerp_sms` WHERE `ip` = ? AND `createtime` >= ?',
+        [ip, this.now() - 3600],
+      );
+      if (Number(ipRows?.[0]?.c || 0) >= 5) return { ok: false, msg: '发送频繁' };
+    }
+
+    // 3) 业务前置校验：与原系统完全一致
+    const user = await this.dataSource
+      .query('SELECT `id` FROM `kuerp_user` WHERE `mobile` = ? AND (`deletetime` IS NULL OR `deletetime` = 0) LIMIT 1', [
+        mobile,
+      ])
+      .then((r: any[]) => r?.[0] ?? null);
+
+    if (event === 'register' && user) return { ok: false, msg: '已被注册' };
+    if (event === 'changemobile' && user) return { ok: false, msg: '已被占用' };
+    if ((event === 'changepwd' || event === 'resetpwd') && !user) return { ok: false, msg: '未注册' };
+    if (event === 'bind' && !user) return { ok: false, msg: '未找到此账号信息' };
+
+    // 4) 生成并落库（6 位数字，5 分钟有效由校验时的 createtime 判定）
+    const code = String(Math.floor(100000 + Math.random() * 900000));
+    await this.dataSource.query(
+      'INSERT INTO `kuerp_sms` (`event`,`mobile`,`code`,`times`,`ip`,`createtime`) VALUES (?,?,?,?,?,?)',
+      [event, mobile, code, 0, ip || '', this.now()],
+    );
+
+    // 5) 下发
+    const gateway = String(process.env.SMS_GATEWAY_URL || '').trim();
+    if (gateway) {
+      try {
+        const res = await fetch(gateway, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ mobile, code, event }),
+        });
+        if (!res.ok) {
+          this.logger.error(`短信网关返回 ${res.status}：${await res.text().catch(() => '')}`);
+          return { ok: false, msg: '发送失败，请检查短信配置是否正确' };
+        }
+      } catch (e: any) {
+        this.logger.error('短信网关调用异常：' + (e?.message || e));
+        return { ok: false, msg: '发送失败，请检查短信配置是否正确' };
+      }
+      return { ok: true, msg: '发送成功' };
+    }
+
+    this.logger.warn(`未配置 SMS_GATEWAY_URL，验证码仅落库：mobile=${mobile} event=${event}`);
+    // 调试模式才回传验证码，生产禁止开启
+    if (String(process.env.SMS_DEBUG || '').toLowerCase() === 'true') {
+      return { ok: true, msg: '发送成功（调试模式，验证码随响应返回）', code };
+    }
+    return { ok: true, msg: '发送成功' };
+  }
+
+  /**
+   * 校验验证码（等价 Sms::check）。校验成功不删除记录，由 flush 显式清理。
+   *
+   * @param mobile 手机号
+   * @param captcha 用户输入的验证码
+   * @param event 事件名
+   * @param ttlSeconds 有效期，默认 300 秒（与原系统一致）
+   * @returns 是否通过
+   */
+  async check(mobile: string, captcha: string, event = 'register', ttlSeconds = 300): Promise<boolean> {
+    if (!/^1\d{10}$/.test(String(mobile || ''))) return false;
+    const code = String(captcha || '').trim();
+    if (!code) return false;
+
+    const row: any = await this.dataSource
+      .query(
+        'SELECT `id`,`code`,`createtime`,`times` FROM `kuerp_sms` WHERE `mobile` = ? AND `event` = ? ORDER BY `id` DESC LIMIT 1',
+        [mobile, event],
+      )
+      .then((r: any[]) => r?.[0] ?? null);
+    if (!row) return false;
+    if (this.now() - Number(row.createtime || 0) > ttlSeconds) return false;
+    if (String(row.code) !== code) {
+      // 记录错误次数，便于风控排查
+      await this.dataSource.query('UPDATE `kuerp_sms` SET `times` = `times` + 1 WHERE `id` = ?', [row.id]);
+      return false;
+    }
+    return true;
+  }
+
+  /**
+   * 清除某手机号某事件的验证码（等价 Sms::flush）。
+   * @param mobile 手机号
+   * @param event 事件名，默认 default
+   */
+  async flush(mobile: string, event = 'default'): Promise<void> {
+    await this.dataSource.query('DELETE FROM `kuerp_sms` WHERE `mobile` = ? AND `event` = ?', [mobile, event]);
+  }
+}

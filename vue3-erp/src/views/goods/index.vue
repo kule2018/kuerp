@@ -1,1 +1,89 @@
-PHRlbXBsYXRlPgogIDxkaXY+CiAgICA8RHNDYXJkPgogICAgICA8IS0tIOajgOe0ouWMuu+8iOWOnyBlbC1mb3JtIGlubGluZe+8iSAtLT4KICAgICAgPGRpdiBjbGFzcz0icm93IG1iIj4KICAgICAgICA8RHNGaWVsZCBsYWJlbD0i5ZWG5ZOB5ZCN56ewIj4KICAgICAgICAgIDxEc0lucHV0IHYtbW9kZWw9InNlYXJjaCIgcGxhY2Vob2xkZXI9IuaUr+aMgeWQjeensC/nvJblj7cv5p2h56CBIiBjbGVhcmFibGUgc3R5bGU9IndpZHRoOiAyNDBweCIgQGtleXVwLmVudGVyPSJsb2FkIiAvPgogICAgICAgIDwvRHNGaWVsZD4KICAgICAgICA8ZGl2IGNsYXNzPSJyb3ctYnRucyI+CiAgICAgICAgICA8RHNCdXR0b24gdmFyaWFudD0icHJpbWFyeSIgQGNsaWNrPSJsb2FkIj7mn6Xor6I8L0RzQnV0dG9uPgogICAgICAgICAgPERzQnV0dG9uIHZhcmlhbnQ9InByaW1hcnkiIEBjbGljaz0iZ29FZGl0KDApIj7mlrDlop7llYblk4E8L0RzQnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxEc1RhYmxlIDpjb2x1bW5zPSJjb2x1bW5zIiA6ZGF0YT0ibGlzdCIgOmxvYWRpbmc9ImxvYWRpbmciIDpzdHJpcGVkPSJ0cnVlIj4KICAgICAgICA8IS0tIOeKtuaAgeWIl++8muS4iuaetiAvIOS4i+aetueUqOagh+etvuWMuuWIhiAtLT4KICAgICAgICA8dGVtcGxhdGUgI3N0YXR1cz0ieyByb3cgfSI+CiAgICAgICAgICA8RHNUYWcgOmNvbG9yPSJyb3cuc3RhdHVzID09PSAnMScgPyAnc3VjY2VzcycgOiAnbmV1dHJhbCciPnt7IHJvdy5zdGF0dXMgPT09ICcxJyA/ICfkuIrmnrYnIDogJ+S4i+aeticgfX08L0RzVGFnPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPCEtLSDmk43kvZzliJcgLS0+CiAgICAgICAgPHRlbXBsYXRlICNfYWN0aW9uPSJ7IHJvdyB9Ij4KICAgICAgICAgIDxkaXYgY2xhc3M9Im9wcyI+CiAgICAgICAgICAgIDxEc0J1dHRvbiB2YXJpYW50PSJ0ZXh0IiBAY2xpY2s9ImdvRWRpdChyb3cuaWQpIj7nvJbovpE8L0RzQnV0dG9uPgogICAgICAgICAgICA8RHNCdXR0b24gdmFyaWFudD0idGV4dCIgQGNsaWNrPSJvbkRlbChyb3cuaWQpIj7liKDpmaQ8L0RzQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPC9Ec1RhYmxlPgoKICAgICAgPERzUGFnaW5hdGlvbiBjbGFzcz0ibXQiIGxheW91dD0idG90YWwsIHNpemVzLCBwcmV2LCBwYWdlciwgbmV4dCIgOnRvdGFsPSJ0b3RhbCIgOnBhZ2Utc2l6ZT0icGFnZVNpemUiIDpwYWdlLXNpemVzPSJbMTAsIDIwLCA1MCwgMTAwXSIgQHVwZGF0ZTpjdXJyZW50UGFnZT0ib25QYWdlIiBAdXBkYXRlOnBhZ2VTaXplPSJvblNpemUiIC8+CiAgICA8L0RzQ2FyZD4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXA+CmltcG9ydCB7IHJlZiwgb25Nb3VudGVkIH0gZnJvbSAndnVlJzsKaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAndnVlLXJvdXRlcic7CmltcG9ydCB7IG1lc3NhZ2UsIGNvbmZpcm0gfSBmcm9tICdAL3V0aWxzL3VpJzsKaW1wb3J0IHJlcXVlc3QgZnJvbSAnLi4vLi4vdXRpbHMvcmVxdWVzdCc7Cgpjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTsKY29uc3QgbGlzdCA9IHJlZihbXSk7CmNvbnN0IHRvdGFsID0gcmVmKDApOwpjb25zdCBzZWFyY2ggPSByZWYoJycpOwpjb25zdCBsb2FkaW5nID0gcmVmKGZhbHNlKTsKY29uc3QgcGFnZSA9IHJlZigxKTsKY29uc3QgcGFnZVNpemUgPSByZWYoMTApOwoKLyoqIERzVGFibGUg5YiX6YWN572u77ya5pyr5YiX5Li65pON5L2c5Yy6ICovCmNvbnN0IGNvbHVtbnMgPSBbCiAgeyBrZXk6ICdnb29kc19jb2RlJywgdGl0bGU6ICfnvJblj7cnLCB3aWR0aDogJzEyMCcgfSwKICB7IGtleTogJ2dvb2RzX25hbWUnLCB0aXRsZTogJ+WQjeensCcsIHdpZHRoOiAnMTYwJyB9LAogIHsga2V5OiAnZ29vZHNfc3BlY2lmaWNhdGlvbl9pZCcsIHRpdGxlOiAn6KeE5qC8Jywgd2lkdGg6ICcxMjAnIH0sCiAgeyBrZXk6ICd1bml0X2lkJywgdGl0bGU6ICfljZXkvY1JRCcsIHdpZHRoOiAnOTAnIH0sCiAgeyBrZXk6ICdpbnZlbnRvcnknLCB0aXRsZTogJ+W6k+WtmCcsIHdpZHRoOiAnMTAwJyB9LAogIHsga2V5OiAnbWFya2V0X3NlbGxfcHJpY2UnLCB0aXRsZTogJ+mbtuWUruS7tycsIHdpZHRoOiAnMTAwJyB9LAogIHsga2V5OiAnc3RhdHVzJywgdGl0bGU6ICfnirbmgIEnLCB3aWR0aDogJzgwJyB9LAogIHsga2V5OiAnX2FjdGlvbicsIHRpdGxlOiAn5pON5L2cJywgd2lkdGg6ICcxNjAnIH0sCl07Cgphc3luYyBmdW5jdGlvbiBsb2FkKCkgewogIGxvYWRpbmcudmFsdWUgPSB0cnVlOwogIHRyeSB7CiAgICBjb25zdCByID0gYXdhaXQgcmVxdWVzdC5nZXQoJy9rdWVycC9nb29kcy9pbmRleCcsIHsgcGFyYW1zOiB7IHBhZ2U6IHBhZ2UudmFsdWUsIGxpbWl0OiBwYWdlU2l6ZS52YWx1ZSwgc2VhcmNoOiBzZWFyY2gudmFsdWUgfSB9KTsKICAgIGxpc3QudmFsdWUgPSByPy5saXN0IHx8IFtdOwogICAgdG90YWwudmFsdWUgPSByPy5jb3VudCB8fCAwOwogIH0gZmluYWxseSB7CiAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9CmZ1bmN0aW9uIG9uUGFnZShwKSB7IHBhZ2UudmFsdWUgPSBwOyBsb2FkKCk7IH0KZnVuY3Rpb24gb25TaXplKHMpIHsgcGFnZVNpemUudmFsdWUgPSBzOyBwYWdlLnZhbHVlID0gMTsgbG9hZCgpOyB9CmZ1bmN0aW9uIGdvRWRpdChpZCkgeyByb3V0ZXIucHVzaCh7IG5hbWU6ICdHb29kc0VkaXQnLCBxdWVyeTogeyBpZCB9IH0pOyB9CmFzeW5jIGZ1bmN0aW9uIG9uRGVsKGlkKSB7CiAgYXdhaXQgY29uZmlybSgn56Gu6K6k5Yig6Zmk6K+l5ZWG5ZOB77yfJywgJ+aPkOekuicsIHsgdHlwZTogJ3dhcm5pbmcnIH0pOwogIGF3YWl0IHJlcXVlc3QuZGVsZXRlKCcva3VlcnAvZ29vZHMvZGVsJywgeyBkYXRhOiB7IGlkIH0gfSk7CiAgbWVzc2FnZS5zdWNjZXNzKCflt7LliKDpmaQnKTsKICBsb2FkKCk7Cn0Kb25Nb3VudGVkKGxvYWQpOwo8L3NjcmlwdD4KCjxzdHlsZSBzY29wZWQ+Ci5tdCB7IG1hcmdpbi10b3A6IDEycHg7IH0KLm1iIHsgbWFyZ2luLWJvdHRvbTogMTJweDsgfQovKiDmo4DntKLooYzkuI7mk43kvZzliJfmjInpkq7nu4QgKi8KLnJvdyB7IGRpc3BsYXk6IGZsZXg7IGZsZXgtd3JhcDogd3JhcDsgYWxpZ24taXRlbXM6IGZsZXgtZW5kOyBnYXA6IDEycHg7IH0KLnJvdy1idG5zIHsgZGlzcGxheTogZmxleDsgZ2FwOiA4cHg7IH0KLm9wcyB7IGRpc3BsYXk6IGZsZXg7IGdhcDogNHB4OyB9Cjwvc3R5bGU+Cg==
+<template>
+  <div>
+    <DsCard>
+      <!-- 检索区（原 el-form inline） -->
+      <div class="row mb">
+        <DsField label="商品名称">
+          <DsInput v-model="search" placeholder="支持名称/编号/条码" clearable style="width: 240px" @keyup.enter="load" />
+        </DsField>
+        <div class="row-btns">
+          <DsButton variant="primary" @click="load">查询</DsButton>
+          <DsButton variant="primary" @click="goEdit(0)">新增商品</DsButton>
+        </div>
+      </div>
+
+      <DsTable :columns="columns" :data="list" :loading="loading" :striped="true">
+        <!-- 状态列：上架 / 下架用标签区分 -->
+        <template #status="{ row }">
+          <DsTag :color="row.status === '1' ? 'success' : 'neutral'">{{ row.status === '1' ? '上架' : '下架' }}</DsTag>
+        </template>
+        <!-- 操作列 -->
+        <template #_action="{ row }">
+          <div class="ops">
+            <DsButton variant="text" @click="goEdit(row.id)">编辑</DsButton>
+            <DsButton variant="text" @click="onDel(row.id)">删除</DsButton>
+          </div>
+        </template>
+      </DsTable>
+
+      <DsPagination class="mt" layout="total, sizes, prev, pager, next" :total="total" :page-size="pageSize" :page-sizes="[10, 20, 50, 100]" @update:currentPage="onPage" @update:pageSize="onSize" />
+    </DsCard>
+  </div>
+</template>
+
+<script setup>
+import { ref, onMounted } from 'vue';
+import { useRouter } from 'vue-router';
+import { message, confirm } from '@/utils/ui';
+import request from '../../utils/request';
+
+const router = useRouter();
+const list = ref([]);
+const total = ref(0);
+const search = ref('');
+const loading = ref(false);
+const page = ref(1);
+const pageSize = ref(10);
+
+/** DsTable 列配置：末列为操作区 */
+const columns = [
+  { key: 'goods_code', title: '编号', width: '120' },
+  { key: 'goods_name', title: '名称', width: '160' },
+  { key: 'goods_specification_id', title: '规格', width: '120' },
+  { key: 'unit_id', title: '单位ID', width: '90' },
+  { key: 'inventory', title: '库存', width: '100' },
+  { key: 'market_sell_price', title: '零售价', width: '100' },
+  { key: 'status', title: '状态', width: '80' },
+  { key: '_action', title: '操作', width: '160' },
+];
+
+async function load() {
+  loading.value = true;
+  try {
+    const r = await request.get('/kuerp/goods/index', { params: { page: page.value, limit: pageSize.value, search: search.value } });
+    list.value = r?.list || [];
+    total.value = r?.count || 0;
+  } finally {
+    loading.value = false;
+  }
+}
+function onPage(p) { page.value = p; load(); }
+function onSize(s) { pageSize.value = s; page.value = 1; load(); }
+function goEdit(id) { router.push({ name: 'GoodsEdit', query: { id } }); }
+async function onDel(id) {
+  await confirm('确认删除该商品？', '提示', { type: 'warning' });
+  await request.delete('/kuerp/goods/del', { data: { id } });
+  message.success('已删除');
+  load();
+}
+onMounted(load);
+</script>
+
+<style scoped>
+.mt { margin-top: 12px; }
+.mb { margin-bottom: 12px; }
+/* 检索行与操作列按钮组 */
+.row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 12px; }
+.row-btns { display: flex; gap: 8px; }
+.ops { display: flex; gap: 4px; }
+</style>

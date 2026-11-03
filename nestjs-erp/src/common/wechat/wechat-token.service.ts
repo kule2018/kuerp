@@ -1,1 +1,131 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgTG9nZ2VyIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBEYXRhU291cmNlIH0gZnJvbSAndHlwZW9ybSc7CgovKiog5Y+W5Yiw55qEIGFjY2Vzc190b2tlbiDnu5PmnpwgKi8KZXhwb3J0IGludGVyZmFjZSBXZWNoYXRUb2tlblJlc3VsdCB7CiAgLyoqIOaYr+WQpuaIkOWKnyAqLwogIG9rOiBib29sZWFuOwogIC8qKiDku6TniYzvvIjlpLHotKXml7bkuLrnqbrkuLLvvIkgKi8KICB0b2tlbjogc3RyaW5nOwogIC8qKiDov4fmnJ/ml7bpl7TvvIjnp5Lnuqfml7bpl7TmiLPvvIkgKi8KICBleHBpcmVBdDogbnVtYmVyOwogIC8qKiDlpLHotKXljp/lm6AgKi8KICBtc2c/OiBzdHJpbmc7Cn0KCi8qKgogKiDlvq7kv6HlsI/nqIvluo8gYWNjZXNzX3Rva2VuIOe7n+S4gOeuoeeQhuOAggogKgogKiDkuLrku4DkuYjopoHljZXni6zlgZrkuIDlsYLnvJPlrZjvvJoKICogMSkgYWNjZXNzX3Rva2VuIOacieaViOacnyA3MjAwIOenku+8jOS4lCoq5q+P5pel6LCD55So5qyh5pWw5pyJ6ZmQKirvvIhzdGFibGVfdG9rZW4g5o6l5Y+j5oyJ5qyh6K6h6LS55pu05Lil5qC877yJ77ybCiAqIDIpIOW+ruS/oeWcqOaXpyB0b2tlbiDmnKrov4fmnJ/ml7bph43lpI3ojrflj5blj6/og73ov5Tlm57lkIzkuIDkuKrvvIzkvYboi6Xmr4/mrKHpg73njrDlj5bvvIzmjqXlj6PogJfml7bkvJrlpJrkuIDmrKHlpJbnvZHlvoDov5TvvJsKICogMykg6L+b56iL6YeN5ZCv5ZCO57yT5a2Y5Lii5aSx77yM6aaW5Liq55u45YWz6K+35rGC5Lya5Y+Y5oWi77yM5omA5Lul55Sx5a6a5pe25L2c5Lia5q+PIDMwIOWIhumSn+mihOeDreS4gOasoe+8jAogKiAgICDmraPluLjot6/lvoTkuIrmsLjov5zlkb3kuK3nvJPlrZjvvIzkuI3pmLvloZ7kuJrliqHjgIIKICoKICog5Yet6K+B5p2l5rqQ5LyY5YWI57qn77ya546v5aKD5Y+Y6YePIFdYX0FQUElEL1dYX1NFQ1JFVCA+IGt1ZXJwX3NldHMg55qEIGFwcGlkL2FwcHNlY3JldAogKiDvvIjlkI7ogIXmmK/ljp/ns7vnu5/lnKjlsI/nqIvluo/orr7nva7pobXnu7TmiqTnmoTlrZfmrrXvvIzkvr/kuo7kuI3ph43lkK/ov5vnqIvlsLHmjaLlj7fvvInjgIIKICovCkBJbmplY3RhYmxlKCkKZXhwb3J0IGNsYXNzIFdlY2hhdFRva2VuU2VydmljZSB7CiAgcHJpdmF0ZSByZWFkb25seSBsb2dnZXIgPSBuZXcgTG9nZ2VyKFdlY2hhdFRva2VuU2VydmljZS5uYW1lKTsKCiAgLyoqIOe8k+WtmO+8mnRva2VuICsg6L+H5pyf5pe26Ze0ICovCiAgcHJpdmF0ZSBjYWNoZTogeyB0b2tlbjogc3RyaW5nOyBleHBpcmVBdDogbnVtYmVyIH0gPSB7IHRva2VuOiAnJywgZXhwaXJlQXQ6IDAgfTsKCiAgLyoqIOacgOi/keS4gOasoeWksei0peWOn+WboO+8iOS+m+WumuaXtuS9nOS4muaXpeW/l+Wxleekuu+8iSAqLwogIHByaXZhdGUgbGFzdEVycm9yID0gJyc7CgogIC8qKiDmj5DliY3liLfmlrDnqpflj6PvvIjnp5LvvInvvJrnlZkgNSDliIbpkp/kvZnph4/vvIzpgb/lhY3kuLTnlYzov4fmnJ8gKi8KICBwcml2YXRlIHJlYWRvbmx5IEVBUkxZID0gMzAwOwoKICBjb25zdHJ1Y3Rvcihwcml2YXRlIHJlYWRvbmx5IGRhdGFTb3VyY2U6IERhdGFTb3VyY2UpIHt9CgogIC8qKiDlvZPliY3np5Lnuqfml7bpl7TmiLMgKi8KICBwcml2YXRlIG5vdygpOiBudW1iZXIgewogICAgcmV0dXJuIE1hdGguZmxvb3IoRGF0ZS5ub3coKSAvIDEwMDApOwogIH0KCiAgLyoqCiAgICog6K+75Y+W5b6u5L+h5Yet6K+B77yI546v5aKD5Y+Y6YeP5LyY5YWI77yM5YW25qyh57O757uf5Y+C5pWw77yJ44CCCiAgICogQHJldHVybnMgeyBhcHBpZCwgc2VjcmV0IH3vvJvnvLrlpLHml7bov5Tlm57nqbrkuLIKICAgKi8KICBwcml2YXRlIGFzeW5jIGNyZWRlbnRpYWxzKCk6IFByb21pc2U8eyBhcHBpZDogc3RyaW5nOyBzZWNyZXQ6IHN0cmluZyB9PiB7CiAgICBsZXQgYXBwaWQgPSBTdHJpbmcocHJvY2Vzcy5lbnYuV1hfQVBQSUQgfHwgJycpLnRyaW0oKTsKICAgIGxldCBzZWNyZXQgPSBTdHJpbmcocHJvY2Vzcy5lbnYuV1hfU0VDUkVUIHx8ICcnKS50cmltKCk7CiAgICBpZiAoYXBwaWQgJiYgc2VjcmV0KSByZXR1cm4geyBhcHBpZCwgc2VjcmV0IH07CgogICAgdHJ5IHsKICAgICAgY29uc3Qgcm93cyA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgICBgU0VMRUNUIG5hbWUsIHZhbHVlIEZST00ga3VlcnBfc2V0cyBXSEVSRSBuYW1lIElOICgnYXBwaWQnLCdhcHBzZWNyZXQnKWAsCiAgICAgICk7CiAgICAgIGZvciAoY29uc3QgciBvZiByb3dzIHx8IFtdKSB7CiAgICAgICAgaWYgKHIubmFtZSA9PT0gJ2FwcGlkJyAmJiAhYXBwaWQpIGFwcGlkID0gU3RyaW5nKHIudmFsdWUgfHwgJycpLnRyaW0oKTsKICAgICAgICBpZiAoci5uYW1lID09PSAnYXBwc2VjcmV0JyAmJiAhc2VjcmV0KSBzZWNyZXQgPSBTdHJpbmcoci52YWx1ZSB8fCAnJykudHJpbSgpOwogICAgICB9CiAgICB9IGNhdGNoIHsKICAgICAgLy8g6KGo5LiN5a2Y5Zyo5oiW5pWw5o2u5bqT5pqC5LiN5Y+v55So5pe26Z2Z6buY6ZmN57qn77yM5pyA57uI5Lya5Lul44CM5pyq6YWN572u44CN6L+U5ZueCiAgICB9CiAgICByZXR1cm4geyBhcHBpZCwgc2VjcmV0IH07CiAgfQoKICAvKioKICAgKiDojrflj5YgYWNjZXNzX3Rva2Vu77yI5ZG95Lit57yT5a2Y55u05o6l6L+U5Zue77yJ44CCCiAgICogQHBhcmFtIGZvcmNlIOaYr+WQpuW8uuWItuWIt+aWsO+8iOWumuaXtuS9nOS4mueUqCB0cnVl77yM5Lia5Yqh6LCD55So55So6buY6K6kIGZhbHNl77yJCiAgICogQHJldHVybnMg5Luk54mM57uT5p6cCiAgICovCiAgYXN5bmMgZ2V0VG9rZW4oZm9yY2UgPSBmYWxzZSk6IFByb21pc2U8V2VjaGF0VG9rZW5SZXN1bHQ+IHsKICAgIGNvbnN0IG4gPSB0aGlzLm5vdygpOwogICAgaWYgKCFmb3JjZSAmJiB0aGlzLmNhY2hlLnRva2VuICYmIHRoaXMuY2FjaGUuZXhwaXJlQXQgLSB0aGlzLkVBUkxZID4gbikgewogICAgICByZXR1cm4geyBvazogdHJ1ZSwgdG9rZW46IHRoaXMuY2FjaGUudG9rZW4sIGV4cGlyZUF0OiB0aGlzLmNhY2hlLmV4cGlyZUF0IH07CiAgICB9CgogICAgY29uc3QgeyBhcHBpZCwgc2VjcmV0IH0gPSBhd2FpdCB0aGlzLmNyZWRlbnRpYWxzKCk7CiAgICBpZiAoIWFwcGlkIHx8ICFzZWNyZXQpIHsKICAgICAgdGhpcy5sYXN0RXJyb3IgPSAn5pyq6YWN572u5bCP56iL5bqPIEFwcElEIC8gQXBwU2VjcmV077yIV1hfQVBQSUTjgIFXWF9TRUNSRVQg5oiW57O757uf5Y+C5pWwIGFwcGlkL2FwcHNlY3JldO+8iSc7CiAgICAgIHJldHVybiB7IG9rOiBmYWxzZSwgdG9rZW46ICcnLCBleHBpcmVBdDogMCwgbXNnOiB0aGlzLmxhc3RFcnJvciB9OwogICAgfQoKICAgIC8vIHN0YWJsZV90b2tlbiDmmK/lvq7kv6HmjqjojZDnmoTnqLPlrprniYjmjqXlj6PvvJrmma7pgJrmqKHlvI/lvLrliLbliLfmlrDkvJrmi7/liLDmlrAgdG9rZW7vvIwKICAgIC8vIOS9huW8uuWItuWIt+aWsOS8muiuqeWFtuWug+WunuS+i+eahOaXpyB0b2tlbiDlpLHmlYjvvIzmiYDku6Xov5nph4zlj6rlnKjnvJPlrZjlpLHmlYjml7bmiY3luKYgZm9yY2VfcmVmcmVzaOOAggogICAgY29uc3QgbmVlZEZvcmNlID0gZm9yY2UgJiYgIXRoaXMuY2FjaGUudG9rZW47CiAgICBjb25zdCB1cmwgPSAnaHR0cHM6Ly9hcGkud2VpeGluLnFxLmNvbS9jZ2ktYmluL3N0YWJsZV90b2tlbic7CiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaCh1cmwsIHsKICAgICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IGdyYW50X3R5cGU6ICdjbGllbnRfY3JlZGVudGlhbCcsIGFwcGlkLCBzZWNyZXQsIGZvcmNlX3JlZnJlc2g6IG5lZWRGb3JjZSB9KSwKICAgICAgfSk7CiAgICAgIGNvbnN0IGRhdGE6IGFueSA9IGF3YWl0IHJlcy5qc29uKCk7CiAgICAgIGlmICghZGF0YT8uYWNjZXNzX3Rva2VuKSB7CiAgICAgICAgdGhpcy5sYXN0RXJyb3IgPSBkYXRhPy5lcnJtc2cgfHwgYOiOt+WPliBhY2Nlc3NfdG9rZW4g5aSx6LSl77yIZXJyY29kZT0ke2RhdGE/LmVycmNvZGUgPz8gJ+acquefpSd977yJYDsKICAgICAgICB0aGlzLmxvZ2dlci53YXJuKHRoaXMubGFzdEVycm9yKTsKICAgICAgICByZXR1cm4geyBvazogZmFsc2UsIHRva2VuOiAnJywgZXhwaXJlQXQ6IDAsIG1zZzogdGhpcy5sYXN0RXJyb3IgfTsKICAgICAgfQogICAgICBjb25zdCBleHBpcmVBdCA9IG4gKyBOdW1iZXIoZGF0YS5leHBpcmVzX2luIHx8IDcyMDApOwogICAgICB0aGlzLmNhY2hlID0geyB0b2tlbjogU3RyaW5nKGRhdGEuYWNjZXNzX3Rva2VuKSwgZXhwaXJlQXQgfTsKICAgICAgdGhpcy5sYXN0RXJyb3IgPSAnJzsKICAgICAgcmV0dXJuIHsgb2s6IHRydWUsIHRva2VuOiB0aGlzLmNhY2hlLnRva2VuLCBleHBpcmVBdCB9OwogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgIHRoaXMubGFzdEVycm9yID0gYOivt+axguW+ruS/oeaOpeWPo+Wksei0pe+8miR7ZT8ubWVzc2FnZSB8fCBlfWA7CiAgICAgIHRoaXMubG9nZ2VyLndhcm4odGhpcy5sYXN0RXJyb3IpOwogICAgICByZXR1cm4geyBvazogZmFsc2UsIHRva2VuOiAnJywgZXhwaXJlQXQ6IDAsIG1zZzogdGhpcy5sYXN0RXJyb3IgfTsKICAgIH0KICB9CgogIC8qKgogICAqIOW9k+WJjee8k+WtmOeKtuaAge+8iOS+m+euoeeQhumhteWxleekuu+8jOS4jeinpuWPkee9kee7nOivt+axgu+8ieOAggogICAqIEByZXR1cm5zIHsgdG9rZW4g5o6p56CBLCBleHBpcmVBdCwg5Ymp5L2Z56eS5pWwLCBsYXN0RXJyb3IgfQogICAqLwogIHN0YXR1cygpIHsKICAgIGNvbnN0IG4gPSB0aGlzLm5vdygpOwogICAgY29uc3QgdCA9IHRoaXMuY2FjaGUudG9rZW47CiAgICByZXR1cm4gewogICAgICBoYXNUb2tlbjogISF0LAogICAgICAvLyDlj6rlm57mmL7liY0gNiDkvY3vvIzpgb/lhY3ku6TniYzooqvml6Xlv5fmiJbpobXpnaLms4TpnLIKICAgICAgdG9rZW5NYXNrOiB0ID8gYCR7dC5zbGljZSgwLCA2KX0qKioqJHt0LnNsaWNlKC00KX1gIDogJycsCiAgICAgIGV4cGlyZUF0OiB0aGlzLmNhY2hlLmV4cGlyZUF0LAogICAgICByZW1haW46IE1hdGgubWF4KDAsIHRoaXMuY2FjaGUuZXhwaXJlQXQgLSBuKSwKICAgICAgbGFzdEVycm9yOiB0aGlzLmxhc3RFcnJvciwKICAgIH07CiAgfQp9Cg==
+import { Injectable, Logger } from '@nestjs/common';
+import { DataSource } from 'typeorm';
+
+/** 取到的 access_token 结果 */
+export interface WechatTokenResult {
+  /** 是否成功 */
+  ok: boolean;
+  /** 令牌（失败时为空串） */
+  token: string;
+  /** 过期时间（秒级时间戳） */
+  expireAt: number;
+  /** 失败原因 */
+  msg?: string;
+}
+
+/**
+ * 微信小程序 access_token 统一管理。
+ *
+ * 为什么要单独做一层缓存：
+ * 1) access_token 有效期 7200 秒，且**每日调用次数有限**（stable_token 接口按次计费更严格）；
+ * 2) 微信在旧 token 未过期时重复获取可能返回同一个，但若每次都现取，接口耗时会多一次外网往返；
+ * 3) 进程重启后缓存丢失，首个相关请求会变慢，所以由定时作业每 30 分钟预热一次，
+ *    正常路径上永远命中缓存，不阻塞业务。
+ *
+ * 凭证来源优先级：环境变量 WX_APPID/WX_SECRET > kuerp_sets 的 appid/appsecret
+ * （后者是原系统在小程序设置页维护的字段，便于不重启进程就换号）。
+ */
+@Injectable()
+export class WechatTokenService {
+  private readonly logger = new Logger(WechatTokenService.name);
+
+  /** 缓存：token + 过期时间 */
+  private cache: { token: string; expireAt: number } = { token: '', expireAt: 0 };
+
+  /** 最近一次失败原因（供定时作业日志展示） */
+  private lastError = '';
+
+  /** 提前刷新窗口（秒）：留 5 分钟余量，避免临界过期 */
+  private readonly EARLY = 300;
+
+  constructor(private readonly dataSource: DataSource) {}
+
+  /** 当前秒级时间戳 */
+  private now(): number {
+    return Math.floor(Date.now() / 1000);
+  }
+
+  /**
+   * 读取微信凭证（环境变量优先，其次系统参数）。
+   * @returns { appid, secret }；缺失时返回空串
+   */
+  private async credentials(): Promise<{ appid: string; secret: string }> {
+    let appid = String(process.env.WX_APPID || '').trim();
+    let secret = String(process.env.WX_SECRET || '').trim();
+    if (appid && secret) return { appid, secret };
+
+    try {
+      const rows = await this.dataSource.query(
+        `SELECT name, value FROM kuerp_sets WHERE name IN ('appid','appsecret')`,
+      );
+      for (const r of rows || []) {
+        if (r.name === 'appid' && !appid) appid = String(r.value || '').trim();
+        if (r.name === 'appsecret' && !secret) secret = String(r.value || '').trim();
+      }
+    } catch {
+      // 表不存在或数据库暂不可用时静默降级，最终会以「未配置」返回
+    }
+    return { appid, secret };
+  }
+
+  /**
+   * 获取 access_token（命中缓存直接返回）。
+   * @param force 是否强制刷新（定时作业用 true，业务调用用默认 false）
+   * @returns 令牌结果
+   */
+  async getToken(force = false): Promise<WechatTokenResult> {
+    const n = this.now();
+    if (!force && this.cache.token && this.cache.expireAt - this.EARLY > n) {
+      return { ok: true, token: this.cache.token, expireAt: this.cache.expireAt };
+    }
+
+    const { appid, secret } = await this.credentials();
+    if (!appid || !secret) {
+      this.lastError = '未配置小程序 AppID / AppSecret（WX_APPID、WX_SECRET 或系统参数 appid/appsecret）';
+      return { ok: false, token: '', expireAt: 0, msg: this.lastError };
+    }
+
+    // stable_token 是微信推荐的稳定版接口：普通模式强制刷新会拿到新 token，
+    // 但强制刷新会让其它实例的旧 token 失效，所以这里只在缓存失效时才带 force_refresh。
+    const needForce = force && !this.cache.token;
+    const url = 'https://api.weixin.qq.com/cgi-bin/stable_token';
+    try {
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ grant_type: 'client_credential', appid, secret, force_refresh: needForce }),
+      });
+      const data: any = await res.json();
+      if (!data?.access_token) {
+        this.lastError = data?.errmsg || `获取 access_token 失败（errcode=${data?.errcode ?? '未知'}）`;
+        this.logger.warn(this.lastError);
+        return { ok: false, token: '', expireAt: 0, msg: this.lastError };
+      }
+      const expireAt = n + Number(data.expires_in || 7200);
+      this.cache = { token: String(data.access_token), expireAt };
+      this.lastError = '';
+      return { ok: true, token: this.cache.token, expireAt };
+    } catch (e: any) {
+      this.lastError = `请求微信接口失败：${e?.message || e}`;
+      this.logger.warn(this.lastError);
+      return { ok: false, token: '', expireAt: 0, msg: this.lastError };
+    }
+  }
+
+  /**
+   * 当前缓存状态（供管理页展示，不触发网络请求）。
+   * @returns { token 掩码, expireAt, 剩余秒数, lastError }
+   */
+  status() {
+    const n = this.now();
+    const t = this.cache.token;
+    return {
+      hasToken: !!t,
+      // 只回显前 6 位，避免令牌被日志或页面泄露
+      tokenMask: t ? `${t.slice(0, 6)}****${t.slice(-4)}` : '',
+      expireAt: this.cache.expireAt,
+      remain: Math.max(0, this.cache.expireAt - n),
+      lastError: this.lastError,
+    };
+  }
+}

@@ -1,1 +1,123 @@
-PHRlbXBsYXRlPg0KICA8RHNDYXJkIGNsYXNzPSJhaS1hc3Npc3RhbnQiPg0KICAgIDx0ZW1wbGF0ZSAjdGl0bGU+DQogICAgICA8c3Bhbj5BSSDnu4/okKXliqnmiYs8L3NwYW4+DQogICAgICA8c3BhbiBjbGFzcz0ic3ViIj7ln7rkuo7kuJrliqHmlbDmja7nmoTmmbrog73pl67nrZTvvIjoh6rliqjosIPnlKjmn6XmlbDlt6XlhbfvvIk8L3NwYW4+DQogICAgPC90ZW1wbGF0ZT4NCg0KICAgIDwhLS0g5a+56K+d5Yy677ya5aSN55SoIGRzIOiuvuiuoeezu+e7n+eahCBEc0NoYXRWaWV377yI5pSv5oyB5oCd6ICD6L+H56iLIC8g5aSN5Yi2IC8g6YeN5paw55Sf5oiQ77yJIC0tPg0KICAgIDxkaXYgY2xhc3M9ImNoYXQtd3JhcCI+DQogICAgICA8RHNDaGF0Vmlldw0KICAgICAgICA6bWVzc2FnZXM9Im1lc3NhZ2VzIg0KICAgICAgICBlbXB0eS10aXRsZT0i5oiR5piv5L2g55qE6L+b6ZSA5a2YIEFJIOe7j+iQpeWKqeaJiyINCiAgICAgICAgZW1wdHktZGVzYz0i6K+V552A6Zeu5oiR77ya5pys5pyI6ZSA5ZSu5ZKM5Yip5ram5oCO5LmI5qC377yf5ZOq5Lqb5ZWG5ZOB5bqT5a2Y5ZGK5oCl77yf6LCB6L+Y5qyg5oiR5Lus6ZKx77yfIg0KICAgICAgLz4NCiAgICA8L2Rpdj4NCg0KICAgIDwhLS0g5b+r5o235o+Q6ZeuIC0tPg0KICAgIDxkaXYgY2xhc3M9InF1aWNrIiB2LWlmPSIhbWVzc2FnZXMubGVuZ3RoIj4NCiAgICAgIDxEc0J1dHRvbg0KICAgICAgICB2LWZvcj0icSBpbiBxdWlja1F1ZXN0aW9ucyINCiAgICAgICAgOmtleT0icSINCiAgICAgICAgdmFyaWFudD0iZGVmYXVsdCINCiAgICAgICAgc2l6ZT0ic20iDQogICAgICAgIEBjbGljaz0iYXNrKHEpIg0KICAgICAgPnt7IHEgfX08L0RzQnV0dG9uPg0KICAgIDwvZGl2Pg0KDQogICAgPCEtLSDovpPlhaXljLogLS0+DQogICAgPGRpdiBjbGFzcz0iaW5wdXQtYmFyIj4NCiAgICAgIDxEc0lucHV0DQogICAgICAgIHYtbW9kZWw9ImlucHV0Ig0KICAgICAgICB0eXBlPSJ0ZXh0YXJlYSINCiAgICAgICAgOnJvd3M9IjIiDQogICAgICAgIHBsYWNlaG9sZGVyPSLovpPlhaXnu4/okKXpl67popjvvIxFbnRlciDlj5HpgIEgLyBTaGlmdCtFbnRlciDmjaLooYwiDQogICAgICAgIEBrZXl1cC5lbnRlci5leGFjdC5wcmV2ZW50PSJzZW5kIg0KICAgICAgLz4NCiAgICAgIDxEc0J1dHRvbiB2YXJpYW50PSJwcmltYXJ5IiA6bG9hZGluZz0ic2VuZGluZyIgQGNsaWNrPSJzZW5kIj7lj5HpgIE8L0RzQnV0dG9uPg0KICAgIDwvZGl2Pg0KICA8L0RzQ2FyZD4NCjwvdGVtcGxhdGU+DQoNCjxzY3JpcHQgc2V0dXA+DQovKioNCiAqIEFJIOe7j+iQpeWKqeaJi++8muWvueivneW8j+e7j+iQpeWIhuaekOWFpeWPo+OAgg0KICog5ZCO56uv6LWwIEFnZW5077yIL2FpL2FnZW5077yJ77yM5qih5Z6L5Y+v6Ieq5Li76LCD55So5Lia5Yqh5bel5YW377yIcXVlcnlfYnVzaW5lc3Nfb3ZlcnZpZXcgLw0KICogcXVlcnlfc2FsZXNfc3VtbWFyeSAvIHF1ZXJ5X3N0b2NrX3dhcm5pbmcgLyBxdWVyeV9pbnRlcmNvdXJzZSAvIHF1ZXJ5X3Byb2ZpdCDnrYnvvInmn6XmlbDlkI7kvZznrZTjgIINCiAqLw0KaW1wb3J0IHsgcmVmIH0gZnJvbSAndnVlJzsNCmltcG9ydCB7IG1lc3NhZ2UgfSBmcm9tICdAL3V0aWxzL3VpJzsNCmltcG9ydCByZXF1ZXN0IGZyb20gJy4uLy4uL3V0aWxzL3JlcXVlc3QnOw0KDQpjb25zdCBtZXNzYWdlcyA9IHJlZihbXSk7DQpjb25zdCBpbnB1dCA9IHJlZignJyk7DQpjb25zdCBzZW5kaW5nID0gcmVmKGZhbHNlKTsNCmxldCBpZFNlcSA9IDE7DQoNCi8qKiDlv6vmjbfmj5Dpl67vvIzpmY3kvY7kvb/nlKjpl6jmp5sgKi8NCmNvbnN0IHF1aWNrUXVlc3Rpb25zID0gWw0KICAn57uZ5oiR5LiA5Lu95pys5pyI55qE57uP6JCl5qaC6KeIJywNCiAgJ+WTquS6m+WVhuWTgeW6k+WtmOWRiuaApe+8nycsDQogICfov5nkuKrmnIjnmoTliKnmtqblkozliKnmtqbnjofmgI7kuYjmoLfvvJ8nLA0KICAn6LCB6L+Y5qyg5oiR5Lus6ZKx77yM6YeR6aKd5aSa5bCR77yfJywNCl07DQoNCmZ1bmN0aW9uIHB1c2hVc2VyKHRleHQpIHsNCiAgY29uc3QgbXNnID0geyBpZDogaWRTZXErKywgcm9sZTogJ3VzZXInLCBjb250ZW50OiB0ZXh0IH07DQogIG1lc3NhZ2VzLnZhbHVlLnB1c2gobXNnKTsNCiAgcmV0dXJuIG1zZzsNCn0NCg0KZnVuY3Rpb24gcHVzaEFzc2lzdGFudCgpIHsNCiAgY29uc3QgaWQgPSBpZFNlcSsrOw0KICBtZXNzYWdlcy52YWx1ZS5wdXNoKHsgaWQsIHJvbGU6ICdhc3Npc3RhbnQnLCBjb250ZW50OiAnJywgc3RyZWFtaW5nOiB0cnVlIH0pOw0KICByZXR1cm4gaWQ7DQp9DQoNCmZ1bmN0aW9uIGZpbmRBc3Npc3RhbnQoaWQpIHsNCiAgcmV0dXJuIG1lc3NhZ2VzLnZhbHVlLmZpbmQoKG0pID0+IG0uaWQgPT09IGlkKTsNCn0NCg0KYXN5bmMgZnVuY3Rpb24gc2VuZCgpIHsNCiAgY29uc3QgdGV4dCA9IGlucHV0LnZhbHVlLnRyaW0oKTsNCiAgaWYgKCF0ZXh0IHx8IHNlbmRpbmcudmFsdWUpIHJldHVybjsNCiAgcHVzaFVzZXIodGV4dCk7DQogIGlucHV0LnZhbHVlID0gJyc7DQogIGNvbnN0IGFpSWQgPSBwdXNoQXNzaXN0YW50KCk7DQogIHNlbmRpbmcudmFsdWUgPSB0cnVlOw0KICB0cnkgew0KICAgIGNvbnN0IHIgPSBhd2FpdCByZXF1ZXN0LnBvc3QoJy9haS9hZ2VudCcsIHsgbWVzc2FnZTogdGV4dCB9KTsNCiAgICBjb25zdCBhaSA9IGZpbmRBc3Npc3RhbnQoYWlJZCk7DQogICAgaWYgKGFpKSB7DQogICAgICBhaS5jb250ZW50ID0gcj8uY29udGVudCB8fCAnKOaXoOi/lOWbniknOw0KICAgICAgYWkuc3RyZWFtaW5nID0gZmFsc2U7DQogICAgICBhaS50b29sQ2FsbHMgPSByPy50b29sQ2FsbHMgfHwgW107DQogICAgfQ0KICB9IGNhdGNoIChlKSB7DQogICAgY29uc3QgYWkgPSBmaW5kQXNzaXN0YW50KGFpSWQpOw0KICAgIGlmIChhaSkgew0KICAgICAgYWkuY29udGVudCA9ICfosIPnlKjlpLHotKXvvJonICsgKGUubWVzc2FnZSB8fCBlKTsNCiAgICAgIGFpLnN0cmVhbWluZyA9IGZhbHNlOw0KICAgICAgYWkuZXJyb3IgPSB0cnVlOw0KICAgIH0NCiAgICBtZXNzYWdlLmVycm9yKCdBSSDosIPnlKjlpLHotKXvvIzor7fnoa7orqTlt7LlnKjjgIzmqKHlnovphY3nva7jgI3kuK3orr7nva7lj6/nlKjnmoQgQUkg5qih5Z6LJyk7DQogIH0gZmluYWxseSB7DQogICAgc2VuZGluZy52YWx1ZSA9IGZhbHNlOw0KICB9DQp9DQoNCi8qKiDlv6vmjbfmj5Dpl67ngrnlh7vvvJrnm7TmjqXlj5HpgIEgKi8NCmZ1bmN0aW9uIGFzayhxKSB7DQogIGlucHV0LnZhbHVlID0gcTsNCiAgc2VuZCgpOw0KfQ0KPC9zY3JpcHQ+DQoNCjxzdHlsZSBzY29wZWQ+DQouYWktYXNzaXN0YW50IHsgZGlzcGxheTogZmxleDsgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsgaGVpZ2h0OiBjYWxjKDEwMHZoIC0gMTQwcHgpOyB9DQouc3ViIHsgZm9udC1zaXplOiAxMnB4OyBjb2xvcjogdmFyKC0tZHMtdGV4dC0zKTsgbWFyZ2luLWxlZnQ6IDEwcHg7IGZvbnQtd2VpZ2h0OiA0MDA7IH0NCi5jaGF0LXdyYXAgeyBmbGV4OiAxOyBtaW4taGVpZ2h0OiAwOyB9DQoucXVpY2sgeyBkaXNwbGF5OiBmbGV4OyBmbGV4LXdyYXA6IHdyYXA7IGdhcDogOHB4OyBtYXJnaW46IDEwcHggMDsgfQ0KLmlucHV0LWJhciB7IGRpc3BsYXk6IGZsZXg7IGdhcDogMTBweDsgYWxpZ24taXRlbXM6IGZsZXgtZW5kOyBtYXJnaW4tdG9wOiAxMHB4OyB9DQouaW5wdXQtYmFyIDpkZWVwKC5kcy1pbnB1dCksIC5pbnB1dC1iYXIgdGV4dGFyZWEgeyBmbGV4OiAxOyB9DQo8L3N0eWxlPg0K
+<template>
+  <DsCard class="ai-assistant">
+    <template #title>
+      <span>AI 经营助手</span>
+      <span class="sub">基于业务数据的智能问答（自动调用查数工具）</span>
+    </template>
+
+    <!-- 对话区：复用 ds 设计系统的 DsChatView（支持思考过程 / 复制 / 重新生成） -->
+    <div class="chat-wrap">
+      <DsChatView
+        :messages="messages"
+        empty-title="我是你的进销存 AI 经营助手"
+        empty-desc="试着问我：本月销售和利润怎么样？哪些商品库存告急？谁还欠我们钱？"
+      />
+    </div>
+
+    <!-- 快捷提问 -->
+    <div class="quick" v-if="!messages.length">
+      <DsButton
+        v-for="q in quickQuestions"
+        :key="q"
+        variant="default"
+        size="sm"
+        @click="ask(q)"
+      >{{ q }}</DsButton>
+    </div>
+
+    <!-- 输入区 -->
+    <div class="input-bar">
+      <DsInput
+        v-model="input"
+        type="textarea"
+        :rows="2"
+        placeholder="输入经营问题，Enter 发送 / Shift+Enter 换行"
+        @keyup.enter.exact.prevent="send"
+      />
+      <DsButton variant="primary" :loading="sending" @click="send">发送</DsButton>
+    </div>
+  </DsCard>
+</template>
+
+<script setup>
+/**
+ * AI 经营助手：对话式经营分析入口。
+ * 后端走 Agent（/ai/agent），模型可自主调用业务工具（query_business_overview /
+ * query_sales_summary / query_stock_warning / query_intercourse / query_profit 等）查数后作答。
+ */
+import { ref } from 'vue';
+import { message } from '@/utils/ui';
+import request from '../../utils/request';
+
+const messages = ref([]);
+const input = ref('');
+const sending = ref(false);
+let idSeq = 1;
+
+/** 快捷提问，降低使用门槛 */
+const quickQuestions = [
+  '给我一份本月的经营概览',
+  '哪些商品库存告急？',
+  '这个月的利润和利润率怎么样？',
+  '谁还欠我们钱，金额多少？',
+];
+
+function pushUser(text) {
+  const msg = { id: idSeq++, role: 'user', content: text };
+  messages.value.push(msg);
+  return msg;
+}
+
+function pushAssistant() {
+  const id = idSeq++;
+  messages.value.push({ id, role: 'assistant', content: '', streaming: true });
+  return id;
+}
+
+function findAssistant(id) {
+  return messages.value.find((m) => m.id === id);
+}
+
+async function send() {
+  const text = input.value.trim();
+  if (!text || sending.value) return;
+  pushUser(text);
+  input.value = '';
+  const aiId = pushAssistant();
+  sending.value = true;
+  try {
+    const r = await request.post('/ai/agent', { message: text });
+    const ai = findAssistant(aiId);
+    if (ai) {
+      ai.content = r?.content || '(无返回)';
+      ai.streaming = false;
+      ai.toolCalls = r?.toolCalls || [];
+    }
+  } catch (e) {
+    const ai = findAssistant(aiId);
+    if (ai) {
+      ai.content = '调用失败：' + (e.message || e);
+      ai.streaming = false;
+      ai.error = true;
+    }
+    message.error('AI 调用失败，请确认已在「模型配置」中设置可用的 AI 模型');
+  } finally {
+    sending.value = false;
+  }
+}
+
+/** 快捷提问点击：直接发送 */
+function ask(q) {
+  input.value = q;
+  send();
+}
+</script>
+
+<style scoped>
+.ai-assistant { display: flex; flex-direction: column; height: calc(100vh - 140px); }
+.sub { font-size: 12px; color: var(--ds-text-3); margin-left: 10px; font-weight: 400; }
+.chat-wrap { flex: 1; min-height: 0; }
+.quick { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+.input-bar { display: flex; gap: 10px; align-items: flex-end; margin-top: 10px; }
+.input-bar :deep(.ds-input), .input-bar textarea { flex: 1; }
+</style>

@@ -1,1 +1,107 @@
-aW1wb3J0ICogYXMgZnMgZnJvbSAnZnMnOwppbXBvcnQgKiBhcyBwYXRoIGZyb20gJ3BhdGgnOwoKLyoqCiAqIOS4iuS8oOaooeWdl+mFjee9ru+8iOWFqOmDqOWPr+eUseeOr+Wig+WPmOmHj+imhueblu+8jOS+v+S6juWuueWZqOWMlumDqOe9suaXtuaUueaMgui9veeCue+8iQogKgogKiDorr7orqHopoHngrnvvJoKICogMS4g5a2Y5YKo5qC555uu5b2V6buY6K6kIC4vdXBsb2Fkc++8jOiQveWcqOW6lOeUqOW3peS9nOebruW9leS4i++8m+WuueWZqOmDqOe9suaXtuaMgiB2b2x1bWUg5Y2z5Y+v5oyB5LmF5YyW44CCCiAqIDIuIOiuv+mXruWJjee8gOm7mOiupCAvdXBsb2Fkc++8jOS4jiBtYWluLnRzIOmHjCB1c2VTdGF0aWNBc3NldHMg55qE5oyC6L2954K55L+d5oyB5LiA6Ie044CCCiAqIDMuIOeZveWQjeWNleWQjOaXtue6puadn+OAjOaJqeWxleWQjeOAjeS4juOAjE1JTUXjgI3vvJrliY3ogIXpmLLkvKrpgKDlkI7nvIDvvIzlkI7ogIXpmLLmlLnmianlsZXlkI3nmoTlj6/miafooYzmlofku7bjgIIKICogNC4g5LiA5b6L5LiN6JC95Y6f5paH5Lu25ZCN77yM5paH5Lu25ZCN55Sx5pyN5Yqh56uv55Sf5oiQ77yI5pe26Ze05oizICsg6ZqP5py65Liy77yJ77yM5LuO5qC55LiK5p2c57ud6Lev5b6E56m/6LaK44CCCiAqLwoKLyoqIOS4iuS8oOagueebruW9le+8iOe7neWvuei3r+W+hO+8iSAqLwpleHBvcnQgY29uc3QgVVBMT0FEX1JPT1QgPSBwYXRoLnJlc29sdmUocHJvY2Vzcy5lbnYuVVBMT0FEX0RJUiB8fCAndXBsb2FkcycpOwoKLyoqIOmdmeaAgeiuv+mXruWJjee8gO+8iOS4jeW4pue7k+WwvuaWnOadoO+8iSAqLwpleHBvcnQgY29uc3QgVVBMT0FEX1VSTF9QUkVGSVggPSAocHJvY2Vzcy5lbnYuVVBMT0FEX1VSTF9QUkVGSVggfHwgJy91cGxvYWRzJykucmVwbGFjZSgvXC8rJC8sICcnKTsKCi8qKiDljZXmlofku7blpKflsI/kuIrpmZDvvIjlrZfoioLvvInvvIzpu5jorqQgMTBNQiAqLwpleHBvcnQgY29uc3QgVVBMT0FEX01BWF9TSVpFID0gTnVtYmVyKHByb2Nlc3MuZW52LlVQTE9BRF9NQVhfU0laRSB8fCAxMCAqIDEwMjQgKiAxMDI0KTsKCi8qKiDljZXmrKHlpJrmlofku7bkuIrkvKDnmoTmlbDph4/kuIrpmZAgKi8KZXhwb3J0IGNvbnN0IFVQTE9BRF9NQVhfQ09VTlQgPSBOdW1iZXIocHJvY2Vzcy5lbnYuVVBMT0FEX01BWF9DT1VOVCB8fCAyMCk7CgovKioKICog5omp5bGV5ZCN55m95ZCN5Y2V77ya5YiG57uE5L6/5LqO5ZCO57ut5oyJ6ZyA5pS+5byA44CCCiAqIOWbvueJh+eUqOS6juWVhuWTgeS4u+Wbvi/lm77pm4Yv6L2u5pKtL0xvZ2/vvJvmlofmoaPnlKjkuo7ljp/lp4vljZXmja7pmYTku7bvvJvljovnvKnljIXnlKjkuo7mibnph4/lr7zlhaXljIXjgIIKICovCmV4cG9ydCBjb25zdCBBTExPV0VEX0VYVDogUmVjb3JkPHN0cmluZywgc3RyaW5nW10+ID0gewogIGltYWdlOiBbJy5qcGcnLCAnLmpwZWcnLCAnLnBuZycsICcuZ2lmJywgJy53ZWJwJywgJy5ibXAnLCAnLnN2ZyddLAogIGRvYzogWycucGRmJywgJy5kb2MnLCAnLmRvY3gnLCAnLnhscycsICcueGxzeCcsICcuY3N2JywgJy50eHQnXSwKICBhcmNoaXZlOiBbJy56aXAnLCAnLnJhcicsICcuN3onXSwKfTsKCi8qKiDlhYHorrjkuIrkvKDnmoTlhajpg6jmianlsZXlkI3vvIjmiYHlubPljJbvvIkgKi8KZXhwb3J0IGNvbnN0IEFMTE9XRURfRVhUX0ZMQVQgPSBPYmplY3QudmFsdWVzKEFMTE9XRURfRVhUKS5yZWR1Y2U8c3RyaW5nW10+KChhLCBiKSA9PiBhLmNvbmNhdChiKSwgW10pOwoKLyoqCiAqIOaJqeWxleWQjSAtPiDlhYHorrjnmoQgTUlNRSDliY3nvIDjgIIKICog5LmL5omA5Lul55So5YmN57yA6ICM6Z2e57K+56Gu5YiX6KGo77ya5rWP6KeI5ZmoL+ezu+e7n+e7meWHuueahCBNSU1FIOWtmOWcqOWPmOS9k++8iOWmgiBpbWFnZS9qcGcg5LiOIGltYWdlL2pwZWfvvInvvIwKICog55So5YmN57yA5Yy56YWN5pu056iz77yb5a+5IGV4Y2VsIOi/meexuyBNSU1FIOa3t+S5seeahOexu+Wei+WImemAgOWMluS4uuOAjOS7heagoemqjOaJqeWxleWQjeOAjeOAggogKi8KZXhwb3J0IGNvbnN0IE1JTUVfQllfRVhUOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmdbXT4gPSB7CiAgJy5qcGcnOiBbJ2ltYWdlLyddLAogICcuanBlZyc6IFsnaW1hZ2UvJ10sCiAgJy5wbmcnOiBbJ2ltYWdlLyddLAogICcuZ2lmJzogWydpbWFnZS8nXSwKICAnLndlYnAnOiBbJ2ltYWdlLyddLAogICcuYm1wJzogWydpbWFnZS8nXSwKICAnLnN2Zyc6IFsnaW1hZ2UvJ10sCiAgJy5wZGYnOiBbJ2FwcGxpY2F0aW9uL3BkZiddLAogICcudHh0JzogWyd0ZXh0L3BsYWluJ10sCiAgJy5jc3YnOiBbJ3RleHQvY3N2JywgJ2FwcGxpY2F0aW9uL3ZuZC5tcy1leGNlbCcsICd0ZXh0L3BsYWluJ10sCiAgJy5kb2MnOiBbJ2FwcGxpY2F0aW9uL21zd29yZCcsICdhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0nXSwKICAnLmRvY3gnOiBbJ2FwcGxpY2F0aW9uL3ZuZC5vcGVueG1sZm9ybWF0cy1vZmZpY2Vkb2N1bWVudC53b3JkcHJvY2Vzc2luZ21sJywgJ2FwcGxpY2F0aW9uL29jdGV0LXN0cmVhbSddLAogICcueGxzJzogWydhcHBsaWNhdGlvbi92bmQubXMtZXhjZWwnLCAnYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtJ10sCiAgJy54bHN4JzogWydhcHBsaWNhdGlvbi92bmQub3BlbnhtbGZvcm1hdHMtb2ZmaWNlZG9jdW1lbnQuc3ByZWFkc2hlZXRtbCcsICdhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0nXSwKICAnLnppcCc6IFsnYXBwbGljYXRpb24vemlwJywgJ2FwcGxpY2F0aW9uL3gtemlwJywgJ2FwcGxpY2F0aW9uL29jdGV0LXN0cmVhbSddLAogICcucmFyJzogWydhcHBsaWNhdGlvbi92bmQucmFyJywgJ2FwcGxpY2F0aW9uL3gtcmFyJywgJ2FwcGxpY2F0aW9uL29jdGV0LXN0cmVhbSddLAogICcuN3onOiBbJ2FwcGxpY2F0aW9uL3gtN3otY29tcHJlc3NlZCcsICdhcHBsaWNhdGlvbi9vY3RldC1zdHJlYW0nXSwKfTsKCi8qKgogKiDnoa7kv53mn5Dnm67lvZXlrZjlnKjvvIjpgJLlvZLliJvlu7rvvInjgIIKICogQHBhcmFtIGRpciDnm67moIfnu53lr7not6/lvoQKICovCmV4cG9ydCBmdW5jdGlvbiBlbnN1cmVEaXIoZGlyOiBzdHJpbmcpOiB2b2lkIHsKICBpZiAoIWZzLmV4aXN0c1N5bmMoZGlyKSkgZnMubWtkaXJTeW5jKGRpciwgeyByZWN1cnNpdmU6IHRydWUgfSk7Cn0KCi8qKgogKiDmjInml6XmnJ/nlJ/miJDnm7jlr7nnm67lvZXvvIzlvaLlpoIgMjAyNi8xMC8yNuOAggogKiDkvZznlKjvvJrljZXnm67lvZXmlofku7bmlbDov4fkuIflkI4gZXh0NC9OVEZTIOeahOebruW9lemhueajgOe0ouS8muaYjuaYvuWPmOaFou+8jOaMieWkqeWIhuahtuaYr+acgOecgeS6i+eahOe8k+ino+OAggogKiBAcGFyYW0gZCDml7bpl7Tlr7nosaHvvIzpu5jorqTlvZPliY3ml7bpl7QKICogQHJldHVybnMg55u45a+56Lev5b6E77yI5LulIC8g5YiG6ZqU77yM6Leo5bmz5Y+w5LiA6Ie077yJCiAqLwpleHBvcnQgZnVuY3Rpb24gZGF0ZVN1YkRpcihkID0gbmV3IERhdGUoKSk6IHN0cmluZyB7CiAgY29uc3QgeSA9IGQuZ2V0RnVsbFllYXIoKTsKICBjb25zdCBtID0gU3RyaW5nKGQuZ2V0TW9udGgoKSArIDEpLnBhZFN0YXJ0KDIsICcwJyk7CiAgY29uc3QgZGF5ID0gU3RyaW5nKGQuZ2V0RGF0ZSgpKS5wYWRTdGFydCgyLCAnMCcpOwogIHJldHVybiBgJHt5fS8ke219LyR7ZGF5fWA7Cn0KCi8qKgogKiDmoKHpqozmianlsZXlkI3kuI4gTUlNRSDmmK/lkKblnKjnmb3lkI3ljZXlhoXjgIIKICogQHBhcmFtIG9yaWdpbmFsTmFtZSDlrqLmiLfnq6/ljp/lp4vmlofku7blkI3vvIjlj6rlj5bmianlsZXlkI3vvIzkuI3lj4LkuI7okL3nm5jlkb3lkI3vvIkKICogQHBhcmFtIG1pbWVUeXBlIOWuouaIt+err+WjsOaYjueahCBNSU1FCiAqIEByZXR1cm5zIOWQiOazlei/lOWbniB7IG9rOiB0cnVlLCBleHQgfe+8jOWQpuWImSB7IG9rOiBmYWxzZSwgcmVhc29uIH0KICovCmV4cG9ydCBmdW5jdGlvbiB2YWxpZGF0ZUZpbGUoCiAgb3JpZ2luYWxOYW1lOiBzdHJpbmcsCiAgbWltZVR5cGU6IHN0cmluZywKKTogeyBvazogYm9vbGVhbjsgZXh0OiBzdHJpbmc7IHJlYXNvbj86IHN0cmluZyB9IHsKICBjb25zdCBleHQgPSBwYXRoLmV4dG5hbWUob3JpZ2luYWxOYW1lIHx8ICcnKS50b0xvd2VyQ2FzZSgpOwogIGlmICghZXh0KSByZXR1cm4geyBvazogZmFsc2UsIGV4dDogJycsIHJlYXNvbjogJ+aWh+S7tue8uuWwkeaJqeWxleWQjScgfTsKICBpZiAoIUFMTE9XRURfRVhUX0ZMQVQuaW5jbHVkZXMoZXh0KSkgewogICAgcmV0dXJuIHsgb2s6IGZhbHNlLCBleHQsIHJlYXNvbjogYOS4jeaUr+aMgeeahOaWh+S7tuexu+Wei++8miR7ZXh0fWAgfTsKICB9CiAgY29uc3QgYWxsb3dNaW1lcyA9IE1JTUVfQllfRVhUW2V4dF07CiAgLy8g5pyJIE1JTUUg57qm5p2f5YiZ5YGa5YmN57yA5Yy56YWN77yb5a6i5oi356uv5pyq5bimIE1JTUUg5pe277yI6YOo5YiG5Luj55CG5Lya5Lii77yJ5Y+q5L+h5omp5bGV5ZCNCiAgaWYgKGFsbG93TWltZXMgJiYgbWltZVR5cGUpIHsKICAgIGNvbnN0IGhpdCA9IGFsbG93TWltZXMuc29tZSgobSkgPT4gbWltZVR5cGUudG9Mb3dlckNhc2UoKS5zdGFydHNXaXRoKG0pKTsKICAgIGlmICghaGl0KSByZXR1cm4geyBvazogZmFsc2UsIGV4dCwgcmVhc29uOiBg5paH5Lu25YaF5a655LiO5omp5bGV5ZCN5LiN5Yy56YWN77yaJHttaW1lVHlwZX1gIH07CiAgfQogIHJldHVybiB7IG9rOiB0cnVlLCBleHQgfTsKfQo=
+import * as fs from 'fs';
+import * as path from 'path';
+
+/**
+ * 上传模块配置（全部可由环境变量覆盖，便于容器化部署时改挂载点）
+ *
+ * 设计要点：
+ * 1. 存储根目录默认 ./uploads，落在应用工作目录下；容器部署时挂 volume 即可持久化。
+ * 2. 访问前缀默认 /uploads，与 main.ts 里 useStaticAssets 的挂载点保持一致。
+ * 3. 白名单同时约束「扩展名」与「MIME」：前者防伪造后缀，后者防改扩展名的可执行文件。
+ * 4. 一律不落原文件名，文件名由服务端生成（时间戳 + 随机串），从根上杜绝路径穿越。
+ */
+
+/** 上传根目录（绝对路径） */
+export const UPLOAD_ROOT = path.resolve(process.env.UPLOAD_DIR || 'uploads');
+
+/** 静态访问前缀（不带结尾斜杠） */
+export const UPLOAD_URL_PREFIX = (process.env.UPLOAD_URL_PREFIX || '/uploads').replace(/\/+$/, '');
+
+/** 单文件大小上限（字节），默认 10MB */
+export const UPLOAD_MAX_SIZE = Number(process.env.UPLOAD_MAX_SIZE || 10 * 1024 * 1024);
+
+/** 单次多文件上传的数量上限 */
+export const UPLOAD_MAX_COUNT = Number(process.env.UPLOAD_MAX_COUNT || 20);
+
+/**
+ * 扩展名白名单：分组便于后续按需放开。
+ * 图片用于商品主图/图集/轮播/Logo；文档用于原始单据附件；压缩包用于批量导入包。
+ */
+export const ALLOWED_EXT: Record<string, string[]> = {
+  image: ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.svg'],
+  doc: ['.pdf', '.doc', '.docx', '.xls', '.xlsx', '.csv', '.txt'],
+  archive: ['.zip', '.rar', '.7z'],
+};
+
+/** 允许上传的全部扩展名（扁平化） */
+export const ALLOWED_EXT_FLAT = Object.values(ALLOWED_EXT).reduce<string[]>((a, b) => a.concat(b), []);
+
+/**
+ * 扩展名 -> 允许的 MIME 前缀。
+ * 之所以用前缀而非精确列表：浏览器/系统给出的 MIME 存在变体（如 image/jpg 与 image/jpeg），
+ * 用前缀匹配更稳；对 excel 这类 MIME 混乱的类型则退化为「仅校验扩展名」。
+ */
+export const MIME_BY_EXT: Record<string, string[]> = {
+  '.jpg': ['image/'],
+  '.jpeg': ['image/'],
+  '.png': ['image/'],
+  '.gif': ['image/'],
+  '.webp': ['image/'],
+  '.bmp': ['image/'],
+  '.svg': ['image/'],
+  '.pdf': ['application/pdf'],
+  '.txt': ['text/plain'],
+  '.csv': ['text/csv', 'application/vnd.ms-excel', 'text/plain'],
+  '.doc': ['application/msword', 'application/octet-stream'],
+  '.docx': ['application/vnd.openxmlformats-officedocument.wordprocessingml', 'application/octet-stream'],
+  '.xls': ['application/vnd.ms-excel', 'application/octet-stream'],
+  '.xlsx': ['application/vnd.openxmlformats-officedocument.spreadsheetml', 'application/octet-stream'],
+  '.zip': ['application/zip', 'application/x-zip', 'application/octet-stream'],
+  '.rar': ['application/vnd.rar', 'application/x-rar', 'application/octet-stream'],
+  '.7z': ['application/x-7z-compressed', 'application/octet-stream'],
+};
+
+/**
+ * 确保某目录存在（递归创建）。
+ * @param dir 目标绝对路径
+ */
+export function ensureDir(dir: string): void {
+  if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
+}
+
+/**
+ * 按日期生成相对目录，形如 2026/10/26。
+ * 作用：单目录文件数过万后 ext4/NTFS 的目录项检索会明显变慢，按天分桶是最省事的缓解。
+ * @param d 时间对象，默认当前时间
+ * @returns 相对路径（以 / 分隔，跨平台一致）
+ */
+export function dateSubDir(d = new Date()): string {
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}/${m}/${day}`;
+}
+
+/**
+ * 校验扩展名与 MIME 是否在白名单内。
+ * @param originalName 客户端原始文件名（只取扩展名，不参与落盘命名）
+ * @param mimeType 客户端声明的 MIME
+ * @returns 合法返回 { ok: true, ext }，否则 { ok: false, reason }
+ */
+export function validateFile(
+  originalName: string,
+  mimeType: string,
+): { ok: boolean; ext: string; reason?: string } {
+  const ext = path.extname(originalName || '').toLowerCase();
+  if (!ext) return { ok: false, ext: '', reason: '文件缺少扩展名' };
+  if (!ALLOWED_EXT_FLAT.includes(ext)) {
+    return { ok: false, ext, reason: `不支持的文件类型：${ext}` };
+  }
+  const allowMimes = MIME_BY_EXT[ext];
+  // 有 MIME 约束则做前缀匹配；客户端未带 MIME 时（部分代理会丢）只信扩展名
+  if (allowMimes && mimeType) {
+    const hit = allowMimes.some((m) => mimeType.toLowerCase().startsWith(m));
+    if (!hit) return { ok: false, ext, reason: `文件内容与扩展名不匹配：${mimeType}` };
+  }
+  return { ok: true, ext };
+}

@@ -1,1 +1,120 @@
-PHRlbXBsYXRlPg0KICA8ZGl2Pg0KICAgIDxEc0NhcmQ+DQogICAgICA8dGVtcGxhdGUgI3RpdGxlPg0KICAgICAgICA8c3Bhbj7nu5PotKYgLyDlj43nu5PotKY8L3NwYW4+DQogICAgICA8L3RlbXBsYXRlPg0KDQogICAgICA8RHNBbGVydCB0eXBlPSJ3YXJuaW5nIiA6Y2xvc2FibGU9ImZhbHNlIiBzaG93LWljb24gY2xhc3M9Im1iIj4NCiAgICAgICAgPHRlbXBsYXRlICN0aXRsZT7nu5PotKbor7TmmI7vvIjop4Eg5byA5Y+R5paH5qGjLzMu6K6+572uLzMu57uT6LSmJuWPjee7k+i0pi5tZO+8iTwvdGVtcGxhdGU+DQogICAgICAgIOe7k+i0puWQjuaJgOmAieaXpeacn+S5i+WJjeeahOWNleaNruS4jeWPr+S/ruaUueOAgeS4jeWPr+aWsOWinu+8m+e7k+i0puWJjeeahOacquWuoeaguOWNleaNruWPquiDveWIoOmZpOOAguWPjee7k+i0puWQjuWPr+aBouWkjeS/ruaUueOAgg0KICAgICAgICDllYblk4HkuLrotJ/lupPlrZjml7bkuI3lhYHorrjnu5PotKbjgIINCiAgICAgIDwvRHNBbGVydD4NCg0KICAgICAgPCEtLSDlvZPliY3nu5PotKbnirbmgIHvvIjljp8gZWwtZGVzY3JpcHRpb25z77yM5pS56LWwIERzRGVzY3JpcHRpb25zIOeahCBpdGVtcyArIOWtl+auteaPkuanve+8iSAtLT4NCiAgICAgIDxEc0Rlc2NyaXB0aW9ucyA6Y29sdW1uPSIyIiA6aXRlbXM9ImRlc2NJdGVtcyIgOmRhdGE9ImN1cnJlbnQiIGNsYXNzPSJtYiI+DQogICAgICAgIDx0ZW1wbGF0ZSAjaXRlbS1jaGVja2RhdGU+DQogICAgICAgICAgPERzVGFnIHYtaWY9ImN1cnJlbnQuY2hlY2tkYXRlIiBjb2xvcj0iZGFuZ2VyIj57eyBjdXJyZW50LmNoZWNrZGF0ZSB9fe+8iOW3sue7k+i0pu+8iTwvRHNUYWc+DQogICAgICAgICAgPERzVGFnIHYtZWxzZSBjb2xvcj0ic3VjY2VzcyI+5pyq57uT6LSmPC9Ec1RhZz4NCiAgICAgICAgPC90ZW1wbGF0ZT4NCiAgICAgICAgPHRlbXBsYXRlICNpdGVtLXN0YXR1cz57eyBjdXJyZW50LmNoZWNrZGF0ZSA/ICfotKbmnJ/lt7LlvZLmoaMnIDogJ+ato+W4uOiusOi0puS4rScgfX08L3RlbXBsYXRlPg0KICAgICAgPC9Ec0Rlc2NyaXB0aW9ucz4NCg0KICAgICAgPCEtLSDnu5PotKbmk43kvZzooYzvvJrlt7Lnu5PotKbml7blj6rmmL7npLrjgIzlj43nu5PotKbjgI0gLS0+DQogICAgICA8ZGl2IHYtaWY9IiFjdXJyZW50LmNoZWNrZGF0ZSIgY2xhc3M9ImRzLWZvcm0gZHMtZm9ybS0taW5saW5lIHJvdyI+DQogICAgICAgIDxEc0ZpZWxkIGxhYmVsPSLnu5PotKbmiKrmraLml6XmnJ8iIGNsYXNzPSJncm93Ij4NCiAgICAgICAgICA8RHNEYXRlUGlja2VyIHYtbW9kZWw9ImVuZERhdGUiIHBsYWNlaG9sZGVyPSLpgInmi6nnu5PotKbml6UiIC8+DQogICAgICAgIDwvRHNGaWVsZD4NCiAgICAgICAgPERzQnV0dG9uIHZhcmlhbnQ9InByaW1hcnkiIDpkaXNhYmxlZD0iIWVuZERhdGUiIDpsb2FkaW5nPSJsb2FkaW5nIiBAY2xpY2s9ImRvU2V0dGxlIj7nu5PotKY8L0RzQnV0dG9uPg0KICAgICAgPC9kaXY+DQogICAgICA8RHNCdXR0b24gdi1lbHNlIHZhcmlhbnQ9ImRlZmF1bHQiIDpsb2FkaW5nPSJsb2FkaW5nIiBAY2xpY2s9ImRvVW5zZXR0bGUiPuWPjee7k+i0pjwvRHNCdXR0b24+DQogICAgPC9Ec0NhcmQ+DQogIDwvZGl2Pg0KPC90ZW1wbGF0ZT4NCg0KPHNjcmlwdCBzZXR1cD4NCi8qKg0KICog57uT6LSmIC8g5Y+N57uT6LSm6aG177yI5a+55bqUIOW8gOWPkeaWh+ahoy8zLuiuvue9ri8zLue7k+i0piblj43nu5PotKYubWTvvInjgIINCiAqIOWKn+iDve+8mg0KICogIC0g6K+75Y+W5b2T5YmN57uT6LSm5pel5pyf77yIR0VUIC9rdWVycC9jaGVja291dC9jdXJyZW5077yJ77ybDQogKiAgLSDnu5PotKbvvJrpgInlrprmiKrmraLml6XlvZLmoaPotKbmnJ/vvIhQT1NUIC9rdWVycC9jaGVja291dC9zZXR0bGXvvInvvIwNCiAqICAgIOatpOWQjuaJgOacieS4muWKoeWNleaNru+8iOi0rei0py/plIDotKcv5LuT5bqTL+i1hOmHke+8ieiLpeWNleaNruaXpeacnyA8PSDnu5PotKbml6XlsIbooqvlkI7nq6/mi6bmiKrvvIjop4EgVGFibGVTZXJ2aWNlLmd1YXJkQ2hlY2tvdXREYXRl77yJ77ybDQogKiAgLSDlj43nu5PotKbvvJrmuIXpmaTnu5PotKborrDlvZXvvIhQT1NUIC9rdWVycC9jaGVja291dC91bnNldHRsZe+8ieOAgg0KICovDQppbXBvcnQgeyByZWYsIG9uTW91bnRlZCB9IGZyb20gJ3Z1ZSc7DQppbXBvcnQgeyBtZXNzYWdlLCBjb25maXJtIH0gZnJvbSAnQC91dGlscy91aSc7DQppbXBvcnQgcmVxdWVzdCBmcm9tICcuLi91dGlscy9yZXF1ZXN0JzsNCg0KY29uc3QgY3VycmVudCA9IHJlZih7IGNoZWNrZGF0ZTogbnVsbCwgY2hlY2t0aW1lOiAwIH0pOw0KY29uc3QgZW5kRGF0ZSA9IHJlZignJyk7DQpjb25zdCBsb2FkaW5nID0gcmVmKGZhbHNlKTsNCg0KLyoqIERzRGVzY3JpcHRpb25zIOWxleekuumhue+8mue7k+i0puaXpeacn+S4jueKtuaAge+8iOWAvOeUseWQjOWQjeaPkuanveiHquWumuS5iea4suafk++8iSAqLw0KY29uc3QgZGVzY0l0ZW1zID0gWw0KICB7IGxhYmVsOiAn5b2T5YmN57uT6LSm5pel5pyfJywga2V5OiAnY2hlY2tkYXRlJyB9LA0KICB7IGxhYmVsOiAn54q25oCBJywga2V5OiAnc3RhdHVzJyB9LA0KXTsNCg0KLyoqIOaLieWPluW9k+WJjee7k+i0pueKtuaAgSAqLw0KYXN5bmMgZnVuY3Rpb24gbG9hZCgpIHsNCiAgdHJ5IHsNCiAgICBjb25zdCByID0gYXdhaXQgcmVxdWVzdC5nZXQoJy9rdWVycC9jaGVja291dC9jdXJyZW50Jyk7DQogICAgY3VycmVudC52YWx1ZSA9IHIgfHwgeyBjaGVja2RhdGU6IG51bGwsIGNoZWNrdGltZTogMCB9Ow0KICB9IGNhdGNoIChlKSB7DQogICAgLyog5b+955Wl77yM6buY6K6k5pyq57uT6LSmICovDQogIH0NCn0NCg0KLyoqIOe7k+i0piAqLw0KYXN5bmMgZnVuY3Rpb24gZG9TZXR0bGUoKSB7DQogIHRyeSB7DQogICAgYXdhaXQgY29uZmlybSgNCiAgICAgIGDnoa7orqTlsIbotKbmnJ/nu5PotKboh7MgJHtlbmREYXRlLnZhbHVlfe+8n+e7k+i0puWQjuivpeaXpeacn+WJjeeahOWNleaNruWwhuS4jeWPr+S/ruaUuS/mlrDlop7jgIJgLA0KICAgICAgJ+e7k+i0puehruiupCcsDQogICAgICB7IHR5cGU6ICd3YXJuaW5nJyB9LA0KICAgICk7DQogIH0gY2F0Y2ggew0KICAgIHJldHVybjsNCiAgfQ0KICBsb2FkaW5nLnZhbHVlID0gdHJ1ZTsNCiAgdHJ5IHsNCiAgICBhd2FpdCByZXF1ZXN0LnBvc3QoJy9rdWVycC9jaGVja291dC9zZXR0bGUnLCB7IGVuZERhdGU6IGVuZERhdGUudmFsdWUgfSk7DQogICAgbWVzc2FnZS5zdWNjZXNzKCfnu5PotKbmiJDlip8nKTsNCiAgICBhd2FpdCBsb2FkKCk7DQogIH0gY2F0Y2ggKGUpIHsNCiAgICBtZXNzYWdlLmVycm9yKGU/LnJlc3BvbnNlPy5kYXRhPy5tc2cgfHwgJ+e7k+i0puWksei0pScpOw0KICB9IGZpbmFsbHkgew0KICAgIGxvYWRpbmcudmFsdWUgPSBmYWxzZTsNCiAgfQ0KfQ0KDQovKiog5Y+N57uT6LSmICovDQphc3luYyBmdW5jdGlvbiBkb1Vuc2V0dGxlKCkgew0KICB0cnkgew0KICAgIGF3YWl0IGNvbmZpcm0oJ+ehruiupOWPjee7k+i0pu+8n+WPjee7k+i0puWQjuivpei0puacn+WJjeeahOWNleaNruWPr+mHjeaWsOS/ruaUueOAgicsICflj43nu5PotKbnoa7orqQnLCB7DQogICAgICB0eXBlOiAnd2FybmluZycsDQogICAgfSk7DQogIH0gY2F0Y2ggew0KICAgIHJldHVybjsNCiAgfQ0KICBsb2FkaW5nLnZhbHVlID0gdHJ1ZTsNCiAgdHJ5IHsNCiAgICBhd2FpdCByZXF1ZXN0LnBvc3QoJy9rdWVycC9jaGVja291dC91bnNldHRsZScpOw0KICAgIG1lc3NhZ2Uuc3VjY2Vzcygn5bey5Y+N57uT6LSmJyk7DQogICAgYXdhaXQgbG9hZCgpOw0KICB9IGNhdGNoIChlKSB7DQogICAgbWVzc2FnZS5lcnJvcihlPy5yZXNwb25zZT8uZGF0YT8ubXNnIHx8ICflj43nu5PotKblpLHotKUnKTsNCiAgfSBmaW5hbGx5IHsNCiAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2U7DQogIH0NCn0NCg0Kb25Nb3VudGVkKGxvYWQpOw0KPC9zY3JpcHQ+DQoNCjxzdHlsZSBzY29wZWQ+DQoubWIgeyBtYXJnaW4tYm90dG9tOiAxNnB4OyB9DQovKiDnu5PotKbmk43kvZzooYzvvJrml6XmnJ/mjqfku7bljaDmu6HliankvZnlrr3luqbvvIzmjInpkq7kuI3mjaLooYwgKi8NCi5yb3cgeyBkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogZmxleC1lbmQ7IGdhcDogMTJweDsgfQ0KLmdyb3cgeyBmbGV4OiAxOyBtaW4td2lkdGg6IDI0MHB4OyB9DQo8L3N0eWxlPg0K
+<template>
+  <div>
+    <DsCard>
+      <template #title>
+        <span>结账 / 反结账</span>
+      </template>
+
+      <DsAlert type="warning" :closable="false" show-icon class="mb">
+        <template #title>结账说明（见 开发文档/3.设置/3.结账&反结账.md）</template>
+        结账后所选日期之前的单据不可修改、不可新增；结账前的未审核单据只能删除。反结账后可恢复修改。
+        商品为负库存时不允许结账。
+      </DsAlert>
+
+      <!-- 当前结账状态（原 el-descriptions，改走 DsDescriptions 的 items + 字段插槽） -->
+      <DsDescriptions :column="2" :items="descItems" :data="current" class="mb">
+        <template #item-checkdate>
+          <DsTag v-if="current.checkdate" color="danger">{{ current.checkdate }}（已结账）</DsTag>
+          <DsTag v-else color="success">未结账</DsTag>
+        </template>
+        <template #item-status>{{ current.checkdate ? '账期已归档' : '正常记账中' }}</template>
+      </DsDescriptions>
+
+      <!-- 结账操作行：已结账时只显示「反结账」 -->
+      <div v-if="!current.checkdate" class="ds-form ds-form--inline row">
+        <DsField label="结账截止日期" class="grow">
+          <DsDatePicker v-model="endDate" placeholder="选择结账日" />
+        </DsField>
+        <DsButton variant="primary" :disabled="!endDate" :loading="loading" @click="doSettle">结账</DsButton>
+      </div>
+      <DsButton v-else variant="default" :loading="loading" @click="doUnsettle">反结账</DsButton>
+    </DsCard>
+  </div>
+</template>
+
+<script setup>
+/**
+ * 结账 / 反结账页（对应 开发文档/3.设置/3.结账&反结账.md）。
+ * 功能：
+ *  - 读取当前结账日期（GET /kuerp/checkout/current）；
+ *  - 结账：选定截止日归档账期（POST /kuerp/checkout/settle），
+ *    此后所有业务单据（购货/销货/仓库/资金）若单据日期 <= 结账日将被后端拦截（见 TableService.guardCheckoutDate）；
+ *  - 反结账：清除结账记录（POST /kuerp/checkout/unsettle）。
+ */
+import { ref, onMounted } from 'vue';
+import { message, confirm } from '@/utils/ui';
+import request from '../utils/request';
+
+const current = ref({ checkdate: null, checktime: 0 });
+const endDate = ref('');
+const loading = ref(false);
+
+/** DsDescriptions 展示项：结账日期与状态（值由同名插槽自定义渲染） */
+const descItems = [
+  { label: '当前结账日期', key: 'checkdate' },
+  { label: '状态', key: 'status' },
+];
+
+/** 拉取当前结账状态 */
+async function load() {
+  try {
+    const r = await request.get('/kuerp/checkout/current');
+    current.value = r || { checkdate: null, checktime: 0 };
+  } catch (e) {
+    /* 忽略，默认未结账 */
+  }
+}
+
+/** 结账 */
+async function doSettle() {
+  try {
+    await confirm(
+      `确认将账期结账至 ${endDate.value}？结账后该日期前的单据将不可修改/新增。`,
+      '结账确认',
+      { type: 'warning' },
+    );
+  } catch {
+    return;
+  }
+  loading.value = true;
+  try {
+    await request.post('/kuerp/checkout/settle', { endDate: endDate.value });
+    message.success('结账成功');
+    await load();
+  } catch (e) {
+    message.error(e?.response?.data?.msg || '结账失败');
+  } finally {
+    loading.value = false;
+  }
+}
+
+/** 反结账 */
+async function doUnsettle() {
+  try {
+    await confirm('确认反结账？反结账后该账期前的单据可重新修改。', '反结账确认', {
+      type: 'warning',
+    });
+  } catch {
+    return;
+  }
+  loading.value = true;
+  try {
+    await request.post('/kuerp/checkout/unsettle');
+    message.success('已反结账');
+    await load();
+  } catch (e) {
+    message.error(e?.response?.data?.msg || '反结账失败');
+  } finally {
+    loading.value = false;
+  }
+}
+
+onMounted(load);
+</script>
+
+<style scoped>
+.mb { margin-bottom: 16px; }
+/* 结账操作行：日期控件占满剩余宽度，按钮不换行 */
+.row { display: flex; align-items: flex-end; gap: 12px; }
+.grow { flex: 1; min-width: 240px; }
+</style>

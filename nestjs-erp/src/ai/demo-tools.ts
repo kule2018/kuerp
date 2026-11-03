@@ -1,1 +1,92 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsKaW1wb3J0IHsgRGF0YVNvdXJjZSB9IGZyb20gJ3R5cGVvcm0nOwppbXBvcnQgeyBUb29sIH0gZnJvbSAnLi90b29sLmRlY29yYXRvcic7CgovKioKICogRVJQIOekuuS+i+W3peWFt+mbhu+8mueUqCBAVG9vbCDmmrTpnLLnu5kgQUkg6LCD55So77yM5ryU56S6IEZ1bmN0aW9uIENhbGxpbmcgKyBBZ2VudCDoh6rkuLvmiafooYzjgIIKICog6L+Z5Lqb5bel5YW355u05o6l5p+lIEt1ZXJwIOS4muWKoeW6k++8iGt1ZXJwXyog6KGo77yJ77yM6K6p5qih5Z6L6IO944CM5Yqo5omL44CN5p+l5pWw5o2uL+eul+aVsOOAggogKiDkvaDlj6/lnKjku7vmhI8gU2VydmljZSDkuIrnlKggQFRvb2wg5paw5aKe5bel5YW377yM5rOo5YaM6L+bIFRvb2xSZWdpc3RyeSDljbPlj6/ooqsgQWdlbnQg6LCD55So44CCCiAqLwpASW5qZWN0YWJsZSgpCmV4cG9ydCBjbGFzcyBFcnBEZW1vVG9vbHMgewogIGNvbnN0cnVjdG9yKHByaXZhdGUgcmVhZG9ubHkgZHM6IERhdGFTb3VyY2UpIHt9CgogIEBUb29sKHsKICAgIG5hbWU6ICdxdWVyeV9nb29kcycsCiAgICBkZXNjcmlwdGlvbjogJ+aMieWFs+mUruWtly/mnaHnoIEv57yW5Y+35p+l6K+i5ZWG5ZOB77yM6L+U5Zue5ZWG5ZOB57yW5Y+344CB5ZCN56ew44CB6KeE5qC844CB5Y2V5L2N44CB5bqT5a2Y44CB5Lu35qC8JywKICAgIHBhcmFtZXRlcnM6IHsKICAgICAgdHlwZTogJ29iamVjdCcsCiAgICAgIHByb3BlcnRpZXM6IHsKICAgICAgICBrZXl3b3JkOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ+WVhuWTgeWQjeensC/mnaHnoIEv57yW5Y+35YWz6ZSu5a2XJyB9LAogICAgICAgIGxpbWl0OiB7IHR5cGU6ICdudW1iZXInLCBkZXNjcmlwdGlvbjogJ+i/lOWbnuadoeaVsO+8jOm7mOiupCAxMCcgfSwKICAgICAgfSwKICAgICAgcmVxdWlyZWQ6IFsna2V5d29yZCddLAogICAgfSwKICB9KQogIGFzeW5jIHF1ZXJ5R29vZHMoYXJnczogeyBrZXl3b3JkOiBzdHJpbmc7IGxpbWl0PzogbnVtYmVyIH0pIHsKICAgIGNvbnN0IGxpbWl0ID0gTWF0aC5taW4oTnVtYmVyKGFyZ3MubGltaXQpIHx8IDEwLCA1MCk7CiAgICBjb25zdCByb3dzID0gYXdhaXQgdGhpcy5kcy5xdWVyeSgKICAgICAgYFNFTEVDVCBnb29kc19jb2RlLGdvb2RzX25hbWUsZ29vZHNfc3BlY2lmaWNhdGlvbl9pZCx1bml0X2lkLGludmVudG9yeSxtYXJrZXRfc2VsbF9wcmljZSx3aG9sZXNhbGVfcHJpY2Usc3RhdHVzCiAgICAgICBGUk9NIGt1ZXJwX2dvb2RzIFdIRVJFIGRlbGV0ZXRpbWU9MCBBTkQgKGdvb2RzX25hbWUgTElLRSA/IE9SIGdvb2RzX2JhcmNvZGUgTElLRSA/IE9SIGdvb2RzX2NvZGUgTElLRSA/KQogICAgICAgT1JERVIgQlkgaWQgREVTQyBMSU1JVCA/YCwKICAgICAgW2AlJHthcmdzLmtleXdvcmR9JWAsIGAlJHthcmdzLmtleXdvcmR9JWAsIGAlJHthcmdzLmtleXdvcmR9JWAsIGxpbWl0XSwKICAgICk7CiAgICByZXR1cm4geyBjb3VudDogcm93cy5sZW5ndGgsIGxpc3Q6IHJvd3MgfTsKICB9CgogIEBUb29sKHsKICAgIG5hbWU6ICdxdWVyeV9zdG9jaycsCiAgICBkZXNjcmlwdGlvbjogJ+afpeivouaMh+WumuWVhuWTgeeahOW6k+WtmOaAu+mHj+S4juWIhuS7k+W6k+WtmOaYjue7hicsCiAgICBwYXJhbWV0ZXJzOiB7CiAgICAgIHR5cGU6ICdvYmplY3QnLAogICAgICBwcm9wZXJ0aWVzOiB7IGdvb2RzX2lkOiB7IHR5cGU6ICdudW1iZXInLCBkZXNjcmlwdGlvbjogJ+WVhuWTgUlEJyB9IH0sCiAgICAgIHJlcXVpcmVkOiBbJ2dvb2RzX2lkJ10sCiAgICB9LAogIH0pCiAgYXN5bmMgcXVlcnlTdG9jayhhcmdzOiB7IGdvb2RzX2lkOiBudW1iZXIgfSkgewogICAgY29uc3QgZ29vZHMgPSBhd2FpdCB0aGlzLmRzLnF1ZXJ5KAogICAgICBgU0VMRUNUIGlkLGdvb2RzX25hbWUsaW52ZW50b3J5IEZST00ga3VlcnBfZ29vZHMgV0hFUkUgaWQ9PyBBTkQgZGVsZXRldGltZT0wYCwKICAgICAgW2FyZ3MuZ29vZHNfaWRdLAogICAgKTsKICAgIGNvbnN0IHN0b2NrcyA9IGF3YWl0IHRoaXMuZHMucXVlcnkoCiAgICAgIGBTRUxFQ1Qgd2FyZWhvdXNlX2lkLHN0b2NrLHByaWNlIEZST00ga3VlcnBfZ29vZHNfc3RvY2sgV0hFUkUgZ29vZHNfaWQ9P2AsCiAgICAgIFthcmdzLmdvb2RzX2lkXSwKICAgICk7CiAgICByZXR1cm4geyBnb29kczogZ29vZHNbMF0gfHwgbnVsbCwgc3RvY2tzIH07CiAgfQoKICBAVG9vbCh7CiAgICBuYW1lOiAncXVlcnlfY3VzdG9tZXInLAogICAgZGVzY3JpcHRpb246ICfmjInlhbPplK7lrZfmn6Xor6LlrqLmiLfvvIjlvoDmnaXljZXkvY3vvInvvIzov5Tlm57lrqLmiLflkI3np7DjgIHnsbvlnovjgIHmrKDmrL7nrYknLAogICAgcGFyYW1ldGVyczogewogICAgICB0eXBlOiAnb2JqZWN0JywKICAgICAgcHJvcGVydGllczogeyBrZXl3b3JkOiB7IHR5cGU6ICdzdHJpbmcnLCBkZXNjcmlwdGlvbjogJ+WuouaIt+WQjeensC/nvJblj7flhbPplK7lrZcnIH0gfSwKICAgICAgcmVxdWlyZWQ6IFsna2V5d29yZCddLAogICAgfSwKICB9KQogIGFzeW5jIHF1ZXJ5Q3VzdG9tZXIoYXJnczogeyBrZXl3b3JkOiBzdHJpbmcgfSkgewogICAgY29uc3Qgcm93cyA9IGF3YWl0IHRoaXMuZHMucXVlcnkoCiAgICAgIGBTRUxFQ1QgaWQsY3VzdG9tZXJfY29kZSxjdXN0b21lcl9uYW1lLGN1c3RvbWVyX3R5cGVfaWQsYW1vdW50X3JlY2VpdmFibGUsYW1vdW50X3BheWFibGUKICAgICAgIEZST00ga3VlcnBfY3VzdG9tZXJzIFdIRVJFIGRlbGV0ZXRpbWU9MCBBTkQgKGN1c3RvbWVyX25hbWUgTElLRSA/IE9SIGN1c3RvbWVyX2NvZGUgTElLRSA/KSBMSU1JVCAyMGAsCiAgICAgIFtgJSR7YXJncy5rZXl3b3JkfSVgLCBgJSR7YXJncy5rZXl3b3JkfSVgXSwKICAgICk7CiAgICByZXR1cm4geyBjb3VudDogcm93cy5sZW5ndGgsIGxpc3Q6IHJvd3MgfTsKICB9CgogIEBUb29sKHsKICAgIG5hbWU6ICdjYWxjJywKICAgIGRlc2NyaXB0aW9uOiAn5a6J5YWo5Zub5YiZ6L+Q566X6K6h566X77yI5pSv5oyBICsgLSAqIC8g5ZKM5ous5Y+377yJ77yM55So5LqO6YeR6aKdL+aVsOmHj+axh+aAuycsCiAgICBwYXJhbWV0ZXJzOiB7CiAgICAgIHR5cGU6ICdvYmplY3QnLAogICAgICBwcm9wZXJ0aWVzOiB7IGV4cHJlc3Npb246IHsgdHlwZTogJ3N0cmluZycsIGRlc2NyaXB0aW9uOiAn5L6L5aaCICgxMi41KzMpKjInIH0gfSwKICAgICAgcmVxdWlyZWQ6IFsnZXhwcmVzc2lvbiddLAogICAgfSwKICB9KQogIGFzeW5jIGNhbGMoYXJnczogeyBleHByZXNzaW9uOiBzdHJpbmcgfSkgewogICAgY29uc3QgZXhwciA9IFN0cmluZyhhcmdzLmV4cHJlc3Npb24pLnJlcGxhY2UoL1teMC05K1wtKi8oKS4lXHNdL2csICcnKTsKICAgIGlmICghZXhwcikgcmV0dXJuIHsgZXJyb3I6ICfpnZ7ms5Xooajovr7lvI8nIH07CiAgICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgbm8tbmV3LWZ1bmMKICAgIGNvbnN0IHZhbHVlID0gRnVuY3Rpb24oYCJ1c2Ugc3RyaWN0IjsgcmV0dXJuICgke2V4cHJ9KTtgKSgpOwogICAgcmV0dXJuIHsgZXhwcmVzc2lvbjogZXhwciwgdmFsdWUgfTsKICB9Cn0K
+import { Injectable } from '@nestjs/common';
+import { DataSource } from 'typeorm';
+import { Tool } from './tool.decorator';
+
+/**
+ * ERP 示例工具集：用 @Tool 暴露给 AI 调用，演示 Function Calling + Agent 自主执行。
+ * 这些工具直接查 Kuerp 业务库（kuerp_* 表），让模型能「动手」查数据/算数。
+ * 你可在任意 Service 上用 @Tool 新增工具，注册进 ToolRegistry 即可被 Agent 调用。
+ */
+@Injectable()
+export class ErpDemoTools {
+  constructor(private readonly ds: DataSource) {}
+
+  @Tool({
+    name: 'query_goods',
+    description: '按关键字/条码/编号查询商品，返回商品编号、名称、规格、单位、库存、价格',
+    parameters: {
+      type: 'object',
+      properties: {
+        keyword: { type: 'string', description: '商品名称/条码/编号关键字' },
+        limit: { type: 'number', description: '返回条数，默认 10' },
+      },
+      required: ['keyword'],
+    },
+  })
+  async queryGoods(args: { keyword: string; limit?: number }) {
+    const limit = Math.min(Number(args.limit) || 10, 50);
+    const rows = await this.ds.query(
+      `SELECT goods_code,goods_name,goods_specification_id,unit_id,inventory,market_sell_price,wholesale_price,status
+       FROM kuerp_goods WHERE deletetime=0 AND (goods_name LIKE ? OR goods_barcode LIKE ? OR goods_code LIKE ?)
+       ORDER BY id DESC LIMIT ?`,
+      [`%${args.keyword}%`, `%${args.keyword}%`, `%${args.keyword}%`, limit],
+    );
+    return { count: rows.length, list: rows };
+  }
+
+  @Tool({
+    name: 'query_stock',
+    description: '查询指定商品的库存总量与分仓库存明细',
+    parameters: {
+      type: 'object',
+      properties: { goods_id: { type: 'number', description: '商品ID' } },
+      required: ['goods_id'],
+    },
+  })
+  async queryStock(args: { goods_id: number }) {
+    const goods = await this.ds.query(
+      `SELECT id,goods_name,inventory FROM kuerp_goods WHERE id=? AND deletetime=0`,
+      [args.goods_id],
+    );
+    const stocks = await this.ds.query(
+      `SELECT warehouse_id,stock,price FROM kuerp_goods_stock WHERE goods_id=?`,
+      [args.goods_id],
+    );
+    return { goods: goods[0] || null, stocks };
+  }
+
+  @Tool({
+    name: 'query_customer',
+    description: '按关键字查询客户（往来单位），返回客户名称、类型、欠款等',
+    parameters: {
+      type: 'object',
+      properties: { keyword: { type: 'string', description: '客户名称/编号关键字' } },
+      required: ['keyword'],
+    },
+  })
+  async queryCustomer(args: { keyword: string }) {
+    const rows = await this.ds.query(
+      `SELECT id,customer_code,customer_name,customer_type_id,amount_receivable,amount_payable
+       FROM kuerp_customers WHERE deletetime=0 AND (customer_name LIKE ? OR customer_code LIKE ?) LIMIT 20`,
+      [`%${args.keyword}%`, `%${args.keyword}%`],
+    );
+    return { count: rows.length, list: rows };
+  }
+
+  @Tool({
+    name: 'calc',
+    description: '安全四则运算计算（支持 + - * / 和括号），用于金额/数量汇总',
+    parameters: {
+      type: 'object',
+      properties: { expression: { type: 'string', description: '例如 (12.5+3)*2' } },
+      required: ['expression'],
+    },
+  })
+  async calc(args: { expression: string }) {
+    const expr = String(args.expression).replace(/[^0-9+\-*/().%\s]/g, '');
+    if (!expr) return { error: '非法表达式' };
+    // eslint-disable-next-line no-new-func
+    const value = Function(`"use strict"; return (${expr});`)();
+    return { expression: expr, value };
+  }
+}

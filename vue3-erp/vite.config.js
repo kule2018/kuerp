@@ -1,1 +1,26 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAndml0ZSc7CmltcG9ydCB2dWUgZnJvbSAnQHZpdGVqcy9wbHVnaW4tdnVlJzsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCwgVVJMIH0gZnJvbSAnbm9kZTp1cmwnOwoKZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHsKICBwbHVnaW5zOiBbdnVlKCldLAogIHJlc29sdmU6IHsKICAgIGFsaWFzOiB7CiAgICAgICdAJzogZmlsZVVSTFRvUGF0aChuZXcgVVJMKCcuL3NyYycsIGltcG9ydC5tZXRhLnVybCkpLAogICAgfSwKICB9LAogIHNlcnZlcjogewogICAgcG9ydDogNTE3MywKICAgIGhvc3Q6IHRydWUsCiAgICAvLyDlkI7nq6/lnLDlnYDvvIjliY3lkI7nq6/liIbnprvvvIzlvIDlj5HmnJ/ku6PnkIbliLAgTmVzdEpT77yJCiAgICBwcm94eTogewogICAgICAvLyDms6jmhI/vvJrlv4Xpobvku6XmlpzmnaDnu5PlsL7vvIzlkKbliJnkvJror6/kvKTliY3nq6/ot6/nlLHvvJoKICAgICAgLy8gJy9hdXRoJyDkvJrljLnphY0gL2F1dGgtZ3JvdXDjgIEvYXV0aC1hZG1pbiDnrYnoj5zljZXot6/nlLHlubbmiorlroPku6zku6PnkIbliLDlkI7nq6/lr7zoh7QgNDA077ybCiAgICAgIC8vIOWQjuerr+aOpeWPo+e7n+S4gOaYryAvYXV0aC/jgIEvc3lzdGVtL+OAgS9haS/jgIEva3VlcnAv77yI5bim5pac5p2g77yJ77yM5Yqg5pac5p2g5ZCO5LqS5LiN5Yay56qB44CCCiAgICAgICcva3VlcnAvJzogeyB0YXJnZXQ6ICdodHRwOi8vbG9jYWxob3N0OjMwMDAnLCBjaGFuZ2VPcmlnaW46IHRydWUgfSwKICAgICAgJy9haS8nOiB7IHRhcmdldDogJ2h0dHA6Ly9sb2NhbGhvc3Q6MzAwMCcsIGNoYW5nZU9yaWdpbjogdHJ1ZSB9LAogICAgICAnL2F1dGgvJzogeyB0YXJnZXQ6ICdodHRwOi8vbG9jYWxob3N0OjMwMDAnLCBjaGFuZ2VPcmlnaW46IHRydWUgfSwKICAgICAgJy9zeXN0ZW0vJzogeyB0YXJnZXQ6ICdodHRwOi8vbG9jYWxob3N0OjMwMDAnLCBjaGFuZ2VPcmlnaW46IHRydWUgfSwKICAgIH0sCiAgfSwKfSk7Cg==
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
+import { fileURLToPath, URL } from 'node:url';
+
+export default defineConfig({
+  plugins: [vue()],
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url)),
+    },
+  },
+  server: {
+    port: 5173,
+    host: true,
+    // 后端地址（前后端分离，开发期代理到 NestJS）
+    proxy: {
+      // 注意：必须以斜杠结尾，否则会误伤前端路由：
+      // '/auth' 会匹配 /auth-group、/auth-admin 等菜单路由并把它们代理到后端导致 404；
+      // 后端接口统一是 /auth/、/system/、/ai/、/kuerp/（带斜杠），加斜杠后互不冲突。
+      '/kuerp/': { target: 'http://localhost:3000', changeOrigin: true },
+      '/ai/': { target: 'http://localhost:3000', changeOrigin: true },
+      '/auth/': { target: 'http://localhost:3000', changeOrigin: true },
+      '/system/': { target: 'http://localhost:3000', changeOrigin: true },
+    },
+  },
+});

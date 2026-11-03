@@ -1,1 +1,97 @@
-PHRlbXBsYXRlPg0KICA8RHNDYXJkPg0KICAgIDx0ZW1wbGF0ZSAjdGl0bGU+DQogICAgICA8c3Bhbj5BSSDlr7nor50gLyBBZ2VudCDmtYvor5Xlj7A8L3NwYW4+DQogICAgPC90ZW1wbGF0ZT4NCg0KICAgIDwhLS0g6L+Q6KGM5Y+C5pWw77ya5qih5Z6L6YWN572uICsg5a+56K+d5qih5byP77yI5Y6fIGVsLWZvcm0gaW5saW5lIC8gZWwtcmFkaW8tZ3JvdXDvvIkgLS0+DQogICAgPGRpdiBjbGFzcz0iZHMtZm9ybSBkcy1mb3JtLS1pbmxpbmUgcm93Ij4NCiAgICAgIDxEc0ZpZWxkIGxhYmVsPSLmqKHlnovphY3nva5JRCI+DQogICAgICAgIDxEc0lucHV0IHR5cGU9Im51bWJlciIgdi1tb2RlbD0ibW9kZWxDb25maWdJZCIgcGxhY2Vob2xkZXI9IjA96buY6K6k6aaW5LiqIiBzdHlsZT0id2lkdGg6IDEyMHB4IiAvPg0KICAgICAgPC9Ec0ZpZWxkPg0KICAgICAgPERzRmllbGQgbGFiZWw9IuaooeW8jyI+DQogICAgICAgIDxEc1NlZ21lbnRlZCB2LW1vZGVsPSJtb2RlIiA6b3B0aW9ucz0ibW9kZU9wdGlvbnMiIC8+DQogICAgICA8L0RzRmllbGQ+DQogICAgPC9kaXY+DQoNCiAgICA8IS0tIOWvueivneiusOW9lSAtLT4NCiAgICA8ZGl2IGNsYXNzPSJjaGF0Ij4NCiAgICAgIDxkaXYgdi1mb3I9IihtLCBpKSBpbiBtZXNzYWdlcyIgOmtleT0iaSIgOmNsYXNzPSJbJ21zZycsIG0ucm9sZV0iPg0KICAgICAgICA8ZGl2IGNsYXNzPSJidWJibGUiPg0KICAgICAgICAgIDxkaXYgY2xhc3M9InJvbGUiPnt7IG0ucm9sZSA9PT0gJ3VzZXInID8gJ+aIkScgOiAnQUknIH19PC9kaXY+DQogICAgICAgICAgPGRpdiBjbGFzcz0idGV4dCI+e3sgbS5jb250ZW50IH19PC9kaXY+DQogICAgICAgICAgPGRpdiB2LWlmPSJtLnRvb2xDYWxscyAmJiBtLnRvb2xDYWxscy5sZW5ndGgiIGNsYXNzPSJ0b29scyI+DQogICAgICAgICAgICA8RHNUYWcgdi1mb3I9Iih0LCBqKSBpbiBtLnRvb2xDYWxscyIgOmtleT0iaiIgc2l6ZT0ic20iIGNvbG9yPSJ3YXJuaW5nIiBzdHlsZT0ibWFyZ2luOjJweCI+DQogICAgICAgICAgICAgIPCflKcge3sgdC5uYW1lIH19DQogICAgICAgICAgICA8L0RzVGFnPg0KICAgICAgICAgIDwvZGl2Pg0KICAgICAgICA8L2Rpdj4NCiAgICAgIDwvZGl2Pg0KICAgIDwvZGl2Pg0KDQogICAgPCEtLSDovpPlhaXljLogLS0+DQogICAgPGRpdiBjbGFzcz0iaW5wdXQtYmFyIj4NCiAgICAgIDxEc0lucHV0IHYtbW9kZWw9ImlucHV0IiB0eXBlPSJ0ZXh0YXJlYSIgOnJvd3M9IjIiIHBsYWNlaG9sZGVyPSLovpPlhaXmtojmga/vvIxFbnRlciDlj5HpgIEgLyBTaGlmdCtFbnRlciDmjaLooYwiIEBrZXl1cC5lbnRlci5leGFjdC5wcmV2ZW50PSJzZW5kIiAvPg0KICAgICAgPERzQnV0dG9uIHZhcmlhbnQ9InByaW1hcnkiIDpsb2FkaW5nPSJzZW5kaW5nIiBAY2xpY2s9InNlbmQiIHN0eWxlPSJtYXJnaW4tdG9wOjhweCI+5Y+R6YCBPC9Ec0J1dHRvbj4NCiAgICA8L2Rpdj4NCiAgPC9Ec0NhcmQ+DQo8L3RlbXBsYXRlPg0KDQo8c2NyaXB0IHNldHVwPg0KLyoqDQogKiDlr7nor50gLyBBZ2VudCDmtYvor5Xlj7DvvJoNCiAqIC0g5pmu6YCa5a+56K+d5qih5byP6LCD55SoIC9haS9jaGF077yIQ2hhdENsaWVudO+8jOetieS7tyBTcHJpbmcgQUkgQ2hhdENsaWVudO+8iQ0KICogLSBBZ2VudCDmqKHlvI/osIPnlKggL2FpL2FnZW5077yI5aSa6L2u6Ieq5Li75omn6KGMICsgRnVuY3Rpb24gQ2FsbGluZyDlt6XlhbfvvIkNCiAqLw0KaW1wb3J0IHsgcmVmIH0gZnJvbSAndnVlJzsNCmltcG9ydCB7IG1lc3NhZ2UgfSBmcm9tICdAL3V0aWxzL3VpJzsNCmltcG9ydCByZXF1ZXN0IGZyb20gJy4uLy4uL3V0aWxzL3JlcXVlc3QnOw0KDQpjb25zdCBtb2RlID0gcmVmKCdhZ2VudCcpOw0KY29uc3QgbW9kZWxDb25maWdJZCA9IHJlZigwKTsNCmNvbnN0IG1lc3NhZ2VzID0gcmVmKFtdKTsNCmNvbnN0IGlucHV0ID0gcmVmKCcnKTsNCmNvbnN0IHNlbmRpbmcgPSByZWYoZmFsc2UpOw0KDQovKiog5qih5byP5YiH5o2i6YCJ6aG577yaY2hhdD3mma7pgJrlr7nor53vvIxhZ2VudD3luKblt6XlhbfosIPnlKjnmoToh6rkuLvlpJrova4gKi8NCmNvbnN0IG1vZGVPcHRpb25zID0gWw0KICB7IGxhYmVsOiAn5pmu6YCa5a+56K+dJywgdmFsdWU6ICdjaGF0JyB9LA0KICB7IGxhYmVsOiAnQWdlbnQo5bel5YW36LCD55SoKScsIHZhbHVlOiAnYWdlbnQnIH0sDQpdOw0KDQovKiog5Y+R6YCB5raI5oGv77ya5oyJ5qih5byP6LCD55So5LiN5ZCM5ZCO56uv5o6l5Y+jICovDQphc3luYyBmdW5jdGlvbiBzZW5kKCkgew0KICBjb25zdCB0ZXh0ID0gaW5wdXQudmFsdWUudHJpbSgpOw0KICBpZiAoIXRleHQpIHJldHVybjsNCiAgbWVzc2FnZXMudmFsdWUucHVzaCh7IHJvbGU6ICd1c2VyJywgY29udGVudDogdGV4dCB9KTsNCiAgaW5wdXQudmFsdWUgPSAnJzsNCiAgc2VuZGluZy52YWx1ZSA9IHRydWU7DQogIHRyeSB7DQogICAgaWYgKG1vZGUudmFsdWUgPT09ICdhZ2VudCcpIHsNCiAgICAgIGNvbnN0IHIgPSBhd2FpdCByZXF1ZXN0LnBvc3QoJy9haS9hZ2VudCcsIHsgbWVzc2FnZTogdGV4dCwgbW9kZWxDb25maWdJZDogbW9kZWxDb25maWdJZC52YWx1ZSB8fCB1bmRlZmluZWQgfSk7DQogICAgICBtZXNzYWdlcy52YWx1ZS5wdXNoKHsgcm9sZTogJ2FpJywgY29udGVudDogcj8uY29udGVudCB8fCAnKOaXoOi/lOWbniknLCB0b29sQ2FsbHM6IHI/LnRvb2xDYWxscyB8fCBbXSB9KTsNCiAgICB9IGVsc2Ugew0KICAgICAgY29uc3QgciA9IGF3YWl0IHJlcXVlc3QucG9zdCgnL2FpL2NoYXQnLCB7IG1lc3NhZ2U6IHRleHQsIG1vZGVsQ29uZmlnSWQ6IG1vZGVsQ29uZmlnSWQudmFsdWUgfHwgdW5kZWZpbmVkIH0pOw0KICAgICAgbWVzc2FnZXMudmFsdWUucHVzaCh7IHJvbGU6ICdhaScsIGNvbnRlbnQ6IHI/LmNvbnRlbnQgfHwgJyjml6Dov5Tlm54pJyB9KTsNCiAgICB9DQogIH0gY2F0Y2ggKGUpIHsNCiAgICBtZXNzYWdlLmVycm9yKCfosIPnlKjlpLHotKXvvJonICsgKGUubWVzc2FnZSB8fCBlKSk7DQogIH0gZmluYWxseSB7DQogICAgc2VuZGluZy52YWx1ZSA9IGZhbHNlOw0KICB9DQp9DQo8L3NjcmlwdD4NCg0KPHN0eWxlIHNjb3BlZD4NCi5jaGF0IHsgbWluLWhlaWdodDogMjgwcHg7IG1heC1oZWlnaHQ6IDQyMHB4OyBvdmVyZmxvdy15OiBhdXRvOyBwYWRkaW5nOiA4cHg7IGJhY2tncm91bmQ6IHZhcigtLWRzLWJnLXNvZnQpOyBib3JkZXItcmFkaXVzOiB2YXIoLS1kcy1yYWRpdXMpOyB9DQovKiDlj4LmlbDooYzvvJrmqKHlnovphY3nva7kuI7mqKHlvI/liIfmjaLmqKrlkJHmjpLliJcgKi8NCi5yb3cgeyBkaXNwbGF5OiBmbGV4OyBmbGV4LXdyYXA6IHdyYXA7IGFsaWduLWl0ZW1zOiBmbGV4LWVuZDsgZ2FwOiAxNnB4OyBtYXJnaW4tYm90dG9tOiAxMnB4OyB9DQoubXNnIHsgZGlzcGxheTogZmxleDsgbWFyZ2luLWJvdHRvbTogMTJweDsgfQ0KLm1zZy51c2VyIHsganVzdGlmeS1jb250ZW50OiBmbGV4LWVuZDsgfQ0KLmJ1YmJsZSB7IG1heC13aWR0aDogNzIlOyBwYWRkaW5nOiA4cHggMTJweDsgYm9yZGVyLXJhZGl1czogOHB4OyBiYWNrZ3JvdW5kOiAjZmZmOyBib3gtc2hhZG93OiAwIDFweCAzcHggcmdiYSgwLDAsMCwuMDgpOyB9DQoubXNnLnVzZXIgLmJ1YmJsZSB7IGJhY2tncm91bmQ6ICM0MDllZmY7IGNvbG9yOiAjZmZmOyB9DQoucm9sZSB7IGZvbnQtc2l6ZTogMTJweDsgb3BhY2l0eTogLjc7IG1hcmdpbi1ib3R0b206IDJweDsgfQ0KLnRleHQgeyB3aGl0ZS1zcGFjZTogcHJlLXdyYXA7IHdvcmQtYnJlYWs6IGJyZWFrLXdvcmQ7IH0NCi50b29scyB7IG1hcmdpbi10b3A6IDZweDsgfQ0KLmlucHV0LWJhciB7IG1hcmdpbi10b3A6IDEycHg7IH0NCjwvc3R5bGU+DQo=
+<template>
+  <DsCard>
+    <template #title>
+      <span>AI 对话 / Agent 测试台</span>
+    </template>
+
+    <!-- 运行参数：模型配置 + 对话模式（原 el-form inline / el-radio-group） -->
+    <div class="ds-form ds-form--inline row">
+      <DsField label="模型配置ID">
+        <DsInput type="number" v-model="modelConfigId" placeholder="0=默认首个" style="width: 120px" />
+      </DsField>
+      <DsField label="模式">
+        <DsSegmented v-model="mode" :options="modeOptions" />
+      </DsField>
+    </div>
+
+    <!-- 对话记录 -->
+    <div class="chat">
+      <div v-for="(m, i) in messages" :key="i" :class="['msg', m.role]">
+        <div class="bubble">
+          <div class="role">{{ m.role === 'user' ? '我' : 'AI' }}</div>
+          <div class="text">{{ m.content }}</div>
+          <div v-if="m.toolCalls && m.toolCalls.length" class="tools">
+            <DsTag v-for="(t, j) in m.toolCalls" :key="j" size="sm" color="warning" style="margin:2px">
+              🔧 {{ t.name }}
+            </DsTag>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 输入区 -->
+    <div class="input-bar">
+      <DsInput v-model="input" type="textarea" :rows="2" placeholder="输入消息，Enter 发送 / Shift+Enter 换行" @keyup.enter.exact.prevent="send" />
+      <DsButton variant="primary" :loading="sending" @click="send" style="margin-top:8px">发送</DsButton>
+    </div>
+  </DsCard>
+</template>
+
+<script setup>
+/**
+ * 对话 / Agent 测试台：
+ * - 普通对话模式调用 /ai/chat（ChatClient，等价 Spring AI ChatClient）
+ * - Agent 模式调用 /ai/agent（多轮自主执行 + Function Calling 工具）
+ */
+import { ref } from 'vue';
+import { message } from '@/utils/ui';
+import request from '../../utils/request';
+
+const mode = ref('agent');
+const modelConfigId = ref(0);
+const messages = ref([]);
+const input = ref('');
+const sending = ref(false);
+
+/** 模式切换选项：chat=普通对话，agent=带工具调用的自主多轮 */
+const modeOptions = [
+  { label: '普通对话', value: 'chat' },
+  { label: 'Agent(工具调用)', value: 'agent' },
+];
+
+/** 发送消息：按模式调用不同后端接口 */
+async function send() {
+  const text = input.value.trim();
+  if (!text) return;
+  messages.value.push({ role: 'user', content: text });
+  input.value = '';
+  sending.value = true;
+  try {
+    if (mode.value === 'agent') {
+      const r = await request.post('/ai/agent', { message: text, modelConfigId: modelConfigId.value || undefined });
+      messages.value.push({ role: 'ai', content: r?.content || '(无返回)', toolCalls: r?.toolCalls || [] });
+    } else {
+      const r = await request.post('/ai/chat', { message: text, modelConfigId: modelConfigId.value || undefined });
+      messages.value.push({ role: 'ai', content: r?.content || '(无返回)' });
+    }
+  } catch (e) {
+    message.error('调用失败：' + (e.message || e));
+  } finally {
+    sending.value = false;
+  }
+}
+</script>
+
+<style scoped>
+.chat { min-height: 280px; max-height: 420px; overflow-y: auto; padding: 8px; background: var(--ds-bg-soft); border-radius: var(--ds-radius); }
+/* 参数行：模型配置与模式切换横向排列 */
+.row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px; margin-bottom: 12px; }
+.msg { display: flex; margin-bottom: 12px; }
+.msg.user { justify-content: flex-end; }
+.bubble { max-width: 72%; padding: 8px 12px; border-radius: 8px; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.msg.user .bubble { background: #409eff; color: #fff; }
+.role { font-size: 12px; opacity: .7; margin-bottom: 2px; }
+.text { white-space: pre-wrap; word-break: break-word; }
+.tools { margin-top: 6px; }
+.input-bar { margin-top: 12px; }
+</style>

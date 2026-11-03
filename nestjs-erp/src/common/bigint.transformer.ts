@@ -1,1 +1,20 @@
-aW1wb3J0IHsgVmFsdWVUcmFuc2Zvcm1lciB9IGZyb20gJ3R5cGVvcm0nOwoKLyoqCiAqIGJpZ2ludCDkuI4gSlMgbnVtYmVyIOeahOebuOS6kui9rOaNouOAggogKiDljp/ns7vnu5/lpKfph4/kvb/nlKggYmlnaW50KDE2KSDlrZjlgqjml7bpl7TmiLPvvIjnp5LnuqfvvInvvIzov5nph4znu5/kuIDlnKjlrp7kvZPlsYLovazmiJAgbnVtYmVyIOS9v+eUqOOAggogKi8KZXhwb3J0IGNvbnN0IEJpZ0ludFRyYW5zZm9ybWVyOiBWYWx1ZVRyYW5zZm9ybWVyID0gewogIHRvOiAodmFsdWU/OiBudW1iZXIgfCBudWxsKSA9PiAodmFsdWUgPT09IG51bGwgfHwgdmFsdWUgPT09IHVuZGVmaW5lZCA/IG51bGwgOiB2YWx1ZSksCiAgZnJvbTogKHZhbHVlPzogc3RyaW5nIHwgbnVtYmVyIHwgbnVsbCkgPT4gewogICAgaWYgKHZhbHVlID09PSBudWxsIHx8IHZhbHVlID09PSB1bmRlZmluZWQgfHwgdmFsdWUgPT09ICcnKSByZXR1cm4gbnVsbDsKICAgIHJldHVybiB0eXBlb2YgdmFsdWUgPT09ICdzdHJpbmcnID8gTnVtYmVyKHZhbHVlKSA6IHZhbHVlOwogIH0sCn07CgovKioKICog55Sf5oiQ5b2T5YmN56eS57qn5pe26Ze05oiz77yI5LiO5Y6f57O757ufIGNyZWF0ZXRpbWUvdXBkYXRldGltZSDkuIDoh7TvvIkKICovCmV4cG9ydCBmdW5jdGlvbiBub3dTZWMoKTogbnVtYmVyIHsKICByZXR1cm4gTWF0aC5mbG9vcihEYXRlLm5vdygpIC8gMTAwMCk7Cn0K
+import { ValueTransformer } from 'typeorm';
+
+/**
+ * bigint 与 JS number 的相互转换。
+ * 原系统大量使用 bigint(16) 存储时间戳（秒级），这里统一在实体层转成 number 使用。
+ */
+export const BigIntTransformer: ValueTransformer = {
+  to: (value?: number | null) => (value === null || value === undefined ? null : value),
+  from: (value?: string | number | null) => {
+    if (value === null || value === undefined || value === '') return null;
+    return typeof value === 'string' ? Number(value) : value;
+  },
+};
+
+/**
+ * 生成当前秒级时间戳（与原系统 createtime/updatetime 一致）
+ */
+export function nowSec(): number {
+  return Math.floor(Date.now() / 1000);
+}

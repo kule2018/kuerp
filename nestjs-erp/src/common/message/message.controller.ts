@@ -1,1 +1,83 @@
-aW1wb3J0IHsgQm9keSwgQ29udHJvbGxlciwgR2V0LCBQb3N0LCBRdWVyeSwgVXNlR3VhcmRzIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBKd3RBdXRoR3VhcmQgfSBmcm9tICcuLi9ndWFyZHMvand0LWF1dGguZ3VhcmQnOwppbXBvcnQgeyBDdXJyZW50VXNlciB9IGZyb20gJy4uL2RlY29yYXRvcnMvY3VycmVudC11c2VyLmRlY29yYXRvcic7CmltcG9ydCB7IG9rIH0gZnJvbSAnLi4vcmVzcG9uc2UuaW50ZXJjZXB0b3InOwppbXBvcnQgeyBNZXNzYWdlU2VydmljZSB9IGZyb20gJy4vbWVzc2FnZS5zZXJ2aWNlJzsKCi8qKgogKiDmtojmga/kuK3lv4PmjqXlj6PvvIjnq5nlhoXkv6HvvInjgIIKICoKICog5p2D6ZmQ77ya5Lu75oSP55m75b2V566h55CG5ZGY5Z2H5Y+v6K6/6Zeu6Ieq5bex55qE5raI5oGv77yM5Zug5q2k5Y+q5oyCIEp3dEF1dGhHdWFyZO+8jOS4jeWBmiBSQkFDIOihqOagoemqjAogKiDvvIjmtojmga/kuI3mmK/kuJrliqHooajvvIzotbAgL2t1ZXJwLyDkvJrooqvlvZPmiJAga3VlcnBfbWVzc2FnZSDooajmi6bmiKrvvInjgIIKICovCkBDb250cm9sbGVyKCdzeXN0ZW0vbWVzc2FnZScpCkBVc2VHdWFyZHMoSnd0QXV0aEd1YXJkKQpleHBvcnQgY2xhc3MgTWVzc2FnZUNvbnRyb2xsZXIgewogIGNvbnN0cnVjdG9yKHByaXZhdGUgcmVhZG9ubHkgc3ZjOiBNZXNzYWdlU2VydmljZSkge30KCiAgLyoqCiAgICog5YiG6aG15p+l6K+i5b2T5YmN55So5oi355qE5raI5oGv44CCCiAgICogQHBhcmFtIHF1ZXJ5IHBhZ2UvbGltaXQvdW5yZWFkL3R5cGUKICAgKiBAcGFyYW0gdXNlciDlvZPliY3nmbvlvZXnlKjmiLcKICAgKiBAcmV0dXJucyB7IGxpc3QsIGNvdW50IH0KICAgKi8KICBAR2V0KCdpbmRleCcpCiAgYXN5bmMgaW5kZXgoQFF1ZXJ5KCkgcXVlcnk6IGFueSwgQEN1cnJlbnRVc2VyKCkgdXNlcjogYW55KSB7CiAgICByZXR1cm4gb2soCiAgICAgIGF3YWl0IHRoaXMuc3ZjLmxpc3QoewogICAgICAgIHBhZ2U6IE51bWJlcihxdWVyeS5wYWdlKSB8fCAxLAogICAgICAgIGxpbWl0OiBOdW1iZXIocXVlcnkubGltaXQpIHx8IDIwLAogICAgICAgIHVucmVhZDogU3RyaW5nKHF1ZXJ5LnVucmVhZCB8fCAnJykgPT09ICcxJyB8fCBxdWVyeS51bnJlYWQgPT09IHRydWUsCiAgICAgICAgdHlwZTogcXVlcnkudHlwZSB8fCAnJywKICAgICAgICB0b0FkbWluSWQ6IE51bWJlcih1c2VyPy5pZCkgfHwgMCwKICAgICAgfSksCiAgICApOwogIH0KCiAgLyoqCiAgICog5pyq6K+75p2h5pWw77yI5L6n5qCP5b695qCH77yJ44CCCiAgICogQHBhcmFtIHF1ZXJ5IHR5cGUg5Y+v6YCJCiAgICogQHBhcmFtIHVzZXIg5b2T5YmN55m75b2V55So5oi3CiAgICogQHJldHVybnMgeyBjb3VudCB9CiAgICovCiAgQEdldCgndW5yZWFkLWNvdW50JykKICBhc3luYyB1bnJlYWQoQFF1ZXJ5KCkgcXVlcnk6IGFueSwgQEN1cnJlbnRVc2VyKCkgdXNlcjogYW55KSB7CiAgICBjb25zdCBjb3VudCA9IGF3YWl0IHRoaXMuc3ZjLnVucmVhZENvdW50KE51bWJlcih1c2VyPy5pZCkgfHwgMCwgcXVlcnkudHlwZSB8fCAnJyk7CiAgICByZXR1cm4gb2soeyBjb3VudCB9KTsKICB9CgogIC8qKgogICAqIOagh+iusOWNleadoeW3suivu+OAggogICAqIEBwYXJhbSBib2R5IHsgaWQgfQogICAqIEBwYXJhbSB1c2VyIOW9k+WJjeeZu+W9leeUqOaItwogICAqIEByZXR1cm5zIHsgc3VjY2VzcyB9CiAgICovCiAgQFBvc3QoJ3JlYWQnKQogIGFzeW5jIHJlYWQoQEJvZHkoKSBib2R5OiBhbnksIEBDdXJyZW50VXNlcigpIHVzZXI6IGFueSkgewogICAgY29uc3Qgc3VjY2VzcyA9IGF3YWl0IHRoaXMuc3ZjLm1hcmtSZWFkKE51bWJlcihib2R5Py5pZCkgfHwgMCwgTnVtYmVyKHVzZXI/LmlkKSB8fCAwKTsKICAgIHJldHVybiBvayh7IHN1Y2Nlc3MgfSk7CiAgfQoKICAvKioKICAgKiDlhajpg6jmoIforrDlt7Lor7vjgIIKICAgKiBAcGFyYW0gdXNlciDlvZPliY3nmbvlvZXnlKjmiLcKICAgKiBAcmV0dXJucyB7IGFmZmVjdGVkIH0KICAgKi8KICBAUG9zdCgncmVhZC1hbGwnKQogIGFzeW5jIHJlYWRBbGwoQEN1cnJlbnRVc2VyKCkgdXNlcjogYW55KSB7CiAgICBjb25zdCBhZmZlY3RlZCA9IGF3YWl0IHRoaXMuc3ZjLm1hcmtBbGxSZWFkKE51bWJlcih1c2VyPy5pZCkgfHwgMCk7CiAgICByZXR1cm4gb2soeyBhZmZlY3RlZCB9KTsKICB9CgogIC8qKgogICAqIOWIoOmZpOS4gOadoea2iOaBr++8iOi9r+WIoOmZpO+8ieOAggogICAqIEBwYXJhbSBib2R5IHsgaWQgfQogICAqIEBwYXJhbSB1c2VyIOW9k+WJjeeZu+W9leeUqOaItwogICAqIEByZXR1cm5zIHsgc3VjY2VzcyB9CiAgICovCiAgQFBvc3QoJ2RlbCcpCiAgYXN5bmMgZGVsKEBCb2R5KCkgYm9keTogYW55LCBAQ3VycmVudFVzZXIoKSB1c2VyOiBhbnkpIHsKICAgIGNvbnN0IHN1Y2Nlc3MgPSBhd2FpdCB0aGlzLnN2Yy5yZW1vdmUoTnVtYmVyKGJvZHk/LmlkKSB8fCAwLCBOdW1iZXIodXNlcj8uaWQpIHx8IDApOwogICAgcmV0dXJuIG9rKHsgc3VjY2VzcyB9KTsKICB9Cn0K
+import { Body, Controller, Get, Post, Query, UseGuards } from '@nestjs/common';
+import { JwtAuthGuard } from '../guards/jwt-auth.guard';
+import { CurrentUser } from '../decorators/current-user.decorator';
+import { ok } from '../response.interceptor';
+import { MessageService } from './message.service';
+
+/**
+ * 消息中心接口（站内信）。
+ *
+ * 权限：任意登录管理员均可访问自己的消息，因此只挂 JwtAuthGuard，不做 RBAC 表校验
+ * （消息不是业务表，走 /kuerp/ 会被当成 kuerp_message 表拦截）。
+ */
+@Controller('system/message')
+@UseGuards(JwtAuthGuard)
+export class MessageController {
+  constructor(private readonly svc: MessageService) {}
+
+  /**
+   * 分页查询当前用户的消息。
+   * @param query page/limit/unread/type
+   * @param user 当前登录用户
+   * @returns { list, count }
+   */
+  @Get('index')
+  async index(@Query() query: any, @CurrentUser() user: any) {
+    return ok(
+      await this.svc.list({
+        page: Number(query.page) || 1,
+        limit: Number(query.limit) || 20,
+        unread: String(query.unread || '') === '1' || query.unread === true,
+        type: query.type || '',
+        toAdminId: Number(user?.id) || 0,
+      }),
+    );
+  }
+
+  /**
+   * 未读条数（侧栏徽标）。
+   * @param query type 可选
+   * @param user 当前登录用户
+   * @returns { count }
+   */
+  @Get('unread-count')
+  async unread(@Query() query: any, @CurrentUser() user: any) {
+    const count = await this.svc.unreadCount(Number(user?.id) || 0, query.type || '');
+    return ok({ count });
+  }
+
+  /**
+   * 标记单条已读。
+   * @param body { id }
+   * @param user 当前登录用户
+   * @returns { success }
+   */
+  @Post('read')
+  async read(@Body() body: any, @CurrentUser() user: any) {
+    const success = await this.svc.markRead(Number(body?.id) || 0, Number(user?.id) || 0);
+    return ok({ success });
+  }
+
+  /**
+   * 全部标记已读。
+   * @param user 当前登录用户
+   * @returns { affected }
+   */
+  @Post('read-all')
+  async readAll(@CurrentUser() user: any) {
+    const affected = await this.svc.markAllRead(Number(user?.id) || 0);
+    return ok({ affected });
+  }
+
+  /**
+   * 删除一条消息（软删除）。
+   * @param body { id }
+   * @param user 当前登录用户
+   * @returns { success }
+   */
+  @Post('del')
+  async del(@Body() body: any, @CurrentUser() user: any) {
+    const success = await this.svc.remove(Number(body?.id) || 0, Number(user?.id) || 0);
+    return ok({ success });
+  }
+}

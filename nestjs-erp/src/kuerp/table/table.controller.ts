@@ -1,1 +1,270 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgR2V0LCBQb3N0LCBEZWxldGUsIEJvZHksIFF1ZXJ5LCBQYXJhbSwgVXNlR3VhcmRzLCBCYWRSZXF1ZXN0RXhjZXB0aW9uIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOw0KaW1wb3J0IHsgSnd0QXV0aEd1YXJkIH0gZnJvbSAnLi4vLi4vY29tbW9uL2d1YXJkcy9qd3QtYXV0aC5ndWFyZCc7DQppbXBvcnQgeyBSYmFjR3VhcmQgfSBmcm9tICcuLi8uLi9jb21tb24vZ3VhcmRzL3JiYWMuZ3VhcmQnOw0KaW1wb3J0IHsgQ3VycmVudFVzZXIgfSBmcm9tICcuLi8uLi9jb21tb24vZGVjb3JhdG9ycy9jdXJyZW50LXVzZXIuZGVjb3JhdG9yJzsNCmltcG9ydCB7IG9rIH0gZnJvbSAnLi4vLi4vY29tbW9uL3Jlc3BvbnNlLmludGVyY2VwdG9yJzsNCmltcG9ydCB7IFRhYmxlU2VydmljZSB9IGZyb20gJy4vdGFibGUuc2VydmljZSc7DQoNCi8qKg0KICog6YCa55So5Yqo5oCB6KGo5o6n5Yi25Zmo77ya5LulIC9rdWVycC86dGFibGUvPGFjdGlvbj4g5b2i5byP5a+55Lu75oSPIGt1ZXJwXyog6KGo5pq06Zyy5qCH5YeG5o6l5Y+j44CCDQogKiDot6/nlLHkuI7ljp/ns7vnu58gRmFzdEFkbWluIOmAmueUqOaOp+WItuWZqCAxOjEg5a+56b2Q77yaDQogKiAgIEdFVCAgICAva3VlcnAvZ29vZHMvaW5kZXggICAgICAgIOWIl+ihqC/mo4DntKINCiAqICAgR0VUICAgIC9rdWVycC9nb29kcy9nZXQgICAgICAgICAg6K+m5oOFDQogKiAgIEdFVCAgICAva3VlcnAvZ29vZHMvY29sdW1ucyAgICAgIOWtl+auteWFg+S/oeaBr++8iOWJjeerr+WKqOaAgea4suafk++8iQ0KICogICBHRVQgICAgL2t1ZXJwL2dvb2RzL3JlY3ljbGViaW4gICDlm57mlLbnq5nliJfooagNCiAqICAgUE9TVCAgIC9rdWVycC9nb29kcy9hZGQgICAgICAgICAg5paw5aKeDQogKiAgIFBPU1QgICAva3VlcnAvZ29vZHMvZWRpdCAgICAgICAgIOe8lui+kQ0KICogICBQT1NUICAgL2t1ZXJwL2dvb2RzL2RlbCAgICAgICAgICDliKDpmaTvvIjmlK/mjIEgeyBpZCB9IOaIliB7IGlkczogW10gfe+8iQ0KICogICBERUxFVEUgL2t1ZXJwL2dvb2RzL2RlbCAgICAgICAgICDliKDpmaTvvIjlhbzlrrkgREVMRVRFIOiwg+eUqOaWue+8iQ0KICogICBQT1NUICAgL2t1ZXJwL2dvb2RzL3JlZHVjdGlvbiAgICDov5jljp/vvIjmlK/mjIHmibnph4/vvIkNCiAqICAgUE9TVCAgIC9rdWVycC9nb29kcy9yZWFsZGVsICAgICAg55yf5a6e5Yig6Zmk77yI5pSv5oyB5om56YeP77yJDQogKiAgIFBPU1QgICAva3VlcnAvZ29vZHMvaW1wb3J0ICAgICAgIOaJuemHj+WvvOWFpe+8iEpTT04g5pWw57uE77yJDQogKiAgIFBPU1QgICAva3VlcnAvZ29vZHMvZXhhbWluZSAgICAgIOWuoeaguC/lj43lrqENCiAqICAgUE9TVCAgIC9rdWVycC9pbml0aWFsaXplICAgICAgICAg6YeN5paw5Yid5aeL5YyW77yI6auY5Y2x77yM6ZyAIGNvbmZpcm09SU5JVO+8iQ0KICog5YWo6YOo5o6l5Y+j6ZyAIEpXVCDpibTmnYPjgIINCiAqLw0KQENvbnRyb2xsZXIoJ2t1ZXJwJykNCkBVc2VHdWFyZHMoSnd0QXV0aEd1YXJkLCBSYmFjR3VhcmQpDQpleHBvcnQgY2xhc3MgVGFibGVDb250cm9sbGVyIHsNCiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBzdmM6IFRhYmxlU2VydmljZSkge30NCg0KICAvKiog5YiX6KGoIC8g5qOA57SiICovDQogIEBHZXQoJzp0YWJsZS9pbmRleCcpDQogIGFzeW5jIGluZGV4KEBQYXJhbSgndGFibGUnKSB0YWJsZTogc3RyaW5nLCBAUXVlcnkoKSBxOiBhbnksIEBDdXJyZW50VXNlcigpIHVzZXI6IGFueSkgew0KICAgIC8vIOaVsOaNruadg+mZkO+8mui2heeuoShpZD0xKeS4juWFqOmHj+adg+mZkOeUqOaIt+S8oCAx77yI5LiN6ZmE5YqgIG93bmVyIOi/h+a7pO+8ie+8mw0KICAgIC8vIOWFtuS9meeUqOaIt+aMieaJgOWxnuinkuiJsuacgOWwjyBkYXRhX3Njb3BlIOWGs+Wumu+8iDI95LuF5pys5Lq65Yib5bu65pWw5o2u77yJ44CCDQogICAgY29uc3QgZGF0YVNjb3BlID0gdXNlciAmJiBOdW1iZXIodXNlci5pZCkgIT09IDEgPyBhd2FpdCB0aGlzLnN2Yy5kYXRhU2NvcGVPZihOdW1iZXIodXNlci5pZCkpIDogMTsNCiAgICByZXR1cm4gb2soYXdhaXQgdGhpcy5zdmMuaW5kZXgodGFibGUsIHsgLi4ucSwgZGF0YVNjb3BlLCB1c2VySWQ6IHVzZXI/LmlkIH0pKTsNCiAgfQ0KDQogIC8qKiDliJflh7rmiYDmnInkuJrliqHooajvvIjliY3nq6/lr7zoiKrnlKjvvIzot6/lvoTkuLogL2t1ZXJwL3RhYmxlc++8jOWNleauteS4jeS4jiA6dGFibGUvaW5kZXgg5Yay56qB77yJICovDQogIEBHZXQoJ3RhYmxlcycpDQogIGFzeW5jIHRhYmxlcygpIHsNCiAgICByZXR1cm4gb2soYXdhaXQgdGhpcy5zdmMubGlzdFRhYmxlcygpKTsNCiAgfQ0KDQogIC8qKiDlkITkuJrliqHooajmlbDmja7ph4/nu5/orqHvvIjmlbDmja7nrqHnkIbpobXnlKjvvIkgKi8NCiAgQEdldCgndGFibGVzL3N0YXRzJykNCiAgYXN5bmMgdGFibGVTdGF0cygpIHsNCiAgICByZXR1cm4gb2soYXdhaXQgdGhpcy5zdmMudGFibGVTdGF0cygpKTsNCiAgfQ0KDQogIC8qKg0KICAgKiDmjInjgIzljZXlj7forr7nva7jgI3op4TliJnnlJ/miJDkuIvkuIDkuKrljZXmja7nvJblj7fvvIjnrYnku7fljp/ns7vnu58gVGhpcmRzOjpnZXRDb2Rlc++8ieOAgg0KICAgKiBHRVQgL2t1ZXJwL3ByZWZpeC9nZW4tY29kZT9kYm5hbWU9a3VlcnBfZ29vZHNfcHVyY2hhc2UmZmllbGQ9cHVyY2hhc2VfY29kZQ0KICAgKiDop4TliJnmnaXoh6oga3VlcnBfcHJlZml477ya5YmN57yAICsg5pel5pyf5q61ICsg5rWB5rC05Y+377yI6LW35aeL5pWwL+S9jeaVsO+8ie+8jOiHquWKqOafpemHjemAkuWinuOAgg0KICAgKi8NCiAgQEdldCgncHJlZml4L2dlbi1jb2RlJykNCiAgYXN5bmMgZ2VuQ29kZShAUXVlcnkoJ2RibmFtZScpIGRibmFtZTogc3RyaW5nLCBAUXVlcnkoJ2ZpZWxkJykgZmllbGQ6IHN0cmluZykgew0KICAgIGlmICghZGJuYW1lIHx8ICFmaWVsZCkgdGhyb3cgbmV3IEJhZFJlcXVlc3RFeGNlcHRpb24oJ+e8uuWwkSBkYm5hbWUg5oiWIGZpZWxkJyk7DQogICAgcmV0dXJuIG9rKGF3YWl0IHRoaXMuc3ZjLmdlbkNvZGVCeVJ1bGUoZGJuYW1lLCBmaWVsZCkpOw0KICB9DQoNCiAgLyoqIOivpuaDhSAqLw0KICBAR2V0KCc6dGFibGUvZ2V0JykNCiAgYXN5bmMgZ2V0KEBQYXJhbSgndGFibGUnKSB0YWJsZTogc3RyaW5nLCBAUXVlcnkoJ2lkJykgaWQ6IHN0cmluZykgew0KICAgIGlmICghaWQpIHRocm93IG5ldyBCYWRSZXF1ZXN0RXhjZXB0aW9uKCfnvLrlsJEgaWQnKTsNCiAgICByZXR1cm4gb2soYXdhaXQgdGhpcy5zdmMuZ2V0KHRhYmxlLCBOdW1iZXIoaWQpKSk7DQogIH0NCg0KICAvKiog6KGo5a2X5q615YWD5L+h5oGv77yI5YmN56uv5Yqo5oCB5riy5p+T5YiX6KGo5YiXL+ihqOWNleeUqO+8iSAqLw0KICBAR2V0KCc6dGFibGUvY29sdW1ucycpDQogIGFzeW5jIGNvbHVtbnMoQFBhcmFtKCd0YWJsZScpIHRhYmxlOiBzdHJpbmcpIHsNCiAgICByZXR1cm4gb2soYXdhaXQgdGhpcy5zdmMuY29sdW1ucyh0YWJsZSkpOw0KICB9DQoNCiAgLyoqDQogICAqIOWklumUruWtl+auteS4i+aLiemAiemhue+8iOetieS7t+WOn+ezu+e7nyBzZWxlY3RwYWdlIC8gZ2V0U3VwcGxpZXJzIOetie+8ieOAgg0KICAgKiBHRVQgL2t1ZXJwLzp0YWJsZS9vcHRpb25zP2ZpZWxkPXN1cHBsaWVyc19pZA0KICAgKiDlkb3kuK3lhbPogZTooajml7bov5Tlm54gW3sgdmFsdWUsIGxhYmVsIH1d77yM5ZCm5YiZ6L+U5Zue56m65pWw57uE44CCDQogICAqLw0KICBAR2V0KCc6dGFibGUvb3B0aW9ucycpDQogIGFzeW5jIG9wdGlvbnMoQFBhcmFtKCd0YWJsZScpIHRhYmxlOiBzdHJpbmcsIEBRdWVyeSgnZmllbGQnKSBmaWVsZDogc3RyaW5nKSB7DQogICAgaWYgKCFmaWVsZCkgdGhyb3cgbmV3IEJhZFJlcXVlc3RFeGNlcHRpb24oJ+e8uuWwkSBmaWVsZCcpOw0KICAgIHJldHVybiBvayhhd2FpdCB0aGlzLnN2Yy5maWVsZE9wdGlvbnModGFibGUsIGZpZWxkKSk7DQogIH0NCg0KICAvKiog5paw5aKe77yIYWRtaW5faWQg562J5pON5L2c5Lq65a2X5q6155Sx55m75b2V5oCB6Ieq5Yqo5rOo5YWl77yM6KGo5Y2V5LiN5YaN5omL5aGr77yb6KGo5peg5q2k5YiX5pe2IHNlcnZpY2Ug5Lya5b+955Wl77yJICovDQogIEBQb3N0KCc6dGFibGUvYWRkJykNCiAgYXN5bmMgYWRkKEBQYXJhbSgndGFibGUnKSB0YWJsZTogc3RyaW5nLCBAQm9keSgpIGR0bzogYW55LCBAQ3VycmVudFVzZXIoKSB1c2VyOiBhbnkpIHsNCiAgICBpZiAoZHRvICYmIGR0by5hZG1pbl9pZCA9PT0gdW5kZWZpbmVkICYmIHVzZXI/LmlkKSBkdG8uYWRtaW5faWQgPSB1c2VyLmlkOw0KICAgIHJldHVybiBvayhhd2FpdCB0aGlzLnN2Yy5hZGQodGFibGUsIGR0byksICfmt7vliqDmiJDlip8nKTsNCiAgfQ0KDQogIC8qKiDnvJbovpEgKi8NCiAgQFBvc3QoJzp0YWJsZS9lZGl0JykNCiAgYXN5bmMgZWRpdChAUGFyYW0oJ3RhYmxlJykgdGFibGU6IHN0cmluZywgQEJvZHkoKSBib2R5OiBhbnkpIHsNCiAgICBpZiAoIWJvZHkgfHwgYm9keS5pZCA9PT0gdW5kZWZpbmVkKSB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbign57y65bCRIGlkJyk7DQogICAgY29uc3QgeyBpZCwgLi4uZHRvIH0gPSBib2R5Ow0KICAgIHJldHVybiBvayhhd2FpdCB0aGlzLnN2Yy5lZGl0KHRhYmxlLCBOdW1iZXIoaWQpLCBkdG8pLCAn5L+d5a2Y5oiQ5YqfJyk7DQogIH0NCg0KICAvKioNCiAgICog5Yig6Zmk77yI562J5Lu35Y6f57O757ufIGRlbO+8ieOAgg0KICAgKiDmlK/mjIHljZXmnaEgeyBpZCB9IOS4juaJuemHjyB7IGlkczogW10gfe+8m+WQjOaXtuWFvOWuuSBERUxFVEUoYm9keS9xdWVyeSkg5LiOIFBPU1Qg5Lik56eN6LCD55So5pa55byP77yMDQogICAqIOmBv+WFjemDqOWIhiBIVFRQIOWuouaIt+erry/ku6PnkIbkuKLlvIMgREVMRVRFIGJvZHkg5a+86Ie05om56YeP5Yig6Zmk5aSx5pWI44CCDQogICAqLw0KICBARGVsZXRlKCc6dGFibGUvZGVsJykNCiAgYXN5bmMgZGVsRGVsZXRlKEBQYXJhbSgndGFibGUnKSB0YWJsZTogc3RyaW5nLCBAQm9keSgpIGJvZHk6IGFueSwgQFF1ZXJ5KCdpZCcpIHFpZD86IHN0cmluZykgew0KICAgIHJldHVybiB0aGlzLmRvRGVsKHRhYmxlLCBib2R5Py5pZCA/PyBib2R5Py5pZHMgPz8gcWlkKTsNCiAgfQ0KDQogIC8qKg0KICAgKiDliKDpmaTvvIhQT1NUIOW9ouaAge+8jOetieS7t+WOn+ezu+e7nyBkZWzvvInjgIINCiAgICoNCiAgICog5LiOIERFTEVURSDlvaLmgIHlubblrZjnmoTljp/lm6DvvJrpg6jliIYgSFRUUCDlrqLmiLfnq68gLyDnvZHlhbPkvJrkuKLlvIMgREVMRVRFIOeahOivt+axguS9k++8jA0KICAgKiDogIzljp/ns7vnu5/nmoTliKDpmaTlj4LmlbDpg73lnKggYm9keSDph4zvvIhpZCDmiJYgaWRz77yJ44CC5L+d55WZIFBPU1Qg5YWl5Y+j5Y+v6YG/5YWNDQogICAqIOesrOS4ieaWueezu+e7n+aMieWOn+aWh+aho+aOpeWFpeaXtuOAjOS8oOS6hiBpZCDljbTooqvlvZPmiJDmsqHkvKDjgI3jgIINCiAgICoNCiAgICogQHBhcmFtIHRhYmxlIOihqOWQje+8iOi/nuWtl+espuaIluS4i+WIkue6v+Wdh+WPr++8iQ0KICAgKiBAcGFyYW0gYm9keSB7IGlkIOWNleadoSB9IOaIliB7IGlkcyDmibnph48gfQ0KICAgKiBAcGFyYW0gcWlkIOWFvOWuueeUqO+8mmlkIOS5n+WPr+aUviBxdWVyeXN0cmluZw0KICAgKiBAcmV0dXJucyBudWxsDQogICAqLw0KICBAUG9zdCgnOnRhYmxlL2RlbCcpDQogIGFzeW5jIGRlbFBvc3QoQFBhcmFtKCd0YWJsZScpIHRhYmxlOiBzdHJpbmcsIEBCb2R5KCkgYm9keTogYW55LCBAUXVlcnkoJ2lkJykgcWlkPzogc3RyaW5nKSB7DQogICAgcmV0dXJuIHRoaXMuZG9EZWwodGFibGUsIGJvZHk/LmlkID8/IGJvZHk/LmlkcyA/PyBxaWQpOw0KICB9DQoNCiAgLyoqIOWIoOmZpOWFrOWFsemAu+i+ke+8muW9kuS4gOWMliBpZCAvIGlkcyDlhaXlj4IgKi8NCiAgcHJpdmF0ZSBhc3luYyBkb0RlbCh0YWJsZTogc3RyaW5nLCByYXc6IGFueSkgew0KICAgIGlmIChyYXcgPT09IHVuZGVmaW5lZCB8fCByYXcgPT09IG51bGwgfHwgcmF3ID09PSAnJykgew0KICAgICAgdGhyb3cgbmV3IEJhZFJlcXVlc3RFeGNlcHRpb24oJ+e8uuWwkSBpZCcpOw0KICAgIH0NCiAgICBhd2FpdCB0aGlzLnN2Yy5kZWwodGFibGUsIHJhdyk7DQogICAgcmV0dXJuIG9rKG51bGwsICfliKDpmaTmiJDlip8nKTsNCiAgfQ0KDQogIC8qKiDlm57mlLbnq5nliJfooajvvIjnrYnku7fljp/ns7vnu58gcmVjeWNsZWJpbu+8iSAqLw0KICBAR2V0KCc6dGFibGUvcmVjeWNsZWJpbicpDQogIGFzeW5jIHJlY3ljbGViaW4oQFBhcmFtKCd0YWJsZScpIHRhYmxlOiBzdHJpbmcsIEBRdWVyeSgpIHE6IGFueSkgew0KICAgIHJldHVybiBvayhhd2FpdCB0aGlzLnN2Yy5yZWN5Y2xlYmluKHRhYmxlLCBxKSk7DQogIH0NCg0KICAvKiog6L+Y5Y6f77yI562J5Lu35Y6f57O757ufIHJlZHVjdGlvbu+8jOaUr+aMgeaJuemHj++8iSAqLw0KICBAUG9zdCgnOnRhYmxlL3JlZHVjdGlvbicpDQogIGFzeW5jIHJlZHVjdGlvbihAUGFyYW0oJ3RhYmxlJykgdGFibGU6IHN0cmluZywgQEJvZHkoKSBib2R5OiBhbnkpIHsNCiAgICBjb25zdCByYXcgPSBib2R5Py5pZCA/PyBib2R5Py5pZHM7DQogICAgaWYgKHJhdyA9PT0gdW5kZWZpbmVkIHx8IHJhdyA9PT0gbnVsbCB8fCByYXcgPT09ICcnKSB7DQogICAgICB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbign57y65bCRIGlkJyk7DQogICAgfQ0KICAgIGF3YWl0IHRoaXMuc3ZjLnJlZHVjdGlvbih0YWJsZSwgcmF3KTsNCiAgICByZXR1cm4gb2sobnVsbCwgJ+i/mOWOn+aIkOWKnycpOw0KICB9DQoNCiAgLyoqIOecn+WunuWIoOmZpO+8iOetieS7t+WOn+ezu+e7nyByZWFsZGVs77yM5pSv5oyB5om56YeP77yM5LiN5Y+v5oGi5aSN77yJICovDQogIEBQb3N0KCc6dGFibGUvcmVhbGRlbCcpDQogIGFzeW5jIHJlYWxkZWwoQFBhcmFtKCd0YWJsZScpIHRhYmxlOiBzdHJpbmcsIEBCb2R5KCkgYm9keTogYW55KSB7DQogICAgY29uc3QgcmF3ID0gYm9keT8uaWQgPz8gYm9keT8uaWRzOw0KICAgIGlmIChyYXcgPT09IHVuZGVmaW5lZCB8fCByYXcgPT09IG51bGwgfHwgcmF3ID09PSAnJykgew0KICAgICAgdGhyb3cgbmV3IEJhZFJlcXVlc3RFeGNlcHRpb24oJ+e8uuWwkSBpZCcpOw0KICAgIH0NCiAgICBhd2FpdCB0aGlzLnN2Yy5yZWFsZGVsKHRhYmxlLCByYXcpOw0KICAgIHJldHVybiBvayhudWxsLCAn5bey55yf5a6e5Yig6ZmkJyk7DQogIH0NCg0KICAvKiog5om56YeP5a+85YWl77yI562J5Lu35Y6f57O757ufIGltcG9ydO+8iSAqLw0KICBAUG9zdCgnOnRhYmxlL2ltcG9ydCcpDQogIGFzeW5jIGltcG9ydChAUGFyYW0oJ3RhYmxlJykgdGFibGU6IHN0cmluZywgQEJvZHkoKSBib2R5OiB7IHJvd3M6IFJlY29yZDxzdHJpbmcsIGFueT5bXSB9KSB7DQogICAgaWYgKCFib2R5Py5yb3dzKSB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbign57y65bCRIHJvd3MnKTsNCiAgICByZXR1cm4gb2soYXdhaXQgdGhpcy5zdmMuaW1wb3J0KHRhYmxlLCBib2R5LnJvd3MpLCAn5a+85YWl5oiQ5YqfJyk7DQogIH0NCg0KICAvKioNCiAgICog6YeN5paw5Yid5aeL5YyW77yI562J5Lu35Y6f57O757ufIEluaXRpYWxpemF0aW9u77yJ77ya5riF56m65YWo6YOo5Lia5Yqh5Y2V5o2u5pWw5o2u44CCDQogICAqIOmrmOWNseaTjeS9nO+8muW/hemhu+aYvuW8j+S8oOWFpSBjb25maXJtPUlOSVQg5omN5omn6KGM77yb5L+d55WZ57O757uf5Y+C5pWwL+WNleWPt+iuvue9ruetiemFjee9ruihqOOAgg0KICAgKi8NCiAgQFBvc3QoJ2luaXRpYWxpemUnKQ0KICBhc3luYyBpbml0aWFsaXplKEBCb2R5KCkgYm9keTogeyBjb25maXJtPzogc3RyaW5nIH0pIHsNCiAgICBpZiAoYm9keT8uY29uZmlybSAhPT0gJ0lOSVQnKSB7DQogICAgICB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbign5Y2x6Zmp5pON5L2c77ya6K+35LygIGNvbmZpcm09SU5JVCDnoa7orqQnKTsNCiAgICB9DQogICAgY29uc3QgdGFibGVzOiBhbnlbXSA9IGF3YWl0IHRoaXMuc3ZjLmxpc3RSYXdUYWJsZXMoKTsNCiAgICAvLyDphY3nva7nsbvooajkuI3muIXnqbrvvIjns7vnu5/lj4LmlbAv5Y2V5Y+3L0FJL+i0puaIt+ahhuaetuetieWfuuehgOaVsOaNruS/neeVme+8iQ0KICAgIGNvbnN0IGtlZXAgPSBuZXcgU2V0KFsNCiAgICAgICdrdWVycF9zZXRzJywgJ2t1ZXJwX3ByZWZpeCcsICdrdWVycF9hZG1pbicsDQogICAgICAna3VlcnBfYWlfbW9kZWxfY29uZmlnJywgJ2t1ZXJwX2FpX3Byb21wdF90ZW1wbGF0ZScsICdrdWVycF9haV9jYWxsX2xvZycsICdrdWVycF9haV90b29sX2NhbGxfbG9nJywNCiAgICBdKTsNCiAgICBsZXQgdHJ1bmNhdGVkID0gMDsNCiAgICBmb3IgKGNvbnN0IHQgb2YgdGFibGVzKSB7DQogICAgICBpZiAoa2VlcC5oYXModC50YWJsZSkpIGNvbnRpbnVlOw0KICAgICAgYXdhaXQgdGhpcy5zdmMudHJ1bmNhdGVUYWJsZSh0LnRhYmxlKTsNCiAgICAgIHRydW5jYXRlZCsrOw0KICAgIH0NCiAgICByZXR1cm4gb2soeyB0cnVuY2F0ZWQgfSwgYOW3sua4heepuiAke3RydW5jYXRlZH0g5byg5Lia5Yqh6KGoYCk7DQogIH0NCg0KICAvKiog5b2T5YmN57uT6LSm5pel5pyf77yI5pWw5o2u6Z2i5p2/IC8g57uT6LSm6aG16K+75Y+W77yJICovDQogIEBHZXQoJ2NoZWNrb3V0L2N1cnJlbnQnKQ0KICBhc3luYyBjaGVja291dEN1cnJlbnQoKSB7DQogICAgY29uc3QgY2QgPSBhd2FpdCB0aGlzLnN2Yy5nZXRDaGVja291dERhdGUoKTsNCiAgICByZXR1cm4gb2soeyBjaGVja3RpbWU6IGNkLCBjaGVja2RhdGU6IGNkID8gbmV3IERhdGUoY2QgKiAxMDAwKS50b0lTT1N0cmluZygpLnNsaWNlKDAsIDEwKSA6IG51bGwgfSk7DQogIH0NCg0KICAvKiog57uT6LSm77ya5b2S5qGj6LSm5pyf77yIZW5kRGF0ZSDmoLzlvI8gWVlZWS1NTS1ERO+8iSAqLw0KICBAUG9zdCgnY2hlY2tvdXQvc2V0dGxlJykNCiAgYXN5bmMgY2hlY2tvdXRTZXR0bGUoQEJvZHkoKSBib2R5OiB7IGVuZERhdGU/OiBzdHJpbmcgfSwgQEN1cnJlbnRVc2VyKCkgdXNlcjogYW55KSB7DQogICAgaWYgKCFib2R5Py5lbmREYXRlKSB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbign57y65bCRIGVuZERhdGUnKTsNCiAgICAvLyDorrDlvZXmk43kvZzkurrvvIhwcmVwYXJlL+aTjeS9nOS6uuWtl+aute+8iQ0KICAgIGNvbnN0IHIgPSBhd2FpdCB0aGlzLnN2Yy5zZXR0bGVDaGVja291dChib2R5LmVuZERhdGUsIHVzZXI/LmlkID8/IDApOw0KICAgIHJldHVybiBvayhyLCAn57uT6LSm5oiQ5YqfJyk7DQogIH0NCg0KICAvKiog5Y+N57uT6LSm77ya5riF6Zmk57uT6LSm6K6w5b2V5LiO5b2S5qGj5piO57uGICovDQogIEBQb3N0KCdjaGVja291dC91bnNldHRsZScpDQogIGFzeW5jIGNoZWNrb3V0VW5zZXR0bGUoKSB7DQogICAgcmV0dXJuIG9rKGF3YWl0IHRoaXMuc3ZjLnVuc2V0dGxlQ2hlY2tvdXQoKSwgJ+W3suWPjee7k+i0picpOw0KICB9DQoNCiAgLyoqIOaVsOaNrumdouadv++8iOW3peS9nOWPsO+8ieaguOW/g+aMh+agh+iBmuWQiCAqLw0KICBAR2V0KCdzdGF0aXN0aWNzL2Rhc2hib2FyZCcpDQogIGFzeW5jIGRhc2hib2FyZFN0YXRzKCkgew0KICAgIHJldHVybiBvayhhd2FpdCB0aGlzLnN2Yy5kYXNoYm9hcmRTdGF0cygpKTsNCiAgfQ0KDQogIC8qKg0KICAgKiDkv53lrZjljZXlj7fnu4TlkIjop4TliJnvvIhrdWVycF9wcmVmaXjvvIzop4EgMy7orr7nva4vMS7ns7vnu5/lj4LmlbAubWTjgIzljZXlj7forr7nva7jgI3vvInjgIINCiAgICogUE9TVCAva3VlcnAvc2V0cy9wcmVmaXgtc2F2ZSAgYm9keTogeyByb3dzOiBbeyBpZCwgcHJlZml4LCB5ZWFyLCAuLi4sIHN0cmxlbiB9XSB9DQogICAqIOW3suS6p+eUn+aVsOaNrueahOWNleaNruS4jeWPr+WGjeS/ruaUueWFtue7hOWQiOinhOWIme+8iOacjeWKoeerr+W8uuagoemqjO+8ieOAgg0KICAgKi8NCiAgQFBvc3QoJ3NldHMvcHJlZml4LXNhdmUnKQ0KICBhc3luYyBzYXZlUHJlZml4UnVsZXMoQEJvZHkoKSBib2R5OiB7IHJvd3M/OiBBcnJheTxSZWNvcmQ8c3RyaW5nLCBhbnk+PiB9KSB7DQogICAgaWYgKCFib2R5Py5yb3dzKSB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbign57y65bCRIHJvd3MnKTsNCiAgICByZXR1cm4gb2soYXdhaXQgdGhpcy5zdmMuc2F2ZVByZWZpeFJ1bGVzKGJvZHkucm93cyksICfljZXlj7fop4TliJnlt7Lkv53lrZgnKTsNCiAgfQ0KDQogIC8qKg0KICAgKiDlr7nljZUgLyDlj43lr7nljZXvvIjnrYnku7fljp/ns7vnu58gR29vZHNQdXJjaGFzZTo6Y291bnRlciDnrYkgNCDkuKrotK3plIDljZXmja7mjqfliLblmajvvInjgIINCiAgICogUE9TVCAva3VlcnAvOnRhYmxlL2NvdW50ZXIgIGJvZHk6IHsgaWQgfSDmiJYgeyBpZHM6IFtdIH0sIGNvdW50ZXI6IDF8Mg0KICAgKiBjb3VudGVyPTEg5a+55Y2V77yI5LuF5pyq5a+55Y2V6KGM77yJ44CBY291bnRlcj0yIOWPjeWvueWNle+8iOS7heW3suWvueWNleihjO+8ie+8mw0KICAgKiDlt7Lnu5PotKbljZXmja7kuI3lj6/vvIjlj43vvInlr7nljZXvvJvlkIzmraXorrDlvZXmnIDlkI7mk43kvZzkurrjgIINCiAgICovDQogIEBQb3N0KCc6dGFibGUvY291bnRlcicpDQogIGFzeW5jIGNvdW50ZXIoDQogICAgQFBhcmFtKCd0YWJsZScpIHRhYmxlOiBzdHJpbmcsDQogICAgQEJvZHkoKSBib2R5OiB7IGlkPzogbnVtYmVyOyBpZHM/OiBudW1iZXJbXTsgY291bnRlcj86IG51bWJlciB9LA0KICAgIEBDdXJyZW50VXNlcigpIHVzZXI6IGFueSwNCiAgKSB7DQogICAgY29uc3QgcmF3ID0gYm9keT8uaWQgPz8gYm9keT8uaWRzOw0KICAgIGlmIChyYXcgPT09IHVuZGVmaW5lZCB8fCByYXcgPT09IG51bGwgfHwgKHR5cGVvZiByYXcgIT09ICdudW1iZXInICYmICFBcnJheS5pc0FycmF5KHJhdykpKSB7DQogICAgICB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbign57y65bCRIGlkJyk7DQogICAgfQ0KICAgIC8vIOWOn+ezu+e7n+WPo+W+hO+8mmNvdW50ZXI9MSDlr7nljZXvvIxjb3VudGVyPTIg5Y+N5a+55Y2V77yIMCDkuqbmjInlj43lr7nljZXlpITnkIbvvIkNCiAgICBjb25zdCBjID0gYm9keT8uY291bnRlciA9PT0gMSA/IDEgOiAwOw0KICAgIGNvbnN0IHIgPSBhd2FpdCB0aGlzLnN2Yy5jb3VudGVyKHRhYmxlLCByYXcgYXMgbnVtYmVyIHwgbnVtYmVyW10sIGMsIHVzZXI/LmlkID8/IDApOw0KICAgIHJldHVybiBvayhyLCBjID09PSAxID8gJ+WvueWNleaIkOWKnycgOiAn5bey5Y+N5a+55Y2VJyk7DQogIH0NCg0KICAvKiog5a6h5qC4IC8g5Y+N5a6h77yI562J5Lu35Y6f57O757ufIGV4YW1pbmXvvIxzdGF0dXMgMD3lj43lrqEsIDE95bey5a6h77yJICovDQogIEBQb3N0KCc6dGFibGUvZXhhbWluZScpDQogIGFzeW5jIGV4YW1pbmUoDQogICAgQFBhcmFtKCd0YWJsZScpIHRhYmxlOiBzdHJpbmcsDQogICAgQEJvZHkoKSBib2R5OiB7IGlkOiBudW1iZXI7IHN0YXR1cz86IG51bWJlciB9LA0KICApIHsNCiAgICBpZiAoIWJvZHkgfHwgYm9keS5pZCA9PT0gdW5kZWZpbmVkKSB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbign57y65bCRIGlkJyk7DQogICAgcmV0dXJuIG9rKA0KICAgICAgYXdhaXQgdGhpcy5zdmMuZXhhbWluZSh0YWJsZSwgTnVtYmVyKGJvZHkuaWQpLCBib2R5LnN0YXR1cyA/PyAxKSwNCiAgICAgICflrqHmoLjmiJDlip8nLA0KICAgICk7DQogIH0NCn0NCg==
+import { Controller, Get, Post, Delete, Body, Query, Param, UseGuards, BadRequestException } from '@nestjs/common';
+import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
+import { RbacGuard } from '../../common/guards/rbac.guard';
+import { CurrentUser } from '../../common/decorators/current-user.decorator';
+import { ok } from '../../common/response.interceptor';
+import { TableService } from './table.service';
+
+/**
+ * 通用动态表控制器：以 /kuerp/:table/<action> 形式对任意 kuerp_* 表暴露标准接口。
+ * 路由与原系统 FastAdmin 通用控制器 1:1 对齐：
+ *   GET    /kuerp/goods/index        列表/检索
+ *   GET    /kuerp/goods/get          详情
+ *   GET    /kuerp/goods/columns      字段元信息（前端动态渲染）
+ *   GET    /kuerp/goods/recyclebin   回收站列表
+ *   POST   /kuerp/goods/add          新增
+ *   POST   /kuerp/goods/edit         编辑
+ *   POST   /kuerp/goods/del          删除（支持 { id } 或 { ids: [] }）
+ *   DELETE /kuerp/goods/del          删除（兼容 DELETE 调用方）
+ *   POST   /kuerp/goods/reduction    还原（支持批量）
+ *   POST   /kuerp/goods/realdel      真实删除（支持批量）
+ *   POST   /kuerp/goods/import       批量导入（JSON 数组）
+ *   POST   /kuerp/goods/examine      审核/反审
+ *   POST   /kuerp/initialize         重新初始化（高危，需 confirm=INIT）
+ * 全部接口需 JWT 鉴权。
+ */
+@Controller('kuerp')
+@UseGuards(JwtAuthGuard, RbacGuard)
+export class TableController {
+  constructor(private readonly svc: TableService) {}
+
+  /** 列表 / 检索 */
+  @Get(':table/index')
+  async index(@Param('table') table: string, @Query() q: any, @CurrentUser() user: any) {
+    // 数据权限：超管(id=1)与全量权限用户传 1（不附加 owner 过滤）；
+    // 其余用户按所属角色最小 data_scope 决定（2=仅本人创建数据）。
+    const dataScope = user && Number(user.id) !== 1 ? await this.svc.dataScopeOf(Number(user.id)) : 1;
+    return ok(await this.svc.index(table, { ...q, dataScope, userId: user?.id }));
+  }
+
+  /** 列出所有业务表（前端导航用，路径为 /kuerp/tables，单段不与 :table/index 冲突） */
+  @Get('tables')
+  async tables() {
+    return ok(await this.svc.listTables());
+  }
+
+  /** 各业务表数据量统计（数据管理页用） */
+  @Get('tables/stats')
+  async tableStats() {
+    return ok(await this.svc.tableStats());
+  }
+
+  /**
+   * 按「单号设置」规则生成下一个单据编号（等价原系统 Thirds::getCodes）。
+   * GET /kuerp/prefix/gen-code?dbname=kuerp_goods_purchase&field=purchase_code
+   * 规则来自 kuerp_prefix：前缀 + 日期段 + 流水号（起始数/位数），自动查重递增。
+   */
+  @Get('prefix/gen-code')
+  async genCode(@Query('dbname') dbname: string, @Query('field') field: string) {
+    if (!dbname || !field) throw new BadRequestException('缺少 dbname 或 field');
+    return ok(await this.svc.genCodeByRule(dbname, field));
+  }
+
+  /** 详情 */
+  @Get(':table/get')
+  async get(@Param('table') table: string, @Query('id') id: string) {
+    if (!id) throw new BadRequestException('缺少 id');
+    return ok(await this.svc.get(table, Number(id)));
+  }
+
+  /** 表字段元信息（前端动态渲染列表列/表单用） */
+  @Get(':table/columns')
+  async columns(@Param('table') table: string) {
+    return ok(await this.svc.columns(table));
+  }
+
+  /**
+   * 外键字段下拉选项（等价原系统 selectpage / getSuppliers 等）。
+   * GET /kuerp/:table/options?field=suppliers_id
+   * 命中关联表时返回 [{ value, label }]，否则返回空数组。
+   */
+  @Get(':table/options')
+  async options(@Param('table') table: string, @Query('field') field: string) {
+    if (!field) throw new BadRequestException('缺少 field');
+    return ok(await this.svc.fieldOptions(table, field));
+  }
+
+  /** 新增（admin_id 等操作人字段由登录态自动注入，表单不再手填；表无此列时 service 会忽略） */
+  @Post(':table/add')
+  async add(@Param('table') table: string, @Body() dto: any, @CurrentUser() user: any) {
+    if (dto && dto.admin_id === undefined && user?.id) dto.admin_id = user.id;
+    return ok(await this.svc.add(table, dto), '添加成功');
+  }
+
+  /** 编辑 */
+  @Post(':table/edit')
+  async edit(@Param('table') table: string, @Body() body: any) {
+    if (!body || body.id === undefined) throw new BadRequestException('缺少 id');
+    const { id, ...dto } = body;
+    return ok(await this.svc.edit(table, Number(id), dto), '保存成功');
+  }
+
+  /**
+   * 删除（等价原系统 del）。
+   * 支持单条 { id } 与批量 { ids: [] }；同时兼容 DELETE(body/query) 与 POST 两种调用方式，
+   * 避免部分 HTTP 客户端/代理丢弃 DELETE body 导致批量删除失效。
+   */
+  @Delete(':table/del')
+  async delDelete(@Param('table') table: string, @Body() body: any, @Query('id') qid?: string) {
+    return this.doDel(table, body?.id ?? body?.ids ?? qid);
+  }
+
+  /**
+   * 删除（POST 形态，等价原系统 del）。
+   *
+   * 与 DELETE 形态并存的原因：部分 HTTP 客户端 / 网关会丢弃 DELETE 的请求体，
+   * 而原系统的删除参数都在 body 里（id 或 ids）。保留 POST 入口可避免
+   * 第三方系统按原文档接入时「传了 id 却被当成没传」。
+   *
+   * @param table 表名（连字符或下划线均可）
+   * @param body { id 单条 } 或 { ids 批量 }
+   * @param qid 兼容用：id 也可放 querystring
+   * @returns null
+   */
+  @Post(':table/del')
+  async delPost(@Param('table') table: string, @Body() body: any, @Query('id') qid?: string) {
+    return this.doDel(table, body?.id ?? body?.ids ?? qid);
+  }
+
+  /** 删除公共逻辑：归一化 id / ids 入参 */
+  private async doDel(table: string, raw: any) {
+    if (raw === undefined || raw === null || raw === '') {
+      throw new BadRequestException('缺少 id');
+    }
+    await this.svc.del(table, raw);
+    return ok(null, '删除成功');
+  }
+
+  /** 回收站列表（等价原系统 recyclebin） */
+  @Get(':table/recyclebin')
+  async recyclebin(@Param('table') table: string, @Query() q: any) {
+    return ok(await this.svc.recyclebin(table, q));
+  }
+
+  /** 还原（等价原系统 reduction，支持批量） */
+  @Post(':table/reduction')
+  async reduction(@Param('table') table: string, @Body() body: any) {
+    const raw = body?.id ?? body?.ids;
+    if (raw === undefined || raw === null || raw === '') {
+      throw new BadRequestException('缺少 id');
+    }
+    await this.svc.reduction(table, raw);
+    return ok(null, '还原成功');
+  }
+
+  /** 真实删除（等价原系统 realdel，支持批量，不可恢复） */
+  @Post(':table/realdel')
+  async realdel(@Param('table') table: string, @Body() body: any) {
+    const raw = body?.id ?? body?.ids;
+    if (raw === undefined || raw === null || raw === '') {
+      throw new BadRequestException('缺少 id');
+    }
+    await this.svc.realdel(table, raw);
+    return ok(null, '已真实删除');
+  }
+
+  /** 批量导入（等价原系统 import） */
+  @Post(':table/import')
+  async import(@Param('table') table: string, @Body() body: { rows: Record<string, any>[] }) {
+    if (!body?.rows) throw new BadRequestException('缺少 rows');
+    return ok(await this.svc.import(table, body.rows), '导入成功');
+  }
+
+  /**
+   * 重新初始化（等价原系统 Initialization）：清空全部业务单据数据。
+   * 高危操作：必须显式传入 confirm=INIT 才执行；保留系统参数/单号设置等配置表。
+   */
+  @Post('initialize')
+  async initialize(@Body() body: { confirm?: string }) {
+    if (body?.confirm !== 'INIT') {
+      throw new BadRequestException('危险操作：请传 confirm=INIT 确认');
+    }
+    const tables: any[] = await this.svc.listRawTables();
+    // 配置类表不清空（系统参数/单号/AI/账户框架等基础数据保留）
+    const keep = new Set([
+      'kuerp_sets', 'kuerp_prefix', 'kuerp_admin',
+      'kuerp_ai_model_config', 'kuerp_ai_prompt_template', 'kuerp_ai_call_log', 'kuerp_ai_tool_call_log',
+    ]);
+    let truncated = 0;
+    for (const t of tables) {
+      if (keep.has(t.table)) continue;
+      await this.svc.truncateTable(t.table);
+      truncated++;
+    }
+    return ok({ truncated }, `已清空 ${truncated} 张业务表`);
+  }
+
+  /** 当前结账日期（数据面板 / 结账页读取） */
+  @Get('checkout/current')
+  async checkoutCurrent() {
+    const cd = await this.svc.getCheckoutDate();
+    return ok({ checktime: cd, checkdate: cd ? new Date(cd * 1000).toISOString().slice(0, 10) : null });
+  }
+
+  /** 结账：归档账期（endDate 格式 YYYY-MM-DD） */
+  @Post('checkout/settle')
+  async checkoutSettle(@Body() body: { endDate?: string }, @CurrentUser() user: any) {
+    if (!body?.endDate) throw new BadRequestException('缺少 endDate');
+    // 记录操作人（prepare/操作人字段）
+    const r = await this.svc.settleCheckout(body.endDate, user?.id ?? 0);
+    return ok(r, '结账成功');
+  }
+
+  /** 反结账：清除结账记录与归档明细 */
+  @Post('checkout/unsettle')
+  async checkoutUnsettle() {
+    return ok(await this.svc.unsettleCheckout(), '已反结账');
+  }
+
+  /** 数据面板（工作台）核心指标聚合 */
+  @Get('statistics/dashboard')
+  async dashboardStats() {
+    return ok(await this.svc.dashboardStats());
+  }
+
+  /**
+   * 保存单号组合规则（kuerp_prefix，见 3.设置/1.系统参数.md「单号设置」）。
+   * POST /kuerp/sets/prefix-save  body: { rows: [{ id, prefix, year, ..., strlen }] }
+   * 已产生数据的单据不可再修改其组合规则（服务端强校验）。
+   */
+  @Post('sets/prefix-save')
+  async savePrefixRules(@Body() body: { rows?: Array<Record<string, any>> }) {
+    if (!body?.rows) throw new BadRequestException('缺少 rows');
+    return ok(await this.svc.savePrefixRules(body.rows), '单号规则已保存');
+  }
+
+  /**
+   * 对单 / 反对单（等价原系统 GoodsPurchase::counter 等 4 个购销单据控制器）。
+   * POST /kuerp/:table/counter  body: { id } 或 { ids: [] }, counter: 1|2
+   * counter=1 对单（仅未对单行）、counter=2 反对单（仅已对单行）；
+   * 已结账单据不可（反）对单；同步记录最后操作人。
+   */
+  @Post(':table/counter')
+  async counter(
+    @Param('table') table: string,
+    @Body() body: { id?: number; ids?: number[]; counter?: number },
+    @CurrentUser() user: any,
+  ) {
+    const raw = body?.id ?? body?.ids;
+    if (raw === undefined || raw === null || (typeof raw !== 'number' && !Array.isArray(raw))) {
+      throw new BadRequestException('缺少 id');
+    }
+    // 原系统口径：counter=1 对单，counter=2 反对单（0 亦按反对单处理）
+    const c = body?.counter === 1 ? 1 : 0;
+    const r = await this.svc.counter(table, raw as number | number[], c, user?.id ?? 0);
+    return ok(r, c === 1 ? '对单成功' : '已反对单');
+  }
+
+  /** 审核 / 反审（等价原系统 examine，status 0=反审, 1=已审） */
+  @Post(':table/examine')
+  async examine(
+    @Param('table') table: string,
+    @Body() body: { id: number; status?: number },
+  ) {
+    if (!body || body.id === undefined) throw new BadRequestException('缺少 id');
+    return ok(
+      await this.svc.examine(table, Number(body.id), body.status ?? 1),
+      '审核成功',
+    );
+  }
+}

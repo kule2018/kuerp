@@ -1,1 +1,9 @@
-ewogICIkc2NoZW1hIjogImh0dHBzOi8vanNvbi5zY2hlbWFzdG9yZS5vcmcvbmVzdC1jbGkiLAogICJjb2xsZWN0aW9uIjogIkBuZXN0anMvc2NoZW1hdGljcyIsCiAgInNvdXJjZVJvb3QiOiAic3JjIiwKICAiY29tcGlsZXJPcHRpb25zIjogewogICAgImRlbGV0ZU91dERpciI6IHRydWUsCiAgICAidHNDb25maWdQYXRoIjogInRzY29uZmlnLmJ1aWxkLmpzb24iCiAgfQp9Cg==
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "tsConfigPath": "tsconfig.build.json"
+  }
+}

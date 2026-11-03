@@ -1,1 +1,34 @@
-LyoqCiAqIEBUb29sIOijhemlsOWZqO+8muWwhuS4gOS4quaWueazleazqOWGjOS4uiBBSSDlj6/osIPnlKjnmoTjgIzlt6Xlhbcv5Ye95pWw44CN44CCCiAqIOetieaViCBTcHJpbmcgQUkg55qEIEBUb29sIOazqOino+OAguWFg+aVsOaNruaMguWcqOaWueazleWHveaVsOS4iu+8jOi/kOihjOaXtueUsSBUb29sUmVnaXN0cnkg5omr5o+P5pS26ZuG44CCCiAqCiAqIOeUqOazle+8mgogKiAgIEBUb29sKHsgbmFtZTogJ3F1ZXJ5R29vZHMnLCBkZXNjcmlwdGlvbjogJ+aMieWFs+mUruWtl+afpeivouWVhuWTgScsIHBhcmFtZXRlcnM6IHsuLi5qc29uU2NoZW1hfSB9KQogKiAgIGFzeW5jIHF1ZXJ5R29vZHMoYXJnczogeyBrZXl3b3JkOiBzdHJpbmcgfSkgeyAuLi4gfQogKi8KZXhwb3J0IGludGVyZmFjZSBUb29sTWV0YWRhdGEgewogIG5hbWU6IHN0cmluZzsKICBkZXNjcmlwdGlvbjogc3RyaW5nOwogIC8qKiBKU09OIFNjaGVtYSDmj4/ov7DlhaXlj4IgKi8KICBwYXJhbWV0ZXJzOiB7CiAgICB0eXBlOiAnb2JqZWN0JzsKICAgIHByb3BlcnRpZXM6IFJlY29yZDxzdHJpbmcsIGFueT47CiAgICByZXF1aXJlZD86IHN0cmluZ1tdOwogIH07Cn0KCmV4cG9ydCBjb25zdCBUT09MX01FVEFEQVRBID0gJ19fYWlfdG9vbF9fJzsKCmV4cG9ydCBmdW5jdGlvbiBUb29sKG1ldGFkYXRhOiBUb29sTWV0YWRhdGEpOiBNZXRob2REZWNvcmF0b3IgewogIHJldHVybiAodGFyZ2V0OiBhbnksIHByb3BlcnR5S2V5OiBzdHJpbmcgfCBzeW1ib2wsIGRlc2NyaXB0b3I6IFByb3BlcnR5RGVzY3JpcHRvcikgPT4gewogICAgZGVzY3JpcHRvci52YWx1ZVtUT09MX01FVEFEQVRBXSA9IG1ldGFkYXRhOwogICAgcmV0dXJuIGRlc2NyaXB0b3I7CiAgfTsKfQoKLyoqIOWIpOaWreS4gOS4quWvueixoeaWueazleaYr+WQpuagh+iusOS6hiBAVG9vbO+8jOW5tui/lOWbnuWFtuWFg+aVsOaNriAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0VG9vbE1ldGFkYXRhKHRhcmdldDogYW55LCBwcm9wZXJ0eUtleTogc3RyaW5nKTogVG9vbE1ldGFkYXRhIHwgdW5kZWZpbmVkIHsKICBjb25zdCBmbiA9IHRhcmdldFtwcm9wZXJ0eUtleV07CiAgaWYgKHR5cGVvZiBmbiAhPT0gJ2Z1bmN0aW9uJykgcmV0dXJuIHVuZGVmaW5lZDsKICByZXR1cm4gZm5bVE9PTF9NRVRBREFUQV07Cn0K
+/**
+ * @Tool 装饰器：将一个方法注册为 AI 可调用的「工具/函数」。
+ * 等效 Spring AI 的 @Tool 注解。元数据挂在方法函数上，运行时由 ToolRegistry 扫描收集。
+ *
+ * 用法：
+ *   @Tool({ name: 'queryGoods', description: '按关键字查询商品', parameters: {...jsonSchema} })
+ *   async queryGoods(args: { keyword: string }) { ... }
+ */
+export interface ToolMetadata {
+  name: string;
+  description: string;
+  /** JSON Schema 描述入参 */
+  parameters: {
+    type: 'object';
+    properties: Record<string, any>;
+    required?: string[];
+  };
+}
+
+export const TOOL_METADATA = '__ai_tool__';
+
+export function Tool(metadata: ToolMetadata): MethodDecorator {
+  return (target: any, propertyKey: string | symbol, descriptor: PropertyDescriptor) => {
+    descriptor.value[TOOL_METADATA] = metadata;
+    return descriptor;
+  };
+}
+
+/** 判断一个对象方法是否标记了 @Tool，并返回其元数据 */
+export function getToolMetadata(target: any, propertyKey: string): ToolMetadata | undefined {
+  const fn = target[propertyKey];
+  if (typeof fn !== 'function') return undefined;
+  return fn[TOOL_METADATA];
+}

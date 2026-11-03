@@ -1,1 +1,164 @@
-PCEtLQogKiDlhajnq5nluIPlsYDvvIhEZWVwU2VlayBVSSDpo47moLzlpJblo7PvvInjgIIKICog6aG16Z2i5L2N572uIC8g55So6YCU77ya5oyC5Zyo6Lev55SxICcvJyDkuYvkuIvvvIzmmK/miYDmnInkuJrliqHpobXpnaLnmoTlhazlhbHmoYbmnrbigJTigJQKICogICDlt6bkvqfliIbnu4Tlr7zoiKrvvIhEc0FwcFNoZWxs77yJKyDpobbmoI/vvIjlvZPliY3pobXmoIfpopggKyDnmbvlvZXkurrkuIvmi4nvvIkrIOWGheWuueWMuu+8iHJvdXRlci12aWV377yJ44CCCiAqIOS4juaXp+eJiOWMuuWIq++8muWOn+S4uiBFbGVtZW50IFBsdXMg55qEIGVsLWNvbnRhaW5lci9lbC1tZW51L2VsLWRyb3Bkb3duIOaJi+WGmeW4g+WxgO+8jAogKiAgIOeOsOaVtOS9k+WIh+aNouS4uue7hOS7tuW6kyBkcyDnmoQgRHNBcHBTaGVsbO+8jOinhuinieS4juS6pOS6kuWvuem9kCBEZWVwU2VlayDnvZHpobXniYgKICogICDvvIjkvqfovrnmoI/lj6/mipjlj6DjgIHnqoTlsY/oh6rliqjmir3lsYnjgIHlr7zoiKrmjInoj5zljZXliIbnu4TmmL7npLrlsI/moIfpopjvvInjgIIKICog5rOo5oSP77ya5YWo5bGAIFRvYXN0IOWuueWZqOeUsSBBcHAudnVlIOagueiKgueCuee7n+S4gOaMgui9ve+8jOi/memHjOS8oCA6dG9hc3Q9ImZhbHNlIiDpmLLmraLph43lpI3muLLmn5PjgIIKIC0tPgo8dGVtcGxhdGU+CiAgPERzQXBwU2hlbGwKICAgIHRpdGxlPSLov5vplIDlrZggRVJQIgogICAgc3VidGl0bGU9Ikt1ZXJwIOeuoeeQhuWQjuWPsCIKICAgIDpuYXY9Im5hdkl0ZW1zIgogICAgOmNvbGxhcHNpYmxlLWdyb3Vwcz0idHJ1ZSIKICAgIDpwYWdlLXRpdGxlPSJyb3V0ZS5tZXRhLnRpdGxlIgogICAgOnRvYXN0PSJmYWxzZSIKICA+CiAgICA8IS0tIOmhtuagj+WPs+S+p++8muW9k+WJjeeZu+W9leS6uu+8jOeCueWHu+WxleW8gOS4i+aLie+8iOmAgOWHuueZu+W9le+8iSAtLT4KICAgIDx0ZW1wbGF0ZSAjaGVhZGVyPgogICAgICA8RHNEcm9wZG93biA6aXRlbXM9InVzZXJJdGVtcyIgcGxhY2VtZW50PSJib3R0b20tZW5kIiBAY29tbWFuZD0ib25Db21tYW5kIj4KICAgICAgICA8RHNCdXR0b24gdmFyaWFudD0idGV4dCIgc2l6ZT0ic20iPgogICAgICAgICAgPHRlbXBsYXRlICNpY29uPjxJY29uRm9udCBuYW1lPSJVc2VyIiA6c2l6ZT0iMTUiIC8+PC90ZW1wbGF0ZT4KICAgICAgICAgIHt7IGF1dGgudXNlcj8ubmlja25hbWUgfHwgYXV0aC51c2VyPy51c2VybmFtZSB8fCAn5pyq55m75b2VJyB9fQogICAgICAgIDwvRHNCdXR0b24+CiAgICAgIDwvRHNEcm9wZG93bj4KICAgIDwvdGVtcGxhdGU+CgogICAgPCEtLQogICAgICDlhoXlrrnljLrvvJrlvZPliY3ot6/nlLHlr7nlupTnmoTkuJrliqHpobXpnaLjgIIKICAgICAga2V5IOWPliByb3V0ZS5wYXRoIOKAlOKAlCDpgJrnlKjooajmoLzpobUgY3J1ZC1wYWdlIOWcqCBzZXR1cCDph4zmjIkgcm91dGUubWV0YS5hcGkg5Zu65a6a5LqG6KGo5ZCN77yMCiAgICAgIOiLpeWkjeeUqOWunuS+i+S8muWvvOiHtOOAjOWIh+WIsOWPpuS4gOS4quS4muWKoeihqOS7jeafpeS4iuS4gOW8oOihqOOAje+8jOaVheW8uuWItuaMiei3r+W+hOmHjeW7uue7hOS7tuOAggogICAgLS0+CiAgICA8cm91dGVyLXZpZXcgOmtleT0icm91dGUucGF0aCIgLz4KCiAgICA8IS0tIOWFqOWxgCBBSSDnu4/okKXliqnmiYvvvIjmgqzmta7nqpfvvInvvJrmjILlnKggcm91dGVyLXZpZXcg5LmL5aSW77yM6Leo6aG16Z2i5bi46am75a+56K+dIC0tPgogICAgPEFpQ29waWxvdCAvPgogIDwvRHNBcHBTaGVsbD4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXA+Ci8qKgogKiDluIPlsYDpgLvovpHvvJrmioogbWVudXMuanMg55qE6I+c5Y2V5qCR6L2s5oiQIERzQXBwU2hlbGwg6ZyA6KaB55qE5omB5bmz5a+86Iiq6aG577yMCiAqIOW5tuaPkOS+m+mhtuagj+eUqOaIt+S4i+aLieWRveS7pOWkhOeQhu+8iOmAgOWHuueZu+W9le+8ieOAggogKi8KaW1wb3J0IHsgY29tcHV0ZWQsIG9uTW91bnRlZCwgb25CZWZvcmVVbm1vdW50IH0gZnJvbSAndnVlJzsKaW1wb3J0IHsgdXNlUm91dGUsIHVzZVJvdXRlciB9IGZyb20gJ3Z1ZS1yb3V0ZXInOwppbXBvcnQgeyBtZW51cyB9IGZyb20gJy4uL21lbnVzJzsKaW1wb3J0IHsgdXNlQXV0aFN0b3JlIH0gZnJvbSAnLi4vc3RvcmUvYXV0aCc7CmltcG9ydCB7IHVzZU1lc3NhZ2VTdG9yZSB9IGZyb20gJy4uL3N0b3JlL21lc3NhZ2UnOwppbXBvcnQgeyBEc0FwcFNoZWxsLCBEc0J1dHRvbiwgRHNEcm9wZG93biwgSWNvbkZvbnQgfSBmcm9tICcuLi9jb21wb25lbnRzJzsKaW1wb3J0IHsgZ2V0SWNvbiB9IGZyb20gJy4uL2NvbXBvbmVudHMvZHMvaWNvbnMnOwppbXBvcnQgeyBsb2FkUGVybXMsIHVzZVBlcm0gfSBmcm9tICcuLi91dGlscy9wZXJtJzsKaW1wb3J0IEFpQ29waWxvdCBmcm9tICcuLi92aWV3cy9haS9BaUNvcGlsb3QudnVlJzsKCmNvbnN0IHJvdXRlID0gdXNlUm91dGUoKTsKY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CmNvbnN0IGF1dGggPSB1c2VBdXRoU3RvcmUoKTsKLyoqIOa2iOaBr+S4reW/g+acquivu+aVsO+8iOS+p+agj+W+veagh+aVsOaNrua6kO+8iSAqLwpjb25zdCBtc2dTdG9yZSA9IHVzZU1lc3NhZ2VTdG9yZSgpOwovKiog5p2D6ZmQ54q25oCB77ya6I+c5Y2V6L+H5ruk5L6d6LWW5a6D77yI5pyq5Yqg6L295a6M5oiQ5YmN5pS+6KGM5YWo6YOo77yM6YG/5YWN6aaW5bGP6Zeq54OB77yJICovCmNvbnN0IHsgc3RhdGU6IHBlcm1TdGF0ZSB9ID0gdXNlUGVybSgpOwoKLyoqCiAqIOiPnOWNleWPr+ingeaAp++8mui2heeuoSAvIOacquWKoOi9vSAvIOWFrOW8gOmhte+8iOaXoOiKgueCue+8ieS4gOW+i+WPr+inge+8mwogKiDlhbbkvZnmjInmnYPpmZDoioLngrnliKTlrprvvIjkuI7lkI7nq68gUmJhY0d1YXJkIOWPo+W+hOS4gOiHtO+8muihqOe6p+iKgueCueWNs+ivpeihqOWFqOmDqOWKqOS9nO+8ieOAggogKiBAcGFyYW0gbm9kZSDoj5zljZXlj7blrZDoioLngrkKICovCmZ1bmN0aW9uIG1lbnVWaXNpYmxlKG5vZGUpIHsKICBpZiAoIXBlcm1TdGF0ZS5sb2FkZWQgfHwgcGVybVN0YXRlLmlzU3VwZXIgfHwgcGVybVN0YXRlLm5vZGVzLmluY2x1ZGVzKCcqJykpIHJldHVybiB0cnVlOwogIGNvbnN0IHBlcm0gPSBub2RlLnBlcm07CiAgaWYgKCFwZXJtKSByZXR1cm4gdHJ1ZTsgLy8g5YWs5byA6aG177yI5o6l5Y+j6K+05piO562J77yJCiAgaWYgKHBlcm0uc3RhcnRzV2l0aCgna3VlcnAvJykpIHsKICAgIGNvbnN0IHRhYmxlID0gcGVybS5zbGljZSgna3VlcnAvJy5sZW5ndGgpOwogICAgcmV0dXJuICEhcGVybVN0YXRlLnRhYmxlc1t0YWJsZV0gfHwgcGVybVN0YXRlLm5vZGVzLmluY2x1ZGVzKHBlcm0pIHx8IHBlcm1TdGF0ZS5tZW51cy5pbmNsdWRlcyhwZXJtKTsKICB9CiAgcmV0dXJuIHBlcm1TdGF0ZS5tZW51cy5pbmNsdWRlcyhwZXJtKSB8fCBwZXJtU3RhdGUubm9kZXMuaW5jbHVkZXMocGVybSk7Cn0KCi8vIOeZu+W9leaAgeS4i+WQr+WKqOacquivu+i9ruivoiArIOWKoOi9veaMiemSrue6p+adg+mZkOmbhuWQiO+8jOemu+W8gOW4g+WxgO+8iOeZu+WHuu+8ieaXtuWBnOaOiei9ruivou+8jOmBv+WFjeWumuaXtuWZqOazhOa8jwpvbk1vdW50ZWQoKCkgPT4gewogIGlmIChhdXRoLnRva2VuKSB7CiAgICBtc2dTdG9yZS5zdGFydFBvbGxpbmcoKTsKICAgIGxvYWRQZXJtcygpOyAvLyDmnYPpmZDnlKjkuo7lkITpobXpnaLnmoTmjInpkq7mmL7pmpDvvJvlpLHotKXml7YgaGFzUGVybSDkuIDlvovmlL7ooYzvvIzkuI3lvbHlk43lj6/nlKjmgKcKICB9Cn0pOwpvbkJlZm9yZVVubW91bnQoKCkgPT4gewogIG1zZ1N0b3JlLnN0b3BQb2xsaW5nKCk7Cn0pOwoKLyoqCiAqIEVsZW1lbnQgUGx1cyDlm77moIflkI0g4oaSIGRzIOWGhee9rue6v+aAp+Wbvuagh+WQjeaYoOWwhOihqOOAggogKiDog4zmma/vvJptZW51cy5qcyDph4zlkIToj5zljZXoioLngrnlrZjnmoTmmK/ljp/ns7vnu5/nmoQgRVAg5Zu+5qCH5ZCN77yI5aaCIE9kb21ldGVy77yJ77yMCiAqICAgICAgIGRzIOWbvuagh+W6k+aYr+WPpuS4gOWllyAyNMOXMjQg57q/5oCn5Zu+5qCH77yM6ZyA5YGa562J5Lu35pig5bCE77ybCiAqICAgICAgIElDT05fTUFQIOacquWRveS4reeahOWQjeWtl+e7n+S4gOWbnumAgCBCb3jvvIjkuJrliqHlm77moIfvvInjgIIKICovCmNvbnN0IElDT05fTUFQID0gewogIE9kb21ldGVyOiAnSG9tZScsCiAgRGF0YUxpbmU6ICdDaGFydCcsCiAgUHJpbnRlcjogJ1ByaW50ZXInLAogIEdvb2RzOiAnQm94JywKICBTaG9wcGluZ0NhcnQ6ICdDYXJ0JywKICBTZWxsOiAnU2VuZCcsCiAgQm94OiAnQm94JywKICBNb25leTogJ01vbmV5JywKICBJcGhvbmU6ICdQaG9uZScsCiAgU2V0dGluZzogJ1NldHRpbmcnLAogIENwdTogJ0NwdScsCiAgQ2FsZW5kYXI6ICdDYWxlbmRhcicsCiAgQ2hlY2tlZDogJ0NoZWNrJywKICBGaWxlczogJ0ZpbGUnLAogIFJlZnJlc2hMZWZ0OiAnUmVmcmVzaCcsCiAgVXNlckZpbGxlZDogJ1VzZXJzJywKICBBdmF0YXI6ICdVc2VyJywKICBEb2N1bWVudDogJ0ZpbGUnLAogIENoYXREb3RSb3VuZDogJ0NoYXQnLAogIFRpY2tldHM6ICdUaWNrZXQnLAogIFRyZW5kQ2hhcnRzOiAnVHJlbmQnLAogIE1hZ2ljU3RpY2s6ICdNYWdpYycsCn07CgovKioKICog5oqK6I+c5Y2V5qCR5ouN5bmz5oiQIERzQXBwU2hlbGwg5a+86Iiq6aG544CCCiAqIOinhOWIme+8mumhtuWxguaXoCBjaGlsZHJlbiDnmoToioLngrnnm7TmjqXmiJDpobnvvIjlvZLlhaXjgIzml6DmoIfpopjnu4TjgI3vvInvvJsKICogICAgICAg5pyJIGNoaWxkcmVuIOeahOe7hO+8jOe7hOWQjeS9nOS4uuWIhue7hOWwj+agh+mimO+8jOWtkOmhueS+neasoei/m+ivpee7hOOAggogKiBAcmV0dXJucyBOYXZJdGVtW10g5q+P6aG55ZCrIGxhYmVs77yI5paH5qGI77yJLyB0b++8iOi3r+eUsei3r+W+hO+8jOmcgOihpSAvIOWJjee8gO+8iS8gaWNvbu+8iFNWRyBwYXRo77yJLyBncm91cO+8iOWIhue7hOWQje+8iQogKi8KY29uc3QgbmF2SXRlbXMgPSBjb21wdXRlZCgoKSA9PgogIG1lbnVzLmZsYXRNYXAoKG0pID0+IHsKICAgIGlmIChtLmNoaWxkcmVuKSB7CiAgICAgIC8vIOaMieadg+mZkOi/h+a7pOWtkOmhue+8m+aXoOWPr+ingeWtkOmhueeahOe7hOS4jea4suafk++8iERzQXBwU2hlbGwg5oyJIGdyb3VwIOWIhue7hO+8jOaXoOmhueWNs+aXoOagh+mimO+8iQogICAgICBjb25zdCBraWRzID0gbS5jaGlsZHJlbgogICAgICAgIC5maWx0ZXIobWVudVZpc2libGUpCiAgICAgICAgLm1hcCgoYykgPT4gKHsKICAgICAgICAgIGxhYmVsOiBjLnRpdGxlLAogICAgICAgICAgdG86ICcvJyArIGMucGF0aCwKICAgICAgICAgIGljb246IGdldEljb24oSUNPTl9NQVBbYy5pY29uXSB8fCAnQm94JyksCiAgICAgICAgICBncm91cDogbS50aXRsZSwKICAgICAgICAgIC8vIOa2iOaBr+S4reW/g+aMguacquivu+W+veagh++8muadoeaVsOeUsSBtZXNzYWdlIHN0b3JlIOavjyA2MCDnp5Lova7or6LliLfmlrDvvIwKICAgICAgICAgIC8vIOeCuei/m+a2iOaBr+S4reW/g+agh+iusOW3suivu+WQjuW+veagh+WQjOatpea2iOWkse+8iOS4jemcgOimgeWIt+aWsOmhtemdou+8iQogICAgICAgICAgYmFkZ2U6IGMucGF0aCA9PT0gJ3N5c3RlbS9tZXNzYWdlJyAmJiBtc2dTdG9yZS51bnJlYWQgPyBtc2dTdG9yZS51bnJlYWQgOiB1bmRlZmluZWQsCiAgICAgICAgfSkpOwogICAgICByZXR1cm4ga2lkczsKICAgIH0KICAgIGlmICghbWVudVZpc2libGUobSkpIHJldHVybiBbXTsKICAgIHJldHVybiBbeyBsYWJlbDogbS50aXRsZSwgdG86ICcvJyArIG0ucGF0aCwgaWNvbjogZ2V0SWNvbihJQ09OX01BUFttLmljb25dIHx8ICdCb3gnKSB9XTsKICB9KSwKKTsKCi8qKiDpobbmoI/nlKjmiLfkuIvmi4noj5zljZXpobnphY3nva7vvIhEc0Ryb3Bkb3duLkl0ZW3vvIkgKi8KY29uc3QgdXNlckl0ZW1zID0gW3sgY29tbWFuZDogJ2xvZ291dCcsIGxhYmVsOiAn6YCA5Ye655m75b2VJywgaWNvbjogJ0V4dGVybmFsTGluaycgfV07CgovKioKICog55So5oi35LiL5ouJ5ZG95Luk5aSE55CG77ya55uu5YmN5LuF6YCA5Ye655m75b2V4oCU4oCU5riF56m655m75b2V5oCB5bm26Lez5Zue55m75b2V6aG144CCCiAqIEBwYXJhbSBjbWQg6I+c5Y2V6aG5IGNvbW1hbmQg5YC8CiAqIEByZXR1cm5zIOaXoAogKi8KZnVuY3Rpb24gb25Db21tYW5kKGNtZCkgewogIGlmIChjbWQgPT09ICdsb2dvdXQnKSB7CiAgICBhdXRoLmxvZ291dCgpOwogICAgcm91dGVyLnJlcGxhY2UoJy9sb2dpbicpOwogIH0KfQo8L3NjcmlwdD4K
+<!--
+ * 全站布局（DeepSeek UI 风格外壳）。
+ * 页面位置 / 用途：挂在路由 '/' 之下，是所有业务页面的公共框架——
+ *   左侧分组导航（DsAppShell）+ 顶栏（当前页标题 + 登录人下拉）+ 内容区（router-view）。
+ * 与旧版区别：原为 Element Plus 的 el-container/el-menu/el-dropdown 手写布局，
+ *   现整体切换为组件库 ds 的 DsAppShell，视觉与交互对齐 DeepSeek 网页版
+ *   （侧边栏可折叠、窄屏自动抽屉、导航按菜单分组显示小标题）。
+ * 注意：全局 Toast 容器由 App.vue 根节点统一挂载，这里传 :toast="false" 防止重复渲染。
+ -->
+<template>
+  <DsAppShell
+    title="进销存 ERP"
+    subtitle="Kuerp 管理后台"
+    :nav="navItems"
+    :collapsible-groups="true"
+    :page-title="route.meta.title"
+    :toast="false"
+  >
+    <!-- 顶栏右侧：当前登录人，点击展开下拉（退出登录） -->
+    <template #header>
+      <DsDropdown :items="userItems" placement="bottom-end" @command="onCommand">
+        <DsButton variant="text" size="sm">
+          <template #icon><IconFont name="User" :size="15" /></template>
+          {{ auth.user?.nickname || auth.user?.username || '未登录' }}
+        </DsButton>
+      </DsDropdown>
+    </template>
+
+    <!--
+      内容区：当前路由对应的业务页面。
+      key 取 route.path —— 通用表格页 crud-page 在 setup 里按 route.meta.api 固定了表名，
+      若复用实例会导致「切到另一个业务表仍查上一张表」，故强制按路径重建组件。
+    -->
+    <router-view :key="route.path" />
+
+    <!-- 全局 AI 经营助手（悬浮窗）：挂在 router-view 之外，跨页面常驻对话 -->
+    <AiCopilot />
+  </DsAppShell>
+</template>
+
+<script setup>
+/**
+ * 布局逻辑：把 menus.js 的菜单树转成 DsAppShell 需要的扁平导航项，
+ * 并提供顶栏用户下拉命令处理（退出登录）。
+ */
+import { computed, onMounted, onBeforeUnmount } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
+import { menus } from '../menus';
+import { useAuthStore } from '../store/auth';
+import { useMessageStore } from '../store/message';
+import { DsAppShell, DsButton, DsDropdown, IconFont } from '../components';
+import { getIcon } from '../components/ds/icons';
+import { loadPerms, usePerm } from '../utils/perm';
+import AiCopilot from '../views/ai/AiCopilot.vue';
+
+const route = useRoute();
+const router = useRouter();
+const auth = useAuthStore();
+/** 消息中心未读数（侧栏徽标数据源） */
+const msgStore = useMessageStore();
+/** 权限状态：菜单过滤依赖它（未加载完成前放行全部，避免首屏闪烁） */
+const { state: permState } = usePerm();
+
+/**
+ * 菜单可见性：超管 / 未加载 / 公开页（无节点）一律可见；
+ * 其余按权限节点判定（与后端 RbacGuard 口径一致：表级节点即该表全部动作）。
+ * @param node 菜单叶子节点
+ */
+function menuVisible(node) {
+  if (!permState.loaded || permState.isSuper || permState.nodes.includes('*')) return true;
+  const perm = node.perm;
+  if (!perm) return true; // 公开页（接口说明等）
+  if (perm.startsWith('kuerp/')) {
+    const table = perm.slice('kuerp/'.length);
+    return !!permState.tables[table] || permState.nodes.includes(perm) || permState.menus.includes(perm);
+  }
+  return permState.menus.includes(perm) || permState.nodes.includes(perm);
+}
+
+// 登录态下启动未读轮询 + 加载按钮级权限集合，离开布局（登出）时停掉轮询，避免定时器泄漏
+onMounted(() => {
+  if (auth.token) {
+    msgStore.startPolling();
+    loadPerms(); // 权限用于各页面的按钮显隐；失败时 hasPerm 一律放行，不影响可用性
+  }
+});
+onBeforeUnmount(() => {
+  msgStore.stopPolling();
+});
+
+/**
+ * Element Plus 图标名 → ds 内置线性图标名映射表。
+ * 背景：menus.js 里各菜单节点存的是原系统的 EP 图标名（如 Odometer），
+ *       ds 图标库是另一套 24×24 线性图标，需做等价映射；
+ *       ICON_MAP 未命中的名字统一回退 Box（业务图标）。
+ */
+const ICON_MAP = {
+  Odometer: 'Home',
+  DataLine: 'Chart',
+  Printer: 'Printer',
+  Goods: 'Box',
+  ShoppingCart: 'Cart',
+  Sell: 'Send',
+  Box: 'Box',
+  Money: 'Money',
+  Iphone: 'Phone',
+  Setting: 'Setting',
+  Cpu: 'Cpu',
+  Calendar: 'Calendar',
+  Checked: 'Check',
+  Files: 'File',
+  RefreshLeft: 'Refresh',
+  UserFilled: 'Users',
+  Avatar: 'User',
+  Document: 'File',
+  ChatDotRound: 'Chat',
+  Tickets: 'Ticket',
+  TrendCharts: 'Trend',
+  MagicStick: 'Magic',
+};
+
+/**
+ * 把菜单树拍平成 DsAppShell 导航项。
+ * 规则：顶层无 children 的节点直接成项（归入「无标题组」）；
+ *       有 children 的组，组名作为分组小标题，子项依次进该组。
+ * @returns NavItem[] 每项含 label（文案）/ to（路由路径，需补 / 前缀）/ icon（SVG path）/ group（分组名）
+ */
+const navItems = computed(() =>
+  menus.flatMap((m) => {
+    if (m.children) {
+      // 按权限过滤子项；无可见子项的组不渲染（DsAppShell 按 group 分组，无项即无标题）
+      const kids = m.children
+        .filter(menuVisible)
+        .map((c) => ({
+          label: c.title,
+          to: '/' + c.path,
+          icon: getIcon(ICON_MAP[c.icon] || 'Box'),
+          group: m.title,
+          // 消息中心挂未读徽标：条数由 message store 每 60 秒轮询刷新，
+          // 点进消息中心标记已读后徽标同步消失（不需要刷新页面）
+          badge: c.path === 'system/message' && msgStore.unread ? msgStore.unread : undefined,
+        }));
+      return kids;
+    }
+    if (!menuVisible(m)) return [];
+    return [{ label: m.title, to: '/' + m.path, icon: getIcon(ICON_MAP[m.icon] || 'Box') }];
+  }),
+);
+
+/** 顶栏用户下拉菜单项配置（DsDropdown.Item） */
+const userItems = [{ command: 'logout', label: '退出登录', icon: 'ExternalLink' }];
+
+/**
+ * 用户下拉命令处理：目前仅退出登录——清空登录态并跳回登录页。
+ * @param cmd 菜单项 command 值
+ * @returns 无
+ */
+function onCommand(cmd) {
+  if (cmd === 'logout') {
+    auth.logout();
+    router.replace('/login');
+  }
+}
+</script>

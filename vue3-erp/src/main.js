@@ -1,1 +1,15 @@
-aW1wb3J0IHsgY3JlYXRlQXBwIH0gZnJvbSAndnVlJzsKaW1wb3J0IHsgY3JlYXRlUGluaWEgfSBmcm9tICdwaW5pYSc7CmltcG9ydCB7IGluc3RhbGxEc1VpIH0gZnJvbSAnLi9jb21wb25lbnRzJzsKaW1wb3J0IEFwcCBmcm9tICcuL0FwcC52dWUnOwppbXBvcnQgcm91dGVyIGZyb20gJy4vcm91dGVyJzsKaW1wb3J0ICcuL3N0eWxlLmNzcyc7Ci8vIOihqOWNleaOkueJiO+8iERzRmllbGQg5qCH562+IC8g5qCF5qC8IC8g5b+F5aGr5pif5Y+3562J5YWo5bGA6KeE5YiZ77yJCmltcG9ydCAnLi9zdHlsZXMvZm9ybS5jc3MnOwoKY29uc3QgYXBwID0gY3JlYXRlQXBwKEFwcCk7CmFwcC51c2UoY3JlYXRlUGluaWEoKSk7CmFwcC51c2Uocm91dGVyKTsKLy8g5r+A5rS7IGRzIOiuvuiuoeezu+e7n++8iERlZXBTZWVrIFVJIOmjjuagvOe7hOS7tu+8jOWFqOWxgOazqOWGjCBEc1h4eCAvIEJhc2VYeHjvvIkKaW5zdGFsbERzVWkoYXBwKTsKYXBwLm1vdW50KCcjYXBwJyk7Cg==
+import { createApp } from 'vue';
+import { createPinia } from 'pinia';
+import { installDsUi } from './components';
+import App from './App.vue';
+import router from './router';
+import './style.css';
+// 表单排版（DsField 标签 / 栅格 / 必填星号等全局规则）
+import './styles/form.css';
+
+const app = createApp(App);
+app.use(createPinia());
+app.use(router);
+// 激活 ds 设计系统（DeepSeek UI 风格组件，全局注册 DsXxx / BaseXxx）
+installDsUi(app);
+app.mount('#app');

@@ -1,1 +1,36 @@
-IyDov5vplIDlrZggRVJQIOeuoeeQhuWJjeerryDigJQgVnVlMyArIEVsZW1lbnQtUGx1cwoKYG5lc3Rqcy1lcnBgIOeahOmFjeWll+euoeeQhuWQjuWPsO+8jOWJjeWQjuerr+WIhuemu+OAggoKIyMg5oqA5pyv5qCIClZ1ZTMgKyBWaXRlICsgRWxlbWVudC1QbHVzICsgVnVlLVJvdXRlciArIFBpbmlhICsgQXhpb3MKCiMjIOebruW9lQpgYGAKc3JjLwrilJzilIDilIAgbWFpbi5qcyAvIEFwcC52dWUgLyBzdHlsZS5jc3MK4pSc4pSA4pSAIHJvdXRlci9pbmRleC5qcyAgICAgICMg6Lev55Sx77yI5ZCr6Ym05p2D5a6I5Y2r77yb5YWo6YOo5Lia5Yqh5qih5Z2XIOKGkiDpgJrnlKjliqjmgIHooajmoLzpobXvvIkK4pSc4pSA4pSAIG1lbnVzLmpzICAgICAgICAgICAgICMg5L6n6L655qCP6I+c5Y2VCuKUnOKUgOKUgCBsYXlvdXQvaW5kZXgudnVlICAgICAjIOW4g+WxgO+8iOS+p+i+ueiPnOWNlSArIOmhtuagj++8iQrilJzilIDilIAgc3RvcmUvYXV0aC5qcyAgICAgICAgIyDnmbvlvZXmgIHvvIh0b2tlbi91c2Vy77yMbG9jYWxTdG9yYWdlIOaMgeS5heWMlu+8iQrilJzilIDilIAgdXRpbHMvcmVxdWVzdC5qcyAgICAgIyBBeGlvcyDlsIHoo4XvvIhKV1Qg5rOo5YWlICsge2NvZGUsbXNnLGRhdGF9IOe7n+S4gOino+WMhe+8iQrilJTilIDilIAgdmlld3MvCiAgICDilJzilIDilIAgbG9naW4udnVlIC8gZGFzaGJvYXJkLnZ1ZQogICAg4pSc4pSA4pSAIGNydWQtcGFnZS52dWUgICAgIyDimIUg6YCa55So5Yqo5oCB6KGo5qC86aG177ya5Yqo5oCB5YiXICsg5Yqo5oCB6KGo5Y2VICsg5aKe5Yig5pS55p+lL+WuoeaguO+8jOmpseWKqOWFqOmDqCBrdWVycF8qIOihqAogICAg4pSc4pSA4pSAIGdvb2RzLyAgICAgICAgICAgIyDllYblk4HotYTmlpnvvIjlj4LogIPlrp7njrDvvIkKICAgIOKUlOKUgOKUgCBhaS8gICAgICAgICAgICAgICMg5qih5Z6L6YWN572uIC8gUHJvbXB05qih5p2/IC8g5a+56K+dQWdlbnQgLyDosIPnlKjml6Xlv5cKYGBgCgojIyDov5DooYwKYGBgYmFzaApucG0gaW5zdGFsbApucG0gcnVuIGRldiAgICAgICMg4oaSIGh0dHA6Ly9sb2NhbGhvc3Q6NTE3MwpgYGAK5byA5Y+R5Luj55CG77yIYHZpdGUuY29uZmlnLmpzYO+8ieW3suWwhiBgL2t1ZXJwYCBgL2FpYCBgL2F1dGhgIGAvc3lzdGVtYCDovazlj5HliLDlkI7nq68gYGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMGDvvIzor7flhYjlkK/liqggYG5lc3Rqcy1lcnBg44CCCgrnlJ/kuqfmnoTlu7rvvJpgbnBtIHJ1biBidWlsZGDvvIjkuqfnianlnKggYGRpc3QvYO+8ieOAggoKIyMg6K+05piOCi0g55m75b2V6buY6K6k6LSm5Y+377yaYWRtaW4gLyAxMjM0NTYKLSDjgIzotYTmlpkv6YeH6LStL+mUgOWUri/ku5PlupMv6LWE6YeR44CN5ZCE6aG16Z2i5aSN55SoIGBjcnVkLXBhZ2UudnVlYO+8jOmAmui/h+i3r+eUsSBgbWV0YS5hcGlg77yI5aaCIGAva3VlcnAvZ29vZHMtcHVyY2hhc2Vg77yJ5oyH5ZCR5a+55bqU6KGo77yM5YiX5LiO6KGo5Y2V5Zyo6L+Q6KGM5pyf5LuO5ZCO56uvIGAva3VlcnAvOnRhYmxlL2NvbHVtbnNgIOWKqOaAgeeUn+aIkO+8jOS7juiAjOWunueOsOWFqOmDqOaooeWdlyAxOjEg6KaG55uW44CCCi0g44CMQUkg6IO95Yqb5Lit5b+D44CN5Zub5Liq6aG16Z2i5a+55o6lIGAvYWkvKmAg5o6l5Y+j44CCCg==
+# 进销存 ERP 管理前端 — Vue3 + Element-Plus
+
+`nestjs-erp` 的配套管理后台，前后端分离。
+
+## 技术栈
+Vue3 + Vite + Element-Plus + Vue-Router + Pinia + Axios
+
+## 目录
+```
+src/
+├── main.js / App.vue / style.css
+├── router/index.js      # 路由（含鉴权守卫；全部业务模块 → 通用动态表格页）
+├── menus.js             # 侧边栏菜单
+├── layout/index.vue     # 布局（侧边菜单 + 顶栏）
+├── store/auth.js        # 登录态（token/user，localStorage 持久化）
+├── utils/request.js     # Axios 封装（JWT 注入 + {code,msg,data} 统一解包）
+└── views/
+    ├── login.vue / dashboard.vue
+    ├── crud-page.vue    # ★ 通用动态表格页：动态列 + 动态表单 + 增删改查/审核，驱动全部 kuerp_* 表
+    ├── goods/           # 商品资料（参考实现）
+    └── ai/              # 模型配置 / Prompt模板 / 对话Agent / 调用日志
+```
+
+## 运行
+```bash
+npm install
+npm run dev      # → http://localhost:5173
+```
+开发代理（`vite.config.js`）已将 `/kuerp` `/ai` `/auth` `/system` 转发到后端 `http://localhost:3000`，请先启动 `nestjs-erp`。
+
+生产构建：`npm run build`（产物在 `dist/`）。
+
+## 说明
+- 登录默认账号：admin / 123456
+- 「资料/采购/销售/仓库/资金」各页面复用 `crud-page.vue`，通过路由 `meta.api`（如 `/kuerp/goods-purchase`）指向对应表，列与表单在运行期从后端 `/kuerp/:table/columns` 动态生成，从而实现全部模块 1:1 覆盖。
+- 「AI 能力中心」四个页面对接 `/ai/*` 接口。

@@ -1,1 +1,57 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9ImxvZ2luLXdyYXAiPgogICAgPERzQ2FyZCBjbGFzcz0ibG9naW4tY2FyZCI+CiAgICAgIDxoMj7ov5vplIDlrZjnrqHnkIbns7vnu588L2gyPgogICAgPCEtLSDooajljZXvvJrnlKjljp/nlJ8gZm9ybSArIERzRmllbGQg5o6S54mI77yI5Y6fIGVsLWZvcm0gLyBlbC1mb3JtLWl0ZW3vvIkgLS0+CiAgICA8Zm9ybSBAc3VibWl0LnByZXZlbnQ9Im9uTG9naW4iPgogICAgICA8RHNGaWVsZD4KICAgICAgICA8RHNJbnB1dCB2LW1vZGVsPSJmb3JtLnVzZXJuYW1lIiBwbGFjZWhvbGRlcj0i55So5oi35ZCNIiAvPgogICAgICA8L0RzRmllbGQ+CiAgICAgIDxEc0ZpZWxkPgogICAgICAgIDxEc0lucHV0IHYtbW9kZWw9ImZvcm0ucGFzc3dvcmQiIHR5cGU9InBhc3N3b3JkIiBwbGFjZWhvbGRlcj0i5a+G56CBIiBAa2V5dXAuZW50ZXI9Im9uTG9naW4iIC8+CiAgICAgIDwvRHNGaWVsZD4KICAgICAgPERzQnV0dG9uIHZhcmlhbnQ9InByaW1hcnkiIDpsb2FkaW5nPSJsb2FkaW5nIiBjbGFzcz0iYnRuIiBAY2xpY2s9Im9uTG9naW4iPueZuyDlvZU8L0RzQnV0dG9uPgogICAgPC9mb3JtPgogICAgICA8cCBjbGFzcz0idGlwIj7pu5jorqTotKblj7cgYWRtaW4gLyAxMjM0NTY8L3A+CiAgICA8L0RzQ2FyZD4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzY3JpcHQgc2V0dXA+CmltcG9ydCB7IHJlZiB9IGZyb20gJ3Z1ZSc7CmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gJ3Z1ZS1yb3V0ZXInOwppbXBvcnQgeyB1c2VBdXRoU3RvcmUgfSBmcm9tICcuLi9zdG9yZS9hdXRoJzsKaW1wb3J0IHsgbWVzc2FnZSB9IGZyb20gJ0AvdXRpbHMvdWknOwppbXBvcnQgcmVxdWVzdCBmcm9tICdAL3V0aWxzL3JlcXVlc3QnOwoKY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7CmNvbnN0IGF1dGggPSB1c2VBdXRoU3RvcmUoKTsKY29uc3QgZm9ybSA9IHJlZih7IHVzZXJuYW1lOiAnYWRtaW4nLCBwYXNzd29yZDogJzEyMzQ1NicgfSk7CmNvbnN0IGxvYWRpbmcgPSByZWYoZmFsc2UpOwoKYXN5bmMgZnVuY3Rpb24gb25Mb2dpbigpIHsKICBsb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgY29uc3QgZGF0YSA9IGF3YWl0IHJlcXVlc3QucG9zdCgnL2F1dGgvbG9naW4nLCBmb3JtLnZhbHVlKTsKICAgIGF1dGguc2V0QXV0aChkYXRhLnRva2VuLCBkYXRhLnVzZXIpOwogICAgbWVzc2FnZS5zdWNjZXNzKCfnmbvlvZXmiJDlip8nKTsKICAgIHJvdXRlci5yZXBsYWNlKCcvJyk7CiAgfSBjYXRjaCAoZSkgewogICAgLyog6ZSZ6K+v5bey5Zyo5oum5oiq5Zmo5o+Q56S6ICovCiAgfSBmaW5hbGx5IHsKICAgIGxvYWRpbmcudmFsdWUgPSBmYWxzZTsKICB9Cn0KPC9zY3JpcHQ+Cgo8c3R5bGUgc2NvcGVkPgoubG9naW4td3JhcCB7IGhlaWdodDogMTAwJTsgZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsganVzdGlmeS1jb250ZW50OiBjZW50ZXI7IGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgxMzVkZWcsICMxZTNjNzIsICMyYTUyOTgpOyB9Ci5sb2dpbi1jYXJkIHsgd2lkdGg6IDM4MHB4OyB9Ci5sb2dpbi1jYXJkIDpkZWVwKC5kcy1jYXJkLWNfX2JvZHkpIHsgcGFkZGluZzogMzJweCAyOHB4IDI0cHg7IH0KLyog5a2X5q615bWM5ZyoIGZvcm0g6YeM77yMZm9ybS5jc3Mg55qE55u46YK76Ze06Led6KeE5YiZ77yI5Y+q5a+55Y2h54mH55u05o6l5a2Q57qn55Sf5pWI77yJ5ZG95Lit5LiN5LqG77yMCiAgIOi/memHjOeUqCBncmlkIGdhcCDnu5/kuIDnq5blkJHoioLlpY/vvJrmoIfpopggLyDlrZfmrrUgLyDmjInpkq7kuYvpl7TnrYnot53lkbzlkLggKi8KLmxvZ2luLWNhcmQgZm9ybSB7IGRpc3BsYXk6IGdyaWQ7IGdhcDogMTZweDsgfQoubG9naW4tY2FyZCBoMiB7IHRleHQtYWxpZ246IGNlbnRlcjsgbWFyZ2luOiA4cHggMCAyNHB4OyBmb250LXNpemU6IDIwcHg7IGxldHRlci1zcGFjaW5nOiAxcHg7IH0KLmJ0biB7IHdpZHRoOiAxMDAlOyB9Ci50aXAgeyB0ZXh0LWFsaWduOiBjZW50ZXI7IGNvbG9yOiAjOTk5OyBmb250LXNpemU6IDEycHg7IG1hcmdpbi10b3A6IDE2cHg7IH0KPC9zdHlsZT4K
+<template>
+  <div class="login-wrap">
+    <DsCard class="login-card">
+      <h2>进销存管理系统</h2>
+    <!-- 表单：用原生 form + DsField 排版（原 el-form / el-form-item） -->
+    <form @submit.prevent="onLogin">
+      <DsField>
+        <DsInput v-model="form.username" placeholder="用户名" />
+      </DsField>
+      <DsField>
+        <DsInput v-model="form.password" type="password" placeholder="密码" @keyup.enter="onLogin" />
+      </DsField>
+      <DsButton variant="primary" :loading="loading" class="btn" @click="onLogin">登 录</DsButton>
+    </form>
+      <p class="tip">默认账号 admin / 123456</p>
+    </DsCard>
+  </div>
+</template>
+
+<script setup>
+import { ref } from 'vue';
+import { useRouter } from 'vue-router';
+import { useAuthStore } from '../store/auth';
+import { message } from '@/utils/ui';
+import request from '@/utils/request';
+
+const router = useRouter();
+const auth = useAuthStore();
+const form = ref({ username: 'admin', password: '123456' });
+const loading = ref(false);
+
+async function onLogin() {
+  loading.value = true;
+  try {
+    const data = await request.post('/auth/login', form.value);
+    auth.setAuth(data.token, data.user);
+    message.success('登录成功');
+    router.replace('/');
+  } catch (e) {
+    /* 错误已在拦截器提示 */
+  } finally {
+    loading.value = false;
+  }
+}
+</script>
+
+<style scoped>
+.login-wrap { height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #1e3c72, #2a5298); }
+.login-card { width: 380px; }
+.login-card :deep(.ds-card-c__body) { padding: 32px 28px 24px; }
+/* 字段嵌在 form 里，form.css 的相邻间距规则（只对卡片直接子级生效）命中不了，
+   这里用 grid gap 统一竖向节奏：标题 / 字段 / 按钮之间等距呼吸 */
+.login-card form { display: grid; gap: 16px; }
+.login-card h2 { text-align: center; margin: 8px 0 24px; font-size: 20px; letter-spacing: 1px; }
+.btn { width: 100%; }
+.tip { text-align: center; color: #999; font-size: 12px; margin-top: 16px; }
+</style>

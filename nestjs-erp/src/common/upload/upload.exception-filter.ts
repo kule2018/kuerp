@@ -1,1 +1,56 @@
-aW1wb3J0IHsKICBBcmd1bWVudHNIb3N0LAogIENhdGNoLAogIEV4Y2VwdGlvbkZpbHRlciwKICBIdHRwU3RhdHVzLAogIExvZ2dlciwKfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7CgovKioKICogbXVsdGVyIOW8guW4uOi/h+a7pOWZqOOAggogKgogKiDkuLrku4DkuYjpnIDopoHlroPvvJoKICogbXVsdGVyIOi2hemZkO+8iExJTUlUX0ZJTEVfU0laRSAvIExJTUlUX0ZJTEVfQ09VTlQgLyBMSU1JVF9VTkVYUEVDVEVEX0ZJTEXvvInmipvnmoTmmK8KICog5pmu6YCaIEVycm9yIOWtkOexu++8iE11bHRlckVycm9y77yJ77yM5LiN57un5om/IEh0dHBFeGNlcHRpb27vvIzkvJrooqvlhajlsYDov4fmu6TlmajlhZzmiJAKICog44CM5pyN5Yqh5Zmo5YaF6YOo6ZSZ6K+v44CNNTAwIOKGkiDliY3nq6/lj6rog73nnIvliLDkuIDmnaHml6DmhI/kuYnnmoTmiqXplJnjgIIKICog6L+Z6YeM5oqK6L+Z5Lqb5bey55+l6ZSZ6K+v57+76K+R5oiQ5Y+v6K+755qE5Lia5Yqh5o+Q56S644CCCiAqCiAqIOWPquWcqCBVcGxvYWRDb250cm9sbGVyIOS4iuaMgui9ve+8jOS4jeaxoeafk+WFqOWxgOOAggogKi8KQENhdGNoKCkKZXhwb3J0IGNsYXNzIFVwbG9hZEV4Y2VwdGlvbkZpbHRlciBpbXBsZW1lbnRzIEV4Y2VwdGlvbkZpbHRlciB7CiAgcHJpdmF0ZSByZWFkb25seSBsb2dnZXIgPSBuZXcgTG9nZ2VyKFVwbG9hZEV4Y2VwdGlvbkZpbHRlci5uYW1lKTsKCiAgLyoqIE11bHRlckVycm9yIGNvZGUgLT4g5Lit5paH5o+Q56S6ICovCiAgcHJpdmF0ZSBzdGF0aWMgcmVhZG9ubHkgTUVTU0FHRVM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgICBMSU1JVF9GSUxFX1NJWkU6ICfmlofku7botoXlh7rlpKflsI/pmZDliLYnLAogICAgTElNSVRfRklMRV9DT1VOVDogJ+aWh+S7tuaVsOmHj+i2heWHuumZkOWIticsCiAgICBMSU1JVF9VTkVYUEVDVEVEX0ZJTEU6ICfkuIrkvKDlrZfmrrXlkI3kuI3mraPnoa7vvIjljZXmlofku7bnlKggZmlsZe+8jOWkmuaWh+S7tueUqCBmaWxlc++8iScsCiAgICBMSU1JVF9QQVJUX0NPVU5UOiAn6KGo5Y2V5YiG5q615pWw6YeP6LaF5Ye66ZmQ5Yi2JywKICAgIExJTUlUX0ZJRUxEX0tFWTogJ+ihqOWNleWtl+auteWQjei/h+mVvycsCiAgICBMSU1JVF9GSUVMRF9WQUxVRTogJ+ihqOWNleWtl+auteWAvOi/h+WkpycsCiAgICBMSU1JVF9GSUVMRF9DT1VOVDogJ+ihqOWNleWtl+auteaVsOmHj+i2heWHuumZkOWIticsCiAgfTsKCiAgY2F0Y2goZXhjZXB0aW9uOiBhbnksIGhvc3Q6IEFyZ3VtZW50c0hvc3QpIHsKICAgIGNvbnN0IGN0eCA9IGhvc3Quc3dpdGNoVG9IdHRwKCk7CiAgICBjb25zdCByZXNwb25zZTogYW55ID0gY3R4LmdldFJlc3BvbnNlKCk7CiAgICBjb25zdCBjb2RlID0gU3RyaW5nKGV4Y2VwdGlvbj8uY29kZSB8fCAnJyk7CiAgICBjb25zdCBtc2cgPSBVcGxvYWRFeGNlcHRpb25GaWx0ZXIuTUVTU0FHRVNbY29kZV07CgogICAgaWYgKG1zZykgewogICAgICAvLyDlt7Lnn6XnmoQgbXVsdGVyIOmZkOWItumUmeivr++8muS4muWKoeWPr+ivu+aPkOekuu+8jEhUVFAg5LuN6L+U5ZueIDIwMCDnlLHliY3nq6/mjIkgY29kZSDliKTmlq0KICAgICAgcmVzcG9uc2Uuc3RhdHVzKEh0dHBTdGF0dXMuT0spLmpzb24oeyBjb2RlOiAwLCBtc2csIGRhdGE6IG51bGwgfSk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICAvLyDlhbblroPlvILluLjvvIjlkKsgSHR0cEV4Y2VwdGlvbu+8ieS6pOWbnuWFqOWxgOi/h+a7pOWZqOivreS5ie+8muebtOaOpeaMieWOn+eKtui+k+WHugogICAgY29uc3Qgc3RhdHVzID0gZXhjZXB0aW9uPy5nZXRTdGF0dXM/LigpID8/IEh0dHBTdGF0dXMuSU5URVJOQUxfU0VSVkVSX0VSUk9SOwogICAgY29uc3QgZmFsbGJhY2sgPSBleGNlcHRpb24/Lm1lc3NhZ2UgfHwgJ+S4iuS8oOWksei0pSc7CiAgICBpZiAoIWV4Y2VwdGlvbj8uZ2V0U3RhdHVzPy4oKSkgewogICAgICB0aGlzLmxvZ2dlci5lcnJvcihgW1VwbG9hZF0gJHtleGNlcHRpb24/LnN0YWNrIHx8IGZhbGxiYWNrfWApOwogICAgfQogICAgcmVzcG9uc2Uuc3RhdHVzKEh0dHBTdGF0dXMuT0spLmpzb24oeyBjb2RlOiAwLCBtc2c6IGZhbGxiYWNrLCBkYXRhOiBudWxsIH0pOwogICAgdm9pZCBzdGF0dXM7CiAgfQp9Cg==
+import {
+  ArgumentsHost,
+  Catch,
+  ExceptionFilter,
+  HttpStatus,
+  Logger,
+} from '@nestjs/common';
+
+/**
+ * multer 异常过滤器。
+ *
+ * 为什么需要它：
+ * multer 超限（LIMIT_FILE_SIZE / LIMIT_FILE_COUNT / LIMIT_UNEXPECTED_FILE）抛的是
+ * 普通 Error 子类（MulterError），不继承 HttpException，会被全局过滤器兜成
+ * 「服务器内部错误」500 → 前端只能看到一条无意义的报错。
+ * 这里把这些已知错误翻译成可读的业务提示。
+ *
+ * 只在 UploadController 上挂载，不污染全局。
+ */
+@Catch()
+export class UploadExceptionFilter implements ExceptionFilter {
+  private readonly logger = new Logger(UploadExceptionFilter.name);
+
+  /** MulterError code -> 中文提示 */
+  private static readonly MESSAGES: Record<string, string> = {
+    LIMIT_FILE_SIZE: '文件超出大小限制',
+    LIMIT_FILE_COUNT: '文件数量超出限制',
+    LIMIT_UNEXPECTED_FILE: '上传字段名不正确（单文件用 file，多文件用 files）',
+    LIMIT_PART_COUNT: '表单分段数量超出限制',
+    LIMIT_FIELD_KEY: '表单字段名过长',
+    LIMIT_FIELD_VALUE: '表单字段值过大',
+    LIMIT_FIELD_COUNT: '表单字段数量超出限制',
+  };
+
+  catch(exception: any, host: ArgumentsHost) {
+    const ctx = host.switchToHttp();
+    const response: any = ctx.getResponse();
+    const code = String(exception?.code || '');
+    const msg = UploadExceptionFilter.MESSAGES[code];
+
+    if (msg) {
+      // 已知的 multer 限制错误：业务可读提示，HTTP 仍返回 200 由前端按 code 判断
+      response.status(HttpStatus.OK).json({ code: 0, msg, data: null });
+      return;
+    }
+
+    // 其它异常（含 HttpException）交回全局过滤器语义：直接按原状输出
+    const status = exception?.getStatus?.() ?? HttpStatus.INTERNAL_SERVER_ERROR;
+    const fallback = exception?.message || '上传失败';
+    if (!exception?.getStatus?.()) {
+      this.logger.error(`[Upload] ${exception?.stack || fallback}`);
+    }
+    response.status(HttpStatus.OK).json({ code: 0, msg: fallback, data: null });
+    void status;
+  }
+}

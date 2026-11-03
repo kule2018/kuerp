@@ -1,1 +1,111 @@
-LyoqDQogKiDovbvph48gLnZ1ZSDpnZnmgIHmo4Dmn6XvvJrmib7lh7rmqKHmnb/kuK3lvJXnlKjkvYbohJrmnKzph4zmnKrlrprkuYnnmoTmoIfor4bnrKbjgIINCiAqIOebrueahO+8muihpeS4iuayoeaciSBlc2xpbnQvdHNjIOaXtuacgOWuueaYk+a8j+aOieeahOS4gOexu+i/kOihjOaXtumUmeivr++8iHVuZGVmaW5lZCBpcyBub3QgYSBmdW5jdGlvbu+8ieOAgg0KICovDQpjb25zdCBmcyA9IHJlcXVpcmUoJ2ZzJyk7DQpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOw0KDQpjb25zdCByb290ID0gcGF0aC5qb2luKF9fZGlybmFtZSwgJy4uJywgJ3NyYycpOw0KY29uc3QgZmlsZXMgPSBbXTsNCihmdW5jdGlvbiB3YWxrKGQpIHsNCiAgZm9yIChjb25zdCBlIG9mIGZzLnJlYWRkaXJTeW5jKGQsIHsgd2l0aEZpbGVUeXBlczogdHJ1ZSB9KSkgew0KICAgIGNvbnN0IHAgPSBwYXRoLmpvaW4oZCwgZS5uYW1lKTsNCiAgICBpZiAoZS5pc0RpcmVjdG9yeSgpKSB3YWxrKHApOw0KICAgIGVsc2UgaWYgKGUubmFtZS5lbmRzV2l0aCgnLnZ1ZScpKSBmaWxlcy5wdXNoKHApOw0KICB9DQp9KShyb290KTsNCg0KLy8g5qih5p2/5L2c55So5Z+f5Y+Y6YeP77yadi1mb3IgLyBzbG90IHByb3BzIC8g5oyH5Luk6Ieq5bimDQpjb25zdCBzY29wZWQgPSBuZXcgU2V0KCk7DQpjb25zdCBCVUlMVElOID0gbmV3IFNldChbDQogICdNYXRoJywnTnVtYmVyJywnU3RyaW5nJywnT2JqZWN0JywnQXJyYXknLCdKU09OJywnRGF0ZScsJ0Jvb2xlYW4nLCdTeW1ib2wnLCdNYXAnLCdTZXQnLCdQcm9taXNlJywnUmVnRXhwJywNCiAgJ3BhcnNlSW50JywncGFyc2VGbG9hdCcsJ2lzTmFOJywnaXNGaW5pdGUnLCdlbmNvZGVVUklDb21wb25lbnQnLCdkZWNvZGVVUklDb21wb25lbnQnLCdzZXRUaW1lb3V0JywnY2xlYXJUaW1lb3V0JywNCiAgJ3NldEludGVydmFsJywnY2xlYXJJbnRlcnZhbCcsJ2NvbnNvbGUnLCd3aW5kb3cnLCdkb2N1bWVudCcsJ2xvY2FsU3RvcmFnZScsJ3Nlc3Npb25TdG9yYWdlJywncHJvY2VzcycsDQogICd1bmRlZmluZWQnLCdudWxsJywndHJ1ZScsJ2ZhbHNlJywndGhpcycsJ2luJywnb2YnLCduZXcnLCd0eXBlb2YnLCdyZXR1cm4nLCdpZicsJ2Vsc2UnLCdhd2FpdCcsJ2FzeW5jJywNCiAgJ2l0ZW0nLCdpdGVtcycsJ3JvdycsJ2NvbCcsJ2MnLCdmJywnbycsJ3YnLCdrJywnaScsJ2luZGV4Jywna2V5JywndmFsJywndmFsdWUnLCdsYWJlbCcsJ29wdGlvbicsJ3NlZycsJ24nLCd4JywneScsJ3InLCdlJywnYScsJ2InLA0KICAnc2xvdFByb3BzJywnc2NvcGVkJywncHJvcHMnLCdlbWl0JywnJHNsb3RzJywnJHByb3BzJywnJGVtaXQnLCckcm91dGUnLCckcm91dGVyJywnJHJlZnMnLCckZWwnLCckZXZlbnQnLCckZXZlbnRfJywNCiAgJ05vZGVKUycsJ2dsb2JhbFRoaXMnLCdzdHJpbmcnLCdudW1iZXInLCdib29sZWFuJywnYW55Jywndm9pZCcsJ3Vua25vd24nLCduZXZlcicsJ1JlY29yZCcsJ0FycmF5JywnYXMnLCdpcycsJ2tleW9mJywndHlwZW9mJywncmVhZG9ubHknLCdGdW5jdGlvbicsJ1Byb21pc2UnLCdSZXF1aXJlZCcsJ1BhcnRpYWwnLCdCbG9iJywnRmlsZScsJ0Zvcm1EYXRhJywnVVJMJywnRmlsZVJlYWRlcicsJ0ltYWdlJywnQWJvcnRDb250cm9sbGVyJywnZmV0Y2gnLA0KXSk7DQoNCmZ1bmN0aW9uIHN0cmlwU3RyaW5ncyhzKSB7DQogIC8vIOWOu+aOieWtl+espuS4suWtl+mdoumHj+S4juazqOmHiu+8jOmBv+WFjeaKiumHjOmdoueahOWNleivjeW9k+agh+ivhuespg0KICByZXR1cm4gcy5yZXBsYWNlKC8nW14nXSonL2csICInJyIpLnJlcGxhY2UoLyJbXiJdKiIvZywgJyIiJykucmVwbGFjZSgvYFteYF0qYC9nLCAnYGAnKQ0KICAgICAgICAgIC5yZXBsYWNlKC9cL1wvW15cbl0qL2csICcnKS5yZXBsYWNlKC9cL1wqW1xzXFNdKj9cKlwvL2csICcnKTsNCn0NCg0KZnVuY3Rpb24gY29sbGVjdFRlbXBsYXRlSWRlbnRzKHRwbCkgew0KICBjb25zdCBvdXQgPSBuZXcgU2V0KCk7DQogIC8vIHYtZm9yIC8gc2xvdCDop6PmnoTph4znmoTlsYDpg6jlj5jph48NCiAgZm9yIChjb25zdCBtIG9mIHRwbC5tYXRjaEFsbCgvdi1mb3Jccyo9XHMqIihbXiJdKykiL2cpKSB7DQogICAgY29uc3QgcGFydHMgPSBtWzFdLnNwbGl0KC9ccysoPzppbnxvZilccysvKTsNCiAgICBjb25zdCBsZWZ0ID0gcGFydHNbMF07DQogICAgZm9yIChjb25zdCBpZCBvZiBsZWZ0LnJlcGxhY2UoL1soKV0vZywgJyAnKS5zcGxpdCgvW1xzLF0rLykpIGlmICgvXltBLVphLXpfJF1bXHckXSokLy50ZXN0KGlkKSkgb3V0LmFkZChpZCk7DQogICAgaWYgKHBhcnRzWzFdKSBmb3IgKGNvbnN0IGlkIG9mIHBhcnRzWzFdLm1hdGNoQWxsKC8oPzwhWy5cdyRdKVtBLVphLXpfJF1bXHckXSovZykpIG91dC5hZGQoaWRbMF0pOw0KICB9DQogIGZvciAoY29uc3QgbSBvZiB0cGwubWF0Y2hBbGwoLyMoXHcrKVxzKj1ccyoiXHs/XHMqKFtBLVphLXpfJF1bXHckXSopL2cpKSBvdXQuYWRkKG1bMl0pOw0KICAvLyDmjIfku6TlgLwgLyDmj5LlgLwNCiAgY29uc3QgZXhwcnMgPSBbXTsNCiAgZm9yIChjb25zdCBtIG9mIHRwbC5tYXRjaEFsbCgvXHtceyhbXHNcU10rPylcfVx9L2cpKSBleHBycy5wdXNoKG1bMV0pOw0KICBmb3IgKGNvbnN0IG0gb2YgdHBsLm1hdGNoQWxsKC9ccyg/OnYtaWZ8di1lbHNlLWlmfHYtc2hvd3x2LW1vZGVsfHYtYmluZHw6W1x3LV0rfEBbXHcuLV0rKT0iKFteIl0qKSIvZykpIGV4cHJzLnB1c2gobVsxXSk7DQogIGZvciAoY29uc3QgbSBvZiB0cGwubWF0Y2hBbGwoL1xzKD86di1pZnx2LWVsc2UtaWZ8di1zaG93fHYtbW9kZWx8di1iaW5kfDpbXHctXSt8QFtcdy4tXSspPScoW14nXSopJy9nKSkgZXhwcnMucHVzaChtWzFdKTsNCiAgZm9yIChjb25zdCBlIG9mIGV4cHJzKSB7DQogICAgY29uc3QgcyA9IHN0cmlwU3RyaW5ncyhlKTsNCiAgICBmb3IgKGNvbnN0IG0gb2Ygcy5tYXRjaEFsbCgvKD88IVsuXHckJyJgXSlbQS1aYS16XyRdW1x3JF0qL2cpKSBvdXQuYWRkKG1bMF0pOw0KICB9DQogIHJldHVybiBvdXQ7DQp9DQoNCmZ1bmN0aW9uIGNvbGxlY3REZWNsYXJlZChzY3JpcHQpIHsNCiAgY29uc3Qgb3V0ID0gbmV3IFNldCgpOw0KICBmb3IgKGNvbnN0IG0gb2Ygc2NyaXB0Lm1hdGNoQWxsKC9cYig/OmNvbnN0fGxldHx2YXIpXHMqXHs/KFtePTt7XSspL2cpKSB7DQogICAgZm9yIChjb25zdCBpZCBvZiBtWzFdLnNwbGl0KC9bXHMsXSsvKSkgaWYgKC9eW0EtWmEtel8kXVtcdyRdKiQvLnRlc3QoaWQpKSBvdXQuYWRkKGlkKTsNCiAgfQ0KICBmb3IgKGNvbnN0IG0gb2Ygc2NyaXB0Lm1hdGNoQWxsKC9cYmZ1bmN0aW9uXHMrKFtBLVphLXpfJF1bXHckXSopL2cpKSBvdXQuYWRkKG1bMV0pOw0KICBmb3IgKGNvbnN0IG0gb2Ygc2NyaXB0Lm1hdGNoQWxsKC9cYmltcG9ydFxzKyhbXHNcU10qPylccytmcm9tXGIvZykpIHsNCiAgICBjb25zdCBjaHVuayA9IG1bMV0ucmVwbGFjZSgvW3t9XS9nLCAnICcpOw0KICAgIGZvciAoY29uc3QgaWQgb2YgY2h1bmsuc3BsaXQoL1tccyxdKy8pKSBpZiAoL15bQS1aYS16XyRdW1x3JF0qJC8udGVzdChpZCkgJiYgaWQgIT09ICdhcycpIG91dC5hZGQoaWQpOw0KICB9DQogIC8vIHByb3BzIC8gZW1pdHMg5aOw5piO77ya5qih5p2/6YeM55So5Yiw55qE5piv57uE5Lu25YWl5Y+C77yM5LiN566X5pyq5a6a5LmJDQogIGZvciAoY29uc3QgbSBvZiBzY3JpcHQubWF0Y2hBbGwoL2RlZmluZVByb3BzXHMqPChbXHNcU10qPyk+XHMqXCgvZykpIHsNCiAgICBmb3IgKGNvbnN0IGlkIG9mIG1bMV0ubWF0Y2hBbGwoL1tBLVphLXpfJF1bXHckXSovZykpIG91dC5hZGQoaWRbMF0pOw0KICB9DQogIGZvciAoY29uc3QgbSBvZiBzY3JpcHQubWF0Y2hBbGwoL2RlZmluZVByb3BzXHMqXCgoW1xzXFNdKj8pXClccyo7Py9nKSkgew0KICAgIGZvciAoY29uc3QgaWQgb2YgbVsxXS5tYXRjaEFsbCgvW0EtWmEtel8kXVtcdyRdKi9nKSkgb3V0LmFkZChpZFswXSk7DQogIH0NCiAgZm9yIChjb25zdCBtIG9mIHNjcmlwdC5tYXRjaEFsbCgvZGVmaW5lRW1pdHNccyo8KFtcc1xTXSo/KT5ccypcKC9nKSkgew0KICAgIGZvciAoY29uc3QgaWQgb2YgbVsxXS5tYXRjaEFsbCgvW0EtWmEtel8kXVtcdyRdKi9nKSkgb3V0LmFkZChpZFswXSk7DQogIH0NCiAgZm9yIChjb25zdCBtIG9mIHNjcmlwdC5tYXRjaEFsbCgvZGVmaW5lRXhwb3NlXHMqXCgoW1xzXFNdKj8pXCkvZykpIHsNCiAgICBmb3IgKGNvbnN0IGlkIG9mIG1bMV0ubWF0Y2hBbGwoL1tBLVphLXpfJF1bXHckXSovZykpIG91dC5hZGQoaWRbMF0pOw0KICB9DQogIC8vIOino+aehOi1i+WAvCBjb25zdCB7IGEsIGIgfSA9IOW3suWcqOS4iumdoueyl+eVpeimhueblu+8m+WGjeihpeS4gOWxgg0KICByZXR1cm4gb3V0Ow0KfQ0KDQpjb25zdCBHTE9CQUxfQ09NUE9ORU5UUyA9IC9eKERzfEJhc2UpW0EtWl0vOw0KY29uc3QgcmVwb3J0ID0gW107DQpmb3IgKGNvbnN0IGYgb2YgZmlsZXMpIHsNCiAgY29uc3Qgc3JjID0gZnMucmVhZEZpbGVTeW5jKGYsICd1dGY4Jyk7DQogIGNvbnN0IHRwbE0gPSBzcmMubWF0Y2goLzx0ZW1wbGF0ZT4oW1xzXFNdKj8pPFwvdGVtcGxhdGU+Lyk7DQogIGNvbnN0IHNjTSA9IHNyYy5tYXRjaCgvPHNjcmlwdFtePl0qPihbXHNcU10qPyk8XC9zY3JpcHQ+Lyk7DQogIGlmICghdHBsTSB8fCAhc2NNKSBjb250aW51ZTsNCiAgY29uc3QgdHBsID0gdHBsTVsxXTsNCiAgY29uc3Qgc2NyaXB0ID0gc2NNWzFdOw0KICBjb25zdCBkZWNsYXJlZCA9IGNvbGxlY3REZWNsYXJlZChzY3JpcHQpOw0KICAvLyB2LWZvciDlsYDpg6jlj5jph4/kuI4gc2xvdCBwcm9wcyDop4bkuLrlt7Llo7DmmI4NCiAgY29uc3QgbG9jYWxzID0gY29sbGVjdFRlbXBsYXRlSWRlbnRzKHRwbCk7DQogIGNvbnN0IHVzZWQgPSBuZXcgU2V0KGxvY2Fscyk7DQogIC8vIOaooeadv+mHjOWHuueOsOeahOWFqOWxgOe7hOS7tuWQjQ0KICBjb25zdCB0cGxDb21wcyA9IG5ldyBTZXQoWy4uLnRwbC5tYXRjaEFsbCgvPChbQS1aXVtcdy1dKikvZyldLm1hcCgobSkgPT4gbVsxXSkpOw0KICBjb25zdCBtaXNzaW5nID0gW107DQogIGZvciAoY29uc3QgaWQgb2YgdXNlZCkgew0KICAgIGlmIChCVUlMVElOLmhhcyhpZCkpIGNvbnRpbnVlOw0KICAgIGlmIChkZWNsYXJlZC5oYXMoaWQpKSBjb250aW51ZTsNCiAgICBpZiAodHBsQ29tcHMuaGFzKGlkKSkgY29udGludWU7DQogICAgaWYgKEdMT0JBTF9DT01QT05FTlRTLnRlc3QoaWQpKSBjb250aW51ZTsNCiAgICAvLyDlsZ7mgKforr/pl67lkI7ljYrmrrXvvIjlpoIgYS5iIOeahCBi77yJ5bey5ZyoIGxvY2FscyDmlLbpm4bml7bkuIDlubbliqDlhaXvvIzov5nph4zmlL7lrr3vvJrlj6rmiqXnlpHkvLzpobblsYLlvJXnlKgNCiAgICBtaXNzaW5nLnB1c2goaWQpOw0KICB9DQogIGlmIChtaXNzaW5nLmxlbmd0aCAmJiBmLmluY2x1ZGVzKHBhdGguam9pbigndmlld3MnKSkpIHJlcG9ydC5wdXNoKHsgZmlsZTogcGF0aC5yZWxhdGl2ZShyb290LCBmKSwgbWlzc2luZzogWy4uLm5ldyBTZXQobWlzc2luZyldLnNvcnQoKSB9KTsNCn0NCmZvciAoY29uc3QgciBvZiByZXBvcnQpIGNvbnNvbGUubG9nKHIuZmlsZSwgJz0+Jywgci5taXNzaW5nLmpvaW4oJywgJykpOw0K
+/**
+ * 轻量 .vue 静态检查：找出模板中引用但脚本里未定义的标识符。
+ * 目的：补上没有 eslint/tsc 时最容易漏掉的一类运行时错误（undefined is not a function）。
+ */
+const fs = require('fs');
+const path = require('path');
+
+const root = path.join(__dirname, '..', 'src');
+const files = [];
+(function walk(d) {
+  for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+    const p = path.join(d, e.name);
+    if (e.isDirectory()) walk(p);
+    else if (e.name.endsWith('.vue')) files.push(p);
+  }
+})(root);
+
+// 模板作用域变量：v-for / slot props / 指令自带
+const scoped = new Set();
+const BUILTIN = new Set([
+  'Math','Number','String','Object','Array','JSON','Date','Boolean','Symbol','Map','Set','Promise','RegExp',
+  'parseInt','parseFloat','isNaN','isFinite','encodeURIComponent','decodeURIComponent','setTimeout','clearTimeout',
+  'setInterval','clearInterval','console','window','document','localStorage','sessionStorage','process',
+  'undefined','null','true','false','this','in','of','new','typeof','return','if','else','await','async',
+  'item','items','row','col','c','f','o','v','k','i','index','key','val','value','label','option','seg','n','x','y','r','e','a','b',
+  'slotProps','scoped','props','emit','$slots','$props','$emit','$route','$router','$refs','$el','$event','$event_',
+  'NodeJS','globalThis','string','number','boolean','any','void','unknown','never','Record','Array','as','is','keyof','typeof','readonly','Function','Promise','Required','Partial','Blob','File','FormData','URL','FileReader','Image','AbortController','fetch',
+]);
+
+function stripStrings(s) {
+  // 去掉字符串字面量与注释，避免把里面的单词当标识符
+  return s.replace(/'[^']*'/g, "''").replace(/"[^"]*"/g, '""').replace(/`[^`]*`/g, '``')
+          .replace(/\/\/[^\n]*/g, '').replace(/\/\*[\s\S]*?\*\//g, '');
+}
+
+function collectTemplateIdents(tpl) {
+  const out = new Set();
+  // v-for / slot 解构里的局部变量
+  for (const m of tpl.matchAll(/v-for\s*=\s*"([^"]+)"/g)) {
+    const parts = m[1].split(/\s+(?:in|of)\s+/);
+    const left = parts[0];
+    for (const id of left.replace(/[()]/g, ' ').split(/[\s,]+/)) if (/^[A-Za-z_$][\w$]*$/.test(id)) out.add(id);
+    if (parts[1]) for (const id of parts[1].matchAll(/(?<![.\w$])[A-Za-z_$][\w$]*/g)) out.add(id[0]);
+  }
+  for (const m of tpl.matchAll(/#(\w+)\s*=\s*"\{?\s*([A-Za-z_$][\w$]*)/g)) out.add(m[2]);
+  // 指令值 / 插值
+  const exprs = [];
+  for (const m of tpl.matchAll(/\{\{([\s\S]+?)\}\}/g)) exprs.push(m[1]);
+  for (const m of tpl.matchAll(/\s(?:v-if|v-else-if|v-show|v-model|v-bind|:[\w-]+|@[\w.-]+)="([^"]*)"/g)) exprs.push(m[1]);
+  for (const m of tpl.matchAll(/\s(?:v-if|v-else-if|v-show|v-model|v-bind|:[\w-]+|@[\w.-]+)='([^']*)'/g)) exprs.push(m[1]);
+  for (const e of exprs) {
+    const s = stripStrings(e);
+    for (const m of s.matchAll(/(?<![.\w$'"`])[A-Za-z_$][\w$]*/g)) out.add(m[0]);
+  }
+  return out;
+}
+
+function collectDeclared(script) {
+  const out = new Set();
+  for (const m of script.matchAll(/\b(?:const|let|var)\s*\{?([^=;{]+)/g)) {
+    for (const id of m[1].split(/[\s,]+/)) if (/^[A-Za-z_$][\w$]*$/.test(id)) out.add(id);
+  }
+  for (const m of script.matchAll(/\bfunction\s+([A-Za-z_$][\w$]*)/g)) out.add(m[1]);
+  for (const m of script.matchAll(/\bimport\s+([\s\S]*?)\s+from\b/g)) {
+    const chunk = m[1].replace(/[{}]/g, ' ');
+    for (const id of chunk.split(/[\s,]+/)) if (/^[A-Za-z_$][\w$]*$/.test(id) && id !== 'as') out.add(id);
+  }
+  // props / emits 声明：模板里用到的是组件入参，不算未定义
+  for (const m of script.matchAll(/defineProps\s*<([\s\S]*?)>\s*\(/g)) {
+    for (const id of m[1].matchAll(/[A-Za-z_$][\w$]*/g)) out.add(id[0]);
+  }
+  for (const m of script.matchAll(/defineProps\s*\(([\s\S]*?)\)\s*;?/g)) {
+    for (const id of m[1].matchAll(/[A-Za-z_$][\w$]*/g)) out.add(id[0]);
+  }
+  for (const m of script.matchAll(/defineEmits\s*<([\s\S]*?)>\s*\(/g)) {
+    for (const id of m[1].matchAll(/[A-Za-z_$][\w$]*/g)) out.add(id[0]);
+  }
+  for (const m of script.matchAll(/defineExpose\s*\(([\s\S]*?)\)/g)) {
+    for (const id of m[1].matchAll(/[A-Za-z_$][\w$]*/g)) out.add(id[0]);
+  }
+  // 解构赋值 const { a, b } = 已在上面粗略覆盖；再补一层
+  return out;
+}
+
+const GLOBAL_COMPONENTS = /^(Ds|Base)[A-Z]/;
+const report = [];
+for (const f of files) {
+  const src = fs.readFileSync(f, 'utf8');
+  const tplM = src.match(/<template>([\s\S]*?)<\/template>/);
+  const scM = src.match(/<script[^>]*>([\s\S]*?)<\/script>/);
+  if (!tplM || !scM) continue;
+  const tpl = tplM[1];
+  const script = scM[1];
+  const declared = collectDeclared(script);
+  // v-for 局部变量与 slot props 视为已声明
+  const locals = collectTemplateIdents(tpl);
+  const used = new Set(locals);
+  // 模板里出现的全局组件名
+  const tplComps = new Set([...tpl.matchAll(/<([A-Z][\w-]*)/g)].map((m) => m[1]));
+  const missing = [];
+  for (const id of used) {
+    if (BUILTIN.has(id)) continue;
+    if (declared.has(id)) continue;
+    if (tplComps.has(id)) continue;
+    if (GLOBAL_COMPONENTS.test(id)) continue;
+    // 属性访问后半段（如 a.b 的 b）已在 locals 收集时一并加入，这里放宽：只报疑似顶层引用
+    missing.push(id);
+  }
+  if (missing.length && f.includes(path.join('views'))) report.push({ file: path.relative(root, f), missing: [...new Set(missing)].sort() });
+}
+for (const r of report) console.log(r.file, '=>', r.missing.join(', '));

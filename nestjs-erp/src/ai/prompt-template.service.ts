@@ -1,1 +1,57 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgTm90Rm91bmRFeGNlcHRpb24gfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7CmltcG9ydCB7IEluamVjdFJlcG9zaXRvcnkgfSBmcm9tICdAbmVzdGpzL3R5cGVvcm0nOwppbXBvcnQgeyBSZXBvc2l0b3J5IH0gZnJvbSAndHlwZW9ybSc7CmltcG9ydCB7IEFpUHJvbXB0VGVtcGxhdGUgfSBmcm9tICcuL2VudGl0aWVzL2FpLXByb21wdC10ZW1wbGF0ZS5lbnRpdHknOwppbXBvcnQgeyBub3dTZWMgfSBmcm9tICcuLi9jb21tb24vYmlnaW50LnRyYW5zZm9ybWVyJzsKCi8qKgogKiBQcm9tcHQg5qih5p2/5pyN5Yqh77yaQ1JVRCArIOa4suafk+OAguetieaViCBTcHJpbmcgQUkg55qEIFByb21wdFRlbXBsYXRlU2VydmljZeOAggogKiDmuLLmn5Pop4TliJnvvJrmiorlhoXlrrnkuK3nmoQge3Zhck5hbWV9IOabv+aNouS4uuS8oOWFpeeahOWPmOmHj+WAvOOAggogKi8KQEluamVjdGFibGUoKQpleHBvcnQgY2xhc3MgUHJvbXB0VGVtcGxhdGVTZXJ2aWNlIHsKICBjb25zdHJ1Y3RvcigKICAgIEBJbmplY3RSZXBvc2l0b3J5KEFpUHJvbXB0VGVtcGxhdGUpIHByaXZhdGUgcmVhZG9ubHkgcmVwbzogUmVwb3NpdG9yeTxBaVByb21wdFRlbXBsYXRlPiwKICApIHt9CgogIGFzeW5jIGxpc3QoKSB7CiAgICByZXR1cm4gdGhpcy5yZXBvLmZpbmQoeyB3aGVyZTogeyBkZWxldGV0aW1lOiAwIH0gYXMgYW55LCBvcmRlcjogeyBpZDogJ0RFU0MnIH0gfSk7CiAgfQoKICBhc3luYyBnZXQoaWQ6IG51bWJlcikgewogICAgcmV0dXJuIHRoaXMucmVwby5maW5kT25lKHsgd2hlcmU6IHsgaWQsIGRlbGV0ZXRpbWU6IDAgfSBhcyBhbnkgfSk7CiAgfQoKICBhc3luYyBjcmVhdGUoZHRvOiBQYXJ0aWFsPEFpUHJvbXB0VGVtcGxhdGU+KSB7CiAgICBjb25zdCBlbnRpdHkgPSB0aGlzLnJlcG8uY3JlYXRlKHsKICAgICAgLi4uZHRvLAogICAgICBjcmVhdGV0aW1lOiBub3dTZWMoKSwKICAgICAgdXBkYXRldGltZTogbm93U2VjKCksCiAgICAgIGRlbGV0ZXRpbWU6IDAsCiAgICB9IGFzIGFueSk7CiAgICByZXR1cm4gdGhpcy5yZXBvLnNhdmUoZW50aXR5KTsKICB9CgogIGFzeW5jIHVwZGF0ZShpZDogbnVtYmVyLCBkdG86IFBhcnRpYWw8QWlQcm9tcHRUZW1wbGF0ZT4pIHsKICAgIGF3YWl0IHRoaXMucmVwby51cGRhdGUoaWQsIHsgLi4uZHRvLCB1cGRhdGV0aW1lOiBub3dTZWMoKSB9IGFzIGFueSk7CiAgICByZXR1cm4gdGhpcy5yZXBvLmZpbmRPbmUoeyB3aGVyZTogeyBpZCB9IGFzIGFueSB9KTsKICB9CgogIGFzeW5jIHJlbW92ZShpZDogbnVtYmVyKSB7CiAgICBhd2FpdCB0aGlzLnJlcG8udXBkYXRlKGlkLCB7IGRlbGV0ZXRpbWU6IG5vd1NlYygpIH0gYXMgYW55KTsKICAgIHJldHVybiB0cnVlOwogIH0KCiAgLyoqIOaMiee8lueggea4suafk+aooeadv++8mnRlbXBsYXRlLnJlbmRlcignZ29vZHNfcXVlcnknLCB7IGtleXdvcmQ6ICfmiYvmnLonIH0pICovCiAgYXN5bmMgcmVuZGVyKGNvZGU6IHN0cmluZywgdmFyaWFibGVzOiBSZWNvcmQ8c3RyaW5nLCBhbnk+ID0ge30pOiBQcm9taXNlPHN0cmluZz4gewogICAgY29uc3QgdHBsID0gYXdhaXQgdGhpcy5yZXBvLmZpbmRPbmUoeyB3aGVyZTogeyBjb2RlLCBkZWxldGV0aW1lOiAwIH0gYXMgYW55IH0pOwogICAgaWYgKCF0cGwpIHRocm93IG5ldyBOb3RGb3VuZEV4Y2VwdGlvbihgUHJvbXB0IOaooeadv+S4jeWtmOWcqDogJHtjb2RlfWApOwogICAgcmV0dXJuIFByb21wdFRlbXBsYXRlU2VydmljZS5maWxsKHRwbC5jb250ZW50LCB2YXJpYWJsZXMpOwogIH0KCiAgc3RhdGljIGZpbGwoY29udGVudDogc3RyaW5nLCB2YXJpYWJsZXM6IFJlY29yZDxzdHJpbmcsIGFueT4pOiBzdHJpbmcgewogICAgcmV0dXJuIGNvbnRlbnQucmVwbGFjZSgvXHsoXHcrKVx9L2csIChfLCBrZXkpID0+CiAgICAgIHZhcmlhYmxlc1trZXldICE9PSB1bmRlZmluZWQgPyBTdHJpbmcodmFyaWFibGVzW2tleV0pIDogYHske2tleX19YCwKICAgICk7CiAgfQp9Cg==
+import { Injectable, NotFoundException } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { AiPromptTemplate } from './entities/ai-prompt-template.entity';
+import { nowSec } from '../common/bigint.transformer';
+
+/**
+ * Prompt 模板服务：CRUD + 渲染。等效 Spring AI 的 PromptTemplateService。
+ * 渲染规则：把内容中的 {varName} 替换为传入的变量值。
+ */
+@Injectable()
+export class PromptTemplateService {
+  constructor(
+    @InjectRepository(AiPromptTemplate) private readonly repo: Repository<AiPromptTemplate>,
+  ) {}
+
+  async list() {
+    return this.repo.find({ where: { deletetime: 0 } as any, order: { id: 'DESC' } });
+  }
+
+  async get(id: number) {
+    return this.repo.findOne({ where: { id, deletetime: 0 } as any });
+  }
+
+  async create(dto: Partial<AiPromptTemplate>) {
+    const entity = this.repo.create({
+      ...dto,
+      createtime: nowSec(),
+      updatetime: nowSec(),
+      deletetime: 0,
+    } as any);
+    return this.repo.save(entity);
+  }
+
+  async update(id: number, dto: Partial<AiPromptTemplate>) {
+    await this.repo.update(id, { ...dto, updatetime: nowSec() } as any);
+    return this.repo.findOne({ where: { id } as any });
+  }
+
+  async remove(id: number) {
+    await this.repo.update(id, { deletetime: nowSec() } as any);
+    return true;
+  }
+
+  /** 按编码渲染模板：template.render('goods_query', { keyword: '手机' }) */
+  async render(code: string, variables: Record<string, any> = {}): Promise<string> {
+    const tpl = await this.repo.findOne({ where: { code, deletetime: 0 } as any });
+    if (!tpl) throw new NotFoundException(`Prompt 模板不存在: ${code}`);
+    return PromptTemplateService.fill(tpl.content, variables);
+  }
+
+  static fill(content: string, variables: Record<string, any>): string {
+    return content.replace(/\{(\w+)\}/g, (_, key) =>
+      variables[key] !== undefined ? String(variables[key]) : `{${key}}`,
+    );
+  }
+}

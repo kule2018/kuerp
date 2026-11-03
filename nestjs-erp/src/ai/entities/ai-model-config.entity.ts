@@ -1,1 +1,42 @@
-aW1wb3J0IHsgRW50aXR5LCBDb2x1bW4gfSBmcm9tICd0eXBlb3JtJzsKaW1wb3J0IHsgQmFzZUVudGl0eSB9IGZyb20gJy4uLy4uL2NvbW1vbi9iYXNlLmVudGl0eSc7CgovKioKICogQUkg5qih5Z6L6YWN572u77yI5pWw5o2u5bqT5YyW77yJ44CC562J5pWIIFNwcmluZyBBSSDnmoQgQ2hhdE1vZGVsIOi/nuaOpemFjee9ruOAggogKiDov5DooYzml7bku6XjgIzlkK/nlKjjgI3moIforrAgKyBpc19kZWZhdWx0IOWGs+WumuWunumZheS9v+eUqOeahOaooeWei++8jOaXoOmcgOaUueS7o+eggeWNs+WPr+WIh+aNoiBEZWVwU2Vlay9PcGVuQUkv5pys5ZywIE9sbGFtYSDnrYnjgIIKICovCkBFbnRpdHkoJ2FpX21vZGVsX2NvbmZpZycpCmV4cG9ydCBjbGFzcyBBaU1vZGVsQ29uZmlnIGV4dGVuZHMgQmFzZUVudGl0eSB7CiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiA1MCwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICfphY3nva7lkI3np7AnIH0pCiAgbmFtZTogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDMwLCBkZWZhdWx0OiAnb3BlbmFpJywgY29tbWVudDogJ+S+m+W6lOWVhihvcGVuYWkvZGVlcHNlZWsvb2xsYW1hLi4uKScgfSkKICBwcm92aWRlcjogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDI1NSwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICdBUEkgQmFzZSBVUkzvvIhPcGVuQUkg5YW85a6577yJJyB9KQogIGJhc2VVcmw6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiAyNTUsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAnQVBJIEtleScgfSkKICBhcGlLZXk6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiAxMDAsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn5qih5Z6L5ZCN56ewJyB9KQogIG1vZGVsOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAnZG91YmxlJywgZGVmYXVsdDogMC43LCBjb21tZW50OiAn5rip5bqmJyB9KQogIHRlbXBlcmF0dXJlOiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAnaW50JywgZGVmYXVsdDogMjA0OCwgY29tbWVudDogJ+acgOWkp+eUn+aIkCB0b2tlbicgfSkKICBtYXhUb2tlbnM6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICdkb3VibGUnLCBkZWZhdWx0OiAxLCBjb21tZW50OiAndG9wX3AnIH0pCiAgdG9wUDogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ3RpbnlpbnQnLCBkZWZhdWx0OiAwLCBjb21tZW50OiAn5piv5ZCm6buY6K6k6YWN572uJyB9KQogIGlzRGVmYXVsdDogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ3RpbnlpbnQnLCBkZWZhdWx0OiAxLCBjb21tZW50OiAn5piv5ZCm5ZCv55SoJyB9KQogIGVuYWJsZWQ6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiAyNTUsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn5aSH5rOoJyB9KQogIHJlbWFyazogc3RyaW5nOwp9Cg==
+import { Entity, Column } from 'typeorm';
+import { BaseEntity } from '../../common/base.entity';
+
+/**
+ * AI 模型配置（数据库化）。等效 Spring AI 的 ChatModel 连接配置。
+ * 运行时以「启用」标记 + is_default 决定实际使用的模型，无需改代码即可切换 DeepSeek/OpenAI/本地 Ollama 等。
+ */
+@Entity('ai_model_config')
+export class AiModelConfig extends BaseEntity {
+  @Column({ type: 'varchar', length: 50, default: '', comment: '配置名称' })
+  name: string;
+
+  @Column({ type: 'varchar', length: 30, default: 'openai', comment: '供应商(openai/deepseek/ollama...)' })
+  provider: string;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: 'API Base URL（OpenAI 兼容）' })
+  baseUrl: string;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: 'API Key' })
+  apiKey: string;
+
+  @Column({ type: 'varchar', length: 100, default: '', comment: '模型名称' })
+  model: string;
+
+  @Column({ type: 'double', default: 0.7, comment: '温度' })
+  temperature: number;
+
+  @Column({ type: 'int', default: 2048, comment: '最大生成 token' })
+  maxTokens: number;
+
+  @Column({ type: 'double', default: 1, comment: 'top_p' })
+  topP: number;
+
+  @Column({ type: 'tinyint', default: 0, comment: '是否默认配置' })
+  isDefault: number;
+
+  @Column({ type: 'tinyint', default: 1, comment: '是否启用' })
+  enabled: number;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: '备注' })
+  remark: string;
+}

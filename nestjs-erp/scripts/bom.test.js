@@ -1,1 +1,231 @@
-LyoqCiAqIOe7hOijheWNlSAvIOaLhuWNuOWNlei/h+i0pumAu+i+keWNlea1i++8iOaXoOmcgOecn+WunuaVsOaNruW6k++8ie+8mgogKiDnlKjlhoXlrZjkvKogRGF0YVNvdXJjZSDlpI3njrAgUG9zdGluZ1NlcnZpY2Ug5Y+R5Ye655qEIFNRTCDor63kuYnvvIzpqozor4HvvJoKICogICDnu4Too4XljZXvvJrlrZDku7blh7rlupMoMTMpICsg57uE5ZCI5Lu25YWl5bqTKDEyKe+8jOe7hOWQiOS7tuaMieaYjue7hiBjb3N0X21vbmV5IOWFpeW6k++8mwogKiAgIOaLhuWNuOWNle+8mue7hOWQiOS7tuWHuuW6kygxNCkg5oyJ56e75Yqo5bmz5Z2H5Lu3ICsg5a2Q5Lu25YWl5bqTKDE1Ke+8mwogKiAgIGdvb2RzLmludmVudG9yeSDmgLvlupPlrZjogZTliqjvvJvlj43lrqHlj6/nsr7noa7lhrLovazov5jljp/jgIIKICog6L+Q6KGM77yabm9kZSBzY3JpcHRzL2JvbS50ZXN0LmpzCiAqLwpyZXF1aXJlKCdyZWZsZWN0LW1ldGFkYXRhJyk7CmNvbnN0IGFzc2VydCA9IHJlcXVpcmUoJ2Fzc2VydCcpOwpjb25zdCB7IFBvc3RpbmdTZXJ2aWNlIH0gPSByZXF1aXJlKCcuLi9kaXN0L2t1ZXJwL3Bvc3RpbmcvcG9zdGluZy5zZXJ2aWNlJyk7CgovLyDigJTigJQg5YaF5a2Y5pWw5o2u5LuT5bqTIOKAlOKAlApjb25zdCBzdG9yZSA9IHsKICAvLyBHMT3lrZDku7Yo6Zu25Lu2Ke+8jEcyPee7hOWQiOS7tijmiJDlk4EpCiAga3VlcnBfZ29vZHM6IFsKICAgIHsgaWQ6IDEwMCwgZ29vZHNfY29kZTogJ0cxJywgZ29vZHNfbmFtZTogJ+mbtuS7ticsIGludmVudG9yeTogMCwgYmF0Y2g6IDAsIHNlcmlhbDogMCB9LAogICAgeyBpZDogMTAxLCBnb29kc19jb2RlOiAnRzInLCBnb29kc19uYW1lOiAn5oiQ5ZOBJywgaW52ZW50b3J5OiAwLCBiYXRjaDogMCwgc2VyaWFsOiAwIH0sCiAgXSwKICBrdWVycF9nb29kc19zdG9jazogW10sCiAga3VlcnBfZ29vZHNfbG9nOiBbXSwKICBrdWVycF9zZXRzOiBbXSwKICBrdWVycF9zdXBwbGllcnM6IFt7IGlkOiAyMDAsIHN1cHBseWVyX2NvZGU6ICdTMScgfV0sCiAga3VlcnBfYXNzZW1ibGU6IFtdLAogIGt1ZXJwX2Fzc2VtYmxlX2luZm86IFtdLAogIGt1ZXJwX3NwbGl0OiBbXSwKICBrdWVycF9zcGxpdF9pbmZvOiBbXSwKfTsKbGV0IGF1dG9JZCA9IDEwMDA7CgovKiog5LyqIERhdGFTb3VyY2XvvJrmjIkgUG9zdGluZ1NlcnZpY2Ug5a6e6ZmF5LiL5Y+R55qEIFNRTCDmqKHlvI/liIbliKvlpITnkIYgKi8KY29uc3QgZmFrZSA9IHsKICBvcHRpb25zOiB7IHR5cGU6ICdteXNxbCcgfSwKICBhc3luYyBxdWVyeShzcWwsIHBhcmFtcyA9IFtdKSB7CiAgICBjb25zdCBzID0gU3RyaW5nKHNxbCkucmVwbGFjZSgvXHMrL2csICcgJykudHJpbSgpOwoKICAgIGxldCBtID0gL15TRUxFQ1QgXCogRlJPTSBgKFx3KylgIFdIRVJFIGlkID0gXD8gTElNSVQgMSQvLmV4ZWMocyk7CiAgICBpZiAobSkgcmV0dXJuIHN0b3JlW21bMV1dLmZpbHRlcigocikgPT4gci5pZCA9PT0gcGFyYW1zWzBdKS5zbGljZSgwLCAxKTsKCiAgICBtID0gL15TRUxFQ1QgXCogRlJPTSBgKFx3KylgIFdIRVJFIGAoXHcrKWAgPSBcPyQvLmV4ZWMocyk7CiAgICBpZiAobSkgcmV0dXJuIHN0b3JlW21bMV1dLmZpbHRlcigocikgPT4gU3RyaW5nKHJbbVsyXV0pID09PSBTdHJpbmcocGFyYW1zWzBdKSk7CgogICAgbSA9IC9eU0VMRUNUIGlkIEZST00gYChcdyspYCBXSEVSRSBgKFx3KylgID0gXD8kLy5leGVjKHMpOwogICAgaWYgKG0pIHJldHVybiBzdG9yZVttWzFdXS5maWx0ZXIoKHIpID0+IFN0cmluZyhyW21bMl1dKSA9PT0gU3RyaW5nKHBhcmFtc1swXSkpLm1hcCgocikgPT4gKHsgaWQ6IHIuaWQgfSkpOwoKICAgIGlmICgvRlJPTSBrdWVycF9zZXRzIFdIRVJFIG5hbWUgSU4vLnRlc3QocykpIHsKICAgICAgcmV0dXJuIFsnYmF0Y2gnLCAnc2VyaWFsJ10ubWFwKChuYW1lKSA9PiB7CiAgICAgICAgY29uc3Qgcm93ID0gc3RvcmUua3VlcnBfc2V0cy5maW5kKCh4KSA9PiB4Lm5hbWUgPT09IG5hbWUpOwogICAgICAgIHJldHVybiB7IG5hbWUsIGlzX2NoZWNrZWQ6IHJvdyA/IHJvdy5pc19jaGVja2VkIDogMCB9OwogICAgICB9KTsKICAgIH0KICAgIGlmICgvU0VMRUNUIGJhdGNoLCBzZXJpYWwgRlJPTSBrdWVycF9nb29kcyBXSEVSRSBnb29kc19jb2RlID0gXD8gTElNSVQgMSQvLnRlc3QocykpIHsKICAgICAgY29uc3QgZyA9IHN0b3JlLmt1ZXJwX2dvb2RzLmZpbmQoKHgpID0+IHguZ29vZHNfY29kZSA9PT0gcGFyYW1zWzBdKTsKICAgICAgcmV0dXJuIGcgPyBbeyBiYXRjaDogZy5iYXRjaCB8fCAwLCBzZXJpYWw6IGcuc2VyaWFsIHx8IDAgfV0gOiBbXTsKICAgIH0KICAgIGlmICgvRlJPTSBrdWVycF9nb29kcyBXSEVSRSBnb29kc19jb2RlID0gXD8gTElNSVQgMSQvLnRlc3QocykpIHsKICAgICAgY29uc3QgZyA9IHN0b3JlLmt1ZXJwX2dvb2RzLmZpbmQoKHgpID0+IHguZ29vZHNfY29kZSA9PT0gcGFyYW1zWzBdKTsKICAgICAgcmV0dXJuIGcgPyBbeyBpZDogZy5pZCB9XSA6IFtdOwogICAgfQogICAgaWYgKC9GUk9NIGt1ZXJwX3N1cHBsaWVycyBXSEVSRSBzdXBwbHllcl9jb2RlID0gXD8gTElNSVQgMSQvLnRlc3QocykpIHsKICAgICAgY29uc3QgZyA9IHN0b3JlLmt1ZXJwX3N1cHBsaWVycy5maW5kKCh4KSA9PiB4LnN1cHBseWVyX2NvZGUgPT09IHBhcmFtc1swXSk7CiAgICAgIHJldHVybiBnID8gW3sgaWQ6IGcuaWQgfV0gOiBbXTsKICAgIH0KICAgIGlmICgvXlNFTEVDVCBpZCwgc3RvY2ssIGNvc3RfbW9uZXkgRlJPTSBrdWVycF9nb29kc19zdG9jayBXSEVSRSBnb29kc19jb2RlID0gXD8gQU5EIHN0b3Jlc19pZCA9IFw/Ly50ZXN0KHMpKSB7CiAgICAgIGNvbnN0IHJvdyA9IHN0b3JlLmt1ZXJwX2dvb2RzX3N0b2NrLmZpbmQoCiAgICAgICAgKHIpID0+IHIuZ29vZHNfY29kZSA9PT0gcGFyYW1zWzBdICYmIHIuc3RvcmVzX2lkID09PSBwYXJhbXNbMV0gJiYKICAgICAgICAgIChwYXJhbXMubGVuZ3RoIDwgMyB8fCByLmF0dHJpYnV0ZV9pZCA9PT0gcGFyYW1zWzJdKSwKICAgICAgKTsKICAgICAgcmV0dXJuIHJvdyA/IFt7IGlkOiByb3cuaWQsIHN0b2NrOiByb3cuc3RvY2ssIGNvc3RfbW9uZXk6IHJvdy5jb3N0X21vbmV5IH1dIDogW107CiAgICB9CiAgICBpZiAoL15VUERBVEUga3VlcnBfZ29vZHNfc3RvY2sgU0VUIHN0b2NrID0gXD8sIGNvc3RfbW9uZXkgPSBcPy8udGVzdChzKSkgewogICAgICBjb25zdCByb3cgPSBzdG9yZS5rdWVycF9nb29kc19zdG9jay5maW5kKChyKSA9PiByLmlkID09PSBwYXJhbXNbM10pOwogICAgICBpZiAocm93KSB7IHJvdy5zdG9jayA9IHBhcmFtc1swXTsgcm93LmNvc3RfbW9uZXkgPSBwYXJhbXNbMV07IH0KICAgICAgcmV0dXJuIHsgYWZmZWN0ZWQ6IDEgfTsKICAgIH0KICAgIGlmICgvXklOU0VSVCBJTlRPIGt1ZXJwX2dvb2RzX3N0b2NrLy50ZXN0KHMpKSB7CiAgICAgIGNvbnN0IFssICwgZ29vZHNfY29kZSwgYXR0ciwgc3RvcmVzX2lkLCBzdG9jaywgdW5pdF9jb3N0LCBjb3N0X21vbmV5XSA9IHBhcmFtczsKICAgICAgY29uc3QgZyA9IHN0b3JlLmt1ZXJwX2dvb2RzLmZpbmQoKHgpID0+IHguZ29vZHNfY29kZSA9PT0gZ29vZHNfY29kZSk7CiAgICAgIHN0b3JlLmt1ZXJwX2dvb2RzX3N0b2NrLnB1c2goewogICAgICAgIGlkOiArK2F1dG9JZCwgZ29vZHNfaWQ6IGcgPyBnLmlkIDogMCwgZ29vZHNfY29kZSwgYXR0cmlidXRlX2lkOiBhdHRyLAogICAgICAgIHN0b3Jlc19pZCwgc3RvY2ssIHVuaXRfY29zdCwgY29zdF9tb25leSwKICAgICAgfSk7CiAgICAgIHJldHVybiB7IGluc2VydElkOiBhdXRvSWQgfTsKICAgIH0KICAgIGlmICgvXlVQREFURSBrdWVycF9nb29kcyBTRVQgaW52ZW50b3J5ID0gQ09BTEVTQ0VcKGludmVudG9yeSwwXCkgXCsgXD8gV0hFUkUgaWQgPSBcPyQvLnRlc3QocykpIHsKICAgICAgY29uc3QgZyA9IHN0b3JlLmt1ZXJwX2dvb2RzLmZpbmQoKHgpID0+IHguaWQgPT09IHBhcmFtc1sxXSk7CiAgICAgIGlmIChnKSBnLmludmVudG9yeSA9IChnLmludmVudG9yeSB8fCAwKSArIHBhcmFtc1swXTsKICAgICAgcmV0dXJuIHsgYWZmZWN0ZWQ6IDEgfTsKICAgIH0KICAgIGlmICgvXklOU0VSVCBJTlRPIGt1ZXJwX2dvb2RzX2xvZy8udGVzdChzKSkgewogICAgICBjb25zdCBjb2xzID0gcy5zbGljZShzLmluZGV4T2YoJygnKSArIDEsIHMuaW5kZXhPZignKSBWQUxVRVMnKSkuc3BsaXQoJywnKS5tYXAoKGMpID0+IGMudHJpbSgpLnJlcGxhY2UoL2AvZywgJycpKTsKICAgICAgY29uc3Qgcm93ID0ge307CiAgICAgIGNvbHMuZm9yRWFjaCgoYywgaSkgPT4gKHJvd1tjXSA9IHBhcmFtc1tpXSkpOwogICAgICByb3cuaWQgPSArK2F1dG9JZDsKICAgICAgc3RvcmUua3VlcnBfZ29vZHNfbG9nLnB1c2gocm93KTsKICAgICAgcmV0dXJuIHsgaW5zZXJ0SWQ6IGF1dG9JZCB9OwogICAgfQogICAgaWYgKC9eU0VMRUNUIFwqIEZST00ga3VlcnBfZ29vZHNfbG9nIFdIRVJFIHB1cmNoYXNlX2NvZGUgPSBcPyBBTkQgYnVzaW5lc3NfdHlwZSBJTi8udGVzdChzKSkgewogICAgICBjb25zdCB0eXBlcyA9IHBhcmFtcy5zbGljZSgxKS5tYXAoU3RyaW5nKTsKICAgICAgcmV0dXJuIHN0b3JlLmt1ZXJwX2dvb2RzX2xvZy5maWx0ZXIoKHIpID0+IHIucHVyY2hhc2VfY29kZSA9PT0gcGFyYW1zWzBdICYmIHR5cGVzLmluY2x1ZGVzKFN0cmluZyhyLmJ1c2luZXNzX3R5cGUpKSk7CiAgICB9CiAgICBpZiAoL15ERUxFVEUgRlJPTSBrdWVycF9nb29kc19sb2cgV0hFUkUgcHVyY2hhc2VfY29kZSA9IFw/IEFORCBidXNpbmVzc190eXBlIElOLy50ZXN0KHMpKSB7CiAgICAgIGNvbnN0IHR5cGVzID0gcGFyYW1zLnNsaWNlKDEpLm1hcChTdHJpbmcpOwogICAgICBjb25zdCBiZWZvcmUgPSBzdG9yZS5rdWVycF9nb29kc19sb2cubGVuZ3RoOwogICAgICBzdG9yZS5rdWVycF9nb29kc19sb2cgPSBzdG9yZS5rdWVycF9nb29kc19sb2cuZmlsdGVyKAogICAgICAgIChyKSA9PiAhKHIucHVyY2hhc2VfY29kZSA9PT0gcGFyYW1zWzBdICYmIHR5cGVzLmluY2x1ZGVzKFN0cmluZyhyLmJ1c2luZXNzX3R5cGUpKSksCiAgICAgICk7CiAgICAgIHJldHVybiB7IGFmZmVjdGVkOiBiZWZvcmUgLSBzdG9yZS5rdWVycF9nb29kc19sb2cubGVuZ3RoIH07CiAgICB9CiAgICAvLyDmibnmrKEv5bqP5YiX5Y+36IGU5Yqo6KGo77yI5pys5rWL6K+V5LiN5raJ5Y+K77yJCiAgICBpZiAoL2t1ZXJwX2dvb2RzX2JhdGNofGt1ZXJwX2dvb2RzX3NlcmlhbC8udGVzdChzKSkgewogICAgICBpZiAoL15TRUxFQ1QvLnRlc3QocykpIHJldHVybiBbXTsKICAgICAgcmV0dXJuIHsgYWZmZWN0ZWQ6IDAgfTsKICAgIH0KICAgIHRocm93IG5ldyBFcnJvcign5pyq5Yy56YWN55qEIFNRTDogJyArIHMpOwogIH0sCn07Cgpjb25zdCBzdmMgPSBuZXcgUG9zdGluZ1NlcnZpY2UoZmFrZSk7CmNvbnN0IGFwcHJveCA9IChhLCBiKSA9PiBhc3NlcnQub2soTWF0aC5hYnMoKGEgfHwgMCkgLSBiKSA8IDFlLTYsIGDmnJ/mnJsgJHtifSDlrp7pmYUgJHthfWApOwpjb25zdCBzdG9ja09mID0gKGNvZGUpID0+IHN0b3JlLmt1ZXJwX2dvb2RzX3N0b2NrLmZpbmQoKHIpID0+IHIuZ29vZHNfY29kZSA9PT0gY29kZSk7CmNvbnN0IGdvb2RzT2YgPSAoY29kZSkgPT4gc3RvcmUua3VlcnBfZ29vZHMuZmluZCgoZykgPT4gZy5nb29kc19jb2RlID09PSBjb2RlKTsKCihhc3luYyAoKSA9PiB7CiAgLy8g4oCU4oCU4oCUIOWJjee9ru+8mue7meWtkOS7tiBHMSDlpIflupPlrZggMTAg5Lu2IEA177yI5oiQ5pysIDUw77yJ77yM57uE5ZCI5Lu2IEcyIOaXoOW6k+WtmCDigJTigJTigJQKICBzdG9yZS5rdWVycF9nb29kc19sb2cucHVzaCh7CiAgICBpZDogMSwgcHVyY2hhc2VfY29kZTogJ0lOSVQnLCBidXNpbmVzc190eXBlOiAnMicsIGdvb2RzX2lkOiAxMDAsIGdvb2RzX2NvZGU6ICdHMScsCiAgICBzdG9yZXNfaWQ6IDEsIGF0dHJpYnV0ZV9pZDogMCwgZW50ZXJfYmFzaWNzOiAxMCwgZW50ZXJfY29zdDogNTAsIG91dF9iYXNpY3M6IG51bGwsIG91dF9jb3N0OiBudWxsLAogICAgYmFsYW5jZV9iYXNpY3M6IDEwLCBiYWxhbmNlX3VuaXQ6IDUsIGJhbGFuY2VfY29zdDogNTAsCiAgfSk7CiAgc3RvcmUua3VlcnBfZ29vZHNfc3RvY2sucHVzaCh7IGlkOiAxLCBnb29kc19pZDogMTAwLCBnb29kc19jb2RlOiAnRzEnLCBhdHRyaWJ1dGVfaWQ6IDAsIHN0b3Jlc19pZDogMSwgc3RvY2s6IDEwLCBjb3N0X21vbmV5OiA1MCB9KTsKICBnb29kc09mKCdHMScpLmludmVudG9yeSA9IDEwOwoKICAvLyDigJTigJTigJQg5Zy65pmvMe+8mue7hOijheWNlSDigJTigJQgMiDkuKrlrZDku7YgRzHvvIjlkIQgMiDku7bvvInnu4TmiJAgMSDkuKrnu4TlkIjku7YgRzIg4oCU4oCU4oCUCiAgc3RvcmUua3VlcnBfYXNzZW1ibGUucHVzaCh7IGlkOiAxLCBhZG1pbl9pZDogMSwgcHVyY2hhc2VfY29kZTogJ1paMScsIHB1cmNoYXNlX3RpbWU6IDEwMCwgYnVzaW5lc3NfdHlwZTogJzEnLCBleGFtaW5lX3N0YXR1czogMCB9KTsKICBzdG9yZS5rdWVycF9hc3NlbWJsZV9pbmZvLnB1c2goCiAgICAvLyDlrZDku7bvvJrlh7rlupMgNCDku7bvvIgyIOihjCDDlyAyIOS7tu+8ie+8jOaMieenu+WKqOW5s+Wdh+S7tyA1IOWHuuW6kwogICAgeyBpZDogMTEsIHB1cmNoYXNlX2NvZGU6ICdaWjEnLCB0eXBlOiAnMicsIGdvb2RzX2lkOiAxMDAsIGdvb2RzX2NvZGU6ICdHMScsIGdvb2RzX2F0dHI6IDAsIGdvb2RzX3VuaXQ6IDEsIHN0b3Jlc19pZDogMSwgbnVtYmVyOiAyLCBiYXNpY19udW1iZXI6IDIsIHVuaXRfY29zdDogNSwgY29zdF9tb25leTogMTAsIHBlcmlvZDogJycsIGJhdGNoX2lkOiAwLCBiYXRjaDogJycgfSwKICAgIHsgaWQ6IDEyLCBwdXJjaGFzZV9jb2RlOiAnWloxJywgdHlwZTogJzInLCBnb29kc19pZDogMTAwLCBnb29kc19jb2RlOiAnRzEnLCBnb29kc19hdHRyOiAwLCBnb29kc191bml0OiAxLCBzdG9yZXNfaWQ6IDEsIG51bWJlcjogMiwgYmFzaWNfbnVtYmVyOiAyLCB1bml0X2Nvc3Q6IDUsIGNvc3RfbW9uZXk6IDEwLCBwZXJpb2Q6ICcnLCBiYXRjaF9pZDogMCwgYmF0Y2g6ICcnIH0sCiAgICAvLyDnu4TlkIjku7bvvJrlhaXlupMgMSDku7bvvIzmiJDmnKwgMjDvvIg9IOWtkOS7tuaIkOacrOWQiOiuoe+8iQogICAgeyBpZDogMTMsIHB1cmNoYXNlX2NvZGU6ICdaWjEnLCB0eXBlOiAnMScsIGdvb2RzX2lkOiAxMDEsIGdvb2RzX2NvZGU6ICdHMicsIGdvb2RzX2F0dHI6IDAsIGdvb2RzX3VuaXQ6IDEsIHN0b3Jlc19pZDogMSwgbnVtYmVyOiAxLCBiYXNpY19udW1iZXI6IDEsIHVuaXRfY29zdDogMjAsIGNvc3RfbW9uZXk6IDIwLCBwZXJpb2Q6ICcnLCBiYXRjaF9pZDogMCwgYmF0Y2g6ICcnIH0sCiAgKTsKICBhd2FpdCBzdmMucG9zdCgna3VlcnBfYXNzZW1ibGUnLCAxKTsKICBzdG9yZS5rdWVycF9hc3NlbWJsZVswXS5leGFtaW5lX3N0YXR1cyA9IDE7CgogIGFwcHJveChzdG9ja09mKCdHMScpLnN0b2NrLCA2KTsgICAvLyAxMCAtIDQKICBhcHByb3goc3RvY2tPZignRzEnKS5jb3N0X21vbmV5LCAzMCk7IC8vIDUwIC0gNCo1CiAgYXBwcm94KGdvb2RzT2YoJ0cxJykuaW52ZW50b3J5LCA2KTsKICBhcHByb3goc3RvY2tPZignRzInKS5zdG9jaywgMSk7CiAgYXBwcm94KHN0b2NrT2YoJ0cyJykuY29zdF9tb25leSwgMjApOwogIGFwcHJveChnb29kc09mKCdHMicpLmludmVudG9yeSwgMSk7CiAgYXNzZXJ0LnN0cmljdEVxdWFsKHN0b3JlLmt1ZXJwX2dvb2RzX2xvZy5sZW5ndGgsIDQpOyAvLyAxIOadoeWIneWniyArIDMg5p2h57uE6KOFCiAgY29uc3QgenpPdXQgPSBzdG9yZS5rdWVycF9nb29kc19sb2cuZmlsdGVyKChyKSA9PiBTdHJpbmcoci5idXNpbmVzc190eXBlKSA9PT0gJzEzJyk7CiAgY29uc3QgenpJbiA9IHN0b3JlLmt1ZXJwX2dvb2RzX2xvZy5maWx0ZXIoKHIpID0+IFN0cmluZyhyLmJ1c2luZXNzX3R5cGUpID09PSAnMTInKTsKICBhc3NlcnQuc3RyaWN0RXF1YWwoenpPdXQubGVuZ3RoLCAyLCAn5a2Q5Lu25Ye65bqT5piO57uGIDIg5p2hJyk7CiAgYXNzZXJ0LnN0cmljdEVxdWFsKHp6SW4ubGVuZ3RoLCAxLCAn57uE5ZCI5Lu25YWl5bqT5piO57uGIDEg5p2hJyk7CiAgYXBwcm94KHp6SW5bMF0uZW50ZXJfY29zdCwgMjApOwogIGFwcHJveCh6ek91dFswXS5vdXRfdW5pdCwgNSk7IC8vIOaMieenu+WKqOW5s+Wdh+S7t+WHuuW6kwogIGNvbnNvbGUubG9nKCfinIUg57uE6KOF5Y2V77ya5a2Q5Lu25Ye65bqTIDRANSArIOe7hOWQiOS7tuWFpeW6kyAxQDIwIOKGkiBHMT02LzMw77yMRzI9MS8yMCcpOwoKICAvLyDigJTigJTigJQg5Zy65pmvMu+8mue7hOijheWNleWPjeWuoSDihpIg57K+56Gu6L+Y5Y6fIOKAlOKAlOKAlAogIGF3YWl0IHN2Yy51bnBvc3QoJ2t1ZXJwX2Fzc2VtYmxlJywgMSk7CiAgYXBwcm94KHN0b2NrT2YoJ0cxJykuc3RvY2ssIDEwKTsKICBhcHByb3goc3RvY2tPZignRzEnKS5jb3N0X21vbmV5LCA1MCk7CiAgYXBwcm94KGdvb2RzT2YoJ0cxJykuaW52ZW50b3J5LCAxMCk7CiAgYXBwcm94KHN0b2NrT2YoJ0cyJykuc3RvY2ssIDApOwogIGFwcHJveChzdG9ja09mKCdHMicpLmNvc3RfbW9uZXksIDApOwogIGFwcHJveChnb29kc09mKCdHMicpLmludmVudG9yeSwgMCk7CiAgYXNzZXJ0LnN0cmljdEVxdWFsKHN0b3JlLmt1ZXJwX2dvb2RzX2xvZy5sZW5ndGgsIDEsICfku4XlianliJ3lp4vlhaXlupPmtYHmsLQnKTsKICBjb25zb2xlLmxvZygn4pyFIOe7hOijheWNleWPjeWuoe+8muW6k+WtmC/miJDmnKwv5piO57uG5YWo6YOo6L+Y5Y6fJyk7CgogIC8vIOKAlOKAlOKAlCDlnLrmma8z77ya5ouG5Y245Y2VIOKAlOKAlCAxIOS4que7hOWQiOS7tiBHMiDmi4bmiJAgMiDkuKrlrZDku7YgRzEg4oCU4oCU4oCUCiAgLy8g5YWI57uZIEcyIOWkh+W6k+WtmCAyIOS7tiBAMjDvvIjmiJDmnKwgNDDvvInvvJrlpI3nlKjlnLrmma8xIOS4reW3suW7uueri+eahOW6k+WtmOihjO+8jOmBv+WFjeWQjOmUrumHjeWkjeihjAogIGNvbnN0IGcyU3RvY2sgPSBzdG9ja09mKCdHMicpOwogIGcyU3RvY2suc3RvY2sgPSAyOwogIGcyU3RvY2suY29zdF9tb25leSA9IDQwOwogIGdvb2RzT2YoJ0cyJykuaW52ZW50b3J5ID0gMjsKCiAgc3RvcmUua3VlcnBfc3BsaXQucHVzaCh7IGlkOiAyLCBhZG1pbl9pZDogMSwgcHVyY2hhc2VfY29kZTogJ0NYMScsIHB1cmNoYXNlX3RpbWU6IDIwMCwgYnVzaW5lc3NfdHlwZTogJzEnLCBleGFtaW5lX3N0YXR1czogMCB9KTsKICBzdG9yZS5rdWVycF9zcGxpdF9pbmZvLnB1c2goCiAgICAvLyDnu4TlkIjku7bvvJrlh7rlupMgMSDku7bvvIzmjInnp7vliqjlubPlnYfku7cgMjAKICAgIHsgaWQ6IDIxLCBwdXJjaGFzZV9jb2RlOiAnQ1gxJywgdHlwZTogJzEnLCBnb29kc19pZDogMTAxLCBnb29kc19jb2RlOiAnRzInLCBnb29kc19hdHRyOiAwLCBnb29kc191bml0OiAxLCBzdG9yZXNfaWQ6IDEsIG51bWJlcjogMSwgYmFzaWNfbnVtYmVyOiAxLCB1bml0X2Nvc3Q6IDIwLCBjb3N0X21vbmV5OiAyMCwgcGVyaW9kOiAnJywgYmF0Y2hfaWQ6IDAsIGJhdGNoOiAnJyB9LAogICAgLy8g5a2Q5Lu277ya5YWl5bqTIDIg5Lu277yM5oiQ5pys5ZCI6K6hIDIw77yI5piO57uG5oyH5a6a77yJCiAgICB7IGlkOiAyMiwgcHVyY2hhc2VfY29kZTogJ0NYMScsIHR5cGU6ICcyJywgZ29vZHNfaWQ6IDEwMCwgZ29vZHNfY29kZTogJ0cxJywgZ29vZHNfYXR0cjogMCwgZ29vZHNfdW5pdDogMSwgc3RvcmVzX2lkOiAxLCBudW1iZXI6IDIsIGJhc2ljX251bWJlcjogMiwgdW5pdF9jb3N0OiAxMCwgY29zdF9tb25leTogMjAsIHBlcmlvZDogJycsIGJhdGNoX2lkOiAwLCBiYXRjaDogJycgfSwKICApOwogIGF3YWl0IHN2Yy5wb3N0KCdrdWVycF9zcGxpdCcsIDIpOwogIHN0b3JlLmt1ZXJwX3NwbGl0WzBdLmV4YW1pbmVfc3RhdHVzID0gMTsKCiAgYXBwcm94KHN0b2NrT2YoJ0cyJykuc3RvY2ssIDEpOyAgIC8vIDIgLSAxCiAgYXBwcm94KHN0b2NrT2YoJ0cyJykuY29zdF9tb25leSwgMjApOyAvLyA0MCAtIDIwCiAgYXBwcm94KGdvb2RzT2YoJ0cyJykuaW52ZW50b3J5LCAxKTsKICBhcHByb3goc3RvY2tPZignRzEnKS5zdG9jaywgMTIpOyAgLy8gMTAgKyAyCiAgYXBwcm94KHN0b2NrT2YoJ0cxJykuY29zdF9tb25leSwgNzApOyAvLyA1MCArIDIwCiAgYXBwcm94KGdvb2RzT2YoJ0cxJykuaW52ZW50b3J5LCAxMik7CiAgY29uc3QgY3hPdXQgPSBzdG9yZS5rdWVycF9nb29kc19sb2cuZmlsdGVyKChyKSA9PiBTdHJpbmcoci5idXNpbmVzc190eXBlKSA9PT0gJzE0Jyk7CiAgY29uc3QgY3hJbiA9IHN0b3JlLmt1ZXJwX2dvb2RzX2xvZy5maWx0ZXIoKHIpID0+IFN0cmluZyhyLmJ1c2luZXNzX3R5cGUpID09PSAnMTUnKTsKICBhc3NlcnQuc3RyaWN0RXF1YWwoY3hPdXQubGVuZ3RoLCAxLCAn57uE5ZCI5Lu25Ye65bqT5piO57uGIDEg5p2hJyk7CiAgYXNzZXJ0LnN0cmljdEVxdWFsKGN4SW4ubGVuZ3RoLCAxLCAn5a2Q5Lu25YWl5bqT5piO57uGIDEg5p2hJyk7CiAgYXBwcm94KGN4T3V0WzBdLm91dF91bml0LCAyMCk7IC8vIOaMieenu+WKqOW5s+Wdh+S7t+WHuuW6kwogIGFwcHJveChjeEluWzBdLmVudGVyX2Nvc3QsIDIwKTsKICBjb25zb2xlLmxvZygn4pyFIOaLhuWNuOWNle+8mue7hOWQiOS7tuWHuuW6kyAxQDIwICsg5a2Q5Lu25YWl5bqTIDLvvIjmiJDmnKwyMO+8iSDihpIgRzI9MS8yMO+8jEcxPTEyLzcwJyk7CgogIC8vIOKAlOKAlOKAlCDlnLrmma8077ya5ouG5Y245Y2V5Y+N5a6hIOKGkiDov5jljp8g4oCU4oCU4oCUCiAgYXdhaXQgc3ZjLnVucG9zdCgna3VlcnBfc3BsaXQnLCAyKTsKICBhcHByb3goc3RvY2tPZignRzInKS5zdG9jaywgMik7CiAgYXBwcm94KHN0b2NrT2YoJ0cyJykuY29zdF9tb25leSwgNDApOwogIGFwcHJveChnb29kc09mKCdHMicpLmludmVudG9yeSwgMik7CiAgYXBwcm94KHN0b2NrT2YoJ0cxJykuc3RvY2ssIDEwKTsKICBhcHByb3goc3RvY2tPZignRzEnKS5jb3N0X21vbmV5LCA1MCk7CiAgYXBwcm94KGdvb2RzT2YoJ0cxJykuaW52ZW50b3J5LCAxMCk7CiAgYXNzZXJ0Lm9rKCFzdG9yZS5rdWVycF9nb29kc19sb2cuc29tZSgocikgPT4gWycxNCcsICcxNSddLmluY2x1ZGVzKFN0cmluZyhyLmJ1c2luZXNzX3R5cGUpKSksICfmi4bljbjmtYHmsLTlt7LmuIXpmaQnKTsKICBjb25zb2xlLmxvZygn4pyFIOaLhuWNuOWNleWPjeWuoe+8muW6k+WtmC/miJDmnKwv5piO57uG5YWo6YOo6L+Y5Y6fJyk7CgogIC8vIOKAlOKAlOKAlCDlnLrmma8177ya5a2Q5Lu25bqT5a2Y5LiN6Laz5bqU5oum5oiqIOKAlOKAlOKAlAogIHN0b3JlLmt1ZXJwX2Fzc2VtYmxlLnB1c2goeyBpZDogMywgYWRtaW5faWQ6IDEsIHB1cmNoYXNlX2NvZGU6ICdaWjInLCBwdXJjaGFzZV90aW1lOiAzMDAsIGJ1c2luZXNzX3R5cGU6ICcxJywgZXhhbWluZV9zdGF0dXM6IDAgfSk7CiAgc3RvcmUua3VlcnBfYXNzZW1ibGVfaW5mby5wdXNoKAogICAgeyBpZDogMzEsIHB1cmNoYXNlX2NvZGU6ICdaWjInLCB0eXBlOiAnMicsIGdvb2RzX2lkOiAxMDAsIGdvb2RzX2NvZGU6ICdHMScsIGdvb2RzX2F0dHI6IDAsIGdvb2RzX3VuaXQ6IDEsIHN0b3Jlc19pZDogMSwgbnVtYmVyOiA5OTksIGJhc2ljX251bWJlcjogOTk5LCB1bml0X2Nvc3Q6IDUsIGNvc3RfbW9uZXk6IDQ5OTUsIHBlcmlvZDogJycsIGJhdGNoX2lkOiAwLCBiYXRjaDogJycgfSwKICAgIHsgaWQ6IDMyLCBwdXJjaGFzZV9jb2RlOiAnWloyJywgdHlwZTogJzEnLCBnb29kc19pZDogMTAxLCBnb29kc19jb2RlOiAnRzInLCBnb29kc19hdHRyOiAwLCBnb29kc191bml0OiAxLCBzdG9yZXNfaWQ6IDEsIG51bWJlcjogMSwgYmFzaWNfbnVtYmVyOiAxLCB1bml0X2Nvc3Q6IDIwLCBjb3N0X21vbmV5OiAyMCwgcGVyaW9kOiAnJywgYmF0Y2hfaWQ6IDAsIGJhdGNoOiAnJyB9LAogICk7CiAgbGV0IHRocmV3ID0gZmFsc2U7CiAgdHJ5IHsgYXdhaXQgc3ZjLnBvc3QoJ2t1ZXJwX2Fzc2VtYmxlJywgMyk7IH0gY2F0Y2ggeyB0aHJldyA9IHRydWU7IH0KICBhc3NlcnQub2sodGhyZXcsICflrZDku7blupPlrZjkuI3otrPlupTmipvplJknKTsKICBjb25zb2xlLmxvZygn4pyFIOWtkOS7tuW6k+WtmOS4jei2s+iiq+aLpuaIqicpOwoKICBjb25zb2xlLmxvZygnXG7wn46JIOe7hOijhS/mi4bljbjov4fotKbljZXmtYvlhajpg6jpgJrov4cnKTsKICBwcm9jZXNzLmV4aXQoMCk7Cn0pKCkuY2F0Y2goKGUpID0+IHsKICBjb25zb2xlLmVycm9yKCfinYwg5rWL6K+V5aSx6LSl77yaJywgZS5tZXNzYWdlKTsKICBjb25zb2xlLmVycm9yKGUuc3RhY2spOwogIHByb2Nlc3MuZXhpdCgxKTsKfSk7Cg==
+/**
+ * 组装单 / 拆卸单过账逻辑单测（无需真实数据库）：
+ * 用内存伪 DataSource 复现 PostingService 发出的 SQL 语义，验证：
+ *   组装单：子件出库(13) + 组合件入库(12)，组合件按明细 cost_money 入库；
+ *   拆卸单：组合件出库(14) 按移动平均价 + 子件入库(15)；
+ *   goods.inventory 总库存联动；反审可精确冲转还原。
+ * 运行：node scripts/bom.test.js
+ */
+require('reflect-metadata');
+const assert = require('assert');
+const { PostingService } = require('../dist/kuerp/posting/posting.service');
+
+// —— 内存数据仓库 ——
+const store = {
+  // G1=子件(零件)，G2=组合件(成品)
+  kuerp_goods: [
+    { id: 100, goods_code: 'G1', goods_name: '零件', inventory: 0, batch: 0, serial: 0 },
+    { id: 101, goods_code: 'G2', goods_name: '成品', inventory: 0, batch: 0, serial: 0 },
+  ],
+  kuerp_goods_stock: [],
+  kuerp_goods_log: [],
+  kuerp_sets: [],
+  kuerp_suppliers: [{ id: 200, supplyer_code: 'S1' }],
+  kuerp_assemble: [],
+  kuerp_assemble_info: [],
+  kuerp_split: [],
+  kuerp_split_info: [],
+};
+let autoId = 1000;
+
+/** 伪 DataSource：按 PostingService 实际下发的 SQL 模式分别处理 */
+const fake = {
+  options: { type: 'mysql' },
+  async query(sql, params = []) {
+    const s = String(sql).replace(/\s+/g, ' ').trim();
+
+    let m = /^SELECT \* FROM `(\w+)` WHERE id = \? LIMIT 1$/.exec(s);
+    if (m) return store[m[1]].filter((r) => r.id === params[0]).slice(0, 1);
+
+    m = /^SELECT \* FROM `(\w+)` WHERE `(\w+)` = \?$/.exec(s);
+    if (m) return store[m[1]].filter((r) => String(r[m[2]]) === String(params[0]));
+
+    m = /^SELECT id FROM `(\w+)` WHERE `(\w+)` = \?$/.exec(s);
+    if (m) return store[m[1]].filter((r) => String(r[m[2]]) === String(params[0])).map((r) => ({ id: r.id }));
+
+    if (/FROM kuerp_sets WHERE name IN/.test(s)) {
+      return ['batch', 'serial'].map((name) => {
+        const row = store.kuerp_sets.find((x) => x.name === name);
+        return { name, is_checked: row ? row.is_checked : 0 };
+      });
+    }
+    if (/SELECT batch, serial FROM kuerp_goods WHERE goods_code = \? LIMIT 1$/.test(s)) {
+      const g = store.kuerp_goods.find((x) => x.goods_code === params[0]);
+      return g ? [{ batch: g.batch || 0, serial: g.serial || 0 }] : [];
+    }
+    if (/FROM kuerp_goods WHERE goods_code = \? LIMIT 1$/.test(s)) {
+      const g = store.kuerp_goods.find((x) => x.goods_code === params[0]);
+      return g ? [{ id: g.id }] : [];
+    }
+    if (/FROM kuerp_suppliers WHERE supplyer_code = \? LIMIT 1$/.test(s)) {
+      const g = store.kuerp_suppliers.find((x) => x.supplyer_code === params[0]);
+      return g ? [{ id: g.id }] : [];
+    }
+    if (/^SELECT id, stock, cost_money FROM kuerp_goods_stock WHERE goods_code = \? AND stores_id = \?/.test(s)) {
+      const row = store.kuerp_goods_stock.find(
+        (r) => r.goods_code === params[0] && r.stores_id === params[1] &&
+          (params.length < 3 || r.attribute_id === params[2]),
+      );
+      return row ? [{ id: row.id, stock: row.stock, cost_money: row.cost_money }] : [];
+    }
+    if (/^UPDATE kuerp_goods_stock SET stock = \?, cost_money = \?/.test(s)) {
+      const row = store.kuerp_goods_stock.find((r) => r.id === params[3]);
+      if (row) { row.stock = params[0]; row.cost_money = params[1]; }
+      return { affected: 1 };
+    }
+    if (/^INSERT INTO kuerp_goods_stock/.test(s)) {
+      const [, , goods_code, attr, stores_id, stock, unit_cost, cost_money] = params;
+      const g = store.kuerp_goods.find((x) => x.goods_code === goods_code);
+      store.kuerp_goods_stock.push({
+        id: ++autoId, goods_id: g ? g.id : 0, goods_code, attribute_id: attr,
+        stores_id, stock, unit_cost, cost_money,
+      });
+      return { insertId: autoId };
+    }
+    if (/^UPDATE kuerp_goods SET inventory = COALESCE\(inventory,0\) \+ \? WHERE id = \?$/.test(s)) {
+      const g = store.kuerp_goods.find((x) => x.id === params[1]);
+      if (g) g.inventory = (g.inventory || 0) + params[0];
+      return { affected: 1 };
+    }
+    if (/^INSERT INTO kuerp_goods_log/.test(s)) {
+      const cols = s.slice(s.indexOf('(') + 1, s.indexOf(') VALUES')).split(',').map((c) => c.trim().replace(/`/g, ''));
+      const row = {};
+      cols.forEach((c, i) => (row[c] = params[i]));
+      row.id = ++autoId;
+      store.kuerp_goods_log.push(row);
+      return { insertId: autoId };
+    }
+    if (/^SELECT \* FROM kuerp_goods_log WHERE purchase_code = \? AND business_type IN/.test(s)) {
+      const types = params.slice(1).map(String);
+      return store.kuerp_goods_log.filter((r) => r.purchase_code === params[0] && types.includes(String(r.business_type)));
+    }
+    if (/^DELETE FROM kuerp_goods_log WHERE purchase_code = \? AND business_type IN/.test(s)) {
+      const types = params.slice(1).map(String);
+      const before = store.kuerp_goods_log.length;
+      store.kuerp_goods_log = store.kuerp_goods_log.filter(
+        (r) => !(r.purchase_code === params[0] && types.includes(String(r.business_type))),
+      );
+      return { affected: before - store.kuerp_goods_log.length };
+    }
+    // 批次/序列号联动表（本测试不涉及）
+    if (/kuerp_goods_batch|kuerp_goods_serial/.test(s)) {
+      if (/^SELECT/.test(s)) return [];
+      return { affected: 0 };
+    }
+    throw new Error('未匹配的 SQL: ' + s);
+  },
+};
+
+const svc = new PostingService(fake);
+const approx = (a, b) => assert.ok(Math.abs((a || 0) - b) < 1e-6, `期望 ${b} 实际 ${a}`);
+const stockOf = (code) => store.kuerp_goods_stock.find((r) => r.goods_code === code);
+const goodsOf = (code) => store.kuerp_goods.find((g) => g.goods_code === code);
+
+(async () => {
+  // ——— 前置：给子件 G1 备库存 10 件 @5（成本 50），组合件 G2 无库存 ———
+  store.kuerp_goods_log.push({
+    id: 1, purchase_code: 'INIT', business_type: '2', goods_id: 100, goods_code: 'G1',
+    stores_id: 1, attribute_id: 0, enter_basics: 10, enter_cost: 50, out_basics: null, out_cost: null,
+    balance_basics: 10, balance_unit: 5, balance_cost: 50,
+  });
+  store.kuerp_goods_stock.push({ id: 1, goods_id: 100, goods_code: 'G1', attribute_id: 0, stores_id: 1, stock: 10, cost_money: 50 });
+  goodsOf('G1').inventory = 10;
+
+  // ——— 场景1：组装单 —— 2 个子件 G1（各 2 件）组成 1 个组合件 G2 ———
+  store.kuerp_assemble.push({ id: 1, admin_id: 1, purchase_code: 'ZZ1', purchase_time: 100, business_type: '1', examine_status: 0 });
+  store.kuerp_assemble_info.push(
+    // 子件：出库 4 件（2 行 × 2 件），按移动平均价 5 出库
+    { id: 11, purchase_code: 'ZZ1', type: '2', goods_id: 100, goods_code: 'G1', goods_attr: 0, goods_unit: 1, stores_id: 1, number: 2, basic_number: 2, unit_cost: 5, cost_money: 10, period: '', batch_id: 0, batch: '' },
+    { id: 12, purchase_code: 'ZZ1', type: '2', goods_id: 100, goods_code: 'G1', goods_attr: 0, goods_unit: 1, stores_id: 1, number: 2, basic_number: 2, unit_cost: 5, cost_money: 10, period: '', batch_id: 0, batch: '' },
+    // 组合件：入库 1 件，成本 20（= 子件成本合计）
+    { id: 13, purchase_code: 'ZZ1', type: '1', goods_id: 101, goods_code: 'G2', goods_attr: 0, goods_unit: 1, stores_id: 1, number: 1, basic_number: 1, unit_cost: 20, cost_money: 20, period: '', batch_id: 0, batch: '' },
+  );
+  await svc.post('kuerp_assemble', 1);
+  store.kuerp_assemble[0].examine_status = 1;
+
+  approx(stockOf('G1').stock, 6);   // 10 - 4
+  approx(stockOf('G1').cost_money, 30); // 50 - 4*5
+  approx(goodsOf('G1').inventory, 6);
+  approx(stockOf('G2').stock, 1);
+  approx(stockOf('G2').cost_money, 20);
+  approx(goodsOf('G2').inventory, 1);
+  assert.strictEqual(store.kuerp_goods_log.length, 4); // 1 条初始 + 3 条组装
+  const zzOut = store.kuerp_goods_log.filter((r) => String(r.business_type) === '13');
+  const zzIn = store.kuerp_goods_log.filter((r) => String(r.business_type) === '12');
+  assert.strictEqual(zzOut.length, 2, '子件出库明细 2 条');
+  assert.strictEqual(zzIn.length, 1, '组合件入库明细 1 条');
+  approx(zzIn[0].enter_cost, 20);
+  approx(zzOut[0].out_unit, 5); // 按移动平均价出库
+  console.log('✅ 组装单：子件出库 4@5 + 组合件入库 1@20 → G1=6/30，G2=1/20');
+
+  // ——— 场景2：组装单反审 → 精确还原 ———
+  await svc.unpost('kuerp_assemble', 1);
+  approx(stockOf('G1').stock, 10);
+  approx(stockOf('G1').cost_money, 50);
+  approx(goodsOf('G1').inventory, 10);
+  approx(stockOf('G2').stock, 0);
+  approx(stockOf('G2').cost_money, 0);
+  approx(goodsOf('G2').inventory, 0);
+  assert.strictEqual(store.kuerp_goods_log.length, 1, '仅剩初始入库流水');
+  console.log('✅ 组装单反审：库存/成本/明细全部还原');
+
+  // ——— 场景3：拆卸单 —— 1 个组合件 G2 拆成 2 个子件 G1 ———
+  // 先给 G2 备库存 2 件 @20（成本 40）：复用场景1 中已建立的库存行，避免同键重复行
+  const g2Stock = stockOf('G2');
+  g2Stock.stock = 2;
+  g2Stock.cost_money = 40;
+  goodsOf('G2').inventory = 2;
+
+  store.kuerp_split.push({ id: 2, admin_id: 1, purchase_code: 'CX1', purchase_time: 200, business_type: '1', examine_status: 0 });
+  store.kuerp_split_info.push(
+    // 组合件：出库 1 件，按移动平均价 20
+    { id: 21, purchase_code: 'CX1', type: '1', goods_id: 101, goods_code: 'G2', goods_attr: 0, goods_unit: 1, stores_id: 1, number: 1, basic_number: 1, unit_cost: 20, cost_money: 20, period: '', batch_id: 0, batch: '' },
+    // 子件：入库 2 件，成本合计 20（明细指定）
+    { id: 22, purchase_code: 'CX1', type: '2', goods_id: 100, goods_code: 'G1', goods_attr: 0, goods_unit: 1, stores_id: 1, number: 2, basic_number: 2, unit_cost: 10, cost_money: 20, period: '', batch_id: 0, batch: '' },
+  );
+  await svc.post('kuerp_split', 2);
+  store.kuerp_split[0].examine_status = 1;
+
+  approx(stockOf('G2').stock, 1);   // 2 - 1
+  approx(stockOf('G2').cost_money, 20); // 40 - 20
+  approx(goodsOf('G2').inventory, 1);
+  approx(stockOf('G1').stock, 12);  // 10 + 2
+  approx(stockOf('G1').cost_money, 70); // 50 + 20
+  approx(goodsOf('G1').inventory, 12);
+  const cxOut = store.kuerp_goods_log.filter((r) => String(r.business_type) === '14');
+  const cxIn = store.kuerp_goods_log.filter((r) => String(r.business_type) === '15');
+  assert.strictEqual(cxOut.length, 1, '组合件出库明细 1 条');
+  assert.strictEqual(cxIn.length, 1, '子件入库明细 1 条');
+  approx(cxOut[0].out_unit, 20); // 按移动平均价出库
+  approx(cxIn[0].enter_cost, 20);
+  console.log('✅ 拆卸单：组合件出库 1@20 + 子件入库 2（成本20） → G2=1/20，G1=12/70');
+
+  // ——— 场景4：拆卸单反审 → 还原 ———
+  await svc.unpost('kuerp_split', 2);
+  approx(stockOf('G2').stock, 2);
+  approx(stockOf('G2').cost_money, 40);
+  approx(goodsOf('G2').inventory, 2);
+  approx(stockOf('G1').stock, 10);
+  approx(stockOf('G1').cost_money, 50);
+  approx(goodsOf('G1').inventory, 10);
+  assert.ok(!store.kuerp_goods_log.some((r) => ['14', '15'].includes(String(r.business_type))), '拆卸流水已清除');
+  console.log('✅ 拆卸单反审：库存/成本/明细全部还原');
+
+  // ——— 场景5：子件库存不足应拦截 ———
+  store.kuerp_assemble.push({ id: 3, admin_id: 1, purchase_code: 'ZZ2', purchase_time: 300, business_type: '1', examine_status: 0 });
+  store.kuerp_assemble_info.push(
+    { id: 31, purchase_code: 'ZZ2', type: '2', goods_id: 100, goods_code: 'G1', goods_attr: 0, goods_unit: 1, stores_id: 1, number: 999, basic_number: 999, unit_cost: 5, cost_money: 4995, period: '', batch_id: 0, batch: '' },
+    { id: 32, purchase_code: 'ZZ2', type: '1', goods_id: 101, goods_code: 'G2', goods_attr: 0, goods_unit: 1, stores_id: 1, number: 1, basic_number: 1, unit_cost: 20, cost_money: 20, period: '', batch_id: 0, batch: '' },
+  );
+  let threw = false;
+  try { await svc.post('kuerp_assemble', 3); } catch { threw = true; }
+  assert.ok(threw, '子件库存不足应抛错');
+  console.log('✅ 子件库存不足被拦截');
+
+  console.log('\n🎉 组装/拆卸过账单测全部通过');
+  process.exit(0);
+})().catch((e) => {
+  console.error('❌ 测试失败：', e.message);
+  console.error(e.stack);
+  process.exit(1);
+});

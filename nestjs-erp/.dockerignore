@@ -1,1 +1,10 @@
-IyDplZzlg4/mnoTlu7rkuIrkuIvmlofmjpLpmaTpobnvvJrov5nkupvlhoXlrrnopoHkuYjnlLHplZzlg4/lhoXph43mlrDlronoo4Uv55Sf5oiQ77yM6KaB5LmI5piv5pys5Zyw6L+Q6KGM5pWw5o2uCm5vZGVfbW9kdWxlcwpkaXN0CnVwbG9hZHMKZG9ja2VyCnNjcmlwdHMKKi5sb2cKLmVudgouZW52LmxvY2FsCi5naXQK
+# 镜像构建上下文排除项：这些内容要么由镜像内重新安装/生成，要么是本地运行数据
+node_modules
+dist
+uploads
+docker
+scripts
+*.log
+.env
+.env.local
+.git

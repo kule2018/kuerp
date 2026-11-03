@@ -1,1 +1,57 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgR2V0LCBIdHRwQ29kZSwgU2VydmljZVVuYXZhaWxhYmxlRXhjZXB0aW9uIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBEYXRhU291cmNlIH0gZnJvbSAndHlwZW9ybSc7CgovKioKICog5YGl5bq35qOA5p+l5o6l5Y+j77yI5YWs5byA77yM5peg6ZyA55m75b2V77yJ44CCCiAqCiAqIOOAkOS4uuS7gOS5iOWNleeLrOWBmuS4gOS4qiAvaGVhbHRoIOiAjOS4jeaYr+WkjeeUqOS4muWKoeaOpeWPo+OAkQogKiDlrrnlmajnvJbmjpLvvIhkb2NrZXItY29tcG9zZSBoZWFsdGhjaGVjayAvIEs4cyBwcm9iZe+8iemcgOimgeS4gOS4qioq5peg6Ym05p2DKirnmoTmjqLpkojvvJoKICog55SoIC9rdWVycC94eHgg5LmL57G755qE5Lia5Yqh5o6l5Y+j5Lya6KKrIEp3dEF1dGhHdWFyZCDmjKHmiJAgNDAx77yMCiAqIOaOoumSiOS8muaKiuOAjOacjeWKoeato+W4uOS9humcgOimgeeZu+W9leOAjeivr+WIpOS4uuOAjOacjeWKoeaMguS6huOAje+8jOi/m+iAjOWPjeWkjemHjeWQr+WuueWZqOOAggogKgogKiDjgJDkuLrku4DkuYjmjqLpkojopoHov57mlbDmja7lupPjgJEKICog5Y+q55yL6L+b56iL5a2Y5rS75piv5LiN5aSf55qE4oCU4oCUTmVzdEpTIOWcqOaVsOaNruW6k+aWreW8gOaXtui/m+eoi+eFp+agt+a0u+edgO+8jAogKiDkvYbmiYDmnInkuJrliqHmjqXlj6Ppg73kvJogNTAw44CC5bim5LiKIGBTRUxFQ1QgMWAg5omN6IO955yf5q2j5Y+N5pig44CM6IO95ZCm5a+55aSW5o+Q5L6b5pyN5Yqh44CN44CCCiAqLwpAQ29udHJvbGxlcignaGVhbHRoJykKZXhwb3J0IGNsYXNzIEhlYWx0aENvbnRyb2xsZXIgewogIGNvbnN0cnVjdG9yKHByaXZhdGUgcmVhZG9ubHkgZGF0YVNvdXJjZTogRGF0YVNvdXJjZSkge30KCiAgLyoqCiAgICog5a2Y5rS7ICsg5L6d6LWW5qOA5p+l44CCCiAgICoKICAgKiBAcmV0dXJucyB7IHN0YXR1cywgdXB0aW1lLCBkYiwgdGltZXN0YW1wIH0KICAgKiBAdGhyb3dzIFNlcnZpY2VVbmF2YWlsYWJsZUV4Y2VwdGlvbiDmlbDmja7lupPkuI3lj6/nlKjml7bov5Tlm54gNTAzCiAgICovCiAgQEdldCgpCiAgQEh0dHBDb2RlKDIwMCkKICBhc3luYyBjaGVjaygpIHsKICAgIGNvbnN0IHN0YXJ0ZWRBdCA9IERhdGUubm93KCk7CiAgICBsZXQgZGIgPSAnZG93bic7CiAgICB0cnkgewogICAgICBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoJ1NFTEVDVCAxJyk7CiAgICAgIGRiID0gJ3VwJzsKICAgIH0gY2F0Y2ggewogICAgICBkYiA9ICdkb3duJzsKICAgIH0KCiAgICAvLyDmlbDmja7lupPkuI3lj6/nlKjnm7TmjqUgNTAz77ya6K6p57yW5o6S5bGC55+l6YGT44CM6L+Z5Liq5a6e5L6L5LiN5bqU5o6l5pS25rWB6YeP44CN77yMCiAgICAvLyDku4Xov5Tlm54gMjAwICsgZGI6ZG93biDkvJrorqnotJ/ovb3lnYfooaHnu6fnu63mioror7fmsYLmiZPov5vmnaUKICAgIGlmIChkYiAhPT0gJ3VwJykgewogICAgICB0aHJvdyBuZXcgU2VydmljZVVuYXZhaWxhYmxlRXhjZXB0aW9uKHsKICAgICAgICBzdGF0dXM6ICdlcnJvcicsCiAgICAgICAgZGIsCiAgICAgICAgdGltZXN0YW1wOiBNYXRoLmZsb29yKERhdGUubm93KCkgLyAxMDAwKSwKICAgICAgfSk7CiAgICB9CgogICAgcmV0dXJuIHsKICAgICAgc3RhdHVzOiAnb2snLAogICAgICBkYiwKICAgICAgLy8g5pWw5o2u5bqT5b6A6L+U6ICX5pe277yI5q+r56eS77yJ77yM55So5LqO5Yy65YiG44CM5oWi44CN5LiO44CM5LiN6YCa44CNCiAgICAgIGRiTGF0ZW5jeU1zOiBEYXRlLm5vdygpIC0gc3RhcnRlZEF0LAogICAgICB1cHRpbWVTZWM6IE1hdGgucm91bmQocHJvY2Vzcy51cHRpbWUoKSksCiAgICAgIHRpbWVzdGFtcDogTWF0aC5mbG9vcihEYXRlLm5vdygpIC8gMTAwMCksCiAgICB9OwogIH0KfQo=
+import { Controller, Get, HttpCode, ServiceUnavailableException } from '@nestjs/common';
+import { DataSource } from 'typeorm';
+
+/**
+ * 健康检查接口（公开，无需登录）。
+ *
+ * 【为什么单独做一个 /health 而不是复用业务接口】
+ * 容器编排（docker-compose healthcheck / K8s probe）需要一个**无鉴权**的探针：
+ * 用 /kuerp/xxx 之类的业务接口会被 JwtAuthGuard 挡成 401，
+ * 探针会把「服务正常但需要登录」误判为「服务挂了」，进而反复重启容器。
+ *
+ * 【为什么探针要连数据库】
+ * 只看进程存活是不够的——NestJS 在数据库断开时进程照样活着，
+ * 但所有业务接口都会 500。带上 `SELECT 1` 才能真正反映「能否对外提供服务」。
+ */
+@Controller('health')
+export class HealthController {
+  constructor(private readonly dataSource: DataSource) {}
+
+  /**
+   * 存活 + 依赖检查。
+   *
+   * @returns { status, uptime, db, timestamp }
+   * @throws ServiceUnavailableException 数据库不可用时返回 503
+   */
+  @Get()
+  @HttpCode(200)
+  async check() {
+    const startedAt = Date.now();
+    let db = 'down';
+    try {
+      await this.dataSource.query('SELECT 1');
+      db = 'up';
+    } catch {
+      db = 'down';
+    }
+
+    // 数据库不可用直接 503：让编排层知道「这个实例不应接收流量」，
+    // 仅返回 200 + db:down 会让负载均衡继续把请求打进来
+    if (db !== 'up') {
+      throw new ServiceUnavailableException({
+        status: 'error',
+        db,
+        timestamp: Math.floor(Date.now() / 1000),
+      });
+    }
+
+    return {
+      status: 'ok',
+      db,
+      // 数据库往返耗时（毫秒），用于区分「慢」与「不通」
+      dbLatencyMs: Date.now() - startedAt,
+      uptimeSec: Math.round(process.uptime()),
+      timestamp: Math.floor(Date.now() / 1000),
+    };
+  }
+}

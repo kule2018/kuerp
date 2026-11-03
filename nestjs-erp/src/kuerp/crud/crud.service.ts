@@ -1,1 +1,43 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsKaW1wb3J0IHsgUmVwb3NpdG9yeSB9IGZyb20gJ3R5cGVvcm0nOwppbXBvcnQgeyBwYWdpbmF0ZSwgTGlzdFF1ZXJ5IH0gZnJvbSAnLi4vLi4vY29tbW9uL3BhZ2luYXRpb24nOwppbXBvcnQgeyBub3dTZWMgfSBmcm9tICcuLi8uLi9jb21tb24vYmlnaW50LnRyYW5zZm9ybWVyJzsKaW1wb3J0IHsgQmFzZUVudGl0eSB9IGZyb20gJy4uLy4uL2NvbW1vbi9iYXNlLmVudGl0eSc7CgovKioKICog6YCa55SoIENSVUQg5pyN5Yqh77ya5Lia5Yqh5qih5Z2X77yI6LWE5paZL+i0rei0py/plIDotKcv5LuT5bqTL+i1hOmHke+8iee7n+S4gOWkjeeUqOOAggogKiDmj5DkvpvkuI7ljp/ns7vnu58gY29udHJvbGxlciDkuIDoh7TnmoQgaW5kZXgvYWRkL2VkaXQvZGVsIOiDveWKm++8iOWQq+WIhumhteOAgeWFs+mUruWtl+OAgei9r+WIoOmZpO+8ieOAggogKi8KQEluamVjdGFibGUoKQpleHBvcnQgY2xhc3MgQ3J1ZFNlcnZpY2U8VCBleHRlbmRzIEJhc2VFbnRpdHk+IHsKICBjb25zdHJ1Y3Rvcihwcm90ZWN0ZWQgcmVwbzogUmVwb3NpdG9yeTxUPikge30KCiAgYXN5bmMgaW5kZXgocXVlcnk6IExpc3RRdWVyeSAmIHsgc2VhcmNoRmllbGRzPzogc3RyaW5nW10gfSkgewogICAgY29uc3QgciA9IGF3YWl0IHBhZ2luYXRlPFQ+KHRoaXMucmVwbywgcXVlcnksIHsgc2VhcmNoRmllbGRzOiBxdWVyeS5zZWFyY2hGaWVsZHMgfSk7CiAgICByZXR1cm4gcjsKICB9CgogIGFzeW5jIGdldChpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gdGhpcy5yZXBvLmZpbmRPbmUoeyB3aGVyZTogeyBpZCwgZGVsZXRldGltZTogMCB9IGFzIGFueSB9KTsKICB9CgogIGFzeW5jIGFkZChkdG86IGFueSkgewogICAgY29uc3QgZW50aXR5ID0gdGhpcy5yZXBvLmNyZWF0ZSh7CiAgICAgIC4uLmR0bywKICAgICAgY3JlYXRldGltZTogbm93U2VjKCksCiAgICAgIHVwZGF0ZXRpbWU6IG5vd1NlYygpLAogICAgICBkZWxldGV0aW1lOiAwLAogICAgfSBhcyBhbnkpOwogICAgcmV0dXJuIHRoaXMucmVwby5zYXZlKGVudGl0eSk7CiAgfQoKICBhc3luYyBlZGl0KGlkOiBudW1iZXIsIGR0bzogYW55KSB7CiAgICBhd2FpdCB0aGlzLnJlcG8udXBkYXRlKGlkLCB7IC4uLmR0bywgdXBkYXRldGltZTogbm93U2VjKCkgfSBhcyBhbnkpOwogICAgcmV0dXJuIHRoaXMucmVwby5maW5kT25lKHsgd2hlcmU6IHsgaWQgfSBhcyBhbnkgfSk7CiAgfQoKICBhc3luYyBkZWwoaWQ6IG51bWJlcikgewogICAgYXdhaXQgdGhpcy5yZXBvLnVwZGF0ZShpZCwgeyBkZWxldGV0aW1lOiBub3dTZWMoKSB9IGFzIGFueSk7CiAgICByZXR1cm4gdHJ1ZTsKICB9Cn0K
+import { Injectable } from '@nestjs/common';
+import { Repository } from 'typeorm';
+import { paginate, ListQuery } from '../../common/pagination';
+import { nowSec } from '../../common/bigint.transformer';
+import { BaseEntity } from '../../common/base.entity';
+
+/**
+ * 通用 CRUD 服务：业务模块（资料/购货/销货/仓库/资金）统一复用。
+ * 提供与原系统 controller 一致的 index/add/edit/del 能力（含分页、关键字、软删除）。
+ */
+@Injectable()
+export class CrudService<T extends BaseEntity> {
+  constructor(protected repo: Repository<T>) {}
+
+  async index(query: ListQuery & { searchFields?: string[] }) {
+    const r = await paginate<T>(this.repo, query, { searchFields: query.searchFields });
+    return r;
+  }
+
+  async get(id: number) {
+    return this.repo.findOne({ where: { id, deletetime: 0 } as any });
+  }
+
+  async add(dto: any) {
+    const entity = this.repo.create({
+      ...dto,
+      createtime: nowSec(),
+      updatetime: nowSec(),
+      deletetime: 0,
+    } as any);
+    return this.repo.save(entity);
+  }
+
+  async edit(id: number, dto: any) {
+    await this.repo.update(id, { ...dto, updatetime: nowSec() } as any);
+    return this.repo.findOne({ where: { id } as any });
+  }
+
+  async del(id: number) {
+    await this.repo.update(id, { deletetime: nowSec() } as any);
+    return true;
+  }
+}

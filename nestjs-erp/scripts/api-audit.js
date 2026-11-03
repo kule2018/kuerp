@@ -1,1 +1,58 @@
-LyogZXNsaW50LWRpc2FibGUgKi8NCi8qKg0KICog5YmN5ZCO56uv5o6l5Y+j5aWR57qm5qC45a+56ISa5pys44CCDQogKiDnlKjpgJTvvJrpnZnmgIHmr5Tlr7njgIzliY3nq68gcmVxdWVzdC54eHgg55qE6Lev5b6E44CN5LiO44CM5ZCO56uvIEBDb250cm9sbGVyICsgQEdldC9AUG9zdCDot6/nlLHjgI3vvIwNCiAqIOaJvuWHuuWJjeerr+iwg+S6huS9huWQjuerr+ayoeacie+8iOaIlui3r+W+hOaLvOaOpemUme+8ieeahOaOpeWPo++8m+acrOmhueebruayoeaciSBlc2xpbnQvdHNj77yM55So5a6D5YWc5bqV44CCDQogKiDnlKjms5XvvJpub2RlIG5lc3Rqcy1lcnAvc2NyaXB0cy9hcGktYXVkaXQuanMNCiAqLw0KY29uc3QgZnM9cmVxdWlyZSgnZnMnKSxwYXRoPXJlcXVpcmUoJ3BhdGgnKTsNCmNvbnN0IFJPT1QgPSBwYXRoLmpvaW4oX19kaXJuYW1lLCAnLi4nLCAnLi4nKTsNCmNvbnN0IEZFID0gcGF0aC5qb2luKFJPT1QsICd2dWUzLWVycCcsICdzcmMnKTsNCmNvbnN0IEJFID0gcGF0aC5qb2luKFJPT1QsICduZXN0anMtZXJwJywgJ3NyYycpOw0KZnVuY3Rpb24gd2FsayhkLGV4dCxvdXQ9W10pe2Zvcihjb25zdCBlIG9mIGZzLnJlYWRkaXJTeW5jKGQse3dpdGhGaWxlVHlwZXM6dHJ1ZX0pKXtjb25zdCBwPXBhdGguam9pbihkLGUubmFtZSk7aWYoZS5pc0RpcmVjdG9yeSgpKXdhbGsocCxleHQsb3V0KTtlbHNlIGlmKGUubmFtZS5lbmRzV2l0aChleHQpKW91dC5wdXNoKHApO31yZXR1cm4gb3V0O30NCg0KLy8gLS0tLSDlkI7nq6/ot6/nlLEgLS0tLQ0KY29uc3Qgcm91dGVzPW5ldyBTZXQoKTsNCmZvcihjb25zdCBmIG9mIHdhbGsoQkUsJy5jb250cm9sbGVyLnRzJykpew0KICBjb25zdCBzPWZzLnJlYWRGaWxlU3luYyhmLCd1dGY4Jyk7DQogIGNvbnN0IGJhc2VNPVsuLi5zLm1hdGNoQWxsKC9AQ29udHJvbGxlclwoXHMqWyciYF0oW14nImBdKilbJyJgXS9nKV0ucG9wKCk7DQogIGNvbnN0IGJhc2U9YmFzZU0/YmFzZU1bMV06Jyc7DQogIGZvcihjb25zdCBtIG9mIHMubWF0Y2hBbGwoL0AoR2V0fFBvc3R8UHV0fERlbGV0ZXxQYXRjaHxBbGwpXChccypbJyJgXShbXiciYF0qKVsnImBdXHMqXCkvZykpew0KICAgIGxldCBwPScvJytbYmFzZSxtWzJdXS5maWx0ZXIoQm9vbGVhbikuam9pbignLycpOw0KICAgIHA9cC5yZXBsYWNlKC9cLysvZywnLycpLnJlcGxhY2UoLzooW2EtekEtWjAtOV9dKykvZywnOnAnKTsNCiAgICByb3V0ZXMuYWRkKG1bMV0udG9VcHBlckNhc2UoKSsnICcrcCk7DQogIH0NCn0NCi8vIC0tLS0g5YmN56uv6K+35rGCIC0tLS0NCmNvbnN0IGZlPW5ldyBTZXQoKTsNCmZvcihjb25zdCBmIG9mIHdhbGsoRkUsJy52dWUnKS5jb25jYXQod2FsayhGRSwnLmpzJykpLmNvbmNhdCh3YWxrKEZFLCcudHMnKSkpew0KICBjb25zdCBzPWZzLnJlYWRGaWxlU3luYyhmLCd1dGY4Jyk7DQogIGZvcihjb25zdCBtIG9mIHMubWF0Y2hBbGwoL3JlcXVlc3RcLihnZXR8cG9zdHxwdXR8ZGVsZXRlfHBhdGNofGRvd25sb2FkKVwoXHMqW2AnIl0oW15gJyJdKylbYCciXS9nKSl7DQogICAgbGV0IHA9bVsyXS5yZXBsYWNlKC9cJFx7W159XSpcfS9nLCc6cCcpOw0KICAgIGlmKCFwLnN0YXJ0c1dpdGgoJy8nKSljb250aW51ZTsNCiAgICBmZS5hZGQobVsxXS50b1VwcGVyQ2FzZSgpKycgJytwLnJlcGxhY2UoL1wvKy9nLCcvJykpOw0KICB9DQp9DQovLyDliqjmgIHooajot6/nlLHlsZXlvIDmiJDljLnphY3lmagNCmZ1bmN0aW9uIG1hdGNoKG1ldGhvZCxwKXsNCiAgY29uc3Qgc2Vncz1wLnNwbGl0KCcvJykuZmlsdGVyKEJvb2xlYW4pOw0KICBmb3IoY29uc3QgciBvZiByb3V0ZXMpew0KICAgIGNvbnN0IFt2bSxycF09ci5zcGxpdCgnICcpOw0KICAgIGNvbnN0IHJzPXJwLnNwbGl0KCcvJykuZmlsdGVyKEJvb2xlYW4pOw0KICAgIGlmKHJzLmxlbmd0aCE9PXNlZ3MubGVuZ3RoKWNvbnRpbnVlOw0KICAgIGxldCB2bU9rPSh2bT09PW1ldGhvZCl8fCgobWV0aG9kPT09J0dFVCcpJiYodm09PT0nQUxMJykpfHwoKG1ldGhvZD09PSdQT1NUJykmJih2bT09PSdBTEwnKSk7DQogICAgaWYoIXZtT2spY29udGludWU7DQogICAgbGV0IG9rPXRydWU7DQogICAgZm9yKGxldCBpPTA7aTxycy5sZW5ndGg7aSsrKXsNCiAgICAgIC8vIOS7u+S4gOS+p+aYr+WPguaVsOWNoOS9jeWNs+inhuS4uumAmumFje+8iOWJjeerr+aooeadv+WPmOmHjyAvIOWQjuerryA6cGFyYW3vvIkNCiAgICAgIGlmKHJzW2ldLnN0YXJ0c1dpdGgoJzonKXx8c2Vnc1tpXT09PSc6cCcpY29udGludWU7DQogICAgICBpZihyc1tpXSE9PXNlZ3NbaV0pe29rPWZhbHNlO2JyZWFrO30NCiAgICB9DQogICAgaWYob2spcmV0dXJuIHRydWU7DQogIH0NCiAgcmV0dXJuIGZhbHNlOw0KfQ0KY29uc3QgYmFkPVsuLi5mZV0uZmlsdGVyKHg9Pntjb25zdCBbbSxwXT14LnNwbGl0KCcgJyk7cmV0dXJuICFtYXRjaChtLHApO30pOw0KY29uc29sZS5sb2coJ+WQjuerr+i3r+eUseaVsDonLHJvdXRlcy5zaXplLCd8IOWJjeerr+ivt+axgui3r+W+hOaVsDonLGZlLnNpemUpOw0KY29uc29sZS5sb2coJy0tLSDmnKrljLnphY0gLS0tJyk7DQpiYWQuZm9yRWFjaChiPT5jb25zb2xlLmxvZygnICAnLGIpKTsNCg==
+/* eslint-disable */
+/**
+ * 前后端接口契约核对脚本。
+ * 用途：静态比对「前端 request.xxx 的路径」与「后端 @Controller + @Get/@Post 路由」，
+ * 找出前端调了但后端没有（或路径拼接错）的接口；本项目没有 eslint/tsc，用它兜底。
+ * 用法：node nestjs-erp/scripts/api-audit.js
+ */
+const fs=require('fs'),path=require('path');
+const ROOT = path.join(__dirname, '..', '..');
+const FE = path.join(ROOT, 'vue3-erp', 'src');
+const BE = path.join(ROOT, 'nestjs-erp', 'src');
+function walk(d,ext,out=[]){for(const e of fs.readdirSync(d,{withFileTypes:true})){const p=path.join(d,e.name);if(e.isDirectory())walk(p,ext,out);else if(e.name.endsWith(ext))out.push(p);}return out;}
+
+// ---- 后端路由 ----
+const routes=new Set();
+for(const f of walk(BE,'.controller.ts')){
+  const s=fs.readFileSync(f,'utf8');
+  const baseM=[...s.matchAll(/@Controller\(\s*['"`]([^'"`]*)['"`]/g)].pop();
+  const base=baseM?baseM[1]:'';
+  for(const m of s.matchAll(/@(Get|Post|Put|Delete|Patch|All)\(\s*['"`]([^'"`]*)['"`]\s*\)/g)){
+    let p='/'+[base,m[2]].filter(Boolean).join('/');
+    p=p.replace(/\/+/g,'/').replace(/:([a-zA-Z0-9_]+)/g,':p');
+    routes.add(m[1].toUpperCase()+' '+p);
+  }
+}
+// ---- 前端请求 ----
+const fe=new Set();
+for(const f of walk(FE,'.vue').concat(walk(FE,'.js')).concat(walk(FE,'.ts'))){
+  const s=fs.readFileSync(f,'utf8');
+  for(const m of s.matchAll(/request\.(get|post|put|delete|patch|download)\(\s*[`'"]([^`'"]+)[`'"]/g)){
+    let p=m[2].replace(/\$\{[^}]*\}/g,':p');
+    if(!p.startsWith('/'))continue;
+    fe.add(m[1].toUpperCase()+' '+p.replace(/\/+/g,'/'));
+  }
+}
+// 动态表路由展开成匹配器
+function match(method,p){
+  const segs=p.split('/').filter(Boolean);
+  for(const r of routes){
+    const [vm,rp]=r.split(' ');
+    const rs=rp.split('/').filter(Boolean);
+    if(rs.length!==segs.length)continue;
+    let vmOk=(vm===method)||((method==='GET')&&(vm==='ALL'))||((method==='POST')&&(vm==='ALL'));
+    if(!vmOk)continue;
+    let ok=true;
+    for(let i=0;i<rs.length;i++){
+      // 任一侧是参数占位即视为通配（前端模板变量 / 后端 :param）
+      if(rs[i].startsWith(':')||segs[i]===':p')continue;
+      if(rs[i]!==segs[i]){ok=false;break;}
+    }
+    if(ok)return true;
+  }
+  return false;
+}
+const bad=[...fe].filter(x=>{const [m,p]=x.split(' ');return !match(m,p);});
+console.log('后端路由数:',routes.size,'| 前端请求路径数:',fe.size);
+console.log('--- 未匹配 ---');
+bad.forEach(b=>console.log('  ',b));

@@ -1,1 +1,199 @@
-LyogPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQogKiDooajljZXmjpLniYjvvIjlhajlsYDvvIkKICogLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQogKiDpobnnm67kuK3miYDmnInkuJrliqHooajljZXpg73nlLEgPERzRmllbGQ+ICsg5qCF5qC85a655Zmo57uE5oiQ77yM6L+Z6YeM57uf5LiA5a6D5Lus55qE5o6S54mI6KeE5YiZ77yMCiAqIOmBv+WFjeavj+S4qumhtemdouWQhOWGmeS4gOWllyBnYXAgLyDlrZflj7cgLyDmoIfnrb7popzoibLvvIzlr7zoh7TlkIznsbvooajljZXplb/lvpfkuI3kuIDmoLfjgIIKICoKICog5L2/55So5pa55byP77yaCiAqICAgMSkg5pmu6YCa5by556qX6KGo5Y2V77yaPGRpdiBjbGFzcz0iZHMtZm9ybSBkcy1mb3JtLS0yIj7igKY8RHNGaWVsZC8+4oCmPC9kaXY+CiAqICAgMikg5Y2V5o2u6KGo5aS077yI5a2X5q616Ieq5bim5a695bqm77yJ77yaPGRpdiBjbGFzcz0iZHMtZm9ybSBkcy1mb3JtLS1pbmxpbmUiPuKApjwvZGl2PgogKiAgIDMpIOmcgOimgeaVtOihjO+8iOWkh+azqCAvIOS4iuS8oCAvIOaWh+acrOWfn++8ieeahOihqOWNlemhueWKoCBjbGFzcz0iZHMtZm9ybV9fZnVsbCIKICoKICog6K6+6K6h5Y+j5b6E77yaCiAqICAgLSDmoIfnrb7vvJoxM3B4IC8gNTAwIOWtl+mHjSAvIOasoeimgeaWh+Wtl+iJsu+8jOihjOmrmOWbuuWumiAyMHB477ybCiAqICAgLSDmoIfnrb7kuI7mjqfku7bpl7Tot50gNnB477yM5a2X5q615LmL6Ze0IDE4cHgg56uW5ZCR44CBMjBweCDmqKrlkJHvvJsKICogICAtIOaOp+S7tum7mOiupOaSkea7oeaJgOWcqOWIl++8iOWQhCBEcyDmjqfku7bmnKzouqvlt7LmmK8gd2lkdGg6MTAwJe+8ie+8jAogKiAgICAg6ZyA6KaB5Zu65a6a5a695bqm5pe25Zyo6K+l5o6n5Lu25LiK5YaZ5YaF6IGUIHN0eWxl77yI5YaF6IGU5LyY5YWI57qn6auY5LqO57G777yM5LiN5Lya6KKr6KaG55uW77yJ44CCCiAqID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09ICovCgovKiAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIDEuIOihqOWNlemhuSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tICovCgovKiDljZXkuKrlrZfmrrXvvJrmoIfnrb7lnKjkuIrjgIHmjqfku7blnKjkuIvvvIznurXlkJHmjpLliJcgKi8KLmRzLWZpZWxkIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgZ2FwOiA2cHg7IC8qIOagh+etviDihpQg5o6n5Lu2IOKGlCDmj5DnpLog55qE5Zu65a6a6IqC5aWPICovCiAgd2lkdGg6IDEwMCU7CiAgbWluLXdpZHRoOiAwOyAvKiDmoIXmoLzkuK3lhYHorrjmlLbnvKnvvIzplb/lrZfmrrXlkI0v6ZW/5YaF5a655LiN5Lya5oqK5YiX5pKR56C0ICovCn0KCi8qIOWtl+auteagh+etviAqLwouZHMtZmllbGQtbGFiZWwgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDJweDsKICBmb250LXNpemU6IHZhcigtLWRzLWZvbnQtc20pOwogIGZvbnQtd2VpZ2h0OiA1MDA7CiAgbGluZS1oZWlnaHQ6IDIwcHg7IC8qIOWbuuWumuihjOmrmO+8muacieaXoOagh+etvueahOihjOmrmOW6puS4gOiHtO+8jOWkmuWIl+S4jeS8mumUmeS9jSAqLwogIGNvbG9yOiB2YXIoLS1kcy10ZXh0LTIpOwogIG92ZXJmbG93OiBoaWRkZW47CiAgd2hpdGUtc3BhY2U6IG5vd3JhcDsKICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpczsKfQoKLyog5b+F5aGr5pif5Y+377ya6Lef5Zyo5qCH562+5paH5a2X5ZCO77yM57Sn6LS05LiN5Y2g6aKd5aSW5a695bqmICovCi5kcy1maWVsZC1yZXF1aXJlZDo6YWZ0ZXIgewogIGNvbnRlbnQ6ICcqJzsKICBjb2xvcjogdmFyKC0tZHMtZGFuZ2VyKTsKICBmb250LXNpemU6IHZhcigtLWRzLWZvbnQtc20pOwogIGxpbmUtaGVpZ2h0OiAxOwp9CgovKiDor7TmmI7kuI7moKHpqozplJnor6/vvJrlkIzkuIDkvY3nva7kupLmlqXlsZXnpLrvvIwxMnB4IOS4jeaKouS4u+S9k+S/oeaBryAqLwouZHMtZmllbGQtaGludCwKLmRzLWZpZWxkLWVycm9yIHsKICBmb250LXNpemU6IHZhcigtLWRzLWZvbnQteHMpOwogIGxpbmUtaGVpZ2h0OiAxOHB4Owp9Ci5kcy1maWVsZC1oaW50IHsKICBjb2xvcjogdmFyKC0tZHMtdGV4dC0zKTsKfQouZHMtZmllbGQtZXJyb3IgewogIGNvbG9yOiB2YXIoLS1kcy1kYW5nZXIpOwp9CgovKiDlrZfmrrXlhoXmjqfku7bnu5/kuIDljaDmu6HkuIDliJfvvJvlvIDlhbMv5Y2V6YCJL+WIhuautei/meexu+OAjOWwj+aOp+S7tuOAjeS/neaMgeiHqui6q+WuveW6puS4jeaLieS8uCAqLwouZHMtZmllbGQgPiAuZHMtc3dpdGNoLAouZHMtZmllbGQgPiAuZHMtc2VnbWVudGVkLAouZHMtZmllbGQgPiAuZHMtY2hlY2tib3gsCi5kcy1maWVsZCA+IC5kcy1yYWRpbyB7CiAgYWxpZ24tc2VsZjogZmxleC1zdGFydDsKfQoKLyog5Y+q6K+7IC8g56aB55So5a2X5q6177ya55So5byx5LiA5qGj55qE6IOM5pmv77yM5ZKM5Y+v57yW6L6R5a2X5q615Yy65YiG5byAICovCi5kcy1maWVsZCAuZHMtaW5wdXQtd3JhcC5pcy1kaXNhYmxlZCB7CiAgYmFja2dyb3VuZDogdmFyKC0tZHMtYmctc29mdCk7Cn0KCi8qIOacquWMheagheagvOOAgeWtl+auteebtOaOpeWghuWcqOW8ueeql+mHjOeahOihqOWNle+8iEFJIOmFjee9ruOAgeeuoeeQhuWRmOetieefreihqOWNle+8ie+8mgogICDnm7jpgrvlrZfmrrXkuYvpl7TooaUgMTZweO+8jOWQpuWImeagh+etvuS8muWSjOS4iuS4gOS4quaOp+S7tueahOS4i+i+ueahhui0tOWcqOS4gOi1t+OAggogICDlj6rpkojlr7nlvLnnqpfmraPmlocgLyDljaHniYfmraPmlofnmoTnm7TmjqXlrZDnuqfvvIzpgb/lhY3lvbHlk40gZmxleCDnrZvpgInmoI/ph4znmoTlrZfmrrXjgIIgKi8KLmRzLW1vZGFsLWJvZHkgPiAuZHMtZmllbGQgKyAuZHMtZmllbGQsCi5kcy1jYXJkLWNfX2JvZHkgPiAuZHMtZmllbGQgKyAuZHMtZmllbGQgewogIG1hcmdpbi10b3A6IDE2cHg7Cn0KCi8qIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gMi4g6KGo5Y2V5qCF5qC8IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gKi8KLyog5Z+656GA5qCF5qC877ya6buY6K6k5Lik5YiX77yIRVJQIOW8ueeql+ihqOWNleacgOW4uOingeeahOWvhuW6pu+8iSAqLwouZHMtZm9ybSB7CiAgZGlzcGxheTogZ3JpZDsKICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCh2YXIoLS1mb3JtLWNvbHMsIDIpLCBtaW5tYXgoMCwgMWZyKSk7CiAgZ2FwOiAxOHB4IDIwcHg7CiAgYWxpZ24taXRlbXM6IHN0YXJ0OyAvKiDlkIzooYzlrZfmrrXpq5jluqbkuI3kuIDml7bpobbpg6jlr7npvZDvvIzkuI3kupLnm7jmi4nmia8gKi8KfQoKLmRzLWZvcm0tLTEgewogIC0tZm9ybS1jb2xzOiAxOwp9Ci5kcy1mb3JtLS0yIHsKICAtLWZvcm0tY29sczogMjsKfQouZHMtZm9ybS0tMyB7CiAgLS1mb3JtLWNvbHM6IDM7Cn0KLmRzLWZvcm0tLTQgewogIC0tZm9ybS1jb2xzOiA0Owp9CgovKiDot6jliJfvvJrmlbTooYzvvIjlpIfms6jjgIHkuIrkvKDjgIHmlofmnKzln5/vvInvvIzku6Xlj4rkuKTliJfluIPlsYDkuIvnmoTljYrooYwgKi8KLmRzLWZvcm1fX2Z1bGwgewogIGdyaWQtY29sdW1uOiAxIC8gLTE7Cn0KCi8qIOWNleaNruihqOWktCAvIOetm+mAieagj++8muWtl+auteS/neeVmeWQhOiHquWuveW6pu+8jOaoquWQkea1geWKqOaNouihjO+8iOetieS7t+WOn+ezu+e7nyBlbC1mb3JtIGlubGluZe+8ieOAggogICDlrr3luqbnlKggbWF4LWNvbnRlbnQg6ICM5LiN5pivIDEwMCXvvJrmjqfku7bmnKzouqvlpKflpJrlhpnkuoblm7rlrprlrr3luqbvvIgxNTAvMTgwLzIwMHB477yJ77yMCiAgIG1heC1jb250ZW50IOiuqeWtl+auteWImuWlveWMheS9j+aOp+S7tu+8m+ayoeWGmeWuveW6pueahOaOp+S7tu+8iOaXpeacn+OAgeS4i+aLie+8ieeUsSBtaW4vbWF4LXdpZHRoIOWFnOS9j++8jAogICDkuI3kvJrnvKnmiJDkuIDmnaHnvJ3vvIzkuZ/kuI3kvJrlm6DkuLrkuIvmi4npgInpobnov4fplb/ogIzmiormlbTooYzmkpHlvIDjgIIgKi8KLmRzLWZvcm0tLWlubGluZSB7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LXdyYXA6IHdyYXA7CiAgYWxpZ24taXRlbXM6IGZsZXgtc3RhcnQ7CiAgZ2FwOiAxNHB4IDE4cHg7CiAgLyog5LiO5LiL5pa56KGo5qC85L+d5oyB5ZG85ZC46Ze06Led77ya5qOA57Si5Yy65o2i6KGM5Y+Y6auY5pe26KGo5qC85Lmf5LiN5Lya6LS05LiK5p2lICovCiAgbWFyZ2luLWJvdHRvbTogMTRweDsKfQouZHMtZm9ybS0taW5saW5lID4gLmRzLWZpZWxkIHsKICBmbGV4OiAwIDAgYXV0bzsKICB3aWR0aDogbWF4LWNvbnRlbnQ7CiAgbWluLXdpZHRoOiAxNDBweDsKICBtYXgtd2lkdGg6IDI4MHB4Owp9Ci8qIOihqOWktOmHjOeahOmVv+aWh+acrOWtl+aute+8iOWkh+azqOetie+8ieWFgeiuuOWNoOa7oeWJqeS9meepuumXtCAqLwouZHMtZm9ybS0taW5saW5lID4gLmRzLWZpZWxkLS1mbHVpZCB7CiAgZmxleDogMSAxIDI2MHB4OwogIG1pbi13aWR0aDogMjIwcHg7Cn0KCi8qIOS4i+aLiSAvIOaXpeacn+i/meexu+OAjOm7mOiupOaSkea7oeeItue6p+OAjeeahOaOp+S7tu+8jOWcqCBtYXgtY29udGVudCDnmoTlrZfmrrXph4zmsqHmnInoh6rnhLblrr3luqbvvIwKICAg57uZ5LiA5Liq5LiL6ZmQ5YWc5bqV77yM5YWN5b6X57yp5oiQ5Yeg5Y2B5YOP57Sg55qE5LiA5p2h57yd44CCICovCi5kcy1mb3JtLS1pbmxpbmUgLmRzLXNlbGVjdCwKLmRzLWZvcm0tLWlubGluZSAuZHMtZHAsCi5kcy1mb3JtLS1pbmxpbmUgLmRzLXRyZWVzZWxlY3QsCi5kcy1mb3JtLS1pbmxpbmUgLmRzLWNhc2NhZGVyIHsKICBtaW4td2lkdGg6IDE1MHB4Owp9CgovKiDml6DmoIfnrb7lrZfmrrXvvIjlkIzkuIDooYzph4zmlL7mjInpkq7nrYnvvInvvJrooaXlh7rmoIfnrb7ljaDnmoTpq5jluqbvvIzmjqfku7bmiY3og73lkozpgrvlsYXlr7npvZDjgIIKICAgMjZweCA9IOagh+etvuihjOmrmCAyMHB4ICsg5qCH562+5LiO5o6n5Lu26Ze06LedIDZweO+8jOaUueS4iumdouaVsOWAvOaXtuWQjOatpeaUuei/memHjOOAgiAqLwouZHMtZmllbGQtLW5vbGFiZWwgewogIHBhZGRpbmctdG9wOiAyNnB4Owp9CgovKiDmoIXmoLzlhoXnmoTliIboioLmoIfpopjvvJrnlKjkuo7plb/ooajljZXliIbnu4TvvIjln7rmnKzkv6Hmga8gLyDlsZ7mgKcgLyDlpIfms6jigKbvvIkgKi8KLmRzLWZvcm0tdGl0bGUgewogIGdyaWQtY29sdW1uOiAxIC8gLTE7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogOHB4OwogIG1hcmdpbi10b3A6IDRweDsKICBwYWRkaW5nLWxlZnQ6IDlweDsKICBib3JkZXItbGVmdDogM3B4IHNvbGlkIHZhcigtLWRzLWJyYW5kKTsKICBmb250LXNpemU6IHZhcigtLWRzLWZvbnQtc20pOwogIGZvbnQtd2VpZ2h0OiA2MDA7CiAgbGluZS1oZWlnaHQ6IDE4cHg7CiAgY29sb3I6IHZhcigtLWRzLXRleHQpOwp9Ci8qIOWIhuiKguagh+mimOWQjueahOesrOS4gOihjOS4jeWGjemineWkluWKoOmhtumDqOeVmeeZvSAqLwouZHMtZm9ybS10aXRsZTpmaXJzdC1jaGlsZCB7CiAgbWFyZ2luLXRvcDogMDsKfQovKiDmoIfpopjlj7PkvqfnmoTpmYTms6jvvIjlj6/pgInor7TmmI7vvIkgKi8KLmRzLWZvcm0tdGl0bGUgLmRzLWZvcm0tdGl0bGVfX3RpcCB7CiAgZm9udC13ZWlnaHQ6IDQwMDsKICBjb2xvcjogdmFyKC0tZHMtdGV4dC0zKTsKfQoKLyogLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAzLiDlk43lupTlvI8gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAqLwoKLyog5Zub5YiX77ya5Lit5bGP6ZmN5Yiw5LiJ5YiX77yM6YG/5YWN5q+P5YiX5a695bqm5LiN6LazIDE2MHB4IOWQjui+k+WFpeahhumHjOWPquWJqeWHoOS4quWtlyAqLwpAbWVkaWEgKG1heC13aWR0aDogMTE4MHB4KSB7CiAgLmRzLWZvcm0tLTQgewogICAgLS1mb3JtLWNvbHM6IDM7CiAgfQp9Ci8qIOS4iS/lm5vliJfvvJrnqoTlsY/nu5/kuIDkuKTliJcgKi8KQG1lZGlhIChtYXgtd2lkdGg6IDkwMHB4KSB7CiAgLmRzLWZvcm0tLTMsCiAgLmRzLWZvcm0tLTQgewogICAgLS1mb3JtLWNvbHM6IDI7CiAgfQp9Ci8qIOaJi+acuuWuveW6pu+8muS4gOW+i+WNleWIl++8jOagh+etvuS4juaOp+S7tuS4jeWGjeW5tuaOkiAqLwpAbWVkaWEgKG1heC13aWR0aDogNjQwcHgpIHsKICAuZHMtZm9ybSB7CiAgICAtLWZvcm0tY29sczogMTsKICB9CiAgLmRzLWZvcm0tLWlubGluZSA+IC5kcy1maWVsZCB7CiAgICB3aWR0aDogMTAwJTsKICB9Cn0K
+/* ============================================================================
+ * 表单排版（全局）
+ * ----------------------------------------------------------------------------
+ * 项目中所有业务表单都由 <DsField> + 栅格容器组成，这里统一它们的排版规则，
+ * 避免每个页面各写一套 gap / 字号 / 标签颜色，导致同类表单长得不一样。
+ *
+ * 使用方式：
+ *   1) 普通弹窗表单：<div class="ds-form ds-form--2">…<DsField/>…</div>
+ *   2) 单据表头（字段自带宽度）：<div class="ds-form ds-form--inline">…</div>
+ *   3) 需要整行（备注 / 上传 / 文本域）的表单项加 class="ds-form__full"
+ *
+ * 设计口径：
+ *   - 标签：13px / 500 字重 / 次要文字色，行高固定 20px；
+ *   - 标签与控件间距 6px，字段之间 18px 竖向、20px 横向；
+ *   - 控件默认撑满所在列（各 Ds 控件本身已是 width:100%），
+ *     需要固定宽度时在该控件上写内联 style（内联优先级高于类，不会被覆盖）。
+ * ========================================================================== */
+
+/* ---------------------------- 1. 表单项 ---------------------------- */
+
+/* 单个字段：标签在上、控件在下，纵向排列 */
+.ds-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px; /* 标签 ↔ 控件 ↔ 提示 的固定节奏 */
+  width: 100%;
+  min-width: 0; /* 栅格中允许收缩，长字段名/长内容不会把列撑破 */
+}
+
+/* 字段标签 */
+.ds-field-label {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-size: var(--ds-font-sm);
+  font-weight: 500;
+  line-height: 20px; /* 固定行高：有无标签的行高度一致，多列不会错位 */
+  color: var(--ds-text-2);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* 必填星号：跟在标签文字后，紧贴不占额外宽度 */
+.ds-field-required::after {
+  content: '*';
+  color: var(--ds-danger);
+  font-size: var(--ds-font-sm);
+  line-height: 1;
+}
+
+/* 说明与校验错误：同一位置互斥展示，12px 不抢主体信息 */
+.ds-field-hint,
+.ds-field-error {
+  font-size: var(--ds-font-xs);
+  line-height: 18px;
+}
+.ds-field-hint {
+  color: var(--ds-text-3);
+}
+.ds-field-error {
+  color: var(--ds-danger);
+}
+
+/* 字段内控件统一占满一列；开关/单选/分段这类「小控件」保持自身宽度不拉伸 */
+.ds-field > .ds-switch,
+.ds-field > .ds-segmented,
+.ds-field > .ds-checkbox,
+.ds-field > .ds-radio {
+  align-self: flex-start;
+}
+
+/* 只读 / 禁用字段：用弱一档的背景，和可编辑字段区分开 */
+.ds-field .ds-input-wrap.is-disabled {
+  background: var(--ds-bg-soft);
+}
+
+/* 未包栅格、字段直接堆在弹窗里的表单（AI 配置、管理员等短表单）：
+   相邻字段之间补 16px，否则标签会和上一个控件的下边框贴在一起。
+   只针对弹窗正文 / 卡片正文的直接子级，避免影响 flex 筛选栏里的字段。 */
+.ds-modal-body > .ds-field + .ds-field,
+.ds-card-c__body > .ds-field + .ds-field {
+  margin-top: 16px;
+}
+
+/* ---------------------------- 2. 表单栅格 ---------------------------- */
+/* 基础栅格：默认两列（ERP 弹窗表单最常见的密度） */
+.ds-form {
+  display: grid;
+  grid-template-columns: repeat(var(--form-cols, 2), minmax(0, 1fr));
+  gap: 18px 20px;
+  align-items: start; /* 同行字段高度不一时顶部对齐，不互相拉扯 */
+}
+
+.ds-form--1 {
+  --form-cols: 1;
+}
+.ds-form--2 {
+  --form-cols: 2;
+}
+.ds-form--3 {
+  --form-cols: 3;
+}
+.ds-form--4 {
+  --form-cols: 4;
+}
+
+/* 跨列：整行（备注、上传、文本域），以及两列布局下的半行 */
+.ds-form__full {
+  grid-column: 1 / -1;
+}
+
+/* 单据表头 / 筛选栏：字段保留各自宽度，横向流动换行（等价原系统 el-form inline）。
+   宽度用 max-content 而不是 100%：控件本身大多写了固定宽度（150/180/200px），
+   max-content 让字段刚好包住控件；没写宽度的控件（日期、下拉）由 min/max-width 兜住，
+   不会缩成一条缝，也不会因为下拉选项过长而把整行撑开。 */
+.ds-form--inline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 14px 18px;
+  /* 与下方表格保持呼吸间距：检索区换行变高时表格也不会贴上来 */
+  margin-bottom: 14px;
+}
+.ds-form--inline > .ds-field {
+  flex: 0 0 auto;
+  width: max-content;
+  min-width: 140px;
+  max-width: 280px;
+}
+/* 表头里的长文本字段（备注等）允许占满剩余空间 */
+.ds-form--inline > .ds-field--fluid {
+  flex: 1 1 260px;
+  min-width: 220px;
+}
+
+/* 下拉 / 日期这类「默认撑满父级」的控件，在 max-content 的字段里没有自然宽度，
+   给一个下限兜底，免得缩成几十像素的一条缝。 */
+.ds-form--inline .ds-select,
+.ds-form--inline .ds-dp,
+.ds-form--inline .ds-treeselect,
+.ds-form--inline .ds-cascader {
+  min-width: 150px;
+}
+
+/* 无标签字段（同一行里放按钮等）：补出标签占的高度，控件才能和邻居对齐。
+   26px = 标签行高 20px + 标签与控件间距 6px，改上面数值时同步改这里。 */
+.ds-field--nolabel {
+  padding-top: 26px;
+}
+
+/* 栅格内的分节标题：用于长表单分组（基本信息 / 属性 / 备注…） */
+.ds-form-title {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  padding-left: 9px;
+  border-left: 3px solid var(--ds-brand);
+  font-size: var(--ds-font-sm);
+  font-weight: 600;
+  line-height: 18px;
+  color: var(--ds-text);
+}
+/* 分节标题后的第一行不再额外加顶部留白 */
+.ds-form-title:first-child {
+  margin-top: 0;
+}
+/* 标题右侧的附注（可选说明） */
+.ds-form-title .ds-form-title__tip {
+  font-weight: 400;
+  color: var(--ds-text-3);
+}
+
+/* ---------------------------- 3. 响应式 ---------------------------- */
+
+/* 四列：中屏降到三列，避免每列宽度不足 160px 后输入框里只剩几个字 */
+@media (max-width: 1180px) {
+  .ds-form--4 {
+    --form-cols: 3;
+  }
+}
+/* 三/四列：窄屏统一两列 */
+@media (max-width: 900px) {
+  .ds-form--3,
+  .ds-form--4 {
+    --form-cols: 2;
+  }
+}
+/* 手机宽度：一律单列，标签与控件不再并排 */
+@media (max-width: 640px) {
+  .ds-form {
+    --form-cols: 1;
+  }
+  .ds-form--inline > .ds-field {
+    width: 100%;
+  }
+}

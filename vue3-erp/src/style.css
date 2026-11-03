@@ -1,1 +1,3 @@
-KiB7IGJveC1zaXppbmc6IGJvcmRlci1ib3g7IH0KaHRtbCwgYm9keSwgI2FwcCB7IGhlaWdodDogMTAwJTsgbWFyZ2luOiAwOyBwYWRkaW5nOiAwOyB9CmJvZHkgeyBmb250LWZhbWlseTogLWFwcGxlLXN5c3RlbSwgQmxpbmtNYWNTeXN0ZW1Gb250LCAnU2Vnb2UgVUknLCAnUGluZ0ZhbmcgU0MnLCAnTWljcm9zb2Z0IFlhSGVpJywgc2Fucy1zZXJpZjsgYmFja2dyb3VuZDogI2YwZjJmNTsgfQo=
+* { box-sizing: border-box; }
+html, body, #app { height: 100%; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif; background: #f0f2f5; }

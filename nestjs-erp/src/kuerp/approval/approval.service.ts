@@ -1,1 +1,516 @@
-aW1wb3J0IHsgQmFkUmVxdWVzdEV4Y2VwdGlvbiwgRm9yYmlkZGVuRXhjZXB0aW9uLCBJbmplY3RhYmxlLCBMb2dnZXIsIE5vdEZvdW5kRXhjZXB0aW9uIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBEYXRhU291cmNlIH0gZnJvbSAndHlwZW9ybSc7CmltcG9ydCB7IFRhYmxlU2VydmljZSB9IGZyb20gJy4uL3RhYmxlL3RhYmxlLnNlcnZpY2UnOwppbXBvcnQgeyBNZXNzYWdlU2VydmljZSB9IGZyb20gJy4uLy4uL2NvbW1vbi9tZXNzYWdlL21lc3NhZ2Uuc2VydmljZSc7CgovKiog5b2T5YmN55m75b2V55So5oi377yISnd0U3RyYXRlZ3kg5aGr5YWF55qE5pyA5bCP5L+h5oGv77yJICovCmV4cG9ydCBpbnRlcmZhY2UgQXBwcm92YWxVc2VyIHsKICBpZDogbnVtYmVyOwogIHVzZXJuYW1lPzogc3RyaW5nOwogIG5pY2tuYW1lPzogc3RyaW5nOwp9CgovKiog5LiA5p2h5a6h5om55rWB6YWN572u77yI5a+55bqUIGt1ZXJwX2FwcHJvdmFsX2Zsb3cg5LiA6KGM77yJICovCmludGVyZmFjZSBGbG93Um93IHsKICBpZDogbnVtYmVyOwogIGRvY190YWJsZTogc3RyaW5nOwogIGxldmVsOiBudW1iZXI7CiAgcm9sZV9pZDogbnVtYmVyOwogIG1pbl9hbW91bnQ6IHN0cmluZyB8IG51bWJlcjsKICBtYXhfYW1vdW50OiBzdHJpbmcgfCBudW1iZXI7CiAgc3RhdHVzOiBzdHJpbmcgfCBudW1iZXI7CiAgbm90ZTogc3RyaW5nOwp9CgovKiog5LiA5p2h5a6h5om55rWB6L2s6K6w5b2V77yI5a+55bqUIGt1ZXJwX2FwcHJvdmFsX2xvZyDkuIDooYzvvIkgKi8KaW50ZXJmYWNlIExvZ1JvdyB7CiAgaWQ6IG51bWJlcjsKICBkb2NfdGFibGU6IHN0cmluZzsKICBkb2NfaWQ6IG51bWJlcjsKICBkb2NfY29kZTogc3RyaW5nOwogIGxldmVsOiBudW1iZXI7CiAgdG90YWxfbGV2ZWw6IG51bWJlcjsKICBhcHByb3Zlcl9pZDogbnVtYmVyOwogIGFwcHJvdmVyX25hbWU6IHN0cmluZzsKICByZXN1bHQ6IHN0cmluZzsKICByZW1hcms6IHN0cmluZzsKICBjcmVhdGV0aW1lOiBudW1iZXIgfCBzdHJpbmc7CiAgdXBkYXRldGltZTogbnVtYmVyIHwgc3RyaW5nOwp9CgovKioKICog5aSa57qn5a6h5om55rWB5pyN5Yqh44CCCiAqCiAqIOOAkOaVtOS9k+aAnei3r+OAkQogKiDljp/ns7vnu5/nmoTjgIzlrqHmoLjjgI3mmK/ljZXnuqfvvJrngrnkuIDkuIsgZXhhbWluZSDlsLHku47jgIzmnKrlrqHjgI3lj5jjgIzlt7LlrqHjgI3lubbov4fotKbjgIIKICog5pys5pyN5Yqh5Zyo5a6D5LiO5Lia5Yqh5Y2V5o2u5LmL6Ze05o+S5YWl5LiA5bGCKirlj6/phY3nva7nmoTlpJrnuqflrqHmibkqKu+8jOS9huS4jeaUueWKqOWOn+acieWuoeaguOmTvui3r++8mgogKgogKiAgIOaPkOS6pOWuoeaJuSDihpIg6YCQ57qn6YCa6L+HIOKGkiDmnIDlkI7kuIDnuqfpgJrov4fml7YqKuWbnuiwgyBUYWJsZVNlcnZpY2UuZXhhbWluZShkb2NUYWJsZSwgZG9jSWQsIDEpKioKICoKICog6L+Z5qC35YGa55qE5LiJ5Liq5aW95aSE77yaCiAqIDEpIOi/h+i0pumAu+i+ke+8iOW6k+WtmC/otYTph5Ev5om55qyhL+W6j+WIl+WPt++8ieWujOWFqOWkjeeUqOaXouacieW8leaTju+8jOS4jemHjeWkjeWunueOsO+8jOS4jeS8muWHuueOsOWPo+W+hOWIhuWPie+8mwogKiAyKSDmnKrphY3nva7lrqHmibnmtYHnmoTljZXmja7vvIhrdWVycF9hcHByb3ZhbF9mbG93IOmHjOafpeS4jeWIsO+8iei1sOWOn+i3r+W+hO+8jOihjOS4uuS4juWNh+e6p+WJjeWujOWFqOS4gOiHtO+8mwogKiAzKSDpqbPlm57lj6rpnIDmiormnIDlkI7kuIDmnaEgcGVuZGluZyDorrDlvZXmoIcgcmVqZWN077yM5Y2V5o2u5pys6Lqr5LiN5Yqo77yM5LiN5Lya5Lqn55Sf5Y2K6L+H6LSm55qE6ISP5pWw5o2u44CCCiAqCiAqIOWuoeaJuee6p+aVsOeUseOAjOWNleaNrumHkemineOAjeWKqOaAgeWGs+Wumu+8mumBjeWOhuWQr+eUqOeahOmFjee9ru+8jOWPliBtaW5fYW1vdW50IDw9IOmHkeminSA8PSBtYXhfYW1vdW50CiAqIO+8iG1heF9hbW91bnQgPSAwIOinhuS4uuS4jemZkOS4iumZkO+8ieeahOmCo+S6m+ihjO+8jOaMiSBsZXZlbCDljYfluo/ljbPkuLrmnKzmrKHpnIDopoHnmoTlrqHmibnpk77jgIIKICovCkBJbmplY3RhYmxlKCkKZXhwb3J0IGNsYXNzIEFwcHJvdmFsU2VydmljZSB7CiAgcHJpdmF0ZSByZWFkb25seSBsb2dnZXIgPSBuZXcgTG9nZ2VyKEFwcHJvdmFsU2VydmljZS5uYW1lKTsKCiAgY29uc3RydWN0b3IoCiAgICBwcml2YXRlIHJlYWRvbmx5IGRhdGFTb3VyY2U6IERhdGFTb3VyY2UsCiAgICBwcml2YXRlIHJlYWRvbmx5IHRhYmxlU2VydmljZTogVGFibGVTZXJ2aWNlLAogICAgcHJpdmF0ZSByZWFkb25seSBtZXNzYWdlczogTWVzc2FnZVNlcnZpY2UsCiAgKSB7fQoKICAvKiog5b2T5YmN56eS57qn5pe26Ze05oizICovCiAgcHJpdmF0ZSBub3coKTogbnVtYmVyIHsKICAgIHJldHVybiBNYXRoLmZsb29yKERhdGUubm93KCkgLyAxMDAwKTsKICB9CgogIC8qKgogICAqIOW9kuS4gOWMluWNleaNruihqOWQje+8iOWFgeiuuOS8oCBnb29kcy1zYWxlcy1vcmRlciAvIGdvb2RzX3NhbGVzX29yZGVyIC8ga3VlcnBfZ29vZHNfc2FsZXNfb3JkZXLvvInjgIIKICAgKiBAcGFyYW0gZG9jVGFibGUg6LCD55So5pa55Lyg5YWl55qE6KGo5ZCNCiAgICogQHJldHVybnMg5LiN5ZCrIGt1ZXJwXyDliY3nvIDjgIHkuIvliJLnur/lvaLlvI/nmoTmoIflh4booajlkI0KICAgKi8KICBwcml2YXRlIG5vcm1UYWJsZShkb2NUYWJsZTogc3RyaW5nKTogc3RyaW5nIHsKICAgIGNvbnN0IHQgPSBTdHJpbmcoZG9jVGFibGUgfHwgJycpCiAgICAgIC50cmltKCkKICAgICAgLnJlcGxhY2UoLy0vZywgJ18nKQogICAgICAucmVwbGFjZSgvXmt1ZXJwXy8sICcnKTsKICAgIGlmICghL15bYS16MC05X10rJC9pLnRlc3QodCkpIHRocm93IG5ldyBCYWRSZXF1ZXN0RXhjZXB0aW9uKCfpnZ7ms5XljZXmja7ooajlkI0nKTsKICAgIHJldHVybiB0OwogIH0KCiAgLyoqCiAgICog6K+75Y+W5p+Q5Y2V5o2u57G75Z6L5LiL5YWo6YOo5ZCv55So5Lit55qE5a6h5om55rWB6YWN572u44CCCiAgICogQHBhcmFtIGRvY1RhYmxlIOagh+WHhuihqOWQje+8iOS4jeWQq+WJjee8gO+8iQogICAqIEByZXR1cm5zIOaMiSBsZXZlbCDljYfluo/nmoTphY3nva7ooYwKICAgKi8KICBwcml2YXRlIGFzeW5jIGxvYWRGbG93cyhkb2NUYWJsZTogc3RyaW5nKTogUHJvbWlzZTxGbG93Um93W10+IHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJvd3MgPSBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgICAgYFNFTEVDVCAqIEZST00ga3VlcnBfYXBwcm92YWxfZmxvdwogICAgICAgICAgV0hFUkUgZG9jX3RhYmxlID0gPyBBTkQgc3RhdHVzID0gMSBBTkQgKGRlbGV0ZXRpbWUgSVMgTlVMTCBPUiBkZWxldGV0aW1lID0gMCkKICAgICAgICAgIE9SREVSIEJZIGxldmVsIEFTQywgaWQgQVNDYCwKICAgICAgICBbZG9jVGFibGVdLAogICAgICApOwogICAgICByZXR1cm4gcm93cyB8fCBbXTsKICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICAvLyDlhbzlrrnlsJrmnKrmiafooYwgZXh0ZW5zaW9uLXNjaGVtYS5zcWwg55qE5pen5bqT77ya6KGo57y65aSx5pe26KeG5Li644CM5peg5a6h5om55rWB44CN77yM6LWw5Y6f5Y2V57qn5a6h5qC4CiAgICAgIGlmIChTdHJpbmcoZT8uY29kZSB8fCAnJykgPT09ICdFUl9OT19TVUNIX1RBQkxFJykgcmV0dXJuIFtdOwogICAgICB0aHJvdyBlOwogICAgfQogIH0KCiAgLyoqCiAgICog5oyJ6YeR6aKd562b6YCJ5Ye65pys5qyh5a6e6ZmF55Sf5pWI55qE5a6h5om557qn5qyh44CCCiAgICoKICAgKiDlkIzkuIAgbGV2ZWwg6Iul5pyJ5aSa6KGM5ZG95Lit77yI5L6L5aaC6YWN5LqG5Lik5p2h5LiN5ZCM6KeS6Imy55qE5LiA57qn5a6h5om577yJ77yM5Y+q5L+d55WZ56ys5LiA5p2h77yMCiAgICog6YG/5YWN5Ye6546w44CM5LiA57qn6KaB6L+H5Lik5qyh44CN6L+Z56eN5peg5rOV6Kej6YeK55qE54q25oCB44CCCiAgICoKICAgKiBAcGFyYW0gZmxvd3Mg5bey5oyJIGxldmVsIOWNh+W6j+eahOmFjee9rgogICAqIEBwYXJhbSBhbW91bnQg5Y2V5o2u6YeR6aKd77yI5Y+W5Lu356iO5ZCI6K6hL+S8mOaDoOWQjumHkemine+8jOingSBwaWNrQW1vdW5077yJCiAgICogQHJldHVybnMg5Y676YeN5ZCO55qE55Sf5pWI6YWN572uCiAgICovCiAgcHJpdmF0ZSBtYXRjaExldmVscyhmbG93czogRmxvd1Jvd1tdLCBhbW91bnQ6IG51bWJlcik6IEZsb3dSb3dbXSB7CiAgICBjb25zdCBoaXQgPSBmbG93cy5maWx0ZXIoKGYpID0+IHsKICAgICAgY29uc3QgbWluID0gTnVtYmVyKGYubWluX2Ftb3VudCkgfHwgMDsKICAgICAgY29uc3QgbWF4ID0gTnVtYmVyKGYubWF4X2Ftb3VudCkgfHwgMDsKICAgICAgaWYgKGFtb3VudCA8IG1pbikgcmV0dXJuIGZhbHNlOwogICAgICBpZiAobWF4ID4gMCAmJiBhbW91bnQgPiBtYXgpIHJldHVybiBmYWxzZTsKICAgICAgcmV0dXJuIHRydWU7CiAgICB9KTsKICAgIGNvbnN0IHNlZW4gPSBuZXcgU2V0PG51bWJlcj4oKTsKICAgIGNvbnN0IG91dDogRmxvd1Jvd1tdID0gW107CiAgICBmb3IgKGNvbnN0IGYgb2YgaGl0KSB7CiAgICAgIGNvbnN0IGx2ID0gTnVtYmVyKGYubGV2ZWwpIHx8IDE7CiAgICAgIGlmIChzZWVuLmhhcyhsdikpIGNvbnRpbnVlOwogICAgICBzZWVuLmFkZChsdik7CiAgICAgIG91dC5wdXNoKGYpOwogICAgfQogICAgLy8g57qn5qyh5b+F6aG75LuOIDEg5byA5aeL6L+e57ut77yM5ZCm5YiZ44CM6YCa6L+H56ysIDEg57qn5ZCO5bCx5rKh5pyJ56ysIDIg57qn44CN5Lya5Y2h5L2P5Y2V5o2uCiAgICByZXR1cm4gb3V0Lm1hcCgoZiwgaSkgPT4gKHsgLi4uZiwgbGV2ZWw6IGkgKyAxIH0pKTsKICB9CgogIC8qKgogICAqIOS7juWNleaNruihjOmHjOaMkeWHuueUqOS6juWIpOWumumHkemineeahOWIl+OAggogICAqCiAgICog5LyY5YWI57qn77ya5Lu356iO5ZCI6K6hID4g5LyY5oOg5ZCO6YeR6aKdID4g5Y2V5o2u6YeR6aKdID4g5bey5pS2L+S7mOmHkemineOAggogICAqIOS5i+aJgOS7peWFiOWPluS7t+eojuWQiOiuoe+8muWQq+eojuS4muWKoeeahOWuoeaJuemXqOanm+mAmuW4uOaMieWQq+eojuWPo+W+hOiwiO+8jAogICAqIOWOn+ezu+e7n+WIl+ihqOmhteWxleekuueahOOAjOWNleaNrumHkemineOAjeWcqOacieeojuaXtuS5n+aYr+S7t+eojuWQiOiuoeOAggogICAqCiAgICogQHBhcmFtIHJvdyDljZXmja7kuLvooajooYwKICAgKiBAcmV0dXJucyDph5Hpop3vvIjlj5bkuI3liLDov5Tlm54gMO+8iQogICAqLwogIHByaXZhdGUgcGlja0Ftb3VudChyb3c6IFJlY29yZDxzdHJpbmcsIGFueT4pOiBudW1iZXIgewogICAgY29uc3Qga2V5cyA9IFsnbW9uZXlfdGF4X3ByaWNlJywgJ3JlYWxfbW9uZXknLCAnYWxsX21vbmV5JywgJ3RvdGFsX21vbmV5JywgJ21vbmV5JywgJ3BheV9tb25leSddOwogICAgZm9yIChjb25zdCBrIG9mIGtleXMpIHsKICAgICAgY29uc3QgdiA9IHJvdz8uW2tdOwogICAgICBpZiAodiAhPT0gdW5kZWZpbmVkICYmIHYgIT09IG51bGwgJiYgdiAhPT0gJycpIHsKICAgICAgICBjb25zdCBuID0gTnVtYmVyKHYpOwogICAgICAgIGlmICghTnVtYmVyLmlzTmFOKG4pKSByZXR1cm4gbjsKICAgICAgfQogICAgfQogICAgcmV0dXJuIDA7CiAgfQoKICAvKioKICAgKiDor7vlj5bljZXmja7kuLvooajnmoTkuIDooYzvvIjooajlkI3lt7Lnmb3lkI3ljZXmoKHpqozvvIzmraTlpITku4XmjInkuLvplK7lj5bvvInjgIIKICAgKiBAcGFyYW0gZG9jVGFibGUg5qCH5YeG6KGo5ZCN77yI5LiN5ZCr5YmN57yA77yJCiAgICogQHBhcmFtIGRvY0lkIOS4u+mUrgogICAqIEByZXR1cm5zIOWNleaNruihjAogICAqLwogIHByaXZhdGUgYXN5bmMgbG9hZERvYyhkb2NUYWJsZTogc3RyaW5nLCBkb2NJZDogbnVtYmVyKTogUHJvbWlzZTxSZWNvcmQ8c3RyaW5nLCBhbnk+PiB7CiAgICBjb25zdCByb3dzID0gYXdhaXQgdGhpcy5kYXRhU291cmNlLnF1ZXJ5KAogICAgICBgU0VMRUNUICogRlJPTSBcYGt1ZXJwXyR7ZG9jVGFibGV9XGAgV0hFUkUgaWQgPSA/IExJTUlUIDFgLAogICAgICBbZG9jSWRdLAogICAgKTsKICAgIGlmICghcm93cz8ubGVuZ3RoKSB0aHJvdyBuZXcgTm90Rm91bmRFeGNlcHRpb24oJ+WNleaNruS4jeWtmOWcqCcpOwogICAgcmV0dXJuIHJvd3NbMF07CiAgfQoKICAvKioKICAgKiDlj5bnlKjmiLfmiYDlsZ7nmoTop5LoibLnu4QgSUQg5YiX6KGo44CCCiAgICogQHBhcmFtIGFkbWluSWQg566h55CG5ZGYSUQKICAgKiBAcmV0dXJucyDop5LoibLnu4RJROaVsOe7hO+8iOaXoOWImeepuuaVsOe7hO+8iQogICAqLwogIHByaXZhdGUgYXN5bmMgZ3JvdXBJZHNPZihhZG1pbklkOiBudW1iZXIpOiBQcm9taXNlPG51bWJlcltdPiB7CiAgICB0cnkgewogICAgICBjb25zdCByb3dzID0gYXdhaXQgdGhpcy5kYXRhU291cmNlLnF1ZXJ5KAogICAgICAgICdTRUxFQ1QgZ3JvdXBfaWQgRlJPTSBrdWVycF9hdXRoX2dyb3VwX2FjY2VzcyBXSEVSRSBhZG1pbl9pZCA9ID8nLAogICAgICAgIFthZG1pbklkXSwKICAgICAgKTsKICAgICAgcmV0dXJuIChyb3dzIHx8IFtdKS5tYXAoKHI6IGFueSkgPT4gTnVtYmVyKHIuZ3JvdXBfaWQpKS5maWx0ZXIoQm9vbGVhbik7CiAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgaWYgKFN0cmluZyhlPy5jb2RlIHx8ICcnKSA9PT0gJ0VSX05PX1NVQ0hfVEFCTEUnKSByZXR1cm4gW107CiAgICAgIHRocm93IGU7CiAgICB9CiAgfQoKICAvKioKICAgKiDliKTmlq3nlKjmiLfog73lkKblrqHmibnmjIflrprnuqfmrKHjgIIKICAgKgogICAqIOinhOWIme+8mumFjee9rumHjCByb2xlX2lkID0gMCDooajnpLrjgIzkuI3pmZDop5LoibLjgI3vvIjku7vkvZXmnInnmbvlvZXmnYPpmZDnmoTkurrpg73og73lrqHvvInvvJsKICAgKiDlkKbliJnnlKjmiLflv4XpobvlsZ7kuo7or6Xop5LoibLnu4TjgILotoXnuqfnrqHnkIblkZjvvIhpZD0x77yJ5oGS6YCa6L+H77yM5LiO5Y6f57O757uf6LaF566h5YWN5qOA5LiA6Ie044CCCiAgICoKICAgKiBAcGFyYW0gZmxvdyDor6XnuqfmrKHphY3nva4KICAgKiBAcGFyYW0gdXNlciDlvZPliY3nlKjmiLcKICAgKiBAcmV0dXJucyDmmK/lkKblj6/lrqEKICAgKi8KICBwcml2YXRlIGFzeW5jIGNhbkFwcHJvdmUoZmxvdzogRmxvd1JvdywgdXNlcjogQXBwcm92YWxVc2VyKTogUHJvbWlzZTxib29sZWFuPiB7CiAgICBpZiAoTnVtYmVyKHVzZXIuaWQpID09PSAxKSByZXR1cm4gdHJ1ZTsKICAgIGNvbnN0IHJvbGVJZCA9IE51bWJlcihmbG93LnJvbGVfaWQpIHx8IDA7CiAgICBpZiAoIXJvbGVJZCkgcmV0dXJuIHRydWU7CiAgICBjb25zdCBncm91cHMgPSBhd2FpdCB0aGlzLmdyb3VwSWRzT2YoTnVtYmVyKHVzZXIuaWQpKTsKICAgIHJldHVybiBncm91cHMuaW5jbHVkZXMocm9sZUlkKTsKICB9CgogIC8qKgogICAqIOafpeivouafkOWNleaNruW9k+WJjeeahOWuoeaJuemTvu+8iOWQq+avj+S4gOe6p+eahOWkhOeQhueKtuaAge+8ie+8jOS+m+WJjeerr+eUu+i/m+W6puadoeOAggogICAqIEBwYXJhbSBkb2NUYWJsZSDljZXmja7ooajlkI0KICAgKiBAcGFyYW0gZG9jSWQg5Y2V5o2uSUQKICAgKiBAcmV0dXJucyB7IHRvdGFsLCBjdXJyZW50LCBsb2dzIH0KICAgKi8KICBhc3luYyBzdGF0dXMoZG9jVGFibGU6IHN0cmluZywgZG9jSWQ6IG51bWJlcikgewogICAgY29uc3QgdGFibGUgPSB0aGlzLm5vcm1UYWJsZShkb2NUYWJsZSk7CiAgICBjb25zdCBsb2dzID0gYXdhaXQgdGhpcy5sb2dzKHRhYmxlLCBkb2NJZCk7CiAgICBjb25zdCB0b3RhbCA9IGxvZ3MubGVuZ3RoID8gTnVtYmVyKGxvZ3NbMF0udG90YWxfbGV2ZWwpIHx8IGxvZ3MubGVuZ3RoIDogMDsKICAgIGNvbnN0IHBlbmRpbmcgPSBsb2dzLmZpbmQoKGwpID0+IGwucmVzdWx0ID09PSAncGVuZGluZycpOwogICAgY29uc3QgcmVqZWN0ZWQgPSBsb2dzLmZpbmQoKGwpID0+IGwucmVzdWx0ID09PSAncmVqZWN0Jyk7CiAgICByZXR1cm4gewogICAgICB0b3RhbCwKICAgICAgZG9uZTogbG9ncy5maWx0ZXIoKGwpID0+IGwucmVzdWx0ID09PSAncGFzcycpLmxlbmd0aCwKICAgICAgY3VycmVudDogcGVuZGluZyA/IE51bWJlcihwZW5kaW5nLmxldmVsKSA6IDAsCiAgICAgIHN0YXRlOiByZWplY3RlZCA/ICdyZWplY3QnIDogcGVuZGluZyA/ICdwZW5kaW5nJyA6IHRvdGFsID8gJ3Bhc3MnIDogJ25vbmUnLAogICAgICBsb2dzLAogICAgfTsKICB9CgogIC8qKgogICAqIOivu+WPluafkOWNleaNrueahOWFqOmDqOa1gei9rOiusOW9le+8iOaMiee6p+asoeWNh+W6j++8ieOAggogICAqIEBwYXJhbSBkb2NUYWJsZSDmoIflh4booajlkI0KICAgKiBAcGFyYW0gZG9jSWQg5Y2V5o2uSUQKICAgKiBAcmV0dXJucyDorrDlvZXmlbDnu4QKICAgKi8KICBwcml2YXRlIGFzeW5jIGxvZ3MoZG9jVGFibGU6IHN0cmluZywgZG9jSWQ6IG51bWJlcik6IFByb21pc2U8TG9nUm93W10+IHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJvd3MgPSBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgICAgYFNFTEVDVCAqIEZST00ga3VlcnBfYXBwcm92YWxfbG9nCiAgICAgICAgICBXSEVSRSBkb2NfdGFibGUgPSA/IEFORCBkb2NfaWQgPSA/CiAgICAgICAgICBPUkRFUiBCWSBsZXZlbCBBU0MsIGlkIEFTQ2AsCiAgICAgICAgW2RvY1RhYmxlLCBkb2NJZF0sCiAgICAgICk7CiAgICAgIHJldHVybiByb3dzIHx8IFtdOwogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgIGlmIChTdHJpbmcoZT8uY29kZSB8fCAnJykgPT09ICdFUl9OT19TVUNIX1RBQkxFJykgcmV0dXJuIFtdOwogICAgICB0aHJvdyBlOwogICAgfQogIH0KCiAgLyoqCiAgICog5o+Q5Lqk5a6h5om577ya5oyJ6YeR6aKd55Sf5oiQ5a6h5om56ZO+77yM6JC956ys5LiA5p2h5b6F5a6h6K6w5b2V77yM5bm257uZ5a6h5om55Lq65Y+R5raI5oGv44CCCiAgICoKICAgKiDoi6Xor6XljZXmja7nsbvlnovmnKrphY3nva7lrqHmibnmtYHvvIzov5Tlm54geyBuZWVkQXBwcm92YWw6IGZhbHNlIH3vvIwKICAgKiDliY3nq6/mja7mraTmj5DnpLrjgIzlj6/nm7TmjqXlrqHmoLjjgI3vvIzpmo/lkI7otbDljp/mnIkgZXhhbWluZSDmjqXlj6PjgIIKICAgKgogICAqIEBwYXJhbSBkb2NUYWJsZSDljZXmja7ooajlkI0KICAgKiBAcGFyYW0gZG9jSWQg5Y2V5o2uSUQKICAgKiBAcGFyYW0gdXNlciDmj5DkuqTkuroKICAgKiBAcmV0dXJucyDlrqHmibnnirbmgIEKICAgKi8KICBhc3luYyBzdWJtaXQoZG9jVGFibGU6IHN0cmluZywgZG9jSWQ6IG51bWJlciwgdXNlcjogQXBwcm92YWxVc2VyKSB7CiAgICBjb25zdCB0YWJsZSA9IHRoaXMubm9ybVRhYmxlKGRvY1RhYmxlKTsKICAgIGNvbnN0IGRvYyA9IGF3YWl0IHRoaXMubG9hZERvYyh0YWJsZSwgZG9jSWQpOwogICAgaWYgKFN0cmluZyhkb2MuZXhhbWluZV9zdGF0dXMgPz8gJzAnKSA9PT0gJzEnKSB7CiAgICAgIHRocm93IG5ldyBCYWRSZXF1ZXN0RXhjZXB0aW9uKCfljZXmja7lt7LlrqHmoLjvvIzml6DpnIDlho3mj5DkuqTlrqHmibknKTsKICAgIH0KCiAgICBjb25zdCBmbG93cyA9IGF3YWl0IHRoaXMubG9hZEZsb3dzKHRhYmxlKTsKICAgIGlmICghZmxvd3MubGVuZ3RoKSByZXR1cm4geyBuZWVkQXBwcm92YWw6IGZhbHNlLCAuLi4oYXdhaXQgdGhpcy5zdGF0dXModGFibGUsIGRvY0lkKSkgfTsKCiAgICBjb25zdCBhbW91bnQgPSB0aGlzLnBpY2tBbW91bnQoZG9jKTsKICAgIGNvbnN0IGxldmVscyA9IHRoaXMubWF0Y2hMZXZlbHMoZmxvd3MsIGFtb3VudCk7CiAgICBpZiAoIWxldmVscy5sZW5ndGgpIHJldHVybiB7IG5lZWRBcHByb3ZhbDogZmFsc2UsIC4uLihhd2FpdCB0aGlzLnN0YXR1cyh0YWJsZSwgZG9jSWQpKSB9OwoKICAgIC8vIOW3suacieacquWujOaIkOeahOWuoeaJuemTvu+8muS4jemHjeWkjeaPkOS6pO+8jOebtOaOpei/lOWbnueOsOeKtu+8iOW5guetie+8jOmBv+WFjeeUqOaIt+i/nueCueeUn+aIkOWkmuadoSBwZW5kaW5n77yJCiAgICBjb25zdCBleGlzdCA9IGF3YWl0IHRoaXMubG9ncyh0YWJsZSwgZG9jSWQpOwogICAgaWYgKGV4aXN0LnNvbWUoKGwpID0+IGwucmVzdWx0ID09PSAncGVuZGluZycpKSB7CiAgICAgIHJldHVybiB7IG5lZWRBcHByb3ZhbDogdHJ1ZSwgLi4uKGF3YWl0IHRoaXMuc3RhdHVzKHRhYmxlLCBkb2NJZCkpIH07CiAgICB9CgogICAgY29uc3QgY29kZSA9IFN0cmluZyhkb2MucHVyY2hhc2VfY29kZSB8fCBkb2MuY29kZSB8fCBkb2Mub3JkZXJfY29kZSB8fCBkb2NJZCk7CiAgICBjb25zdCB0cyA9IHRoaXMubm93KCk7CiAgICBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgIGBJTlNFUlQgSU5UTyBrdWVycF9hcHByb3ZhbF9sb2cKICAgICAgICAgKGRvY190YWJsZSwgZG9jX2lkLCBkb2NfY29kZSwgbGV2ZWwsIHRvdGFsX2xldmVsLCBhcHByb3Zlcl9pZCwgYXBwcm92ZXJfbmFtZSwgcmVzdWx0LCByZW1hcmssIGNyZWF0ZXRpbWUsIHVwZGF0ZXRpbWUpCiAgICAgICBWQUxVRVMgKD8sPyw/LD8sPywwLCcnLCdwZW5kaW5nJywnJywgPywgPylgLAogICAgICBbdGFibGUsIGRvY0lkLCBjb2RlLCAxLCBsZXZlbHMubGVuZ3RoLCB0cywgdHNdLAogICAgKTsKCiAgICBhd2FpdCB0aGlzLm5vdGlmeUFwcHJvdmVycyh0YWJsZSwgZG9jSWQsIGNvZGUsIGxldmVsc1swXSwgbGV2ZWxzLmxlbmd0aCwgdXNlcik7CiAgICByZXR1cm4geyBuZWVkQXBwcm92YWw6IHRydWUsIC4uLihhd2FpdCB0aGlzLnN0YXR1cyh0YWJsZSwgZG9jSWQpKSB9OwogIH0KCiAgLyoqCiAgICog57uZ5p+Q5LiA57qn55qE5a6h5om55Lq65Y+R5b6F5Yqe5raI5oGv44CCCiAgICoKICAgKiByb2xlX2lkID0gMO+8iOS4jemZkOinkuiJsu+8ieaXtuW5v+aSree7meWFqOWRmO+8jOmBv+WFjemFjee9rueWj+a8j+WvvOiHtOW+heWKnuaXoOS6uuWPr+ingeOAggogICAqCiAgICogQHBhcmFtIGRvY1RhYmxlIOihqOWQjQogICAqIEBwYXJhbSBkb2NJZCDljZXmja5JRAogICAqIEBwYXJhbSBjb2RlIOWNleaNrue8luWPtwogICAqIEBwYXJhbSBmbG93IOivpee6p+mFjee9rgogICAqIEBwYXJhbSB0b3RhbExldmVsIOaAu+e6p+aVsAogICAqIEBwYXJhbSBmcm9tIOaPkOS6pOS6ugogICAqLwogIHByaXZhdGUgYXN5bmMgbm90aWZ5QXBwcm92ZXJzKAogICAgZG9jVGFibGU6IHN0cmluZywKICAgIGRvY0lkOiBudW1iZXIsCiAgICBjb2RlOiBzdHJpbmcsCiAgICBmbG93OiBGbG93Um93LAogICAgdG90YWxMZXZlbDogbnVtYmVyLAogICAgZnJvbTogQXBwcm92YWxVc2VyLAogICk6IFByb21pc2U8dm9pZD4gewogICAgY29uc3Qgcm9sZUlkID0gTnVtYmVyKGZsb3cucm9sZV9pZCkgfHwgMDsKICAgIGxldCB0YXJnZXRzOiBudW1iZXJbXSA9IFswXTsKICAgIGlmIChyb2xlSWQpIHsKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCByb3dzID0gYXdhaXQgdGhpcy5kYXRhU291cmNlLnF1ZXJ5KAogICAgICAgICAgJ1NFTEVDVCBhZG1pbl9pZCBGUk9NIGt1ZXJwX2F1dGhfZ3JvdXBfYWNjZXNzIFdIRVJFIGdyb3VwX2lkID0gPycsCiAgICAgICAgICBbcm9sZUlkXSwKICAgICAgICApOwogICAgICAgIGNvbnN0IGlkcyA9IChyb3dzIHx8IFtdKS5tYXAoKHI6IGFueSkgPT4gTnVtYmVyKHIuYWRtaW5faWQpKS5maWx0ZXIoQm9vbGVhbik7CiAgICAgICAgaWYgKGlkcy5sZW5ndGgpIHRhcmdldHMgPSBpZHM7CiAgICAgIH0gY2F0Y2ggewogICAgICAgIC8vIOinkuiJsuihqOe8uuWkseaXtumAgOWMluS4uuW5v+aSre+8jOS4jemYu+aWreWuoeaJuea1gQogICAgICB9CiAgICB9CiAgICBjb25zdCB3aG8gPSBmcm9tLnVzZXJuYW1lIHx8IGZyb20ubmlja25hbWUgfHwgYCMke2Zyb20uaWR9YDsKICAgIGF3YWl0IHRoaXMubWVzc2FnZXMuY3JlYXRlTWFueSgKICAgICAgdGFyZ2V0cy5tYXAoKGlkKSA9PiAoewogICAgICAgIHRvQWRtaW5JZDogaWQsCiAgICAgICAgdHlwZTogJ2FwcHJvdmFsJywKICAgICAgICBsZXZlbDogJ3dhcm4nIGFzIGNvbnN0LAogICAgICAgIHRpdGxlOiBg5b6F5a6h5om577yaJHtjb2Rlfe+8iOesrCAke2Zsb3cubGV2ZWx9LyR7dG90YWxMZXZlbH0g57qn77yJYCwKICAgICAgICBjb250ZW50OiBgJHt3aG99IOaPkOS6pOS6hiAke2RvY1RhYmxlfSDljZXmja4gJHtjb2Rlfe+8jOetieW+heS9oOWuoeaJueOAgiR7Zmxvdy5ub3RlID8gJ+ivtOaYju+8micgKyBmbG93Lm5vdGUgOiAnJ31gLAogICAgICAgIGxpbms6ICcvc3lzdGVtL2FwcHJvdmFsLXRvZG8nLAogICAgICAgIHJlZlRhYmxlOiBkb2NUYWJsZSwKICAgICAgICByZWZJZDogZG9jSWQsCiAgICAgIH0pKSwKICAgICk7CiAgfQoKICAvKioKICAgKiDlrqHmibnpgJrov4fjgIIKICAgKgogICAqIOWFs+mUrueCue+8mioq5Y+q5pyJ5pyA5ZCO5LiA57qn6YCa6L+H5omN6Kem5Y+R6L+H6LSmKirjgILkuK3pl7TnuqfpgJrov4flj6rmjqjov5vmjIfpkojvvIwKICAgKiDlkKbliJnkvJrlh7rnjrDjgIzkuIDnuqfpgJrov4flsLHliqjlupPlrZjjgIHlkI7pnaLooqvpqbPlm57jgI3nmoTotYTph5Ev5bqT5a2Y6ZSZ6LSm44CCCiAgICoKICAgKiBAcGFyYW0gZG9jVGFibGUg5Y2V5o2u6KGo5ZCNCiAgICogQHBhcmFtIGRvY0lkIOWNleaNrklECiAgICogQHBhcmFtIHVzZXIg5a6h5om55Lq6CiAgICogQHBhcmFtIHJlbWFyayDlrqHmibnmhI/op4EKICAgKiBAcmV0dXJucyDlrqHmibnnirbmgIEgKyDmmK/lkKblt7Lov4fotKYKICAgKi8KICBhc3luYyBhcHByb3ZlKGRvY1RhYmxlOiBzdHJpbmcsIGRvY0lkOiBudW1iZXIsIHVzZXI6IEFwcHJvdmFsVXNlciwgcmVtYXJrID0gJycpIHsKICAgIGNvbnN0IHRhYmxlID0gdGhpcy5ub3JtVGFibGUoZG9jVGFibGUpOwogICAgY29uc3QgbG9ncyA9IGF3YWl0IHRoaXMubG9ncyh0YWJsZSwgZG9jSWQpOwogICAgY29uc3QgcGVuZGluZyA9IGxvZ3MuZmluZCgobCkgPT4gbC5yZXN1bHQgPT09ICdwZW5kaW5nJyk7CiAgICBpZiAoIXBlbmRpbmcpIHRocm93IG5ldyBCYWRSZXF1ZXN0RXhjZXB0aW9uKCfmsqHmnInlvoXlrqHmibnnmoTorrDlvZUnKTsKCiAgICBjb25zdCBsZXZlbCA9IE51bWJlcihwZW5kaW5nLmxldmVsKSB8fCAxOwogICAgY29uc3QgdG90YWwgPSBOdW1iZXIocGVuZGluZy50b3RhbF9sZXZlbCkgfHwgMTsKCiAgICBjb25zdCBmbG93cyA9IGF3YWl0IHRoaXMubG9hZEZsb3dzKHRhYmxlKTsKICAgIGNvbnN0IGRvYyA9IGF3YWl0IHRoaXMubG9hZERvYyh0YWJsZSwgZG9jSWQpOwogICAgY29uc3QgbGV2ZWxzID0gdGhpcy5tYXRjaExldmVscyhmbG93cywgdGhpcy5waWNrQW1vdW50KGRvYykpOwogICAgY29uc3QgZmxvdyA9IGxldmVscy5maW5kKChmKSA9PiBmLmxldmVsID09PSBsZXZlbCkgfHwgKHsgcm9sZV9pZDogMCwgbm90ZTogJycsIGxldmVsIH0gYXMgRmxvd1Jvdyk7CgogICAgaWYgKCEoYXdhaXQgdGhpcy5jYW5BcHByb3ZlKGZsb3csIHVzZXIpKSkgewogICAgICB0aHJvdyBuZXcgRm9yYmlkZGVuRXhjZXB0aW9uKCfkvaDmsqHmnInor6XnuqfmrKHnmoTlrqHmibnmnYPpmZAnKTsKICAgIH0KCiAgICBjb25zdCB0cyA9IHRoaXMubm93KCk7CiAgICBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgIGBVUERBVEUga3VlcnBfYXBwcm92YWxfbG9nCiAgICAgICAgICBTRVQgcmVzdWx0PSdwYXNzJywgYXBwcm92ZXJfaWQ9PywgYXBwcm92ZXJfbmFtZT0/LCByZW1hcms9PywgdXBkYXRldGltZT0/CiAgICAgICAgV0hFUkUgaWQgPSA/YCwKICAgICAgW3VzZXIuaWQsIHVzZXIudXNlcm5hbWUgfHwgJycsIFN0cmluZyhyZW1hcmsgfHwgJycpLnNsaWNlKDAsIDUwMCksIHRzLCBwZW5kaW5nLmlkXSwKICAgICk7CgogICAgLy8g6L+Y5pyJ5LiL5LiA57qn77ya5YWI56uL5LiA5p2h5paw55qEIHBlbmRpbmfvvIzlho3lj5HlvoXlip7mtojmga8KICAgIGlmIChsZXZlbCA8IHRvdGFsKSB7CiAgICAgIGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgICBgSU5TRVJUIElOVE8ga3VlcnBfYXBwcm92YWxfbG9nCiAgICAgICAgICAgKGRvY190YWJsZSwgZG9jX2lkLCBkb2NfY29kZSwgbGV2ZWwsIHRvdGFsX2xldmVsLCBhcHByb3Zlcl9pZCwgYXBwcm92ZXJfbmFtZSwgcmVzdWx0LCByZW1hcmssIGNyZWF0ZXRpbWUsIHVwZGF0ZXRpbWUpCiAgICAgICAgIFZBTFVFUyAoPyw/LD8sPyw/LDAsJycsJ3BlbmRpbmcnLCcnLCA/LCA/KWAsCiAgICAgICAgW3RhYmxlLCBkb2NJZCwgcGVuZGluZy5kb2NfY29kZSwgbGV2ZWwgKyAxLCB0b3RhbCwgdHMsIHRzXSwKICAgICAgKTsKICAgICAgY29uc3QgbmV4dCA9IGxldmVscy5maW5kKChmKSA9PiBmLmxldmVsID09PSBsZXZlbCArIDEpIHx8ICh7IHJvbGVfaWQ6IDAsIG5vdGU6ICcnIH0gYXMgRmxvd1Jvdyk7CiAgICAgIGF3YWl0IHRoaXMubm90aWZ5QXBwcm92ZXJzKHRhYmxlLCBkb2NJZCwgcGVuZGluZy5kb2NfY29kZSwgbmV4dCBhcyBGbG93Um93LCB0b3RhbCwgdXNlcik7CiAgICAgIHJldHVybiB7IHBvc3RlZDogZmFsc2UsIC4uLihhd2FpdCB0aGlzLnN0YXR1cyh0YWJsZSwgZG9jSWQpKSB9OwogICAgfQoKICAgIC8vIOacgOWQjuS4gOe6p+mAmui/h++8muecn+ato+i/h+i0puOAgui/h+i0puWksei0pe+8iOWmguW6k+WtmOS4jei2s++8ieaXtuaKiuacrOadoeiusOW9leWbnumAgOS4uiBwZW5kaW5n77yMCiAgICAvLyDkv53or4HjgIzlrqHmibnnirbmgIHjgI3kuI7jgIzmmK/lkKblt7Lov4fotKbjgI3msLjov5zkuIDoh7TvvIzkuI3kvJrlh7rnjrDlrqHov4fkuobkvYbmsqHlhaXotKbjgIIKICAgIHRyeSB7CiAgICAgIGF3YWl0IHRoaXMudGFibGVTZXJ2aWNlLmV4YW1pbmUodGFibGUsIGRvY0lkLCAxKTsKICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgICAgYFVQREFURSBrdWVycF9hcHByb3ZhbF9sb2cgU0VUIHJlc3VsdD0ncGVuZGluZycsIGFwcHJvdmVyX2lkPTAsIGFwcHJvdmVyX25hbWU9JycsIHJlbWFyaz0nJywgdXBkYXRldGltZT0/IFdIRVJFIGlkID0gP2AsCiAgICAgICAgW3RoaXMubm93KCksIHBlbmRpbmcuaWRdLAogICAgICApOwogICAgICB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbihg5a6h5om56YCa6L+H5L2G6L+H6LSm5aSx6LSl77yaJHtlPy5tZXNzYWdlIHx8ICfmnKrnn6XplJnor68nfWApOwogICAgfQoKICAgIHJldHVybiB7IHBvc3RlZDogdHJ1ZSwgLi4uKGF3YWl0IHRoaXMuc3RhdHVzKHRhYmxlLCBkb2NJZCkpIH07CiAgfQoKICAvKioKICAgKiDlrqHmibnpqbPlm57vvJrmiorlvZPliY0gcGVuZGluZyDorrDlvZXmoIfkuLogcmVqZWN077yM5bm25oqK57uT5p6c6YCa55+l5o+Q5Lqk5Lq644CCCiAgICoKICAgKiDpqbPlm57kuI3liqjljZXmja7mnKzouqvvvIhleGFtaW5lX3N0YXR1cyDku43kuLrmnKrlrqHvvInvvIznlKjmiLflj6/ku6XmlLnljZXlkI7ph43mlrDmj5DkuqTlrqHmibnjgIIKICAgKgogICAqIEBwYXJhbSBkb2NUYWJsZSDljZXmja7ooajlkI0KICAgKiBAcGFyYW0gZG9jSWQg5Y2V5o2uSUQKICAgKiBAcGFyYW0gdXNlciDlrqHmibnkuroKICAgKiBAcGFyYW0gcmVtYXJrIOmps+WbnuaEj+inge+8iOW7uuiuruW/heWhq++8jOS+v+S6juaPkOS6pOS6uuefpemBk+aUueS7gOS5iO+8iQogICAqIEByZXR1cm5zIOWuoeaJueeKtuaAgQogICAqLwogIGFzeW5jIHJlamVjdChkb2NUYWJsZTogc3RyaW5nLCBkb2NJZDogbnVtYmVyLCB1c2VyOiBBcHByb3ZhbFVzZXIsIHJlbWFyayA9ICcnKSB7CiAgICBjb25zdCB0YWJsZSA9IHRoaXMubm9ybVRhYmxlKGRvY1RhYmxlKTsKICAgIGNvbnN0IGxvZ3MgPSBhd2FpdCB0aGlzLmxvZ3ModGFibGUsIGRvY0lkKTsKICAgIGNvbnN0IHBlbmRpbmcgPSBsb2dzLmZpbmQoKGwpID0+IGwucmVzdWx0ID09PSAncGVuZGluZycpOwogICAgaWYgKCFwZW5kaW5nKSB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbign5rKh5pyJ5b6F5a6h5om555qE6K6w5b2VJyk7CgogICAgY29uc3QgZmxvd3MgPSBhd2FpdCB0aGlzLmxvYWRGbG93cyh0YWJsZSk7CiAgICBjb25zdCBkb2MgPSBhd2FpdCB0aGlzLmxvYWREb2ModGFibGUsIGRvY0lkKTsKICAgIGNvbnN0IGxldmVscyA9IHRoaXMubWF0Y2hMZXZlbHMoZmxvd3MsIHRoaXMucGlja0Ftb3VudChkb2MpKTsKICAgIGNvbnN0IGZsb3cgPQogICAgICBsZXZlbHMuZmluZCgoZikgPT4gTnVtYmVyKGYubGV2ZWwpID09PSBOdW1iZXIocGVuZGluZy5sZXZlbCkpIHx8CiAgICAgICh7IHJvbGVfaWQ6IDAsIG5vdGU6ICcnLCBsZXZlbDogTnVtYmVyKHBlbmRpbmcubGV2ZWwpIH0gYXMgRmxvd1Jvdyk7CiAgICBpZiAoIShhd2FpdCB0aGlzLmNhbkFwcHJvdmUoZmxvdywgdXNlcikpKSB7CiAgICAgIHRocm93IG5ldyBGb3JiaWRkZW5FeGNlcHRpb24oJ+S9oOayoeacieivpee6p+asoeeahOWuoeaJueadg+mZkCcpOwogICAgfQoKICAgIGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgYFVQREFURSBrdWVycF9hcHByb3ZhbF9sb2cKICAgICAgICAgIFNFVCByZXN1bHQ9J3JlamVjdCcsIGFwcHJvdmVyX2lkPT8sIGFwcHJvdmVyX25hbWU9PywgcmVtYXJrPT8sIHVwZGF0ZXRpbWU9PwogICAgICAgIFdIRVJFIGlkID0gP2AsCiAgICAgIFt1c2VyLmlkLCB1c2VyLnVzZXJuYW1lIHx8ICcnLCBTdHJpbmcocmVtYXJrIHx8ICcnKS5zbGljZSgwLCA1MDApLCB0aGlzLm5vdygpLCBwZW5kaW5nLmlkXSwKICAgICk7CgogICAgLy8g6YCa55+l5o+Q5Lqk5Lq677yI5Y+W5Y2V5o2u55qEIGFkbWluX2lk77yb6ICB5pWw5o2u5Y+v6IO95Li6IDDvvIzpgIDljJbkuLrlub/mkq3vvIkKICAgIGNvbnN0IHN1Ym1pdHRlciA9IE51bWJlcihkb2MuYWRtaW5faWQgfHwgZG9jLmNyZWF0ZXJfaWQgfHwgMCk7CiAgICBhd2FpdCB0aGlzLm1lc3NhZ2VzLmNyZWF0ZSh7CiAgICAgIHRvQWRtaW5JZDogc3VibWl0dGVyIHx8IDAsCiAgICAgIHR5cGU6ICdhcHByb3ZhbCcsCiAgICAgIGxldmVsOiAnZGFuZ2VyJywKICAgICAgdGl0bGU6IGDlrqHmibnpqbPlm57vvJoke3BlbmRpbmcuZG9jX2NvZGV9YCwKICAgICAgY29udGVudDogYCR7dXNlci51c2VybmFtZSB8fCB1c2VyLmlkfSDpqbPlm57kuobljZXmja4gJHtwZW5kaW5nLmRvY19jb2Rlfe+8iOesrCAke3BlbmRpbmcubGV2ZWx9LyR7cGVuZGluZy50b3RhbF9sZXZlbH0g57qn77yJ44CC5oSP6KeB77yaJHtyZW1hcmsgfHwgJ+acquWhq+WGmSd9YCwKICAgICAgbGluazogJy9zeXN0ZW0vYXBwcm92YWwtdG9kbycsCiAgICAgIHJlZlRhYmxlOiB0YWJsZSwKICAgICAgcmVmSWQ6IGRvY0lkLAogICAgfSk7CgogICAgcmV0dXJuIGF3YWl0IHRoaXMuc3RhdHVzKHRhYmxlLCBkb2NJZCk7CiAgfQoKICAvKioKICAgKiDmiJHnmoTlvoXlip7vvJrliJflh7rlvZPliY3nlKjmiLflnKjlhbbop5LoibLojIPlm7TlhoXjgIHkuJTlpITkuo7lvoXlrqHnirbmgIHnmoTlrqHmibnorrDlvZXjgIIKICAgKgogICAqIOi/h+a7pOWcqCBTUUwg5aSW5YGa77yI55SoIGdyb3VwSWRzIOWIpCByb2xlX2lk77yJ77yM5Zug5Li65a6h5om56K6w5b2V6YeP5bCP77yI5Y+q5a2YIHBlbmRpbmcg5LiO5Y6G5Y+y77yJ77yMCiAgICog6ICM5oqK6KeS6Imy6ZuG5ZCI5ou86L+bIElOIOWtkOWPpeS8muiuqSBTUUwg6Zq+5Lul5aSN55So44CCCiAgICoKICAgKiBAcGFyYW0gdXNlciDlvZPliY3nlKjmiLcKICAgKiBAcGFyYW0gb3B0cyDliIbpobXkuI7ljZXmja7nsbvlnovov4fmu6QKICAgKiBAcmV0dXJucyB7IGxpc3QsIGNvdW50IH0KICAgKi8KICBhc3luYyB0b2RvKHVzZXI6IEFwcHJvdmFsVXNlciwgb3B0czogeyBwYWdlPzogbnVtYmVyOyBsaW1pdD86IG51bWJlcjsgZG9jVGFibGU/OiBzdHJpbmcgfSA9IHt9KSB7CiAgICBjb25zdCBwYWdlID0gTWF0aC5tYXgoMSwgTnVtYmVyKG9wdHMucGFnZSkgfHwgMSk7CiAgICBjb25zdCBsaW1pdCA9IE1hdGgubWluKDIwMCwgTWF0aC5tYXgoMSwgTnVtYmVyKG9wdHMubGltaXQpIHx8IDIwKSk7CiAgICBjb25zdCBncm91cHMgPSBhd2FpdCB0aGlzLmdyb3VwSWRzT2YoTnVtYmVyKHVzZXIuaWQpKTsKICAgIGNvbnN0IGlzU3VwZXIgPSBOdW1iZXIodXNlci5pZCkgPT09IDE7CgogICAgbGV0IHJvd3M6IExvZ1Jvd1tdOwogICAgdHJ5IHsKICAgICAgY29uc3Qgc3FsID0KICAgICAgICBgU0VMRUNUICogRlJPTSBrdWVycF9hcHByb3ZhbF9sb2cgV0hFUkUgcmVzdWx0ID0gJ3BlbmRpbmcnYCArCiAgICAgICAgKG9wdHMuZG9jVGFibGUgPyAnIEFORCBkb2NfdGFibGUgPSA/JyA6ICcnKSArCiAgICAgICAgJyBPUkRFUiBCWSBpZCBERVNDJzsKICAgICAgcm93cyA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeShzcWwsIG9wdHMuZG9jVGFibGUgPyBbdGhpcy5ub3JtVGFibGUob3B0cy5kb2NUYWJsZSldIDogW10pOwogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgIGlmIChTdHJpbmcoZT8uY29kZSB8fCAnJykgPT09ICdFUl9OT19TVUNIX1RBQkxFJykgcmV0dXJuIHsgbGlzdDogW10sIGNvdW50OiAwIH07CiAgICAgIHRocm93IGU7CiAgICB9CgogICAgLy8g5oyJ6KeS6Imy6L+H5ruk77ya5p+l5q+P5byg6KGo6K+l57qn5qyh6YWN572u55qEIHJvbGVfaWTvvIzliKTmlq3mmK/lkKblkb3kuK3lvZPliY3nlKjmiLfop5LoibIKICAgIGNvbnN0IGZsb3dDYWNoZSA9IG5ldyBNYXA8c3RyaW5nLCBGbG93Um93W10+KCk7CiAgICBjb25zdCB2aXNpYmxlOiBMb2dSb3dbXSA9IFtdOwogICAgZm9yIChjb25zdCByIG9mIHJvd3MgfHwgW10pIHsKICAgICAgY29uc3Qga2V5ID0gci5kb2NfdGFibGU7CiAgICAgIGlmICghZmxvd0NhY2hlLmhhcyhrZXkpKSBmbG93Q2FjaGUuc2V0KGtleSwgYXdhaXQgdGhpcy5sb2FkRmxvd3Moa2V5KSk7CiAgICAgIGNvbnN0IGZsb3dzID0gZmxvd0NhY2hlLmdldChrZXkpIHx8IFtdOwogICAgICBjb25zdCBmID0gZmxvd3MuZmluZCgoeCkgPT4gTnVtYmVyKHgubGV2ZWwpID09PSBOdW1iZXIoci5sZXZlbCkpOwogICAgICBjb25zdCByb2xlSWQgPSBOdW1iZXIoZj8ucm9sZV9pZCB8fCAwKTsKICAgICAgaWYgKGlzU3VwZXIgfHwgIXJvbGVJZCB8fCBncm91cHMuaW5jbHVkZXMocm9sZUlkKSkgdmlzaWJsZS5wdXNoKHIpOwogICAgfQoKICAgIGNvbnN0IGNvdW50ID0gdmlzaWJsZS5sZW5ndGg7CiAgICBjb25zdCBsaXN0ID0gdmlzaWJsZS5zbGljZSgocGFnZSAtIDEpICogbGltaXQsIHBhZ2UgKiBsaW1pdCk7CiAgICByZXR1cm4geyBsaXN0LCBjb3VudCwgcGFnZSwgbGltaXQgfTsKICB9CgogIC8qKgogICAqIOafkOWNleaNrueahOWuoeaJueWOhuWPsuOAggogICAqIEBwYXJhbSBkb2NUYWJsZSDljZXmja7ooajlkI0KICAgKiBAcGFyYW0gZG9jSWQg5Y2V5o2uSUQKICAgKiBAcmV0dXJucyDorrDlvZXmlbDnu4QKICAgKi8KICBhc3luYyBoaXN0b3J5KGRvY1RhYmxlOiBzdHJpbmcsIGRvY0lkOiBudW1iZXIpIHsKICAgIHJldHVybiBhd2FpdCB0aGlzLmxvZ3ModGhpcy5ub3JtVGFibGUoZG9jVGFibGUpLCBkb2NJZCk7CiAgfQp9Cg==
+import { BadRequestException, ForbiddenException, Injectable, Logger, NotFoundException } from '@nestjs/common';
+import { DataSource } from 'typeorm';
+import { TableService } from '../table/table.service';
+import { MessageService } from '../../common/message/message.service';
+
+/** 当前登录用户（JwtStrategy 填充的最小信息） */
+export interface ApprovalUser {
+  id: number;
+  username?: string;
+  nickname?: string;
+}
+
+/** 一条审批流配置（对应 kuerp_approval_flow 一行） */
+interface FlowRow {
+  id: number;
+  doc_table: string;
+  level: number;
+  role_id: number;
+  min_amount: string | number;
+  max_amount: string | number;
+  status: string | number;
+  note: string;
+}
+
+/** 一条审批流转记录（对应 kuerp_approval_log 一行） */
+interface LogRow {
+  id: number;
+  doc_table: string;
+  doc_id: number;
+  doc_code: string;
+  level: number;
+  total_level: number;
+  approver_id: number;
+  approver_name: string;
+  result: string;
+  remark: string;
+  createtime: number | string;
+  updatetime: number | string;
+}
+
+/**
+ * 多级审批流服务。
+ *
+ * 【整体思路】
+ * 原系统的「审核」是单级：点一下 examine 就从「未审」变「已审」并过账。
+ * 本服务在它与业务单据之间插入一层**可配置的多级审批**，但不改动原有审核链路：
+ *
+ *   提交审批 → 逐级通过 → 最后一级通过时**回调 TableService.examine(docTable, docId, 1)**
+ *
+ * 这样做的三个好处：
+ * 1) 过账逻辑（库存/资金/批次/序列号）完全复用既有引擎，不重复实现，不会出现口径分叉；
+ * 2) 未配置审批流的单据（kuerp_approval_flow 里查不到）走原路径，行为与升级前完全一致；
+ * 3) 驳回只需把最后一条 pending 记录标 reject，单据本身不动，不会产生半过账的脏数据。
+ *
+ * 审批级数由「单据金额」动态决定：遍历启用的配置，取 min_amount <= 金额 <= max_amount
+ * （max_amount = 0 视为不限上限）的那些行，按 level 升序即为本次需要的审批链。
+ */
+@Injectable()
+export class ApprovalService {
+  private readonly logger = new Logger(ApprovalService.name);
+
+  constructor(
+    private readonly dataSource: DataSource,
+    private readonly tableService: TableService,
+    private readonly messages: MessageService,
+  ) {}
+
+  /** 当前秒级时间戳 */
+  private now(): number {
+    return Math.floor(Date.now() / 1000);
+  }
+
+  /**
+   * 归一化单据表名（允许传 goods-sales-order / goods_sales_order / kuerp_goods_sales_order）。
+   * @param docTable 调用方传入的表名
+   * @returns 不含 kuerp_ 前缀、下划线形式的标准表名
+   */
+  private normTable(docTable: string): string {
+    const t = String(docTable || '')
+      .trim()
+      .replace(/-/g, '_')
+      .replace(/^kuerp_/, '');
+    if (!/^[a-z0-9_]+$/i.test(t)) throw new BadRequestException('非法单据表名');
+    return t;
+  }
+
+  /**
+   * 读取某单据类型下全部启用中的审批流配置。
+   * @param docTable 标准表名（不含前缀）
+   * @returns 按 level 升序的配置行
+   */
+  private async loadFlows(docTable: string): Promise<FlowRow[]> {
+    try {
+      const rows = await this.dataSource.query(
+        `SELECT * FROM kuerp_approval_flow
+          WHERE doc_table = ? AND status = 1 AND (deletetime IS NULL OR deletetime = 0)
+          ORDER BY level ASC, id ASC`,
+        [docTable],
+      );
+      return rows || [];
+    } catch (e: any) {
+      // 兼容尚未执行 extension-schema.sql 的旧库：表缺失时视为「无审批流」，走原单级审核
+      if (String(e?.code || '') === 'ER_NO_SUCH_TABLE') return [];
+      throw e;
+    }
+  }
+
+  /**
+   * 按金额筛选出本次实际生效的审批级次。
+   *
+   * 同一 level 若有多行命中（例如配了两条不同角色的一级审批），只保留第一条，
+   * 避免出现「一级要过两次」这种无法解释的状态。
+   *
+   * @param flows 已按 level 升序的配置
+   * @param amount 单据金额（取价税合计/优惠后金额，见 pickAmount）
+   * @returns 去重后的生效配置
+   */
+  private matchLevels(flows: FlowRow[], amount: number): FlowRow[] {
+    const hit = flows.filter((f) => {
+      const min = Number(f.min_amount) || 0;
+      const max = Number(f.max_amount) || 0;
+      if (amount < min) return false;
+      if (max > 0 && amount > max) return false;
+      return true;
+    });
+    const seen = new Set<number>();
+    const out: FlowRow[] = [];
+    for (const f of hit) {
+      const lv = Number(f.level) || 1;
+      if (seen.has(lv)) continue;
+      seen.add(lv);
+      out.push(f);
+    }
+    // 级次必须从 1 开始连续，否则「通过第 1 级后就没有第 2 级」会卡住单据
+    return out.map((f, i) => ({ ...f, level: i + 1 }));
+  }
+
+  /**
+   * 从单据行里挑出用于判定金额的列。
+   *
+   * 优先级：价税合计 > 优惠后金额 > 单据金额 > 已收/付金额。
+   * 之所以先取价税合计：含税业务的审批门槛通常按含税口径谈，
+   * 原系统列表页展示的「单据金额」在有税时也是价税合计。
+   *
+   * @param row 单据主表行
+   * @returns 金额（取不到返回 0）
+   */
+  private pickAmount(row: Record<string, any>): number {
+    const keys = ['money_tax_price', 'real_money', 'all_money', 'total_money', 'money', 'pay_money'];
+    for (const k of keys) {
+      const v = row?.[k];
+      if (v !== undefined && v !== null && v !== '') {
+        const n = Number(v);
+        if (!Number.isNaN(n)) return n;
+      }
+    }
+    return 0;
+  }
+
+  /**
+   * 读取单据主表的一行（表名已白名单校验，此处仅按主键取）。
+   * @param docTable 标准表名（不含前缀）
+   * @param docId 主键
+   * @returns 单据行
+   */
+  private async loadDoc(docTable: string, docId: number): Promise<Record<string, any>> {
+    const rows = await this.dataSource.query(
+      `SELECT * FROM \`kuerp_${docTable}\` WHERE id = ? LIMIT 1`,
+      [docId],
+    );
+    if (!rows?.length) throw new NotFoundException('单据不存在');
+    return rows[0];
+  }
+
+  /**
+   * 取用户所属的角色组 ID 列表。
+   * @param adminId 管理员ID
+   * @returns 角色组ID数组（无则空数组）
+   */
+  private async groupIdsOf(adminId: number): Promise<number[]> {
+    try {
+      const rows = await this.dataSource.query(
+        'SELECT group_id FROM kuerp_auth_group_access WHERE admin_id = ?',
+        [adminId],
+      );
+      return (rows || []).map((r: any) => Number(r.group_id)).filter(Boolean);
+    } catch (e: any) {
+      if (String(e?.code || '') === 'ER_NO_SUCH_TABLE') return [];
+      throw e;
+    }
+  }
+
+  /**
+   * 判断用户能否审批指定级次。
+   *
+   * 规则：配置里 role_id = 0 表示「不限角色」（任何有登录权限的人都能审）；
+   * 否则用户必须属于该角色组。超级管理员（id=1）恒通过，与原系统超管免检一致。
+   *
+   * @param flow 该级次配置
+   * @param user 当前用户
+   * @returns 是否可审
+   */
+  private async canApprove(flow: FlowRow, user: ApprovalUser): Promise<boolean> {
+    if (Number(user.id) === 1) return true;
+    const roleId = Number(flow.role_id) || 0;
+    if (!roleId) return true;
+    const groups = await this.groupIdsOf(Number(user.id));
+    return groups.includes(roleId);
+  }
+
+  /**
+   * 查询某单据当前的审批链（含每一级的处理状态），供前端画进度条。
+   * @param docTable 单据表名
+   * @param docId 单据ID
+   * @returns { total, current, logs }
+   */
+  async status(docTable: string, docId: number) {
+    const table = this.normTable(docTable);
+    const logs = await this.logs(table, docId);
+    const total = logs.length ? Number(logs[0].total_level) || logs.length : 0;
+    const pending = logs.find((l) => l.result === 'pending');
+    const rejected = logs.find((l) => l.result === 'reject');
+    return {
+      total,
+      done: logs.filter((l) => l.result === 'pass').length,
+      current: pending ? Number(pending.level) : 0,
+      state: rejected ? 'reject' : pending ? 'pending' : total ? 'pass' : 'none',
+      logs,
+    };
+  }
+
+  /**
+   * 读取某单据的全部流转记录（按级次升序）。
+   * @param docTable 标准表名
+   * @param docId 单据ID
+   * @returns 记录数组
+   */
+  private async logs(docTable: string, docId: number): Promise<LogRow[]> {
+    try {
+      const rows = await this.dataSource.query(
+        `SELECT * FROM kuerp_approval_log
+          WHERE doc_table = ? AND doc_id = ?
+          ORDER BY level ASC, id ASC`,
+        [docTable, docId],
+      );
+      return rows || [];
+    } catch (e: any) {
+      if (String(e?.code || '') === 'ER_NO_SUCH_TABLE') return [];
+      throw e;
+    }
+  }
+
+  /**
+   * 提交审批：按金额生成审批链，落第一条待审记录，并给审批人发消息。
+   *
+   * 若该单据类型未配置审批流，返回 { needApproval: false }，
+   * 前端据此提示「可直接审核」，随后走原有 examine 接口。
+   *
+   * @param docTable 单据表名
+   * @param docId 单据ID
+   * @param user 提交人
+   * @returns 审批状态
+   */
+  async submit(docTable: string, docId: number, user: ApprovalUser) {
+    const table = this.normTable(docTable);
+    const doc = await this.loadDoc(table, docId);
+    if (String(doc.examine_status ?? '0') === '1') {
+      throw new BadRequestException('单据已审核，无需再提交审批');
+    }
+
+    const flows = await this.loadFlows(table);
+    if (!flows.length) return { needApproval: false, ...(await this.status(table, docId)) };
+
+    const amount = this.pickAmount(doc);
+    const levels = this.matchLevels(flows, amount);
+    if (!levels.length) return { needApproval: false, ...(await this.status(table, docId)) };
+
+    // 已有未完成的审批链：不重复提交，直接返回现状（幂等，避免用户连点生成多条 pending）
+    const exist = await this.logs(table, docId);
+    if (exist.some((l) => l.result === 'pending')) {
+      return { needApproval: true, ...(await this.status(table, docId)) };
+    }
+
+    const code = String(doc.purchase_code || doc.code || doc.order_code || docId);
+    const ts = this.now();
+    await this.dataSource.query(
+      `INSERT INTO kuerp_approval_log
+         (doc_table, doc_id, doc_code, level, total_level, approver_id, approver_name, result, remark, createtime, updatetime)
+       VALUES (?,?,?,?,?,0,'','pending','', ?, ?)`,
+      [table, docId, code, 1, levels.length, ts, ts],
+    );
+
+    await this.notifyApprovers(table, docId, code, levels[0], levels.length, user);
+    return { needApproval: true, ...(await this.status(table, docId)) };
+  }
+
+  /**
+   * 给某一级的审批人发待办消息。
+   *
+   * role_id = 0（不限角色）时广播给全员，避免配置疏漏导致待办无人可见。
+   *
+   * @param docTable 表名
+   * @param docId 单据ID
+   * @param code 单据编号
+   * @param flow 该级配置
+   * @param totalLevel 总级数
+   * @param from 提交人
+   */
+  private async notifyApprovers(
+    docTable: string,
+    docId: number,
+    code: string,
+    flow: FlowRow,
+    totalLevel: number,
+    from: ApprovalUser,
+  ): Promise<void> {
+    const roleId = Number(flow.role_id) || 0;
+    let targets: number[] = [0];
+    if (roleId) {
+      try {
+        const rows = await this.dataSource.query(
+          'SELECT admin_id FROM kuerp_auth_group_access WHERE group_id = ?',
+          [roleId],
+        );
+        const ids = (rows || []).map((r: any) => Number(r.admin_id)).filter(Boolean);
+        if (ids.length) targets = ids;
+      } catch {
+        // 角色表缺失时退化为广播，不阻断审批流
+      }
+    }
+    const who = from.username || from.nickname || `#${from.id}`;
+    await this.messages.createMany(
+      targets.map((id) => ({
+        toAdminId: id,
+        type: 'approval',
+        level: 'warn' as const,
+        title: `待审批：${code}（第 ${flow.level}/${totalLevel} 级）`,
+        content: `${who} 提交了 ${docTable} 单据 ${code}，等待你审批。${flow.note ? '说明：' + flow.note : ''}`,
+        link: '/system/approval-todo',
+        refTable: docTable,
+        refId: docId,
+      })),
+    );
+  }
+
+  /**
+   * 审批通过。
+   *
+   * 关键点：**只有最后一级通过才触发过账**。中间级通过只推进指针，
+   * 否则会出现「一级通过就动库存、后面被驳回」的资金/库存错账。
+   *
+   * @param docTable 单据表名
+   * @param docId 单据ID
+   * @param user 审批人
+   * @param remark 审批意见
+   * @returns 审批状态 + 是否已过账
+   */
+  async approve(docTable: string, docId: number, user: ApprovalUser, remark = '') {
+    const table = this.normTable(docTable);
+    const logs = await this.logs(table, docId);
+    const pending = logs.find((l) => l.result === 'pending');
+    if (!pending) throw new BadRequestException('没有待审批的记录');
+
+    const level = Number(pending.level) || 1;
+    const total = Number(pending.total_level) || 1;
+
+    const flows = await this.loadFlows(table);
+    const doc = await this.loadDoc(table, docId);
+    const levels = this.matchLevels(flows, this.pickAmount(doc));
+    const flow = levels.find((f) => f.level === level) || ({ role_id: 0, note: '', level } as FlowRow);
+
+    if (!(await this.canApprove(flow, user))) {
+      throw new ForbiddenException('你没有该级次的审批权限');
+    }
+
+    const ts = this.now();
+    await this.dataSource.query(
+      `UPDATE kuerp_approval_log
+          SET result='pass', approver_id=?, approver_name=?, remark=?, updatetime=?
+        WHERE id = ?`,
+      [user.id, user.username || '', String(remark || '').slice(0, 500), ts, pending.id],
+    );
+
+    // 还有下一级：先立一条新的 pending，再发待办消息
+    if (level < total) {
+      await this.dataSource.query(
+        `INSERT INTO kuerp_approval_log
+           (doc_table, doc_id, doc_code, level, total_level, approver_id, approver_name, result, remark, createtime, updatetime)
+         VALUES (?,?,?,?,?,0,'','pending','', ?, ?)`,
+        [table, docId, pending.doc_code, level + 1, total, ts, ts],
+      );
+      const next = levels.find((f) => f.level === level + 1) || ({ role_id: 0, note: '' } as FlowRow);
+      await this.notifyApprovers(table, docId, pending.doc_code, next as FlowRow, total, user);
+      return { posted: false, ...(await this.status(table, docId)) };
+    }
+
+    // 最后一级通过：真正过账。过账失败（如库存不足）时把本条记录回退为 pending，
+    // 保证「审批状态」与「是否已过账」永远一致，不会出现审过了但没入账。
+    try {
+      await this.tableService.examine(table, docId, 1);
+    } catch (e: any) {
+      await this.dataSource.query(
+        `UPDATE kuerp_approval_log SET result='pending', approver_id=0, approver_name='', remark='', updatetime=? WHERE id = ?`,
+        [this.now(), pending.id],
+      );
+      throw new BadRequestException(`审批通过但过账失败：${e?.message || '未知错误'}`);
+    }
+
+    return { posted: true, ...(await this.status(table, docId)) };
+  }
+
+  /**
+   * 审批驳回：把当前 pending 记录标为 reject，并把结果通知提交人。
+   *
+   * 驳回不动单据本身（examine_status 仍为未审），用户可以改单后重新提交审批。
+   *
+   * @param docTable 单据表名
+   * @param docId 单据ID
+   * @param user 审批人
+   * @param remark 驳回意见（建议必填，便于提交人知道改什么）
+   * @returns 审批状态
+   */
+  async reject(docTable: string, docId: number, user: ApprovalUser, remark = '') {
+    const table = this.normTable(docTable);
+    const logs = await this.logs(table, docId);
+    const pending = logs.find((l) => l.result === 'pending');
+    if (!pending) throw new BadRequestException('没有待审批的记录');
+
+    const flows = await this.loadFlows(table);
+    const doc = await this.loadDoc(table, docId);
+    const levels = this.matchLevels(flows, this.pickAmount(doc));
+    const flow =
+      levels.find((f) => Number(f.level) === Number(pending.level)) ||
+      ({ role_id: 0, note: '', level: Number(pending.level) } as FlowRow);
+    if (!(await this.canApprove(flow, user))) {
+      throw new ForbiddenException('你没有该级次的审批权限');
+    }
+
+    await this.dataSource.query(
+      `UPDATE kuerp_approval_log
+          SET result='reject', approver_id=?, approver_name=?, remark=?, updatetime=?
+        WHERE id = ?`,
+      [user.id, user.username || '', String(remark || '').slice(0, 500), this.now(), pending.id],
+    );
+
+    // 通知提交人（取单据的 admin_id；老数据可能为 0，退化为广播）
+    const submitter = Number(doc.admin_id || doc.creater_id || 0);
+    await this.messages.create({
+      toAdminId: submitter || 0,
+      type: 'approval',
+      level: 'danger',
+      title: `审批驳回：${pending.doc_code}`,
+      content: `${user.username || user.id} 驳回了单据 ${pending.doc_code}（第 ${pending.level}/${pending.total_level} 级）。意见：${remark || '未填写'}`,
+      link: '/system/approval-todo',
+      refTable: table,
+      refId: docId,
+    });
+
+    return await this.status(table, docId);
+  }
+
+  /**
+   * 我的待办：列出当前用户在其角色范围内、且处于待审状态的审批记录。
+   *
+   * 过滤在 SQL 外做（用 groupIds 判 role_id），因为审批记录量小（只存 pending 与历史），
+   * 而把角色集合拼进 IN 子句会让 SQL 难以复用。
+   *
+   * @param user 当前用户
+   * @param opts 分页与单据类型过滤
+   * @returns { list, count }
+   */
+  async todo(user: ApprovalUser, opts: { page?: number; limit?: number; docTable?: string } = {}) {
+    const page = Math.max(1, Number(opts.page) || 1);
+    const limit = Math.min(200, Math.max(1, Number(opts.limit) || 20));
+    const groups = await this.groupIdsOf(Number(user.id));
+    const isSuper = Number(user.id) === 1;
+
+    let rows: LogRow[];
+    try {
+      const sql =
+        `SELECT * FROM kuerp_approval_log WHERE result = 'pending'` +
+        (opts.docTable ? ' AND doc_table = ?' : '') +
+        ' ORDER BY id DESC';
+      rows = await this.dataSource.query(sql, opts.docTable ? [this.normTable(opts.docTable)] : []);
+    } catch (e: any) {
+      if (String(e?.code || '') === 'ER_NO_SUCH_TABLE') return { list: [], count: 0 };
+      throw e;
+    }
+
+    // 按角色过滤：查每张表该级次配置的 role_id，判断是否命中当前用户角色
+    const flowCache = new Map<string, FlowRow[]>();
+    const visible: LogRow[] = [];
+    for (const r of rows || []) {
+      const key = r.doc_table;
+      if (!flowCache.has(key)) flowCache.set(key, await this.loadFlows(key));
+      const flows = flowCache.get(key) || [];
+      const f = flows.find((x) => Number(x.level) === Number(r.level));
+      const roleId = Number(f?.role_id || 0);
+      if (isSuper || !roleId || groups.includes(roleId)) visible.push(r);
+    }
+
+    const count = visible.length;
+    const list = visible.slice((page - 1) * limit, page * limit);
+    return { list, count, page, limit };
+  }
+
+  /**
+   * 某单据的审批历史。
+   * @param docTable 单据表名
+   * @param docId 单据ID
+   * @returns 记录数组
+   */
+  async history(docTable: string, docId: number) {
+    return await this.logs(this.normTable(docTable), docId);
+  }
+}

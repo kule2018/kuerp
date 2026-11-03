@@ -1,1 +1,75 @@
-LyoqCiAqIOaJk+WNsOebuOWFs+WFrOWFseW3peWFt+OAggogKiAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KICog5omT5Y2w6aG177yIcHJpbnQudnVlIC8gcHJpbnQtY2VudGVyLnZ1ZSAvIHByaW50LXJlcG9ydC52dWXvvInlhbHnlKjnmoTlj5bmlbDkuI7moLzlvI/ljJbpgLvovpHvvIwKICog6YG/5YWN5q+P5Liq6aG16Z2i5ZCE5YaZ5LiA5Lu944CM5YWs5Y+45oqs5aS044CN44CM6YeR6aKdL+aXpeacn+agvOW8j+WMluOAjeOAggogKi8KaW1wb3J0IHJlcXVlc3QgZnJvbSAnLi9yZXF1ZXN0JzsKCi8qKiDlhazlj7jmiqzlpLTlhZzlupXlgLzvvIjns7vnu5/lj4LmlbDmnKrnu7TmiqTml7bkvb/nlKjvvIkgKi8KY29uc3QgREVGQVVMVF9DT01QQU5ZID0gJ+i/m+mUgOWtmOeuoeeQhuezu+e7nyc7CgovKioKICog6K+75Y+W5omT5Y2w5oqs5aS05YWs5Y+45ZCN77yI5Y6f57O757ufIFByaW50cyDmjqfliLblmajlj5Yga3VlcnBfc2V0cy5jb21wYW55X25hbWXvvInjgIIKICogQHJldHVybnMge1Byb21pc2U8c3RyaW5nPn0g5YWs5Y+45ZCN56ew77yM5Y+W5LiN5Yiw5pe26L+U5Zue5YWc5bqV5YC8CiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZmV0Y2hDb21wYW55TmFtZSgpIHsKICB0cnkgewogICAgY29uc3QgciA9IGF3YWl0IHJlcXVlc3QuZ2V0KCcva3VlcnAvc2V0cy9pbmRleCcsIHsgcGFyYW1zOiB7IGxpbWl0OiA1MDAgfSB9KTsKICAgIGNvbnN0IHJvd3MgPSByPy5saXN0IHx8IFtdOwogICAgY29uc3QgaGl0ID0gcm93cy5maW5kKCh4KSA9PiB4Lm5hbWUgPT09ICdjb21wYW55X25hbWUnIHx8IHgubmFtZSA9PT0gJ2NvbXBhbnknKTsKICAgIGNvbnN0IHZhbCA9IGhpdD8udmFsdWUgPyBTdHJpbmcoaGl0LnZhbHVlKS50cmltKCkgOiAnJzsKICAgIHJldHVybiB2YWwgfHwgREVGQVVMVF9DT01QQU5ZOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIERFRkFVTFRfQ09NUEFOWTsKICB9Cn0KCi8qKgogKiDph5Hpop3moLzlvI/ljJbvvJrCpSArIOWNg+WIhuS9jSArIOS4pOS9jeWwj+aVsOOAggogKiBAcGFyYW0ge2FueX0gdiDph5Hpop0KICogQHJldHVybnMge3N0cmluZ30KICovCmV4cG9ydCBmdW5jdGlvbiBtb25leSh2KSB7CiAgcmV0dXJuICgKICAgICfCpScgKwogICAgKE51bWJlcih2KSB8fCAwKS50b0xvY2FsZVN0cmluZygnemgtQ04nLCB7CiAgICAgIG1pbmltdW1GcmFjdGlvbkRpZ2l0czogMiwKICAgICAgbWF4aW11bUZyYWN0aW9uRGlnaXRzOiAyLAogICAgfSkKICApOwp9CgovKioKICog5pWw5YC85qC85byP5YyW77ya5Y2D5YiG5L2N77yM6buY6K6k5pyA5aSaIDIg5L2N5bCP5pWw44CCCiAqIEBwYXJhbSB7YW55fSB2IOaVsOWAvAogKiBAcGFyYW0ge251bWJlcn0gW2RpZ2l0cz0yXSDmnIDlpKflsI/mlbDkvY0KICogQHJldHVybnMge3N0cmluZ30KICovCmV4cG9ydCBmdW5jdGlvbiBmbXROdW0odiwgZGlnaXRzID0gMikgewogIHJldHVybiAoTnVtYmVyKHYpIHx8IDApLnRvTG9jYWxlU3RyaW5nKCd6aC1DTicsIHsgbWF4aW11bUZyYWN0aW9uRGlnaXRzOiBkaWdpdHMgfSk7Cn0KCi8qKgogKiDnp5Lnuqfml7bpl7TmiLMgLyDml6XmnJ/kuLIgLT4gWVlZWS1NTS1EROOAggogKiBAcGFyYW0ge2FueX0gdiDnp5Lnuqfml7bpl7TmiLPmiJblj6/op6PmnpDml6XmnJ/kuLIKICogQHJldHVybnMge3N0cmluZ30g56m65YC86L+U5ZueICctJwogKi8KZXhwb3J0IGZ1bmN0aW9uIGZtdERhdGUodikgewogIGlmICh2ID09PSBudWxsIHx8IHYgPT09IHVuZGVmaW5lZCB8fCB2ID09PSAnJykgcmV0dXJuICctJzsKICBjb25zdCBuID0gTnVtYmVyKHYpOwogIGNvbnN0IGQgPSBOdW1iZXIuaXNOYU4obikgPyBuZXcgRGF0ZShTdHJpbmcodikpIDogbmV3IERhdGUobiAqIDEwMDApOwogIGlmIChOdW1iZXIuaXNOYU4oZC5nZXRUaW1lKCkpKSByZXR1cm4gU3RyaW5nKHYpOwogIGNvbnN0IHAgPSAoeCkgPT4gU3RyaW5nKHgpLnBhZFN0YXJ0KDIsICcwJyk7CiAgcmV0dXJuIGAke2QuZ2V0RnVsbFllYXIoKX0tJHtwKGQuZ2V0TW9udGgoKSArIDEpfS0ke3AoZC5nZXREYXRlKCkpfWA7Cn0KCi8qKgogKiDliKTmlq3liJfmmK/lkKbkuLrml6XmnJ8v5pe26Ze05YiX77yI5YiX5ZCN5LulIF90aW1lL19kYXRlIOe7k+Wwvu+8jOaIluexu+Wei+S4uiBkYXRldGltZS9kYXRl77yJ44CCCiAqIEBwYXJhbSB7e25hbWU6c3RyaW5nLHR5cGU6c3RyaW5nfX0gY29sIOWIl+WFg+S/oeaBrwogKiBAcmV0dXJucyB7Ym9vbGVhbn0KICovCmV4cG9ydCBmdW5jdGlvbiBpc0RhdGVDb2woY29sKSB7CiAgaWYgKCFjb2wpIHJldHVybiBmYWxzZTsKICByZXR1cm4gL18odGltZXxkYXRlKSQvaS50ZXN0KGNvbC5uYW1lKSB8fCBbJ2RhdGV0aW1lJywgJ2RhdGUnLCAndGltZXN0YW1wJ10uaW5jbHVkZXMoY29sLnR5cGUpOwp9Cg==
+/**
+ * 打印相关公共工具。
+ * ------------------------------------------------------------------
+ * 打印页（print.vue / print-center.vue / print-report.vue）共用的取数与格式化逻辑，
+ * 避免每个页面各写一份「公司抬头」「金额/日期格式化」。
+ */
+import request from './request';
+
+/** 公司抬头兜底值（系统参数未维护时使用） */
+const DEFAULT_COMPANY = '进销存管理系统';
+
+/**
+ * 读取打印抬头公司名（原系统 Prints 控制器取 kuerp_sets.company_name）。
+ * @returns {Promise<string>} 公司名称，取不到时返回兜底值
+ */
+export async function fetchCompanyName() {
+  try {
+    const r = await request.get('/kuerp/sets/index', { params: { limit: 500 } });
+    const rows = r?.list || [];
+    const hit = rows.find((x) => x.name === 'company_name' || x.name === 'company');
+    const val = hit?.value ? String(hit.value).trim() : '';
+    return val || DEFAULT_COMPANY;
+  } catch {
+    return DEFAULT_COMPANY;
+  }
+}
+
+/**
+ * 金额格式化：¥ + 千分位 + 两位小数。
+ * @param {any} v 金额
+ * @returns {string}
+ */
+export function money(v) {
+  return (
+    '¥' +
+    (Number(v) || 0).toLocaleString('zh-CN', {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    })
+  );
+}
+
+/**
+ * 数值格式化：千分位，默认最多 2 位小数。
+ * @param {any} v 数值
+ * @param {number} [digits=2] 最大小数位
+ * @returns {string}
+ */
+export function fmtNum(v, digits = 2) {
+  return (Number(v) || 0).toLocaleString('zh-CN', { maximumFractionDigits: digits });
+}
+
+/**
+ * 秒级时间戳 / 日期串 -> YYYY-MM-DD。
+ * @param {any} v 秒级时间戳或可解析日期串
+ * @returns {string} 空值返回 '-'
+ */
+export function fmtDate(v) {
+  if (v === null || v === undefined || v === '') return '-';
+  const n = Number(v);
+  const d = Number.isNaN(n) ? new Date(String(v)) : new Date(n * 1000);
+  if (Number.isNaN(d.getTime())) return String(v);
+  const p = (x) => String(x).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}`;
+}
+
+/**
+ * 判断列是否为日期/时间列（列名以 _time/_date 结尾，或类型为 datetime/date）。
+ * @param {{name:string,type:string}} col 列元信息
+ * @returns {boolean}
+ */
+export function isDateCol(col) {
+  if (!col) return false;
+  return /_(time|date)$/i.test(col.name) || ['datetime', 'date', 'timestamp'].includes(col.type);
+}

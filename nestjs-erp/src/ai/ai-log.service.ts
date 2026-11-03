@@ -1,1 +1,90 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsKaW1wb3J0IHsgSW5qZWN0UmVwb3NpdG9yeSB9IGZyb20gJ0BuZXN0anMvdHlwZW9ybSc7CmltcG9ydCB7IFJlcG9zaXRvcnkgfSBmcm9tICd0eXBlb3JtJzsKaW1wb3J0IHsgQWlDYWxsTG9nIH0gZnJvbSAnLi9lbnRpdGllcy9haS1jYWxsLWxvZy5lbnRpdHknOwppbXBvcnQgeyBBaVRvb2xDYWxsTG9nIH0gZnJvbSAnLi9lbnRpdGllcy9haS10b29sLWNhbGwtbG9nLmVudGl0eSc7CmltcG9ydCB7IG5vd1NlYyB9IGZyb20gJy4uL2NvbW1vbi9iaWdpbnQudHJhbnNmb3JtZXInOwoKLyoqCiAqIEFJIOiwg+eUqOS4juW3peWFt+iwg+eUqOaXpeW/l+acjeWKoe+8iOiQveW6k++8ieOAggogKiDnrYnmlYggU3ByaW5nIEFJIOeahCBMb2dnaW5nQWR2aXNvciAvIE9ic2VydmF0aW9u77yM55So5LqO5a6h6K6h5q+P5LiA5qyh5qih5Z6L6LCD55So5LiOIEZ1bmN0aW9uIENhbGxpbmfjgIIKICovCkBJbmplY3RhYmxlKCkKZXhwb3J0IGNsYXNzIEFpTG9nU2VydmljZSB7CiAgcHJpdmF0ZSBlbmFibGVkID0gKHByb2Nlc3MuZW52LkFJX0VOQUJMRV9MT0cgfHwgJ3RydWUnKSAhPT0gJ2ZhbHNlJzsKCiAgY29uc3RydWN0b3IoCiAgICBASW5qZWN0UmVwb3NpdG9yeShBaUNhbGxMb2cpIHByaXZhdGUgcmVhZG9ubHkgY2FsbExvZ1JlcG86IFJlcG9zaXRvcnk8QWlDYWxsTG9nPiwKICAgIEBJbmplY3RSZXBvc2l0b3J5KEFpVG9vbENhbGxMb2cpIHByaXZhdGUgcmVhZG9ubHkgdG9vbExvZ1JlcG86IFJlcG9zaXRvcnk8QWlUb29sQ2FsbExvZz4sCiAgKSB7fQoKICBhc3luYyBsb2dDYWxsKGlucHV0OiB7CiAgICBtb2RlbENvbmZpZ0lkPzogbnVtYmVyOwogICAgbW9kZWw/OiBzdHJpbmc7CiAgICBwcm9tcHQ/OiBzdHJpbmc7CiAgICBjb21wbGV0aW9uPzogc3RyaW5nOwogICAgdG9rZW5zUHJvbXB0PzogbnVtYmVyOwogICAgdG9rZW5zQ29tcGxldGlvbj86IG51bWJlcjsKICAgIGVsYXBzZWRNcz86IG51bWJlcjsKICAgIHN0YXR1cz86IG51bWJlcjsKICAgIGVycm9yPzogc3RyaW5nOwogIH0pOiBQcm9taXNlPG51bWJlcj4gewogICAgaWYgKCF0aGlzLmVuYWJsZWQpIHJldHVybiAwOwogICAgdHJ5IHsKICAgICAgY29uc3QgZW50aXR5ID0gdGhpcy5jYWxsTG9nUmVwby5jcmVhdGUoewogICAgICAgIG1vZGVsQ29uZmlnSWQ6IGlucHV0Lm1vZGVsQ29uZmlnSWQgfHwgMCwKICAgICAgICBtb2RlbDogaW5wdXQubW9kZWwgfHwgJycsCiAgICAgICAgcHJvbXB0OiBpbnB1dC5wcm9tcHQgfHwgJycsCiAgICAgICAgY29tcGxldGlvbjogaW5wdXQuY29tcGxldGlvbiB8fCAnJywKICAgICAgICB0b2tlbnNQcm9tcHQ6IGlucHV0LnRva2Vuc1Byb21wdCB8fCAwLAogICAgICAgIHRva2Vuc0NvbXBsZXRpb246IGlucHV0LnRva2Vuc0NvbXBsZXRpb24gfHwgMCwKICAgICAgICBlbGFwc2VkTXM6IGlucHV0LmVsYXBzZWRNcyB8fCAwLAogICAgICAgIHN0YXR1czogaW5wdXQuc3RhdHVzID8/IDEsCiAgICAgICAgZXJyb3I6IGlucHV0LmVycm9yIHx8ICcnLAogICAgICAgIGNyZWF0ZXRpbWU6IG5vd1NlYygpLAogICAgICAgIHVwZGF0ZXRpbWU6IG5vd1NlYygpLAogICAgICAgIGRlbGV0ZXRpbWU6IDAsCiAgICAgIH0gYXMgYW55KTsKICAgICAgLy8gVHlwZU9STSDljZXlrp7kvZMgc2F2ZSDkvJrmioroh6rlop7kuLvplK7lhpnlm57kvKDlhaXlrp7kvZPvvIznm7TmjqXlj5YgZW50aXR5LmlkCiAgICAgIGF3YWl0IHRoaXMuY2FsbExvZ1JlcG8uc2F2ZShlbnRpdHkpOwogICAgICByZXR1cm4gKGVudGl0eSBhcyBhbnkpLmlkIGFzIG51bWJlcjsKICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICAvLyDml6Xlv5flpLHotKXnu53kuI3lvbHlk43kuLvmtYHnqIvvvIjlkKbliJnkvJrlnKggZmluYWxseSDph4zopobnm5bmraPluLjov5Tlm57vvIzlr7zoh7QgNTAw77yJCiAgICAgIGNvbnNvbGUuZXJyb3IoJ1tBaUxvZ1NlcnZpY2VdIGxvZ0NhbGwg6JC95bqT5aSx6LSl77yI5bey5b+955Wl77yJOicsIGU/Lm1lc3NhZ2UgfHwgZSk7CiAgICAgIHJldHVybiAwOwogICAgfQogIH0KCiAgYXN5bmMgbG9nVG9vbENhbGwoaW5wdXQ6IHsKICAgIGNhbGxMb2dJZD86IG51bWJlcjsKICAgIHRvb2xOYW1lPzogc3RyaW5nOwogICAgYXJndW1lbnRzPzogc3RyaW5nOwogICAgcmVzdWx0Pzogc3RyaW5nOwogICAgZWxhcHNlZE1zPzogbnVtYmVyOwogICAgc3RhdHVzPzogbnVtYmVyOwogICAgZXJyb3I/OiBzdHJpbmc7CiAgfSk6IFByb21pc2U8dm9pZD4gewogICAgaWYgKCF0aGlzLmVuYWJsZWQpIHJldHVybjsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGVudGl0eSA9IHRoaXMudG9vbExvZ1JlcG8uY3JlYXRlKHsKICAgICAgICBjYWxsTG9nSWQ6IGlucHV0LmNhbGxMb2dJZCB8fCAwLAogICAgICAgIHRvb2xOYW1lOiBpbnB1dC50b29sTmFtZSB8fCAnJywKICAgICAgICBhcmd1bWVudHM6IGlucHV0LmFyZ3VtZW50cyB8fCAnJywKICAgICAgICByZXN1bHQ6IGlucHV0LnJlc3VsdCB8fCAnJywKICAgICAgICBlbGFwc2VkTXM6IGlucHV0LmVsYXBzZWRNcyB8fCAwLAogICAgICAgIHN0YXR1czogaW5wdXQuc3RhdHVzID8/IDEsCiAgICAgICAgZXJyb3I6IGlucHV0LmVycm9yIHx8ICcnLAogICAgICAgIGNyZWF0ZXRpbWU6IG5vd1NlYygpLAogICAgICAgIHVwZGF0ZXRpbWU6IG5vd1NlYygpLAogICAgICAgIGRlbGV0ZXRpbWU6IDAsCiAgICAgIH0gYXMgYW55KTsKICAgICAgYXdhaXQgdGhpcy50b29sTG9nUmVwby5zYXZlKGVudGl0eSk7CiAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgY29uc29sZS5lcnJvcignW0FpTG9nU2VydmljZV0gbG9nVG9vbENhbGwg6JC95bqT5aSx6LSl77yI5bey5b+955Wl77yJOicsIGU/Lm1lc3NhZ2UgfHwgZSk7CiAgICB9CiAgfQoKICBzZXRFbmFibGVkKHY6IGJvb2xlYW4pIHsKICAgIHRoaXMuZW5hYmxlZCA9IHY7CiAgfQp9Cg==
+import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { AiCallLog } from './entities/ai-call-log.entity';
+import { AiToolCallLog } from './entities/ai-tool-call-log.entity';
+import { nowSec } from '../common/bigint.transformer';
+
+/**
+ * AI 调用与工具调用日志服务（落库）。
+ * 等效 Spring AI 的 LoggingAdvisor / Observation，用于审计每一次模型调用与 Function Calling。
+ */
+@Injectable()
+export class AiLogService {
+  private enabled = (process.env.AI_ENABLE_LOG || 'true') !== 'false';
+
+  constructor(
+    @InjectRepository(AiCallLog) private readonly callLogRepo: Repository<AiCallLog>,
+    @InjectRepository(AiToolCallLog) private readonly toolLogRepo: Repository<AiToolCallLog>,
+  ) {}
+
+  async logCall(input: {
+    modelConfigId?: number;
+    model?: string;
+    prompt?: string;
+    completion?: string;
+    tokensPrompt?: number;
+    tokensCompletion?: number;
+    elapsedMs?: number;
+    status?: number;
+    error?: string;
+  }): Promise<number> {
+    if (!this.enabled) return 0;
+    try {
+      const entity = this.callLogRepo.create({
+        modelConfigId: input.modelConfigId || 0,
+        model: input.model || '',
+        prompt: input.prompt || '',
+        completion: input.completion || '',
+        tokensPrompt: input.tokensPrompt || 0,
+        tokensCompletion: input.tokensCompletion || 0,
+        elapsedMs: input.elapsedMs || 0,
+        status: input.status ?? 1,
+        error: input.error || '',
+        createtime: nowSec(),
+        updatetime: nowSec(),
+        deletetime: 0,
+      } as any);
+      // TypeORM 单实体 save 会把自增主键写回传入实体，直接取 entity.id
+      await this.callLogRepo.save(entity);
+      return (entity as any).id as number;
+    } catch (e: any) {
+      // 日志失败绝不影响主流程（否则会在 finally 里覆盖正常返回，导致 500）
+      console.error('[AiLogService] logCall 落库失败（已忽略）:', e?.message || e);
+      return 0;
+    }
+  }
+
+  async logToolCall(input: {
+    callLogId?: number;
+    toolName?: string;
+    arguments?: string;
+    result?: string;
+    elapsedMs?: number;
+    status?: number;
+    error?: string;
+  }): Promise<void> {
+    if (!this.enabled) return;
+    try {
+      const entity = this.toolLogRepo.create({
+        callLogId: input.callLogId || 0,
+        toolName: input.toolName || '',
+        arguments: input.arguments || '',
+        result: input.result || '',
+        elapsedMs: input.elapsedMs || 0,
+        status: input.status ?? 1,
+        error: input.error || '',
+        createtime: nowSec(),
+        updatetime: nowSec(),
+        deletetime: 0,
+      } as any);
+      await this.toolLogRepo.save(entity);
+    } catch (e: any) {
+      console.error('[AiLogService] logToolCall 落库失败（已忽略）:', e?.message || e);
+    }
+  }
+
+  setEnabled(v: boolean) {
+    this.enabled = v;
+  }
+}

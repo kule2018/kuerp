@@ -1,1 +1,104 @@
-PHRlbXBsYXRlPg0KICA8ZGl2Pg0KICAgIDxEc0NhcmQ+DQogICAgICA8IS0tIOmhtumDqOivtOaYjuS4juaxh+aAuyAtLT4NCiAgICAgIDx0ZW1wbGF0ZSAjdGl0bGU+DQogICAgICAgIDxkaXYgY2xhc3M9ImhlYWQiPg0KICAgICAgICAgIDxzcGFuPuaVsOaNrueuoeeQhu+8iOWFsSB7eyBzdGF0cy5sZW5ndGggfX0g5byg5Lia5Yqh6KGo77yM5oC76K6w5b2VIHt7IHRvdGFsQ291bnQgfX0g5p2h77yJPC9zcGFuPg0KICAgICAgICAgIDxEc0J1dHRvbiBzaXplPSJzbSIgOmxvYWRpbmc9ImxvYWRpbmciIEBjbGljaz0ibG9hZCI+5Yi35pawPC9Ec0J1dHRvbj4NCiAgICAgICAgPC9kaXY+DQogICAgICA8L3RlbXBsYXRlPg0KDQogICAgICA8IS0tIOi/h+a7pOWMuu+8iOWOnyBlbC1mb3JtIGlubGluZe+8iSAtLT4NCiAgICAgIDxkaXYgY2xhc3M9ImRzLWZvcm0gZHMtZm9ybS0taW5saW5lIGZpbHRlciI+DQogICAgICAgIDxEc0ZpZWxkIGxhYmVsPSLooajlkI0iPg0KICAgICAgICAgIDxEc0lucHV0IHYtbW9kZWw9Imt3IiBwbGFjZWhvbGRlcj0i6L6T5YWl6KGo5ZCN6L+H5rukIiBjbGVhcmFibGUgc3R5bGU9IndpZHRoOiAyMjBweCIgQGlucHV0PSJvbkZpbHRlciIgLz4NCiAgICAgICAgPC9Ec0ZpZWxkPg0KICAgICAgICA8RHNGaWVsZCBsYWJlbD0i5LuF55yL5pyJ5pWw5o2uIj4NCiAgICAgICAgICA8RHNTd2l0Y2ggdi1tb2RlbD0ib25seVdpdGhEYXRhIiBAY2hhbmdlPSJvbkZpbHRlciIgLz4NCiAgICAgICAgPC9Ec0ZpZWxkPg0KICAgICAgPC9kaXY+DQoNCiAgICAgIDwhLS0g5YWo6KGo5pWw5o2u6YeP5LiA6KeI77yIMToxIOi/mOWOn+WOn+ezu+e7n+OAjOaVsOaNrueuoeeQhuOAjemhte+8iSAtLT4NCiAgICAgIDxEc1RhYmxlIDpjb2x1bW5zPSJjb2x1bW5zIiA6ZGF0YT0iZmlsdGVyZWQiIDpsb2FkaW5nPSJsb2FkaW5nIiA6c3RyaXBlZD0idHJ1ZSI+DQogICAgICAgIDwhLS0g5bqP5Y+35YiXIC0tPg0KICAgICAgICA8dGVtcGxhdGUgI19pbmRleD0ieyBpbmRleCB9Ij57eyBpbmRleCArIDEgfX08L3RlbXBsYXRlPg0KICAgICAgICA8IS0tIOiusOW9leaVsO+8mue7n+iuoeWksei0peeUqOe6ouiJsuagh+etvuagh+WHuiAtLT4NCiAgICAgICAgPHRlbXBsYXRlICNjb3VudD0ieyByb3cgfSI+DQogICAgICAgICAgPERzVGFnIHYtaWY9InJvdy5jb3VudCA8IDAiIGNvbG9yPSJkYW5nZXIiIHNpemU9InNtIj7nu5/orqHlpLHotKU8L0RzVGFnPg0KICAgICAgICAgIDxzcGFuIHYtZWxzZT57eyByb3cuY291bnQgfX08L3NwYW4+DQogICAgICAgIDwvdGVtcGxhdGU+DQogICAgICAgIDwhLS0g5pON5L2c5YiX77ya6Lez6L2s6K+l6KGo55qE6YCa55So6KGo5qC86aG1IC0tPg0KICAgICAgICA8dGVtcGxhdGUgI19hY3Rpb249Insgcm93IH0iPg0KICAgICAgICAgIDxEc0J1dHRvbiB2YXJpYW50PSJ0ZXh0IiBAY2xpY2s9Im9wZW5UYWJsZShyb3cpIj7mn6XnnIs8L0RzQnV0dG9uPg0KICAgICAgICA8L3RlbXBsYXRlPg0KICAgICAgPC9Ec1RhYmxlPg0KICAgIDwvRHNDYXJkPg0KICA8L2Rpdj4NCjwvdGVtcGxhdGU+DQoNCjxzY3JpcHQgc2V0dXA+DQovKioNCiAqIOaVsOaNrueuoeeQhumhte+8mjE6MSDov5jljp/ljp/ns7vnu5/jgIzmlbDmja7nrqHnkIbjgI3jgIINCiAqIOaxh+aAu+WFqOmDqCBrdWVycF8qIOS4muWKoeihqOeahOiusOW9leaVsO+8jOaUr+aMgeaMieihqOWQjei/h+a7pOOAgei3s+i9rOWvueW6lOmAmueUqOihqOagvOmhteOAgg0KICovDQppbXBvcnQgeyByZWYsIGNvbXB1dGVkLCBvbk1vdW50ZWQgfSBmcm9tICd2dWUnOw0KaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAndnVlLXJvdXRlcic7DQppbXBvcnQgcmVxdWVzdCBmcm9tICcuLi91dGlscy9yZXF1ZXN0JzsNCg0KY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7DQpjb25zdCBzdGF0cyA9IHJlZihbXSk7DQpjb25zdCBsb2FkaW5nID0gcmVmKGZhbHNlKTsNCmNvbnN0IGt3ID0gcmVmKCcnKTsNCmNvbnN0IG9ubHlXaXRoRGF0YSA9IHJlZihmYWxzZSk7DQoNCi8qKiBEc1RhYmxlIOWIl+mFjee9ru+8muW6j+WPtyArIOihqOWQjSArIOS4muWKoeWQjSArIOiusOW9leaVsCArIOaTjeS9nCAqLw0KY29uc3QgY29sdW1ucyA9IFsNCiAgeyBrZXk6ICdfaW5kZXgnLCB0aXRsZTogJyMnLCB3aWR0aDogJzUwJyB9LA0KICB7IGtleTogJ3RhYmxlJywgdGl0bGU6ICfooajlkI0nLCB3aWR0aDogJzE4MCcgfSwNCiAgeyBrZXk6ICduYW1lJywgdGl0bGU6ICfkuJrliqHlkI0nLCB3aWR0aDogJzE0MCcgfSwNCiAgeyBrZXk6ICdjb3VudCcsIHRpdGxlOiAn6K6w5b2V5pWwJywgd2lkdGg6ICcxMTAnLCBhbGlnbjogJ3JpZ2h0JyB9LA0KICB7IGtleTogJ19hY3Rpb24nLCB0aXRsZTogJ+aTjeS9nCcsIHdpZHRoOiAnMTIwJyB9LA0KXTsNCg0KLyoqIOaAu+iusOW9leaVsCAqLw0KY29uc3QgdG90YWxDb3VudCA9IGNvbXB1dGVkKCgpID0+DQogIHN0YXRzLnZhbHVlLnJlZHVjZSgocywgcikgPT4gcyArIChyLmNvdW50ID4gMCA/IHIuY291bnQgOiAwKSwgMCksDQopOw0KDQovKiog6L+H5ruk5ZCO55qE6KGo5qC85pWw5o2uICovDQpjb25zdCBmaWx0ZXJlZCA9IGNvbXB1dGVkKCgpID0+DQogIHN0YXRzLnZhbHVlLmZpbHRlcigNCiAgICAocikgPT4NCiAgICAgICgha3cudmFsdWUgfHwgci50YWJsZS5pbmNsdWRlcyhrdy52YWx1ZSkgfHwgU3RyaW5nKHIubmFtZSkuaW5jbHVkZXMoa3cudmFsdWUpKSAmJg0KICAgICAgKCFvbmx5V2l0aERhdGEudmFsdWUgfHwgci5jb3VudCA+IDApLA0KICApLA0KKTsNCg0KLyoqIOaLieWPluWFqOihqOe7n+iuoSAqLw0KYXN5bmMgZnVuY3Rpb24gbG9hZCgpIHsNCiAgbG9hZGluZy52YWx1ZSA9IHRydWU7DQogIHRyeSB7DQogICAgY29uc3QgciA9IGF3YWl0IHJlcXVlc3QuZ2V0KCcva3VlcnAvdGFibGVzL3N0YXRzJyk7DQogICAgc3RhdHMudmFsdWUgPSByIHx8IFtdOw0KICB9IGZpbmFsbHkgew0KICAgIGxvYWRpbmcudmFsdWUgPSBmYWxzZTsNCiAgfQ0KfQ0KDQpmdW5jdGlvbiBvbkZpbHRlcigpIHsgLyog6K6h566X5bGe5oCn6Ieq5Yqo5ZON5bqUICovIH0NCg0KLyoqIOi3s+i9rOWvueW6lOihqOeahOmAmueUqOihqOagvOmhte+8iOi3r+eUsSBwYXRoIOeUqOi/nuWtl+espuW9ouW8j++8iSAqLw0KZnVuY3Rpb24gb3BlblRhYmxlKHJvdykgew0KICBjb25zdCBwYXRoID0gcm93LnRhYmxlLnJlcGxhY2UoJ2t1ZXJwXycsICcnKS5yZXBsYWNlKC9fL2csICctJyk7DQogIHJvdXRlci5wdXNoKGAvJHtwYXRofWApOw0KfQ0KDQpvbk1vdW50ZWQobG9hZCk7DQo8L3NjcmlwdD4NCg0KPHN0eWxlIHNjb3BlZD4NCi5oZWFkIHsgZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOyB9DQovKiDov4fmu6TljLrvvJrooajlkI3ovpPlhaUgKyDlvIDlhbPmqKrlkJHmjpLliJcgKi8NCi5maWx0ZXIgeyBkaXNwbGF5OiBmbGV4OyBmbGV4LXdyYXA6IHdyYXA7IGFsaWduLWl0ZW1zOiBmbGV4LWVuZDsgZ2FwOiAxNnB4OyBtYXJnaW4tYm90dG9tOiA4cHg7IH0NCjwvc3R5bGU+DQo=
+<template>
+  <div>
+    <DsCard>
+      <!-- 顶部说明与汇总 -->
+      <template #title>
+        <div class="head">
+          <span>数据管理（共 {{ stats.length }} 张业务表，总记录 {{ totalCount }} 条）</span>
+          <DsButton size="sm" :loading="loading" @click="load">刷新</DsButton>
+        </div>
+      </template>
+
+      <!-- 过滤区（原 el-form inline） -->
+      <div class="ds-form ds-form--inline filter">
+        <DsField label="表名">
+          <DsInput v-model="kw" placeholder="输入表名过滤" clearable style="width: 220px" @input="onFilter" />
+        </DsField>
+        <DsField label="仅看有数据">
+          <DsSwitch v-model="onlyWithData" @change="onFilter" />
+        </DsField>
+      </div>
+
+      <!-- 全表数据量一览（1:1 还原原系统「数据管理」页） -->
+      <DsTable :columns="columns" :data="filtered" :loading="loading" :striped="true">
+        <!-- 序号列 -->
+        <template #_index="{ index }">{{ index + 1 }}</template>
+        <!-- 记录数：统计失败用红色标签标出 -->
+        <template #count="{ row }">
+          <DsTag v-if="row.count < 0" color="danger" size="sm">统计失败</DsTag>
+          <span v-else>{{ row.count }}</span>
+        </template>
+        <!-- 操作列：跳转该表的通用表格页 -->
+        <template #_action="{ row }">
+          <DsButton variant="text" @click="openTable(row)">查看</DsButton>
+        </template>
+      </DsTable>
+    </DsCard>
+  </div>
+</template>
+
+<script setup>
+/**
+ * 数据管理页：1:1 还原原系统「数据管理」。
+ * 汇总全部 kuerp_* 业务表的记录数，支持按表名过滤、跳转对应通用表格页。
+ */
+import { ref, computed, onMounted } from 'vue';
+import { useRouter } from 'vue-router';
+import request from '../utils/request';
+
+const router = useRouter();
+const stats = ref([]);
+const loading = ref(false);
+const kw = ref('');
+const onlyWithData = ref(false);
+
+/** DsTable 列配置：序号 + 表名 + 业务名 + 记录数 + 操作 */
+const columns = [
+  { key: '_index', title: '#', width: '50' },
+  { key: 'table', title: '表名', width: '180' },
+  { key: 'name', title: '业务名', width: '140' },
+  { key: 'count', title: '记录数', width: '110', align: 'right' },
+  { key: '_action', title: '操作', width: '120' },
+];
+
+/** 总记录数 */
+const totalCount = computed(() =>
+  stats.value.reduce((s, r) => s + (r.count > 0 ? r.count : 0), 0),
+);
+
+/** 过滤后的表格数据 */
+const filtered = computed(() =>
+  stats.value.filter(
+    (r) =>
+      (!kw.value || r.table.includes(kw.value) || String(r.name).includes(kw.value)) &&
+      (!onlyWithData.value || r.count > 0),
+  ),
+);
+
+/** 拉取全表统计 */
+async function load() {
+  loading.value = true;
+  try {
+    const r = await request.get('/kuerp/tables/stats');
+    stats.value = r || [];
+  } finally {
+    loading.value = false;
+  }
+}
+
+function onFilter() { /* 计算属性自动响应 */ }
+
+/** 跳转对应表的通用表格页（路由 path 用连字符形式） */
+function openTable(row) {
+  const path = row.table.replace('kuerp_', '').replace(/_/g, '-');
+  router.push(`/${path}`);
+}
+
+onMounted(load);
+</script>
+
+<style scoped>
+.head { display: flex; align-items: center; justify-content: space-between; }
+/* 过滤区：表名输入 + 开关横向排列 */
+.filter { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px; margin-bottom: 8px; }
+</style>

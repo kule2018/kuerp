@@ -1,1 +1,110 @@
-LyoqCiAqIOaMiemSrue6p+adg+mZkO+8iOWJjeerr++8ieOAggogKgogKiDjgJDkuLrku4DkuYjpnIDopoHlroPjgJEKICog6I+c5Y2V57qnIFJCQUMg5Y+q6Kej5Yaz44CM6IO95LiN6IO955yL5Yiw6L+Z5Liq6aG16Z2i44CN77yM6L+b5LqG6aG16Z2i5LmL5ZCO5omA5pyJ5oyJ6ZKu6YO95Lqu552A77yMCiAqIOmdnui2heeuoeeCueOAjOWIoOmZpOOAjeaJjeiiq+WQjuerryA0MDMg5oum5LiL4oCU4oCU5L2T6aqM5beu5LiU5a655piT6K+v5pON5L2c44CCCiAqIOi/memHjOaKiuWQjuerryAvYXV0aC9wZXJtcyDnmoTnu5PmnpznvJPlrZjkuIvmnaXvvIzkvpvpobXpnaLlnKjmuLLmn5Pml7bnm7TmjqXliKTmlq3jgIIKICoKICog44CQ5Y+j5b6E5b+F6aG75LiO5ZCO56uv5LiA6Ie044CRCiAqIOWQjuerryBSYmFjR3VhcmQg55qE5Yik5a6a6aG65bqP5piv77yaJyonIOKGkiBga3VlcnAvPOihqD5gIOKGkiBga3VlcnAvPOihqD46KmAg4oaSIGBrdWVycC886KGoPjo85Yqo5L2cPmDvvIwKICog5Zug5q2k5YmN56uvIGhhc1Blcm0g5Lmf5oyJ5ZCM5qC36aG65bqP5Yik5pat77yM5LiN5YGa5Lu75L2V44CM5YmN56uv5pu05a695p2+44CN55qE5YGH6K6+77yMCiAqIOWQpuWImeS8muWHuueOsOOAjOaMiemSruS6ruedgOS9hueCueS6hiA0MDPjgI3jgIIKICoKICog44CQ57yT5a2Y562W55Wl44CRCiAqIOi/m+eoi+WGheWNleS+i++8iOaooeWdl+e6pyByZWFjdGl2Ze+8ie+8jOeZu+W9leWQjuWKoOi9veS4gOasoe+8mwogKiDliIfmjaLotKblj7fmiJbop5LoibLlj5jmm7TlkI7osIPnlKggbG9hZFBlcm1zKHRydWUpIOW8uuWItuWIt+aWsOOAggogKi8KaW1wb3J0IHsgcmVhY3RpdmUgfSBmcm9tICd2dWUnOwppbXBvcnQgcmVxdWVzdCBmcm9tICcuL3JlcXVlc3QnOwoKLyoqIOihqOe6p+adg+mZkO+8micqJyDooajnpLror6Xooajlhajpg6jliqjkvZzvvIzmlbDnu4TooajnpLrku4Xov5nkupvliqjkvZwgKi8KZXhwb3J0IHR5cGUgVGFibGVQZXJtID0gJyonIHwgc3RyaW5nW107CgovKiog5p2D6ZmQ54q25oCBICovCmV4cG9ydCBpbnRlcmZhY2UgUGVybVN0YXRlIHsKICAvKiog5piv5ZCm5bey5Yqg6L2977yI5pyq5Yqg6L295pe25LiN6ZqQ6JeP5Lu75L2V5oyJ6ZKu77yM6YG/5YWN6aaW5bGP6Zeq54OB77yJICovCiAgbG9hZGVkOiBib29sZWFuOwogIC8qKiDmmK/lkKbotoXnuqfnrqHnkIblkZggKi8KICBpc1N1cGVyOiBib29sZWFuOwogIC8qKiDooagg4oaSIOWKqOS9nOmbhuWQiCAqLwogIHRhYmxlczogUmVjb3JkPHN0cmluZywgVGFibGVQZXJtPjsKICAvKiog5Y6f5aeL6IqC54K577yM5L6/5LqO6LCD6K+VICovCiAgbm9kZXM6IHN0cmluZ1tdOwogIC8qKiDpnZ4ga3VlcnAg5YmN57yA55qE6I+c5Y2V57qn6IqC54K5ICovCiAgbWVudXM6IHN0cmluZ1tdOwp9CgovKiog5qih5Z2X57qn5Y2V5L6L54q25oCBICovCmNvbnN0IHN0YXRlID0gcmVhY3RpdmU8UGVybVN0YXRlPih7CiAgbG9hZGVkOiBmYWxzZSwKICBpc1N1cGVyOiBmYWxzZSwKICB0YWJsZXM6IHt9LAogIG5vZGVzOiBbXSwKICBtZW51czogW10sCn0pOwoKLyoqCiAqIOaKiui3r+eUsemHjOeahCBhcGkg5YmN57yA5b2S5LiA5YyW5oiQ54mp55CG6KGo5ZCN44CCCiAqCiAqIOS+i++8micva3VlcnAvZ29vZHMtcHVyY2hhc2UnIOKGkiAnZ29vZHNfcHVyY2hhc2Un77ybJy9rdWVycC9nb29kcycg4oaSICdnb29kcyfjgIIKICoKICogQHBhcmFtIGFwaSDot6/nlLEgbWV0YS5hcGkg5oiW6KGo5ZCN5pys6LqrCiAqIEByZXR1cm5zIOW9kuS4gOWMluWQjueahOihqOWQje+8iOS4jeWQqyBrdWVycF8g5YmN57yA77yJCiAqLwpleHBvcnQgZnVuY3Rpb24gbm9ybWFsaXplVGFibGUoYXBpOiBzdHJpbmcpOiBzdHJpbmcgewogIHJldHVybiBTdHJpbmcoYXBpIHx8ICcnKQogICAgLnJlcGxhY2UoL15cLz9rdWVycFwvLywgJycpCiAgICAucmVwbGFjZSgvXmt1ZXJwXy8sICcnKQogICAgLnJlcGxhY2UoLy0vZywgJ18nKQogICAgLnJlcGxhY2UoL1wvLiokLywgJycpOwp9CgovKioKICog5Yqg6L295b2T5YmN55So5oi35p2D6ZmQ6ZuG5ZCI44CCCiAqCiAqIEBwYXJhbSBmb3JjZSDkuLogdHJ1ZSDml7blvLrliLbph43mlrDor7fmsYLvvIjop5LoibLlj5jmm7TlkI7kvb/nlKjvvIkKICogQHJldHVybnMg5piv5ZCm5Yqg6L295oiQ5YqfCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gbG9hZFBlcm1zKGZvcmNlID0gZmFsc2UpOiBQcm9taXNlPGJvb2xlYW4+IHsKICBpZiAoc3RhdGUubG9hZGVkICYmICFmb3JjZSkgcmV0dXJuIHRydWU7CiAgdHJ5IHsKICAgIGNvbnN0IHIgPSBhd2FpdCByZXF1ZXN0LmdldCgnL2F1dGgvcGVybXMnKTsKICAgIHN0YXRlLmlzU3VwZXIgPSAhIXI/LmlzU3VwZXI7CiAgICBzdGF0ZS50YWJsZXMgPSByPy50YWJsZXMgfHwge307CiAgICBzdGF0ZS5ub2RlcyA9IEFycmF5LmlzQXJyYXkocj8ubm9kZXMpID8gci5ub2RlcyA6IFtdOwogICAgc3RhdGUubWVudXMgPSBBcnJheS5pc0FycmF5KHI/Lm1lbnVzKSA/IHIubWVudXMgOiBbXTsKICAgIHN0YXRlLmxvYWRlZCA9IHRydWU7CiAgICByZXR1cm4gdHJ1ZTsKICB9IGNhdGNoIHsKICAgIC8vIOaOpeWPo+W8guW4uO+8iOWmguaXp+WQjuerr+aXoOivpei3r+eUse+8ieaXtuaUvuihjO+8jOmBv+WFjeaVtOS4quezu+e7n+aMiemSruWFqOeBsAogICAgc3RhdGUubG9hZGVkID0gZmFsc2U7CiAgICByZXR1cm4gZmFsc2U7CiAgfQp9CgovKioKICog5Yik5pat5b2T5YmN55So5oi36IO95ZCm5a+55p+Q6KGo5omn6KGM5p+Q5Yqo5L2c44CCCiAqCiAqIEBwYXJhbSB0YWJsZSDooajlkI3vvIjlj6/kvKDot6/nlLEgYXBpIOWJjee8gO+8jOWGhemDqOS8muW9kuS4gOWMlu+8iQogKiBAcGFyYW0gYWN0aW9uIOWKqOS9nOWQje+8mmluZGV4L2dldC9hZGQvZWRpdC9kZWwvZXhhbWluZS9pbXBvcnQvZXhwb3J04oCmCiAqIEByZXR1cm5zIOaYr+WQpuacieadg+mZkO+8iOacquWKoOi9veWujOaIkOaXtui/lOWbniB0cnVl77yM6YG/5YWN5oyJ6ZKu6Zeq54OB77yJCiAqLwpleHBvcnQgZnVuY3Rpb24gaGFzUGVybSh0YWJsZTogc3RyaW5nLCBhY3Rpb246IHN0cmluZyk6IGJvb2xlYW4gewogIGlmICghc3RhdGUubG9hZGVkKSByZXR1cm4gdHJ1ZTsKICBpZiAoc3RhdGUuaXNTdXBlcikgcmV0dXJuIHRydWU7CiAgaWYgKHN0YXRlLm5vZGVzLmluY2x1ZGVzKCcqJykpIHJldHVybiB0cnVlOwogIGNvbnN0IGtleSA9IG5vcm1hbGl6ZVRhYmxlKHRhYmxlKTsKICBjb25zdCBwID0gc3RhdGUudGFibGVzW2tleV07CiAgaWYgKCFwKSByZXR1cm4gZmFsc2U7CiAgaWYgKHAgPT09ICcqJykgcmV0dXJuIHRydWU7CiAgcmV0dXJuIChwIGFzIHN0cmluZ1tdKS5pbmNsdWRlcyhhY3Rpb24pOwp9CgovKioKICog57uE5ZCI5byP5YWl5Y+j77ya6aG16Z2i6YeMIGNvbnN0IHsgc3RhdGUsIGhhc1Blcm0gfSA9IHVzZVBlcm0oKeOAggogKiBAcmV0dXJucyDmnYPpmZDnirbmgIHkuI7liKTlrprlh73mlbAKICovCmV4cG9ydCBmdW5jdGlvbiB1c2VQZXJtKCkgewogIHJldHVybiB7IHN0YXRlLCBoYXNQZXJtLCBsb2FkUGVybXMgfTsKfQo=
+/**
+ * 按钮级权限（前端）。
+ *
+ * 【为什么需要它】
+ * 菜单级 RBAC 只解决「能不能看到这个页面」，进了页面之后所有按钮都亮着，
+ * 非超管点「删除」才被后端 403 拦下——体验差且容易误操作。
+ * 这里把后端 /auth/perms 的结果缓存下来，供页面在渲染时直接判断。
+ *
+ * 【口径必须与后端一致】
+ * 后端 RbacGuard 的判定顺序是：'*' → `kuerp/<表>` → `kuerp/<表>:*` → `kuerp/<表>:<动作>`，
+ * 因此前端 hasPerm 也按同样顺序判断，不做任何「前端更宽松」的假设，
+ * 否则会出现「按钮亮着但点了 403」。
+ *
+ * 【缓存策略】
+ * 进程内单例（模块级 reactive），登录后加载一次；
+ * 切换账号或角色变更后调用 loadPerms(true) 强制刷新。
+ */
+import { reactive } from 'vue';
+import request from './request';
+
+/** 表级权限：'*' 表示该表全部动作，数组表示仅这些动作 */
+export type TablePerm = '*' | string[];
+
+/** 权限状态 */
+export interface PermState {
+  /** 是否已加载（未加载时不隐藏任何按钮，避免首屏闪烁） */
+  loaded: boolean;
+  /** 是否超级管理员 */
+  isSuper: boolean;
+  /** 表 → 动作集合 */
+  tables: Record<string, TablePerm>;
+  /** 原始节点，便于调试 */
+  nodes: string[];
+  /** 非 kuerp 前缀的菜单级节点 */
+  menus: string[];
+}
+
+/** 模块级单例状态 */
+const state = reactive<PermState>({
+  loaded: false,
+  isSuper: false,
+  tables: {},
+  nodes: [],
+  menus: [],
+});
+
+/**
+ * 把路由里的 api 前缀归一化成物理表名。
+ *
+ * 例：'/kuerp/goods-purchase' → 'goods_purchase'；'/kuerp/goods' → 'goods'。
+ *
+ * @param api 路由 meta.api 或表名本身
+ * @returns 归一化后的表名（不含 kuerp_ 前缀）
+ */
+export function normalizeTable(api: string): string {
+  return String(api || '')
+    .replace(/^\/?kuerp\//, '')
+    .replace(/^kuerp_/, '')
+    .replace(/-/g, '_')
+    .replace(/\/.*$/, '');
+}
+
+/**
+ * 加载当前用户权限集合。
+ *
+ * @param force 为 true 时强制重新请求（角色变更后使用）
+ * @returns 是否加载成功
+ */
+export async function loadPerms(force = false): Promise<boolean> {
+  if (state.loaded && !force) return true;
+  try {
+    const r = await request.get('/auth/perms');
+    state.isSuper = !!r?.isSuper;
+    state.tables = r?.tables || {};
+    state.nodes = Array.isArray(r?.nodes) ? r.nodes : [];
+    state.menus = Array.isArray(r?.menus) ? r.menus : [];
+    state.loaded = true;
+    return true;
+  } catch {
+    // 接口异常（如旧后端无该路由）时放行，避免整个系统按钮全灰
+    state.loaded = false;
+    return false;
+  }
+}
+
+/**
+ * 判断当前用户能否对某表执行某动作。
+ *
+ * @param table 表名（可传路由 api 前缀，内部会归一化）
+ * @param action 动作名：index/get/add/edit/del/examine/import/export…
+ * @returns 是否有权限（未加载完成时返回 true，避免按钮闪烁）
+ */
+export function hasPerm(table: string, action: string): boolean {
+  if (!state.loaded) return true;
+  if (state.isSuper) return true;
+  if (state.nodes.includes('*')) return true;
+  const key = normalizeTable(table);
+  const p = state.tables[key];
+  if (!p) return false;
+  if (p === '*') return true;
+  return (p as string[]).includes(action);
+}
+
+/**
+ * 组合式入口：页面里 const { state, hasPerm } = usePerm()。
+ * @returns 权限状态与判定函数
+ */
+export function usePerm() {
+  return { state, hasPerm, loadPerms };
+}

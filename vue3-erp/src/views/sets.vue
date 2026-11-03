@@ -1,1 +1,266 @@
-PHRlbXBsYXRlPgogIDxkaXY+CiAgICA8RHNDYXJkPgogICAgICA8dGVtcGxhdGUgI3RpdGxlPgogICAgICAgIDxkaXYgc3R5bGU9ImRpc3BsYXk6ZmxleDtqdXN0aWZ5LWNvbnRlbnQ6c3BhY2UtYmV0d2VlbjthbGlnbi1pdGVtczpjZW50ZXIiPgogICAgICAgICAgPHNwYW4+57O757uf5Y+C5pWwPC9zcGFuPgogICAgICAgICAgPERzQnV0dG9uIHZhcmlhbnQ9InByaW1hcnkiIDpsb2FkaW5nPSJzYXZpbmciIEBjbGljaz0ic2F2ZSI+5L+d5a2YPC9Ec0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC90ZW1wbGF0ZT4KCiAgICAgIDxEc0FsZXJ0IHR5cGU9ImluZm8iIDpjbG9zYWJsZT0iZmFsc2UiIHNob3ctaWNvbiBjbGFzcz0ibWIiPgogICAgICAgIDx0ZW1wbGF0ZSAjdGl0bGU+57O757uf5Y+C5pWw77yI6KeBIOW8gOWPkeaWh+ahoy8zLuiuvue9ri8xLuezu+e7n+WPguaVsC5tZO+8iTwvdGVtcGxhdGU+CiAgICAgICAg5oyJ5Y+C5pWw57G75Z6L5YiG57uE57u05oqk44CC5byA5YWz57G75Y+C5pWw55So5Y+z5L6n5byA5YWz5o6n5Yi277yb5paH5pys57G75Y+C5pWw55u05o6l57yW6L6R5Y+W5YC844CC5qCH6K6w5Li644CM5LiN5YWB6K645L+u5pS544CN55qE5Y+C5pWw5Li65Y+q6K+744CCCiAgICAgIDwvRHNBbGVydD4KCiAgICAgIDxkaXY+CiAgICAgICAgPERzQ2FyZCB2LWZvcj0iZyBpbiBncm91cHMiIDprZXk9ImcudHlwZSIgY2xhc3M9Imdyb3VwIj4KICAgICAgICAgIDx0ZW1wbGF0ZSAjdGl0bGU+PHNwYW4+e3sgZy5sYWJlbCB9fTwvc3Bhbj48L3RlbXBsYXRlPgogICAgICAgICAgPCEtLQogICAgICAgICAgICDlj4LmlbDooYzvvIjljp8gZWwtZm9ybSArIGVsLWZvcm0taXRlbe+8jGxhYmVsLXdpZHRoIDE4MHB477yJ77yaCiAgICAgICAgICAgIGRzIOeahCBEc0ZpZWxkIOaYr+OAjOagh+etvuWcqOS4iuOAjeW4g+WxgO+8jOi/memHjOaMieWOn+ezu+e7n+aoquWQkeaOkueJiOeUqOiHquWumuS5ieihjCArIOWbuuWumuWuveagh+etvu+8jAogICAgICAgICAgICDkv53mjIHlj4LmlbDlkI0gLyDlvIDlhbMgLyDlj5blgLwgLyDor7TmmI4g5Zub5q615a+56b2Q44CCCiAgICAgICAgICAtLT4KICAgICAgICAgIDxkaXYgdi1mb3I9Iml0ZW0gaW4gZy5pdGVtcyIgOmtleT0iaXRlbS5pZCIgY2xhc3M9InBhcmFtIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9InBhcmFtLWxhYmVsIj57eyBpdGVtLm5pY2tuYW1lIHx8IGl0ZW0ubmFtZSB9fTwvc3Bhbj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0icGFyYW0tY3RsIj4KICAgICAgICAgICAgICA8IS0tIOW8gOWFs++8muWOnyBlbC1zd2l0Y2gg55qEIGFjdGl2ZS12YWx1ZT0xIC8gaW5hY3RpdmUtdmFsdWU9MO+8jGRzIOW8gOWFs+WPquiupOW4g+WwlO+8jOaVheWcqOatpOi9rOaNoiAtLT4KICAgICAgICAgICAgICA8RHNTd2l0Y2gKICAgICAgICAgICAgICAgIDptb2RlbC12YWx1ZT0iTnVtYmVyKGl0ZW0uaXNfY2hlY2tlZCkgPT09IDEiCiAgICAgICAgICAgICAgICA6ZGlzYWJsZWQ9ImlzTG9ja2VkKGl0ZW0pIgogICAgICAgICAgICAgICAgQGNoYW5nZT0iKHYpID0+IChpdGVtLmlzX2NoZWNrZWQgPSB2ID8gMSA6IDApIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPERzSW5wdXQgdi1tb2RlbD0iaXRlbS52YWx1ZSIgOmRpc2FibGVkPSJpc0xvY2tlZChpdGVtKSIgcGxhY2Vob2xkZXI9IuWPguaVsOWPluWAvCIgY2xhc3M9InZhbHVlLWlucHV0IiAvPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJleHBsYWluIj57eyBpdGVtLmV4cGxhaW4gfX08L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9Ec0NhcmQ+CgogICAgICAgIDwhLS0g5Y2V5Y+36K6+572u77ya6Ieq5a6a5LmJ5ZCE5Y2V5o2u57yW5Y+355qE57uE5ZCI6KeE5YiZ77yI5YmN57yAICsg5pel5pyf5q61ICsg5rWB5rC05Y+377yJIC0tPgogICAgICAgIDxEc0NhcmQgY2xhc3M9Imdyb3VwIj4KICAgICAgICAgIDx0ZW1wbGF0ZSAjdGl0bGU+CiAgICAgICAgICAgIDxkaXYgc3R5bGU9ImRpc3BsYXk6ZmxleDtqdXN0aWZ5LWNvbnRlbnQ6c3BhY2UtYmV0d2VlbjthbGlnbi1pdGVtczpjZW50ZXIiPgogICAgICAgICAgICAgIDxzcGFuPuWNleWPt+iuvue9rjwvc3Bhbj4KICAgICAgICAgICAgICA8RHNCdXR0b24gdmFyaWFudD0icHJpbWFyeSIgOmxvYWRpbmc9InByZWZpeFNhdmluZyIgQGNsaWNrPSJzYXZlUHJlZml4Ij7kv53lrZjljZXlj7fop4TliJk8L0RzQnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICA8RHNBbGVydCB0eXBlPSJ3YXJuaW5nIiA6Y2xvc2FibGU9ImZhbHNlIiBzaG93LWljb24gY2xhc3M9Im1iIj4KICAgICAgICAgICAg5Yu+6YCJ6KGo56S66K+l5pel5pyf5q615Y+C5LiO57yW5Y+377yb44CM6LW35aeL5pWw44CN5Li65rWB5rC05Y+36LW354K577yM44CM5pWw5a2X6ZW/5bqm44CN5Li65rWB5rC05Y+36KGl6Zu25L2N5pWw44CCCiAgICAgICAgICAgIOW3suS6p+eUn+aVsOaNrueahOWNleaNruS4jeWPr+WGjeS/ruaUueWFtue7hOWQiOinhOWIme+8iOacjeWKoeerr+W8uuagoemqjO+8ieOAggogICAgICAgICAgPC9Ec0FsZXJ0PgogICAgICAgICAgPCEtLSDljZXlj7fop4TliJnooajvvJrliY3nvIAgKyDml6XmnJ/mrrXli77pgIkgKyDmtYHmsLTlj7fvvIznpLrkvovlrp7ml7bpooTop4ggLS0+CiAgICAgICAgICA8RHNUYWJsZSA6Y29sdW1ucz0icHJlZml4Q29sdW1ucyIgOmRhdGE9InByZWZpeGVzIiA6bG9hZGluZz0ibG9hZGluZyIgOnN0cmlwZWQ9InRydWUiPgogICAgICAgICAgICA8IS0tIOWJjee8gCAtLT4KICAgICAgICAgICAgPHRlbXBsYXRlICNwcmVmaXg9Insgcm93IH0iPgogICAgICAgICAgICAgIDxEc0lucHV0IHYtbW9kZWw9InJvdy5wcmVmaXgiIHNpemU9InNtIiBtYXhsZW5ndGg9IjEwIiAvPgogICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgICA8IS0tIOaXpeacn+aute+8micxJz3lj4LkuI7nvJblj7fvvIwnMic95LiN5Y+C5LiO77yI5LiO5Y6f57O757uf5p6a5Li+5LiA6Ie077yMZHMg5aSN6YCJ5qGG5Y+q6K6k5biD5bCU5pWF6L2s5o2i77yJIC0tPgogICAgICAgICAgICA8dGVtcGxhdGUgdi1mb3I9InNlZyBpbiBEQVRFX1NFR1MiIDprZXk9InNlZy5rZXkiICNbc2VnLmtleV09Insgcm93IH0iPgogICAgICAgICAgICAgIDxEc0NoZWNrYm94CiAgICAgICAgICAgICAgICA6bW9kZWwtdmFsdWU9IlN0cmluZyhyb3dbc2VnLmtleV0pID09PSAnMSciCiAgICAgICAgICAgICAgICBAY2hhbmdlPSIodikgPT4gKHJvd1tzZWcua2V5XSA9IHYgPyAnMScgOiAnMicpIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgIDwhLS0g5rWB5rC05Y+36LW35aeL5YC85LiO6KGl6Zu26ZW/5bqmIC0tPgogICAgICAgICAgICA8dGVtcGxhdGUgI3N0YXJ0PSJ7IHJvdyB9Ij4KICAgICAgICAgICAgICA8RHNJbnB1dCB0eXBlPSJudW1iZXIiIHYtbW9kZWw9InJvdy5zdGFydCIgc2l6ZT0ic20iIHN0eWxlPSJ3aWR0aDoxMDAlIiAvPgogICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgICA8dGVtcGxhdGUgI3N0cmxlbj0ieyByb3cgfSI+CiAgICAgICAgICAgICAgPERzSW5wdXQgdHlwZT0ibnVtYmVyIiB2LW1vZGVsPSJyb3cuc3RybGVuIiBzaXplPSJzbSIgc3R5bGU9IndpZHRoOjEwMCUiIC8+CiAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgIDwhLS0g56S65L6L77ya5oyJ5b2T5YmN6KeE5YiZ5a6e5pe25ou85o6lIC0tPgogICAgICAgICAgICA8dGVtcGxhdGUgI19leGFtcGxlPSJ7IHJvdyB9Ij4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0ibW9ubyI+e3sgcHJlZml4RXhhbXBsZShyb3cpIH19PC9zcGFuPgogICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgPC9Ec1RhYmxlPgogICAgICAgIDwvRHNDYXJkPgogICAgICA8L2Rpdj4KICAgIDwvRHNDYXJkPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHNjcmlwdCBzZXR1cD4KLyoqCiAqIOezu+e7n+WPguaVsOWIhue7hOihqOWNlemhte+8iOWvueW6lCDlvIDlj5HmlofmoaMvMy7orr7nva4vMS7ns7vnu5/lj4LmlbAubWTvvInjgIIKICog5Yqf6IO977yaCiAqICAtIOaLieWPliBrdWVycF9zZXRzIOWFqOmDqOWPguaVsO+8iEdFVCAva3VlcnAvc2V0cy9pbmRleO+8ie+8mwogKiAgLSDmjIkgdHlwZSDliIbnu4TvvIgxPeWfuuehgOWPguaVsCAvIDI95Yqf6IO95Y+C5pWwIC8gMz3ku7fmoLzlj5bmlbDkvJjlhYjnuqcgLyA0Peiuoui0p+mAmuWwj+eoi+W6j++8iea4suafk+S4uuWPr+e8lui+keihqOWNle+8mwogKiAgLSDmr4/pobnlkKvlvIDlhbPvvIhpc19jaGVja2Vk77yM5piv5ZCm5ZCv55So77yJ5LiO5Y+W5YC877yIdmFsdWXvvInvvJtpc19lZGl0PTEg55qE5Y+C5pWw5Y+q6K+777ybCiAqICAtIOS/neWtmO+8mumAkOadoSBQT1NUIC9rdWVycC9zZXRzL2VkaXQg5Zue5YaZIHZhbHVlIOS4jiBpc19jaGVja2Vk77ybCiAqICAtIOWNleWPt+iuvue9ru+8iGt1ZXJwX3ByZWZpeO+8ie+8mue7tOaKpOWQhOWNleaNrue8luWPt+eahOWJjee8gCArIOaXpeacn+autSArIOa1geawtOWPt+inhOWIme+8jAogKiAgICDnpLrkvovlrp7ml7bpooTop4jvvIzkv53lrZjotbAgUE9TVCAva3VlcnAvc2V0cy9wcmVmaXgtc2F2Ze+8iOW3suS6p+eUn+aVsOaNrueahOWNleaNruacjeWKoeerr+emgeatouaUueinhOWIme+8ieOAggogKi8KaW1wb3J0IHsgcmVmLCBjb21wdXRlZCwgb25Nb3VudGVkIH0gZnJvbSAndnVlJzsKaW1wb3J0IHsgbWVzc2FnZSB9IGZyb20gJ0AvdXRpbHMvdWknOwppbXBvcnQgcmVxdWVzdCBmcm9tICcuLi91dGlscy9yZXF1ZXN0JzsKCmNvbnN0IGxvYWRpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBzYXZpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBwcmVmaXhTYXZpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBpdGVtcyA9IHJlZihbXSk7Ci8qKiDljZXlj7fop4TliJnliJfooajvvIhrdWVycF9wcmVmaXjvvIkgKi8KY29uc3QgcHJlZml4ZXMgPSByZWYoW10pOwoKLyoqIOWPguS4jue8luWPt+eahOaXpeacn+auteWumuS5ie+8iOWAvCAnMSc95Y+C5LiO77yMJzInPeS4jeWPguS4ju+8jOS4juWOn+ezu+e7n+aemuS4vuS4gOiHtO+8iSAqLwpjb25zdCBEQVRFX1NFR1MgPSBbCiAgeyBrZXk6ICd5ZWFyJywgbGFiZWw6ICflubQnIH0sCiAgeyBrZXk6ICdtb250aCcsIGxhYmVsOiAn5pyIJyB9LAogIHsga2V5OiAnZGF5JywgbGFiZWw6ICfml6UnIH0sCiAgeyBrZXk6ICdob3VyJywgbGFiZWw6ICfml7YnIH0sCiAgeyBrZXk6ICdtaW51dGUnLCBsYWJlbDogJ+WIhicgfSwKICB7IGtleTogJ3NlY29uZCcsIGxhYmVsOiAn56eSJyB9LApdOwoKLyoqIOWNleWPt+inhOWImeihqOWIl+mFjee9ru+8muWNleaNruWQjSArIOWJjee8gCArIDYg5Liq5pel5pyf5q61ICsg6LW35aeL5pWwL+mVv+W6pi/npLrkvosgKi8KY29uc3QgcHJlZml4Q29sdW1ucyA9IFsKICB7IGtleTogJ25hbWUnLCB0aXRsZTogJ+WNleaNricsIHdpZHRoOiAnMTIwJyB9LAogIHsga2V5OiAncHJlZml4JywgdGl0bGU6ICfliY3nvIAnLCB3aWR0aDogJzEwMCcgfSwKICAuLi5EQVRFX1NFR1MubWFwKChzKSA9PiAoeyBrZXk6IHMua2V5LCB0aXRsZTogcy5sYWJlbCwgd2lkdGg6ICc1NicsIGFsaWduOiAnY2VudGVyJyB9KSksCiAgeyBrZXk6ICdzdGFydCcsIHRpdGxlOiAn6LW35aeL5pWwJywgd2lkdGg6ICc5NicgfSwKICB7IGtleTogJ3N0cmxlbicsIHRpdGxlOiAn5pWw5a2X6ZW/5bqmJywgd2lkdGg6ICc5NicgfSwKICB7IGtleTogJ19leGFtcGxlJywgdGl0bGU6ICfnpLrkvosnLCB3aWR0aDogJzE4MCcgfSwKXTsKCmNvbnN0IFRZUEVfTEFCRUwgPSB7CiAgMTogJ+WfuuehgOWPguaVsCcsCiAgMjogJ+WKn+iDveWPguaVsCcsCiAgMzogJ+S7t+agvOWPluaVsOS8mOWFiOe6pycsCiAgNDogJ+iuoui0p+mAmuWwj+eoi+W6jycsCiAgNTogJ+WumuaXtuS9nOS4micsCn07CgovKiog5oyJIHR5cGUg5YiG57uE5oiQ6KGo5Y2V5YiG5Yy6ICovCmNvbnN0IGdyb3VwcyA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBtYXAgPSBuZXcgTWFwKCk7CiAgZm9yIChjb25zdCBpdCBvZiBpdGVtcy52YWx1ZSkgewogICAgY29uc3QgdCA9IE51bWJlcihpdC50eXBlKSB8fCAxOwogICAgaWYgKCFtYXAuaGFzKHQpKSBtYXAuc2V0KHQsIFtdKTsKICAgIG1hcC5nZXQodCkucHVzaChpdCk7CiAgfQogIHJldHVybiBbLi4ubWFwLmVudHJpZXMoKV0KICAgIC5zb3J0KChhLCBiKSA9PiBhWzBdIC0gYlswXSkKICAgIC5tYXAoKFt0eXBlLCBsaXN0XSkgPT4gKHsgdHlwZSwgbGFiZWw6IFRZUEVfTEFCRUxbdHlwZV0gfHwgYOWPguaVsOe7hCAke3R5cGV9YCwgaXRlbXM6IGxpc3QgfSkpOwp9KTsKCi8qKiDmmK/lkKbplIHlrprkuI3lj6/kv67mlLnvvIhpc19lZGl0PTEg6KGo56S65LiN5YWB6K645L+u5pS577yJICovCmZ1bmN0aW9uIGlzTG9ja2VkKGl0ZW0pIHsKICByZXR1cm4gTnVtYmVyKGl0ZW0uaXNfZWRpdCkgPT09IDE7Cn0KCi8qKiDmi4nlj5blhajpg6jns7vnu5/lj4LmlbDkuI7ljZXlj7fop4TliJkgKi8KYXN5bmMgZnVuY3Rpb24gbG9hZCgpIHsKICBsb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgY29uc3QgW3NldHMsIHByZWZpeF0gPSBhd2FpdCBQcm9taXNlLmFsbChbCiAgICAgIHJlcXVlc3QuZ2V0KCcva3VlcnAvc2V0cy9pbmRleCcsIHsgcGFyYW1zOiB7IGxpbWl0OiA1MDAgfSB9KSwKICAgICAgcmVxdWVzdC5nZXQoJy9rdWVycC9wcmVmaXgvaW5kZXgnLCB7IHBhcmFtczogeyBsaW1pdDogMjAwIH0gfSksCiAgICBdKTsKICAgIGl0ZW1zLnZhbHVlID0gQXJyYXkuaXNBcnJheShzZXRzPy5saXN0KSA/IHNldHMubGlzdCA6IEFycmF5LmlzQXJyYXkoc2V0cykgPyBzZXRzIDogW107CiAgICBwcmVmaXhlcy52YWx1ZSA9IChBcnJheS5pc0FycmF5KHByZWZpeD8ubGlzdCkgPyBwcmVmaXgubGlzdCA6IFtdKS5tYXAoKHApID0+ICh7CiAgICAgIGlkOiBwLmlkLAogICAgICBuYW1lOiBwLm5hbWUsCiAgICAgIHByZWZpeDogcC5wcmVmaXgsCiAgICAgIHllYXI6IFN0cmluZyhwLnllYXIpLAogICAgICBtb250aDogU3RyaW5nKHAubW9udGgpLAogICAgICBkYXk6IFN0cmluZyhwLmRheSksCiAgICAgIGhvdXI6IFN0cmluZyhwLmhvdXIpLAogICAgICBtaW51dGU6IFN0cmluZyhwLm1pbnV0ZSksCiAgICAgIHNlY29uZDogU3RyaW5nKHAuc2Vjb25kKSwKICAgICAgc3RhcnQ6IE51bWJlcihwLnN0YXJ0KSB8fCAwLAogICAgICBzdHJsZW46IE51bWJlcihwLnN0cmxlbikgfHwgMSwKICAgIH0pKTsKICB9IGNhdGNoIChlKSB7CiAgICBtZXNzYWdlLmVycm9yKGU/LnJlc3BvbnNlPy5kYXRhPy5tc2cgfHwgJ+WKoOi9veWksei0pScpOwogIH0gZmluYWxseSB7CiAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9CgovKioKICog55Sf5oiQ5Y2V5Y+356S65L6L77yI5LiO5Y6f57O757ufIGV4YW1wbGUg55Sf5oiQ5Y+j5b6E5LiA6Ie077yJ77yaCiAqIOWJjee8gCArIOWLvumAieeahOaXpeacn+aute+8iFlZWVkvTU0vREQvSEgvbW0vc3PvvIkrIOihpembtuWQjueahOi1t+Wni+aVsOOAggogKiBAcGFyYW0gcm93IOWNleWPt+inhOWImeihjAogKiBAcmV0dXJucyDnpLrkvovnvJblj7flrZfnrKbkuLIKICovCmZ1bmN0aW9uIHByZWZpeEV4YW1wbGUocm93KSB7CiAgY29uc3QgZCA9IG5ldyBEYXRlKCk7CiAgY29uc3QgcDIgPSAobikgPT4gU3RyaW5nKG4pLnBhZFN0YXJ0KDIsICcwJyk7CiAgY29uc3Qgc2VncyA9IHsKICAgIHllYXI6IFN0cmluZyhkLmdldEZ1bGxZZWFyKCkpLAogICAgbW9udGg6IHAyKGQuZ2V0TW9udGgoKSArIDEpLAogICAgZGF5OiBwMihkLmdldERhdGUoKSksCiAgICBob3VyOiBwMihkLmdldEhvdXJzKCkpLAogICAgbWludXRlOiBwMihkLmdldE1pbnV0ZXMoKSksCiAgICBzZWNvbmQ6IHAyKGQuZ2V0U2Vjb25kcygpKSwKICB9OwogIGxldCBjb2RlID0gU3RyaW5nKHJvdy5wcmVmaXggfHwgJycpOwogIGZvciAoY29uc3QgcyBvZiBEQVRFX1NFR1MpIHsKICAgIGlmIChTdHJpbmcocm93W3Mua2V5XSkgPT09ICcxJykgY29kZSArPSBzZWdzW3Mua2V5XTsKICB9CiAgY29uc3QgbGVuID0gTWF0aC5tYXgoMSwgTnVtYmVyKHJvdy5zdHJsZW4pIHx8IDEpOwogIGNvZGUgKz0gU3RyaW5nKE1hdGgubWF4KDAsIE51bWJlcihyb3cuc3RhcnQpIHx8IDApKS5wYWRTdGFydChsZW4sICcwJyk7CiAgcmV0dXJuIGNvZGU7Cn0KCi8qKiDkv53lrZjljZXlj7fnu4TlkIjop4TliJkgKi8KYXN5bmMgZnVuY3Rpb24gc2F2ZVByZWZpeCgpIHsKICBwcmVmaXhTYXZpbmcudmFsdWUgPSB0cnVlOwogIHRyeSB7CiAgICBjb25zdCByID0gYXdhaXQgcmVxdWVzdC5wb3N0KCcva3VlcnAvc2V0cy9wcmVmaXgtc2F2ZScsIHsKICAgICAgcm93czogcHJlZml4ZXMudmFsdWUubWFwKChwKSA9PiAoewogICAgICAgIGlkOiBwLmlkLAogICAgICAgIHByZWZpeDogcC5wcmVmaXgsCiAgICAgICAgeWVhcjogcC55ZWFyLAogICAgICAgIG1vbnRoOiBwLm1vbnRoLAogICAgICAgIGRheTogcC5kYXksCiAgICAgICAgaG91cjogcC5ob3VyLAogICAgICAgIG1pbnV0ZTogcC5taW51dGUsCiAgICAgICAgc2Vjb25kOiBwLnNlY29uZCwKICAgICAgICBzdGFydDogcC5zdGFydCwKICAgICAgICBzdHJsZW46IHAuc3RybGVuLAogICAgICB9KSksCiAgICB9KTsKICAgIG1lc3NhZ2Uuc3VjY2Vzcyhg5Y2V5Y+36KeE5YiZ5bey5L+d5a2Y77yI5pu05pawICR7cj8udXBkYXRlZCA/PyAwfSDmnaHvvIlgKTsKICB9IGNhdGNoIChlKSB7CiAgICBtZXNzYWdlLmVycm9yKGU/LnJlc3BvbnNlPy5kYXRhPy5tc2cgfHwgZT8ubWVzc2FnZSB8fCAn5L+d5a2Y5aSx6LSlJyk7CiAgfSBmaW5hbGx5IHsKICAgIHByZWZpeFNhdmluZy52YWx1ZSA9IGZhbHNlOwogIH0KfQoKLyoqIOS/neWtmO+8mumAkOadoeWbnuWGmSB2YWx1ZSDkuI4gaXNfY2hlY2tlZCAqLwphc3luYyBmdW5jdGlvbiBzYXZlKCkgewogIHNhdmluZy52YWx1ZSA9IHRydWU7CiAgbGV0IGRvbmUgPSAwOwogIHRyeSB7CiAgICBmb3IgKGNvbnN0IGl0IG9mIGl0ZW1zLnZhbHVlKSB7CiAgICAgIGlmIChpc0xvY2tlZChpdCkpIGNvbnRpbnVlOwogICAgICBhd2FpdCByZXF1ZXN0LnBvc3QoJy9rdWVycC9zZXRzL2VkaXQnLCB7CiAgICAgICAgaWQ6IGl0LmlkLAogICAgICAgIHZhbHVlOiBpdC52YWx1ZSwKICAgICAgICBpc19jaGVja2VkOiBOdW1iZXIoaXQuaXNfY2hlY2tlZCksCiAgICAgIH0pOwogICAgICBkb25lKys7CiAgICB9CiAgICBtZXNzYWdlLnN1Y2Nlc3MoYOW3suS/neWtmCAke2RvbmV9IOmhueWPguaVsGApOwogIH0gY2F0Y2ggKGUpIHsKICAgIG1lc3NhZ2UuZXJyb3IoZT8ucmVzcG9uc2U/LmRhdGE/Lm1zZyB8fCAn5L+d5a2Y5aSx6LSlJyk7CiAgfSBmaW5hbGx5IHsKICAgIHNhdmluZy52YWx1ZSA9IGZhbHNlOwogIH0KfQoKb25Nb3VudGVkKGxvYWQpOwo8L3NjcmlwdD4KCjxzdHlsZSBzY29wZWQ+Ci5tYiB7IG1hcmdpbi1ib3R0b206IDE2cHg7IH0KLmdyb3VwIHsgbWFyZ2luLWJvdHRvbTogMTZweDsgfQoudmFsdWUtaW5wdXQgeyB3aWR0aDogMjYwcHg7IG1hcmdpbi1sZWZ0OiAxMnB4OyB9Ci5leHBsYWluIHsgbWFyZ2luLWxlZnQ6IDEycHg7IGNvbG9yOiB2YXIoLS1kcy10ZXh0LTMpOyBmb250LXNpemU6IDEycHg7IH0KLm1vbm8geyBmb250LWZhbWlseTogQ29uc29sYXMsIE1vbmFjbywgbW9ub3NwYWNlOyBmb250LXNpemU6IDEzcHg7IH0KLyog5Y+C5pWw6KGM77ya5Zu65a6a5a695qCH562+ICsg5Y+z5L6n5o6n5Lu25Yy677yI6L+Y5Y6f5Y6f57O757ufIGxhYmVsLXdpZHRoPTE4MHB4IOeahOaoquWQkeaOkueJiO+8iSAqLwoucGFyYW0geyBkaXNwbGF5OiBmbGV4OyBhbGlnbi1pdGVtczogY2VudGVyOyBnYXA6IDEycHg7IHBhZGRpbmc6IDZweCAwOyB9Ci5wYXJhbS1sYWJlbCB7IGZsZXg6IDAgMCAxODBweDsgY29sb3I6IHZhcigtLWRzLXRleHQtMik7IGZvbnQtc2l6ZTogMTNweDsgfQoucGFyYW0tY3RsIHsgZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsgZ2FwOiA0cHg7IGZsZXgtd3JhcDogd3JhcDsgfQo8L3N0eWxlPgo=
+<template>
+  <div>
+    <DsCard>
+      <template #title>
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <span>系统参数</span>
+          <DsButton variant="primary" :loading="saving" @click="save">保存</DsButton>
+        </div>
+      </template>
+
+      <DsAlert type="info" :closable="false" show-icon class="mb">
+        <template #title>系统参数（见 开发文档/3.设置/1.系统参数.md）</template>
+        按参数类型分组维护。开关类参数用右侧开关控制；文本类参数直接编辑取值。标记为「不允许修改」的参数为只读。
+      </DsAlert>
+
+      <div>
+        <DsCard v-for="g in groups" :key="g.type" class="group">
+          <template #title><span>{{ g.label }}</span></template>
+          <!--
+            参数行（原 el-form + el-form-item，label-width 180px）：
+            ds 的 DsField 是「标签在上」布局，这里按原系统横向排版用自定义行 + 固定宽标签，
+            保持参数名 / 开关 / 取值 / 说明 四段对齐。
+          -->
+          <div v-for="item in g.items" :key="item.id" class="param">
+            <span class="param-label">{{ item.nickname || item.name }}</span>
+            <div class="param-ctl">
+              <!-- 开关：原 el-switch 的 active-value=1 / inactive-value=0，ds 开关只认布尔，故在此转换 -->
+              <DsSwitch
+                :model-value="Number(item.is_checked) === 1"
+                :disabled="isLocked(item)"
+                @change="(v) => (item.is_checked = v ? 1 : 0)"
+              />
+              <DsInput v-model="item.value" :disabled="isLocked(item)" placeholder="参数取值" class="value-input" />
+              <span class="explain">{{ item.explain }}</span>
+            </div>
+          </div>
+        </DsCard>
+
+        <!-- 单号设置：自定义各单据编号的组合规则（前缀 + 日期段 + 流水号） -->
+        <DsCard class="group">
+          <template #title>
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <span>单号设置</span>
+              <DsButton variant="primary" :loading="prefixSaving" @click="savePrefix">保存单号规则</DsButton>
+            </div>
+          </template>
+          <DsAlert type="warning" :closable="false" show-icon class="mb">
+            勾选表示该日期段参与编号；「起始数」为流水号起点，「数字长度」为流水号补零位数。
+            已产生数据的单据不可再修改其组合规则（服务端强校验）。
+          </DsAlert>
+          <!-- 单号规则表：前缀 + 日期段勾选 + 流水号，示例实时预览 -->
+          <DsTable :columns="prefixColumns" :data="prefixes" :loading="loading" :striped="true">
+            <!-- 前缀 -->
+            <template #prefix="{ row }">
+              <DsInput v-model="row.prefix" size="sm" maxlength="10" />
+            </template>
+            <!-- 日期段：'1'=参与编号，'2'=不参与（与原系统枚举一致，ds 复选框只认布尔故转换） -->
+            <template v-for="seg in DATE_SEGS" :key="seg.key" #[seg.key]="{ row }">
+              <DsCheckbox
+                :model-value="String(row[seg.key]) === '1'"
+                @change="(v) => (row[seg.key] = v ? '1' : '2')"
+              />
+            </template>
+            <!-- 流水号起始值与补零长度 -->
+            <template #start="{ row }">
+              <DsInput type="number" v-model="row.start" size="sm" style="width:100%" />
+            </template>
+            <template #strlen="{ row }">
+              <DsInput type="number" v-model="row.strlen" size="sm" style="width:100%" />
+            </template>
+            <!-- 示例：按当前规则实时拼接 -->
+            <template #_example="{ row }">
+              <span class="mono">{{ prefixExample(row) }}</span>
+            </template>
+          </DsTable>
+        </DsCard>
+      </div>
+    </DsCard>
+  </div>
+</template>
+
+<script setup>
+/**
+ * 系统参数分组表单页（对应 开发文档/3.设置/1.系统参数.md）。
+ * 功能：
+ *  - 拉取 kuerp_sets 全部参数（GET /kuerp/sets/index）；
+ *  - 按 type 分组（1=基础参数 / 2=功能参数 / 3=价格取数优先级 / 4=订货通小程序）渲染为可编辑表单；
+ *  - 每项含开关（is_checked，是否启用）与取值（value）；is_edit=1 的参数只读；
+ *  - 保存：逐条 POST /kuerp/sets/edit 回写 value 与 is_checked；
+ *  - 单号设置（kuerp_prefix）：维护各单据编号的前缀 + 日期段 + 流水号规则，
+ *    示例实时预览，保存走 POST /kuerp/sets/prefix-save（已产生数据的单据服务端禁止改规则）。
+ */
+import { ref, computed, onMounted } from 'vue';
+import { message } from '@/utils/ui';
+import request from '../utils/request';
+
+const loading = ref(false);
+const saving = ref(false);
+const prefixSaving = ref(false);
+const items = ref([]);
+/** 单号规则列表（kuerp_prefix） */
+const prefixes = ref([]);
+
+/** 参与编号的日期段定义（值 '1'=参与，'2'=不参与，与原系统枚举一致） */
+const DATE_SEGS = [
+  { key: 'year', label: '年' },
+  { key: 'month', label: '月' },
+  { key: 'day', label: '日' },
+  { key: 'hour', label: '时' },
+  { key: 'minute', label: '分' },
+  { key: 'second', label: '秒' },
+];
+
+/** 单号规则表列配置：单据名 + 前缀 + 6 个日期段 + 起始数/长度/示例 */
+const prefixColumns = [
+  { key: 'name', title: '单据', width: '120' },
+  { key: 'prefix', title: '前缀', width: '100' },
+  ...DATE_SEGS.map((s) => ({ key: s.key, title: s.label, width: '56', align: 'center' })),
+  { key: 'start', title: '起始数', width: '96' },
+  { key: 'strlen', title: '数字长度', width: '96' },
+  { key: '_example', title: '示例', width: '180' },
+];
+
+const TYPE_LABEL = {
+  1: '基础参数',
+  2: '功能参数',
+  3: '价格取数优先级',
+  4: '订货通小程序',
+  5: '定时作业',
+};
+
+/** 按 type 分组成表单分区 */
+const groups = computed(() => {
+  const map = new Map();
+  for (const it of items.value) {
+    const t = Number(it.type) || 1;
+    if (!map.has(t)) map.set(t, []);
+    map.get(t).push(it);
+  }
+  return [...map.entries()]
+    .sort((a, b) => a[0] - b[0])
+    .map(([type, list]) => ({ type, label: TYPE_LABEL[type] || `参数组 ${type}`, items: list }));
+});
+
+/** 是否锁定不可修改（is_edit=1 表示不允许修改） */
+function isLocked(item) {
+  return Number(item.is_edit) === 1;
+}
+
+/** 拉取全部系统参数与单号规则 */
+async function load() {
+  loading.value = true;
+  try {
+    const [sets, prefix] = await Promise.all([
+      request.get('/kuerp/sets/index', { params: { limit: 500 } }),
+      request.get('/kuerp/prefix/index', { params: { limit: 200 } }),
+    ]);
+    items.value = Array.isArray(sets?.list) ? sets.list : Array.isArray(sets) ? sets : [];
+    prefixes.value = (Array.isArray(prefix?.list) ? prefix.list : []).map((p) => ({
+      id: p.id,
+      name: p.name,
+      prefix: p.prefix,
+      year: String(p.year),
+      month: String(p.month),
+      day: String(p.day),
+      hour: String(p.hour),
+      minute: String(p.minute),
+      second: String(p.second),
+      start: Number(p.start) || 0,
+      strlen: Number(p.strlen) || 1,
+    }));
+  } catch (e) {
+    message.error(e?.response?.data?.msg || '加载失败');
+  } finally {
+    loading.value = false;
+  }
+}
+
+/**
+ * 生成单号示例（与原系统 example 生成口径一致）：
+ * 前缀 + 勾选的日期段（YYYY/MM/DD/HH/mm/ss）+ 补零后的起始数。
+ * @param row 单号规则行
+ * @returns 示例编号字符串
+ */
+function prefixExample(row) {
+  const d = new Date();
+  const p2 = (n) => String(n).padStart(2, '0');
+  const segs = {
+    year: String(d.getFullYear()),
+    month: p2(d.getMonth() + 1),
+    day: p2(d.getDate()),
+    hour: p2(d.getHours()),
+    minute: p2(d.getMinutes()),
+    second: p2(d.getSeconds()),
+  };
+  let code = String(row.prefix || '');
+  for (const s of DATE_SEGS) {
+    if (String(row[s.key]) === '1') code += segs[s.key];
+  }
+  const len = Math.max(1, Number(row.strlen) || 1);
+  code += String(Math.max(0, Number(row.start) || 0)).padStart(len, '0');
+  return code;
+}
+
+/** 保存单号组合规则 */
+async function savePrefix() {
+  prefixSaving.value = true;
+  try {
+    const r = await request.post('/kuerp/sets/prefix-save', {
+      rows: prefixes.value.map((p) => ({
+        id: p.id,
+        prefix: p.prefix,
+        year: p.year,
+        month: p.month,
+        day: p.day,
+        hour: p.hour,
+        minute: p.minute,
+        second: p.second,
+        start: p.start,
+        strlen: p.strlen,
+      })),
+    });
+    message.success(`单号规则已保存（更新 ${r?.updated ?? 0} 条）`);
+  } catch (e) {
+    message.error(e?.response?.data?.msg || e?.message || '保存失败');
+  } finally {
+    prefixSaving.value = false;
+  }
+}
+
+/** 保存：逐条回写 value 与 is_checked */
+async function save() {
+  saving.value = true;
+  let done = 0;
+  try {
+    for (const it of items.value) {
+      if (isLocked(it)) continue;
+      await request.post('/kuerp/sets/edit', {
+        id: it.id,
+        value: it.value,
+        is_checked: Number(it.is_checked),
+      });
+      done++;
+    }
+    message.success(`已保存 ${done} 项参数`);
+  } catch (e) {
+    message.error(e?.response?.data?.msg || '保存失败');
+  } finally {
+    saving.value = false;
+  }
+}
+
+onMounted(load);
+</script>
+
+<style scoped>
+.mb { margin-bottom: 16px; }
+.group { margin-bottom: 16px; }
+.value-input { width: 260px; margin-left: 12px; }
+.explain { margin-left: 12px; color: var(--ds-text-3); font-size: 12px; }
+.mono { font-family: Consolas, Monaco, monospace; font-size: 13px; }
+/* 参数行：固定宽标签 + 右侧控件区（还原原系统 label-width=180px 的横向排版） */
+.param { display: flex; align-items: center; gap: 12px; padding: 6px 0; }
+.param-label { flex: 0 0 180px; color: var(--ds-text-2); font-size: 13px; }
+.param-ctl { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+</style>

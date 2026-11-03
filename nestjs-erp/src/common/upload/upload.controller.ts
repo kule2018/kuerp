@@ -1,1 +1,110 @@
-aW1wb3J0IHsKICBDb250cm9sbGVyLAogIEdldCwKICBIdHRwRXhjZXB0aW9uLAogIEh0dHBTdGF0dXMsCiAgUG9zdCwKICBVcGxvYWRlZEZpbGUsCiAgVXBsb2FkZWRGaWxlcywKICBVc2VGaWx0ZXJzLAogIFVzZUd1YXJkcywKICBVc2VJbnRlcmNlcHRvcnMsCn0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBGaWxlSW50ZXJjZXB0b3IsIEZpbGVzSW50ZXJjZXB0b3IgfSBmcm9tICdAbmVzdGpzL3BsYXRmb3JtLWV4cHJlc3MnOwppbXBvcnQgeyBTaG9wT3JKd3RHdWFyZCB9IGZyb20gJy4uL2d1YXJkcy9zaG9wLW9yLWp3dC5ndWFyZCc7CmltcG9ydCB7IGZhaWwsIG9rIH0gZnJvbSAnLi4vcmVzcG9uc2UuaW50ZXJjZXB0b3InOwppbXBvcnQgeyBVcGxvYWRTZXJ2aWNlIH0gZnJvbSAnLi91cGxvYWQuc2VydmljZSc7CmltcG9ydCB7IFVwbG9hZEV4Y2VwdGlvbkZpbHRlciB9IGZyb20gJy4vdXBsb2FkLmV4Y2VwdGlvbi1maWx0ZXInOwppbXBvcnQgeyBVUExPQURfTUFYX0NPVU5ULCBVUExPQURfVVJMX1BSRUZJWCB9IGZyb20gJy4vdXBsb2FkLmNvbmZpZyc7CgovKioKICog5paH5Lu25LiK5Lyg5o6l5Y+j44CCCiAqCiAqIOi3r+eUseWIu+aEj+aUvuWcqCAvYXBpL3VwbG9hZO+8iOS4jeaYryAva3VlcnAvLi4u77yJ77yaCiAqIDEuIOWJjeerryBEc1VwbG9hZCDnu4Tku7bnmoTpu5jorqQgYWN0aW9uIOWwseaYryAvYXBpL3VwbG9hZO+8mwogKiAyLiBSQkFDIOWuiOWNq+WPquaLpiAva3VlcnAvIOWJjee8gO+8jOS4iuS8oOWxnuahhuaetuiDveWKm++8jOeZu+W9leWNs+WPr+eUqOOAggogKgogKiBtdWx0ZXIg55qE5a2Y5YKoL+agoemqjOmFjee9rue7n+S4gOWcqCB1cGxvYWQubW9kdWxlLnRzIOmAmui/hyBNdWx0ZXJNb2R1bGUucmVnaXN0ZXJBc3luYyDms6jlhaXvvIwKICog5Zug5q2k6L+Z6YeM6LCD55SoIEZpbGVJbnRlcmNlcHRvciDml7bkuI3lho3kvKAgbG9jYWxPcHRpb25z77yI5Lyg5LqG5Lya6KaG55uW5YWo5bGA6YWN572u77yJ44CCCiAqCiAqIOi/lOWbnue7k+aehOWQjOaXtue7meWHuumhtuWxgiB1cmwg5LiO5qCH5YeGIGRhdGEudXJs77yM5YW85a655Lik56eN5YmN56uv6Kej5p6Q5Lmg5oOv44CCCiAqLwpAQ29udHJvbGxlcignYXBpL3VwbG9hZCcpCkBVc2VHdWFyZHMoU2hvcE9ySnd0R3VhcmQpCkBVc2VGaWx0ZXJzKFVwbG9hZEV4Y2VwdGlvbkZpbHRlcikKZXhwb3J0IGNsYXNzIFVwbG9hZENvbnRyb2xsZXIgewogIGNvbnN0cnVjdG9yKHByaXZhdGUgcmVhZG9ubHkgdXBsb2FkU2VydmljZTogVXBsb2FkU2VydmljZSkge30KCiAgLyoqCiAgICog5LiK5Lyg5YmN55qE6IO95Yqb5o6i5rWL77ya5YmN56uv5o2u5q2k5riy5p+TIGFjY2VwdCDmj5DnpLrkuI7lpKflsI/kuIrpmZDmlofmoYjjgIIKICAgKiDmlL7lnKjpibTmnYPkuYvlkI7vvIzpgb/lhY3mnKrnmbvlvZXogIXmjqLmtYvmnI3liqHnq6/phY3nva7jgIIKICAgKi8KICBAR2V0KCdjb25maWcnKQogIGNvbmZpZygpIHsKICAgIHJldHVybiBvayh7CiAgICAgIHVybFByZWZpeDogVVBMT0FEX1VSTF9QUkVGSVgsCiAgICAgIG1heFNpemU6IHRoaXMudXBsb2FkU2VydmljZS5tYXhTaXplKCksCiAgICAgIG1heENvdW50OiBVUExPQURfTUFYX0NPVU5ULAogICAgICBhY2NlcHQ6IHRoaXMudXBsb2FkU2VydmljZS5hbGxvd2VkRXh0KCksCiAgICB9KTsKICB9CgogIC8qKgogICAqIOWNleaWh+S7tuS4iuS8oO+8iOWtl+auteWQjSBmaWxl77yJ44CCCiAgICogQHBhcmFtIGZpbGUgbXVsdGVyIOWGmeWFpeWQjueahOaWh+S7tuWvueixoQogICAqIEByZXR1cm5zIOaIkOWKnyB7IGNvZGU6MSwgZGF0YTp7dXJsLG5hbWUsc2l6ZSwuLi59LCB1cmwgfe+8m+iiq+exu+Wei+mXuOmXqOaLpuS4i+aXtuaKmyA0MDAKICAgKi8KICBAUG9zdCgpCiAgQFVzZUludGVyY2VwdG9ycyhGaWxlSW50ZXJjZXB0b3IoJ2ZpbGUnKSkKICBzaW5nbGUoQFVwbG9hZGVkRmlsZSgpIGZpbGU6IGFueSkgewogICAgcmV0dXJuIHRoaXMuaGFuZGxlT25lKGZpbGUpOwogIH0KCiAgLyoqCiAgICog5aSa5paH5Lu25LiK5Lyg77yI5a2X5q615ZCNIGZpbGVz77yM5pyA5aSaIFVQTE9BRF9NQVhfQ09VTlQg5Liq77yJ44CCCiAgICog55So5LqO5ZWG5ZOB5Zu+6ZuG44CB5Y6f5aeL5Y2V5o2u5aSa6ZmE5Lu26L+Z57G75Zy65pmv77yM5LiA5qyh6K+35rGC6JC95aSa5Liq5paH5Lu244CCCiAgICogQHBhcmFtIGZpbGVzIG11bHRlciDmlofku7bmlbDnu4QKICAgKiBAcmV0dXJucyDlvZLkuIDljJblkI7nmoTmlofku7bkv6Hmga/mlbDnu4QKICAgKi8KICBAUG9zdCgnbXVsdGknKQogIEBVc2VJbnRlcmNlcHRvcnMoRmlsZXNJbnRlcmNlcHRvcignZmlsZXMnLCBVUExPQURfTUFYX0NPVU5UKSkKICBtdWx0aShAVXBsb2FkZWRGaWxlcygpIGZpbGVzOiBhbnlbXSkgewogICAgY29uc3QgbGlzdCA9IEFycmF5LmlzQXJyYXkoZmlsZXMpID8gZmlsZXMgOiBbXTsKICAgIGNvbnN0IGluZm9zID0gbGlzdC5tYXAoKGYpID0+IHRoaXMudXBsb2FkU2VydmljZS5ub3JtYWxpemUoZikpLmZpbHRlcihCb29sZWFuKTsKICAgIGlmICghaW5mb3MubGVuZ3RoKSB7CiAgICAgIHJldHVybiBmYWlsKGDmsqHmnInlj6/nlKjnmoTmlofku7bvvIjku4XmlK/mjIEgJHt0aGlzLnVwbG9hZFNlcnZpY2UuYWxsb3dlZEV4dCgpLmpvaW4oJyAvICcpfe+8iWApOwogICAgfQogICAgcmV0dXJuIG9rKGluZm9zLCBg5oiQ5Yqf5LiK5LygICR7aW5mb3MubGVuZ3RofSDkuKrmlofku7ZgKTsKICB9CgogIC8qKgogICAqIOWFvOWuueWOnyBGYXN0QWRtaW4g55qE5a2X5q615ZCNIGltYWdl44CCCiAgICog5pen6aG16Z2i5Lmg5oOv55SoIGBpbWFnZWAg5L2c5Li65LiK5Lyg5a2X5q6177yM6L+Z6YeM5YGa5LiA5bGC5YWc5bqV77yM5YeP5bCR5YmN56uv5pS56YCg6YeP44CCCiAgICovCiAgQFBvc3QoJ2ltYWdlJykKICBAVXNlSW50ZXJjZXB0b3JzKEZpbGVJbnRlcmNlcHRvcignaW1hZ2UnKSkKICBpbWFnZShAVXBsb2FkZWRGaWxlKCkgZmlsZTogYW55KSB7CiAgICByZXR1cm4gdGhpcy5oYW5kbGVPbmUoZmlsZSk7CiAgfQoKICAvKioKICAgKiDnu5/kuIDlpITnkIbljZXmlofku7bnu5PmnpzjgIIKICAgKiBAcGFyYW0gZmlsZSBtdWx0ZXIg5paH5Lu25a+56LGh77yI5Y+v6IO95Li6IHVuZGVmaW5lZO+8muiiqyBmaWxlRmlsdGVyIOmdmem7mOS4ouW8g++8iQogICAqIEByZXR1cm5zIOagh+WHhuWTjeW6lOWvueixoQogICAqLwogIHByaXZhdGUgaGFuZGxlT25lKGZpbGU6IGFueSkgewogICAgaWYgKCFmaWxlKSB7CiAgICAgIGNvbnN0IG1iID0gTWF0aC5yb3VuZCh0aGlzLnVwbG9hZFNlcnZpY2UubWF4U2l6ZSgpIC8gMTAyNCAvIDEwMjQpOwogICAgICB0aHJvdyBuZXcgSHR0cEV4Y2VwdGlvbigKICAgICAgICBg5LiK5Lyg5aSx6LSl77ya5paH5Lu257G75Z6L5LiN5pSv5oyB5oiW6LaF5Ye65aSn5bCP6ZmQ5Yi277yI5Y2V5paH5Lu25LiK6ZmQICR7bWJ9TULvvIlgLAogICAgICAgIEh0dHBTdGF0dXMuQkFEX1JFUVVFU1QsCiAgICAgICk7CiAgICB9CiAgICBjb25zdCBpbmZvID0gdGhpcy51cGxvYWRTZXJ2aWNlLm5vcm1hbGl6ZShmaWxlKTsKICAgIGlmICghaW5mbykgewogICAgICB0aHJvdyBuZXcgSHR0cEV4Y2VwdGlvbign5LiK5Lyg5aSx6LSl77ya5paH5Lu25pyq5q2j56Gu6JC955uYJywgSHR0cFN0YXR1cy5JTlRFUk5BTF9TRVJWRVJfRVJST1IpOwogICAgfQogICAgLy8g5ZCM5pe257uZ6aG25bGCIHVybO+8jOWFvOWuueWOhuWPsue7hOS7tiBkYXRhPy51cmwg55qE6Kej5p6Q5pa55byPCiAgICByZXR1cm4geyBjb2RlOiAxLCBtc2c6ICfkuIrkvKDmiJDlip8nLCBkYXRhOiBpbmZvLCB1cmw6IGluZm8udXJsIH07CiAgfQp9Cg==
+import {
+  Controller,
+  Get,
+  HttpException,
+  HttpStatus,
+  Post,
+  UploadedFile,
+  UploadedFiles,
+  UseFilters,
+  UseGuards,
+  UseInterceptors,
+} from '@nestjs/common';
+import { FileInterceptor, FilesInterceptor } from '@nestjs/platform-express';
+import { ShopOrJwtGuard } from '../guards/shop-or-jwt.guard';
+import { fail, ok } from '../response.interceptor';
+import { UploadService } from './upload.service';
+import { UploadExceptionFilter } from './upload.exception-filter';
+import { UPLOAD_MAX_COUNT, UPLOAD_URL_PREFIX } from './upload.config';
+
+/**
+ * 文件上传接口。
+ *
+ * 路由刻意放在 /api/upload（不是 /kuerp/...）：
+ * 1. 前端 DsUpload 组件的默认 action 就是 /api/upload；
+ * 2. RBAC 守卫只拦 /kuerp/ 前缀，上传属框架能力，登录即可用。
+ *
+ * multer 的存储/校验配置统一在 upload.module.ts 通过 MulterModule.registerAsync 注入，
+ * 因此这里调用 FileInterceptor 时不再传 localOptions（传了会覆盖全局配置）。
+ *
+ * 返回结构同时给出顶层 url 与标准 data.url，兼容两种前端解析习惯。
+ */
+@Controller('api/upload')
+@UseGuards(ShopOrJwtGuard)
+@UseFilters(UploadExceptionFilter)
+export class UploadController {
+  constructor(private readonly uploadService: UploadService) {}
+
+  /**
+   * 上传前的能力探测：前端据此渲染 accept 提示与大小上限文案。
+   * 放在鉴权之后，避免未登录者探测服务端配置。
+   */
+  @Get('config')
+  config() {
+    return ok({
+      urlPrefix: UPLOAD_URL_PREFIX,
+      maxSize: this.uploadService.maxSize(),
+      maxCount: UPLOAD_MAX_COUNT,
+      accept: this.uploadService.allowedExt(),
+    });
+  }
+
+  /**
+   * 单文件上传（字段名 file）。
+   * @param file multer 写入后的文件对象
+   * @returns 成功 { code:1, data:{url,name,size,...}, url }；被类型闸门拦下时抛 400
+   */
+  @Post()
+  @UseInterceptors(FileInterceptor('file'))
+  single(@UploadedFile() file: any) {
+    return this.handleOne(file);
+  }
+
+  /**
+   * 多文件上传（字段名 files，最多 UPLOAD_MAX_COUNT 个）。
+   * 用于商品图集、原始单据多附件这类场景，一次请求落多个文件。
+   * @param files multer 文件数组
+   * @returns 归一化后的文件信息数组
+   */
+  @Post('multi')
+  @UseInterceptors(FilesInterceptor('files', UPLOAD_MAX_COUNT))
+  multi(@UploadedFiles() files: any[]) {
+    const list = Array.isArray(files) ? files : [];
+    const infos = list.map((f) => this.uploadService.normalize(f)).filter(Boolean);
+    if (!infos.length) {
+      return fail(`没有可用的文件（仅支持 ${this.uploadService.allowedExt().join(' / ')}）`);
+    }
+    return ok(infos, `成功上传 ${infos.length} 个文件`);
+  }
+
+  /**
+   * 兼容原 FastAdmin 的字段名 image。
+   * 旧页面习惯用 `image` 作为上传字段，这里做一层兜底，减少前端改造量。
+   */
+  @Post('image')
+  @UseInterceptors(FileInterceptor('image'))
+  image(@UploadedFile() file: any) {
+    return this.handleOne(file);
+  }
+
+  /**
+   * 统一处理单文件结果。
+   * @param file multer 文件对象（可能为 undefined：被 fileFilter 静默丢弃）
+   * @returns 标准响应对象
+   */
+  private handleOne(file: any) {
+    if (!file) {
+      const mb = Math.round(this.uploadService.maxSize() / 1024 / 1024);
+      throw new HttpException(
+        `上传失败：文件类型不支持或超出大小限制（单文件上限 ${mb}MB）`,
+        HttpStatus.BAD_REQUEST,
+      );
+    }
+    const info = this.uploadService.normalize(file);
+    if (!info) {
+      throw new HttpException('上传失败：文件未正确落盘', HttpStatus.INTERNAL_SERVER_ERROR);
+    }
+    // 同时给顶层 url，兼容历史组件 data?.url 的解析方式
+    return { code: 1, msg: '上传成功', data: info, url: info.url };
+  }
+}

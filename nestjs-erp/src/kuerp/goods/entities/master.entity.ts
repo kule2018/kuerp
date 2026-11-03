@@ -1,1 +1,131 @@
-aW1wb3J0IHsgRW50aXR5LCBDb2x1bW4gfSBmcm9tICd0eXBlb3JtJzsKaW1wb3J0IHsgQmFzZUVudGl0eSB9IGZyb20gJy4uLy4uLy4uL2NvbW1vbi9iYXNlLmVudGl0eSc7CgovKioKICog5ZWG5ZOB57G75Yir77yIa3VlcnBfZ29vZHNfdHlwZe+8iQogKi8KQEVudGl0eSgna3VlcnBfZ29vZHNfdHlwZScpCmV4cG9ydCBjbGFzcyBHb29kc1R5cGUgZXh0ZW5kcyBCYXNlRW50aXR5IHsKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDUwLCBkZWZhdWx0OiAnJywgY29tbWVudDogJ+exu+WIq+WQjeensCcgfSkKICBuYW1lOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAnaW50JywgZGVmYXVsdDogMCwgY29tbWVudDogJ+S4iue6p+exu+WIqycgfSkKICBwaWQ6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICdpbnQnLCBkZWZhdWx0OiAwLCBjb21tZW50OiAn5o6S5bqPJyB9KQogIHNvcnQ6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiAyNTUsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn5Zu+54mHJyB9KQogIGltYWdlOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndGlueWludCcsIGRlZmF1bHQ6IDEsIGNvbW1lbnQ6ICfnirbmgIEnIH0pCiAgc3RhdHVzOiBudW1iZXI7Cn0KCi8qKgogKiDorqHph4/ljZXkvY3vvIhrdWVycF91bml0IC8ga3VlcnBfYXV4aWxpYXJ577yJCiAqLwpARW50aXR5KCdrdWVycF91bml0JykKZXhwb3J0IGNsYXNzIFVuaXQgZXh0ZW5kcyBCYXNlRW50aXR5IHsKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDUwLCBkZWZhdWx0OiAnJywgY29tbWVudDogJ+WNleS9jeWQjeensCcgfSkKICBuYW1lOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndGlueWludCcsIGRlZmF1bHQ6IDEsIGNvbW1lbnQ6ICfnirbmgIEnIH0pCiAgc3RhdHVzOiBudW1iZXI7Cn0KCi8qKgogKiDku5PlupPvvIhrdWVycF93YXJlaG91c2XvvIkKICovCkBFbnRpdHkoJ2t1ZXJwX3dhcmVob3VzZScpCmV4cG9ydCBjbGFzcyBXYXJlaG91c2UgZXh0ZW5kcyBCYXNlRW50aXR5IHsKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDEwMCwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICfku5PlupPlkI3np7AnIH0pCiAgbmFtZTogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDI1NSwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICflnLDlnYAnIH0pCiAgYWRkcmVzczogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3RpbnlpbnQnLCBkZWZhdWx0OiAxLCBjb21tZW50OiAn54q25oCBOjE95ZCv55SoLDA956aB55SoJyB9KQogIHN0YXR1czogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDI1NSwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICflpIfms6gnIH0pCiAgcmVtYXJrOiBzdHJpbmc7Cn0KCi8qKgogKiDkvpvlupTllYbvvIhrdWVycF9zdXBwbGllcnPvvIkKICovCkBFbnRpdHkoJ2t1ZXJwX3N1cHBsaWVycycpCmV4cG9ydCBjbGFzcyBTdXBwbGllcnMgZXh0ZW5kcyBCYXNlRW50aXR5IHsKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDUwLCBkZWZhdWx0OiAnJywgY29tbWVudDogJ+S+m+W6lOWVhue8luWPtycgfSkKICBzdXBwbGllcl9jb2RlOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogMTAwLCBkZWZhdWx0OiAnJywgY29tbWVudDogJ+S+m+W6lOWVhuWQjeensCcgfSkKICBzdXBwbGllcl9uYW1lOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAnaW50JywgZGVmYXVsdDogMCwgY29tbWVudDogJ+S+m+W6lOWVhuexu+WIqycgfSkKICBzdXBwbGllcl90eXBlX2lkOiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogNTAsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn6IGU57O75Lq6JyB9KQogIGNvbnRhY3RzOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogNTAsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn55S16K+dJyB9KQogIHBob25lOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogNTAsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn5Lyg55yfJyB9KQogIGZheDogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDEwMCwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICfpgq7nrrEnIH0pCiAgZW1haWw6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiAyNTUsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn5Zyw5Z2AJyB9KQogIGFkZHJlc3M6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICdkb3VibGUnLCBwcmVjaXNpb246IDE1LCBzY2FsZTogNCwgZGVmYXVsdDogMCwgY29tbWVudDogJ+mihOS7mOasvicgfSkKICBhbW91bnRfcGF5YWJsZTogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDI1NSwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICflpIfms6gnIH0pCiAgcmVtYXJrOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndGlueWludCcsIGRlZmF1bHQ6IDEsIGNvbW1lbnQ6ICfnirbmgIEnIH0pCiAgc3RhdHVzOiBudW1iZXI7Cn0KCi8qKgogKiDlrqLmiLfvvIhrdWVycF9jdXN0b21lcnPvvIkKICovCkBFbnRpdHkoJ2t1ZXJwX2N1c3RvbWVycycpCmV4cG9ydCBjbGFzcyBDdXN0b21lcnMgZXh0ZW5kcyBCYXNlRW50aXR5IHsKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDUwLCBkZWZhdWx0OiAnJywgY29tbWVudDogJ+WuouaIt+e8luWPtycgfSkKICBjdXN0b21lcl9jb2RlOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogMTAwLCBkZWZhdWx0OiAnJywgY29tbWVudDogJ+WuouaIt+WQjeensCcgfSkKICBjdXN0b21lcl9uYW1lOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAnaW50JywgZGVmYXVsdDogMCwgY29tbWVudDogJ+WuouaIt+exu+WIqycgfSkKICBjdXN0b21lcl90eXBlX2lkOiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogNTAsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn6IGU57O75Lq6JyB9KQogIGNvbnRhY3RzOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogNTAsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn55S16K+dJyB9KQogIHBob25lOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogMTAwLCBkZWZhdWx0OiAnJywgY29tbWVudDogJ+mCrueusScgfSkKICBlbWFpbDogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDI1NSwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICflnLDlnYAnIH0pCiAgYWRkcmVzczogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ2RvdWJsZScsIHByZWNpc2lvbjogMTUsIHNjYWxlOiA0LCBkZWZhdWx0OiAwLCBjb21tZW50OiAn5bqU5pS25qy+JyB9KQogIGFtb3VudF9yZWNlaXZhYmxlOiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAnZG91YmxlJywgcHJlY2lzaW9uOiAxNSwgc2NhbGU6IDQsIGRlZmF1bHQ6IDAsIGNvbW1lbnQ6ICflupTku5jmrL4nIH0pCiAgYW1vdW50X3BheWFibGU6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiAyNTUsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn5aSH5rOoJyB9KQogIHJlbWFyazogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3RpbnlpbnQnLCBkZWZhdWx0OiAxLCBjb21tZW50OiAn54q25oCBJyB9KQogIHN0YXR1czogbnVtYmVyOwp9Cg==
+import { Entity, Column } from 'typeorm';
+import { BaseEntity } from '../../../common/base.entity';
+
+/**
+ * 商品类别（kuerp_goods_type）
+ */
+@Entity('kuerp_goods_type')
+export class GoodsType extends BaseEntity {
+  @Column({ type: 'varchar', length: 50, default: '', comment: '类别名称' })
+  name: string;
+
+  @Column({ type: 'int', default: 0, comment: '上级类别' })
+  pid: number;
+
+  @Column({ type: 'int', default: 0, comment: '排序' })
+  sort: number;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: '图片' })
+  image: string;
+
+  @Column({ type: 'tinyint', default: 1, comment: '状态' })
+  status: number;
+}
+
+/**
+ * 计量单位（kuerp_unit / kuerp_auxiliary）
+ */
+@Entity('kuerp_unit')
+export class Unit extends BaseEntity {
+  @Column({ type: 'varchar', length: 50, default: '', comment: '单位名称' })
+  name: string;
+
+  @Column({ type: 'tinyint', default: 1, comment: '状态' })
+  status: number;
+}
+
+/**
+ * 仓库（kuerp_warehouse）
+ */
+@Entity('kuerp_warehouse')
+export class Warehouse extends BaseEntity {
+  @Column({ type: 'varchar', length: 100, default: '', comment: '仓库名称' })
+  name: string;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: '地址' })
+  address: string;
+
+  @Column({ type: 'tinyint', default: 1, comment: '状态:1=启用,0=禁用' })
+  status: number;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: '备注' })
+  remark: string;
+}
+
+/**
+ * 供应商（kuerp_suppliers）
+ */
+@Entity('kuerp_suppliers')
+export class Suppliers extends BaseEntity {
+  @Column({ type: 'varchar', length: 50, default: '', comment: '供应商编号' })
+  supplier_code: string;
+
+  @Column({ type: 'varchar', length: 100, default: '', comment: '供应商名称' })
+  supplier_name: string;
+
+  @Column({ type: 'int', default: 0, comment: '供应商类别' })
+  supplier_type_id: number;
+
+  @Column({ type: 'varchar', length: 50, default: '', comment: '联系人' })
+  contacts: string;
+
+  @Column({ type: 'varchar', length: 50, default: '', comment: '电话' })
+  phone: string;
+
+  @Column({ type: 'varchar', length: 50, default: '', comment: '传真' })
+  fax: string;
+
+  @Column({ type: 'varchar', length: 100, default: '', comment: '邮箱' })
+  email: string;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: '地址' })
+  address: string;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '预付款' })
+  amount_payable: number;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: '备注' })
+  remark: string;
+
+  @Column({ type: 'tinyint', default: 1, comment: '状态' })
+  status: number;
+}
+
+/**
+ * 客户（kuerp_customers）
+ */
+@Entity('kuerp_customers')
+export class Customers extends BaseEntity {
+  @Column({ type: 'varchar', length: 50, default: '', comment: '客户编号' })
+  customer_code: string;
+
+  @Column({ type: 'varchar', length: 100, default: '', comment: '客户名称' })
+  customer_name: string;
+
+  @Column({ type: 'int', default: 0, comment: '客户类别' })
+  customer_type_id: number;
+
+  @Column({ type: 'varchar', length: 50, default: '', comment: '联系人' })
+  contacts: string;
+
+  @Column({ type: 'varchar', length: 50, default: '', comment: '电话' })
+  phone: string;
+
+  @Column({ type: 'varchar', length: 100, default: '', comment: '邮箱' })
+  email: string;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: '地址' })
+  address: string;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '应收款' })
+  amount_receivable: number;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '应付款' })
+  amount_payable: number;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: '备注' })
+  remark: string;
+
+  @Column({ type: 'tinyint', default: 1, comment: '状态' })
+  status: number;
+}

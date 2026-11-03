@@ -1,1 +1,364 @@
-PHRlbXBsYXRlPgogIDxEc0NhcmQ+CiAgICA8dGVtcGxhdGUgI3RpdGxlPgogICAgICA8ZGl2IGNsYXNzPSJoZWFkIj4KICAgICAgICA8c3Bhbj7op5LoibLnrqHnkIY8L3NwYW4+CiAgICAgICAgPERzQnV0dG9uIHZhcmlhbnQ9InByaW1hcnkiIEBjbGljaz0ib3BlbkFkZCI+5paw5aKe6KeS6ImyPC9Ec0J1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L3RlbXBsYXRlPgoKICAgIDxEc1RhYmxlIDpjb2x1bW5zPSJjb2x1bW5zIiA6ZGF0YT0ibGlzdCIgOmxvYWRpbmc9ImxvYWRpbmciIDpzdHJpcGVkPSJ0cnVlIj4KICAgICAgPCEtLSDluo/lj7fliJcgLS0+CiAgICAgIDx0ZW1wbGF0ZSAjX2luZGV4PSJ7IGluZGV4IH0iPnt7IGluZGV4ICsgMSB9fTwvdGVtcGxhdGU+CiAgICAgIDwhLS0g5p2D6ZmQ6IqC54K55pWw77yaJyonIOihqOekuuWFqOmDqOadg+mZkCAtLT4KICAgICAgPHRlbXBsYXRlICNydWxlcz0ieyByb3cgfSI+CiAgICAgICAgPERzVGFnIHYtaWY9IlN0cmluZyhyb3cucnVsZXMgfHwgJycpLnRyaW0oKSA9PT0gJyonIiBjb2xvcj0ic3VjY2VzcyIgc2l6ZT0ic20iPuWFqOmDqDwvRHNUYWc+CiAgICAgICAgPHNwYW4gdi1lbHNlPnt7IFN0cmluZyhyb3cucnVsZXMgfHwgJycpLnNwbGl0KCcsJykuZmlsdGVyKEJvb2xlYW4pLmxlbmd0aCB9fTwvc3Bhbj4KICAgICAgPC90ZW1wbGF0ZT4KICAgICAgPCEtLSDnirbmgIEgLS0+CiAgICAgIDx0ZW1wbGF0ZSAjc3RhdHVzPSJ7IHJvdyB9Ij4KICAgICAgICA8RHNUYWcgOmNvbG9yPSJOdW1iZXIocm93LnN0YXR1cykgPT09IDEgPyAnc3VjY2VzcycgOiAnbmV1dHJhbCciIHNpemU9InNtIj4KICAgICAgICAgIHt7IE51bWJlcihyb3cuc3RhdHVzKSA9PT0gMSA/ICfmraPluLgnIDogJ+emgeeUqCcgfX0KICAgICAgICA8L0RzVGFnPgogICAgICA8L3RlbXBsYXRlPgogICAgICA8IS0tIOaVsOaNruadg+mZkCAtLT4KICAgICAgPHRlbXBsYXRlICNkYXRhX3Njb3BlPSJ7IHJvdyB9Ij4KICAgICAgICA8RHNUYWcgOmNvbG9yPSJOdW1iZXIocm93LmRhdGFfc2NvcGUpID09PSAyID8gJ3dhcm5pbmcnIDogJ2luZm8nIiBzaXplPSJzbSI+CiAgICAgICAgICB7eyBOdW1iZXIocm93LmRhdGFfc2NvcGUpID09PSAyID8gJ+S7heacrOS6uuaVsOaNricgOiAn5YWo6YOo5pWw5o2uJyB9fQogICAgICAgIDwvRHNUYWc+CiAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwhLS0g5pON5L2c5YiXIC0tPgogICAgICA8dGVtcGxhdGUgI19hY3Rpb249Insgcm93IH0iPgogICAgICAgIDxkaXYgY2xhc3M9Im9wcyI+CiAgICAgICAgICA8RHNCdXR0b24gdmFyaWFudD0idGV4dCIgQGNsaWNrPSJvcGVuRWRpdChyb3cpIj7nvJbovpE8L0RzQnV0dG9uPgogICAgICAgICAgPERzQnV0dG9uIHZhcmlhbnQ9InRleHQiIEBjbGljaz0ib25EZWwocm93KSI+5Yig6ZmkPC9Ec0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC90ZW1wbGF0ZT4KICAgIDwvRHNUYWJsZT4KCiAgICA8IS0tIOaWsOWiniAvIOe8lui+keinkuiJsu+8mnJ1bGVzIOeUqOadg+mZkOiKgueCueWkjemAieahhuagkee8lui+ke+8jOmBv+WFjeaJi+i+k+iKgueCueWQjeWHuumUmSAtLT4KICAgIDxEc01vZGFsIDp0aXRsZT0iZWRpdGluZyA/ICfnvJbovpHop5LoibInIDogJ+aWsOWinuinkuiJsiciIHYtbW9kZWw9ImRpYWxvZyIgOndpZHRoPSI3ODAiIEBjbG9zZT0icmVzZXQiPgogICAgICA8IS0tIOihqOWNle+8muWOnyBlbC1mb3Jt77yIbGFiZWwtd2lkdGggOTBweO+8ieaUueS4uiBEc0ZpZWxkIC0tPgogICAgICA8RHNGaWVsZCBsYWJlbD0i6KeS6Imy5ZCN56ewIiByZXF1aXJlZD4KICAgICAgICA8RHNJbnB1dCB2LW1vZGVsPSJmb3JtLm5hbWUiIG1heGxlbmd0aD0iNTAiIC8+CiAgICAgIDwvRHNGaWVsZD4KICAgICAgPCEtLSDnirbmgIHvvJrljp8gZWwtcmFkaW8tZ3JvdXDvvIxkcyDnlKjlkIwgdi1tb2RlbCDnmoTlpJrkuKogRHNSYWRpbyDnu4TmiJDnu4QgLS0+CiAgICAgIDxEc0ZpZWxkIGxhYmVsPSLnirbmgIEiPgogICAgICAgIDxkaXYgY2xhc3M9InJhZGlvcyI+CiAgICAgICAgICA8RHNSYWRpbyB2LW1vZGVsPSJmb3JtLnN0YXR1cyIgOnZhbHVlPSIxIj7mraPluLg8L0RzUmFkaW8+CiAgICAgICAgICA8RHNSYWRpbyB2LW1vZGVsPSJmb3JtLnN0YXR1cyIgOnZhbHVlPSIwIj7npoHnlKg8L0RzUmFkaW8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvRHNGaWVsZD4KICAgICAgPERzRmllbGQgbGFiZWw9IuaVsOaNruadg+mZkCI+CiAgICAgICAgPERzU2VsZWN0IHYtbW9kZWw9ImZvcm0uZGF0YV9zY29wZSIgOm9wdGlvbnM9ImRhdGFTY29wZU9wdGlvbnMiIC8+CiAgICAgIDwvRHNGaWVsZD4KICAgICAgPERzRmllbGQgbGFiZWw9Iuadg+mZkOiKgueCuSI+CiAgICAgICAgPGRpdiBjbGFzcz0icnVsZS1ib3giPgogICAgICAgICAgPCEtLSDlt6XlhbfmnaHvvJrlhajpgInvvIjlj5fmjqcr5Y2K6YCJ77yJ44CB5bey6YCJ6K6h5pWw44CB5YWz6ZSu5a2X5pCc57SiIC0tPgogICAgICAgICAgPGRpdiBjbGFzcz0icnVsZS10b29sYmFyIj4KICAgICAgICAgICAgPERzQ2hlY2tib3ggOm1vZGVsLXZhbHVlPSJhbGxDaGVja2VkIiA6aW5kZXRlcm1pbmF0ZT0iaW5kZXRlcm1pbmF0ZSIgQGNoYW5nZT0ib25BbGxDaGFuZ2UiPuWFqOmAiTwvRHNDaGVja2JveD4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9InJ1bGUtY291bnQiPuW3sumAiSB7eyBmb3JtLnJ1bGVzLmxlbmd0aCB9fSAvIHt7IHJ1bGVOb2Rlcy5sZW5ndGggfX0g6aG5PC9zcGFuPgogICAgICAgICAgICA8RHNJbnB1dCB2LW1vZGVsPSJrZXl3b3JkIiBwbGFjZWhvbGRlcj0i5pCc57Si5p2D6ZmQ5ZCN56ew5oiW6IqC54K5IiBzaXplPSJzbSIgY2xhc3M9InJ1bGUtc2VhcmNoIiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8IS0tIOS4pOexu+adg+mZkOWIhuW8gOeuoeeQhu+8mm1lbnU96I+c5Y2VL+mhtemdoijlkIzml7bljbPmjqXlj6PmnYPpmZAp77ybYWN0aW9uPeaMiemSriAtLT4KICAgICAgICAgIDxEc1RhYnMgdi1tb2RlbD0iYWN0aXZlVGFiIiB2YXJpYW50PSJwaWxsIiA6aXRlbXM9InRhYkl0ZW1zIiBjbGFzcz0icnVsZS10YWJzIiAvPgogICAgICAgICAgPGRpdiBjbGFzcz0icnVsZS1ib2R5Ij4KICAgICAgICAgICAgPCEtLSDoj5zljZUgLyDpobXpnaLmnYPpmZDvvJrmjInmqKHlnZfliIbnu4QgLS0+CiAgICAgICAgICAgIDx0ZW1wbGF0ZSB2LWlmPSJhY3RpdmVUYWIgPT09ICdtZW51JyI+CiAgICAgICAgICAgICAgPGRpdiB2LWZvcj0iZyBpbiBtZW51R3JvdXBzIiA6a2V5PSJnLnRpdGxlIiBjbGFzcz0iZ3JwIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdycC1oZWFkIj4KICAgICAgICAgICAgICAgICAgPERzQ2hlY2tib3ggc2l6ZT0ic20iIDptb2RlbC12YWx1ZT0iZ3JwQWxsKGcuaXRlbXMpIiA6aW5kZXRlcm1pbmF0ZT0iZ3JwU29tZShnLml0ZW1zKSIgQGNoYW5nZT0idG9nZ2xlR3JwKGcuaXRlbXMsICRldmVudCkiPgogICAgICAgICAgICAgICAgICAgIHt7IGcudGl0bGUgfX0KICAgICAgICAgICAgICAgICAgPC9Ec0NoZWNrYm94PgogICAgICAgICAgICAgICAgICA8RHNUYWcgc2l6ZT0ic20iIGNvbG9yPSJuZXV0cmFsIj57eyBnLml0ZW1zLmxlbmd0aCB9fTwvRHNUYWc+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImdycC1ncmlkIj4KICAgICAgICAgICAgICAgICAgPERzQ2hlY2tib3ggdi1mb3I9Im4gaW4gZy5pdGVtcyIgOmtleT0ibi5uYW1lIiB2LW1vZGVsPSJmb3JtLnJ1bGVzIiA6dmFsdWU9Im4ubmFtZSIgOnRpdGxlPSJuLm5hbWUiIHNpemU9InNtIj4KICAgICAgICAgICAgICAgICAgICB7eyBuLmxhYmVsIH19CiAgICAgICAgICAgICAgICAgIDwvRHNDaGVja2JveD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgICA8IS0tIOaMiemSruadg+mZkO+8muaMieS4muWKoeihqOWIhue7hO+8jOS4gOe7hOWNs+S4gOW8oOihqOeahOaTjeS9nOaMiemSriAtLT4KICAgICAgICAgICAgPHRlbXBsYXRlIHYtZWxzZT4KICAgICAgICAgICAgICA8ZGl2IHYtZm9yPSJnIGluIGFjdGlvbkdyb3VwcyIgOmtleT0iZy5rZXkiIGNsYXNzPSJncnAiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZ3JwLWhlYWQiPgogICAgICAgICAgICAgICAgICA8RHNDaGVja2JveCBzaXplPSJzbSIgOm1vZGVsLXZhbHVlPSJncnBBbGwoZy5pdGVtcykiIDppbmRldGVybWluYXRlPSJncnBTb21lKGcuaXRlbXMpIiBAY2hhbmdlPSJ0b2dnbGVHcnAoZy5pdGVtcywgJGV2ZW50KSI+CiAgICAgICAgICAgICAgICAgICAge3sgZy50aXRsZSB9fQogICAgICAgICAgICAgICAgICA8L0RzQ2hlY2tib3g+CiAgICAgICAgICAgICAgICAgIDxEc1RhZyBzaXplPSJzbSIgY29sb3I9Im5ldXRyYWwiPnt7IGcuZ3JvdXAgfX08L0RzVGFnPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJncnAtZ3JpZCI+CiAgICAgICAgICAgICAgICAgIDxEc0NoZWNrYm94IHYtZm9yPSJuIGluIGcuaXRlbXMiIDprZXk9Im4ubmFtZSIgdi1tb2RlbD0iZm9ybS5ydWxlcyIgOnZhbHVlPSJuLm5hbWUiIDp0aXRsZT0ibi5uYW1lIiBzaXplPSJzbSI+CiAgICAgICAgICAgICAgICAgICAge3sgbi5sYWJlbCB9fQogICAgICAgICAgICAgICAgICA8L0RzQ2hlY2tib3g+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgPGRpdiB2LWlmPSJhY3RpdmVUYWIgPT09ICdtZW51JyAmJiAhbWVudUdyb3Vwcy5sZW5ndGgiIGNsYXNzPSJydWxlLWVtcHR5Ij7msqHmnInljLnphY3nmoTmnYPpmZDoioLngrk8L2Rpdj4KICAgICAgICAgICAgPGRpdiB2LWlmPSJhY3RpdmVUYWIgPT09ICdhY3Rpb24nICYmICFhY3Rpb25Hcm91cHMubGVuZ3RoIiBjbGFzcz0icnVsZS1lbXB0eSI+5rKh5pyJ5Yy56YWN55qE5p2D6ZmQ6IqC54K5PC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9Ec0ZpZWxkPgogICAgICA8dGVtcGxhdGUgI2Zvb3Rlcj4KICAgICAgICA8RHNCdXR0b24gQGNsaWNrPSJkaWFsb2cgPSBmYWxzZSI+5Y+W5raIPC9Ec0J1dHRvbj4KICAgICAgICA8RHNCdXR0b24gdmFyaWFudD0icHJpbWFyeSIgOmxvYWRpbmc9InNhdmluZyIgQGNsaWNrPSJzdWJtaXQiPuS/neWtmDwvRHNCdXR0b24+CiAgICAgIDwvdGVtcGxhdGU+CiAgICA8L0RzTW9kYWw+CiAgPC9Ec0NhcmQ+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwPgovKioKICog6KeS6Imy566h55CG6aG177yaMToxIOi/mOWOn+WOn+ezu+e7n+OAjOinkuiJsueuoeeQhu+8iGF1dGgvZ3JvdXDvvInjgI3jgIIKICog5pWw5o2u6JC95ZyoIGt1ZXJwX2F1dGhfZ3JvdXAg6KGo77yM5p2D6ZmQ5Lul6YCX5Y+35YiG6ZqU6IqC54K55ZCN5a2Y5LqOIHJ1bGVzIOWIl++8mwogKiDoioLngrnmuIXljZXmnaXoh6oga3VlcnBfYXV0aF9ydWxl77yI5p2D6ZmQ6KeE5YiZ6aG157u05oqk77yJ77yM5q2k5aSE55So5aSN6YCJ5qGG5qCR57yW6L6R77yM6YG/5YWN5omL6L6T6ZSZ6K+v44CCCiAqIFJiYWNHdWFyZCDkvp0gcnVsZXMg5ZG95Lit6K+35rGC6Lev5b6EIGt1ZXJwLzx0YWJsZT4g5pS+6KGML+aLpuaIquOAggogKi8KaW1wb3J0IHsgcmVmLCBjb21wdXRlZCwgb25Nb3VudGVkIH0gZnJvbSAndnVlJzsKaW1wb3J0IHsgbWVzc2FnZSwgY29uZmlybSB9IGZyb20gJ0AvdXRpbHMvdWknOwppbXBvcnQgcmVxdWVzdCBmcm9tICcuLi8uLi91dGlscy9yZXF1ZXN0JzsKaW1wb3J0IHsgbWVudXMgfSBmcm9tICcuLi8uLi9tZW51cyc7Cgpjb25zdCBsaXN0ID0gcmVmKFtdKTsKY29uc3QgcnVsZU5vZGVzID0gcmVmKFtdKTsKY29uc3QgbG9hZGluZyA9IHJlZihmYWxzZSk7CmNvbnN0IGRpYWxvZyA9IHJlZihmYWxzZSk7CmNvbnN0IGVkaXRpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBzYXZpbmcgPSByZWYoZmFsc2UpOwpjb25zdCBmb3JtID0gcmVmKHsgbmFtZTogJycsIHN0YXR1czogMSwgcnVsZXM6IFtdLCBkYXRhX3Njb3BlOiAxIH0pOwovKiog5pWw5o2u5p2D6ZmQ6YCJ6aG577yaMT3lhajpg6jmlbDmja7vvIwyPeS7heacrOS6uuWIm+W7uuaVsOaNriAqLwpjb25zdCBkYXRhU2NvcGVPcHRpb25zID0gWwogIHsgdmFsdWU6IDEsIGxhYmVsOiAn5YWo6YOo5pWw5o2uJyB9LAogIHsgdmFsdWU6IDIsIGxhYmVsOiAn5LuF5pys5Lq65pWw5o2uJyB9LApdOwoKLyogPT09PT09PT09PT09IOadg+mZkOiKgueCueWIhue7hOWFg+aVsOaNriA9PT09PT09PT09PT0KICog6I+c5Y2V6IqC54K577yIdHlwZT1tZW5177yJ5LiO5oyJ6ZKu6IqC54K577yIdHlwZT1hY3Rpb27vvInlhbHnlKgga3VlcnBfYXV0aF9ydWxl77yMCiAqIOi/memHjOS7juiPnOWNleWUr+S4gOS6i+Wunua6kO+8iG1lbnVzLmpz77yJ5o+Q5Y+W5Lik5Lu95pig5bCE77yM55So5LqO5oqK55Sf56Gs55qE6IqC54K55ZCNCiAqIOe/u+ivkeaIkOS4reaWh+agh+mimOW5tuW9kuWFpeWvueW6lOaooeWdl++8jOino+WGs+OAjOWIhuS4jea4heWTquS4quaYr+S7gOS5iOadg+mZkOOAjeeahOmXrumimO+8mgogKiAgIG5vZGVNZXRhICDoj5zljZXoioLngrnlkI0gLT4geyB0aXRsZSDoj5zljZXmoIfpopgsIGdyb3VwIOaJgOWxnuaooeWdlyB9CiAqICAgdGFibGVNZXRhIOS4muWKoeihqOWQjSAgIC0+IHsgdGl0bGUg6I+c5Y2V5qCH6aKYLCBncm91cCDmiYDlsZ7mqKHlnZcgfe+8iOaMiemSruiKgueCueaMieihqOW9kue7hO+8iQogKi8KY29uc3Qgbm9kZU1ldGEgPSB7fTsKY29uc3QgdGFibGVNZXRhID0ge307CihmdW5jdGlvbiBidWlsZE1ldGEoKSB7CiAgY29uc3QgcHV0ID0gKG0sIGdyb3VwKSA9PiB7CiAgICBpZiAobS5wZXJtICYmICFub2RlTWV0YVttLnBlcm1dKSBub2RlTWV0YVttLnBlcm1dID0geyB0aXRsZTogbS50aXRsZSwgZ3JvdXAgfTsKICAgIGlmIChtLmFwaSAmJiBtLmFwaS5zdGFydHNXaXRoKCcva3VlcnAvJykpIHsKICAgICAgY29uc3QgdCA9IG0uYXBpLnNsaWNlKCcva3VlcnAvJy5sZW5ndGgpLnJlcGxhY2UoLy0vZywgJ18nKTsKICAgICAgaWYgKCF0YWJsZU1ldGFbdF0pIHRhYmxlTWV0YVt0XSA9IHsgdGl0bGU6IG0udGl0bGUsIGdyb3VwIH07CiAgICB9CiAgfTsKICBtZW51cy5mb3JFYWNoKChnKSA9PiB7CiAgICBpZiAoZy5jaGlsZHJlbikgZy5jaGlsZHJlbi5mb3JFYWNoKChtKSA9PiBwdXQobSwgZy50aXRsZSkpOwogICAgZWxzZSBwdXQoZywgJ+WfuuehgOWKn+iDvScpOyAvLyDpobblsYLlj7blrZDvvJrlt6XkvZzlj7AgLyDmlbDlrZflpKflsY8gLyDmiZPljbDkuK3lv4MKICB9KTsKfSkoKTsKCi8qKiDmjInpkq7liqjkvZzlkI0gLT4g5Lit5paHICovCmNvbnN0IEFDVElPTl9MQUJFTFMgPSB7IGFkZDogJ+aWsOWinicsIGVkaXQ6ICfnvJbovpEnLCBkZWw6ICfliKDpmaQnLCBleGFtaW5lOiAn5a6h5qC4JywgaW1wb3J0OiAn5a+85YWlJywgZXhwb3J0OiAn5a+85Ye6JyB9OwoKLyoqIOadg+mZkOiKgueCuee8lui+keWMuueKtuaAge+8muWFs+mUruWtl+i/h+a7pCArIOW9k+WJjSBUYWIgKi8KY29uc3Qga2V5d29yZCA9IHJlZignJyk7CmNvbnN0IGFjdGl2ZVRhYiA9IHJlZignbWVudScpOwoKLyoqIERzVGFibGUg5YiX6YWN572uICovCmNvbnN0IGNvbHVtbnMgPSBbCiAgeyBrZXk6ICdfaW5kZXgnLCB0aXRsZTogJyMnLCB3aWR0aDogJzUwJyB9LAogIHsga2V5OiAnbmFtZScsIHRpdGxlOiAn6KeS6Imy5ZCN56ewJywgd2lkdGg6ICcxNDAnIH0sCiAgeyBrZXk6ICdydWxlcycsIHRpdGxlOiAn5p2D6ZmQ6IqC54K55pWwJywgd2lkdGg6ICcxMDAnLCBhbGlnbjogJ2NlbnRlcicgfSwKICB7IGtleTogJ2RhdGFfc2NvcGUnLCB0aXRsZTogJ+aVsOaNruadg+mZkCcsIHdpZHRoOiAnMTAwJywgYWxpZ246ICdjZW50ZXInIH0sCiAgeyBrZXk6ICdzdGF0dXMnLCB0aXRsZTogJ+eKtuaAgScsIHdpZHRoOiAnOTAnLCBhbGlnbjogJ2NlbnRlcicgfSwKICB7IGtleTogJ19hY3Rpb24nLCB0aXRsZTogJ+aTjeS9nCcsIHdpZHRoOiAnMTYwJyB9LApdOwoKLyoqIOaLieWPluinkuiJsuWIl+ihqCAqLwphc3luYyBmdW5jdGlvbiBsb2FkKCkgewogIGxvYWRpbmcudmFsdWUgPSB0cnVlOwogIHRyeSB7CiAgICBjb25zdCByID0gYXdhaXQgcmVxdWVzdC5nZXQoJy9rdWVycC9hdXRoLWdyb3VwL2luZGV4JywgeyBwYXJhbXM6IHsgcGFnZTogMSwgbGltaXQ6IDIwMCB9IH0pOwogICAgbGlzdC52YWx1ZSA9IHI/Lmxpc3QgfHwgW107CiAgfSBmaW5hbGx5IHsKICAgIGxvYWRpbmcudmFsdWUgPSBmYWxzZTsKICB9Cn0KCi8qKiDmi4nlj5blhajpg6jmnYPpmZDoioLngrnvvIjkvpvlpI3pgInmoYbmoJHvvIkgKi8KYXN5bmMgZnVuY3Rpb24gbG9hZFJ1bGVzKCkgewogIGNvbnN0IHIgPSBhd2FpdCByZXF1ZXN0LmdldCgnL2t1ZXJwL2F1dGgtcnVsZS9pbmRleCcsIHsgcGFyYW1zOiB7IHBhZ2U6IDEsIGxpbWl0OiA1MDAgfSB9KTsKICBydWxlTm9kZXMudmFsdWUgPSByPy5saXN0IHx8IFtdOwp9CgovLyDigJTigJQg5YWo6YCJ6YC76L6RIOKAlOKAlApjb25zdCBhbGxDaGVja2VkID0gY29tcHV0ZWQoewogIGdldDogKCkgPT4gcnVsZU5vZGVzLnZhbHVlLmxlbmd0aCA+IDAgJiYgZm9ybS52YWx1ZS5ydWxlcy5sZW5ndGggPT09IHJ1bGVOb2Rlcy52YWx1ZS5sZW5ndGgsCiAgc2V0OiAodikgPT4geyBmb3JtLnZhbHVlLnJ1bGVzID0gdiA/IHJ1bGVOb2Rlcy52YWx1ZS5tYXAoKHIpID0+IHIubmFtZSkgOiBbXTsgfSwKfSk7CmNvbnN0IGluZGV0ZXJtaW5hdGUgPSBjb21wdXRlZCgKICAoKSA9PiBmb3JtLnZhbHVlLnJ1bGVzLmxlbmd0aCA+IDAgJiYgZm9ybS52YWx1ZS5ydWxlcy5sZW5ndGggPCBydWxlTm9kZXMudmFsdWUubGVuZ3RoLAopOwpmdW5jdGlvbiBvbkFsbENoYW5nZSh2KSB7IGFsbENoZWNrZWQudmFsdWUgPSB2OyB9CgovKiogVGFiIOagh+etvu+8iOW4puiKgueCueaVsO+8jOS+v+S6juaEn+efpeS4pOexu+adg+mZkOeahOinhOaooe+8iSAqLwpjb25zdCB0YWJJdGVtcyA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBtZW51Q291bnQgPSBydWxlTm9kZXMudmFsdWUuZmlsdGVyKChuKSA9PiBuLnR5cGUgIT09ICdhY3Rpb24nKS5sZW5ndGg7CiAgY29uc3QgYWN0Q291bnQgPSBydWxlTm9kZXMudmFsdWUuZmlsdGVyKChuKSA9PiBuLnR5cGUgPT09ICdhY3Rpb24nKS5sZW5ndGg7CiAgcmV0dXJuIFsKICAgIHsgbGFiZWw6IGDoj5zljZUgLyDpobXpnaLmnYPpmZAgKCR7bWVudUNvdW50fSlgLCB2YWx1ZTogJ21lbnUnIH0sCiAgICB7IGxhYmVsOiBg5oyJ6ZKu5p2D6ZmQICgke2FjdENvdW50fSlgLCB2YWx1ZTogJ2FjdGlvbicgfSwKICBdOwp9KTsKCi8qKiDlhbPplK7lrZfmmK/lkKblkb3kuK3vvIjmoIfpopjmiJboioLngrnlkI3vvIzlv73nlaXlpKflsI/lhpnvvIkgKi8KZnVuY3Rpb24gaGl0KG5hbWUsIGxhYmVsLCBrdykgewogIHJldHVybiAha3cgfHwgbmFtZS50b0xvd2VyQ2FzZSgpLmluY2x1ZGVzKGt3KSB8fCBTdHJpbmcobGFiZWwpLnRvTG93ZXJDYXNlKCkuaW5jbHVkZXMoa3cpOwp9CgovKioKICog6I+c5Y2VIC8g6aG16Z2i5p2D6ZmQ6IqC54K577ya5oyJ5omA5bGe5qih5Z2X5YiG57uE77yI6aG65bqP5LiO6I+c5Y2V5LiA6Ie077yM5pyq55+l6IqC54K55b2S5YWl44CM5YW25LuWIC8g5o6l5Y+j44CN77yJ44CCCiAqIOWLvumAiSBtZW51IOiKgueCueWNs+WQjOaXtuaOiOS6iOivpemhtemdoueahOiPnOWNleWPr+ingeaAp+S4juWQjuerr+aOpeWPo+iuv+mXruadg+OAggogKi8KY29uc3QgbWVudUdyb3VwcyA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBrdyA9IGtleXdvcmQudmFsdWUudHJpbSgpLnRvTG93ZXJDYXNlKCk7CiAgY29uc3QgbWFwID0gbmV3IE1hcCgpOwogIHJ1bGVOb2Rlcy52YWx1ZQogICAgLmZpbHRlcigobikgPT4gbi50eXBlICE9PSAnYWN0aW9uJykKICAgIC5mb3JFYWNoKChuKSA9PiB7CiAgICAgIGNvbnN0IG1ldGEgPSBub2RlTWV0YVtuLm5hbWVdIHx8IHt9OwogICAgICBjb25zdCBsYWJlbCA9IG1ldGEudGl0bGUgfHwgbi50aXRsZSB8fCBuLm5hbWU7CiAgICAgIGlmICghaGl0KG4ubmFtZSwgbGFiZWwsIGt3KSkgcmV0dXJuOwogICAgICBjb25zdCBncm91cCA9IG1ldGEuZ3JvdXAgfHwgJ+WFtuS7liAvIOaOpeWPoyc7CiAgICAgIGlmICghbWFwLmhhcyhncm91cCkpIG1hcC5zZXQoZ3JvdXAsIFtdKTsKICAgICAgbWFwLmdldChncm91cCkucHVzaCh7IG5hbWU6IG4ubmFtZSwgbGFiZWwgfSk7CiAgICB9KTsKICBjb25zdCBhcnIgPSBbLi4ubWFwLmVudHJpZXMoKV0ubWFwKChbdGl0bGUsIGl0ZW1zXSkgPT4gKHsgdGl0bGUsIGl0ZW1zIH0pKTsKICAvLyDmiorjgIzlhbbku5YgLyDmjqXlj6PjgI3mlL7liLDmnIDlkI4KICByZXR1cm4gYXJyLnNvcnQoKGEsIGIpID0+IChhLnRpdGxlID09PSAn5YW25LuWIC8g5o6l5Y+jJykgLSAoYi50aXRsZSA9PT0gJ+WFtuS7liAvIOaOpeWPoycpKTsKfSk7CgovKiog5oyJ6ZKu5p2D6ZmQ6IqC54K577ya5oyJ5Lia5Yqh6KGo5YiG57uE77yM5Yqo5L2c57+76K+R5Li65Lit5paH77yI5paw5aKeL+e8lui+kS/liKDpmaQv5a6h5qC44oCm77yJICovCmNvbnN0IGFjdGlvbkdyb3VwcyA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBrdyA9IGtleXdvcmQudmFsdWUudHJpbSgpLnRvTG93ZXJDYXNlKCk7CiAgY29uc3QgbWFwID0gbmV3IE1hcCgpOwogIHJ1bGVOb2Rlcy52YWx1ZQogICAgLmZpbHRlcigobikgPT4gbi50eXBlID09PSAnYWN0aW9uJykKICAgIC5mb3JFYWNoKChuKSA9PiB7CiAgICAgIGNvbnN0IG0gPSBuLm5hbWUubWF0Y2goL15rdWVycFwvKC4rPyk6KFx3KykkLyk7CiAgICAgIGNvbnN0IHRhYmxlID0gbSA/IG1bMV0gOiAnX290aGVyJzsKICAgICAgY29uc3QgYWN0aW9uID0gbSA/IG1bMl0gOiBuLm5hbWU7CiAgICAgIGNvbnN0IGxhYmVsID0gQUNUSU9OX0xBQkVMU1thY3Rpb25dIHx8IGFjdGlvbjsKICAgICAgaWYgKCFoaXQobi5uYW1lLCBsYWJlbCwga3cpKSByZXR1cm47CiAgICAgIGlmICghbWFwLmhhcyh0YWJsZSkpIG1hcC5zZXQodGFibGUsIFtdKTsKICAgICAgbWFwLmdldCh0YWJsZSkucHVzaCh7IG5hbWU6IG4ubmFtZSwgbGFiZWwgfSk7CiAgICB9KTsKICByZXR1cm4gWy4uLm1hcC5lbnRyaWVzKCldCiAgICAubWFwKChbdGFibGUsIGl0ZW1zXSkgPT4gKHsKICAgICAga2V5OiB0YWJsZSwKICAgICAgdGl0bGU6ICh0YWJsZU1ldGFbdGFibGVdICYmIHRhYmxlTWV0YVt0YWJsZV0udGl0bGUpIHx8IHRhYmxlLAogICAgICBncm91cDogKHRhYmxlTWV0YVt0YWJsZV0gJiYgdGFibGVNZXRhW3RhYmxlXS5ncm91cCkgfHwgJ+WFtuS7licsCiAgICAgIGl0ZW1zLAogICAgfSkpCiAgICAuc29ydCgoYSwgYikgPT4gKGEuZ3JvdXAgKyBhLnRpdGxlKS5sb2NhbGVDb21wYXJlKGIuZ3JvdXAgKyBiLnRpdGxlLCAnemgnKSk7Cn0pOwoKLyoqIOe7hOe6p+WLvumAieeKtuaAge+8muWFqOmDqOmAieS4rSAvIOmDqOWIhumAieS4re+8iOWNiumAie+8iSAqLwpmdW5jdGlvbiBncnBBbGwoaXRlbXMpIHsgcmV0dXJuIGl0ZW1zLmV2ZXJ5KChpKSA9PiBmb3JtLnZhbHVlLnJ1bGVzLmluY2x1ZGVzKGkubmFtZSkpOyB9CmZ1bmN0aW9uIGdycFNvbWUoaXRlbXMpIHsKICBjb25zdCBjID0gaXRlbXMuZmlsdGVyKChpKSA9PiBmb3JtLnZhbHVlLnJ1bGVzLmluY2x1ZGVzKGkubmFtZSkpLmxlbmd0aDsKICByZXR1cm4gYyA+IDAgJiYgYyA8IGl0ZW1zLmxlbmd0aDsKfQovKiog5Yu+6YCJL+WPlua2iOaVtOe7hCAqLwpmdW5jdGlvbiB0b2dnbGVHcnAoaXRlbXMsIHYpIHsKICBjb25zdCBuYW1lcyA9IGl0ZW1zLm1hcCgoaSkgPT4gaS5uYW1lKTsKICBpZiAodikgZm9ybS52YWx1ZS5ydWxlcyA9IFsuLi5uZXcgU2V0KFsuLi5mb3JtLnZhbHVlLnJ1bGVzLCAuLi5uYW1lc10pXTsKICBlbHNlIGZvcm0udmFsdWUucnVsZXMgPSBmb3JtLnZhbHVlLnJ1bGVzLmZpbHRlcigobikgPT4gIW5hbWVzLmluY2x1ZGVzKG4pKTsKfQoKLyoqIOaJk+W8gOaWsOWinuWvueivneahhiAqLwpmdW5jdGlvbiBvcGVuQWRkKCkgewogIGVkaXRpbmcudmFsdWUgPSBmYWxzZTsKICBmb3JtLnZhbHVlID0geyBuYW1lOiAnJywgc3RhdHVzOiAxLCBydWxlczogW10sIGRhdGFfc2NvcGU6IDEgfTsKICBkaWFsb2cudmFsdWUgPSB0cnVlOwp9CgovKiog5omT5byA57yW6L6R5a+56K+d5qGG77yacnVsZXMg5a2X56ym5Liy6L+Y5Y6f5Li65pWw57uEICovCmZ1bmN0aW9uIG9wZW5FZGl0KHJvdykgewogIGVkaXRpbmcudmFsdWUgPSB0cnVlOwogIGNvbnN0IHJ1bGVzID0gU3RyaW5nKHJvdy5ydWxlcyB8fCAnJykgPT09ICcqJwogICAgPyBydWxlTm9kZXMudmFsdWUubWFwKChyKSA9PiByLm5hbWUpCiAgICA6IFN0cmluZyhyb3cucnVsZXMgfHwgJycpLnNwbGl0KCcsJykuZmlsdGVyKEJvb2xlYW4pOwogIGZvcm0udmFsdWUgPSB7IGlkOiByb3cuaWQsIG5hbWU6IHJvdy5uYW1lLCBzdGF0dXM6IE51bWJlcihyb3cuc3RhdHVzKSwgcnVsZXMsIGRhdGFfc2NvcGU6IE51bWJlcihyb3cuZGF0YV9zY29wZSB8fCAxKSB9OwogIGRpYWxvZy52YWx1ZSA9IHRydWU7Cn0KCmZ1bmN0aW9uIHJlc2V0KCkgeyBmb3JtLnZhbHVlID0geyBuYW1lOiAnJywgc3RhdHVzOiAxLCBydWxlczogW10sIGRhdGFfc2NvcGU6IDEgfTsgfQoKLyoqIOaPkOS6pOaWsOWini/nvJbovpEgKi8KYXN5bmMgZnVuY3Rpb24gc3VibWl0KCkgewogIGlmICghZm9ybS52YWx1ZS5uYW1lKSB7CiAgICBtZXNzYWdlLndhcm5pbmcoJ+ivt+i+k+WFpeinkuiJsuWQjeensCcpOwogICAgcmV0dXJuOwogIH0KICBzYXZpbmcudmFsdWUgPSB0cnVlOwogIHRyeSB7CiAgICBjb25zdCBwYXlsb2FkID0gewogICAgICBuYW1lOiBmb3JtLnZhbHVlLm5hbWUsCiAgICAgIHN0YXR1czogZm9ybS52YWx1ZS5zdGF0dXMsCiAgICAgIHJ1bGVzOiBmb3JtLnZhbHVlLnJ1bGVzLmpvaW4oJywnKSwKICAgICAgZGF0YV9zY29wZTogTnVtYmVyKGZvcm0udmFsdWUuZGF0YV9zY29wZSkgfHwgMSwKICAgIH07CiAgICBpZiAoZWRpdGluZy52YWx1ZSkgewogICAgICBhd2FpdCByZXF1ZXN0LnBvc3QoJy9rdWVycC9hdXRoLWdyb3VwL2VkaXQnLCB7IGlkOiBmb3JtLnZhbHVlLmlkLCAuLi5wYXlsb2FkIH0pOwogICAgICBtZXNzYWdlLnN1Y2Nlc3MoJ+S/neWtmOaIkOWKnycpOwogICAgfSBlbHNlIHsKICAgICAgYXdhaXQgcmVxdWVzdC5wb3N0KCcva3VlcnAvYXV0aC1ncm91cC9hZGQnLCBwYXlsb2FkKTsKICAgICAgbWVzc2FnZS5zdWNjZXNzKCfmt7vliqDmiJDlip8nKTsKICAgIH0KICAgIGRpYWxvZy52YWx1ZSA9IGZhbHNlOwogICAgbG9hZCgpOwogIH0gZmluYWxseSB7CiAgICBzYXZpbmcudmFsdWUgPSBmYWxzZTsKICB9Cn0KCi8qKiDliKDpmaTop5LoibIgKi8KYXN5bmMgZnVuY3Rpb24gb25EZWwocm93KSB7CiAgYXdhaXQgY29uZmlybShg56Gu6K6k5Yig6Zmk6KeS6Imy44CMJHtyb3cubmFtZX3jgI3vvJ9gLCAn5o+Q56S6JywgeyB0eXBlOiAnd2FybmluZycgfSk7CiAgYXdhaXQgcmVxdWVzdC5wb3N0KCcva3VlcnAvYXV0aC1ncm91cC9kZWwnLCB7IGlkOiByb3cuaWQgfSk7CiAgbWVzc2FnZS5zdWNjZXNzKCflt7LliKDpmaQnKTsKICBsb2FkKCk7Cn0KCm9uTW91bnRlZChhc3luYyAoKSA9PiB7CiAgYXdhaXQgbG9hZFJ1bGVzKCk7CiAgYXdhaXQgbG9hZCgpOwp9KTsKPC9zY3JpcHQ+Cgo8c3R5bGUgc2NvcGVkPgouaGVhZCB7IGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsgfQoub3BzIHsgZGlzcGxheTogZmxleDsgZ2FwOiA0cHg7IH0KLnJhZGlvcyB7IGRpc3BsYXk6IGZsZXg7IGdhcDogMTZweDsgYWxpZ24taXRlbXM6IGNlbnRlcjsgbWluLWhlaWdodDogMzJweDsgfQoKLyog5p2D6ZmQ6IqC54K56YCJ5oup5Yy677ya5bel5YW35p2h77yI5YWo6YCJL+iuoeaVsC/mkJzntKLvvIkrIFRhYiArIOWIhue7hOWIl+ihqCAqLwoucnVsZS1ib3ggeyBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1kcy1ib3JkZXIpOyBib3JkZXItcmFkaXVzOiB2YXIoLS1kcy1yYWRpdXMpOyBwYWRkaW5nOiAxMHB4IDEycHg7IH0KLnJ1bGUtdG9vbGJhciB7IGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGdhcDogMTJweDsgfQoucnVsZS1jb3VudCB7IGZvbnQtc2l6ZTogdmFyKC0tZHMtZm9udC1zbSk7IGNvbG9yOiB2YXIoLS1kcy10ZXh0LTMsIHZhcigtLWRzLXRleHQtMikpOyB9Ci5ydWxlLXNlYXJjaCB7IG1hcmdpbi1sZWZ0OiBhdXRvOyB3aWR0aDogMjAwcHg7IH0KLnJ1bGUtdGFicyB7IG1hcmdpbjogOHB4IDAgNHB4OyB9Ci5ydWxlLWJvZHkgeyBtYXgtaGVpZ2h0OiAzMzBweDsgb3ZlcmZsb3c6IGF1dG87IGRpc3BsYXk6IGZsZXg7IGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47IGdhcDogMTJweDsgcGFkZGluZzogMCAycHggMnB4OyB9Ci5ncnAgewogIC8qIOe7hOWktCBzdGlja3kg5pe26IOM5ZCO5rua6L+H55qE5YaF5a655Lya6YCP5Ye65p2l5Y+g5a2X77yM5b+F6aG755So5LiN6YCP5piO5bqV6ImyICovCiAgYmFja2dyb3VuZDogdmFyKC0tZHMtYmctZWxldmF0ZWQpOwogIGJvcmRlci1yYWRpdXM6IDZweDsKfQouZ3JwLWhlYWQgewogIGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGdhcDogOHB4OwogIHBhZGRpbmc6IDVweCA4cHg7IGJvcmRlci1yYWRpdXM6IDZweDsKICBiYWNrZ3JvdW5kOiB2YXIoLS1kcy1iZy1zb2Z0KTsKICBwb3NpdGlvbjogc3RpY2t5OyB0b3A6IDA7IHotaW5kZXg6IDE7Cn0KLmdycC1ncmlkIHsgZGlzcGxheTogZ3JpZDsgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoMywgMWZyKTsgZ2FwOiA0cHggMTBweDsgcGFkZGluZzogNnB4IDRweCAwIDI2cHg7IH0KLnJ1bGUtZW1wdHkgeyB0ZXh0LWFsaWduOiBjZW50ZXI7IGNvbG9yOiB2YXIoLS1kcy10ZXh0LTMsIHZhcigtLWRzLXRleHQtMikpOyBmb250LXNpemU6IHZhcigtLWRzLWZvbnQtc20pOyBwYWRkaW5nOiAyNHB4IDA7IH0KPC9zdHlsZT4K
+<template>
+  <DsCard>
+    <template #title>
+      <div class="head">
+        <span>角色管理</span>
+        <DsButton variant="primary" @click="openAdd">新增角色</DsButton>
+      </div>
+    </template>
+
+    <DsTable :columns="columns" :data="list" :loading="loading" :striped="true">
+      <!-- 序号列 -->
+      <template #_index="{ index }">{{ index + 1 }}</template>
+      <!-- 权限节点数：'*' 表示全部权限 -->
+      <template #rules="{ row }">
+        <DsTag v-if="String(row.rules || '').trim() === '*'" color="success" size="sm">全部</DsTag>
+        <span v-else>{{ String(row.rules || '').split(',').filter(Boolean).length }}</span>
+      </template>
+      <!-- 状态 -->
+      <template #status="{ row }">
+        <DsTag :color="Number(row.status) === 1 ? 'success' : 'neutral'" size="sm">
+          {{ Number(row.status) === 1 ? '正常' : '禁用' }}
+        </DsTag>
+      </template>
+      <!-- 数据权限 -->
+      <template #data_scope="{ row }">
+        <DsTag :color="Number(row.data_scope) === 2 ? 'warning' : 'info'" size="sm">
+          {{ Number(row.data_scope) === 2 ? '仅本人数据' : '全部数据' }}
+        </DsTag>
+      </template>
+      <!-- 操作列 -->
+      <template #_action="{ row }">
+        <div class="ops">
+          <DsButton variant="text" @click="openEdit(row)">编辑</DsButton>
+          <DsButton variant="text" @click="onDel(row)">删除</DsButton>
+        </div>
+      </template>
+    </DsTable>
+
+    <!-- 新增 / 编辑角色：rules 用权限节点复选框树编辑，避免手输节点名出错 -->
+    <DsModal :title="editing ? '编辑角色' : '新增角色'" v-model="dialog" :width="780" @close="reset">
+      <!-- 表单：原 el-form（label-width 90px）改为 DsField -->
+      <DsField label="角色名称" required>
+        <DsInput v-model="form.name" maxlength="50" />
+      </DsField>
+      <!-- 状态：原 el-radio-group，ds 用同 v-model 的多个 DsRadio 组成组 -->
+      <DsField label="状态">
+        <div class="radios">
+          <DsRadio v-model="form.status" :value="1">正常</DsRadio>
+          <DsRadio v-model="form.status" :value="0">禁用</DsRadio>
+        </div>
+      </DsField>
+      <DsField label="数据权限">
+        <DsSelect v-model="form.data_scope" :options="dataScopeOptions" />
+      </DsField>
+      <DsField label="权限节点">
+        <div class="rule-box">
+          <!-- 工具条：全选（受控+半选）、已选计数、关键字搜索 -->
+          <div class="rule-toolbar">
+            <DsCheckbox :model-value="allChecked" :indeterminate="indeterminate" @change="onAllChange">全选</DsCheckbox>
+            <span class="rule-count">已选 {{ form.rules.length }} / {{ ruleNodes.length }} 项</span>
+            <DsInput v-model="keyword" placeholder="搜索权限名称或节点" size="sm" class="rule-search" />
+          </div>
+          <!-- 两类权限分开管理：menu=菜单/页面(同时即接口权限)；action=按钮 -->
+          <DsTabs v-model="activeTab" variant="pill" :items="tabItems" class="rule-tabs" />
+          <div class="rule-body">
+            <!-- 菜单 / 页面权限：按模块分组 -->
+            <template v-if="activeTab === 'menu'">
+              <div v-for="g in menuGroups" :key="g.title" class="grp">
+                <div class="grp-head">
+                  <DsCheckbox size="sm" :model-value="grpAll(g.items)" :indeterminate="grpSome(g.items)" @change="toggleGrp(g.items, $event)">
+                    {{ g.title }}
+                  </DsCheckbox>
+                  <DsTag size="sm" color="neutral">{{ g.items.length }}</DsTag>
+                </div>
+                <div class="grp-grid">
+                  <DsCheckbox v-for="n in g.items" :key="n.name" v-model="form.rules" :value="n.name" :title="n.name" size="sm">
+                    {{ n.label }}
+                  </DsCheckbox>
+                </div>
+              </div>
+            </template>
+            <!-- 按钮权限：按业务表分组，一组即一张表的操作按钮 -->
+            <template v-else>
+              <div v-for="g in actionGroups" :key="g.key" class="grp">
+                <div class="grp-head">
+                  <DsCheckbox size="sm" :model-value="grpAll(g.items)" :indeterminate="grpSome(g.items)" @change="toggleGrp(g.items, $event)">
+                    {{ g.title }}
+                  </DsCheckbox>
+                  <DsTag size="sm" color="neutral">{{ g.group }}</DsTag>
+                </div>
+                <div class="grp-grid">
+                  <DsCheckbox v-for="n in g.items" :key="n.name" v-model="form.rules" :value="n.name" :title="n.name" size="sm">
+                    {{ n.label }}
+                  </DsCheckbox>
+                </div>
+              </div>
+            </template>
+            <div v-if="activeTab === 'menu' && !menuGroups.length" class="rule-empty">没有匹配的权限节点</div>
+            <div v-if="activeTab === 'action' && !actionGroups.length" class="rule-empty">没有匹配的权限节点</div>
+          </div>
+        </div>
+      </DsField>
+      <template #footer>
+        <DsButton @click="dialog = false">取消</DsButton>
+        <DsButton variant="primary" :loading="saving" @click="submit">保存</DsButton>
+      </template>
+    </DsModal>
+  </DsCard>
+</template>
+
+<script setup>
+/**
+ * 角色管理页：1:1 还原原系统「角色管理（auth/group）」。
+ * 数据落在 kuerp_auth_group 表，权限以逗号分隔节点名存于 rules 列；
+ * 节点清单来自 kuerp_auth_rule（权限规则页维护），此处用复选框树编辑，避免手输错误。
+ * RbacGuard 依 rules 命中请求路径 kuerp/<table> 放行/拦截。
+ */
+import { ref, computed, onMounted } from 'vue';
+import { message, confirm } from '@/utils/ui';
+import request from '../../utils/request';
+import { menus } from '../../menus';
+
+const list = ref([]);
+const ruleNodes = ref([]);
+const loading = ref(false);
+const dialog = ref(false);
+const editing = ref(false);
+const saving = ref(false);
+const form = ref({ name: '', status: 1, rules: [], data_scope: 1 });
+/** 数据权限选项：1=全部数据，2=仅本人创建数据 */
+const dataScopeOptions = [
+  { value: 1, label: '全部数据' },
+  { value: 2, label: '仅本人数据' },
+];
+
+/* ============ 权限节点分组元数据 ============
+ * 菜单节点（type=menu）与按钮节点（type=action）共用 kuerp_auth_rule，
+ * 这里从菜单唯一事实源（menus.js）提取两份映射，用于把生硬的节点名
+ * 翻译成中文标题并归入对应模块，解决「分不清哪个是什么权限」的问题：
+ *   nodeMeta  菜单节点名 -> { title 菜单标题, group 所属模块 }
+ *   tableMeta 业务表名   -> { title 菜单标题, group 所属模块 }（按钮节点按表归组）
+ */
+const nodeMeta = {};
+const tableMeta = {};
+(function buildMeta() {
+  const put = (m, group) => {
+    if (m.perm && !nodeMeta[m.perm]) nodeMeta[m.perm] = { title: m.title, group };
+    if (m.api && m.api.startsWith('/kuerp/')) {
+      const t = m.api.slice('/kuerp/'.length).replace(/-/g, '_');
+      if (!tableMeta[t]) tableMeta[t] = { title: m.title, group };
+    }
+  };
+  menus.forEach((g) => {
+    if (g.children) g.children.forEach((m) => put(m, g.title));
+    else put(g, '基础功能'); // 顶层叶子：工作台 / 数字大屏 / 打印中心
+  });
+})();
+
+/** 按钮动作名 -> 中文 */
+const ACTION_LABELS = { add: '新增', edit: '编辑', del: '删除', examine: '审核', import: '导入', export: '导出' };
+
+/** 权限节点编辑区状态：关键字过滤 + 当前 Tab */
+const keyword = ref('');
+const activeTab = ref('menu');
+
+/** DsTable 列配置 */
+const columns = [
+  { key: '_index', title: '#', width: '50' },
+  { key: 'name', title: '角色名称', width: '140' },
+  { key: 'rules', title: '权限节点数', width: '100', align: 'center' },
+  { key: 'data_scope', title: '数据权限', width: '100', align: 'center' },
+  { key: 'status', title: '状态', width: '90', align: 'center' },
+  { key: '_action', title: '操作', width: '160' },
+];
+
+/** 拉取角色列表 */
+async function load() {
+  loading.value = true;
+  try {
+    const r = await request.get('/kuerp/auth-group/index', { params: { page: 1, limit: 200 } });
+    list.value = r?.list || [];
+  } finally {
+    loading.value = false;
+  }
+}
+
+/** 拉取全部权限节点（供复选框树） */
+async function loadRules() {
+  const r = await request.get('/kuerp/auth-rule/index', { params: { page: 1, limit: 500 } });
+  ruleNodes.value = r?.list || [];
+}
+
+// —— 全选逻辑 ——
+const allChecked = computed({
+  get: () => ruleNodes.value.length > 0 && form.value.rules.length === ruleNodes.value.length,
+  set: (v) => { form.value.rules = v ? ruleNodes.value.map((r) => r.name) : []; },
+});
+const indeterminate = computed(
+  () => form.value.rules.length > 0 && form.value.rules.length < ruleNodes.value.length,
+);
+function onAllChange(v) { allChecked.value = v; }
+
+/** Tab 标签（带节点数，便于感知两类权限的规模） */
+const tabItems = computed(() => {
+  const menuCount = ruleNodes.value.filter((n) => n.type !== 'action').length;
+  const actCount = ruleNodes.value.filter((n) => n.type === 'action').length;
+  return [
+    { label: `菜单 / 页面权限 (${menuCount})`, value: 'menu' },
+    { label: `按钮权限 (${actCount})`, value: 'action' },
+  ];
+});
+
+/** 关键字是否命中（标题或节点名，忽略大小写） */
+function hit(name, label, kw) {
+  return !kw || name.toLowerCase().includes(kw) || String(label).toLowerCase().includes(kw);
+}
+
+/**
+ * 菜单 / 页面权限节点：按所属模块分组（顺序与菜单一致，未知节点归入「其他 / 接口」）。
+ * 勾选 menu 节点即同时授予该页面的菜单可见性与后端接口访问权。
+ */
+const menuGroups = computed(() => {
+  const kw = keyword.value.trim().toLowerCase();
+  const map = new Map();
+  ruleNodes.value
+    .filter((n) => n.type !== 'action')
+    .forEach((n) => {
+      const meta = nodeMeta[n.name] || {};
+      const label = meta.title || n.title || n.name;
+      if (!hit(n.name, label, kw)) return;
+      const group = meta.group || '其他 / 接口';
+      if (!map.has(group)) map.set(group, []);
+      map.get(group).push({ name: n.name, label });
+    });
+  const arr = [...map.entries()].map(([title, items]) => ({ title, items }));
+  // 把「其他 / 接口」放到最后
+  return arr.sort((a, b) => (a.title === '其他 / 接口') - (b.title === '其他 / 接口'));
+});
+
+/** 按钮权限节点：按业务表分组，动作翻译为中文（新增/编辑/删除/审核…） */
+const actionGroups = computed(() => {
+  const kw = keyword.value.trim().toLowerCase();
+  const map = new Map();
+  ruleNodes.value
+    .filter((n) => n.type === 'action')
+    .forEach((n) => {
+      const m = n.name.match(/^kuerp\/(.+?):(\w+)$/);
+      const table = m ? m[1] : '_other';
+      const action = m ? m[2] : n.name;
+      const label = ACTION_LABELS[action] || action;
+      if (!hit(n.name, label, kw)) return;
+      if (!map.has(table)) map.set(table, []);
+      map.get(table).push({ name: n.name, label });
+    });
+  return [...map.entries()]
+    .map(([table, items]) => ({
+      key: table,
+      title: (tableMeta[table] && tableMeta[table].title) || table,
+      group: (tableMeta[table] && tableMeta[table].group) || '其他',
+      items,
+    }))
+    .sort((a, b) => (a.group + a.title).localeCompare(b.group + b.title, 'zh'));
+});
+
+/** 组级勾选状态：全部选中 / 部分选中（半选） */
+function grpAll(items) { return items.every((i) => form.value.rules.includes(i.name)); }
+function grpSome(items) {
+  const c = items.filter((i) => form.value.rules.includes(i.name)).length;
+  return c > 0 && c < items.length;
+}
+/** 勾选/取消整组 */
+function toggleGrp(items, v) {
+  const names = items.map((i) => i.name);
+  if (v) form.value.rules = [...new Set([...form.value.rules, ...names])];
+  else form.value.rules = form.value.rules.filter((n) => !names.includes(n));
+}
+
+/** 打开新增对话框 */
+function openAdd() {
+  editing.value = false;
+  form.value = { name: '', status: 1, rules: [], data_scope: 1 };
+  dialog.value = true;
+}
+
+/** 打开编辑对话框：rules 字符串还原为数组 */
+function openEdit(row) {
+  editing.value = true;
+  const rules = String(row.rules || '') === '*'
+    ? ruleNodes.value.map((r) => r.name)
+    : String(row.rules || '').split(',').filter(Boolean);
+  form.value = { id: row.id, name: row.name, status: Number(row.status), rules, data_scope: Number(row.data_scope || 1) };
+  dialog.value = true;
+}
+
+function reset() { form.value = { name: '', status: 1, rules: [], data_scope: 1 }; }
+
+/** 提交新增/编辑 */
+async function submit() {
+  if (!form.value.name) {
+    message.warning('请输入角色名称');
+    return;
+  }
+  saving.value = true;
+  try {
+    const payload = {
+      name: form.value.name,
+      status: form.value.status,
+      rules: form.value.rules.join(','),
+      data_scope: Number(form.value.data_scope) || 1,
+    };
+    if (editing.value) {
+      await request.post('/kuerp/auth-group/edit', { id: form.value.id, ...payload });
+      message.success('保存成功');
+    } else {
+      await request.post('/kuerp/auth-group/add', payload);
+      message.success('添加成功');
+    }
+    dialog.value = false;
+    load();
+  } finally {
+    saving.value = false;
+  }
+}
+
+/** 删除角色 */
+async function onDel(row) {
+  await confirm(`确认删除角色「${row.name}」？`, '提示', { type: 'warning' });
+  await request.post('/kuerp/auth-group/del', { id: row.id });
+  message.success('已删除');
+  load();
+}
+
+onMounted(async () => {
+  await loadRules();
+  await load();
+});
+</script>
+
+<style scoped>
+.head { display: flex; align-items: center; justify-content: space-between; }
+.ops { display: flex; gap: 4px; }
+.radios { display: flex; gap: 16px; align-items: center; min-height: 32px; }
+
+/* 权限节点选择区：工具条（全选/计数/搜索）+ Tab + 分组列表 */
+.rule-box { border: 1px solid var(--ds-border); border-radius: var(--ds-radius); padding: 10px 12px; }
+.rule-toolbar { display: flex; align-items: center; gap: 12px; }
+.rule-count { font-size: var(--ds-font-sm); color: var(--ds-text-3, var(--ds-text-2)); }
+.rule-search { margin-left: auto; width: 200px; }
+.rule-tabs { margin: 8px 0 4px; }
+.rule-body { max-height: 330px; overflow: auto; display: flex; flex-direction: column; gap: 12px; padding: 0 2px 2px; }
+.grp {
+  /* 组头 sticky 时背后滚过的内容会透出来叠字，必须用不透明底色 */
+  background: var(--ds-bg-elevated);
+  border-radius: 6px;
+}
+.grp-head {
+  display: flex; align-items: center; gap: 8px;
+  padding: 5px 8px; border-radius: 6px;
+  background: var(--ds-bg-soft);
+  position: sticky; top: 0; z-index: 1;
+}
+.grp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4px 10px; padding: 6px 4px 0 26px; }
+.rule-empty { text-align: center; color: var(--ds-text-3, var(--ds-text-2)); font-size: var(--ds-font-sm); padding: 24px 0; }
+</style>

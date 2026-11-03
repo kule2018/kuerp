@@ -1,1 +1,83 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsKCmV4cG9ydCBpbnRlcmZhY2UgSW5kZXhlZERvYyB7CiAgaWQ6IHN0cmluZyB8IG51bWJlcjsKICBjb250ZW50OiBzdHJpbmc7CiAgc291cmNlPzogc3RyaW5nOwogIG1ldGE/OiBSZWNvcmQ8c3RyaW5nLCBhbnk+Owp9CgpleHBvcnQgaW50ZXJmYWNlIFJldHJpZXZhbEhpdCB7CiAgaWQ6IHN0cmluZyB8IG51bWJlcjsKICBjb250ZW50OiBzdHJpbmc7CiAgc291cmNlPzogc3RyaW5nOwogIG1ldGE/OiBSZWNvcmQ8c3RyaW5nLCBhbnk+OwogIHNjb3JlOiBudW1iZXI7Cn0KCi8qKgogKiDlhbPplK7or43mo4DntKLmnI3liqHvvJrlnKjlhoXlrZjntKLlvJXkuIrlgZrovbvph4/lhbPplK7or43lj6zlm57vvIhCTTI1IOmjjuagvOaJk+WIhueahOeugOWMlueJiO+8ieOAggogKiDnrYnmlYggU3ByaW5nIEFJIOeahCBWZWN0b3JTdG9yZSAvIFF1ZXN0aW9uQW5zd2VyQWR2aXNvciDnmoTmo4DntKLnjq/oioLvvIwKICog55So5LqO5oqK44CM55u45YWz6LWE5paZ44CN5rOo5YWlIFByb21wdCDlrp7njrAgUkFH77yI5q2k5aSE55So5YWz6ZSu6K+N6ICM6Z2e5ZCR6YeP77yM6Zu25L6d6LWW44CB5Y+v56a757q/77yJ44CCCiAqLwpASW5qZWN0YWJsZSgpCmV4cG9ydCBjbGFzcyBLZXl3b3JkUmV0cmlldmFsU2VydmljZSB7CiAgcHJpdmF0ZSByZWFkb25seSBpbmRleCA9IG5ldyBNYXA8c3RyaW5nLCBJbmRleGVkRG9jW10+KCk7CgogIC8qKiDkuLrkuIDkuKrmlbDmja7pm4blu7rnq4sv6KaG55uW57Si5byVICovCiAgaW5kZXhEYXRhc2V0KGRhdGFzZXQ6IHN0cmluZywgZG9jczogSW5kZXhlZERvY1tdKSB7CiAgICB0aGlzLmluZGV4LnNldChkYXRhc2V0LCBkb2NzKTsKICB9CgogIC8qKiDlvoDlt7LmnInmlbDmja7pm4bov73liqDmlofmoaMgKi8KICBhZGREb2MoZGF0YXNldDogc3RyaW5nLCBkb2M6IEluZGV4ZWREb2MpIHsKICAgIGNvbnN0IGFyciA9IHRoaXMuaW5kZXguZ2V0KGRhdGFzZXQpIHx8IFtdOwogICAgYXJyLnB1c2goZG9jKTsKICAgIHRoaXMuaW5kZXguc2V0KGRhdGFzZXQsIGFycik7CiAgfQoKICBkYXRhc2V0cygpOiBzdHJpbmdbXSB7CiAgICByZXR1cm4gQXJyYXkuZnJvbSh0aGlzLmluZGV4LmtleXMoKSk7CiAgfQoKICAvKioKICAgKiDlhbPplK7or43mo4DntKLvvJrlr7nmr4/mnaHmlofmoaPmjInlhbPplK7or43lkb3kuK3mrKHmlbAgKyDlrZfmrrXopobnm5bluqbmiZPliIbvvIzov5Tlm54gdG9wS+OAggogICAqIEBwYXJhbSBrZXl3b3JkIOaUr+aMgeepuuagvOWIhumalOeahOWkmuWFs+mUruivje+8iEFORCDlhbPns7vvvIzlkb3kuK3otorlpJrliIbotorpq5jvvIkKICAgKi8KICBzZWFyY2goZGF0YXNldDogc3RyaW5nLCBrZXl3b3JkOiBzdHJpbmcsIHRvcEsgPSA1KTogUmV0cmlldmFsSGl0W10gewogICAgY29uc3QgZG9jcyA9IHRoaXMuaW5kZXguZ2V0KGRhdGFzZXQpOwogICAgaWYgKCFkb2NzIHx8ICFrZXl3b3JkKSByZXR1cm4gW107CiAgICBjb25zdCB0ZXJtcyA9IGtleXdvcmQudG9Mb3dlckNhc2UoKS5zcGxpdCgvXHMrLykuZmlsdGVyKEJvb2xlYW4pOwogICAgY29uc3QgaGl0czogUmV0cmlldmFsSGl0W10gPSBbXTsKICAgIGZvciAoY29uc3QgZG9jIG9mIGRvY3MpIHsKICAgICAgY29uc3QgdGV4dCA9IChkb2MuY29udGVudCB8fCAnJykudG9Mb3dlckNhc2UoKTsKICAgICAgbGV0IHNjb3JlID0gMDsKICAgICAgbGV0IG1hdGNoZWRUZXJtcyA9IDA7CiAgICAgIGZvciAoY29uc3QgdGVybSBvZiB0ZXJtcykgewogICAgICAgIGxldCBpZHggPSB0ZXh0LmluZGV4T2YodGVybSk7CiAgICAgICAgbGV0IGNvdW50ID0gMDsKICAgICAgICB3aGlsZSAoaWR4ICE9PSAtMSkgewogICAgICAgICAgY291bnQrKzsKICAgICAgICAgIGlkeCA9IHRleHQuaW5kZXhPZih0ZXJtLCBpZHggKyB0ZXJtLmxlbmd0aCk7CiAgICAgICAgfQogICAgICAgIGlmIChjb3VudCA+IDApIHsKICAgICAgICAgIG1hdGNoZWRUZXJtcysrOwogICAgICAgICAgc2NvcmUgKz0gY291bnQgKiAoMSArIHRlcm0ubGVuZ3RoIC8gMTApOwogICAgICAgIH0KICAgICAgfQogICAgICBpZiAobWF0Y2hlZFRlcm1zID09PSB0ZXJtcy5sZW5ndGggJiYgbWF0Y2hlZFRlcm1zID4gMCkgewogICAgICAgIGhpdHMucHVzaCh7IC4uLmRvYywgc2NvcmUgfSk7CiAgICAgIH0KICAgIH0KICAgIGhpdHMuc29ydCgoYSwgYikgPT4gYi5zY29yZSAtIGEuc2NvcmUpOwogICAgcmV0dXJuIGhpdHMuc2xpY2UoMCwgdG9wSyk7CiAgfQoKICAvKiog5oqK5qOA57Si57uT5p6c5qC85byP5YyW5Li65Y+v5rOo5YWlIFByb21wdCDnmoTkuIrkuIvmlofmlofmnKwgKi8KICBzdGF0aWMgdG9Db250ZXh0KGhpdHM6IFJldHJpZXZhbEhpdFtdKTogc3RyaW5nIHsKICAgIGlmICghaGl0cy5sZW5ndGgpIHJldHVybiAn77yI5pyq5qOA57Si5Yiw55u45YWz6LWE5paZ77yJJzsKICAgIHJldHVybiBoaXRzCiAgICAgIC5tYXAoKGgsIGkpID0+IGBbJHtpICsgMX1dICgke2guc291cmNlIHx8IGguaWR9KSAke2guY29udGVudH1gKQogICAgICAuam9pbignXG4nKTsKICB9Cn0K
+import { Injectable } from '@nestjs/common';
+
+export interface IndexedDoc {
+  id: string | number;
+  content: string;
+  source?: string;
+  meta?: Record<string, any>;
+}
+
+export interface RetrievalHit {
+  id: string | number;
+  content: string;
+  source?: string;
+  meta?: Record<string, any>;
+  score: number;
+}
+
+/**
+ * 关键词检索服务：在内存索引上做轻量关键词召回（BM25 风格打分的简化版）。
+ * 等效 Spring AI 的 VectorStore / QuestionAnswerAdvisor 的检索环节，
+ * 用于把「相关资料」注入 Prompt 实现 RAG（此处用关键词而非向量，零依赖、可离线）。
+ */
+@Injectable()
+export class KeywordRetrievalService {
+  private readonly index = new Map<string, IndexedDoc[]>();
+
+  /** 为一个数据集建立/覆盖索引 */
+  indexDataset(dataset: string, docs: IndexedDoc[]) {
+    this.index.set(dataset, docs);
+  }
+
+  /** 往已有数据集追加文档 */
+  addDoc(dataset: string, doc: IndexedDoc) {
+    const arr = this.index.get(dataset) || [];
+    arr.push(doc);
+    this.index.set(dataset, arr);
+  }
+
+  datasets(): string[] {
+    return Array.from(this.index.keys());
+  }
+
+  /**
+   * 关键词检索：对每条文档按关键词命中次数 + 字段覆盖度打分，返回 topK。
+   * @param keyword 支持空格分隔的多关键词（AND 关系，命中越多分越高）
+   */
+  search(dataset: string, keyword: string, topK = 5): RetrievalHit[] {
+    const docs = this.index.get(dataset);
+    if (!docs || !keyword) return [];
+    const terms = keyword.toLowerCase().split(/\s+/).filter(Boolean);
+    const hits: RetrievalHit[] = [];
+    for (const doc of docs) {
+      const text = (doc.content || '').toLowerCase();
+      let score = 0;
+      let matchedTerms = 0;
+      for (const term of terms) {
+        let idx = text.indexOf(term);
+        let count = 0;
+        while (idx !== -1) {
+          count++;
+          idx = text.indexOf(term, idx + term.length);
+        }
+        if (count > 0) {
+          matchedTerms++;
+          score += count * (1 + term.length / 10);
+        }
+      }
+      if (matchedTerms === terms.length && matchedTerms > 0) {
+        hits.push({ ...doc, score });
+      }
+    }
+    hits.sort((a, b) => b.score - a.score);
+    return hits.slice(0, topK);
+  }
+
+  /** 把检索结果格式化为可注入 Prompt 的上下文文本 */
+  static toContext(hits: RetrievalHit[]): string {
+    if (!hits.length) return '（未检索到相关资料）';
+    return hits
+      .map((h, i) => `[${i + 1}] (${h.source || h.id}) ${h.content}`)
+      .join('\n');
+  }
+}

@@ -1,1 +1,164 @@
-IyDpg6jnvbLmjIfljZcNCg0K5pys5paH5qGj6K+05piO6L+b6ZSA5a2YIEVSUCDlvIDmupDniYjnmoTpg6jnvbLmlrnlvI/vvIzmtrXnm5YgKipEb2NrZXIg5LiA6ZSu6YOo572yKirjgIEqKueOr+Wig+WPmOmHjyoq44CBKirnlJ/kuqfliqDlm7oqKiDkuI4gKirmnKzlnLDlvIDlj5EqKuOAgg0KDQotLS0NCg0KIyMg5LiA44CB546v5aKD6KaB5rGCDQoNCnwg57uE5Lu2IHwg54mI5pys6KaB5rGCIHwNCnwtLS18LS0tfA0KfCBEb2NrZXIgLyBEb2NrZXIgQ29tcG9zZSB8IOaOqOiNkCBEb2NrZXIgMjQr77yIQ29tcG9zZSB2Mu+8iSB8DQp8IE5vZGUuanMgfCAxOC5477yI5pys5Zyw5byA5Y+RIC8g6Ieq5a6a5LmJ5p6E5bu65pe277yJIHwNCnwgTXlTUUwgfCA1Ljcr77yIRG9ja2VyIOWGheW3suWwgeijhe+8m+S5n+WPr+S9v+eUqOWklumDqOWunuS+i++8iSB8DQp8IOa1j+iniOWZqCB8IOeOsOS7oyBDaHJvbWl1bSDlhoXmoLjvvIhQQyDnrqHnkIblkI7lj7DvvIkgfA0KDQotLS0NCg0KIyMg5LqM44CBRG9ja2VyIOS4gOmUrumDqOe9su+8iOaOqOiNkO+8iQ0KDQrlnKjpobnnm67moLnnm67lvZXmiafooYzvvJoNCg0KYGBgYmFzaA0KZG9ja2VyIGNvbXBvc2UgdXAgLWQgLS1idWlsZA0KYGBgDQoNCuivpeWRveS7pOS8muaehOW7uuW5tuWQr+WKqOS4ieS4quWuueWZqO+8mg0KDQp8IOWuueWZqCB8IOmVnOWDjyB8IOerr+WPoyB8IOivtOaYjiB8DQp8LS0tfC0tLXwtLS18LS0tfA0KfCBgZXJwLW15c3FsYCB8IG15c3FsOjUuNyB8IDEyNy4wLjAuMTozMzA2IHwg5pWw5o2u5bqT77yb6aaW5qyh5oyJ5paH5Lu25ZCN6aG65bqP5a+85YWlIGBuZXN0anMtZXJwL2RiLyouc3FsYCB8DQp8IGBlcnAtYmFja2VuZGAgfCDmnKzlnLDmnoTlu7rvvIhOZXN0SlPvvIkgfCAzMDAwIHwg5ZCO56uvIEFQSSB8DQp8IGBlcnAtZnJvbnRlbmRgIHwg5pys5Zyw5p6E5bu677yITmdpbnggKyBWdWUz77yJIHwgODA4MCDihpIgODAgfCBQQyDnrqHnkIblkI7lj7DvvIxOZ2lueCDlj43ku6PlkI7nq6/vvIzliY3lkI7nq6/lkIzmupAgfA0KDQrorr/pl67vvJoNCi0g566h55CG5ZCO5Y+w77yaPGh0dHA6Ly9sb2NhbGhvc3Q6ODA4MD4NCi0g5ZCO56uv55u06L+e77yI6LCD6K+V77yJ77yaPGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMD4NCi0g6buY6K6k6LSm5Y+377yaYGFkbWluYCAvIGAxMjM0NTZg77yIKirnlJ/kuqfliqHlv4Xkv67mlLkqKu+8iQ0KDQo+IOS4jiBgbmVzdGpzLWVycC9kb2NrZXItY29tcG9zZS55bWxgIOeahOWIhuW3pe+8muagueebruW9leaWh+S7tuaYr+OAjOWujOaVtOeUn+S6p+W9ouaAgeOAje+8iOS4ieWuueWZqOOAgeWJjeerr+WPjeS7o++8ie+8m2BuZXN0anMtZXJwL2RvY2tlci1jb21wb3NlLnltbGAg5Y+q6LW3IE15U1FM77yM5L6b5pys5ZywIGBucG0gcnVuIHN0YXJ0OmRldmAg5byA5Y+R55So44CCDQoNCuaVsOaNruaMgeS5heWMlu+8mmBteXNxbC1kYXRhYO+8iOaVsOaNruW6k+aWh+S7tu+8ieS4jiBgdXBsb2Fkcy1kYXRhYO+8iOS4iuS8oOaWh+S7tu+8ieS4uuWRveWQjeWNt++8jOWuueWZqOmHjeW7uuS4jeS4ouaVsOaNruOAgg0KDQotLS0NCg0KIyMg5LiJ44CB546v5aKD5Y+Y6YePDQoNCuWQjuerr+mAmui/hyBgLmVudmDvvIjnlLEgYC5lbnYuZXhhbXBsZWAg5aSN5Yi277yJ5oiW5a6/5Li75py6546v5aKD5Y+Y6YeP5rOo5YWl44CCRG9ja2VyIOmDqOe9suaXtuW7uuiuruWcqOagueebruW9lSBgZG9ja2VyLWNvbXBvc2UueW1sYCDnmoQgYGJhY2tlbmQuZW52aXJvbm1lbnRgIOS4reimhuebluWFs+mUrumhueOAgg0KDQojIyMg5bqU55So5LiO5pWw5o2u5bqTDQoNCnwg5Y+Y6YePIHwg6buY6K6k5YC8IHwg6K+05piOIHwNCnwtLS18LS0tfC0tLXwNCnwgYFBPUlRgIHwgYDMwMDBgIHwg5ZCO56uv55uR5ZCs56uv5Y+jIHwNCnwgYEdMT0JBTF9QUkVGSVhgIHwg77yI56m677yJIHwg5YWo5bGA6Lev55Sx5YmN57yA77yb55WZ56m65YiZ5Lia5Yqh5o6l5Y+j5L+d5oyBIGAva3VlcnAveHh4YCB8DQp8IGBEQl9IT1NUYCB8IGAxMjcuMC4wLjFgIHwg5pWw5o2u5bqT5Zyw5Z2A77yIRG9ja2VyIOWGheS4uiBgbXlzcWxg77yJIHwNCnwgYERCX1BPUlRgIHwgYDMzMDZgIHwg5pWw5o2u5bqT56uv5Y+jIHwNCnwgYERCX1VTRVJgIHwgYHJvb3RgIHwg5pWw5o2u5bqT55So5oi3IHwNCnwgYERCX1BBU1NXT1JEYCB8IGByb290YCB8IOaVsOaNruW6k+WvhueggSB8DQp8IGBEQl9OQU1FYCB8IGBrdWVycF9lcnBgIHwg5pWw5o2u5bqT5ZCNIHwNCnwgYERCX0NIQVJTRVRgIHwgYHV0ZjhtYjRgIHwg5a2X56ym6ZuGIHwNCnwgYERCX1NZTkNIUk9OSVpFYCB8IGBmYWxzZWAgfCDmmK/lkKboh6rliqjlkIzmraXooajnu5PmnoTvvIjpppbmrKHlj68gYHRydWVg77yM55Sf5Lqn5bu66K6uIGBmYWxzZWAg6YWN5ZCIIFNRTCDohJrmnKzvvIkgfA0KDQojIyMg6Ym05p2DDQoNCnwg5Y+Y6YePIHwg6buY6K6k5YC8IHwg6K+05piOIHwNCnwtLS18LS0tfC0tLXwNCnwgYEpXVF9TRUNSRVRgIHwgYGt1ZXJwLW5lc3Rqcy1lcnAtc2VjcmV0LWNoYW5nZS1tZWAgfCBKV1Qg562+5ZCN5a+G6ZKl77yMKirnlJ/kuqflv4Xpobvkv67mlLkqKiB8DQp8IGBKV1RfRVhQSVJFU19JTmAgfCBgNzIwMGAgfCBUb2tlbiDmnInmlYjmnJ/vvIjnp5LvvIkgfA0KDQojIyMgQUnvvIjlj6/pgInvvIkNCg0KfCDlj5jph48gfCDpu5jorqTlgLwgfCDor7TmmI4gfA0KfC0tLXwtLS18LS0tfA0KfCBgQUlfREVGQVVMVF9CQVNFX1VSTGAgfCBgaHR0cHM6Ly9hcGkub3BlbmFpLmNvbS92MWAgfCDmqKHlnovmjqXlj6MgQmFzZVVSTO+8iOWFvOWuuSBEZWVwU2VlayAvIOmAmuS5iSAvIE9sbGFtYe+8iSB8DQp8IGBBSV9ERUZBVUxUX0FQSV9LRVlgIHwg77yI56m677yJIHwg5qih5Z6LIEFQSSBLZXkgfA0KfCBgQUlfREVGQVVMVF9NT0RFTGAgfCBgZ3B0LTRvLW1pbmlgIHwg6buY6K6k5qih5Z6L5ZCNIHwNCnwgYEFJX0RFRkFVTFRfVEVNUEVSQVRVUkVgIHwgYDAuN2AgfCDph4fmoLfmuKnluqYgfA0KfCBgQUlfREVGQVVMVF9NQVhfVE9LRU5TYCB8IGAyMDQ4YCB8IOacgOWkpyB0b2tlbiB8DQp8IGBBSV9FTkFCTEVfTE9HYCB8IGB0cnVlYCB8IOaYr+WQpuiusOW9lSBBSSDosIPnlKggLyDlt6XlhbfosIPnlKjml6Xlv5cgfA0KDQojIyMg57yT5a2YDQoNCnwg5Y+Y6YePIHwg6buY6K6k5YC8IHwg6K+05piOIHwNCnwtLS18LS0tfC0tLXwNCnwgYENBQ0hFX01BWGAgfCBgMjAwMGAgfCDov5vnqIvlhoXnvJPlrZjmnaHnm67kuIrpmZAgfA0KfCBgQ0FDSEVfVFRMYCB8IGA2MGAgfCDpu5jorqTnvJPlrZggVFRM77yI56eS77yJIHwNCg0KLS0tDQoNCiMjIOWbm+OAgeacrOWcsOW8gOWPkemDqOe9sg0KDQrpgILlkIjkuozmrKHlvIDlj5HvvIzliY3lkI7nq6/liIbliKvlkK/liqjvvJoNCg0KYGBgYmFzaA0KIyAxKSDmlbDmja7lupMNCmNkIG5lc3Rqcy1lcnANCmRvY2tlciBjb21wb3NlIHVwIC1kDQoNCiMgMikg5ZCO56uvDQpjcCAuZW52LmV4YW1wbGUgLmVudg0KbnBtIGluc3RhbGwNCm5wbSBydW4gYnVpbGQNCm5wbSBzdGFydCAgICAgICAgICAgICAgICAjIGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMA0KDQojIDMpIFBDIOWJjeerrw0KY2QgLi4vdnVlMy1lcnANCm5wbSBpbnN0YWxsDQpucG0gcnVuIGRldiAgICAgICAgICAgICAgIyBodHRwOi8vbG9jYWxob3N0OjUxNzPvvIjlt7LphY3nva7ku6PnkIbliLAgOjMwMDDvvIkNCg0KIyA0KSDnp7vliqjnq68NCiMgICAg55SoIEhCdWlsZGVyWCDmiZPlvIAgVW5pYXBw5YmN56uv5rqQ56CBL++8jOi/kOihjOWIsOW+ruS/oeWwj+eoi+W6jyAvIOa1j+iniOWZqA0KYGBgDQoNCuiLpeS9v+eUqOacrOWcsO+8iOmdniBEb2NrZXLvvIlNeVNRTO+8jOivt+aJi+WKqOWvvOWFpeW7uuihqOiEmuacrO+8mg0KDQpgYGBiYXNoDQpteXNxbCAtdXJvb3QgLXAga3VlcnBfZXJwIDwgbmVzdGpzLWVycC9kYi9zY2hlbWEuc3FsDQpteXNxbCAtdXJvb3QgLXAga3VlcnBfZXJwIDwgbmVzdGpzLWVycC9kYi9haS1zY2hlbWEuc3FsDQpteXNxbCAtdXJvb3QgLXAga3VlcnBfZXJwIDwgbmVzdGpzLWVycC9kYi9hZG1pbi1zY2hlbWEuc3FsDQpteXNxbCAtdXJvb3QgLXAga3VlcnBfZXJwIDwgbmVzdGpzLWVycC9kYi9yYmFjLXNjaGVtYS5zcWwNCm15c3FsIC11cm9vdCAtcCBrdWVycF9lcnAgPCBuZXN0anMtZXJwL2RiL3Nob3Atc2NoZW1hLnNxbA0KbXlzcWwgLXVyb290IC1wIGt1ZXJwX2VycCA8IG5lc3Rqcy1lcnAvZGIvZXh0ZW5zaW9uLXNjaGVtYS5zcWwNCmBgYA0KDQotLS0NCg0KIyMg5LqU44CB55Sf5Lqn546v5aKD5Yqg5Zu65bu66K6uDQoNCjEuICoq5L+u5pS56buY6K6k5Y+j5LukKirvvJpgYWRtaW4gLyAxMjM0NTZgIOS7heS4uuenjeWtkOaVsOaNru+8jOS4iue6v+WJjeWcqOeuoeeQhuWRmOmhtemdouS/ruaUueWvhueggeOAgg0KMi4gKiropobnm5blr4bpkqUqKu+8muWcqCBgZG9ja2VyLWNvbXBvc2UueW1sYCDnmoQgYGJhY2tlbmQuZW52aXJvbm1lbnRgIOaIliBgLmVudmAg5Lit6K6+572u5by66ZqP5py6IGBKV1RfU0VDUkVUYCDkuI4gYERCX1BBU1NXT1JEYO+8jOS4jeimgeS9v+eUqOm7mOiupOWAvOOAgg0KMy4gKirmlbDmja7lupPnq6/lj6MqKu+8muaguSBgZG9ja2VyLWNvbXBvc2UueW1sYCDlt7LlsIYgTXlTUUwg56uv5Y+j57uR5a6a5YiwIGAxMjcuMC4wLjFg77yM6YG/5YWN5pq06Zyy5YWs572R77yb5aaC56Gu6ZyA6L+c56iL6K6/6Zeu6K+35Yqg6Ziy54Gr5aKZIC8g6Lez5p2/44CCDQo0LiAqKkhUVFBTKirvvJrnlJ/kuqflu7rorq7lnKggTmdpbnggLyDnvZHlhbPlsYLnu4jmraIgVExT77yM5bm25bCG5YmN56uvIGBXRUJfUE9SVGAg5pS55Li6IDQ0MyDmmKDlsITvvIjmiJbliY3nva7lj43lkJHku6PnkIbvvInjgIINCjUuICoq5YWz6Zet6LCD6K+V56uv5Y+jKirvvJrnlJ/kuqflj6/ms6jph4rmjokgYGJhY2tlbmQucG9ydHNgIOeahCBgMzAwMDozMDAwYCDmmKDlsITvvIzku4Xkv53nlZnliY3nq68gODA4MCDlkIzmupDorr/pl67jgIINCjYuICoq6KGo57uT5p6E5Y+Y5pu0KirvvJrnlJ/kuqfnjq/looPlsIYgYERCX1NZTkNIUk9OSVpFYCDorr7kuLogYGZhbHNlYO+8jOmAmui/hyBgZGIvKi5zcWxgIOS4juWPl+aOp+eahOi/geenu+iEmuacrOeuoeeQhue7k+aehOWPmOabtOOAgg0KNy4gKirlpIfku70qKu+8muWumuacn+Wkh+S7vSBgbXlzcWwtZGF0YWAg5Y235LiOIGB1cGxvYWRzLWRhdGFgIOWNt++8iOaIluebtOaOpSBgbXlzcWxkdW1wYO+8ieOAgg0KDQotLS0NCg0KIyMg5YWt44CB5YGl5bq35qOA5p+l5LiO5o6S6ZqcDQoNCi0g5ZCO56uv5a2Y5rS7ICsg5pWw5o2u5bqT6L+e6YCa77yaYEdFVCAvaGVhbHRoYO+8iOWFrOW8gO+8jOWuueWZqOWGhSBgU0VMRUNUIDFgIOagoemqjO+8ieOAgg0KLSDliY3nq6/lrZjmtLvvvJpOZ2lueCDlrrnlmaggYHdnZXQgLXEgLS1zcGlkZXIgaHR0cDovLzEyNy4wLjAuMS9gIOaOoumSiOOAgg0KLSDlkI7nq6/lkK/liqjkvp3otZbmlbDmja7lupPjgIznnJ/mraPlj6/nmbvlvZXjgI3vvIhgZGVwZW5kc19vbjogY29uZGl0aW9uOiBzZXJ2aWNlX2hlYWx0aHlg77yJ77yM6YG/5YWNIFR5cGVPUk0g6aaW6L+e5aSx6LSl6YCA5Ye644CCDQotIOmmluasoeWQr+WKqOi+g+aFouWxnuato+W4uO+8mk15U1FMIOWIneWni+WMliArIOWvvOWFpSA2IOS4qiBTUUwg6ISa5pysICsg5ZCO56uv57yW6K+R6ZWc5YOP44CCDQoNCi0tLQ0KDQojIyDkuIPjgIHluLjnlKjov5Dnu7Tlkb3ku6QNCg0KYGBgYmFzaA0KIyDmn6XnnIvml6Xlv5cNCmRvY2tlciBjb21wb3NlIGxvZ3MgLWYgYmFja2VuZA0KZG9ja2VyIGNvbXBvc2UgbG9ncyAtZiBmcm9udGVuZA0KDQojIOWBnOatoiAvIOmHjeWQrw0KZG9ja2VyIGNvbXBvc2UgZG93bg0KZG9ja2VyIGNvbXBvc2UgdXAgLWQNCg0KIyDku4Xph43lu7rlkI7nq6/vvIjmlLnku6PnoIHlkI7vvIkNCmRvY2tlciBjb21wb3NlIHVwIC1kIC0tYnVpbGQgYmFja2VuZA0KDQojIOi/m+WFpeaVsOaNruW6kw0KZG9ja2VyIGV4ZWMgLWl0IGVycC1teXNxbCBteXNxbCAtdXJvb3QgLXAga3VlcnBfZXJwDQpgYGANCg==
+# 部署指南
+
+本文档说明进销存 ERP 开源版的部署方式，涵盖 **Docker 一键部署**、**环境变量**、**生产加固** 与 **本地开发**。
+
+---
+
+## 一、环境要求
+
+| 组件 | 版本要求 |
+|---|---|
+| Docker / Docker Compose | 推荐 Docker 24+（Compose v2） |
+| Node.js | 18.x（本地开发 / 自定义构建时） |
+| MySQL | 5.7+（Docker 内已封装；也可使用外部实例） |
+| 浏览器 | 现代 Chromium 内核（PC 管理后台） |
+
+---
+
+## 二、Docker 一键部署（推荐）
+
+在项目根目录执行：
+
+```bash
+docker compose up -d --build
+```
+
+该命令会构建并启动三个容器：
+
+| 容器 | 镜像 | 端口 | 说明 |
+|---|---|---|---|
+| `erp-mysql` | mysql:5.7 | 127.0.0.1:3306 | 数据库；首次按文件名顺序导入 `nestjs-erp/db/*.sql` |
+| `erp-backend` | 本地构建（NestJS） | 3000 | 后端 API |
+| `erp-frontend` | 本地构建（Nginx + Vue3） | 8080 → 80 | PC 管理后台，Nginx 反代后端，前后端同源 |
+
+访问：
+- 管理后台：<http://localhost:8080>
+- 后端直连（调试）：<http://localhost:3000>
+- 默认账号：`admin` / `123456`（**生产务必修改**）
+
+> 与 `nestjs-erp/docker-compose.yml` 的分工：根目录文件是「完整生产形态」（三容器、前端反代）；`nestjs-erp/docker-compose.yml` 只起 MySQL，供本地 `npm run start:dev` 开发用。
+
+数据持久化：`mysql-data`（数据库文件）与 `uploads-data`（上传文件）为命名卷，容器重建不丢数据。
+
+---
+
+## 三、环境变量
+
+后端通过 `.env`（由 `.env.example` 复制）或宿主机环境变量注入。Docker 部署时建议在根目录 `docker-compose.yml` 的 `backend.environment` 中覆盖关键项。
+
+### 应用与数据库
+
+| 变量 | 默认值 | 说明 |
+|---|---|---|
+| `PORT` | `3000` | 后端监听端口 |
+| `GLOBAL_PREFIX` | （空） | 全局路由前缀；留空则业务接口保持 `/kuerp/xxx` |
+| `DB_HOST` | `127.0.0.1` | 数据库地址（Docker 内为 `mysql`） |
+| `DB_PORT` | `3306` | 数据库端口 |
+| `DB_USER` | `root` | 数据库用户 |
+| `DB_PASSWORD` | `root` | 数据库密码 |
+| `DB_NAME` | `kuerp_erp` | 数据库名 |
+| `DB_CHARSET` | `utf8mb4` | 字符集 |
+| `DB_SYNCHRONIZE` | `false` | 是否自动同步表结构（首次可 `true`，生产建议 `false` 配合 SQL 脚本） |
+
+### 鉴权
+
+| 变量 | 默认值 | 说明 |
+|---|---|---|
+| `JWT_SECRET` | `kuerp-nestjs-erp-secret-change-me` | JWT 签名密钥，**生产必须修改** |
+| `JWT_EXPIRES_IN` | `7200` | Token 有效期（秒） |
+
+### AI（可选）
+
+| 变量 | 默认值 | 说明 |
+|---|---|---|
+| `AI_DEFAULT_BASE_URL` | `https://api.openai.com/v1` | 模型接口 BaseURL（兼容 DeepSeek / 通义 / Ollama） |
+| `AI_DEFAULT_API_KEY` | （空） | 模型 API Key |
+| `AI_DEFAULT_MODEL` | `gpt-4o-mini` | 默认模型名 |
+| `AI_DEFAULT_TEMPERATURE` | `0.7` | 采样温度 |
+| `AI_DEFAULT_MAX_TOKENS` | `2048` | 最大 token |
+| `AI_ENABLE_LOG` | `true` | 是否记录 AI 调用 / 工具调用日志 |
+
+### 缓存
+
+| 变量 | 默认值 | 说明 |
+|---|---|---|
+| `CACHE_MAX` | `2000` | 进程内缓存条目上限 |
+| `CACHE_TTL` | `60` | 默认缓存 TTL（秒） |
+
+---
+
+## 四、本地开发部署
+
+适合二次开发，前后端分别启动：
+
+```bash
+# 1) 数据库
+cd nestjs-erp
+docker compose up -d
+
+# 2) 后端
+cp .env.example .env
+npm install
+npm run build
+npm start                # http://localhost:3000
+
+# 3) PC 前端
+cd ../vue3-erp
+npm install
+npm run dev              # http://localhost:5173（已配置代理到 :3000）
+
+# 4) 移动端
+#    用 HBuilderX 打开 Uniapp前端源码/，运行到微信小程序 / 浏览器
+```
+
+若使用本地（非 Docker）MySQL，请手动导入建表脚本：
+
+```bash
+mysql -uroot -p kuerp_erp < nestjs-erp/db/schema.sql
+mysql -uroot -p kuerp_erp < nestjs-erp/db/ai-schema.sql
+mysql -uroot -p kuerp_erp < nestjs-erp/db/admin-schema.sql
+mysql -uroot -p kuerp_erp < nestjs-erp/db/rbac-schema.sql
+mysql -uroot -p kuerp_erp < nestjs-erp/db/shop-schema.sql
+mysql -uroot -p kuerp_erp < nestjs-erp/db/extension-schema.sql
+```
+
+---
+
+## 五、生产环境加固建议
+
+1. **修改默认口令**：`admin / 123456` 仅为种子数据，上线前在管理员页面修改密码。
+2. **覆盖密钥**：在 `docker-compose.yml` 的 `backend.environment` 或 `.env` 中设置强随机 `JWT_SECRET` 与 `DB_PASSWORD`，不要使用默认值。
+3. **数据库端口**：根 `docker-compose.yml` 已将 MySQL 端口绑定到 `127.0.0.1`，避免暴露公网；如确需远程访问请加防火墙 / 跳板。
+4. **HTTPS**：生产建议在 Nginx / 网关层终止 TLS，并将前端 `WEB_PORT` 改为 443 映射（或前置反向代理）。
+5. **关闭调试端口**：生产可注释掉 `backend.ports` 的 `3000:3000` 映射，仅保留前端 8080 同源访问。
+6. **表结构变更**：生产环境将 `DB_SYNCHRONIZE` 设为 `false`，通过 `db/*.sql` 与受控的迁移脚本管理结构变更。
+7. **备份**：定期备份 `mysql-data` 卷与 `uploads-data` 卷（或直接 `mysqldump`）。
+
+---
+
+## 六、健康检查与排障
+
+- 后端存活 + 数据库连通：`GET /health`（公开，容器内 `SELECT 1` 校验）。
+- 前端存活：Nginx 容器 `wget -q --spider http://127.0.0.1/` 探针。
+- 后端启动依赖数据库「真正可登录」（`depends_on: condition: service_healthy`），避免 TypeORM 首连失败退出。
+- 首次启动较慢属正常：MySQL 初始化 + 导入 6 个 SQL 脚本 + 后端编译镜像。
+
+---
+
+## 七、常用运维命令
+
+```bash
+# 查看日志
+docker compose logs -f backend
+docker compose logs -f frontend
+
+# 停止 / 重启
+docker compose down
+docker compose up -d
+
+# 仅重建后端（改代码后）
+docker compose up -d --build backend
+
+# 进入数据库
+docker exec -it erp-mysql mysql -uroot -p kuerp_erp
+```

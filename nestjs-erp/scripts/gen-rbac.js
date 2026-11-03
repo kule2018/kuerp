@@ -1,1 +1,153 @@
-LyoqCiAqIOeUn+aIkCBSQkFDIOadg+mZkOihqOe7k+aehOS4juenjeWtkOaVsOaNru+8iOetieaViOWOnyBGYXN0QWRtaW4gYWRtaW4vYXV0aCDmqKHlnZfvvInvvJoKICogICBrdWVycF9hdXRoX2dyb3VwICAgICAgICDop5LoibLnu4QKICogICBrdWVycF9hdXRoX3J1bGUgICAgICAgICDmnYPpmZDoioLngrnvvIjoj5zljZUv5pON5L2c77yJCiAqICAga3VlcnBfYXV0aF9ncm91cF9hY2Nlc3Mg566h55CG5ZGYLeinkuiJsuWFs+iBlAogKgogKiDmnYPpmZDoioLngrnku44gZGIvc2NoZW1hLnNxbCDnmoTlhajpg6gga3VlcnBfKiDooajoh6rliqjnlJ/miJDvvIhuYW1lPWt1ZXJwLzzooajlkI0+77yJ77yMCiAqIOWPpuihpeWFheW3peS9nOWPsC/lpKflsY8vQUkv5p2D6ZmQ566h55CG562J6Z2e6KGo6IqC54K577yM5L+d6K+B5LiO5Y6f57O757uf6I+c5Y2VIDE6MeOAggogKi8KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOwoKY29uc3QgZGJEaXIgPSBwYXRoLmpvaW4oX19kaXJuYW1lLCAnLi4nLCAnZGInKTsKY29uc3Qgc2NoZW1hUGF0aCA9IHBhdGguam9pbihkYkRpciwgJ3NjaGVtYS5zcWwnKTsKY29uc3Qgb3V0UGF0aCA9IHBhdGguam9pbihkYkRpciwgJ3JiYWMtc2NoZW1hLnNxbCcpOwoKY29uc3Qgc2NoZW1hID0gZnMucmVhZEZpbGVTeW5jKHNjaGVtYVBhdGgsICd1dGY4Jyk7CgovLyDigJTigJQg5LuOIHNjaGVtYS5zcWwg5o+Q5Y+WIOihqOWQjSAtPiDkuK3mlofms6jph4og4oCU4oCUCmNvbnN0IHRhYmxlUmUgPSAvQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgYChrdWVycF9bYS16XzAtOV0rKWAgXCgoW1xzXFNdKj8pXG5cKSBFTkdJTkUvZzsKY29uc3Qgbm9kZXMgPSBbXTsKbGV0IG07CndoaWxlICgobSA9IHRhYmxlUmUuZXhlYyhzY2hlbWEpKSAhPT0gbnVsbCkgewogIGNvbnN0IHRhYmxlID0gbVsxXTsKICBjb25zdCBjbSA9IC9DT01NRU5UPScoW14nXSopJy8uZXhlYyhtWzJdLnNsaWNlKC0yMDApKTsKICBjb25zdCBjb21tZW50ID0gY20gPyBjbVsxXSA6ICcnOwogIGNvbnN0IHRpdGxlID0gU3RyaW5nKGNvbW1lbnQpLnNwbGl0KCcvJylbMF0udHJpbSgpIHx8IHRhYmxlOwogIG5vZGVzLnB1c2goeyBuYW1lOiBga3VlcnAvJHt0YWJsZS5yZXBsYWNlKCdrdWVycF8nLCAnJyl9YCwgdGl0bGUgfSk7Cn0KCi8vIOKAlOKAlCDpnZ7ooajnsbvlm7rlrproioLngrnvvIjkuI7ljp/ns7vnu5/oj5zljZXkuIDkuIDlr7nlupTvvInigJTigJQKY29uc3Qgc3RhdGljTm9kZXMgPSBbCiAgWydkYXNoYm9hcmQnLCAn5bel5L2c5Y+wJ10sCiAgWydzY3JlZW4nLCAn5pWw5a2X5aSn5bGPJ10sCiAgWydkYXRhaW5mbycsICfmlbDmja7nrqHnkIYnXSwKICBbJ2luaXRpYWxpemF0aW9uJywgJ+mHjeaWsOWIneWni+WMliddLAogIFsncHJpbnQnLCAn5Y2V5o2u5omT5Y2wJ10sCiAgWydhdXRoL2dyb3VwJywgJ+inkuiJsueuoeeQhiddLAogIFsnYXV0aC9ydWxlJywgJ+adg+mZkOinhOWImSddLAogIFsnYWkvbW9kZWwtY29uZmlnJywgJ0FJ5qih5Z6L6YWN572uJ10sCiAgWydhaS9wcm9tcHQtdGVtcGxhdGUnLCAnUHJvbXB05qih5p2/J10sCiAgWydhaS9wbGF5Z3JvdW5kJywgJ+WvueivnS9BZ2VudCddLAogIFsnYWkvbG9ncycsICdBSeiwg+eUqOaXpeW/lyddLApdOwoKLyoqCiAqIOaTjeS9nOe6p+adg+mZkOiKgueCue+8iGt1ZXJwLzzooag+OjzliqjkvZw+77yJ44CCCiAqCiAqIOWPque7meOAjOS4u+ahoyArIOWNleaNruOAjei/meexu+ecn+ato+mcgOimgeWMuuWIhuWinuWIoOaUueWuoeeahOihqOeUn+aIkO+8jOS4jee7mSAxNTUg5byg5YWo55Sf5oiQ77yaCiAqIC0gKl9pbmZvIC8g5pel5b+XIC8g5oql6KGo57G76KGo6aG16Z2i5piv5Y+q6K+75oiW55Sx5Y2V5o2u6IGU5Yqo5YaZ5YWl77yM5Y2V54us5o6n5p2D5rKh5pyJ5Lia5Yqh5oSP5LmJ77ybCiAqIC0g6IqC54K56LaK5aSa77yM6KeS6Imy6YWN572u6aG155qE5aSN6YCJ5qGG6LaK6ZW/77yM5Y+N6ICM5rKh5Lq65oS/5oSP6YWN44CCCiAqIOacqumFjee9ruaTjeS9nOe6p+iKgueCueeahOihqO+8jFJiYWNHdWFyZCDkvJrlm57okL3liLDooajnuqfoioLngrnliKTlrprvvIjlkJHlkI7lhbzlrrnvvInjgIIKICovCmNvbnN0IEFDVElPTl9UQUJMRVMgPSBbCiAgJ2dvb2RzJywgJ2dvb2RzX3R5cGUnLCAndW5pdCcsICd3YXJlaG91c2UnLCAnY3VzdG9tZXJzJywgJ3N1cHBsaWVycycsICdzdGFmZicsICdkcml2ZXInLAogICdhY2NvdW50cycsICdzZXR0bGVtZW50X3R5cGUnLCAnZ29vZHNfc3RvY2snLAogICdnb29kc19wdXJjaGFzZScsICdnb29kc19wdXJjaGFzZV9vcmRlcicsICdnb29kc19leGNoYW5nZScsCiAgJ2dvb2RzX3NhbGVzJywgJ2dvb2RzX3NhbGVzX29yZGVyJywgJ2dvb2RzX3NhbGVzX2V4Y2hhbmdlJywKICAnYWxsb2NhdGlvbicsICdhc3NlbWJsZScsICdzcGxpdCcsICdhZGp1c3RtZW50JywgJ2ludmVudG9yeScsCiAgJ3dhcmVob3VzaW5nJywgJ3dhcmVob3VzZScsICdjb2xsZWN0aW9uJywgJ3BheW1lbnQnLCAnd3JpdGVvZmYnLCAnaW5jb21lJywgJ2V4cGVuZGl0dXJlJywKXTsKCi8qKiDliqjkvZznuqfoioLngrnlkI7nvIDvvIjkuI7lkI7nq68gUmJhY0d1YXJkIOino+aekOeahCBhY3Rpb24g5ZCN5L+d5oyB5LiA6Ie077yJICovCmNvbnN0IEFDVElPTlMgPSBbCiAgWydhZGQnLCAn5paw5aKeJ10sCiAgWydlZGl0JywgJ+e8lui+kSddLAogIFsnZGVsJywgJ+WIoOmZpCddLAogIFsnZXhhbWluZScsICflrqHmoLgnXSwKXTsKCmNvbnN0IGVzYyA9IChzKSA9PiBTdHJpbmcocykucmVwbGFjZSgvJy9nLCAiJyciKTsKCmxldCBzcWwgPSBgLS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci0tIFJCQUMg5p2D6ZmQ6KGo77yI562J5pWI5Y6fIEZhc3RBZG1pbiBhZG1pbi9hdXRoIOaooeWdl++8jOahhuaetue6p+ihqO+8iQotLSDnlLEgc2NyaXB0cy9nZW4tcmJhYy5qcyDoh6rliqjnlJ/miJDvvJvliqDovb3pobrluo8gMDTvvIzpobvlnKggc2NoZW1hLnNxbCDkuYvlkI7jgIIKLS0g5p2D6ZmQ5qih5Z6L77yaa3VlcnBfYXV0aF9ncm91cC5ydWxlcyDlrZjpgJflj7fliIbpmpTnmoToioLngrnlkI3vvIgnKicg6KGo56S65YWo6YOo77yJ77yMCi0tICAgICAgICAgICBKd3RBdXRoR3VhcmQvUmJhY0d1YXJkIOaMieivt+axgui3r+W+hCBrdWVycC88dGFibGU+IOWRveS4reiKgueCueaUvuihjOOAggotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KU0VUIE5BTUVTIHV0ZjhtYjQ7CgpDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyBcYGt1ZXJwX2F1dGhfZ3JvdXBcYCAoCiAgXGBpZFxgIGludCgxMCkgdW5zaWduZWQgTk9UIE5VTEwgQVVUT19JTkNSRU1FTlQsCiAgXGBuYW1lXGAgdmFyY2hhcig1MCkgTk9UIE5VTEwgREVGQVVMVCAnJyBDT01NRU5UICfop5LoibLlkI3np7AnLAogIFxgcnVsZXNcYCB0ZXh0IENPTU1FTlQgJ+adg+mZkOiKgueCuSjpgJflj7fliIbpmpQsKj3lhajpg6gpJywKICBcYHN0YXR1c1xgIHRpbnlpbnQoNCkgTk9UIE5VTEwgREVGQVVMVCAxIENPTU1FTlQgJ+eKtuaAgToxPeato+W4uCwwPeemgeeUqCcsCiAgXGBjcmVhdGV0aW1lXGAgYmlnaW50KDE2KSBERUZBVUxUIE5VTEwgQ09NTUVOVCAn5Yib5bu65pe26Ze0JywKICBcYHVwZGF0ZXRpbWVcYCBiaWdpbnQoMTYpIERFRkFVTFQgTlVMTCBDT01NRU5UICfmm7TmlrDml7bpl7QnLAogIFxgZGVsZXRldGltZVxgIGJpZ2ludCgxNikgREVGQVVMVCBOVUxMIENPTU1FTlQgJ+i9r+WIoOmZpCcsCiAgUFJJTUFSWSBLRVkgKFxgaWRcYCkKKSBFTkdJTkU9SW5ub0RCIERFRkFVTFQgQ0hBUlNFVD11dGY4bWI0IENPTU1FTlQ9J+inkuiJsue7hCc7CgpDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyBcYGt1ZXJwX2F1dGhfcnVsZVxgICgKICBcYGlkXGAgaW50KDEwKSB1bnNpZ25lZCBOT1QgTlVMTCBBVVRPX0lOQ1JFTUVOVCwKICBcYG5hbWVcYCB2YXJjaGFyKDEwMCkgTk9UIE5VTEwgREVGQVVMVCAnJyBDT01NRU5UICfoioLngrnmoIfor4Yo5aaCIGt1ZXJwL2dvb2RzKScsCiAgXGB0aXRsZVxgIHZhcmNoYXIoMTAwKSBOT1QgTlVMTCBERUZBVUxUICcnIENPTU1FTlQgJ+iKgueCueWQjeensCcsCiAgXGB0eXBlXGAgdmFyY2hhcigyMCkgTk9UIE5VTEwgREVGQVVMVCAnbWVudScgQ09NTUVOVCAn57G75Z6LOm1lbnU96I+c5Y2VLGFjdGlvbj3mk43kvZwnLAogIFxgc3RhdHVzXGAgdGlueWludCg0KSBOT1QgTlVMTCBERUZBVUxUIDEgQ09NTUVOVCAn54q25oCBOjE95pi+56S6LDA96ZqQ6JePJywKICBcYGNyZWF0ZXRpbWVcYCBiaWdpbnQoMTYpIERFRkFVTFQgTlVMTCBDT01NRU5UICfliJvlu7rml7bpl7QnLAogIFxgdXBkYXRldGltZVxgIGJpZ2ludCgxNikgREVGQVVMVCBOVUxMIENPTU1FTlQgJ+abtOaWsOaXtumXtCcsCiAgXGBkZWxldGV0aW1lXGAgYmlnaW50KDE2KSBERUZBVUxUIE5VTEwgQ09NTUVOVCAn6L2v5Yig6ZmkJywKICBQUklNQVJZIEtFWSAoXGBpZFxgKSwKICBVTklRVUUgS0VZIFxgbmFtZVxgIChcYG5hbWVcYCkKKSBFTkdJTkU9SW5ub0RCIERFRkFVTFQgQ0hBUlNFVD11dGY4bWI0IENPTU1FTlQ9J+adg+mZkOiKgueCuSc7CgpDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyBcYGt1ZXJwX2F1dGhfZ3JvdXBfYWNjZXNzXGAgKAogIFxgYWRtaW5faWRcYCBpbnQoMTApIHVuc2lnbmVkIE5PVCBOVUxMIENPTU1FTlQgJ+euoeeQhuWRmElEJywKICBcYGdyb3VwX2lkXGAgaW50KDEwKSB1bnNpZ25lZCBOT1QgTlVMTCBDT01NRU5UICfop5LoibLnu4RJRCcsCiAgUFJJTUFSWSBLRVkgKFxgYWRtaW5faWRcYCxcYGdyb3VwX2lkXGApCikgRU5HSU5FPUlubm9EQiBERUZBVUxUIENIQVJTRVQ9dXRmOG1iNCBDT01NRU5UPSfnrqHnkIblkZgt6KeS6Imy5YWz6IGUJzsKCi0tIOm7mOiupOinkuiJsu+8mui2hee6p+euoeeQhuWRmO+8iOaLpeacieWFqOmDqOadg+mZkO+8iQpJTlNFUlQgSU5UTyBcYGt1ZXJwX2F1dGhfZ3JvdXBcYCAoXGBuYW1lXGAsIFxgcnVsZXNcYCwgXGBzdGF0dXNcYCwgXGBjcmVhdGV0aW1lXGAsIFxgdXBkYXRldGltZVxgKQpWQUxVRVMgKCfotoXnuqfnrqHnkIblkZgnLCAnKicsIDEsIFVOSVhfVElNRVNUQU1QKCksIFVOSVhfVElNRVNUQU1QKCkpOwoKLS0g6buY6K6k6KeS6Imy77ya5pmu6YCa5oiQ5ZGY77yI5LuF6LWE5paZ5LiO5bi455So5Y2V5o2u77yM5Y+v5oyJ6ZyA5aKe5Yig77yJCklOU0VSVCBJTlRPIFxga3VlcnBfYXV0aF9ncm91cFxgIChcYG5hbWVcYCwgXGBydWxlc1xgLCBcYHN0YXR1c1xgLCBcYGNyZWF0ZXRpbWVcYCwgXGB1cGRhdGV0aW1lXGApClZBTFVFUyAoJ+aZrumAmuaIkOWRmCcsICdkYXNoYm9hcmQsc2NyZWVuLGt1ZXJwL2dvb2RzLGt1ZXJwL2dvb2RzX3R5cGUsa3VlcnAvdW5pdCxrdWVycC93YXJlaG91c2Usa3VlcnAvY3VzdG9tZXJzLGt1ZXJwL3N1cHBsaWVycyxrdWVycC9nb29kc19zdG9jayxrdWVycC9jb2xsZWN0aW9uLGt1ZXJwL3BheW1lbnQnLCAxLCBVTklYX1RJTUVTVEFNUCgpLCBVTklYX1RJTUVTVEFNUCgpKTsKCi0tIGFkbWluIOi0puWPt+W9kuWFpei2hee6p+euoeeQhuWRmOe7hApJTlNFUlQgSU5UTyBcYGt1ZXJwX2F1dGhfZ3JvdXBfYWNjZXNzXGAgKFxgYWRtaW5faWRcYCwgXGBncm91cF9pZFxgKQpTRUxFQ1QgaWQsIDEgRlJPTSBcYGt1ZXJwX2FkbWluXGAgV0hFUkUgdXNlcm5hbWUgPSAnYWRtaW4nOwpgOwoKLy8g4oCU4oCUIOadg+mZkOiKgueCueenjeWtkO+8iOW5guetie+8muaMiSBuYW1lIOWOu+mHjeaPkuWFpe+8ieKAlOKAlApzcWwgKz0gYFxuLS0g5p2D6ZmQ6IqC54K556eN5a2QXG5gOwpjb25zdCBhbGxOb2RlcyA9IFsuLi5zdGF0aWNOb2Rlcy5tYXAoKFtuLCB0XSkgPT4gKHsgbmFtZTogbiwgdGl0bGU6IHQgfSkpLCAuLi5ub2Rlc107CmZvciAoY29uc3QgbiBvZiBhbGxOb2RlcykgewogIHNxbCArPSBgSU5TRVJUIElOVE8gXGBrdWVycF9hdXRoX3J1bGVcYCAoXGBuYW1lXGAsIFxgdGl0bGVcYCwgXGB0eXBlXGAsIFxgc3RhdHVzXGAsIFxgY3JlYXRldGltZVxgLCBcYHVwZGF0ZXRpbWVcYCkKU0VMRUNUICcke2VzYyhuLm5hbWUpfScsICcke2VzYyhuLnRpdGxlKX0nLCAnbWVudScsIDEsIFVOSVhfVElNRVNUQU1QKCksIFVOSVhfVElNRVNUQU1QKCkKV0hFUkUgTk9UIEVYSVNUUyAoU0VMRUNUIDEgRlJPTSAoU0VMRUNUIGlkIEZST00gXGBrdWVycF9hdXRoX3J1bGVcYCBXSEVSRSBuYW1lID0gJyR7ZXNjKG4ubmFtZSl9JykgdCk7XG5gOwp9CgovLyDigJTigJQg5pON5L2c57qn6IqC54K556eN5a2Q77yIa3VlcnAvPOihqD46POWKqOS9nD7vvIx0eXBlPWFjdGlvbu+8ieKAlOKAlAovLyDkuI7oj5zljZXnuqfoioLngrnliIblvIDmoIfms6jvvIzkvr/kuo7jgIzmnYPpmZDop4TliJnjgI3pobXmjInnsbvlnovnrZvpgInvvIzkuZ/kvr/kuo7ku6XlkI7mibnph4/ljYfnuqfliqjkvZzor63kuYnjgIIKY29uc3QgdGFibGVUaXRsZSA9IG5ldyBNYXAobm9kZXMubWFwKChuKSA9PiBbbi5uYW1lLnJlcGxhY2UoJ2t1ZXJwLycsICcnKSwgbi50aXRsZV0pKTsKc3FsICs9IGBcbi0tIOaTjeS9nOe6p+adg+mZkOiKgueCue+8iOaMiemSrue6p+adg+mZkO+8iVxuYDsKbGV0IGFjdGlvbkNvdW50ID0gMDsKZm9yIChjb25zdCB0IG9mIEFDVElPTl9UQUJMRVMpIHsKICBjb25zdCB0VGl0bGUgPSB0YWJsZVRpdGxlLmdldCh0KSB8fCB0OwogIGZvciAoY29uc3QgW2FjdCwgYWN0VGl0bGVdIG9mIEFDVElPTlMpIHsKICAgIGNvbnN0IG5hbWUgPSBga3VlcnAvJHt0fToke2FjdH1gOwogICAgY29uc3QgdGl0bGUgPSBgJHt0VGl0bGV9LSR7YWN0VGl0bGV9YDsKICAgIHNxbCArPSBgSU5TRVJUIElOVE8gXGBrdWVycF9hdXRoX3J1bGVcYCAoXGBuYW1lXGAsIFxgdGl0bGVcYCwgXGB0eXBlXGAsIFxgc3RhdHVzXGAsIFxgY3JlYXRldGltZVxgLCBcYHVwZGF0ZXRpbWVcYCkKU0VMRUNUICcke2VzYyhuYW1lKX0nLCAnJHtlc2ModGl0bGUpfScsICdhY3Rpb24nLCAxLCBVTklYX1RJTUVTVEFNUCgpLCBVTklYX1RJTUVTVEFNUCgpCldIRVJFIE5PVCBFWElTVFMgKFNFTEVDVCAxIEZST00gKFNFTEVDVCBpZCBGUk9NIFxga3VlcnBfYXV0aF9ydWxlXGAgV0hFUkUgbmFtZSA9ICcke2VzYyhuYW1lKX0nKSB0KTtcbmA7CiAgICBhY3Rpb25Db3VudCsrOwogIH0KfQoKZnMud3JpdGVGaWxlU3luYyhvdXRQYXRoLCBzcWwsICd1dGY4Jyk7CmNvbnNvbGUubG9nKGDinIUgcmJhYy1zY2hlbWEg5bey55Sf5oiQOiAke291dFBhdGh9YCk7CmNvbnNvbGUubG9nKGAgICDmnYPpmZDoioLngrk6ICR7YWxsTm9kZXMubGVuZ3RofSDkuKrvvIjooajoioLngrkgJHtub2Rlcy5sZW5ndGh9ICsg5Zu65a6a6IqC54K5ICR7c3RhdGljTm9kZXMubGVuZ3Rofe+8iWApOwpjb25zb2xlLmxvZyhgICAg5pON5L2c57qn6IqC54K5OiAke2FjdGlvbkNvdW50fSDkuKrvvIgke0FDVElPTl9UQUJMRVMubGVuZ3RofSDooaggw5cgJHtBQ1RJT05TLmxlbmd0aH0g5Yqo5L2c77yJYCk7Cg==
+/**
+ * 生成 RBAC 权限表结构与种子数据（等效原 FastAdmin admin/auth 模块）：
+ *   kuerp_auth_group        角色组
+ *   kuerp_auth_rule         权限节点（菜单/操作）
+ *   kuerp_auth_group_access 管理员-角色关联
+ *
+ * 权限节点从 db/schema.sql 的全部 kuerp_* 表自动生成（name=kuerp/<表名>），
+ * 另补充工作台/大屏/AI/权限管理等非表节点，保证与原系统菜单 1:1。
+ */
+const fs = require('fs');
+const path = require('path');
+
+const dbDir = path.join(__dirname, '..', 'db');
+const schemaPath = path.join(dbDir, 'schema.sql');
+const outPath = path.join(dbDir, 'rbac-schema.sql');
+
+const schema = fs.readFileSync(schemaPath, 'utf8');
+
+// —— 从 schema.sql 提取 表名 -> 中文注释 ——
+const tableRe = /CREATE TABLE IF NOT EXISTS `(kuerp_[a-z_0-9]+)` \(([\s\S]*?)\n\) ENGINE/g;
+const nodes = [];
+let m;
+while ((m = tableRe.exec(schema)) !== null) {
+  const table = m[1];
+  const cm = /COMMENT='([^']*)'/.exec(m[2].slice(-200));
+  const comment = cm ? cm[1] : '';
+  const title = String(comment).split('/')[0].trim() || table;
+  nodes.push({ name: `kuerp/${table.replace('kuerp_', '')}`, title });
+}
+
+// —— 非表类固定节点（与原系统菜单一一对应）——
+const staticNodes = [
+  ['dashboard', '工作台'],
+  ['screen', '数字大屏'],
+  ['datainfo', '数据管理'],
+  ['initialization', '重新初始化'],
+  ['print', '单据打印'],
+  ['auth/group', '角色管理'],
+  ['auth/rule', '权限规则'],
+  ['ai/model-config', 'AI模型配置'],
+  ['ai/prompt-template', 'Prompt模板'],
+  ['ai/playground', '对话/Agent'],
+  ['ai/logs', 'AI调用日志'],
+];
+
+/**
+ * 操作级权限节点（kuerp/<表>:<动作>）。
+ *
+ * 只给「主档 + 单据」这类真正需要区分增删改审的表生成，不给 155 张全生成：
+ * - *_info / 日志 / 报表类表页面是只读或由单据联动写入，单独控权没有业务意义；
+ * - 节点越多，角色配置页的复选框越长，反而没人愿意配。
+ * 未配置操作级节点的表，RbacGuard 会回落到表级节点判定（向后兼容）。
+ */
+const ACTION_TABLES = [
+  'goods', 'goods_type', 'unit', 'warehouse', 'customers', 'suppliers', 'staff', 'driver',
+  'accounts', 'settlement_type', 'goods_stock',
+  'goods_purchase', 'goods_purchase_order', 'goods_exchange',
+  'goods_sales', 'goods_sales_order', 'goods_sales_exchange',
+  'allocation', 'assemble', 'split', 'adjustment', 'inventory',
+  'warehousing', 'warehouse', 'collection', 'payment', 'writeoff', 'income', 'expenditure',
+];
+
+/** 动作级节点后缀（与后端 RbacGuard 解析的 action 名保持一致） */
+const ACTIONS = [
+  ['add', '新增'],
+  ['edit', '编辑'],
+  ['del', '删除'],
+  ['examine', '审核'],
+];
+
+const esc = (s) => String(s).replace(/'/g, "''");
+
+let sql = `-- ============================================================
+-- RBAC 权限表（等效原 FastAdmin admin/auth 模块，框架级表）
+-- 由 scripts/gen-rbac.js 自动生成；加载顺序 04，须在 schema.sql 之后。
+-- 权限模型：kuerp_auth_group.rules 存逗号分隔的节点名（'*' 表示全部），
+--           JwtAuthGuard/RbacGuard 按请求路径 kuerp/<table> 命中节点放行。
+-- ============================================================
+SET NAMES utf8mb4;
+
+CREATE TABLE IF NOT EXISTS \`kuerp_auth_group\` (
+  \`id\` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  \`name\` varchar(50) NOT NULL DEFAULT '' COMMENT '角色名称',
+  \`rules\` text COMMENT '权限节点(逗号分隔,*=全部)',
+  \`status\` tinyint(4) NOT NULL DEFAULT 1 COMMENT '状态:1=正常,0=禁用',
+  \`createtime\` bigint(16) DEFAULT NULL COMMENT '创建时间',
+  \`updatetime\` bigint(16) DEFAULT NULL COMMENT '更新时间',
+  \`deletetime\` bigint(16) DEFAULT NULL COMMENT '软删除',
+  PRIMARY KEY (\`id\`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='角色组';
+
+CREATE TABLE IF NOT EXISTS \`kuerp_auth_rule\` (
+  \`id\` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  \`name\` varchar(100) NOT NULL DEFAULT '' COMMENT '节点标识(如 kuerp/goods)',
+  \`title\` varchar(100) NOT NULL DEFAULT '' COMMENT '节点名称',
+  \`type\` varchar(20) NOT NULL DEFAULT 'menu' COMMENT '类型:menu=菜单,action=操作',
+  \`status\` tinyint(4) NOT NULL DEFAULT 1 COMMENT '状态:1=显示,0=隐藏',
+  \`createtime\` bigint(16) DEFAULT NULL COMMENT '创建时间',
+  \`updatetime\` bigint(16) DEFAULT NULL COMMENT '更新时间',
+  \`deletetime\` bigint(16) DEFAULT NULL COMMENT '软删除',
+  PRIMARY KEY (\`id\`),
+  UNIQUE KEY \`name\` (\`name\`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='权限节点';
+
+CREATE TABLE IF NOT EXISTS \`kuerp_auth_group_access\` (
+  \`admin_id\` int(10) unsigned NOT NULL COMMENT '管理员ID',
+  \`group_id\` int(10) unsigned NOT NULL COMMENT '角色组ID',
+  PRIMARY KEY (\`admin_id\`,\`group_id\`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='管理员-角色关联';
+
+-- 默认角色：超级管理员（拥有全部权限）
+INSERT INTO \`kuerp_auth_group\` (\`name\`, \`rules\`, \`status\`, \`createtime\`, \`updatetime\`)
+VALUES ('超级管理员', '*', 1, UNIX_TIMESTAMP(), UNIX_TIMESTAMP());
+
+-- 默认角色：普通成员（仅资料与常用单据，可按需增删）
+INSERT INTO \`kuerp_auth_group\` (\`name\`, \`rules\`, \`status\`, \`createtime\`, \`updatetime\`)
+VALUES ('普通成员', 'dashboard,screen,kuerp/goods,kuerp/goods_type,kuerp/unit,kuerp/warehouse,kuerp/customers,kuerp/suppliers,kuerp/goods_stock,kuerp/collection,kuerp/payment', 1, UNIX_TIMESTAMP(), UNIX_TIMESTAMP());
+
+-- admin 账号归入超级管理员组
+INSERT INTO \`kuerp_auth_group_access\` (\`admin_id\`, \`group_id\`)
+SELECT id, 1 FROM \`kuerp_admin\` WHERE username = 'admin';
+`;
+
+// —— 权限节点种子（幂等：按 name 去重插入）——
+sql += `\n-- 权限节点种子\n`;
+const allNodes = [...staticNodes.map(([n, t]) => ({ name: n, title: t })), ...nodes];
+for (const n of allNodes) {
+  sql += `INSERT INTO \`kuerp_auth_rule\` (\`name\`, \`title\`, \`type\`, \`status\`, \`createtime\`, \`updatetime\`)
+SELECT '${esc(n.name)}', '${esc(n.title)}', 'menu', 1, UNIX_TIMESTAMP(), UNIX_TIMESTAMP()
+WHERE NOT EXISTS (SELECT 1 FROM (SELECT id FROM \`kuerp_auth_rule\` WHERE name = '${esc(n.name)}') t);\n`;
+}
+
+// —— 操作级节点种子（kuerp/<表>:<动作>，type=action）——
+// 与菜单级节点分开标注，便于「权限规则」页按类型筛选，也便于以后批量升级动作语义。
+const tableTitle = new Map(nodes.map((n) => [n.name.replace('kuerp/', ''), n.title]));
+sql += `\n-- 操作级权限节点（按钮级权限）\n`;
+let actionCount = 0;
+for (const t of ACTION_TABLES) {
+  const tTitle = tableTitle.get(t) || t;
+  for (const [act, actTitle] of ACTIONS) {
+    const name = `kuerp/${t}:${act}`;
+    const title = `${tTitle}-${actTitle}`;
+    sql += `INSERT INTO \`kuerp_auth_rule\` (\`name\`, \`title\`, \`type\`, \`status\`, \`createtime\`, \`updatetime\`)
+SELECT '${esc(name)}', '${esc(title)}', 'action', 1, UNIX_TIMESTAMP(), UNIX_TIMESTAMP()
+WHERE NOT EXISTS (SELECT 1 FROM (SELECT id FROM \`kuerp_auth_rule\` WHERE name = '${esc(name)}') t);\n`;
+    actionCount++;
+  }
+}
+
+fs.writeFileSync(outPath, sql, 'utf8');
+console.log(`✅ rbac-schema 已生成: ${outPath}`);
+console.log(`   权限节点: ${allNodes.length} 个（表节点 ${nodes.length} + 固定节点 ${staticNodes.length}）`);
+console.log(`   操作级节点: ${actionCount} 个（${ACTION_TABLES.length} 表 × ${ACTIONS.length} 动作）`);

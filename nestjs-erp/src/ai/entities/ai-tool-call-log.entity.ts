@@ -1,1 +1,29 @@
-aW1wb3J0IHsgRW50aXR5LCBDb2x1bW4gfSBmcm9tICd0eXBlb3JtJzsKaW1wb3J0IHsgQmFzZUVudGl0eSB9IGZyb20gJy4uLy4uL2NvbW1vbi9iYXNlLmVudGl0eSc7CgovKioKICog5bel5YW36LCD55So5pel5b+X77yI6JC95bqT77yJ44CC6K6w5b2VIEFnZW50IOavj+asoSBGdW5jdGlvbiBDYWxsaW5nIOeahOW3peWFt+WQjeOAgeWFpeWPguOAgeWHuuWPguOAgeiAl+aXtuOAggogKi8KQEVudGl0eSgnYWlfdG9vbF9jYWxsX2xvZycpCmV4cG9ydCBjbGFzcyBBaVRvb2xDYWxsTG9nIGV4dGVuZHMgQmFzZUVudGl0eSB7CiAgQENvbHVtbih7IHR5cGU6ICdpbnQnLCBkZWZhdWx0OiAwLCBjb21tZW50OiAn5YWz6IGUIEFJIOiwg+eUqOaXpeW/l0lEJyB9KQogIGNhbGxMb2dJZDogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDEwMCwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICflt6XlhbflkI3np7AnIH0pCiAgdG9vbE5hbWU6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICd0ZXh0JywgY29tbWVudDogJ+WFpeWPgihKU09OKScgfSkKICBhcmd1bWVudHM6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICd0ZXh0JywgY29tbWVudDogJ+WHuuWPgicgfSkKICByZXN1bHQ6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICdpbnQnLCBkZWZhdWx0OiAwLCBjb21tZW50OiAn6ICX5pe2KG1zKScgfSkKICBlbGFwc2VkTXM6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICd0aW55aW50JywgZGVmYXVsdDogMSwgY29tbWVudDogJ+eKtuaAgToxPeaIkOWKnywwPeWksei0pScgfSkKICBzdGF0dXM6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICd0ZXh0JywgY29tbWVudDogJ+mUmeivr+S/oeaBrycgfSkKICBlcnJvcjogc3RyaW5nOwp9Cg==
+import { Entity, Column } from 'typeorm';
+import { BaseEntity } from '../../common/base.entity';
+
+/**
+ * 工具调用日志（落库）。记录 Agent 每次 Function Calling 的工具名、入参、出参、耗时。
+ */
+@Entity('ai_tool_call_log')
+export class AiToolCallLog extends BaseEntity {
+  @Column({ type: 'int', default: 0, comment: '关联 AI 调用日志ID' })
+  callLogId: number;
+
+  @Column({ type: 'varchar', length: 100, default: '', comment: '工具名称' })
+  toolName: string;
+
+  @Column({ type: 'text', comment: '入参(JSON)' })
+  arguments: string;
+
+  @Column({ type: 'text', comment: '出参' })
+  result: string;
+
+  @Column({ type: 'int', default: 0, comment: '耗时(ms)' })
+  elapsedMs: number;
+
+  @Column({ type: 'tinyint', default: 1, comment: '状态:1=成功,0=失败' })
+  status: number;
+
+  @Column({ type: 'text', comment: '错误信息' })
+  error: string;
+}

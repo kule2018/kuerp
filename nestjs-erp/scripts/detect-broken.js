@@ -1,1 +1,57 @@
-LyoqCiAqIOajgOa1iyBub2RlX21vZHVsZXMg5Lit6KKr5YaZ5Z2P55qE5YyF77yI5pys546v5aKDIG5wbSBpbnN0YWxsIOiiq+S4reaWreS8muS4ouaWh+S7tu+8ieOAggogKiDmlrnms5XvvJrlr7kgcGFja2FnZS5qc29uIOebtOaOpeS+nei1lumAkOS4qiByZXF1aXJlKCnvvIzmlLbpm4bliqDovb3lpLHotKXmuIXljZXjgIIKICoKICog55So5rOV77yabm9kZSBzY3JpcHRzL2RldGVjdC1icm9rZW4uanMKICog6L6T5Ye677ya5q+P6KGM5LiA5Liq5o2f5Z2P5YyF5ZCN77yI5ZCr54mI5pys5o6i5rWL77yJ77yM5L6bIGZpeC1wa2dzLmpzIOaJuemHj+S/ruWkjeOAggogKi8KY29uc3QgZnMgPSByZXF1aXJlKCdmcycpOwpjb25zdCBwYXRoID0gcmVxdWlyZSgncGF0aCcpOwpjb25zdCBNb2R1bGUgPSByZXF1aXJlKCdtb2R1bGUnKTsKCmNvbnN0IHJvb3QgPSBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAnLi4nKTsKY29uc3QgcGtnID0gSlNPTi5wYXJzZShmcy5yZWFkRmlsZVN5bmMocGF0aC5qb2luKHJvb3QsICdwYWNrYWdlLmpzb24nKSwgJ3V0ZjgnKSk7CmNvbnN0IGRlcHMgPSBPYmplY3Qua2V5cyhwa2cuZGVwZW5kZW5jaWVzIHx8IHt9KTsKCi8vIOWFs+mUruS8oOmAkuS+nei1lu+8iE5lc3QvRXhwcmVzcyDov5DooYzml7bpk77vvIzkuI3lnKggZGVwZW5kZW5jaWVzIOmHjOS9huW/hemhu+WPr+eUqO+8iQpjb25zdCBleHRyYSA9IFsKICAnZXhwcmVzcycsICdxcycsICdzaWRlLWNoYW5uZWwnLCAnb2JqZWN0LWluc3BlY3QnLCAnaWNvbnYtbGl0ZScsICdpdGVyYXJlJywKICAndHNsaWInLCAndXVpZCcsICdyYXctYm9keScsICdieXRlcycsICdib2R5LXBhcnNlcicsICdyYXctYm9keScsCiAgJ3JlYWRhYmxlLXN0cmVhbScsICdibCcsICdidWZmZXInLCAnaWVlZTc1NCcsICdpbmhlcml0cycsICdwcm9jZXNzLW5leHRpY2stYXJncycsCiAgJ3NhZmUtYnVmZmVyJywgJ3N0cmluZ19kZWNvZGVyJywgJ3V0aWwtZGVwcmVjYXRlJywgJ3NldHByb3RvdHlwZW9mJywKICAnc3RhdHVzZXMnLCAnbWltZS10eXBlcycsICdtaW1lLWRiJywgJ2Rlc3Ryb3knLCAnZW5jb2RldXJsJywgJ2VzY2FwZS1odG1sJywKICAnZXRhZycsICdmcmVzaCcsICdodHRwLWVycm9ycycsICdtZXJnZS1kZXNjcmlwdG9ycycsICdtZXRob2RzJywgJ3BhdGgtdG8tcmVnZXhwJywKICAncHJveHktYWRkcicsICdyYW5nZS1wYXJzZXInLCAnc2VuZCcsICdzZXJ2ZS1zdGF0aWMnLCAndHlwZS1pcycsICd2YXJ5JywKICAnY29udGVudC1kaXNwb3NpdGlvbicsICdjb29raWUnLCAnY29va2llLXNpZ25hdHVyZScsICdkZWJ1ZycsICdkZXBkJywKICAnZmluYWxoYW5kbGVyJywgJ2ZvcndhcmRlZCcsICdpcGFkZHIuanMnLCAnbWVkaWEtdHlwZXInLCAnbmVnb3RpYXRvcicsCiAgJ29uLWZpbmlzaGVkJywgJ3BhcnNldXJsJywgJ3FzJywgJ3JvdXRlcicsICd1dGlscy1tZXJnZScsICdhcnJheS1mbGF0dGVuJywKXTsKCmNvbnN0IGFsbCA9IEFycmF5LmZyb20obmV3IFNldChbLi4uZGVwcywgLi4uZXh0cmFdKSk7CmNvbnN0IGJyb2tlbiA9IFtdOwpjb25zdCBvayA9IFtdOwoKZm9yIChjb25zdCBuYW1lIG9mIGFsbCkgewogIHRyeSB7CiAgICAvLyDnu5Xov4cgcmVxdWlyZSDnvJPlrZjvvIznoa7kv53nnJ/lrp7liqDovb0KICAgIGNvbnN0IHJlc29sdmVkID0gcmVxdWlyZS5yZXNvbHZlKG5hbWUsIHsgcGF0aHM6IFtyb290XSB9KTsKICAgIGRlbGV0ZSByZXF1aXJlLmNhY2hlW3Jlc29sdmVkXTsKICAgIHJlcXVpcmUocmVzb2x2ZWQpOwogICAgb2sucHVzaChuYW1lKTsKICB9IGNhdGNoIChlKSB7CiAgICBicm9rZW4ucHVzaChgJHtuYW1lfSAgJHtTdHJpbmcoZS5tZXNzYWdlKS5zcGxpdCgnXG4nKVswXS5zbGljZSgwLCAxMjApfWApOwogIH0KfQoKY29uc29sZS5sb2coYOajgOa1iyAke2FsbC5sZW5ndGh9IOS4quWMhe+8muato+W4uCAke29rLmxlbmd0aH3vvIzmjZ/lnY8gJHticm9rZW4ubGVuZ3RofVxuYCk7CmlmIChicm9rZW4ubGVuZ3RoKSB7CiAgY29uc29sZS5sb2coJz09PSDmjZ/lnY/muIXljZUgPT09Jyk7CiAgYnJva2VuLmZvckVhY2goKGIpID0+IGNvbnNvbGUubG9nKCcgIOKdjCAnICsgYikpOwogIC8vIOi+k+WHuue6r+WMheWQjea4heWNle+8jOS+myBzaGVsbCDmibnph4/kv67lpI0KICBjb25zdCBuYW1lcyA9IGJyb2tlbi5tYXAoKGIpID0+IGIuc3BsaXQoJyAnKVswXSk7CiAgZnMud3JpdGVGaWxlU3luYyhwYXRoLmpvaW4ocm9vdCwgJy5icm9rZW4tcGtncy50eHQnKSwgbmFtZXMuam9pbignXG4nKSArICdcbicpOwogIGNvbnNvbGUubG9nKCdcbuW3suWGmeWFpSAuYnJva2VuLXBrZ3MudHh077yIJyArIG5hbWVzLmxlbmd0aCArICcg5Liq77yJJyk7CiAgcHJvY2Vzcy5leGl0KDIpOwp9CmNvbnNvbGUubG9nKCfinIUg5YWo6YOo5Y+v5Yqg6L29Jyk7CnByb2Nlc3MuZXhpdCgwKTsK
+/**
+ * 检测 node_modules 中被写坏的包（本环境 npm install 被中断会丢文件）。
+ * 方法：对 package.json 直接依赖逐个 require()，收集加载失败清单。
+ *
+ * 用法：node scripts/detect-broken.js
+ * 输出：每行一个损坏包名（含版本探测），供 fix-pkgs.js 批量修复。
+ */
+const fs = require('fs');
+const path = require('path');
+const Module = require('module');
+
+const root = path.resolve(__dirname, '..');
+const pkg = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
+const deps = Object.keys(pkg.dependencies || {});
+
+// 关键传递依赖（Nest/Express 运行时链，不在 dependencies 里但必须可用）
+const extra = [
+  'express', 'qs', 'side-channel', 'object-inspect', 'iconv-lite', 'iterare',
+  'tslib', 'uuid', 'raw-body', 'bytes', 'body-parser', 'raw-body',
+  'readable-stream', 'bl', 'buffer', 'ieee754', 'inherits', 'process-nextick-args',
+  'safe-buffer', 'string_decoder', 'util-deprecate', 'setprototypeof',
+  'statuses', 'mime-types', 'mime-db', 'destroy', 'encodeurl', 'escape-html',
+  'etag', 'fresh', 'http-errors', 'merge-descriptors', 'methods', 'path-to-regexp',
+  'proxy-addr', 'range-parser', 'send', 'serve-static', 'type-is', 'vary',
+  'content-disposition', 'cookie', 'cookie-signature', 'debug', 'depd',
+  'finalhandler', 'forwarded', 'ipaddr.js', 'media-typer', 'negotiator',
+  'on-finished', 'parseurl', 'qs', 'router', 'utils-merge', 'array-flatten',
+];
+
+const all = Array.from(new Set([...deps, ...extra]));
+const broken = [];
+const ok = [];
+
+for (const name of all) {
+  try {
+    // 绕过 require 缓存，确保真实加载
+    const resolved = require.resolve(name, { paths: [root] });
+    delete require.cache[resolved];
+    require(resolved);
+    ok.push(name);
+  } catch (e) {
+    broken.push(`${name}  ${String(e.message).split('\n')[0].slice(0, 120)}`);
+  }
+}
+
+console.log(`检测 ${all.length} 个包：正常 ${ok.length}，损坏 ${broken.length}\n`);
+if (broken.length) {
+  console.log('=== 损坏清单 ===');
+  broken.forEach((b) => console.log('  ❌ ' + b));
+  // 输出纯包名清单，供 shell 批量修复
+  const names = broken.map((b) => b.split(' ')[0]);
+  fs.writeFileSync(path.join(root, '.broken-pkgs.txt'), names.join('\n') + '\n');
+  console.log('\n已写入 .broken-pkgs.txt（' + names.length + ' 个）');
+  process.exit(2);
+}
+console.log('✅ 全部可加载');
+process.exit(0);

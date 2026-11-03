@@ -1,1 +1,309 @@
-PHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InRvZG8tcGFnZSI+CiAgICA8RHNDYXJkPgogICAgICA8IS0tIOetm+mAieWMuu+8muWNleaNruexu+WeiyArIOWIt+aWsCAtLT4KICAgICAgPGRpdiBjbGFzcz0iZmlsdGVycyI+CiAgICAgICAgPERzU2VsZWN0CiAgICAgICAgICB2LW1vZGVsPSJkb2NUYWJsZSIKICAgICAgICAgIDpvcHRpb25zPSJ0eXBlT3B0aW9ucyIKICAgICAgICAgIHBsYWNlaG9sZGVyPSLlhajpg6jljZXmja7nsbvlnosiCiAgICAgICAgICBjbGVhcmFibGUKICAgICAgICAgIGNsYXNzPSJmLXNlbCIKICAgICAgICAvPgogICAgICAgIDxkaXYgY2xhc3M9ImYtYnRucyI+CiAgICAgICAgICA8RHNCdXR0b24gdmFyaWFudD0icHJpbWFyeSIgQGNsaWNrPSJvblNlYXJjaCI+5p+l6K+iPC9Ec0J1dHRvbj4KICAgICAgICAgIDxEc0J1dHRvbiBAY2xpY2s9InJlc2V0Ij7ph43nva48L0RzQnV0dG9uPgogICAgICAgICAgPERzQnV0dG9uIEBjbGljaz0ibG9hZCI+5Yi35pawPC9Ec0J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8c3BhbiBjbGFzcz0iaGludCI+5YWxIHt7IHRvdGFsIH19IOadoeW+heWKnjwvc3Bhbj4KICAgICAgPC9kaXY+CgogICAgICA8RHNUYWJsZSA6Y29sdW1ucz0iY29scyIgOmRhdGE9Imxpc3QiIHJvdy1rZXk9ImlkIiA6bG9hZGluZz0ibG9hZGluZyIgOnN0cmlwZWQ9InRydWUiIGNsYXNzPSJtdCI+CiAgICAgICAgPHRlbXBsYXRlICNfX2RvY19jb2RlPSJ7IHJvdyB9Ij4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJtb25vIj57eyByb3cuZG9jX2NvZGUgfHwgJyMnICsgcm93LmRvY19pZCB9fTwvc3Bhbj4KICAgICAgICA8L3RlbXBsYXRlPgoKICAgICAgICA8dGVtcGxhdGUgI19fZG9jX3RhYmxlPSJ7IHJvdyB9Ij4KICAgICAgICAgIDxEc1RhZyBjb2xvcj0iYnJhbmQiIHNpemU9InNtIj57eyB0YWJsZUxhYmVsKHJvdy5kb2NfdGFibGUpIH19PC9Ec1RhZz4KICAgICAgICA8L3RlbXBsYXRlPgoKICAgICAgICA8dGVtcGxhdGUgI19fbGV2ZWw9Insgcm93IH0iPgogICAgICAgICAgPHNwYW4gY2xhc3M9Imx2Ij7nrKwge3sgcm93LmxldmVsIH19IC8ge3sgcm93LnRvdGFsX2xldmVsIH19IOe6pzwvc3Bhbj4KICAgICAgICA8L3RlbXBsYXRlPgoKICAgICAgICA8dGVtcGxhdGUgI19fdGltZT0ieyByb3cgfSI+CiAgICAgICAgICA8c3BhbiBjbGFzcz0idGltZSI+e3sgZm10VGltZShyb3cuY3JlYXRldGltZSkgfX08L3NwYW4+CiAgICAgICAgPC90ZW1wbGF0ZT4KCiAgICAgICAgPHRlbXBsYXRlICNfX2FjdGlvbj0ieyByb3cgfSI+CiAgICAgICAgICA8RHNCdXR0b24gdmFyaWFudD0idGV4dCIgc2l6ZT0ic20iIEBjbGljaz0ib3BlblBhbmVsKHJvdykiPuivpuaDhTwvRHNCdXR0b24+CiAgICAgICAgICA8RHNCdXR0b24gdmFyaWFudD0idGV4dCIgc2l6ZT0ic20iIEBjbGljaz0ib3BlbkFjdChyb3csICdhcHByb3ZlJykiPumAmui/hzwvRHNCdXR0b24+CiAgICAgICAgICA8RHNCdXR0b24gdmFyaWFudD0idGV4dCIgc2l6ZT0ic20iIEBjbGljaz0ib3BlbkFjdChyb3csICdyZWplY3QnKSI+6amz5ZuePC9Ec0J1dHRvbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L0RzVGFibGU+CgogICAgICA8RHNQYWdpbmF0aW9uCiAgICAgICAgdi1pZj0idG90YWwgPiAwIgogICAgICAgIGNsYXNzPSJtdCIKICAgICAgICA6Y3VycmVudC1wYWdlPSJwYWdlIgogICAgICAgIDpwYWdlLXNpemU9InBhZ2VTaXplIgogICAgICAgIDp0b3RhbD0idG90YWwiCiAgICAgICAgOnBhZ2Utc2l6ZXM9IlsxMCwgMjAsIDUwLCAxMDBdIgogICAgICAgIGxheW91dD0idG90YWwsIHNpemVzLCBwcmV2LCBwYWdlciwgbmV4dCIKICAgICAgICBAdXBkYXRlOmN1cnJlbnQtcGFnZT0ib25QYWdlIgogICAgICAgIEB1cGRhdGU6cGFnZS1zaXplPSJvblNpemUiCiAgICAgIC8+CiAgICA8L0RzQ2FyZD4KCiAgICA8IS0tIOWuoeaJueivpuaDhemdouadv++8iOWkjeeUqOe7hOS7tu+8jOWGhemDqOiHquW4pumAmui/hy/pqbPlm57vvIkgLS0+CiAgICA8QXBwcm92YWxQYW5lbAogICAgICB2LW1vZGVsPSJwYW5lbFZpc2libGUiCiAgICAgIDpkb2MtdGFibGU9ImN1cnJlbnQuZG9jX3RhYmxlIgogICAgICA6ZG9jLWlkPSJjdXJyZW50LmRvY19pZCIKICAgICAgOmRvYy1jb2RlPSJjdXJyZW50LmRvY19jb2RlIgogICAgICBAY2hhbmdlZD0ibG9hZCIKICAgIC8+CgogICAgPCEtLSDlv6vmjbfpgJrov4cv6amz5Zue5by556qX77ya5Y+q5aGr5oSP6KeB77yM5YeP5bCR5LiA5qyh6Lez6L2sIC0tPgogICAgPERzTW9kYWwgdi1tb2RlbD0iYWN0VmlzaWJsZSIgOnRpdGxlPSJhY3RLaW5kID09PSAnYXBwcm92ZScgPyAn5a6h5om56YCa6L+HJyA6ICflrqHmibnpqbPlm54nIiA6d2lkdGg9IjQ2MCI+CiAgICAgIDxwIGNsYXNzPSJhY3QtdGlwIj4KICAgICAgICDljZXmja4gPGI+e3sgY3VycmVudC5kb2NfY29kZSB8fCAnIycgKyBjdXJyZW50LmRvY19pZCB9fTwvYj4KICAgICAgICDvvIjnrKwge3sgY3VycmVudC5sZXZlbCB9fS97eyBjdXJyZW50LnRvdGFsX2xldmVsIH19IOe6p++8iQogICAgICA8L3A+CiAgICAgIDxEc0lucHV0CiAgICAgICAgdi1tb2RlbD0icmVtYXJrIgogICAgICAgIHR5cGU9InRleHRhcmVhIgogICAgICAgIDpyb3dzPSIzIgogICAgICAgIDpwbGFjZWhvbGRlcj0iYWN0S2luZCA9PT0gJ3JlamVjdCcgPyAn6amz5Zue5oSP6KeB77yI5b+F5aGr77yJJyA6ICflrqHmibnmhI/op4HvvIjlj6/pgInvvIknIgogICAgICAvPgogICAgICA8dGVtcGxhdGUgI2Zvb3Rlcj4KICAgICAgICA8RHNCdXR0b24gQGNsaWNrPSJhY3RWaXNpYmxlID0gZmFsc2UiPuWPlua2iDwvRHNCdXR0b24+CiAgICAgICAgPERzQnV0dG9uCiAgICAgICAgICA6dmFyaWFudD0iYWN0S2luZCA9PT0gJ3JlamVjdCcgPyAnZGFuZ2VyJyA6ICdwcmltYXJ5JyIKICAgICAgICAgIDpsb2FkaW5nPSJhY3RpbmciCiAgICAgICAgICBAY2xpY2s9InN1Ym1pdEFjdCIKICAgICAgICA+e3sgYWN0S2luZCA9PT0gJ2FwcHJvdmUnID8gJ+ehruiupOmAmui/hycgOiAn56Gu6K6k6amz5ZueJyB9fTwvRHNCdXR0b24+CiAgICAgIDwvdGVtcGxhdGU+CiAgICA8L0RzTW9kYWw+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c2NyaXB0IHNldHVwIGxhbmc9InRzIj4KLyoqCiAqIOWuoeaJueW+heWKnumhteOAggogKgogKiDjgJDnlKjpgJTjgJEKICog5rGH5oC744CM5b2T5YmN55m75b2V55So5oi36KeS6Imy6IyD5Zu05YaF44CN5omA5pyJ5aSE5LqO5b6F5a6h54q25oCB55qE5Y2V5o2u5a6h5om56K6w5b2V77yMCiAqIOaUr+aMgeebtOaOpemAmui/hy/pqbPlm57vvIzmiJbmiZPlvIDlrqHmibnor6bmg4XnnIvlrozmlbTmtYHovazpk77jgIIKICoKICog44CQ5LiO5raI5oGv5Lit5b+D55qE6IGU5Yqo44CRCiAqIOWuoeaJuea1geavj+asoeaOqOi/m+mDveS8mue7meS4i+S4gOe6p+WuoeaJueS6uuWGmeS4gOadoSB0eXBlPWFwcHJvdmFsIOeahOa2iOaBr++8jAogKiDmtojmga/ph4znmoQgbGluayDmjIflkJHmnKzpobXvvIgvYXBwcm92YWwtdG9kb++8ie+8jOeCueWHu+WNs+WPr+WIsOi+vuOAggogKgogKiDjgJDkuLrku4DkuYjkuI3lnKjliY3nq6/mjInop5LoibLov4fmu6TjgJEKICog6KeS6Imy6ZuG5ZCI77yIa3VlcnBfYXV0aF9ncm91cF9hY2Nlc3PvvInku6XlkI7nq6/kuLrlh4bvvIzliY3nq6/kuI3nn6XpgZPlvZPliY3nlKjmiLflsZ7kuo7lk6rkupvnu4TvvJsKICog5ZCO56uvIC9rdWVycC9hcHByb3ZhbC90b2RvIOW3suaMiSByb2xlX2lkIOi/h+a7pO+8jOWJjeerr+WPqui0n+i0o+WxleekuuOAggogKi8KaW1wb3J0IHsgb25Nb3VudGVkLCByZWFjdGl2ZSwgcmVmIH0gZnJvbSAndnVlJzsKaW1wb3J0IEFwcHJvdmFsUGFuZWwgZnJvbSAnLi4vLi4vY29tcG9uZW50cy9iaXovQXBwcm92YWxQYW5lbC52dWUnOwppbXBvcnQgeyBtZXNzYWdlIH0gZnJvbSAnLi4vLi4vdXRpbHMvdWknOwppbXBvcnQgcmVxdWVzdCBmcm9tICcuLi8uLi91dGlscy9yZXF1ZXN0JzsKCi8qKiDkuIDmnaHlvoXlip7orrDlvZUgKi8KaW50ZXJmYWNlIFRvZG9Sb3cgewogIGlkOiBudW1iZXI7CiAgZG9jX3RhYmxlOiBzdHJpbmc7CiAgZG9jX2lkOiBudW1iZXI7CiAgZG9jX2NvZGU6IHN0cmluZzsKICBsZXZlbDogbnVtYmVyOwogIHRvdGFsX2xldmVsOiBudW1iZXI7CiAgcmVzdWx0OiBzdHJpbmc7CiAgY3JlYXRldGltZTogbnVtYmVyOwogIHVwZGF0ZXRpbWU6IG51bWJlcjsKfQoKLyoqCiAqIOWNleaNruihqOWQjSAtPiDkuK3mloflkI3jgIIKICog5Y+q5YiX5bey6YWN572u5a6h5om55rWB55qE5bi46KeB5Y2V5o2u77yb5pyq5YiX5Ye655qE55u05o6l5pi+56S65Y6f5aeL6KGo5ZCN77yI6YG/5YWN556O54yc5Lit5paH5ZCN77yJ44CCCiAqLwpjb25zdCBUQUJMRV9MQUJFTDogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICBnb29kc19wdXJjaGFzZV9vcmRlcjogJ+i0rei0p+iuouWNlScsCiAgZ29vZHNfc2FsZXNfb3JkZXI6ICfplIDotKforqLljZUnLAogIGdvb2RzX3B1cmNoYXNlOiAn6LSt6LSn5Y2VJywKICBnb29kc19zYWxlczogJ+mUgOi0p+WNlScsCiAgZ29vZHNfZXhjaGFuZ2U6ICfotK3otKfpgIDotKfljZUnLAogIGdvb2RzX3NhbGVzX2V4Y2hhbmdlOiAn6ZSA6LSn6YCA6LSn5Y2VJywKICBhbGxvY2F0aW9uOiAn6LCD5ouo5Y2VJywKICBhc3NlbWJsZTogJ+e7hOijheWNlScsCiAgc3BsaXQ6ICfmi4bljbjljZUnLAogIGFkanVzdG1lbnQ6ICfmiJDmnKzosIPmlbTljZUnLAogIGludmVudG9yeTogJ+ebmOeCueWNlScsCiAgd2FyZWhvdXNpbmc6ICflhbbku5blhaXlupPljZUnLAogIHdhcmVob3VzZTogJ+WFtuS7luWHuuW6k+WNlScsCiAgY29sbGVjdGlvbjogJ+aUtuasvuWNlScsCiAgcGF5bWVudDogJ+S7mOasvuWNlScsCiAgaW5jb21lOiAn5YW25LuW5pS25YWl5Y2VJywKICBleHBlbmRpdHVyZTogJ+WFtuS7luaUr+WHuuWNlScsCn07CgovKiog5Y2V5o2u57G75Z6L5LiL5ouJ6YCJ6aG5ICovCmNvbnN0IHR5cGVPcHRpb25zID0gT2JqZWN0LmVudHJpZXMoVEFCTEVfTEFCRUwpLm1hcCgoW3ZhbHVlLCBsYWJlbF0pID0+ICh7IHZhbHVlLCBsYWJlbCB9KSk7CgovKiog6KGo5qC85YiXICovCmNvbnN0IGNvbHMgPSBbCiAgeyBrZXk6ICdfX2RvY19jb2RlJywgdGl0bGU6ICfljZXmja7nvJblj7cnLCB3aWR0aDogJzE2MHB4JyB9LAogIHsga2V5OiAnX19kb2NfdGFibGUnLCB0aXRsZTogJ+WNleaNruexu+WeiycsIHdpZHRoOiAnMTIwcHgnIH0sCiAgeyBrZXk6ICdfX2xldmVsJywgdGl0bGU6ICflrqHmibnnuqfmrKEnLCB3aWR0aDogJzEyMHB4JyB9LAogIHsga2V5OiAnX190aW1lJywgdGl0bGU6ICfmj5DkuqTml7bpl7QnLCB3aWR0aDogJzE2MHB4JyB9LAogIHsga2V5OiAnX19hY3Rpb24nLCB0aXRsZTogJ+aTjeS9nCcsIHdpZHRoOiAnMTkwcHgnLCBhbGlnbjogJ3JpZ2h0JyBhcyBjb25zdCB9LApdOwoKLyoqIOWIl+ihqOaVsOaNriAqLwpjb25zdCBsaXN0ID0gcmVmPFRvZG9Sb3dbXT4oW10pOwovKiog5oC75pWwICovCmNvbnN0IHRvdGFsID0gcmVmKDApOwovKiog5Yqg6L295LitICovCmNvbnN0IGxvYWRpbmcgPSByZWYoZmFsc2UpOwovKiog5YiG6aG1ICovCmNvbnN0IHBhZ2UgPSByZWYoMSk7CmNvbnN0IHBhZ2VTaXplID0gcmVmKDIwKTsKLyoqIOWNleaNruexu+Wei+etm+mAiSAqLwpjb25zdCBkb2NUYWJsZSA9IHJlZignJyk7CgovKiog5b2T5YmN5pON5L2c55qE6K6w5b2V77yI6K+m5oOF6Z2i5p2/5LiO5b+r5o235by556qX5YWx55So77yJICovCmNvbnN0IGN1cnJlbnQgPSByZWFjdGl2ZTxQYXJ0aWFsPFRvZG9Sb3c+Pih7fSk7Ci8qKiDor6bmg4XpnaLmnb/lj6/op4EgKi8KY29uc3QgcGFuZWxWaXNpYmxlID0gcmVmKGZhbHNlKTsKLyoqIOW/q+aNt+aTjeS9nOW8ueeql+WPr+ingSAqLwpjb25zdCBhY3RWaXNpYmxlID0gcmVmKGZhbHNlKTsKLyoqIOW/q+aNt+aTjeS9nOexu+WeiyAqLwpjb25zdCBhY3RLaW5kID0gcmVmPCdhcHByb3ZlJyB8ICdyZWplY3QnPignYXBwcm92ZScpOwovKiog5a6h5om55oSP6KeBICovCmNvbnN0IHJlbWFyayA9IHJlZignJyk7Ci8qKiDmj5DkuqTkuK0gKi8KY29uc3QgYWN0aW5nID0gcmVmKGZhbHNlKTsKCi8qKiDooajlkI3ovazkuK3mlocgKi8KZnVuY3Rpb24gdGFibGVMYWJlbCh0OiBzdHJpbmcpOiBzdHJpbmcgewogIHJldHVybiBUQUJMRV9MQUJFTFt0XSB8fCB0Owp9CgovKioKICog56eS57qn5pe26Ze05oiz5qC85byP5YyW44CCCiAqIEBwYXJhbSB0cyDnp5Lnuqfml7bpl7TmiLMKICogQHJldHVybnMgeXl5eS1NTS1kZCBISDptbQogKi8KZnVuY3Rpb24gZm10VGltZSh0czogbnVtYmVyKTogc3RyaW5nIHsKICBpZiAoIXRzKSByZXR1cm4gJ+KAlCc7CiAgY29uc3QgZCA9IG5ldyBEYXRlKE51bWJlcih0cykgKiAxMDAwKTsKICBjb25zdCBwID0gKG46IG51bWJlcik6IHN0cmluZyA9PiBTdHJpbmcobikucGFkU3RhcnQoMiwgJzAnKTsKICByZXR1cm4gYCR7ZC5nZXRGdWxsWWVhcigpfS0ke3AoZC5nZXRNb250aCgpICsgMSl9LSR7cChkLmdldERhdGUoKSl9ICR7cChkLmdldEhvdXJzKCkpfToke3AoZC5nZXRNaW51dGVzKCkpfWA7Cn0KCi8qKiDmi4nlj5blvoXlip7liJfooaggKi8KYXN5bmMgZnVuY3Rpb24gbG9hZCgpOiBQcm9taXNlPHZvaWQ+IHsKICBsb2FkaW5nLnZhbHVlID0gdHJ1ZTsKICB0cnkgewogICAgY29uc3QgcGFyYW1zOiBSZWNvcmQ8c3RyaW5nLCBhbnk+ID0geyBwYWdlOiBwYWdlLnZhbHVlLCBsaW1pdDogcGFnZVNpemUudmFsdWUgfTsKICAgIGlmIChkb2NUYWJsZS52YWx1ZSkgcGFyYW1zLmRvY190YWJsZSA9IGRvY1RhYmxlLnZhbHVlOwogICAgY29uc3QgciA9IGF3YWl0IHJlcXVlc3QuZ2V0KCcva3VlcnAvYXBwcm92YWwvdG9kbycsIHsgcGFyYW1zIH0pOwogICAgbGlzdC52YWx1ZSA9IEFycmF5LmlzQXJyYXkocj8ubGlzdCkgPyByLmxpc3QgOiBbXTsKICAgIHRvdGFsLnZhbHVlID0gTnVtYmVyKHI/LmNvdW50KSB8fCAwOwogIH0gY2F0Y2ggewogICAgbGlzdC52YWx1ZSA9IFtdOwogICAgdG90YWwudmFsdWUgPSAwOwogIH0gZmluYWxseSB7CiAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9CgovKiog5p+l6K+i77yI5Zue5Yiw56ys5LiA6aG177yJICovCmZ1bmN0aW9uIG9uU2VhcmNoKCk6IHZvaWQgewogIHBhZ2UudmFsdWUgPSAxOwogIGxvYWQoKTsKfQoKLyoqIOmHjee9ruetm+mAiSAqLwpmdW5jdGlvbiByZXNldCgpOiB2b2lkIHsKICBkb2NUYWJsZS52YWx1ZSA9ICcnOwogIHBhZ2UudmFsdWUgPSAxOwogIGxvYWQoKTsKfQoKLyoqIOe/u+mhtSAqLwpmdW5jdGlvbiBvblBhZ2UocDogbnVtYmVyKTogdm9pZCB7CiAgcGFnZS52YWx1ZSA9IHA7CiAgbG9hZCgpOwp9CgovKiog5pS55q+P6aG15p2h5pWwICovCmZ1bmN0aW9uIG9uU2l6ZShzOiBudW1iZXIpOiB2b2lkIHsKICBwYWdlU2l6ZS52YWx1ZSA9IHM7CiAgcGFnZS52YWx1ZSA9IDE7CiAgbG9hZCgpOwp9CgovKioKICog5omT5byA5a6h5om56K+m5oOF6Z2i5p2/44CCCiAqIEBwYXJhbSByb3cg6KGM5pWw5o2uCiAqLwpmdW5jdGlvbiBvcGVuUGFuZWwocm93OiBUb2RvUm93KTogdm9pZCB7CiAgT2JqZWN0LmFzc2lnbihjdXJyZW50LCByb3cpOwogIHBhbmVsVmlzaWJsZS52YWx1ZSA9IHRydWU7Cn0KCi8qKgogKiDmiZPlvIDlv6vmjbfmk43kvZzlvLnnqpfjgIIKICogQHBhcmFtIHJvdyDooYzmlbDmja4KICogQHBhcmFtIGtpbmQgYXBwcm92ZT3pgJrov4cgcmVqZWN0Pemps+WbngogKi8KZnVuY3Rpb24gb3BlbkFjdChyb3c6IFRvZG9Sb3csIGtpbmQ6ICdhcHByb3ZlJyB8ICdyZWplY3QnKTogdm9pZCB7CiAgT2JqZWN0LmFzc2lnbihjdXJyZW50LCByb3cpOwogIGFjdEtpbmQudmFsdWUgPSBraW5kOwogIHJlbWFyay52YWx1ZSA9ICcnOwogIGFjdFZpc2libGUudmFsdWUgPSB0cnVlOwp9CgovKiog5o+Q5Lqk5b+r5o235pON5L2cICovCmFzeW5jIGZ1bmN0aW9uIHN1Ym1pdEFjdCgpOiBQcm9taXNlPHZvaWQ+IHsKICBpZiAoYWN0aW5nLnZhbHVlKSByZXR1cm47CiAgaWYgKGFjdEtpbmQudmFsdWUgPT09ICdyZWplY3QnICYmICFyZW1hcmsudmFsdWUudHJpbSgpKSB7CiAgICBtZXNzYWdlLndhcm5pbmcoJ+mps+Wbnuivt+Whq+WGmeaEj+inge+8jOS+v+S6juaPkOS6pOS6uuS/ruaUuScpOwogICAgcmV0dXJuOwogIH0KICBhY3RpbmcudmFsdWUgPSB0cnVlOwogIHRyeSB7CiAgICBjb25zdCByID0gYXdhaXQgcmVxdWVzdC5wb3N0KGAva3VlcnAvYXBwcm92YWwvJHthY3RLaW5kLnZhbHVlfWAsIHsKICAgICAgZG9jX3RhYmxlOiBjdXJyZW50LmRvY190YWJsZSwKICAgICAgZG9jX2lkOiBjdXJyZW50LmRvY19pZCwKICAgICAgcmVtYXJrOiByZW1hcmsudmFsdWUudHJpbSgpLAogICAgfSk7CiAgICBpZiAoYWN0S2luZC52YWx1ZSA9PT0gJ2FwcHJvdmUnKSB7CiAgICAgIG1lc3NhZ2Uuc3VjY2VzcyhyPy5wb3N0ZWQgPyAn5a6h5om56YCa6L+H77yM5Y2V5o2u5bey5a6h5qC45bm26L+H6LSmJyA6ICflrqHmibnpgJrov4fvvIzlt7LovazkuIvkuIDnuqcnKTsKICAgIH0gZWxzZSB7CiAgICAgIG1lc3NhZ2Uuc3VjY2Vzcygn5bey6amz5ZueJyk7CiAgICB9CiAgICBhY3RWaXNpYmxlLnZhbHVlID0gZmFsc2U7CiAgICBhd2FpdCBsb2FkKCk7CiAgfSBjYXRjaCB7CiAgICAvLyDplJnor6/mj5DnpLrnlLEgcmVxdWVzdCDmi6bmiKrlmajnu5/kuIDlvLnlh7oKICB9IGZpbmFsbHkgewogICAgYWN0aW5nLnZhbHVlID0gZmFsc2U7CiAgfQp9Cgpvbk1vdW50ZWQobG9hZCk7Cjwvc2NyaXB0PgoKPHN0eWxlIHNjb3BlZD4KLnRvZG8tcGFnZSB7IGRpc3BsYXk6IGZsZXg7IGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47IGdhcDogMTJweDsgfQouZmlsdGVycyB7IGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGdhcDogMTBweDsgZmxleC13cmFwOiB3cmFwOyB9Ci5mLXNlbCB7IHdpZHRoOiAyMDBweDsgfQouZi1idG5zIHsgZGlzcGxheTogZmxleDsgZ2FwOiA4cHg7IH0KLmhpbnQgeyBmb250LXNpemU6IHZhcigtLWRzLWZvbnQteHMpOyBjb2xvcjogdmFyKC0tZHMtdGV4dC0zKTsgbWFyZ2luLWxlZnQ6IGF1dG87IH0KLm1vbm8geyBmb250LXZhcmlhbnQtbnVtZXJpYzogdGFidWxhci1udW1zOyB9Ci5sdiB7IGNvbG9yOiB2YXIoLS1kcy10ZXh0LTIpOyB9Ci50aW1lIHsgY29sb3I6IHZhcigtLWRzLXRleHQtMyk7IGZvbnQtdmFyaWFudC1udW1lcmljOiB0YWJ1bGFyLW51bXM7IH0KLmFjdC10aXAgeyBtYXJnaW46IDAgMCAxMnB4OyBmb250LXNpemU6IHZhcigtLWRzLWZvbnQtc20pOyBjb2xvcjogdmFyKC0tZHMtdGV4dC0yKTsgfQoubXQgeyBtYXJnaW4tdG9wOiAxMnB4OyB9Cjwvc3R5bGU+Cg==
+<template>
+  <div class="todo-page">
+    <DsCard>
+      <!-- 筛选区：单据类型 + 刷新 -->
+      <div class="filters">
+        <DsSelect
+          v-model="docTable"
+          :options="typeOptions"
+          placeholder="全部单据类型"
+          clearable
+          class="f-sel"
+        />
+        <div class="f-btns">
+          <DsButton variant="primary" @click="onSearch">查询</DsButton>
+          <DsButton @click="reset">重置</DsButton>
+          <DsButton @click="load">刷新</DsButton>
+        </div>
+        <span class="hint">共 {{ total }} 条待办</span>
+      </div>
+
+      <DsTable :columns="cols" :data="list" row-key="id" :loading="loading" :striped="true" class="mt">
+        <template #__doc_code="{ row }">
+          <span class="mono">{{ row.doc_code || '#' + row.doc_id }}</span>
+        </template>
+
+        <template #__doc_table="{ row }">
+          <DsTag color="brand" size="sm">{{ tableLabel(row.doc_table) }}</DsTag>
+        </template>
+
+        <template #__level="{ row }">
+          <span class="lv">第 {{ row.level }} / {{ row.total_level }} 级</span>
+        </template>
+
+        <template #__time="{ row }">
+          <span class="time">{{ fmtTime(row.createtime) }}</span>
+        </template>
+
+        <template #__action="{ row }">
+          <DsButton variant="text" size="sm" @click="openPanel(row)">详情</DsButton>
+          <DsButton variant="text" size="sm" @click="openAct(row, 'approve')">通过</DsButton>
+          <DsButton variant="text" size="sm" @click="openAct(row, 'reject')">驳回</DsButton>
+        </template>
+      </DsTable>
+
+      <DsPagination
+        v-if="total > 0"
+        class="mt"
+        :current-page="page"
+        :page-size="pageSize"
+        :total="total"
+        :page-sizes="[10, 20, 50, 100]"
+        layout="total, sizes, prev, pager, next"
+        @update:current-page="onPage"
+        @update:page-size="onSize"
+      />
+    </DsCard>
+
+    <!-- 审批详情面板（复用组件，内部自带通过/驳回） -->
+    <ApprovalPanel
+      v-model="panelVisible"
+      :doc-table="current.doc_table"
+      :doc-id="current.doc_id"
+      :doc-code="current.doc_code"
+      @changed="load"
+    />
+
+    <!-- 快捷通过/驳回弹窗：只填意见，减少一次跳转 -->
+    <DsModal v-model="actVisible" :title="actKind === 'approve' ? '审批通过' : '审批驳回'" :width="460">
+      <p class="act-tip">
+        单据 <b>{{ current.doc_code || '#' + current.doc_id }}</b>
+        （第 {{ current.level }}/{{ current.total_level }} 级）
+      </p>
+      <DsInput
+        v-model="remark"
+        type="textarea"
+        :rows="3"
+        :placeholder="actKind === 'reject' ? '驳回意见（必填）' : '审批意见（可选）'"
+      />
+      <template #footer>
+        <DsButton @click="actVisible = false">取消</DsButton>
+        <DsButton
+          :variant="actKind === 'reject' ? 'danger' : 'primary'"
+          :loading="acting"
+          @click="submitAct"
+        >{{ actKind === 'approve' ? '确认通过' : '确认驳回' }}</DsButton>
+      </template>
+    </DsModal>
+  </div>
+</template>
+
+<script setup lang="ts">
+/**
+ * 审批待办页。
+ *
+ * 【用途】
+ * 汇总「当前登录用户角色范围内」所有处于待审状态的单据审批记录，
+ * 支持直接通过/驳回，或打开审批详情看完整流转链。
+ *
+ * 【与消息中心的联动】
+ * 审批流每次推进都会给下一级审批人写一条 type=approval 的消息，
+ * 消息里的 link 指向本页（/approval-todo），点击即可到达。
+ *
+ * 【为什么不在前端按角色过滤】
+ * 角色集合（kuerp_auth_group_access）以后端为准，前端不知道当前用户属于哪些组；
+ * 后端 /kuerp/approval/todo 已按 role_id 过滤，前端只负责展示。
+ */
+import { onMounted, reactive, ref } from 'vue';
+import ApprovalPanel from '../../components/biz/ApprovalPanel.vue';
+import { message } from '../../utils/ui';
+import request from '../../utils/request';
+
+/** 一条待办记录 */
+interface TodoRow {
+  id: number;
+  doc_table: string;
+  doc_id: number;
+  doc_code: string;
+  level: number;
+  total_level: number;
+  result: string;
+  createtime: number;
+  updatetime: number;
+}
+
+/**
+ * 单据表名 -> 中文名。
+ * 只列已配置审批流的常见单据；未列出的直接显示原始表名（避免瞎猜中文名）。
+ */
+const TABLE_LABEL: Record<string, string> = {
+  goods_purchase_order: '购货订单',
+  goods_sales_order: '销货订单',
+  goods_purchase: '购货单',
+  goods_sales: '销货单',
+  goods_exchange: '购货退货单',
+  goods_sales_exchange: '销货退货单',
+  allocation: '调拨单',
+  assemble: '组装单',
+  split: '拆卸单',
+  adjustment: '成本调整单',
+  inventory: '盘点单',
+  warehousing: '其他入库单',
+  warehouse: '其他出库单',
+  collection: '收款单',
+  payment: '付款单',
+  income: '其他收入单',
+  expenditure: '其他支出单',
+};
+
+/** 单据类型下拉选项 */
+const typeOptions = Object.entries(TABLE_LABEL).map(([value, label]) => ({ value, label }));
+
+/** 表格列 */
+const cols = [
+  { key: '__doc_code', title: '单据编号', width: '160px' },
+  { key: '__doc_table', title: '单据类型', width: '120px' },
+  { key: '__level', title: '审批级次', width: '120px' },
+  { key: '__time', title: '提交时间', width: '160px' },
+  { key: '__action', title: '操作', width: '190px', align: 'right' as const },
+];
+
+/** 列表数据 */
+const list = ref<TodoRow[]>([]);
+/** 总数 */
+const total = ref(0);
+/** 加载中 */
+const loading = ref(false);
+/** 分页 */
+const page = ref(1);
+const pageSize = ref(20);
+/** 单据类型筛选 */
+const docTable = ref('');
+
+/** 当前操作的记录（详情面板与快捷弹窗共用） */
+const current = reactive<Partial<TodoRow>>({});
+/** 详情面板可见 */
+const panelVisible = ref(false);
+/** 快捷操作弹窗可见 */
+const actVisible = ref(false);
+/** 快捷操作类型 */
+const actKind = ref<'approve' | 'reject'>('approve');
+/** 审批意见 */
+const remark = ref('');
+/** 提交中 */
+const acting = ref(false);
+
+/** 表名转中文 */
+function tableLabel(t: string): string {
+  return TABLE_LABEL[t] || t;
+}
+
+/**
+ * 秒级时间戳格式化。
+ * @param ts 秒级时间戳
+ * @returns yyyy-MM-dd HH:mm
+ */
+function fmtTime(ts: number): string {
+  if (!ts) return '—';
+  const d = new Date(Number(ts) * 1000);
+  const p = (n: number): string => String(n).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+}
+
+/** 拉取待办列表 */
+async function load(): Promise<void> {
+  loading.value = true;
+  try {
+    const params: Record<string, any> = { page: page.value, limit: pageSize.value };
+    if (docTable.value) params.doc_table = docTable.value;
+    const r = await request.get('/kuerp/approval/todo', { params });
+    list.value = Array.isArray(r?.list) ? r.list : [];
+    total.value = Number(r?.count) || 0;
+  } catch {
+    list.value = [];
+    total.value = 0;
+  } finally {
+    loading.value = false;
+  }
+}
+
+/** 查询（回到第一页） */
+function onSearch(): void {
+  page.value = 1;
+  load();
+}
+
+/** 重置筛选 */
+function reset(): void {
+  docTable.value = '';
+  page.value = 1;
+  load();
+}
+
+/** 翻页 */
+function onPage(p: number): void {
+  page.value = p;
+  load();
+}
+
+/** 改每页条数 */
+function onSize(s: number): void {
+  pageSize.value = s;
+  page.value = 1;
+  load();
+}
+
+/**
+ * 打开审批详情面板。
+ * @param row 行数据
+ */
+function openPanel(row: TodoRow): void {
+  Object.assign(current, row);
+  panelVisible.value = true;
+}
+
+/**
+ * 打开快捷操作弹窗。
+ * @param row 行数据
+ * @param kind approve=通过 reject=驳回
+ */
+function openAct(row: TodoRow, kind: 'approve' | 'reject'): void {
+  Object.assign(current, row);
+  actKind.value = kind;
+  remark.value = '';
+  actVisible.value = true;
+}
+
+/** 提交快捷操作 */
+async function submitAct(): Promise<void> {
+  if (acting.value) return;
+  if (actKind.value === 'reject' && !remark.value.trim()) {
+    message.warning('驳回请填写意见，便于提交人修改');
+    return;
+  }
+  acting.value = true;
+  try {
+    const r = await request.post(`/kuerp/approval/${actKind.value}`, {
+      doc_table: current.doc_table,
+      doc_id: current.doc_id,
+      remark: remark.value.trim(),
+    });
+    if (actKind.value === 'approve') {
+      message.success(r?.posted ? '审批通过，单据已审核并过账' : '审批通过，已转下一级');
+    } else {
+      message.success('已驳回');
+    }
+    actVisible.value = false;
+    await load();
+  } catch {
+    // 错误提示由 request 拦截器统一弹出
+  } finally {
+    acting.value = false;
+  }
+}
+
+onMounted(load);
+</script>
+
+<style scoped>
+.todo-page { display: flex; flex-direction: column; gap: 12px; }
+.filters { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.f-sel { width: 200px; }
+.f-btns { display: flex; gap: 8px; }
+.hint { font-size: var(--ds-font-xs); color: var(--ds-text-3); margin-left: auto; }
+.mono { font-variant-numeric: tabular-nums; }
+.lv { color: var(--ds-text-2); }
+.time { color: var(--ds-text-3); font-variant-numeric: tabular-nums; }
+.act-tip { margin: 0 0 12px; font-size: var(--ds-font-sm); color: var(--ds-text-2); }
+.mt { margin-top: 12px; }
+</style>

@@ -1,1 +1,150 @@
-aW1wb3J0IHsgRW50aXR5LCBDb2x1bW4gfSBmcm9tICd0eXBlb3JtJzsKaW1wb3J0IHsgQmFzZUVudGl0eSB9IGZyb20gJy4uLy4uLy4uL2NvbW1vbi9iYXNlLmVudGl0eSc7CmltcG9ydCB7IEJpZ0ludFRyYW5zZm9ybWVyIH0gZnJvbSAnLi4vLi4vLi4vY29tbW9uL2JpZ2ludC50cmFuc2Zvcm1lcic7CgovKioKICog5ZWG5ZOB6KGo77yIMToxIOi/mOWOnyBrdWVycF9nb29kcyDnu5PmnoTvvIkKICovCkBFbnRpdHkoJ2t1ZXJwX2dvb2RzJykKZXhwb3J0IGNsYXNzIEdvb2RzIGV4dGVuZHMgQmFzZUVudGl0eSB7CiAgQENvbHVtbih7IHR5cGU6ICdpbnQnLCBkZWZhdWx0OiAwLCBjb21tZW50OiAn566h55CG5ZGYSUQnIH0pCiAgYWRtaW5faWQ6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiAzMCwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICfllYblk4HnvJblj7cnIH0pCiAgZ29vZHNfY29kZTogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDI1NSwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICfllYblk4HlkI3np7AnIH0pCiAgZ29vZHNfbmFtZTogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDUwLCBkZWZhdWx0OiAnJywgY29tbWVudDogJ+WVhuWTgeadoeeggScgfSkKICBnb29kc19iYXJjb2RlOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogNTAsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn6KeE5qC85Z6L5Y+3JyB9KQogIGdvb2RzX3NwZWNpZmljYXRpb25faWQ6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICdpbnQnLCBkZWZhdWx0OiAwLCBjb21tZW50OiAn5ZWG5ZOB57G75YirJyB9KQogIGdvb2RzX3R5cGVfaWQ6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICdpbnQnLCBkZWZhdWx0OiAwLCBjb21tZW50OiAn6aaW6YCJ5LuT5bqTJyB9KQogIG1hbmFnZXJfd2FyZWhvdXNlX2lkOiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAnaW50JywgZGVmYXVsdDogMCwgY29tbWVudDogJ+iuoemHj+WNleS9jScgfSkKICB1bml0X2lkOiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogOCwgZGVmYXVsdDogJzInLCBjb21tZW50OiAn5aSa6K6h6YeP5Y2V5L2NOjE95pivLDI95ZCmJyB9KQogIG1vcmVfdW5pdDogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ2ludCcsIG51bGxhYmxlOiB0cnVlLCBjb21tZW50OiAn5aSa5Y2V5L2NSUQnIH0pCiAgbW9yZV91bml0X2lkOiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAnZG91YmxlJywgcHJlY2lzaW9uOiAxNSwgc2NhbGU6IDQsIGRlZmF1bHQ6IDAsIGNvbW1lbnQ6ICfpm7bllK7ku7cnIH0pCiAgbWFya2V0X3NlbGxfcHJpY2U6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICdkb3VibGUnLCBwcmVjaXNpb246IDE1LCBzY2FsZTogNCwgZGVmYXVsdDogMCwgY29tbWVudDogJ+aJueWPkeS7tycgfSkKICB3aG9sZXNhbGVfcHJpY2U6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICdkb3VibGUnLCBwcmVjaXNpb246IDE1LCBzY2FsZTogNCwgZGVmYXVsdDogMCwgY29tbWVudDogJ3ZpcOS8muWRmOS7tycgfSkKICB2aXBfcHJpY2U6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICdkb3VibGUnLCBwcmVjaXNpb246IDE1LCBzY2FsZTogNCwgZGVmYXVsdDogMCwgY29tbWVudDogJ+aKmOaJo+eOhzEnIH0pCiAgZGlzY291bnQ6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICdkb3VibGUnLCBwcmVjaXNpb246IDE1LCBzY2FsZTogNCwgZGVmYXVsdDogMCwgY29tbWVudDogJ+aKmOaJo+eOhzInIH0pCiAgZGlzY291bnQyOiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAnZG91YmxlJywgcHJlY2lzaW9uOiAxNSwgc2NhbGU6IDQsIGRlZmF1bHQ6IDAsIGNvbW1lbnQ6ICfpooTorqHph4fotK3ku7cnIH0pCiAgcHVyY2hhc2U6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiAyNTUsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn5ZWG5ZOB5Li75Zu+JyB9KQogIGdvb2RzX2ltYWdlOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndGV4dCcsIG51bGxhYmxlOiB0cnVlLCBjb21tZW50OiAn5ZWG5ZOB5Zu+6ZuGJyB9KQogIGdvb2RzX2ltYWdlczogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3RleHQnLCBudWxsYWJsZTogdHJ1ZSwgY29tbWVudDogJ+WVhuWTgeivpuaDhScgfSkKICBjb250ZW50OiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAnZG91YmxlJywgcHJlY2lzaW9uOiAxNSwgc2NhbGU6IDQsIGRlZmF1bHQ6IDAsIGNvbW1lbnQ6ICfmgLvlupPlrZgnIH0pCiAgaW52ZW50b3J5OiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogOCwgZGVmYXVsdDogJzAnLCBjb21tZW50OiAn5aSa5bGe5oCnOjA95ZCmLDE95pivJyB9KQogIG1vcmVfYXR0cmlidXRlOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogMzAsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn5ZWG5ZOB5bGe5oCn5p2h56CBJyB9KQogIGF0dHJpYnV0ZV9pZDogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDI1NSwgZGVmYXVsdDogJycsIGNvbW1lbnQ6ICflpIfms6gnIH0pCiAgbm90ZTogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDgsIGRlZmF1bHQ6ICcwJywgY29tbWVudDogJ+aYr+WQpuW4uOeUqDowPeWQpiwxPeaYrycgfSkKICBpc19vZmZ0ZW46IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiA4LCBkZWZhdWx0OiAnMCcsIGNvbW1lbnQ6ICflupPlrZjpooToraY6MD3lkKYsMT3mmK8nIH0pCiAgc3RvY2tfd2FybmluZzogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ2ludCcsIGRlZmF1bHQ6IDAsIGNvbW1lbnQ6ICfmnIDkvY7lupPlrZgnIH0pCiAgbWluX3N0b2NrOiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAnaW50JywgZGVmYXVsdDogMCwgY29tbWVudDogJ+acgOmrmOW6k+WtmCcgfSkKICBtYXhfc3RvY2s6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiA4LCBkZWZhdWx0OiAnMCcsIGNvbW1lbnQ6ICfliIbku5PpooToraY6MD3lkKYsMT3mmK8nIH0pCiAgYnJhbmNoOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAnaW50JywgbnVsbGFibGU6IHRydWUsIGNvbW1lbnQ6ICfpppbpgInlhaXlupPljZXkvY0nIH0pCiAgd2FyZWhvdXNpbmc6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICdpbnQnLCBudWxsYWJsZTogdHJ1ZSwgY29tbWVudDogJ+mmlumAieWHuuW6k+WNleS9jScgfSkKICB3YXJlaG91c2U6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICdkb3VibGUnLCBwcmVjaXNpb246IDE1LCBzY2FsZTogNCwgZGVmYXVsdDogMCwgY29tbWVudDogJ+acn+WIneaVsOmHjycgfSkKICBwZXJpb2Q6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICdkb3VibGUnLCBwcmVjaXNpb246IDE1LCBzY2FsZTogNCwgZGVmYXVsdDogMCwgY29tbWVudDogJ+WNleS9jeaIkOacrCcgfSkKICB1bml0X2Nvc3Q6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICdkb3VibGUnLCBwcmVjaXNpb246IDE1LCBzY2FsZTogNCwgZGVmYXVsdDogMCwgY29tbWVudDogJ+acn+WIneaAu+S7tycgfSkKICBwcmljZTogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDgsIGRlZmF1bHQ6ICcwJywgY29tbWVudDogJ+acn+WIneiuvue9ricgfSkKICBwZXJpb2Rfc3RhdHVzOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogOCwgZGVmYXVsdDogJzEnLCBjb21tZW50OiAn54q25oCBOjA95LiL5p62LDE95LiK5p62JyB9KQogIHN0YXR1czogc3RyaW5nOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDgsIGRlZmF1bHQ6ICcxJywgY29tbWVudDogJ+WFgeiuuOS/ruaUuTowPeWQpiwxPeaYrycgfSkKICBpc19lZGl0OiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogMTYsIG51bGxhYmxlOiB0cnVlLCBjb21tZW50OiAn6L6F5Yqp5bGe5oCnJyB9KQogIGF1eGlsaWFyeTogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDI1NSwgbnVsbGFibGU6IHRydWUsIGNvbW1lbnQ6ICfovoXliqnlsZ7mgKcnIH0pCiAgYXV4aWxpYXJ5X3R5cGU6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiAyNTUsIG51bGxhYmxlOiB0cnVlLCBjb21tZW50OiAn6L6F5Yqp5bGe5oCnMicgfSkKICBhdXhpbGlhcnlfdHlwZV9jOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndGlueWludCcsIG51bGxhYmxlOiB0cnVlLCBjb21tZW50OiAn5om55qyh5L+d6LSo5pyfJyB9KQogIGJhdGNoOiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAnaW50JywgbnVsbGFibGU6IHRydWUsIGNvbW1lbnQ6ICfkv53otKjmnJ/lpKnmlbAnIH0pCiAgc2hlbGZfbGlmZTogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ2ludCcsIG51bGxhYmxlOiB0cnVlLCBjb21tZW50OiAn6aKE6K2m5aSp5pWwJyB9KQogIGVhcmx5X3dhcm5pbmc6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICd0aW55aW50JywgbnVsbGFibGU6IHRydWUsIGNvbW1lbnQ6ICfluo/liJflj7cnIH0pCiAgc2VyaWFsOiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAndmFyY2hhcicsIGxlbmd0aDogMTYsIGRlZmF1bHQ6ICdzYWxlJywgY29tbWVudDogJ+agh+etvicgfSkKICB0YWc6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICdkb3VibGUnLCBwcmVjaXNpb246IDE1LCBzY2FsZTogNCwgZGVmYXVsdDogMCwgY29tbWVudDogJ+mUgOmHjycgfSkKICBzYWxlX251bWJlcjogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ3ZhcmNoYXInLCBsZW5ndGg6IDgsIGRlZmF1bHQ6ICcxJywgY29tbWVudDogJ+iuoui0p+mAmuaYvuekujowPeWQpiwxPeaYrycgfSkKICBvcmRlcl9zdGF0dXM6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiA4LCBkZWZhdWx0OiAnMCcsIGNvbW1lbnQ6ICfkv4PplIA6MD3lkKYsMT3mmK8nIH0pCiAgcHJvbW90aW9uOiBzdHJpbmc7Cn0K
+import { Entity, Column } from 'typeorm';
+import { BaseEntity } from '../../../common/base.entity';
+import { BigIntTransformer } from '../../../common/bigint.transformer';
+
+/**
+ * 商品表（1:1 还原 kuerp_goods 结构）
+ */
+@Entity('kuerp_goods')
+export class Goods extends BaseEntity {
+  @Column({ type: 'int', default: 0, comment: '管理员ID' })
+  admin_id: number;
+
+  @Column({ type: 'varchar', length: 30, default: '', comment: '商品编号' })
+  goods_code: string;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: '商品名称' })
+  goods_name: string;
+
+  @Column({ type: 'varchar', length: 50, default: '', comment: '商品条码' })
+  goods_barcode: string;
+
+  @Column({ type: 'varchar', length: 50, default: '', comment: '规格型号' })
+  goods_specification_id: string;
+
+  @Column({ type: 'int', default: 0, comment: '商品类别' })
+  goods_type_id: number;
+
+  @Column({ type: 'int', default: 0, comment: '首选仓库' })
+  manager_warehouse_id: number;
+
+  @Column({ type: 'int', default: 0, comment: '计量单位' })
+  unit_id: number;
+
+  @Column({ type: 'varchar', length: 8, default: '2', comment: '多计量单位:1=是,2=否' })
+  more_unit: string;
+
+  @Column({ type: 'int', nullable: true, comment: '多单位ID' })
+  more_unit_id: number;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '零售价' })
+  market_sell_price: number;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '批发价' })
+  wholesale_price: number;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: 'vip会员价' })
+  vip_price: number;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '折扣率1' })
+  discount: number;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '折扣率2' })
+  discount2: number;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '预计采购价' })
+  purchase: number;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: '商品主图' })
+  goods_image: string;
+
+  @Column({ type: 'text', nullable: true, comment: '商品图集' })
+  goods_images: string;
+
+  @Column({ type: 'text', nullable: true, comment: '商品详情' })
+  content: string;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '总库存' })
+  inventory: number;
+
+  @Column({ type: 'varchar', length: 8, default: '0', comment: '多属性:0=否,1=是' })
+  more_attribute: string;
+
+  @Column({ type: 'varchar', length: 30, default: '', comment: '商品属性条码' })
+  attribute_id: string;
+
+  @Column({ type: 'varchar', length: 255, default: '', comment: '备注' })
+  note: string;
+
+  @Column({ type: 'varchar', length: 8, default: '0', comment: '是否常用:0=否,1=是' })
+  is_offten: string;
+
+  @Column({ type: 'varchar', length: 8, default: '0', comment: '库存预警:0=否,1=是' })
+  stock_warning: string;
+
+  @Column({ type: 'int', default: 0, comment: '最低库存' })
+  min_stock: number;
+
+  @Column({ type: 'int', default: 0, comment: '最高库存' })
+  max_stock: number;
+
+  @Column({ type: 'varchar', length: 8, default: '0', comment: '分仓预警:0=否,1=是' })
+  branch: string;
+
+  @Column({ type: 'int', nullable: true, comment: '首选入库单位' })
+  warehousing: number;
+
+  @Column({ type: 'int', nullable: true, comment: '首选出库单位' })
+  warehouse: number;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '期初数量' })
+  period: number;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '单位成本' })
+  unit_cost: number;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '期初总价' })
+  price: number;
+
+  @Column({ type: 'varchar', length: 8, default: '0', comment: '期初设置' })
+  period_status: string;
+
+  @Column({ type: 'varchar', length: 8, default: '1', comment: '状态:0=下架,1=上架' })
+  status: string;
+
+  @Column({ type: 'varchar', length: 8, default: '1', comment: '允许修改:0=否,1=是' })
+  is_edit: string;
+
+  @Column({ type: 'varchar', length: 16, nullable: true, comment: '辅助属性' })
+  auxiliary: number;
+
+  @Column({ type: 'varchar', length: 255, nullable: true, comment: '辅助属性' })
+  auxiliary_type: string;
+
+  @Column({ type: 'varchar', length: 255, nullable: true, comment: '辅助属性2' })
+  auxiliary_type_c: string;
+
+  @Column({ type: 'tinyint', nullable: true, comment: '批次保质期' })
+  batch: number;
+
+  @Column({ type: 'int', nullable: true, comment: '保质期天数' })
+  shelf_life: number;
+
+  @Column({ type: 'int', nullable: true, comment: '预警天数' })
+  early_warning: number;
+
+  @Column({ type: 'tinyint', nullable: true, comment: '序列号' })
+  serial: number;
+
+  @Column({ type: 'varchar', length: 16, default: 'sale', comment: '标签' })
+  tag: string;
+
+  @Column({ type: 'double', precision: 15, scale: 4, default: 0, comment: '销量' })
+  sale_number: number;
+
+  @Column({ type: 'varchar', length: 8, default: '1', comment: '订货通显示:0=否,1=是' })
+  order_status: string;
+
+  @Column({ type: 'varchar', length: 8, default: '0', comment: '促销:0=否,1=是' })
+  promotion: string;
+}

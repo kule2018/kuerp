@@ -1,1 +1,168 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgTG9nZ2VyIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgKiBhcyBjcnlwdG8gZnJvbSAnY3J5cHRvJzsKaW1wb3J0ICogYXMgcGF0aCBmcm9tICdwYXRoJzsKaW1wb3J0IHsKICBBTExPV0VEX0VYVF9GTEFULAogIFVQTE9BRF9NQVhfQ09VTlQsCiAgVVBMT0FEX01BWF9TSVpFLAogIFVQTE9BRF9ST09ULAogIFVQTE9BRF9VUkxfUFJFRklYLAogIGRhdGVTdWJEaXIsCiAgZW5zdXJlRGlyLAogIHZhbGlkYXRlRmlsZSwKfSBmcm9tICcuL3VwbG9hZC5jb25maWcnOwoKLy8gbXVsdGVyIDIueCDmnKrlhoXnva4gLmQudHPvvIzkuJTmnKzpobnnm67nmoQgdHNjIOW8gOS6hiBza2lwTGliQ2hlY2vvvIwKLy8g6L+Z6YeM55SoIHJlcXVpcmUg5ou/5Yiw6L+Q6KGM5pe25a+56LGh5Y2z5Y+v77yI5Y+C5pWw5Zyo5LiL5pa5IG9wdGlvbnMg6YeM5bey6YCQ6aG55aOw5piO77yJ44CCCi8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBAdHlwZXNjcmlwdC1lc2xpbnQvbm8tdmFyLXJlcXVpcmVzCmNvbnN0IG11bHRlcjogYW55ID0gcmVxdWlyZSgnbXVsdGVyJyk7CgovKiog5LiK5Lyg5oiQ5Yqf5ZCO55qE5b2S5LiA5YyW5o+P6L+w77yI5YmN56uvIEJhc2VVcGxvYWQg5YW85a65IHt1cmx9IOe7k+aehO+8iSAqLwpleHBvcnQgaW50ZXJmYWNlIFVwbG9hZGVkRmlsZUluZm8gewogIC8qKiDlj6/nm7TmjqXnlKjkuo4gPGltZyBzcmM+IOeahOebuOWvueWcsOWdgO+8jOWmgiAvdXBsb2Fkcy8yMDI2LzEwLzI2L3h4eC5wbmcgKi8KICB1cmw6IHN0cmluZzsKICAvKiog5Y6f5aeL5paH5Lu25ZCN77yI5LuF5Zue5pi+55So77yM5LiN5Y+C5LiO6JC955uY77yJICovCiAgbmFtZTogc3RyaW5nOwogIC8qKiDokL3nm5jlkI7nmoTmlofku7blkI0gKi8KICBmaWxlbmFtZTogc3RyaW5nOwogIC8qKiDlrZfoioLmlbAgKi8KICBzaXplOiBudW1iZXI7CiAgLyoqIOaJqeWxleWQje+8iOWwj+WGme+8jOWQq+eCue+8iSAqLwogIGV4dDogc3RyaW5nOwogIC8qKiBNSU1FICovCiAgbWltZTogc3RyaW5nOwp9CgovKiog5qih5Z2X57qn5pel5b+X5Zmo77yaY3JlYXRlTXVsdGVyT3B0aW9ucyDmmK/nuq/lh73mlbDvvIzmsqHmnIkgdGhpc++8jOeUqOWug+iusOW9leiiq+aLkue7neeahOS4iuS8oCAqLwpjb25zdCBsb2dnZXIgPSBuZXcgTG9nZ2VyKCdVcGxvYWRTZXJ2aWNlJyk7CgovKioKICog5p6E6YCgIG11bHRlciDphY3nva7vvIjkvpsgTXVsdGVyTW9kdWxlLnJlZ2lzdGVyIOS4jiBGaWxlSW50ZXJjZXB0b3Ig5YWx55So77yJ44CCCiAqCiAqIOS5i+aJgOS7peaKveaIkOaooeWdl+e6p+e6r+WHveaVsOiAjOS4jeaYr+exu+aWueazle+8mgogKiBNdWx0ZXJNb2R1bGUucmVnaXN0ZXJBc3luYyDnmoQgdXNlRmFjdG9yeSDlnKjliqjmgIHmqKHlnZfkvZznlKjln5/lhoXop6PmnpDkvp3otZbvvIwKICog5rOo5YWl5pys5qih5Z2XIHByb3ZpZGVycyDph4znmoQgVXBsb2FkU2VydmljZSDpnIDopoHpop3lpJbnmoQgaW1wb3J0cyDovazlj5HvvIzlrrnmmJPnu5XmiJDlvqrnjq/kvp3otZbvvJsKICog6ICM6L+Z5Lu96YWN572u5Y+q5L6d6LWW5bi46YeP5LiOIG11bHRlciDov5DooYzml7blr7nosaHvvIzlgZrmiJDnuq/lh73mlbDmnIDnnIHkuovkuZ/mnIDkuI3lrrnmmJPlh7rplJnjgIIKICoKICog5Li65LuA5LmI55SoIGRpc2tTdG9yYWdlIOiAjOS4jeaYr+WGheWtmOWtmOWCqO+8mgogKiBFUlAg55qE5ZWG5ZOB5Zu+6ZuGIC8g5Y6f5aeL5Y2V5o2u6ZmE5Lu25bi45pyJ5Yeg5Y2B5byg44CB5Y2V5byg5pWwIE1C77yMCiAqIOWGheWtmOWtmOWCqOS8muaKiuW5tuWPkeS4iuS8oOeahOWzsOWAvOebtOaOpeWOi+WIsOi/m+eoi+WghuS4iu+8jOmjjumZqei/nOWkp+S6juiQveebmOOAggogKgogKiBAcmV0dXJucyBtdWx0ZXIg5Y+v5o6l5Y+X55qEIG9wdGlvbnMg5a+56LGhCiAqLwpleHBvcnQgZnVuY3Rpb24gY3JlYXRlTXVsdGVyT3B0aW9ucygpIHsKICByZXR1cm4gewogICAgICBzdG9yYWdlOiBtdWx0ZXIuZGlza1N0b3JhZ2UoewogICAgICAgIC8qKgogICAgICAgICAqIOWGs+WumuiQveebmOebruW9le+8mnVwbG9hZHMveXl5eS9NTS9kZO+8iOaMieaXpeacn+WIhuahtu+8iQogICAgICAgICAqIEBwYXJhbSBfcmVxIOWOn+Wni+ivt+axgu+8iOacquS9v+eUqO+8iQogICAgICAgICAqIEBwYXJhbSBfZmlsZSDmlofku7blr7nosaHvvIjmnKrkvb/nlKjvvIznm67lvZXkuI7mlofku7bnsbvlnovml6DlhbPvvIkKICAgICAgICAgKiBAcGFyYW0gY2Ig5Zue6LCDCiAgICAgICAgICovCiAgICAgICAgZGVzdGluYXRpb246IChfcmVxOiBhbnksIF9maWxlOiBhbnksIGNiOiAoZXJyOiBFcnJvciB8IG51bGwsIGRlc3Q6IHN0cmluZykgPT4gdm9pZCkgPT4gewogICAgICAgICAgY29uc3QgZGlyID0gcGF0aC5qb2luKFVQTE9BRF9ST09ULCBkYXRlU3ViRGlyKCkpOwogICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgZW5zdXJlRGlyKGRpcik7CiAgICAgICAgICAgIGNiKG51bGwsIGRpcik7CiAgICAgICAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgICAgICAgY2IoZSwgJycpOwogICAgICAgICAgfQogICAgICAgIH0sCgogICAgICAgIC8qKgogICAgICAgICAqIOWGs+WumuaWh+S7tuWQje+8muaXtumXtOaIsy3pmo/mnLrkuLIt55+t5ZOI5biMICsg5Y6f5omp5bGV5ZCN44CCCiAgICAgICAgICog5a6M5YWo5LiN5L2/55So5a6i5oi356uv5paH5Lu25ZCN77yM6YG/5YWNIC4uLyDnqb/otorkuI7lkIzlkI3opobnm5bvvJsKICAgICAgICAgKiDpmo/mnLrkuLLkv53or4HlkIzmr6vnp5LlpJrmlofku7bkuI3lhrLnqoHvvIznn63lk4jluIzkvr/kuo7kurrlt6XmjpLmn6Xml7blrprkvY3jgIIKICAgICAgICAgKiBAcGFyYW0gX3JlcSDljp/lp4vor7fmsYIKICAgICAgICAgKiBAcGFyYW0gZmlsZSBtdWx0ZXIg5paH5Lu25a+56LGh77yI5ZCrIG9yaWdpbmFsbmFtZe+8iQogICAgICAgICAqIEBwYXJhbSBjYiDlm57osIMKICAgICAgICAgKi8KICAgICAgICBmaWxlbmFtZTogKF9yZXE6IGFueSwgZmlsZTogYW55LCBjYjogKGVycjogRXJyb3IgfCBudWxsLCBuYW1lOiBzdHJpbmcpID0+IHZvaWQpID0+IHsKICAgICAgICAgIGNvbnN0IGV4dCA9IHBhdGguZXh0bmFtZShmaWxlLm9yaWdpbmFsbmFtZSB8fCAnJykudG9Mb3dlckNhc2UoKTsKICAgICAgICAgIGNvbnN0IHN0YW1wID0gRGF0ZS5ub3coKTsKICAgICAgICAgIGNvbnN0IHJhbmQgPSBjcnlwdG8ucmFuZG9tQnl0ZXMoNikudG9TdHJpbmcoJ2hleCcpOwogICAgICAgICAgY2IobnVsbCwgYCR7c3RhbXB9LSR7cmFuZH0ke2V4dC5zbGljZSgwLCAxMil9YCk7CiAgICAgICAgfSwKICAgICAgfSksCgogICAgICBsaW1pdHM6IHsKICAgICAgICBmaWxlU2l6ZTogVVBMT0FEX01BWF9TSVpFLAogICAgICAgIGZpbGVzOiBVUExPQURfTUFYX0NPVU5ULAogICAgICB9LAoKICAgICAgLyoqCiAgICAgICAqIOexu+Wei+mXuOmXqOOAggogICAgICAgKiDmoKHpqozkuI3pgJrov4fml7blm57osIMgKG51bGwsIGZhbHNlKSDpnZnpu5jkuKLlvIPvvIzogIzkuI3mmK/mipsgRXJyb3LigJTigJQKICAgICAgICog5oqb6ZSZ5Lya5Y+Y5oiQIDUwMCDkuJTkv6Hmga/kuI3lj4vlpb3vvJvpnZnpu5jkuKLlvIPlkI7nlLHmjqfliLblmajov5Tlm57mmI7noa7nmoTkuJrliqHmj5DnpLrjgIIKICAgICAgICovCiAgICAgIGZpbGVGaWx0ZXI6IChfcmVxOiBhbnksIGZpbGU6IGFueSwgY2I6IChlcnI6IEVycm9yIHwgbnVsbCwgYWNjZXB0OiBib29sZWFuKSA9PiB2b2lkKSA9PiB7CiAgICAgICAgY29uc3QgeyBvaywgcmVhc29uIH0gPSB2YWxpZGF0ZUZpbGUoZmlsZS5vcmlnaW5hbG5hbWUgfHwgJycsIGZpbGUubWltZXR5cGUgfHwgJycpOwogICAgICAgIGlmICghb2spIHsKICAgICAgICAgIC8vIOaMguWIsCBmaWxlIOS4iu+8jOaOp+WItuWZqOivu+S4jeWIsCBmaWxlIOaXtuS5n+iDvee7meWHuuWOn+WboAogICAgICAgICAgZmlsZS5fX3JlamVjdFJlYXNvbiA9IHJlYXNvbjsKICAgICAgICAgIGxvZ2dlci53YXJuKGDmi5Lnu53kuIrkvKDvvJoke2ZpbGUub3JpZ2luYWxuYW1lfSAtPiAke3JlYXNvbn1gKTsKICAgICAgICAgIGNiKG51bGwsIGZhbHNlKTsKICAgICAgICAgIHJldHVybjsKICAgICAgICB9CiAgICAgICAgY2IobnVsbCwgdHJ1ZSk7CiAgICAgIH0sCiAgfTsKfQoKLyoqCiAqIOS4iuS8oOacjeWKoe+8mui0n+i0o+ebruW9leWHhuWkh+S4jue7k+aenOW9kuS4gOWMluOAggogKgogKiDkuI4gbXVsdGVyIOeahOWIhuW3pe+8mgogKiAtIG11bHRlciDotJ/otKPmjqXmlLbmtYHlubblhpnnm5jvvIhkaXNrU3RvcmFnZSDphY3nva7op4EgY3JlYXRlTXVsdGVyT3B0aW9uc++8ie+8mwogKiAtIOS4muWKoeS+p+WPquWFs+W/gyBVcGxvYWRlZEZpbGVJbmZv77yM5LiN5oSf55+l56OB55uY6Lev5b6E44CCCiAqLwpASW5qZWN0YWJsZSgpCmV4cG9ydCBjbGFzcyBVcGxvYWRTZXJ2aWNlIHsKICBwcml2YXRlIHJlYWRvbmx5IGxvZ2dlciA9IG5ldyBMb2dnZXIoVXBsb2FkU2VydmljZS5uYW1lKTsKCiAgY29uc3RydWN0b3IoKSB7CiAgICAvLyDlkK/liqjljbPlu7rmoLnnm67lvZXvvJrlkKbliJnlrrnlmajpppblkK/ml7bpppbkuKrkuIrkvKDkvJrlm6Dnm67lvZXkuI3lrZjlnKjogIzlpLHotKUKICAgIGVuc3VyZURpcihVUExPQURfUk9PVCk7CiAgICB0aGlzLmxvZ2dlci5sb2coYOS4iuS8oOagueebruW9le+8miR7VVBMT0FEX1JPT1R977yM6K6/6Zeu5YmN57yA77yaJHtVUExPQURfVVJMX1BSRUZJWH1gKTsKICB9CgogIC8qKgogICAqIOaatOmcsiBtdWx0ZXIg6YWN572u77yM5L6/5LqO5aSW6YOo77yI5aaC5rWL6K+V5oiW5aSa5a2Y5YKo562W55Wl77yJ5aSN55So5ZCM5LiA5Lu96KeE5YiZ44CCCiAgICogQHJldHVybnMgbXVsdGVyIG9wdGlvbnMKICAgKi8KICBidWlsZE11bHRlck9wdGlvbnMoKSB7CiAgICByZXR1cm4gY3JlYXRlTXVsdGVyT3B0aW9ucygpOwogIH0KCiAgLyoqCiAgICog5oqKIG11bHRlciDnmoQgZmlsZSDlr7nosaHlvZLkuIDljJbmiJDliY3nq6/lj6/nm7TmjqXmtojotLnnmoTnu5PmnoTjgIIKICAgKiBAcGFyYW0gZmlsZSBtdWx0ZXIg5YaZ5YWl5ZCO55qE5paH5Lu25a+56LGh77yI5ZCrIHBhdGgvZmlsZW5hbWUvc2l6ZS9taW1ldHlwZS9vcmlnaW5hbG5hbWXvvIkKICAgKiBAcmV0dXJucyDlvZLkuIDljJbkv6Hmga/vvJtmaWxlIOS4uuepuuaXtui/lOWbniBudWxsCiAgICovCiAgbm9ybWFsaXplKGZpbGU6IGFueSk6IFVwbG9hZGVkRmlsZUluZm8gfCBudWxsIHsKICAgIGlmICghZmlsZSB8fCAhZmlsZS5maWxlbmFtZSkgcmV0dXJuIG51bGw7CiAgICAvLyBtdWx0ZXIg57uZ5Ye655qE5piv57ud5a+56Lev5b6E77yM6L+Z6YeM5Y+N5o6o5Ye655u45a+55qC555uu5b2V55qE5a2Q6Lev5b6E5YaN5ou86K6/6Zeu5YmN57yACiAgICBjb25zdCByZWwgPSBwYXRoCiAgICAgIC5yZWxhdGl2ZShVUExPQURfUk9PVCwgZmlsZS5wYXRoKQogICAgICAuc3BsaXQocGF0aC5zZXApCiAgICAgIC5qb2luKCcvJyk7CiAgICByZXR1cm4gewogICAgICB1cmw6IGAke1VQTE9BRF9VUkxfUFJFRklYfS8ke3JlbH1gLAogICAgICBuYW1lOiBmaWxlLm9yaWdpbmFsbmFtZSB8fCBmaWxlLmZpbGVuYW1lLAogICAgICBmaWxlbmFtZTogZmlsZS5maWxlbmFtZSwKICAgICAgc2l6ZTogTnVtYmVyKGZpbGUuc2l6ZSB8fCAwKSwKICAgICAgZXh0OiBwYXRoLmV4dG5hbWUoZmlsZS5maWxlbmFtZSkudG9Mb3dlckNhc2UoKSwKICAgICAgbWltZTogZmlsZS5taW1ldHlwZSB8fCAnJywKICAgIH07CiAgfQoKICAvKiog5YWB6K6455qE5omp5bGV5ZCN5riF5Y2V77yI5L6b5YmN56uvIGFjY2VwdCDmj5DnpLrkuI7mlofmoaPlsZXnpLrvvIkgKi8KICBhbGxvd2VkRXh0KCk6IHN0cmluZ1tdIHsKICAgIHJldHVybiBBTExPV0VEX0VYVF9GTEFUOwogIH0KCiAgLyoqIOWNleaWh+S7tuWkp+Wwj+S4iumZkO+8iOWtl+iKgu+8iSAqLwogIG1heFNpemUoKTogbnVtYmVyIHsKICAgIHJldHVybiBVUExPQURfTUFYX1NJWkU7CiAgfQp9Cg==
+import { Injectable, Logger } from '@nestjs/common';
+import * as crypto from 'crypto';
+import * as path from 'path';
+import {
+  ALLOWED_EXT_FLAT,
+  UPLOAD_MAX_COUNT,
+  UPLOAD_MAX_SIZE,
+  UPLOAD_ROOT,
+  UPLOAD_URL_PREFIX,
+  dateSubDir,
+  ensureDir,
+  validateFile,
+} from './upload.config';
+
+// multer 2.x 未内置 .d.ts，且本项目的 tsc 开了 skipLibCheck，
+// 这里用 require 拿到运行时对象即可（参数在下方 options 里已逐项声明）。
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const multer: any = require('multer');
+
+/** 上传成功后的归一化描述（前端 BaseUpload 兼容 {url} 结构） */
+export interface UploadedFileInfo {
+  /** 可直接用于 <img src> 的相对地址，如 /uploads/2026/10/26/xxx.png */
+  url: string;
+  /** 原始文件名（仅回显用，不参与落盘） */
+  name: string;
+  /** 落盘后的文件名 */
+  filename: string;
+  /** 字节数 */
+  size: number;
+  /** 扩展名（小写，含点） */
+  ext: string;
+  /** MIME */
+  mime: string;
+}
+
+/** 模块级日志器：createMulterOptions 是纯函数，没有 this，用它记录被拒绝的上传 */
+const logger = new Logger('UploadService');
+
+/**
+ * 构造 multer 配置（供 MulterModule.register 与 FileInterceptor 共用）。
+ *
+ * 之所以抽成模块级纯函数而不是类方法：
+ * MulterModule.registerAsync 的 useFactory 在动态模块作用域内解析依赖，
+ * 注入本模块 providers 里的 UploadService 需要额外的 imports 转发，容易绕成循环依赖；
+ * 而这份配置只依赖常量与 multer 运行时对象，做成纯函数最省事也最不容易出错。
+ *
+ * 为什么用 diskStorage 而不是内存存储：
+ * ERP 的商品图集 / 原始单据附件常有几十张、单张数 MB，
+ * 内存存储会把并发上传的峰值直接压到进程堆上，风险远大于落盘。
+ *
+ * @returns multer 可接受的 options 对象
+ */
+export function createMulterOptions() {
+  return {
+      storage: multer.diskStorage({
+        /**
+         * 决定落盘目录：uploads/yyyy/MM/dd（按日期分桶）
+         * @param _req 原始请求（未使用）
+         * @param _file 文件对象（未使用，目录与文件类型无关）
+         * @param cb 回调
+         */
+        destination: (_req: any, _file: any, cb: (err: Error | null, dest: string) => void) => {
+          const dir = path.join(UPLOAD_ROOT, dateSubDir());
+          try {
+            ensureDir(dir);
+            cb(null, dir);
+          } catch (e: any) {
+            cb(e, '');
+          }
+        },
+
+        /**
+         * 决定文件名：时间戳-随机串-短哈希 + 原扩展名。
+         * 完全不使用客户端文件名，避免 ../ 穿越与同名覆盖；
+         * 随机串保证同毫秒多文件不冲突，短哈希便于人工排查时定位。
+         * @param _req 原始请求
+         * @param file multer 文件对象（含 originalname）
+         * @param cb 回调
+         */
+        filename: (_req: any, file: any, cb: (err: Error | null, name: string) => void) => {
+          const ext = path.extname(file.originalname || '').toLowerCase();
+          const stamp = Date.now();
+          const rand = crypto.randomBytes(6).toString('hex');
+          cb(null, `${stamp}-${rand}${ext.slice(0, 12)}`);
+        },
+      }),
+
+      limits: {
+        fileSize: UPLOAD_MAX_SIZE,
+        files: UPLOAD_MAX_COUNT,
+      },
+
+      /**
+       * 类型闸门。
+       * 校验不通过时回调 (null, false) 静默丢弃，而不是抛 Error——
+       * 抛错会变成 500 且信息不友好；静默丢弃后由控制器返回明确的业务提示。
+       */
+      fileFilter: (_req: any, file: any, cb: (err: Error | null, accept: boolean) => void) => {
+        const { ok, reason } = validateFile(file.originalname || '', file.mimetype || '');
+        if (!ok) {
+          // 挂到 file 上，控制器读不到 file 时也能给出原因
+          file.__rejectReason = reason;
+          logger.warn(`拒绝上传：${file.originalname} -> ${reason}`);
+          cb(null, false);
+          return;
+        }
+        cb(null, true);
+      },
+  };
+}
+
+/**
+ * 上传服务：负责目录准备与结果归一化。
+ *
+ * 与 multer 的分工：
+ * - multer 负责接收流并写盘（diskStorage 配置见 createMulterOptions）；
+ * - 业务侧只关心 UploadedFileInfo，不感知磁盘路径。
+ */
+@Injectable()
+export class UploadService {
+  private readonly logger = new Logger(UploadService.name);
+
+  constructor() {
+    // 启动即建根目录：否则容器首启时首个上传会因目录不存在而失败
+    ensureDir(UPLOAD_ROOT);
+    this.logger.log(`上传根目录：${UPLOAD_ROOT}，访问前缀：${UPLOAD_URL_PREFIX}`);
+  }
+
+  /**
+   * 暴露 multer 配置，便于外部（如测试或多存储策略）复用同一份规则。
+   * @returns multer options
+   */
+  buildMulterOptions() {
+    return createMulterOptions();
+  }
+
+  /**
+   * 把 multer 的 file 对象归一化成前端可直接消费的结构。
+   * @param file multer 写入后的文件对象（含 path/filename/size/mimetype/originalname）
+   * @returns 归一化信息；file 为空时返回 null
+   */
+  normalize(file: any): UploadedFileInfo | null {
+    if (!file || !file.filename) return null;
+    // multer 给出的是绝对路径，这里反推出相对根目录的子路径再拼访问前缀
+    const rel = path
+      .relative(UPLOAD_ROOT, file.path)
+      .split(path.sep)
+      .join('/');
+    return {
+      url: `${UPLOAD_URL_PREFIX}/${rel}`,
+      name: file.originalname || file.filename,
+      filename: file.filename,
+      size: Number(file.size || 0),
+      ext: path.extname(file.filename).toLowerCase(),
+      mime: file.mimetype || '',
+    };
+  }
+
+  /** 允许的扩展名清单（供前端 accept 提示与文档展示） */
+  allowedExt(): string[] {
+    return ALLOWED_EXT_FLAT;
+  }
+
+  /** 单文件大小上限（字节） */
+  maxSize(): number {
+    return UPLOAD_MAX_SIZE;
+  }
+}

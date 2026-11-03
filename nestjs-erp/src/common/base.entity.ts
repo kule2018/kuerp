@@ -1,1 +1,29 @@
-aW1wb3J0IHsgUHJpbWFyeUdlbmVyYXRlZENvbHVtbiwgQ29sdW1uIH0gZnJvbSAndHlwZW9ybSc7CmltcG9ydCB7IEJpZ0ludFRyYW5zZm9ybWVyLCBub3dTZWMgfSBmcm9tICcuL2JpZ2ludC50cmFuc2Zvcm1lcic7CgovKioKICog5Lia5Yqh5Z+656GA5a6e5L2T77ya5LiO5Y6f57O757uf6KGo57uT5p6E5a+56b2QCiAqIC0gaWQg6Ieq5aKe5Li76ZSuCiAqIC0gY3JlYXRldGltZSAvIHVwZGF0ZXRpbWUgLyBkZWxldGV0aW1lIOWdh+S4uuenkue6pyBiaWdpbnQg5pe26Ze05oizCiAqIC0gZGVsZXRldGltZSDpnZ7nqbrljbPku6Pooajova/liKDpmaTvvIjkuI7ljp/ns7vnu5/kuIDoh7TvvIzkuI3kvb/nlKggVHlwZU9STSDniannkIbliKDpmaTvvIkKICovCmV4cG9ydCBhYnN0cmFjdCBjbGFzcyBCYXNlRW50aXR5IHsKICBAUHJpbWFyeUdlbmVyYXRlZENvbHVtbih7IHR5cGU6ICdpbnQnLCB1bnNpZ25lZDogdHJ1ZSB9KQogIGlkOiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAnYmlnaW50JywgbnVsbGFibGU6IHRydWUsIGRlZmF1bHQ6IDAsIHRyYW5zZm9ybWVyOiBCaWdJbnRUcmFuc2Zvcm1lciwgY29tbWVudDogJ+WIm+W7uuaXtumXtCcgfSkKICBjcmVhdGV0aW1lPzogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ2JpZ2ludCcsIG51bGxhYmxlOiB0cnVlLCBkZWZhdWx0OiAwLCB0cmFuc2Zvcm1lcjogQmlnSW50VHJhbnNmb3JtZXIsIGNvbW1lbnQ6ICfmm7TmlrDml7bpl7QnIH0pCiAgdXBkYXRldGltZT86IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICdiaWdpbnQnLCBudWxsYWJsZTogdHJ1ZSwgZGVmYXVsdDogMCwgdHJhbnNmb3JtZXI6IEJpZ0ludFRyYW5zZm9ybWVyLCBjb21tZW50OiAn5Yig6Zmk5pe26Ze0KOi9r+WIoOmZpCknIH0pCiAgZGVsZXRldGltZT86IG51bWJlcjsKCiAgLyoqIOi1i+WAvOaXtuiHquWKqOWGmeWFpeWIm+W7ui/mm7TmlrDml7bpl7TvvIzlrZDnsbvlj6/lnKggc2F2ZSDliY3osIPnlKggKi8KICB0b3VjaChpc0NyZWF0ZSA9IGZhbHNlKSB7CiAgICBjb25zdCB0ID0gbm93U2VjKCk7CiAgICBpZiAoaXNDcmVhdGUpIHRoaXMuY3JlYXRldGltZSA9IHQ7CiAgICB0aGlzLnVwZGF0ZXRpbWUgPSB0OwogIH0KfQo=
+import { PrimaryGeneratedColumn, Column } from 'typeorm';
+import { BigIntTransformer, nowSec } from './bigint.transformer';
+
+/**
+ * 业务基础实体：与原系统表结构对齐
+ * - id 自增主键
+ * - createtime / updatetime / deletetime 均为秒级 bigint 时间戳
+ * - deletetime 非空即代表软删除（与原系统一致，不使用 TypeORM 物理删除）
+ */
+export abstract class BaseEntity {
+  @PrimaryGeneratedColumn({ type: 'int', unsigned: true })
+  id: number;
+
+  @Column({ type: 'bigint', nullable: true, default: 0, transformer: BigIntTransformer, comment: '创建时间' })
+  createtime?: number;
+
+  @Column({ type: 'bigint', nullable: true, default: 0, transformer: BigIntTransformer, comment: '更新时间' })
+  updatetime?: number;
+
+  @Column({ type: 'bigint', nullable: true, default: 0, transformer: BigIntTransformer, comment: '删除时间(软删除)' })
+  deletetime?: number;
+
+  /** 赋值时自动写入创建/更新时间，子类可在 save 前调用 */
+  touch(isCreate = false) {
+    const t = nowSec();
+    if (isCreate) this.createtime = t;
+    this.updatetime = t;
+  }
+}

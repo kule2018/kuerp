@@ -1,1 +1,106 @@
-aW1wb3J0IHsgY3JlYXRlUm91dGVyLCBjcmVhdGVXZWJIaXN0b3J5IH0gZnJvbSAndnVlLXJvdXRlcic7CmltcG9ydCB7IHVzZUF1dGhTdG9yZSB9IGZyb20gJy4uL3N0b3JlL2F1dGgnOwppbXBvcnQgeyBtZXNzYWdlIH0gZnJvbSAnQC91dGlscy91aSc7CmltcG9ydCBMYXlvdXQgZnJvbSAnLi4vbGF5b3V0L2luZGV4LnZ1ZSc7CmltcG9ydCB7IGZsYXR0ZW5NZW51cyB9IGZyb20gJy4uL21lbnVzJzsKaW1wb3J0IHsgbG9hZFBlcm1zLCB1c2VQZXJtIH0gZnJvbSAnQC91dGlscy9wZXJtJzsKCi8qKgogKiDnu4Tku7blkI0gLT4g5oeS5Yqg6L2957uE5Lu244CCCiAqIOmAmueUqOWKqOaAgeihqOagvOmhtSBjcnVkIOmpseWKqOWFqOmDqOS4muWKoeaooeWdl++8iC9rdWVycC86dGFibGXvvInvvJsKICog5YW25L2Z5Li65Y6f57O757uf5Lit5b2i5oCB54m55q6K55qE6aG16Z2i77yI5bel5L2c5Y+wL+Wkp+Wxjy/miZPljbAvQUkv5p2D6ZmQ562J77yJ44CCCiAqLwpjb25zdCBjb21wb25lbnRzID0gewogIGNydWQ6ICgpID0+IGltcG9ydCgnLi4vdmlld3MvY3J1ZC1wYWdlLnZ1ZScpLAogIHJlcG9ydDogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9yZXBvcnQtcGFnZS52dWUnKSwKICBwb3M6ICgpID0+IGltcG9ydCgnLi4vdmlld3MvcG9zLnZ1ZScpLAogICdwcmludC1jZW50ZXInOiAoKSA9PiBpbXBvcnQoJy4uL3ZpZXdzL3ByaW50LWNlbnRlci52dWUnKSwKICAnZ29vZHMtcGVyaW9kJzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9nb29kcy1wZXJpb2QudnVlJyksCiAgZGFzaGJvYXJkOiAoKSA9PiBpbXBvcnQoJy4uL3ZpZXdzL2Rhc2hib2FyZC52dWUnKSwKICBzY3JlZW46ICgpID0+IGltcG9ydCgnLi4vdmlld3Mvc2NyZWVuLnZ1ZScpLAogIGRhdGFpbmZvOiAoKSA9PiBpbXBvcnQoJy4uL3ZpZXdzL2RhdGFpbmZvLnZ1ZScpLAogIGluaXRpYWxpemF0aW9uOiAoKSA9PiBpbXBvcnQoJy4uL3ZpZXdzL2luaXRpYWxpemF0aW9uLnZ1ZScpLAogICdhdXRoLWdyb3VwJzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9hdXRoL2dyb3VwLnZ1ZScpLAogICdhdXRoLWFkbWluJzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9hdXRoL2FkbWluLnZ1ZScpLAogIGNoZWNrb3V0OiAoKSA9PiBpbXBvcnQoJy4uL3ZpZXdzL2NoZWNrb3V0LnZ1ZScpLAogIGJvYXJkOiAoKSA9PiBpbXBvcnQoJy4uL3ZpZXdzL2JvYXJkLnZ1ZScpLAogIHNldHM6ICgpID0+IGltcG9ydCgnLi4vdmlld3Mvc2V0cy52dWUnKSwKICAnZnVuZC1kb2MnOiAoKSA9PiBpbXBvcnQoJy4uL3ZpZXdzL2Z1bmQtZG9jLnZ1ZScpLAogICdkb2MtZWRpdG9yJzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9kb2MtZWRpdG9yLnZ1ZScpLAogICdzZXJpYWwtaW52ZW50b3J5JzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9zZXJpYWwtaW52ZW50b3J5LnZ1ZScpLAogICdyZXBvcnQtcHJvZml0JzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9yZXBvcnRzL3Byb2ZpdC52dWUnKSwKICAncmVwb3J0LWFyJzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9yZXBvcnRzL2FyLnZ1ZScpLAogICdyZXBvcnQtd2FybmluZyc6ICgpID0+IGltcG9ydCgnLi4vdmlld3MvcmVwb3J0cy9zdG9jay13YXJuaW5nLnZ1ZScpLAogICd1c2VyLW9yZGVyJzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy91c2VyLW9yZGVyLnZ1ZScpLAogIGdvb2RzOiAoKSA9PiBpbXBvcnQoJy4uL3ZpZXdzL2dvb2RzL2luZGV4LnZ1ZScpLAogICdhaS9tb2RlbC1jb25maWcnOiAoKSA9PiBpbXBvcnQoJy4uL3ZpZXdzL2FpL21vZGVsLWNvbmZpZy52dWUnKSwKICAnYWkvcHJvbXB0LXRlbXBsYXRlJzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9haS9wcm9tcHQtdGVtcGxhdGUudnVlJyksCiAgJ2FpL3BsYXlncm91bmQnOiAoKSA9PiBpbXBvcnQoJy4uL3ZpZXdzL2FpL3BsYXlncm91bmQudnVlJyksCiAgJ2FpL2Fzc2lzdGFudCc6ICgpID0+IGltcG9ydCgnLi4vdmlld3MvYWkvYXNzaXN0YW50LnZ1ZScpLAogICdhaS9sb2dzJzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9haS9sb2dzLnZ1ZScpLAogIC8vIOaOpeWPo+euoeeQhu+8muenu+WKqOerr+WVhuWfjihvcmRlcikgLyDnrKzkuInmlrnlr7nmjqUodGhpcmQpIOeahOaOpeWPo+ivtOaYjumhtQogICdhcGktZG9jJzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9hcGktZG9jLnZ1ZScpLAogIC8vIOezu+e7n+i/kOe7tO+8muaTjeS9nOaXpeW/l++8iOWuoeiuoe+8iQogICdzeXMtbG9nJzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9zeXN0ZW0vbG9nLnZ1ZScpLAogIC8vIOezu+e7n+i/kOe7tO+8mua2iOaBr+S4reW/gyAvIOWumuaXtuS9nOS4mgogICdzeXMtbWVzc2FnZSc6ICgpID0+IGltcG9ydCgnLi4vdmlld3Mvc3lzdGVtL21lc3NhZ2UudnVlJyksCiAgJ3N5cy1qb2InOiAoKSA9PiBpbXBvcnQoJy4uL3ZpZXdzL3N5c3RlbS9qb2IudnVlJyksCiAgLy8g57O757uf6L+Q57u077ya5a6h5om55b6F5Yqe77yI5raI5oGv5Lit5b+DIHR5cGU9YXBwcm92YWwg55qEIGxpbmsg5oyH5ZCRIC9hcHByb3ZhbC10b2Rv77yJCiAgJ3N5cy1hcHByb3ZhbC10b2RvJzogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9zeXN0ZW0vYXBwcm92YWwtdG9kby52dWUnKSwKfTsKCi8vIOeUseiPnOWNleWUr+S4gOS6i+Wunua6kOeUn+aIkOWFqOmDqOS4muWKoei3r+eUse+8iOmhtemdouS4juWOn+ezu+e7nyAxOjHvvIkKLy8gbWV0YSDpmaQgdGl0bGUvYXBpIOWklu+8jOi/mOmAj+S8oOiPnOWNleiKgueCueS4iueahCBtZXRhIOmFjee9ru+8iOWmgui1hOmHkeWNleaNrueahCBmdW5kIOmFjee9ru+8iQpjb25zdCBidXNpbmVzc1JvdXRlcyA9IGZsYXR0ZW5NZW51cygpLm1hcCgobSkgPT4gKHsKICBwYXRoOiBtLnBhdGgsCiAgbmFtZTogbS5uYW1lLAogIGNvbXBvbmVudDogY29tcG9uZW50c1ttLmNvbXBvbmVudF0gfHwgY29tcG9uZW50cy5jcnVkLAogIG1ldGE6IHsgdGl0bGU6IG0udGl0bGUsIGFwaTogbS5hcGksIHBlcm06IG0ucGVybSwgLi4uKG0ubWV0YSB8fCB7fSkgfSwKfSkpOwoKY29uc3Qgcm91dGVzID0gWwogIHsgcGF0aDogJy9sb2dpbicsIG5hbWU6ICdMb2dpbicsIGNvbXBvbmVudDogKCkgPT4gaW1wb3J0KCcuLi92aWV3cy9sb2dpbi52dWUnKSwgbWV0YTogeyBwdWJsaWM6IHRydWUgfSB9LAogIHsKICAgIHBhdGg6ICcvJywKICAgIGNvbXBvbmVudDogTGF5b3V0LAogICAgcmVkaXJlY3Q6ICcvZGFzaGJvYXJkJywKICAgIGNoaWxkcmVuOiBbCiAgICAgIC4uLmJ1c2luZXNzUm91dGVzLAogICAgICAvLyDllYblk4HnvJbovpHvvIjkuJPnlKjooajljZXpobXvvIzpmpDol4/kuo7oj5zljZXvvIkKICAgICAgeyBwYXRoOiAnZ29vZHMvZWRpdCcsIG5hbWU6ICdHb29kc0VkaXQnLCBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgnLi4vdmlld3MvZ29vZHMvZm9ybS52dWUnKSwgbWV0YTogeyB0aXRsZTogJ+WVhuWTgee8lui+kScsIGhpZGRlbjogdHJ1ZSwgYXBpOiAnL2t1ZXJwL2dvb2RzJyB9IH0sCiAgICAgIHsgcGF0aDogJ2dvb2RzL2VkaXQvOmlkJywgbmFtZTogJ0dvb2RzRWRpdElkJywgY29tcG9uZW50OiAoKSA9PiBpbXBvcnQoJy4uL3ZpZXdzL2dvb2RzL2Zvcm0udnVlJyksIG1ldGE6IHsgdGl0bGU6ICfllYblk4HnvJbovpEnLCBoaWRkZW46IHRydWUsIGFwaTogJy9rdWVycC9nb29kcycgfSB9LAogICAgICAvLyDpgJrnlKjmiZPljbDpobXvvIjljp/ns7vnu58gUHJpbnRzIOaOp+WItuWZqO+8muaMieihqCvljZXmja5pZCDmuLLmn5Plj6/miZPljbDljZXmja7vvIkKICAgICAgeyBwYXRoOiAncHJpbnQnLCBuYW1lOiAnUHJpbnQnLCBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgnLi4vdmlld3MvcHJpbnQudnVlJyksIG1ldGE6IHsgdGl0bGU6ICfljZXmja7miZPljbAnLCBoaWRkZW46IHRydWUgfSB9LAogICAgICAvLyDmiqXooajmiZPljbDpobXvvIjljp/ns7vnu58gUHJpbnRzIOeahOaKpeihqOexu+aJk+WNsO+8mmNnbXgvY2dkZGd6L2NnaHpiX3NwL2NnaHpiX2d5cy9jZ2ZrL3hzZGRneu+8iQogICAgICB7IHBhdGg6ICdwcmludC1yZXBvcnQnLCBuYW1lOiAnUHJpbnRSZXBvcnQnLCBjb21wb25lbnQ6ICgpID0+IGltcG9ydCgnLi4vdmlld3MvcHJpbnQtcmVwb3J0LnZ1ZScpLCBtZXRhOiB7IHRpdGxlOiAn5oql6KGo5omT5Y2wJywgaGlkZGVuOiB0cnVlIH0gfSwKICAgIF0sCiAgfSwKICB7IHBhdGg6ICcvOnBhdGhNYXRjaCguKikqJywgcmVkaXJlY3Q6ICcvZGFzaGJvYXJkJyB9LApdOwoKY29uc3Qgcm91dGVyID0gY3JlYXRlUm91dGVyKHsgaGlzdG9yeTogY3JlYXRlV2ViSGlzdG9yeSgpLCByb3V0ZXMgfSk7Cgpyb3V0ZXIuYmVmb3JlRWFjaChhc3luYyAodG8sIGZyb20sIG5leHQpID0+IHsKICBjb25zdCBhdXRoID0gdXNlQXV0aFN0b3JlKCk7CiAgaWYgKCF0by5tZXRhLnB1YmxpYyAmJiAhYXV0aC50b2tlbikgcmV0dXJuIG5leHQoJy9sb2dpbicpOwogIGlmICh0by5wYXRoID09PSAnL2xvZ2luJyAmJiBhdXRoLnRva2VuKSByZXR1cm4gbmV4dCgnLycpOwogIC8vIOiPnOWNlS/pobXpnaLnuqfmnYPpmZDvvJrotoXnrqHmlL7ooYzvvJvlhbbkvZnmjIkgcm91dGUubWV0YS5wZXJtIOWIpOWumu+8iOS4juWQjuerryBSYmFjR3VhcmQg5Y+j5b6E5LiA6Ie077yJ44CCCiAgLy8g5pyq55m75b2V5oCB55Sx5LiK5LiA5bGC5oum5oiq77yM6L+Z6YeM5Y+q5aSE55CG44CM5bey55m75b2V5L2G5peg5p2D6K6/6Zeu6K+l6I+c5Y2V44CN55qE6LaK5p2D55u06ZO+44CCCiAgaWYgKCF0by5tZXRhLnB1YmxpYyAmJiB0by5tZXRhLnBlcm0pIHsKICAgIGF3YWl0IGxvYWRQZXJtcygpOwogICAgY29uc3QgeyBzdGF0ZSB9ID0gdXNlUGVybSgpOwogICAgaWYgKCFzdGF0ZS5pc1N1cGVyICYmICFzdGF0ZS5ub2Rlcy5pbmNsdWRlcygnKicpKSB7CiAgICAgIGNvbnN0IHBlcm0gPSB0by5tZXRhLnBlcm07CiAgICAgIGNvbnN0IG9rID0gcGVybS5zdGFydHNXaXRoKCdrdWVycC8nKQogICAgICAgID8gISFzdGF0ZS50YWJsZXNbcGVybS5zbGljZSgna3VlcnAvJy5sZW5ndGgpXSB8fCBzdGF0ZS5ub2Rlcy5pbmNsdWRlcyhwZXJtKSB8fCBzdGF0ZS5tZW51cy5pbmNsdWRlcyhwZXJtKQogICAgICAgIDogc3RhdGUubWVudXMuaW5jbHVkZXMocGVybSkgfHwgc3RhdGUubm9kZXMuaW5jbHVkZXMocGVybSk7CiAgICAgIGlmICghb2spIHsKICAgICAgICBtZXNzYWdlLndhcm5pbmcoJ+aXoOadg+iuv+mXruivpemhtemdoicpOwogICAgICAgIHJldHVybiBuZXh0KCcvZGFzaGJvYXJkJyk7CiAgICAgIH0KICAgIH0KICB9CiAgbmV4dCgpOwp9KTsKCmV4cG9ydCBkZWZhdWx0IHJvdXRlcjsK
+import { createRouter, createWebHistory } from 'vue-router';
+import { useAuthStore } from '../store/auth';
+import { message } from '@/utils/ui';
+import Layout from '../layout/index.vue';
+import { flattenMenus } from '../menus';
+import { loadPerms, usePerm } from '@/utils/perm';
+
+/**
+ * 组件名 -> 懒加载组件。
+ * 通用动态表格页 crud 驱动全部业务模块（/kuerp/:table）；
+ * 其余为原系统中形态特殊的页面（工作台/大屏/打印/AI/权限等）。
+ */
+const components = {
+  crud: () => import('../views/crud-page.vue'),
+  report: () => import('../views/report-page.vue'),
+  pos: () => import('../views/pos.vue'),
+  'print-center': () => import('../views/print-center.vue'),
+  'goods-period': () => import('../views/goods-period.vue'),
+  dashboard: () => import('../views/dashboard.vue'),
+  screen: () => import('../views/screen.vue'),
+  datainfo: () => import('../views/datainfo.vue'),
+  initialization: () => import('../views/initialization.vue'),
+  'auth-group': () => import('../views/auth/group.vue'),
+  'auth-admin': () => import('../views/auth/admin.vue'),
+  checkout: () => import('../views/checkout.vue'),
+  board: () => import('../views/board.vue'),
+  sets: () => import('../views/sets.vue'),
+  'fund-doc': () => import('../views/fund-doc.vue'),
+  'doc-editor': () => import('../views/doc-editor.vue'),
+  'serial-inventory': () => import('../views/serial-inventory.vue'),
+  'report-profit': () => import('../views/reports/profit.vue'),
+  'report-ar': () => import('../views/reports/ar.vue'),
+  'report-warning': () => import('../views/reports/stock-warning.vue'),
+  'user-order': () => import('../views/user-order.vue'),
+  goods: () => import('../views/goods/index.vue'),
+  'ai/model-config': () => import('../views/ai/model-config.vue'),
+  'ai/prompt-template': () => import('../views/ai/prompt-template.vue'),
+  'ai/playground': () => import('../views/ai/playground.vue'),
+  'ai/assistant': () => import('../views/ai/assistant.vue'),
+  'ai/logs': () => import('../views/ai/logs.vue'),
+  // 接口管理：移动端商城(order) / 第三方对接(third) 的接口说明页
+  'api-doc': () => import('../views/api-doc.vue'),
+  // 系统运维：操作日志（审计）
+  'sys-log': () => import('../views/system/log.vue'),
+  // 系统运维：消息中心 / 定时作业
+  'sys-message': () => import('../views/system/message.vue'),
+  'sys-job': () => import('../views/system/job.vue'),
+  // 系统运维：审批待办（消息中心 type=approval 的 link 指向 /approval-todo）
+  'sys-approval-todo': () => import('../views/system/approval-todo.vue'),
+};
+
+// 由菜单唯一事实源生成全部业务路由（页面与原系统 1:1）
+// meta 除 title/api 外，还透传菜单节点上的 meta 配置（如资金单据的 fund 配置）
+const businessRoutes = flattenMenus().map((m) => ({
+  path: m.path,
+  name: m.name,
+  component: components[m.component] || components.crud,
+  meta: { title: m.title, api: m.api, perm: m.perm, ...(m.meta || {}) },
+}));
+
+const routes = [
+  { path: '/login', name: 'Login', component: () => import('../views/login.vue'), meta: { public: true } },
+  {
+    path: '/',
+    component: Layout,
+    redirect: '/dashboard',
+    children: [
+      ...businessRoutes,
+      // 商品编辑（专用表单页，隐藏于菜单）
+      { path: 'goods/edit', name: 'GoodsEdit', component: () => import('../views/goods/form.vue'), meta: { title: '商品编辑', hidden: true, api: '/kuerp/goods' } },
+      { path: 'goods/edit/:id', name: 'GoodsEditId', component: () => import('../views/goods/form.vue'), meta: { title: '商品编辑', hidden: true, api: '/kuerp/goods' } },
+      // 通用打印页（原系统 Prints 控制器：按表+单据id 渲染可打印单据）
+      { path: 'print', name: 'Print', component: () => import('../views/print.vue'), meta: { title: '单据打印', hidden: true } },
+      // 报表打印页（原系统 Prints 的报表类打印：cgmx/cgddgz/cghzb_sp/cghzb_gys/cgfk/xsddgz）
+      { path: 'print-report', name: 'PrintReport', component: () => import('../views/print-report.vue'), meta: { title: '报表打印', hidden: true } },
+    ],
+  },
+  { path: '/:pathMatch(.*)*', redirect: '/dashboard' },
+];
+
+const router = createRouter({ history: createWebHistory(), routes });
+
+router.beforeEach(async (to, from, next) => {
+  const auth = useAuthStore();
+  if (!to.meta.public && !auth.token) return next('/login');
+  if (to.path === '/login' && auth.token) return next('/');
+  // 菜单/页面级权限：超管放行；其余按 route.meta.perm 判定（与后端 RbacGuard 口径一致）。
+  // 未登录态由上一层拦截，这里只处理「已登录但无权访问该菜单」的越权直链。
+  if (!to.meta.public && to.meta.perm) {
+    await loadPerms();
+    const { state } = usePerm();
+    if (!state.isSuper && !state.nodes.includes('*')) {
+      const perm = to.meta.perm;
+      const ok = perm.startsWith('kuerp/')
+        ? !!state.tables[perm.slice('kuerp/'.length)] || state.nodes.includes(perm) || state.menus.includes(perm)
+        : state.menus.includes(perm) || state.nodes.includes(perm);
+      if (!ok) {
+        message.warning('无权访问该页面');
+        return next('/dashboard');
+      }
+    }
+  }
+  next();
+});
+
+export default router;

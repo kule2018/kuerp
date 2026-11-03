@@ -1,1 +1,223 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQovKioKICog5o6l5Y+j5paH5qGj55Sf5oiQ5Zmo77ya5omr5o+PIHNyYy8qKlwvKi5jb250cm9sbGVyLnRz77yM5Lqn5Ye6IGRvY3MvQVBJLm1k44CCCiAqCiAqIOOAkOS4uuS7gOS5iOimgeiHquWKqOeUn+aIkOiAjOS4jeaYr+aJi+WGmeOAkQogKiDmnKzpobnnm67mnInljYHkvZnkuKrmjqfliLblmajjgIHkuKTnmb7lpJrkuKrmjqXlj6PvvIzlubbkuJTpgJrnlKjooajmjqXlj6PvvIgva3VlcnAvOnRhYmxlLyrvvIkKICog5piv44CM5LiA5Liq5o6n5Yi25Zmo6KaG55uWIDE1OSDlvKDooajjgI3nmoTlvaLmgIHjgILmiYvlhpnmlofmoaPlv4XnhLbkuI7ku6PnoIHohLHoioLvvIwKICog5LiA5Liq5pyI5ZCO5rKh5Lq65pWi5L+h5a6D44CC55Sf5oiQ55qE5paH5qGj5Y+v5Lul6ZqP5pe2IGBucG0gcnVuIGRvY3M6YXBpYCDph43ot5HvvIwKICog5LiO5Luj56CB5ZCM5rqQ77yM5aSp54S25LiN5Lya6K+06LCO44CCCiAqCiAqIOOAkOino+aekOetlueVpeOAkQogKiDkuI3lvJUgVHlwZVNjcmlwdCDnvJbor5HlmajvvIjpgb/lhY3kuLrkuIDkuKrohJrmnKzlop7liqDkvp3otZbvvInvvIzmlLnnlKjjgIzmraPliJkgKyDpgrvov5Hmiavmj4/jgI3vvJoKICogICAxLiBAQ29udHJvbGxlcigneCcpICAgICAgICAgICAg4oaSIOi3r+eUseWJjee8gAogKiAgIDIuIOexu+S4iiBAVXNlR3VhcmRzKC4uLikgICAgICAgIOKGkiDpibTmnYPmlrnlvI/vvIjmnIkgSnd0QXV0aEd1YXJkIOWNs+mcgOeZu+W9le+8iQogKiAgIDMuIEBHZXQvQFBvc3QvQFB1dC9AUGF0Y2gvQERlbGV0ZSDihpIg5YW35L2T5o6l5Y+jCiAqICAgNC4g57Sn6YK75YW25LiK55qEIC8qKiAuLi4gKlwvICAgICAg4oaSIOaOpeWPo+ivtOaYju+8iOWPluesrOS4gOihjOato+aWh++8iQogKiAgIDUuIOaWueazleetvuWQjeeahCBAQm9keS9AUXVlcnkvQFBhcmFtIOKGkiDlhaXlj4LmnaXmupAKICog5a+56KOF6aWw5Zmo5YaZ5rOV5YGa5LqG5a656ZSZ77ya5Y2V5byV5Y+3L+WPjOW8leWPty/lj43lvJXlj7fjgIHml6Dlj4LmlbAgQEdldCgp44CB6Leo6KGM562+5ZCN44CCCiAqCiAqIOeUqOazle+8mm5vZGUgc2NyaXB0cy9nZW4tYXBpLWRvYy5qcyBb6L6T5Ye66Lev5b6EXQogKiDov5Tlm57vvJrml6DvvIjlia/kvZznlKjkuLrlhpnmlofku7bvvIzlubblnKjmjqfliLblj7DmiZPljbDnu5/orqHvvIkKICovCmNvbnN0IGZzID0gcmVxdWlyZSgnZnMnKTsKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsKCmNvbnN0IFNSQ19ESVIgPSBwYXRoLmpvaW4oX19kaXJuYW1lLCAnLi4nLCAnc3JjJyk7CmNvbnN0IE9VVF9GSUxFID0gcHJvY2Vzcy5hcmd2WzJdCiAgPyBwYXRoLnJlc29sdmUocHJvY2Vzcy5hcmd2WzJdKQogIDogcGF0aC5qb2luKF9fZGlybmFtZSwgJy4uJywgJ2RvY3MnLCAnQVBJLm1kJyk7CgovKiog6YCS5b2S5pS26ZuG5o6n5Yi25Zmo5paH5Lu2ICovCmZ1bmN0aW9uIHdhbGsoZGlyLCBhY2MgPSBbXSkgewogIGZvciAoY29uc3QgbmFtZSBvZiBmcy5yZWFkZGlyU3luYyhkaXIsIHsgd2l0aEZpbGVUeXBlczogdHJ1ZSB9KSkgewogICAgY29uc3QgZnVsbCA9IHBhdGguam9pbihkaXIsIG5hbWUubmFtZSk7CiAgICBpZiAobmFtZS5pc0RpcmVjdG9yeSgpKSB3YWxrKGZ1bGwsIGFjYyk7CiAgICBlbHNlIGlmIChuYW1lLm5hbWUuZW5kc1dpdGgoJy5jb250cm9sbGVyLnRzJykpIGFjYy5wdXNoKGZ1bGwpOwogIH0KICByZXR1cm4gYWNjOwp9CgovKioKICog5LuO6KOF6aWw5Zmo5L2N572u5ZCR5YmN5om+5pyA6L+R55qEIEpTRG9jIOazqOmHiu+8jOWPlummluS4qumdnuepuuato+aWh+ihjOS9nOS4uuivtOaYjuOAggogKiBAcGFyYW0ge3N0cmluZ30gdGV4dCDmlofku7blhajmlocKICogQHBhcmFtIHtudW1iZXJ9IHBvcyDoo4XppbDlmajotbflp4vkuIvmoIcKICogQHJldHVybnMge3N0cmluZ30g6K+05piO5paH5qGI77yI5om+5LiN5Yiw5YiZ56m65Liy77yJCiAqLwpmdW5jdGlvbiBkb2NTdW1tYXJ5QmVmb3JlKHRleHQsIHBvcykgewogIGNvbnN0IGhlYWQgPSB0ZXh0LnNsaWNlKDAsIHBvcyk7CiAgY29uc3Qgc3RhcnQgPSBoZWFkLmxhc3RJbmRleE9mKCcvKionKTsKICBpZiAoc3RhcnQgPCAwKSByZXR1cm4gJyc7CiAgY29uc3QgZW5kID0gaGVhZC5pbmRleE9mKCcqLycsIHN0YXJ0KTsKICBpZiAoZW5kIDwgMCkgcmV0dXJuICcnOwogIC8vIOS4peagvOebuOmCu+WIpOWumu+8muazqOmHiue7k+WwvuWIsOijhemlsOWZqOS5i+mXtOS4jeW6lOWHuueOsOivreWPpee7k+adn+espu+8iH0g5oiWIDvvvInjgIIKICAvLyDlh7rnjrDkuobor7TmmI7kuK3pl7TpmpTnnYDkuIrkuIDkuKrmlrnms5Uv5a2X5q6177yM6L+Z5q615rOo6YeK5bGe5LqO5Yir5Lq677yMCiAgLy8g5ou/5a6D5b2T5pys5o6l5Y+j6K+05piO5Lya6K6p5paH5qGj44CM55yL6LW35p2l5b6I5YWo44CB5YW25a6e5piv6ZSZ55qE44CN77yM5q+U55WZ56m65pu05pyJ5a6z44CCCiAgY29uc3QgYmV0d2VlbiA9IGhlYWQuc2xpY2UoZW5kICsgMik7CiAgaWYgKC9bfTtdLy50ZXN0KGJldHdlZW4pIHx8IGJldHdlZW4ubGVuZ3RoID4gNDAwKSByZXR1cm4gJyc7CiAgY29uc3QgYm9keSA9IGhlYWQuc2xpY2Uoc3RhcnQgKyAzLCBlbmQpOwogIGNvbnN0IGxpbmVzID0gYm9keQogICAgLnNwbGl0KCdcbicpCiAgICAubWFwKChsKSA9PiBsLnJlcGxhY2UoL15ccypcKlxzPy8sICcnKS50cmltKCkpCiAgICAuZmlsdGVyKChsKSA9PiBsICYmICFsLnN0YXJ0c1dpdGgoJ0AnKSk7CiAgcmV0dXJuIGxpbmVzWzBdIHx8ICcnOwp9CgovKioKICog6Kej5p6Q5Y2V5Liq5o6n5Yi25Zmo5paH5Lu244CCCiAqIEBwYXJhbSB7c3RyaW5nfSBmaWxlIOe7neWvuei3r+W+hAogKiBAcmV0dXJucyB7e2Jhc2U6c3RyaW5nLCBmaWxlOnN0cmluZywgYXV0aDpzdHJpbmcsIHJvdXRlczpBcnJheX19CiAqLwpmdW5jdGlvbiBwYXJzZUNvbnRyb2xsZXIoZmlsZSkgewogIGNvbnN0IHRleHQgPSBmcy5yZWFkRmlsZVN5bmMoZmlsZSwgJ3V0ZjgnKTsKICBjb25zdCBiYXNlTWF0Y2ggPSB0ZXh0Lm1hdGNoKC9AQ29udHJvbGxlclwoXHMqKD86WyciYF0oW14nImBdKilbJyJgXSk/XHMqXCkvKTsKICBjb25zdCBiYXNlID0gYmFzZU1hdGNoID8gYmFzZU1hdGNoWzFdIHx8ICcnIDogJyc7CgogIC8vIOexu+e6p+mJtOadg++8muWPliBleHBvcnQgY2xhc3Mg5LmL5YmN55qEIEBVc2VHdWFyZHMoLi4uKQogIGNvbnN0IGNsYXNzUG9zID0gdGV4dC5zZWFyY2goL2V4cG9ydFxzK2NsYXNzXHMrXHcrQ29udHJvbGxlci8pOwogIGNvbnN0IGNsYXNzSGVhZCA9IGNsYXNzUG9zID4gMCA/IHRleHQuc2xpY2UoMCwgY2xhc3NQb3MpIDogdGV4dDsKICBjb25zdCBjbGFzc0d1YXJkcyA9IFsuLi5jbGFzc0hlYWQubWF0Y2hBbGwoL0BVc2VHdWFyZHNcKChbXildKilcKS9nKV0KICAgIC5tYXAoKG0pID0+IG1bMV0pCiAgICAuam9pbignLCcpOwoKICAvKioKICAgKiDmiorlrojljavooajovr7lvI/nv7vor5HmiJDkurror53jgIIKICAgKgogICAqIOazqOaEj+W/hemhu+WQiOW5tuOAjOexu+e6p+OAjeS4juOAjOaWueazlee6p+OAjeS4pOWkhO+8mgogICAqIOWDjyBBdXRoQ29udHJvbGxlciDov5nnsbvmjqfliLblmajmmK/nsbvkuIrkuI3mjILlrojljavjgIHmr4/kuKrpnIDopoHpibTmnYPnmoTmlrnms5XljZXni6zmjILvvIwKICAgKiDlj6rnnIvnsbvnuqfkvJrmioogL2F1dGgvcHJvZmlsZSDkuYvnsbvmoIfmiJDjgIzlhazlvIDjgI3vvIzmmK/mmI7noa7nmoTplJnmlofmoaPjgIIKICAgKgogICAqIEBwYXJhbSB7c3RyaW5nfSBnIOWuiOWNq+ihqOi+vuW8j+S4su+8iOWPr+iDveS4uuepuu+8iQogICAqIEByZXR1cm5zIHtzdHJpbmd9IOmJtOadg+aPj+i/sAogICAqLwogIGNvbnN0IGRlc2NyaWJlR3VhcmRzID0gKGcpID0+IHsKICAgIGlmICgvSnd0QXV0aEd1YXJkLy50ZXN0KGcpICYmIC9SYmFjR3VhcmQvLnRlc3QoZykpIHJldHVybiAn55m75b2VICsg5p2D6ZmQ6IqC54K5JzsKICAgIGlmICgvSnd0QXV0aEd1YXJkLy50ZXN0KGcpKSByZXR1cm4gJ+eZu+W9lSc7CiAgICByZXR1cm4gZy50cmltKCkgPyBnLnRyaW0oKSA6ICflhazlvIAnOwogIH07CgogIC8vIOmAkOS4quWMuemFjSBIVFRQIOaWueazleijhemlsOWZqAogIGNvbnN0IHJvdXRlcyA9IFtdOwogIGNvbnN0IHJlID0gL0AoR2V0fFBvc3R8UHV0fFBhdGNofERlbGV0ZSlcKFxzKig/OlsnImBdKFteJyJgXSopWyciYF0pP1xzKlwpL2c7CiAgbGV0IG07CiAgd2hpbGUgKChtID0gcmUuZXhlYyh0ZXh0KSkgIT09IG51bGwpIHsKICAgIGNvbnN0IHZlcmIgPSBtWzFdLnRvVXBwZXJDYXNlKCk7CiAgICBjb25zdCBzdWIgPSBtWzJdIHx8ICcnOwogICAgY29uc3QgYWZ0ZXIgPSB0ZXh0LnNsaWNlKG0uaW5kZXggKyBtWzBdLmxlbmd0aCwgbS5pbmRleCArIG1bMF0ubGVuZ3RoICsgMTIwMCk7CiAgICAvLyDot7Pov4foo4XppbDlmajlj4LmlbDvvIzlrprkvY3mlrnms5XlkI0KICAgIGNvbnN0IHNpZyA9IGFmdGVyLm1hdGNoKC9cblxzKyg/Oig/OnB1YmxpY3xwcml2YXRlfHByb3RlY3RlZHxhc3luYylccyspKihbQS1aYS16XyRdW1x3JF0qKVxzKlwoLyk7CiAgICBjb25zdCBtZXRob2QgPSBzaWcgPyBzaWdbMV0gOiAnJzsKICAgIC8vIOS7juaWueazleWQjeS9jee9ruWPluaLrOWPt+WGheeahOWPguaVsOS4su+8iOWFgeiuuOi3qOihjO+8iQogICAgbGV0IHBhcmFtcyA9ICcnOwogICAgaWYgKHNpZykgewogICAgICBjb25zdCBwYXJlblN0YXJ0ID0gYWZ0ZXIuaW5kZXhPZignKCcsIHNpZy5pbmRleCk7CiAgICAgIGlmIChwYXJlblN0YXJ0ID49IDApIHsKICAgICAgICBsZXQgZGVwdGggPSAwOwogICAgICAgIGZvciAobGV0IGkgPSBwYXJlblN0YXJ0OyBpIDwgYWZ0ZXIubGVuZ3RoOyBpKyspIHsKICAgICAgICAgIGlmIChhZnRlcltpXSA9PT0gJygnKSBkZXB0aCsrOwogICAgICAgICAgZWxzZSBpZiAoYWZ0ZXJbaV0gPT09ICcpJykgewogICAgICAgICAgICBkZXB0aC0tOwogICAgICAgICAgICBpZiAoZGVwdGggPT09IDApIHsKICAgICAgICAgICAgICBwYXJhbXMgPSBhZnRlci5zbGljZShwYXJlblN0YXJ0ICsgMSwgaSk7CiAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgIH0KICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0KICAgIH0KICAgIGNvbnN0IHJhd1NvdXJjZXMgPSBbLi4ucGFyYW1zLm1hdGNoQWxsKC9AKEJvZHl8UXVlcnl8UGFyYW18SGVhZGVyc3xDdXJyZW50VXNlcnxVcGxvYWRlZEZpbGV8UmVxKVwoXHMqKD86WyciYF0oW14nImBdKilbJyJgXSk/L2cpXQogICAgICAubWFwKChzKSA9PiAoc1syXSA/IGAke3NbMV19KCR7c1syXX0pYCA6IHNbMV0pKQogICAgICAuZmlsdGVyKCh2LCBpLCBhcnIpID0+IGFyci5pbmRleE9mKHYpID09PSBpKTsKICAgIC8vIOWQjOS4gOadpea6kOaXouacieWtl+autee6p++8iEJvZHkoaWQp77yJ5Y+I5pyJ5pW05L2T57qn77yIQm9kee+8ieaXtu+8jOWPquS/neeVmeabtOeyvuehrueahOWGmeazlQogICAgY29uc3QgZGV0YWlsZWQgPSBuZXcgU2V0KHJhd1NvdXJjZXMuZmlsdGVyKCh2KSA9PiB2LmluY2x1ZGVzKCcoJykpLm1hcCgodikgPT4gdi5zcGxpdCgnKCcpWzBdKSk7CiAgICBjb25zdCBzb3VyY2VzID0gcmF3U291cmNlcy5maWx0ZXIoKHYpID0+IHYuaW5jbHVkZXMoJygnKSB8fCAhZGV0YWlsZWQuaGFzKHYpKTsKCiAgICAvLyDmlrnms5XnuqflrojljavvvJrlj5bjgIzkuIrkuIDkuKrmiJDlkZjnu5PmnZ/vvIh977yJ5Yiw5pys6KOF6aWw5Zmo44CN5LmL6Ze055qEIEBVc2VHdWFyZHMKICAgIGNvbnN0IHByZXZCcmFjZSA9IHRleHQubGFzdEluZGV4T2YoJ30nLCBtLmluZGV4KTsKICAgIGNvbnN0IGxvY2FsU2VnbWVudCA9IHByZXZCcmFjZSA+IDAgPyB0ZXh0LnNsaWNlKHByZXZCcmFjZSArIDEsIG0uaW5kZXgpIDogJyc7CiAgICBjb25zdCBsb2NhbEd1YXJkcyA9IFsuLi5sb2NhbFNlZ21lbnQubWF0Y2hBbGwoL0BVc2VHdWFyZHNcKChbXildKilcKS9nKV0KICAgICAgLm1hcCgoZykgPT4gZ1sxXSkKICAgICAgLmpvaW4oJywnKTsKCiAgICByb3V0ZXMucHVzaCh7CiAgICAgIHZlcmIsCiAgICAgIHBhdGg6ICcvJyArIFtiYXNlLCBzdWJdLmZpbHRlcihCb29sZWFuKS5qb2luKCcvJyksCiAgICAgIG1ldGhvZCwKICAgICAgc3VtbWFyeTogZG9jU3VtbWFyeUJlZm9yZSh0ZXh0LCBtLmluZGV4KSwKICAgICAgcGFyYW1zOiBzb3VyY2VzLmpvaW4oJ+OAgScpLAogICAgICAvLyDmlrnms5XnuqflrojljavkvJjlhYjkuo7nsbvnuqfvvJrljZXni6zmjIIgUmJhY0d1YXJkIOeahOaWueazleS4jeW6lOiiq+WGmeaIkOOAjOS7heeZu+W9leOAjQogICAgICBhdXRoOiBkZXNjcmliZUd1YXJkcyhsb2NhbEd1YXJkcyB8fCBjbGFzc0d1YXJkcyksICAgIH0pOwogIH0KCiAgLy8g5byA5pS+5a+55o6l5o6l5Y+j5LiN55SoIEpXVO+8jOiAjOaYr+OAjOi0puWPtyArIOetvuWQjeOAjeagoemqjO+8iOeUsSBPcGVuQXBpU2VydmljZSDlhoXpg6jlrozmiJDvvInvvIwKICAvLyDlj6rmjInlrojljavmjqjmlq3kvJrooqvor6/moIfmiJDjgIzlhazlvIDjgI3vvIzlv4XpobvmmL7lvI/opobnm5bjgIIKICBpZiAoYmFzZS5zdGFydHNXaXRoKCdvcGVuYXBpJykpIHsKICAgIGZvciAoY29uc3QgciBvZiByb3V0ZXMpIHIuYXV0aCA9ICflvIDmlL7mjqXlj6PvvIjotKblj7cgKyDnrb7lkI3vvIknOwogIH0KCiAgLy8g5o6n5Yi25Zmo5pW05L2T6Ym05p2D5Y+j5b6E77ya5Y+W5omA5pyJ5o6l5Y+j5Lit5pyA5Lil5qC855qE5LiA5qGj77yM55So5LqO5bCP6IqC5qCH6aKY5bGV56S6CiAgY29uc3QgcmFuayA9IHsg5YWs5byAOiAwLCDnmbvlvZU6IDEsICfnmbvlvZUgKyDmnYPpmZDoioLngrknOiAyIH07CiAgY29uc3QgYXV0aCA9IHJvdXRlcy5yZWR1Y2UoCiAgICAoYWNjLCByKSA9PiAoKHJhbmtbci5hdXRoXSA/PyAxKSA+IChyYW5rW2FjY10gPz8gMCkgPyByLmF1dGggOiBhY2MpLAogICAgJ+WFrOW8gCcsCiAgKTsKCiAgcmV0dXJuIHsgYmFzZTogJy8nICsgYmFzZSwgZmlsZTogcGF0aC5yZWxhdGl2ZShwYXRoLmpvaW4oX19kaXJuYW1lLCAnLi4nKSwgZmlsZSksIGF1dGgsIHJvdXRlcyB9Owp9CgovKioKICog5Li75rWB56iL77ya5omr5o+PIOKGkiDnlJ/miJAgTWFya2Rvd24g4oaSIOWGmeebmOOAggogKiBAcmV0dXJucyDml6AKICovCmZ1bmN0aW9uIG1haW4oKSB7CiAgY29uc3QgZmlsZXMgPSB3YWxrKFNSQ19ESVIpLnNvcnQoKTsKICBjb25zdCBjb250cm9sbGVycyA9IGZpbGVzLm1hcChwYXJzZUNvbnRyb2xsZXIpLmZpbHRlcigoYykgPT4gYy5yb3V0ZXMubGVuZ3RoKTsKICBjb25zdCB0b3RhbCA9IGNvbnRyb2xsZXJzLnJlZHVjZSgocywgYykgPT4gcyArIGMucm91dGVzLmxlbmd0aCwgMCk7CgogIGNvbnN0IG91dCA9IFtdOwogIG91dC5wdXNoKCcjIOi/m+mUgOWtmCBFUlAg5ZCO56uv5o6l5Y+j5paH5qGjJyk7CiAgb3V0LnB1c2goJycpOwogIG91dC5wdXNoKCc+IOacrOaWh+S7tueUsSBgbnBtIHJ1biBkb2NzOmFwaWDvvIhgc2NyaXB0cy9nZW4tYXBpLWRvYy5qc2DvvInku47mjqfliLblmajmupDnoIHoh6rliqjnlJ/miJDvvIwqKuivt+WLv+aJi+W3pee8lui+kSoq44CCJyk7CiAgb3V0LnB1c2goJz4g5L+u5pS55o6l5Y+j5ZCO6YeN5paw5omn6KGM5Y2z5Y+v5ZCM5q2l44CCJyk7CiAgb3V0LnB1c2goJycpOwogIG91dC5wdXNoKCcjIyDmgLvop4gnKTsKICBvdXQucHVzaCgnJyk7CiAgb3V0LnB1c2goJ3wg5oyH5qCHIHwg5pWw5YC8IHwnKTsKICBvdXQucHVzaCgnfCAtLS0gfCAtLS0gfCcpOwogIG91dC5wdXNoKGB8IOaOp+WItuWZqCB8ICR7Y29udHJvbGxlcnMubGVuZ3RofSB8YCk7CiAgb3V0LnB1c2goYHwg5o6l5Y+j5oC75pWwIHwgJHt0b3RhbH0gfGApOwogIG91dC5wdXNoKGB8IOeUn+aIkOaXtumXtCB8ICR7bmV3IERhdGUoKS50b0xvY2FsZVN0cmluZygnemgtQ04nLCB7IGhvdXIxMjogZmFsc2UgfSl9IHxgKTsKICBvdXQucHVzaCgnJyk7CiAgb3V0LnB1c2goJ+e7n+S4gOe6puWumu+8micpOwogIG91dC5wdXNoKCcnKTsKICBvdXQucHVzaCgnLSDlk43lupTkvZPlm7rlrprkuLogYHsgY29kZSwgbXNnLCBkYXRhIH1g77yMYGNvZGUgPSAxYCDooajnpLrmiJDlip/vvIjkuI7ljp8gRmFzdEFkbWluIOS4gOiHtO+8ie+8mycpOwogIG91dC5wdXNoKCctIOS4muWKoeihqOaOpeWPo+W9ouWmgiBgL2t1ZXJwLzzooajlkI0+LzzliqjkvZw+YO+8jOihqOWQjeeUqOi/nuWtl+espu+8iGBnb29kcy10eXBlYO+8ieaIluS4i+WIkue6v+Wdh+WPr++8mycpOwogIG91dC5wdXNoKCctIOmAmueUqOihqOWKqOS9nOWbuuWumuS4uiBgaW5kZXggLyBnZXQgLyBjb2x1bW5zIC8gb3B0aW9ucyAvIGFkZCAvIGVkaXQgLyBkZWwgLyBleGFtaW5lIC8gaW1wb3J0IC8gZXhwb3J0IC8gcmVjeWNsZWJpbiAvIHJlZHVjdGlvbiAvIHJlYWxkZWwgLyBjb3VudGVyIC8gdHJ1bmNhdGVg77ybJyk7CiAgb3V0LnB1c2goJy0g5pe26Ze05oiz57uf5LiA5Li656eS57qn5pW05pWw77yIYGNyZWF0ZXRpbWVgIC8gYHVwZGF0ZXRpbWVgIC8gYGRlbGV0ZXRpbWVg77yJ77yMYGRlbGV0ZXRpbWUgPiAwYCDooajnpLrova/liKDpmaTjgIInKTsKICBvdXQucHVzaCgnJyk7CgogIC8vIOaMieWJjee8gOWIhue7hO+8jOS+v+S6juaMieaooeWdl+afpemYhQogIG91dC5wdXNoKCcjIyDmjqXlj6PmuIXljZUnKTsKICBvdXQucHVzaCgnJyk7CiAgZm9yIChjb25zdCBjIG9mIGNvbnRyb2xsZXJzKSB7CiAgICBvdXQucHVzaChgIyMjICR7Yy5iYXNlfeOAgDxzcGFuPu+8iCR7Yy5hdXRofe+8iTwvc3Bhbj5gKTsKICAgIG91dC5wdXNoKCcnKTsKICAgIG91dC5wdXNoKGDmupDnoIHvvJpcYCR7Yy5maWxlfVxgYCk7CiAgICBvdXQucHVzaCgnJyk7CiAgICBvdXQucHVzaCgnfCDmlrnms5UgfCDot6/lvoQgfCDmlrnms5XlkI0gfCDpibTmnYMgfCDlhaXlj4LmnaXmupAgfCDor7TmmI4gfCcpOwogICAgb3V0LnB1c2goJ3wgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwnKTsKICAgIGZvciAoY29uc3QgciBvZiBjLnJvdXRlcykgewogICAgICBvdXQucHVzaCgKICAgICAgICBgfCAke3IudmVyYn0gfCBcYCR7ci5wYXRofVxgIHwgJHtyLm1ldGhvZH0gfCAke3IuYXV0aH0gfCAke3IucGFyYW1zIHx8ICctJ30gfCAke3Iuc3VtbWFyeSB8fCAnLSd9IHxgLAogICAgICApOwogICAgfQogICAgb3V0LnB1c2goJycpOwogIH0KCiAgZnMubWtkaXJTeW5jKHBhdGguZGlybmFtZShPVVRfRklMRSksIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwogIGZzLndyaXRlRmlsZVN5bmMoT1VUX0ZJTEUsIG91dC5qb2luKCdcbicpLCAndXRmOCcpOwogIGNvbnNvbGUubG9nKGDlt7LnlJ/miJDmjqXlj6PmlofmoaPvvJoke09VVF9GSUxFfWApOwogIGNvbnNvbGUubG9nKGDmjqfliLblmaggJHtjb250cm9sbGVycy5sZW5ndGh9IOS4qu+8jOaOpeWPoyAke3RvdGFsfSDkuKpgKTsKfQoKbWFpbigpOwo=
+#!/usr/bin/env node
+/**
+ * 接口文档生成器：扫描 src/**\/*.controller.ts，产出 docs/API.md。
+ *
+ * 【为什么要自动生成而不是手写】
+ * 本项目有十余个控制器、两百多个接口，并且通用表接口（/kuerp/:table/*）
+ * 是「一个控制器覆盖 159 张表」的形态。手写文档必然与代码脱节，
+ * 一个月后没人敢信它。生成的文档可以随时 `npm run docs:api` 重跑，
+ * 与代码同源，天然不会说谎。
+ *
+ * 【解析策略】
+ * 不引 TypeScript 编译器（避免为一个脚本增加依赖），改用「正则 + 邻近扫描」：
+ *   1. @Controller('x')            → 路由前缀
+ *   2. 类上 @UseGuards(...)        → 鉴权方式（有 JwtAuthGuard 即需登录）
+ *   3. @Get/@Post/@Put/@Patch/@Delete → 具体接口
+ *   4. 紧邻其上的 /** ... *\/      → 接口说明（取第一行正文）
+ *   5. 方法签名的 @Body/@Query/@Param → 入参来源
+ * 对装饰器写法做了容错：单引号/双引号/反引号、无参数 @Get()、跨行签名。
+ *
+ * 用法：node scripts/gen-api-doc.js [输出路径]
+ * 返回：无（副作用为写文件，并在控制台打印统计）
+ */
+const fs = require('fs');
+const path = require('path');
+
+const SRC_DIR = path.join(__dirname, '..', 'src');
+const OUT_FILE = process.argv[2]
+  ? path.resolve(process.argv[2])
+  : path.join(__dirname, '..', 'docs', 'API.md');
+
+/** 递归收集控制器文件 */
+function walk(dir, acc = []) {
+  for (const name of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, name.name);
+    if (name.isDirectory()) walk(full, acc);
+    else if (name.name.endsWith('.controller.ts')) acc.push(full);
+  }
+  return acc;
+}
+
+/**
+ * 从装饰器位置向前找最近的 JSDoc 注释，取首个非空正文行作为说明。
+ * @param {string} text 文件全文
+ * @param {number} pos 装饰器起始下标
+ * @returns {string} 说明文案（找不到则空串）
+ */
+function docSummaryBefore(text, pos) {
+  const head = text.slice(0, pos);
+  const start = head.lastIndexOf('/**');
+  if (start < 0) return '';
+  const end = head.indexOf('*/', start);
+  if (end < 0) return '';
+  // 严格相邻判定：注释结尾到装饰器之间不应出现语句结束符（} 或 ;）。
+  // 出现了说明中间隔着上一个方法/字段，这段注释属于别人，
+  // 拿它当本接口说明会让文档「看起来很全、其实是错的」，比留空更有害。
+  const between = head.slice(end + 2);
+  if (/[};]/.test(between) || between.length > 400) return '';
+  const body = head.slice(start + 3, end);
+  const lines = body
+    .split('\n')
+    .map((l) => l.replace(/^\s*\*\s?/, '').trim())
+    .filter((l) => l && !l.startsWith('@'));
+  return lines[0] || '';
+}
+
+/**
+ * 解析单个控制器文件。
+ * @param {string} file 绝对路径
+ * @returns {{base:string, file:string, auth:string, routes:Array}}
+ */
+function parseController(file) {
+  const text = fs.readFileSync(file, 'utf8');
+  const baseMatch = text.match(/@Controller\(\s*(?:['"`]([^'"`]*)['"`])?\s*\)/);
+  const base = baseMatch ? baseMatch[1] || '' : '';
+
+  // 类级鉴权：取 export class 之前的 @UseGuards(...)
+  const classPos = text.search(/export\s+class\s+\w+Controller/);
+  const classHead = classPos > 0 ? text.slice(0, classPos) : text;
+  const classGuards = [...classHead.matchAll(/@UseGuards\(([^)]*)\)/g)]
+    .map((m) => m[1])
+    .join(',');
+
+  /**
+   * 把守卫表达式翻译成人话。
+   *
+   * 注意必须合并「类级」与「方法级」两处：
+   * 像 AuthController 这类控制器是类上不挂守卫、每个需要鉴权的方法单独挂，
+   * 只看类级会把 /auth/profile 之类标成「公开」，是明确的错文档。
+   *
+   * @param {string} g 守卫表达式串（可能为空）
+   * @returns {string} 鉴权描述
+   */
+  const describeGuards = (g) => {
+    if (/JwtAuthGuard/.test(g) && /RbacGuard/.test(g)) return '登录 + 权限节点';
+    if (/JwtAuthGuard/.test(g)) return '登录';
+    return g.trim() ? g.trim() : '公开';
+  };
+
+  // 逐个匹配 HTTP 方法装饰器
+  const routes = [];
+  const re = /@(Get|Post|Put|Patch|Delete)\(\s*(?:['"`]([^'"`]*)['"`])?\s*\)/g;
+  let m;
+  while ((m = re.exec(text)) !== null) {
+    const verb = m[1].toUpperCase();
+    const sub = m[2] || '';
+    const after = text.slice(m.index + m[0].length, m.index + m[0].length + 1200);
+    // 跳过装饰器参数，定位方法名
+    const sig = after.match(/\n\s+(?:(?:public|private|protected|async)\s+)*([A-Za-z_$][\w$]*)\s*\(/);
+    const method = sig ? sig[1] : '';
+    // 从方法名位置取括号内的参数串（允许跨行）
+    let params = '';
+    if (sig) {
+      const parenStart = after.indexOf('(', sig.index);
+      if (parenStart >= 0) {
+        let depth = 0;
+        for (let i = parenStart; i < after.length; i++) {
+          if (after[i] === '(') depth++;
+          else if (after[i] === ')') {
+            depth--;
+            if (depth === 0) {
+              params = after.slice(parenStart + 1, i);
+              break;
+            }
+          }
+        }
+      }
+    }
+    const rawSources = [...params.matchAll(/@(Body|Query|Param|Headers|CurrentUser|UploadedFile|Req)\(\s*(?:['"`]([^'"`]*)['"`])?/g)]
+      .map((s) => (s[2] ? `${s[1]}(${s[2]})` : s[1]))
+      .filter((v, i, arr) => arr.indexOf(v) === i);
+    // 同一来源既有字段级（Body(id)）又有整体级（Body）时，只保留更精确的写法
+    const detailed = new Set(rawSources.filter((v) => v.includes('(')).map((v) => v.split('(')[0]));
+    const sources = rawSources.filter((v) => v.includes('(') || !detailed.has(v));
+
+    // 方法级守卫：取「上一个成员结束（}）到本装饰器」之间的 @UseGuards
+    const prevBrace = text.lastIndexOf('}', m.index);
+    const localSegment = prevBrace > 0 ? text.slice(prevBrace + 1, m.index) : '';
+    const localGuards = [...localSegment.matchAll(/@UseGuards\(([^)]*)\)/g)]
+      .map((g) => g[1])
+      .join(',');
+
+    routes.push({
+      verb,
+      path: '/' + [base, sub].filter(Boolean).join('/'),
+      method,
+      summary: docSummaryBefore(text, m.index),
+      params: sources.join('、'),
+      // 方法级守卫优先于类级：单独挂 RbacGuard 的方法不应被写成「仅登录」
+      auth: describeGuards(localGuards || classGuards),    });
+  }
+
+  // 开放对接接口不用 JWT，而是「账号 + 签名」校验（由 OpenApiService 内部完成），
+  // 只按守卫推断会被误标成「公开」，必须显式覆盖。
+  if (base.startsWith('openapi')) {
+    for (const r of routes) r.auth = '开放接口（账号 + 签名）';
+  }
+
+  // 控制器整体鉴权口径：取所有接口中最严格的一档，用于小节标题展示
+  const rank = { 公开: 0, 登录: 1, '登录 + 权限节点': 2 };
+  const auth = routes.reduce(
+    (acc, r) => ((rank[r.auth] ?? 1) > (rank[acc] ?? 0) ? r.auth : acc),
+    '公开',
+  );
+
+  return { base: '/' + base, file: path.relative(path.join(__dirname, '..'), file), auth, routes };
+}
+
+/**
+ * 主流程：扫描 → 生成 Markdown → 写盘。
+ * @returns 无
+ */
+function main() {
+  const files = walk(SRC_DIR).sort();
+  const controllers = files.map(parseController).filter((c) => c.routes.length);
+  const total = controllers.reduce((s, c) => s + c.routes.length, 0);
+
+  const out = [];
+  out.push('# 进销存 ERP 后端接口文档');
+  out.push('');
+  out.push('> 本文件由 `npm run docs:api`（`scripts/gen-api-doc.js`）从控制器源码自动生成，**请勿手工编辑**。');
+  out.push('> 修改接口后重新执行即可同步。');
+  out.push('');
+  out.push('## 总览');
+  out.push('');
+  out.push('| 指标 | 数值 |');
+  out.push('| --- | --- |');
+  out.push(`| 控制器 | ${controllers.length} |`);
+  out.push(`| 接口总数 | ${total} |`);
+  out.push(`| 生成时间 | ${new Date().toLocaleString('zh-CN', { hour12: false })} |`);
+  out.push('');
+  out.push('统一约定：');
+  out.push('');
+  out.push('- 响应体固定为 `{ code, msg, data }`，`code = 1` 表示成功（与原 FastAdmin 一致）；');
+  out.push('- 业务表接口形如 `/kuerp/<表名>/<动作>`，表名用连字符（`goods-type`）或下划线均可；');
+  out.push('- 通用表动作固定为 `index / get / columns / options / add / edit / del / examine / import / export / recyclebin / reduction / realdel / counter / truncate`；');
+  out.push('- 时间戳统一为秒级整数（`createtime` / `updatetime` / `deletetime`），`deletetime > 0` 表示软删除。');
+  out.push('');
+
+  // 按前缀分组，便于按模块查阅
+  out.push('## 接口清单');
+  out.push('');
+  for (const c of controllers) {
+    out.push(`### ${c.base}　<span>（${c.auth}）</span>`);
+    out.push('');
+    out.push(`源码：\`${c.file}\``);
+    out.push('');
+    out.push('| 方法 | 路径 | 方法名 | 鉴权 | 入参来源 | 说明 |');
+    out.push('| --- | --- | --- | --- | --- | --- |');
+    for (const r of c.routes) {
+      out.push(
+        `| ${r.verb} | \`${r.path}\` | ${r.method} | ${r.auth} | ${r.params || '-'} | ${r.summary || '-'} |`,
+      );
+    }
+    out.push('');
+  }
+
+  fs.mkdirSync(path.dirname(OUT_FILE), { recursive: true });
+  fs.writeFileSync(OUT_FILE, out.join('\n'), 'utf8');
+  console.log(`已生成接口文档：${OUT_FILE}`);
+  console.log(`控制器 ${controllers.length} 个，接口 ${total} 个`);
+}
+
+main();

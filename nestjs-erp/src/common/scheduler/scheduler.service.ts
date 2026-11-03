@@ -1,1 +1,309 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgTG9nZ2VyLCBPbk1vZHVsZURlc3Ryb3ksIE9uTW9kdWxlSW5pdCB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsKaW1wb3J0IHsgRGF0YVNvdXJjZSB9IGZyb20gJ3R5cGVvcm0nOwppbXBvcnQgeyBDcm9uU3BlYywgY3Jvbk1hdGNoZXMsIG1pbnV0ZUtleSwgbmV4dFJ1bkF0LCBwYXJzZUNyb24gfSBmcm9tICcuL2Nyb24udXRpbCc7CgovKiog5L2c5Lia5omn6KGM57uT5p6cICovCmV4cG9ydCBpbnRlcmZhY2UgSm9iUmVzdWx0IHsKICAvKiog5LiA5Y+l6K+d5pGY6KaB77yI5YaZ5YWlIGt1ZXJwX2pvYl9sb2cubWVzc2FnZe+8iSAqLwogIG1lc3NhZ2U6IHN0cmluZzsKICAvKiog6K+m57uG5L+h5oGv77yI5Y+v6YCJ77yM5oiq5pat5ZCO6JC9IGRldGFpbO+8iSAqLwogIGRldGFpbD86IHN0cmluZzsKfQoKLyoqIOS9nOS4muWumuS5iSAqLwpleHBvcnQgaW50ZXJmYWNlIEpvYkRlZmluaXRpb24gewogIC8qKiDllK/kuIDmoIfor4bvvIjkuI4ga3VlcnBfc2V0cyDnmoQgam9iXzxuYW1lPiDlvIDlhbPlr7nlupTvvIkgKi8KICBuYW1lOiBzdHJpbmc7CiAgLyoqIOS4reaWh+WQjSAqLwogIHRpdGxlOiBzdHJpbmc7CiAgLyoqIOS6lOauteW8jyBjcm9uICovCiAgY3Jvbjogc3RyaW5nOwogIC8qKiDor7TmmI4gKi8KICBkZXNjcmlwdGlvbj86IHN0cmluZzsKICAvKiog5piv5ZCm6buY6K6k5ZCv55So77yI57O757uf5Y+C5pWw5pyq6YWN572u5pe25L2/55So77yJICovCiAgZW5hYmxlZEJ5RGVmYXVsdD86IGJvb2xlYW47CiAgLyoqIOaJp+ihjOS9kyAqLwogIGhhbmRsZXI6ICgpID0+IFByb21pc2U8Sm9iUmVzdWx0PjsKfQoKLyoqIOi/kOihjOaXtuS9nOS4mueKtuaAgSAqLwppbnRlcmZhY2UgSm9iUnVudGltZSBleHRlbmRzIEpvYkRlZmluaXRpb24gewogIC8qKiDop6PmnpDlkI7nmoQgY3JvbiAqLwogIHNwZWM6IENyb25TcGVjOwogIC8qKiDkuIrmrKHmiafooYznmoTliIbpkp/plK7vvIjpmLLlkIzliIbpkp/ph43lpI3op6blj5HvvIkgKi8KICBsYXN0TWludXRlOiBzdHJpbmc7CiAgLyoqIOS4iuasoeaJp+ihjOaXtumXtO+8iOenkue6p+aXtumXtOaIs++8iSAqLwogIGxhc3RSdW5BdDogbnVtYmVyOwogIC8qKiDkuIrmrKHmiafooYznu5PmnpzmkZjopoEgKi8KICBsYXN0TWVzc2FnZTogc3RyaW5nOwogIC8qKiDkuIrmrKHmmK/lkKbmiJDlip8gKi8KICBsYXN0U3VjY2VzczogYm9vbGVhbjsKICAvKiog5piv5ZCm5q2j5Zyo5omn6KGMICovCiAgcnVubmluZzogYm9vbGVhbjsKfQoKLyoqCiAqIOi9u+mHj+WumuaXtuS7u+WKoeWGheaguOOAggogKgogKiDlt6XkvZzmlrnlvI/vvJrmr48gMjAg56eS6L2u6K+i5LiA5qyh57O757uf5pe26Ze077yM5ZG95LitIGNyb24g55qE5L2c5Lia5Zyo5pys5YiG6ZKf5YaF5omn6KGM5LiA5qyh77yI5oyJ5YiG6ZKf5Y676YeN77yJ44CCCiAqIOS4uuS7gOS5iOS4jeeUqOOAjOaMiSBjcm9uIOiuoeeul+S4i+S4gOasoeeyvuehriBzZXRUaW1lb3V044CN77yaCiAqIOezu+e7n+aXtumXtOWPr+iDveiiqyBOVFAg5qCh5q2j44CB6L+b56iL5Y+v6IO96KKr5oyC6LW377yM6L2u6K+i5pa55byP5Y2z5L2/5ryC56e75Lmf6IO95ZyoIDIwIOenkuWGheiHquWKqOe6oOato++8mwogKiAyMCDnp5LnspLluqblr7njgIzmr4/lpKnlrprngrkgLyDmr48gTiDliIbpkp/jgI3ov5nnsbvkvZzkuJrlrozlhajlpJ/nlKjvvIzkuJTlrp7njrDnroDljZXkuI3lvJXlhaXkvp3otZbjgIIKICoKICog5omn6KGM6K6w5b2V57uf5LiA5YaZ5YWlIGt1ZXJwX2pvYl9sb2fvvIzkvpvnrqHnkIbpobXmn6XnnIvljoblj7LvvIjmiJDlip8v5aSx6LSlL+iAl+aXti/mkZjopoHvvInjgIIKICog5byA5YWz5a2Y5pS+5ZyoIGt1ZXJwX3NldHMg55qEIGpvYl88bmFtZT4g6KGM77yIJzAnIOWBnOeUqO+8jOWFtuS9meWQr+eUqO+8ie+8jDYwIOenkue8k+WtmOOAggogKi8KQEluamVjdGFibGUoKQpleHBvcnQgY2xhc3MgU2NoZWR1bGVyU2VydmljZSBpbXBsZW1lbnRzIE9uTW9kdWxlSW5pdCwgT25Nb2R1bGVEZXN0cm95IHsKICBwcml2YXRlIHJlYWRvbmx5IGxvZ2dlciA9IG5ldyBMb2dnZXIoU2NoZWR1bGVyU2VydmljZS5uYW1lKTsKCiAgLyoqIOW3suazqOWGjOS9nOS4miAqLwogIHByaXZhdGUgcmVhZG9ubHkgam9icyA9IG5ldyBNYXA8c3RyaW5nLCBKb2JSdW50aW1lPigpOwoKICAvKiog6L2u6K+i5a6a5pe25ZmoICovCiAgcHJpdmF0ZSB0aW1lcjogTm9kZUpTLlRpbWVvdXQgfCBudWxsID0gbnVsbDsKCiAgLyoqIOW8gOWFs+e8k+WtmO+8mm5hbWUgLT4geyBlbmFibGVkLCBhdCB9ICovCiAgcHJpdmF0ZSByZWFkb25seSBzd2l0Y2hDYWNoZSA9IG5ldyBNYXA8c3RyaW5nLCB7IGVuYWJsZWQ6IGJvb2xlYW47IGF0OiBudW1iZXIgfT4oKTsKCiAgLyoqIOmmluasoeaJq+aPj+W7tui/n++8iOavq+enku+8ie+8muetieWQhOaooeWdlyBvbk1vZHVsZUluaXQg5rOo5YaM5a6M5L2c5Lia5ZCO5YaN5byA5aeLICovCiAgcHJpdmF0ZSByZWFkb25seSBib290RGVsYXkgPSAzMDAwOwoKICAvKiog6L2u6K+i6Ze06ZqU77yI5q+r56eS77yJICovCiAgcHJpdmF0ZSByZWFkb25seSBpbnRlcnZhbCA9IDIwMDAwOwoKICBjb25zdHJ1Y3Rvcihwcml2YXRlIHJlYWRvbmx5IGRhdGFTb3VyY2U6IERhdGFTb3VyY2UpIHt9CgogIC8qKiDlvZPliY3np5Lnuqfml7bpl7TmiLMgKi8KICBwcml2YXRlIG5vdygpOiBudW1iZXIgewogICAgcmV0dXJuIE1hdGguZmxvb3IoRGF0ZS5ub3coKSAvIDEwMDApOwogIH0KCiAgb25Nb2R1bGVJbml0KCk6IHZvaWQgewogICAgc2V0VGltZW91dCgoKSA9PiB7CiAgICAgIHRoaXMudGltZXIgPSBzZXRJbnRlcnZhbCgoKSA9PiB0aGlzLnRpY2soKSwgdGhpcy5pbnRlcnZhbCk7CiAgICAgIC8vIOWQr+WKqOWQjuWFiOi3keS4gOasoeaJq+aPj++8mui/m+eoi+iLpeWcqOS9nOS4muaXtuWIu+S5i+WklumHjeWQr++8jOS4jeS8muWboOatpOa8j+aOieW9k+WkqeS9nOS4mueahOS4i+S4gOasoeWRveS4re+8jAogICAgICAvLyDkvYboi6XmgbDlpb3lnKjlkb3kuK3liIbpkp/lhoXph43lkK/liJnog73nq4vliLvooaXot5HvvIhsYXN0TWludXRlIOS4uuepuu+8iQogICAgICB0aGlzLnRpY2soKTsKICAgICAgdGhpcy5sb2dnZXIubG9nKGDlrprml7bku7vliqHlhoXmoLjlt7LlkK/liqjvvIzlt7Lms6jlhowgJHt0aGlzLmpvYnMuc2l6ZX0g5Liq5L2c5Lia77yM6L2u6K+i6Ze06ZqUICR7dGhpcy5pbnRlcnZhbCAvIDEwMDB9c2ApOwogICAgfSwgdGhpcy5ib290RGVsYXkpOwogIH0KCiAgb25Nb2R1bGVEZXN0cm95KCk6IHZvaWQgewogICAgaWYgKHRoaXMudGltZXIpIGNsZWFySW50ZXJ2YWwodGhpcy50aW1lcik7CiAgICB0aGlzLnRpbWVyID0gbnVsbDsKICB9CgogIC8qKgogICAqIOazqOWGjOS4gOS4quS9nOS4muOAggogICAqIEBwYXJhbSBkZWYg5L2c5Lia5a6a5LmJCiAgICogQHJldHVybnMg5pegCiAgICovCiAgcmVnaXN0ZXIoZGVmOiBKb2JEZWZpbml0aW9uKTogdm9pZCB7CiAgICBpZiAodGhpcy5qb2JzLmhhcyhkZWYubmFtZSkpIHsKICAgICAgdGhpcy5sb2dnZXIud2Fybihg5L2c5LiaICR7ZGVmLm5hbWV9IOmHjeWkjeazqOWGjO+8jOW3suW/veeVpeWQjuiAhWApOwogICAgICByZXR1cm47CiAgICB9CiAgICBsZXQgc3BlYzogQ3JvblNwZWM7CiAgICB0cnkgewogICAgICBzcGVjID0gcGFyc2VDcm9uKGRlZi5jcm9uKTsKICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICB0aGlzLmxvZ2dlci5lcnJvcihg5L2c5LiaICR7ZGVmLm5hbWV9IOeahCBjcm9uIOihqOi+vuW8j+mdnuazle+8miR7ZT8ubWVzc2FnZSB8fCBlfWApOwogICAgICByZXR1cm47CiAgICB9CiAgICB0aGlzLmpvYnMuc2V0KGRlZi5uYW1lLCB7CiAgICAgIC4uLmRlZiwKICAgICAgc3BlYywKICAgICAgbGFzdE1pbnV0ZTogJycsCiAgICAgIGxhc3RSdW5BdDogMCwKICAgICAgbGFzdE1lc3NhZ2U6ICcnLAogICAgICBsYXN0U3VjY2VzczogdHJ1ZSwKICAgICAgcnVubmluZzogZmFsc2UsCiAgICB9KTsKICAgIHRoaXMubG9nZ2VyLmxvZyhg5rOo5YaM5L2c5LiaICR7ZGVmLm5hbWV977yIJHtkZWYudGl0bGV977yJ77yaJHtkZWYuY3Jvbn1gKTsKICB9CgogIC8qKgogICAqIOivu+WPluS9nOS4muW8gOWFs+OAggogICAqIEBwYXJhbSBuYW1lIOS9nOS4muagh+ivhgogICAqIEBwYXJhbSBkZWYg6buY6K6k5YC8CiAgICogQHJldHVybnMg5piv5ZCm5ZCv55SoCiAgICovCiAgcHJpdmF0ZSBhc3luYyBpc0VuYWJsZWQobmFtZTogc3RyaW5nLCBkZWYgPSB0cnVlKTogUHJvbWlzZTxib29sZWFuPiB7CiAgICBjb25zdCBoaXQgPSB0aGlzLnN3aXRjaENhY2hlLmdldChuYW1lKTsKICAgIGlmIChoaXQgJiYgdGhpcy5ub3coKSAtIGhpdC5hdCA8IDYwKSByZXR1cm4gaGl0LmVuYWJsZWQ7CgogICAgbGV0IGVuYWJsZWQgPSBkZWY7CiAgICB0cnkgewogICAgICBjb25zdCByb3dzID0gYXdhaXQgdGhpcy5kYXRhU291cmNlLnF1ZXJ5KCdTRUxFQ1QgdmFsdWUsIGlzX2NoZWNrZWQgRlJPTSBrdWVycF9zZXRzIFdIRVJFIG5hbWUgPSA/IExJTUlUIDEnLCBbCiAgICAgICAgYGpvYl8ke25hbWV9YCwKICAgICAgXSk7CiAgICAgIGlmIChyb3dzPy5sZW5ndGgpIHsKICAgICAgICBjb25zdCB2ID0gU3RyaW5nKHJvd3NbMF0udmFsdWUgPz8gJycpLnRyaW0oKTsKICAgICAgICAvLyDnuqblrprvvJonMCcg5YGc55So77ybJzEnIOaIluepuuWQr+eUqO+8m2lzX2NoZWNrZWQ9MCDkuZ/op4bkuLrlgZznlKjvvIjns7vnu5/lj4LmlbDpobXlj5bmtojli77pgInvvIkKICAgICAgICBlbmFibGVkID0gdiAhPT0gJzAnICYmIE51bWJlcihyb3dzWzBdLmlzX2NoZWNrZWQgPz8gMSkgIT09IDA7CiAgICAgIH0KICAgIH0gY2F0Y2ggewogICAgICAvLyDooajkuI3lrZjlnKjvvIjlsJrmnKrlr7zlhaXmianlsZUgc2NoZW1h77yJ5pe25oyJ6buY6K6k5YC85aSE55CGCiAgICB9CiAgICB0aGlzLnN3aXRjaENhY2hlLnNldChuYW1lLCB7IGVuYWJsZWQsIGF0OiB0aGlzLm5vdygpIH0pOwogICAgcmV0dXJuIGVuYWJsZWQ7CiAgfQoKICAvKiog6L2u6K+i77ya5ZG95Lit5Y2z5omn6KGMICovCiAgcHJpdmF0ZSBhc3luYyB0aWNrKCk6IFByb21pc2U8dm9pZD4gewogICAgY29uc3QgZCA9IG5ldyBEYXRlKCk7CiAgICBjb25zdCBrZXkgPSBtaW51dGVLZXkoZCk7CiAgICBmb3IgKGNvbnN0IGpvYiBvZiB0aGlzLmpvYnMudmFsdWVzKCkpIHsKICAgICAgdHJ5IHsKICAgICAgICBpZiAoIWNyb25NYXRjaGVzKGpvYi5zcGVjLCBkKSkgY29udGludWU7CiAgICAgICAgaWYgKGpvYi5sYXN0TWludXRlID09PSBrZXkpIGNvbnRpbnVlOwogICAgICAgIGlmIChqb2IucnVubmluZykgY29udGludWU7CiAgICAgICAgY29uc3QgZW5hYmxlZCA9IGF3YWl0IHRoaXMuaXNFbmFibGVkKGpvYi5uYW1lLCBqb2IuZW5hYmxlZEJ5RGVmYXVsdCAhPT0gZmFsc2UpOwogICAgICAgIGlmICghZW5hYmxlZCkgewogICAgICAgICAgLy8g6K6w5L2P5pys5YiG6ZKf5bey5Yik5a6a77yM6YG/5YWN5ZCM5YiG6ZKf5YaF5Y+N5aSN5p+l5byA5YWzCiAgICAgICAgICBqb2IubGFzdE1pbnV0ZSA9IGtleTsKICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIH0KICAgICAgICBqb2IubGFzdE1pbnV0ZSA9IGtleTsKICAgICAgICAvLyDkuI0gYXdhaXTvvJrpgb/lhY3kuIDkuKrmhaLkvZzkuJrmjKHkvY/lhbblroPkvZzkuJrnmoTliKTlrpoKICAgICAgICB2b2lkIHRoaXMucnVuKGpvYi5uYW1lLCAnY3JvbicpOwogICAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgICB0aGlzLmxvZ2dlci53YXJuKGDkvZzkuJogJHtqb2IubmFtZX0g6LCD5bqm5byC5bi477yaJHtlPy5tZXNzYWdlIHx8IGV9YCk7CiAgICAgIH0KICAgIH0KICB9CgogIC8qKgogICAqIOaJp+ihjOaMh+WumuS9nOS4mu+8iOWumuaXtuinpuWPkeaIluaJi+WKqOinpuWPke+8ieOAggogICAqIEBwYXJhbSBuYW1lIOS9nOS4muagh+ivhgogICAqIEBwYXJhbSB0cmlnZ2VyIOinpuWPkeaWueW8j++8mmNyb24gLyBtYW51YWwKICAgKiBAcmV0dXJucyDmiafooYznu5PmnpzvvJvkvZzkuJrkuI3lrZjlnKjmiJbmraPlnKjmiafooYzml7bov5Tlm54gbnVsbAogICAqLwogIGFzeW5jIHJ1bihuYW1lOiBzdHJpbmcsIHRyaWdnZXI6ICdjcm9uJyB8ICdtYW51YWwnID0gJ21hbnVhbCcpOiBQcm9taXNlPEpvYlJlc3VsdCB8IG51bGw+IHsKICAgIGNvbnN0IGpvYiA9IHRoaXMuam9icy5nZXQobmFtZSk7CiAgICBpZiAoIWpvYikgcmV0dXJuIG51bGw7CiAgICBpZiAoam9iLnJ1bm5pbmcpIHsKICAgICAgdGhpcy5sb2dnZXIud2Fybihg5L2c5LiaICR7bmFtZX0g5q2j5Zyo5omn6KGM5Lit77yM5pys5qyh6Lez6L+H77yIJHt0cmlnZ2Vyfe+8iWApOwogICAgICByZXR1cm4gbnVsbDsKICAgIH0KCiAgICBqb2IucnVubmluZyA9IHRydWU7CiAgICBjb25zdCBzdGFydGVkID0gRGF0ZS5ub3coKTsKICAgIGxldCByZXN1bHQ6IEpvYlJlc3VsdCA9IHsgbWVzc2FnZTogJ+acquS6p+WHuue7k+aenCcgfTsKICAgIGxldCBzdWNjZXNzID0gdHJ1ZTsKICAgIHRyeSB7CiAgICAgIHJlc3VsdCA9IGF3YWl0IGpvYi5oYW5kbGVyKCk7CiAgICAgIHN1Y2Nlc3MgPSB0cnVlOwogICAgICB0aGlzLmxvZ2dlci5sb2coYOS9nOS4miAke25hbWV9IOaJp+ihjOWujOaIkO+8miR7cmVzdWx0Lm1lc3NhZ2V977yIJHtEYXRlLm5vdygpIC0gc3RhcnRlZH1tc++8iWApOwogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgIHN1Y2Nlc3MgPSBmYWxzZTsKICAgICAgcmVzdWx0ID0geyBtZXNzYWdlOiBg5omn6KGM5aSx6LSl77yaJHtlPy5tZXNzYWdlIHx8IGV9YCB9OwogICAgICB0aGlzLmxvZ2dlci5lcnJvcihg5L2c5LiaICR7bmFtZX0g5omn6KGM5aSx6LSl77yaJHtlPy5zdGFjayB8fCBlfWApOwogICAgfSBmaW5hbGx5IHsKICAgICAgam9iLnJ1bm5pbmcgPSBmYWxzZTsKICAgICAgam9iLmxhc3RSdW5BdCA9IHRoaXMubm93KCk7CiAgICAgIGpvYi5sYXN0TWVzc2FnZSA9IHJlc3VsdC5tZXNzYWdlOwogICAgICBqb2IubGFzdFN1Y2Nlc3MgPSBzdWNjZXNzOwogICAgICBhd2FpdCB0aGlzLndyaXRlTG9nKGpvYiwgc3VjY2VzcywgRGF0ZS5ub3coKSAtIHN0YXJ0ZWQsIHJlc3VsdCwgdHJpZ2dlcik7CiAgICB9CiAgICByZXR1cm4gcmVzdWx0OwogIH0KCiAgLyoqCiAgICog5YaZ5L2c5Lia5omn6KGM5pel5b+X77yI5aSx6LSl5LiN5b2x5ZON5L2c5Lia5pys6Lqr77yJ44CCCiAgICogQHBhcmFtIGpvYiDkvZzkuJoKICAgKiBAcGFyYW0gc3VjY2VzcyDmmK/lkKbmiJDlip8KICAgKiBAcGFyYW0gY29zdE1zIOiAl+aXtgogICAqIEBwYXJhbSByZXN1bHQg57uT5p6cCiAgICogQHBhcmFtIHRyaWdnZXIg6Kem5Y+R5pa55byPCiAgICogQHJldHVybnMg5pegCiAgICovCiAgcHJpdmF0ZSBhc3luYyB3cml0ZUxvZygKICAgIGpvYjogSm9iUnVudGltZSwKICAgIHN1Y2Nlc3M6IGJvb2xlYW4sCiAgICBjb3N0TXM6IG51bWJlciwKICAgIHJlc3VsdDogSm9iUmVzdWx0LAogICAgdHJpZ2dlcjogc3RyaW5nLAogICk6IFByb21pc2U8dm9pZD4gewogICAgdHJ5IHsKICAgICAgYXdhaXQgdGhpcy5kYXRhU291cmNlLnF1ZXJ5KAogICAgICAgIGBJTlNFUlQgSU5UTyBrdWVycF9qb2JfbG9nIChqb2JfbmFtZSwgam9iX3RpdGxlLCBzdWNjZXNzLCBjb3N0X21zLCBtZXNzYWdlLCBkZXRhaWwsIGNyZWF0ZXRpbWUpCiAgICAgICAgIFZBTFVFUyAoPywgPywgPywgPywgPywgPywgPylgLAogICAgICAgIFsKICAgICAgICAgIGpvYi5uYW1lLAogICAgICAgICAgam9iLnRpdGxlLAogICAgICAgICAgc3VjY2VzcyA/IDEgOiAwLAogICAgICAgICAgTWF0aC5taW4oMjE0NzQ4MzY0NywgY29zdE1zKSwKICAgICAgICAgIGAke3RyaWdnZXIgPT09ICdtYW51YWwnID8gJ1vmiYvliqhdICcgOiAnJ30keyhyZXN1bHQubWVzc2FnZSB8fCAnJykuc2xpY2UoMCwgNDgwKX1gLAogICAgICAgICAgKHJlc3VsdC5kZXRhaWwgfHwgJycpLnNsaWNlKDAsIDYwMDAwKSwKICAgICAgICAgIHRoaXMubm93KCksCiAgICAgICAgXSwKICAgICAgKTsKICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICB0aGlzLmxvZ2dlci53YXJuKGDlhpnkvZzkuJrml6Xlv5flpLHotKXvvJoke2U/Lm1lc3NhZ2UgfHwgZX1gKTsKICAgIH0KICB9CgogIC8qKgogICAqIOS9nOS4mua4heWNle+8iOS+m+euoeeQhumhteWxleekuu+8ieOAggogICAqIEByZXR1cm5zIOS9nOS4mueKtuaAgeaVsOe7hAogICAqLwogIGFzeW5jIGxpc3QoKSB7CiAgICBjb25zdCBvdXQ6IGFueVtdID0gW107CiAgICBmb3IgKGNvbnN0IGpvYiBvZiB0aGlzLmpvYnMudmFsdWVzKCkpIHsKICAgICAgY29uc3QgZW5hYmxlZCA9IGF3YWl0IHRoaXMuaXNFbmFibGVkKGpvYi5uYW1lLCBqb2IuZW5hYmxlZEJ5RGVmYXVsdCAhPT0gZmFsc2UpOwogICAgICBjb25zdCBuZXh0ID0gbmV4dFJ1bkF0KGpvYi5zcGVjKTsKICAgICAgb3V0LnB1c2goewogICAgICAgIG5hbWU6IGpvYi5uYW1lLAogICAgICAgIHRpdGxlOiBqb2IudGl0bGUsCiAgICAgICAgY3Jvbjogam9iLmNyb24sCiAgICAgICAgZGVzY3JpcHRpb246IGpvYi5kZXNjcmlwdGlvbiB8fCAnJywKICAgICAgICBlbmFibGVkLAogICAgICAgIHJ1bm5pbmc6IGpvYi5ydW5uaW5nLAogICAgICAgIGxhc3RSdW5BdDogam9iLmxhc3RSdW5BdCwKICAgICAgICBsYXN0TWVzc2FnZTogam9iLmxhc3RNZXNzYWdlLAogICAgICAgIGxhc3RTdWNjZXNzOiBqb2IubGFzdFN1Y2Nlc3MsCiAgICAgICAgbmV4dFJ1bkF0OiBuZXh0ID8gTWF0aC5mbG9vcihuZXh0LmdldFRpbWUoKSAvIDEwMDApIDogMCwKICAgICAgfSk7CiAgICB9CiAgICByZXR1cm4gb3V0OwogIH0KCiAgLyoqCiAgICog5L2c5Lia5omn6KGM5Y6G5Y+y44CCCiAgICogQHBhcmFtIHEgeyBuYW1lLCBwYWdlLCBsaW1pdCB9CiAgICogQHJldHVybnMgeyBsaXN0LCBjb3VudCB9CiAgICovCiAgYXN5bmMgbG9ncyhxOiB7IG5hbWU/OiBzdHJpbmc7IHBhZ2U/OiBudW1iZXI7IGxpbWl0PzogbnVtYmVyIH0pIHsKICAgIGNvbnN0IHBhZ2UgPSBNYXRoLm1heCgxLCBOdW1iZXIocS5wYWdlKSB8fCAxKTsKICAgIGNvbnN0IGxpbWl0ID0gTWF0aC5taW4oMjAwLCBNYXRoLm1heCgxLCBOdW1iZXIocS5saW1pdCkgfHwgMjApKTsKICAgIGNvbnN0IHdoZXJlOiBzdHJpbmdbXSA9IFsnMT0xJ107CiAgICBjb25zdCBwYXJhbXM6IGFueVtdID0gW107CiAgICBpZiAocS5uYW1lKSB7CiAgICAgIHdoZXJlLnB1c2goJ2pvYl9uYW1lID0gPycpOwogICAgICBwYXJhbXMucHVzaChxLm5hbWUpOwogICAgfQogICAgY29uc3Qgcm93cyA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgYFNFTEVDVCBpZCwgam9iX25hbWUsIGpvYl90aXRsZSwgc3VjY2VzcywgY29zdF9tcywgbWVzc2FnZSwgY3JlYXRldGltZQogICAgICAgICBGUk9NIGt1ZXJwX2pvYl9sb2cKICAgICAgICBXSEVSRSAke3doZXJlLmpvaW4oJyBBTkQgJyl9CiAgICAgICAgT1JERVIgQlkgaWQgREVTQwogICAgICAgIExJTUlUID8gT0ZGU0VUID9gLAogICAgICBbLi4ucGFyYW1zLCBsaW1pdCwgKHBhZ2UgLSAxKSAqIGxpbWl0XSwKICAgICk7CiAgICBjb25zdCBjbnQgPSBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgIGBTRUxFQ1QgQ09VTlQoKikgQVMgYyBGUk9NIGt1ZXJwX2pvYl9sb2cgV0hFUkUgJHt3aGVyZS5qb2luKCcgQU5EICcpfWAsCiAgICAgIHBhcmFtcywKICAgICk7CiAgICByZXR1cm4geyBsaXN0OiByb3dzIHx8IFtdLCBjb3VudDogTnVtYmVyKGNudD8uWzBdPy5jIHx8IDApIH07CiAgfQoKICAvKioKICAgKiDmuIXnqbrlvIDlhbPnvJPlrZjvvIjns7vnu5/lj4LmlbDkv53lrZjlkI7osIPnlKjvvIzorqnlvIDlhbPnq4vljbPnlJ/mlYjvvInjgIIKICAgKiBAcmV0dXJucyDml6AKICAgKi8KICBjbGVhclN3aXRjaENhY2hlKCk6IHZvaWQgewogICAgdGhpcy5zd2l0Y2hDYWNoZS5jbGVhcigpOwogIH0KfQo=
+import { Injectable, Logger, OnModuleDestroy, OnModuleInit } from '@nestjs/common';
+import { DataSource } from 'typeorm';
+import { CronSpec, cronMatches, minuteKey, nextRunAt, parseCron } from './cron.util';
+
+/** 作业执行结果 */
+export interface JobResult {
+  /** 一句话摘要（写入 kuerp_job_log.message） */
+  message: string;
+  /** 详细信息（可选，截断后落 detail） */
+  detail?: string;
+}
+
+/** 作业定义 */
+export interface JobDefinition {
+  /** 唯一标识（与 kuerp_sets 的 job_<name> 开关对应） */
+  name: string;
+  /** 中文名 */
+  title: string;
+  /** 五段式 cron */
+  cron: string;
+  /** 说明 */
+  description?: string;
+  /** 是否默认启用（系统参数未配置时使用） */
+  enabledByDefault?: boolean;
+  /** 执行体 */
+  handler: () => Promise<JobResult>;
+}
+
+/** 运行时作业状态 */
+interface JobRuntime extends JobDefinition {
+  /** 解析后的 cron */
+  spec: CronSpec;
+  /** 上次执行的分钟键（防同分钟重复触发） */
+  lastMinute: string;
+  /** 上次执行时间（秒级时间戳） */
+  lastRunAt: number;
+  /** 上次执行结果摘要 */
+  lastMessage: string;
+  /** 上次是否成功 */
+  lastSuccess: boolean;
+  /** 是否正在执行 */
+  running: boolean;
+}
+
+/**
+ * 轻量定时任务内核。
+ *
+ * 工作方式：每 20 秒轮询一次系统时间，命中 cron 的作业在本分钟内执行一次（按分钟去重）。
+ * 为什么不用「按 cron 计算下一次精确 setTimeout」：
+ * 系统时间可能被 NTP 校正、进程可能被挂起，轮询方式即使漂移也能在 20 秒内自动纠正；
+ * 20 秒粒度对「每天定点 / 每 N 分钟」这类作业完全够用，且实现简单不引入依赖。
+ *
+ * 执行记录统一写入 kuerp_job_log，供管理页查看历史（成功/失败/耗时/摘要）。
+ * 开关存放在 kuerp_sets 的 job_<name> 行（'0' 停用，其余启用），60 秒缓存。
+ */
+@Injectable()
+export class SchedulerService implements OnModuleInit, OnModuleDestroy {
+  private readonly logger = new Logger(SchedulerService.name);
+
+  /** 已注册作业 */
+  private readonly jobs = new Map<string, JobRuntime>();
+
+  /** 轮询定时器 */
+  private timer: NodeJS.Timeout | null = null;
+
+  /** 开关缓存：name -> { enabled, at } */
+  private readonly switchCache = new Map<string, { enabled: boolean; at: number }>();
+
+  /** 首次扫描延迟（毫秒）：等各模块 onModuleInit 注册完作业后再开始 */
+  private readonly bootDelay = 3000;
+
+  /** 轮询间隔（毫秒） */
+  private readonly interval = 20000;
+
+  constructor(private readonly dataSource: DataSource) {}
+
+  /** 当前秒级时间戳 */
+  private now(): number {
+    return Math.floor(Date.now() / 1000);
+  }
+
+  onModuleInit(): void {
+    setTimeout(() => {
+      this.timer = setInterval(() => this.tick(), this.interval);
+      // 启动后先跑一次扫描：进程若在作业时刻之外重启，不会因此漏掉当天作业的下一次命中，
+      // 但若恰好在命中分钟内重启则能立刻补跑（lastMinute 为空）
+      this.tick();
+      this.logger.log(`定时任务内核已启动，已注册 ${this.jobs.size} 个作业，轮询间隔 ${this.interval / 1000}s`);
+    }, this.bootDelay);
+  }
+
+  onModuleDestroy(): void {
+    if (this.timer) clearInterval(this.timer);
+    this.timer = null;
+  }
+
+  /**
+   * 注册一个作业。
+   * @param def 作业定义
+   * @returns 无
+   */
+  register(def: JobDefinition): void {
+    if (this.jobs.has(def.name)) {
+      this.logger.warn(`作业 ${def.name} 重复注册，已忽略后者`);
+      return;
+    }
+    let spec: CronSpec;
+    try {
+      spec = parseCron(def.cron);
+    } catch (e: any) {
+      this.logger.error(`作业 ${def.name} 的 cron 表达式非法：${e?.message || e}`);
+      return;
+    }
+    this.jobs.set(def.name, {
+      ...def,
+      spec,
+      lastMinute: '',
+      lastRunAt: 0,
+      lastMessage: '',
+      lastSuccess: true,
+      running: false,
+    });
+    this.logger.log(`注册作业 ${def.name}（${def.title}）：${def.cron}`);
+  }
+
+  /**
+   * 读取作业开关。
+   * @param name 作业标识
+   * @param def 默认值
+   * @returns 是否启用
+   */
+  private async isEnabled(name: string, def = true): Promise<boolean> {
+    const hit = this.switchCache.get(name);
+    if (hit && this.now() - hit.at < 60) return hit.enabled;
+
+    let enabled = def;
+    try {
+      const rows = await this.dataSource.query('SELECT value, is_checked FROM kuerp_sets WHERE name = ? LIMIT 1', [
+        `job_${name}`,
+      ]);
+      if (rows?.length) {
+        const v = String(rows[0].value ?? '').trim();
+        // 约定：'0' 停用；'1' 或空启用；is_checked=0 也视为停用（系统参数页取消勾选）
+        enabled = v !== '0' && Number(rows[0].is_checked ?? 1) !== 0;
+      }
+    } catch {
+      // 表不存在（尚未导入扩展 schema）时按默认值处理
+    }
+    this.switchCache.set(name, { enabled, at: this.now() });
+    return enabled;
+  }
+
+  /** 轮询：命中即执行 */
+  private async tick(): Promise<void> {
+    const d = new Date();
+    const key = minuteKey(d);
+    for (const job of this.jobs.values()) {
+      try {
+        if (!cronMatches(job.spec, d)) continue;
+        if (job.lastMinute === key) continue;
+        if (job.running) continue;
+        const enabled = await this.isEnabled(job.name, job.enabledByDefault !== false);
+        if (!enabled) {
+          // 记住本分钟已判定，避免同分钟内反复查开关
+          job.lastMinute = key;
+          continue;
+        }
+        job.lastMinute = key;
+        // 不 await：避免一个慢作业挡住其它作业的判定
+        void this.run(job.name, 'cron');
+      } catch (e: any) {
+        this.logger.warn(`作业 ${job.name} 调度异常：${e?.message || e}`);
+      }
+    }
+  }
+
+  /**
+   * 执行指定作业（定时触发或手动触发）。
+   * @param name 作业标识
+   * @param trigger 触发方式：cron / manual
+   * @returns 执行结果；作业不存在或正在执行时返回 null
+   */
+  async run(name: string, trigger: 'cron' | 'manual' = 'manual'): Promise<JobResult | null> {
+    const job = this.jobs.get(name);
+    if (!job) return null;
+    if (job.running) {
+      this.logger.warn(`作业 ${name} 正在执行中，本次跳过（${trigger}）`);
+      return null;
+    }
+
+    job.running = true;
+    const started = Date.now();
+    let result: JobResult = { message: '未产出结果' };
+    let success = true;
+    try {
+      result = await job.handler();
+      success = true;
+      this.logger.log(`作业 ${name} 执行完成：${result.message}（${Date.now() - started}ms）`);
+    } catch (e: any) {
+      success = false;
+      result = { message: `执行失败：${e?.message || e}` };
+      this.logger.error(`作业 ${name} 执行失败：${e?.stack || e}`);
+    } finally {
+      job.running = false;
+      job.lastRunAt = this.now();
+      job.lastMessage = result.message;
+      job.lastSuccess = success;
+      await this.writeLog(job, success, Date.now() - started, result, trigger);
+    }
+    return result;
+  }
+
+  /**
+   * 写作业执行日志（失败不影响作业本身）。
+   * @param job 作业
+   * @param success 是否成功
+   * @param costMs 耗时
+   * @param result 结果
+   * @param trigger 触发方式
+   * @returns 无
+   */
+  private async writeLog(
+    job: JobRuntime,
+    success: boolean,
+    costMs: number,
+    result: JobResult,
+    trigger: string,
+  ): Promise<void> {
+    try {
+      await this.dataSource.query(
+        `INSERT INTO kuerp_job_log (job_name, job_title, success, cost_ms, message, detail, createtime)
+         VALUES (?, ?, ?, ?, ?, ?, ?)`,
+        [
+          job.name,
+          job.title,
+          success ? 1 : 0,
+          Math.min(2147483647, costMs),
+          `${trigger === 'manual' ? '[手动] ' : ''}${(result.message || '').slice(0, 480)}`,
+          (result.detail || '').slice(0, 60000),
+          this.now(),
+        ],
+      );
+    } catch (e: any) {
+      this.logger.warn(`写作业日志失败：${e?.message || e}`);
+    }
+  }
+
+  /**
+   * 作业清单（供管理页展示）。
+   * @returns 作业状态数组
+   */
+  async list() {
+    const out: any[] = [];
+    for (const job of this.jobs.values()) {
+      const enabled = await this.isEnabled(job.name, job.enabledByDefault !== false);
+      const next = nextRunAt(job.spec);
+      out.push({
+        name: job.name,
+        title: job.title,
+        cron: job.cron,
+        description: job.description || '',
+        enabled,
+        running: job.running,
+        lastRunAt: job.lastRunAt,
+        lastMessage: job.lastMessage,
+        lastSuccess: job.lastSuccess,
+        nextRunAt: next ? Math.floor(next.getTime() / 1000) : 0,
+      });
+    }
+    return out;
+  }
+
+  /**
+   * 作业执行历史。
+   * @param q { name, page, limit }
+   * @returns { list, count }
+   */
+  async logs(q: { name?: string; page?: number; limit?: number }) {
+    const page = Math.max(1, Number(q.page) || 1);
+    const limit = Math.min(200, Math.max(1, Number(q.limit) || 20));
+    const where: string[] = ['1=1'];
+    const params: any[] = [];
+    if (q.name) {
+      where.push('job_name = ?');
+      params.push(q.name);
+    }
+    const rows = await this.dataSource.query(
+      `SELECT id, job_name, job_title, success, cost_ms, message, createtime
+         FROM kuerp_job_log
+        WHERE ${where.join(' AND ')}
+        ORDER BY id DESC
+        LIMIT ? OFFSET ?`,
+      [...params, limit, (page - 1) * limit],
+    );
+    const cnt = await this.dataSource.query(
+      `SELECT COUNT(*) AS c FROM kuerp_job_log WHERE ${where.join(' AND ')}`,
+      params,
+    );
+    return { list: rows || [], count: Number(cnt?.[0]?.c || 0) };
+  }
+
+  /**
+   * 清空开关缓存（系统参数保存后调用，让开关立即生效）。
+   * @returns 无
+   */
+  clearSwitchCache(): void {
+    this.switchCache.clear();
+  }
+}

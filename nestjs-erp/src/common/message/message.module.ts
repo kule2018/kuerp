@@ -1,1 +1,17 @@
-aW1wb3J0IHsgR2xvYmFsLCBNb2R1bGUgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7CmltcG9ydCB7IE1lc3NhZ2VDb250cm9sbGVyIH0gZnJvbSAnLi9tZXNzYWdlLmNvbnRyb2xsZXInOwppbXBvcnQgeyBNZXNzYWdlU2VydmljZSB9IGZyb20gJy4vbWVzc2FnZS5zZXJ2aWNlJzsKCi8qKgogKiDmtojmga/kuK3lv4PmqKHlnZfvvIjlhajlsYDvvInjgIIKICoKICog5qCHIEBHbG9iYWzvvJrlrprml7bkvZzkuJrvvIjlupPlrZjpooToraYv5L+d6LSo5pyfL+i0puacn++8ieS4juWuoeaJuea1gemDveimgeWGmea2iOaBr++8jAogKiDmiorov5nkupvot6jmqKHlnZfkvp3otZbmlLbmlZvkuLrlhajlsYDlj6/ms6jlhaXvvIzpgb/lhY3mr4/kuKrmqKHlnZfpg70gaW1wb3J0cyDkuIDmrKHjgIIKICovCkBHbG9iYWwoKQpATW9kdWxlKHsKICBjb250cm9sbGVyczogW01lc3NhZ2VDb250cm9sbGVyXSwKICBwcm92aWRlcnM6IFtNZXNzYWdlU2VydmljZV0sCiAgZXhwb3J0czogW01lc3NhZ2VTZXJ2aWNlXSwKfSkKZXhwb3J0IGNsYXNzIE1lc3NhZ2VNb2R1bGUge30K
+import { Global, Module } from '@nestjs/common';
+import { MessageController } from './message.controller';
+import { MessageService } from './message.service';
+
+/**
+ * 消息中心模块（全局）。
+ *
+ * 标 @Global：定时作业（库存预警/保质期/账期）与审批流都要写消息，
+ * 把这些跨模块依赖收敛为全局可注入，避免每个模块都 imports 一次。
+ */
+@Global()
+@Module({
+  controllers: [MessageController],
+  providers: [MessageService],
+  exports: [MessageService],
+})
+export class MessageModule {}

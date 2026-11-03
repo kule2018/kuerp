@@ -1,1 +1,100 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsKaW1wb3J0IHsgQ2hhdE1vZGVsU2VydmljZSwgQ2hhdE1lc3NhZ2UgfSBmcm9tICcuL2NoYXQtbW9kZWwuc2VydmljZSc7CmltcG9ydCB7IFRvb2xSZWdpc3RyeSwgVG9vbERlZmluaXRpb24gfSBmcm9tICcuL3Rvb2wucmVnaXN0cnknOwppbXBvcnQgeyBBaUxvZ1NlcnZpY2UgfSBmcm9tICcuL2FpLWxvZy5zZXJ2aWNlJzsKCmV4cG9ydCBpbnRlcmZhY2UgQWdlbnRSdW5QYXJhbXMgewogIHVzZXI6IHN0cmluZzsKICBzeXN0ZW0/OiBzdHJpbmc7CiAgLyoqIOW3peWFt++8muWPr+S8oCBUb29sUmVnaXN0cnnvvIzmiJbnm7TmjqXkvKAgVG9vbERlZmluaXRpb24g5pWw57uEICovCiAgdG9vbHM6IFRvb2xEZWZpbml0aW9uW10gfCBUb29sUmVnaXN0cnk7CiAgbW9kZWxDb25maWdJZD86IG51bWJlcjsKICAvKiog5pyA5aSn5aSa6L2u5qyh5pWw77yI6buY6K6kIDbvvIkgKi8KICBtYXhUdXJucz86IG51bWJlcjsKfQoKZXhwb3J0IGludGVyZmFjZSBBZ2VudFJ1blJlc3VsdCB7CiAgY29udGVudDogc3RyaW5nOwogIG1lc3NhZ2VzOiBDaGF0TWVzc2FnZVtdOwogIHR1cm5zOiBudW1iZXI7CiAgdG9vbENhbGxzOiBBcnJheTx7IHR1cm46IG51bWJlcjsgbmFtZTogc3RyaW5nOyBhcmd1bWVudHM6IGFueTsgcmVzdWx0OiBzdHJpbmcgfT47Cn0KCi8qKgogKiBBZ2VudCDlpJrova7oh6rkuLvmiafooYzmnI3liqHjgIIKICog562J5Lu3IFNwcmluZyBBSSDnmoQgQWdlbnQgLyDlpJrova4gQ2hhdENsaWVudCDlvqrnjq/vvJrmqKHlnovlj6/kuLvliqjlj5HotbcgRnVuY3Rpb24gQ2FsbGluZ++8jAogKiDnlLEgVG9vbENhbGxiYWNrcyDmiafooYzlkI7miornu5Pmnpzlm57loavvvIzlho3mrKHosIPnlKjmqKHlnovvvIznm7TliLDmqKHlnovnu5nlh7rmnIDnu4jnrZTmoYjvvIjmiJbovr7liLAgbWF4VHVybnPvvInjgIIKICovCkBJbmplY3RhYmxlKCkKZXhwb3J0IGNsYXNzIEFnZW50U2VydmljZSB7CiAgY29uc3RydWN0b3IoCiAgICBwcml2YXRlIHJlYWRvbmx5IGNoYXRNb2RlbDogQ2hhdE1vZGVsU2VydmljZSwKICAgIHByaXZhdGUgcmVhZG9ubHkgbG9nU2VydmljZTogQWlMb2dTZXJ2aWNlLAogICkge30KCiAgYXN5bmMgcnVuKHBhcmFtczogQWdlbnRSdW5QYXJhbXMpOiBQcm9taXNlPEFnZW50UnVuUmVzdWx0PiB7CiAgICBjb25zdCByZWdpc3RyeSA9IHBhcmFtcy50b29scyBpbnN0YW5jZW9mIFRvb2xSZWdpc3RyeSA/IHBhcmFtcy50b29scyA6IG51bGw7CiAgICBjb25zdCBkZWZzOiBUb29sRGVmaW5pdGlvbltdID0gcmVnaXN0cnkgPyByZWdpc3RyeS5saXN0KCkgOiAocGFyYW1zLnRvb2xzIGFzIFRvb2xEZWZpbml0aW9uW10pOwogICAgY29uc3QgbWF4VHVybnMgPSBwYXJhbXMubWF4VHVybnMgfHwgNjsKCiAgICBjb25zdCBtZXNzYWdlczogQ2hhdE1lc3NhZ2VbXSA9IFtdOwogICAgaWYgKHBhcmFtcy5zeXN0ZW0pIG1lc3NhZ2VzLnB1c2goeyByb2xlOiAnc3lzdGVtJywgY29udGVudDogcGFyYW1zLnN5c3RlbSB9KTsKICAgIG1lc3NhZ2VzLnB1c2goeyByb2xlOiAndXNlcicsIGNvbnRlbnQ6IHBhcmFtcy51c2VyIH0pOwoKICAgIGNvbnN0IHRyYW5zY3JpcHQ6IEFnZW50UnVuUmVzdWx0Wyd0b29sQ2FsbHMnXSA9IFtdOwogICAgbGV0IGxhc3RDb250ZW50ID0gJyc7CiAgICBsZXQgdHVybnMgPSAwOwoKICAgIGZvciAobGV0IHR1cm4gPSAxOyB0dXJuIDw9IG1heFR1cm5zOyB0dXJuKyspIHsKICAgICAgdHVybnMgPSB0dXJuOwogICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCB0aGlzLmNoYXRNb2RlbC5jb21wbGV0ZSh7CiAgICAgICAgbW9kZWxDb25maWdJZDogcGFyYW1zLm1vZGVsQ29uZmlnSWQsCiAgICAgICAgbWVzc2FnZXMsCiAgICAgICAgdG9vbHM6IGRlZnMubGVuZ3RoID8gVG9vbFJlZ2lzdHJ5LnRvT3BlbkFpVG9vbHMoZGVmcykgOiB1bmRlZmluZWQsCiAgICAgIH0pOwoKICAgICAgY29uc3QgcmF3VG9vbENhbGxzID0gcmVzdWx0LnJhdz8uY2hvaWNlcz8uWzBdPy5tZXNzYWdlPy50b29sX2NhbGxzOwogICAgICBtZXNzYWdlcy5wdXNoKHsKICAgICAgICByb2xlOiAnYXNzaXN0YW50JywKICAgICAgICBjb250ZW50OiByZXN1bHQuY29udGVudCwKICAgICAgICB0b29sX2NhbGxzOiByYXdUb29sQ2FsbHMsCiAgICAgIH0pOwogICAgICBsYXN0Q29udGVudCA9IHJlc3VsdC5jb250ZW50OwoKICAgICAgaWYgKCFyZXN1bHQudG9vbENhbGxzLmxlbmd0aCkgYnJlYWs7CgogICAgICBmb3IgKGNvbnN0IHRjIG9mIHJlc3VsdC50b29sQ2FsbHMpIHsKICAgICAgICBjb25zdCBzdGFydGVkID0gRGF0ZS5ub3coKTsKICAgICAgICBsZXQgcmVzOiB7IHJlc3VsdDogc3RyaW5nOyBvazogYm9vbGVhbjsgZXJyb3I/OiBzdHJpbmcgfTsKICAgICAgICBpZiAocmVnaXN0cnkpIHsKICAgICAgICAgIHJlcyA9IGF3YWl0IHJlZ2lzdHJ5Lmludm9rZSh0Yy5uYW1lLCB0Yy5hcmd1bWVudHMpOwogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICBjb25zdCBkZWYgPSBkZWZzLmZpbmQoKGQpID0+IGQubmFtZSA9PT0gdGMubmFtZSk7CiAgICAgICAgICBpZiAoIWRlZikgewogICAgICAgICAgICByZXMgPSB7IHJlc3VsdDogYOW3peWFtyAke3RjLm5hbWV9IOS4jeWtmOWcqGAsIG9rOiBmYWxzZSwgZXJyb3I6ICdOT1RfRk9VTkQnIH07CiAgICAgICAgICB9IGVsc2UgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgIGNvbnN0IHJhdyA9IGF3YWl0IGRlZi5leGVjdXRlKHRjLmFyZ3VtZW50cyB8fCB7fSk7CiAgICAgICAgICAgICAgcmVzID0geyByZXN1bHQ6IHR5cGVvZiByYXcgPT09ICdzdHJpbmcnID8gcmF3IDogSlNPTi5zdHJpbmdpZnkocmF3KSwgb2s6IHRydWUgfTsKICAgICAgICAgICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgICAgICAgICAgcmVzID0geyByZXN1bHQ6IGDlt6XlhbfmiafooYzlpLHotKU6ICR7ZT8ubWVzc2FnZX1gLCBvazogZmFsc2UsIGVycm9yOiBlPy5tZXNzYWdlIH07CiAgICAgICAgICAgIH0KICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgYXdhaXQgdGhpcy5sb2dTZXJ2aWNlLmxvZ1Rvb2xDYWxsKHsKICAgICAgICAgIGNhbGxMb2dJZDogcmVzdWx0LmNhbGxMb2dJZCwKICAgICAgICAgIHRvb2xOYW1lOiB0Yy5uYW1lLAogICAgICAgICAgYXJndW1lbnRzOiBKU09OLnN0cmluZ2lmeSh0Yy5hcmd1bWVudHMpLAogICAgICAgICAgcmVzdWx0OiByZXMucmVzdWx0LAogICAgICAgICAgZWxhcHNlZE1zOiBEYXRlLm5vdygpIC0gc3RhcnRlZCwKICAgICAgICAgIHN0YXR1czogcmVzLm9rID8gMSA6IDAsCiAgICAgICAgICBlcnJvcjogcmVzLmVycm9yLAogICAgICAgIH0pOwogICAgICAgIHRyYW5zY3JpcHQucHVzaCh7IHR1cm4sIG5hbWU6IHRjLm5hbWUsIGFyZ3VtZW50czogdGMuYXJndW1lbnRzLCByZXN1bHQ6IHJlcy5yZXN1bHQgfSk7CiAgICAgICAgbWVzc2FnZXMucHVzaCh7IHJvbGU6ICd0b29sJywgdG9vbF9jYWxsX2lkOiB0Yy5pZCwgY29udGVudDogcmVzLnJlc3VsdCwgbmFtZTogdGMubmFtZSB9KTsKICAgICAgfQogICAgfQoKICAgIHJldHVybiB7IGNvbnRlbnQ6IGxhc3RDb250ZW50LCBtZXNzYWdlcywgdHVybnMsIHRvb2xDYWxsczogdHJhbnNjcmlwdCB9OwogIH0KfQo=
+import { Injectable } from '@nestjs/common';
+import { ChatModelService, ChatMessage } from './chat-model.service';
+import { ToolRegistry, ToolDefinition } from './tool.registry';
+import { AiLogService } from './ai-log.service';
+
+export interface AgentRunParams {
+  user: string;
+  system?: string;
+  /** 工具：可传 ToolRegistry，或直接传 ToolDefinition 数组 */
+  tools: ToolDefinition[] | ToolRegistry;
+  modelConfigId?: number;
+  /** 最大多轮次数（默认 6） */
+  maxTurns?: number;
+}
+
+export interface AgentRunResult {
+  content: string;
+  messages: ChatMessage[];
+  turns: number;
+  toolCalls: Array<{ turn: number; name: string; arguments: any; result: string }>;
+}
+
+/**
+ * Agent 多轮自主执行服务。
+ * 等价 Spring AI 的 Agent / 多轮 ChatClient 循环：模型可主动发起 Function Calling，
+ * 由 ToolCallbacks 执行后把结果回填，再次调用模型，直到模型给出最终答案（或达到 maxTurns）。
+ */
+@Injectable()
+export class AgentService {
+  constructor(
+    private readonly chatModel: ChatModelService,
+    private readonly logService: AiLogService,
+  ) {}
+
+  async run(params: AgentRunParams): Promise<AgentRunResult> {
+    const registry = params.tools instanceof ToolRegistry ? params.tools : null;
+    const defs: ToolDefinition[] = registry ? registry.list() : (params.tools as ToolDefinition[]);
+    const maxTurns = params.maxTurns || 6;
+
+    const messages: ChatMessage[] = [];
+    if (params.system) messages.push({ role: 'system', content: params.system });
+    messages.push({ role: 'user', content: params.user });
+
+    const transcript: AgentRunResult['toolCalls'] = [];
+    let lastContent = '';
+    let turns = 0;
+
+    for (let turn = 1; turn <= maxTurns; turn++) {
+      turns = turn;
+      const result = await this.chatModel.complete({
+        modelConfigId: params.modelConfigId,
+        messages,
+        tools: defs.length ? ToolRegistry.toOpenAiTools(defs) : undefined,
+      });
+
+      const rawToolCalls = result.raw?.choices?.[0]?.message?.tool_calls;
+      messages.push({
+        role: 'assistant',
+        content: result.content,
+        tool_calls: rawToolCalls,
+      });
+      lastContent = result.content;
+
+      if (!result.toolCalls.length) break;
+
+      for (const tc of result.toolCalls) {
+        const started = Date.now();
+        let res: { result: string; ok: boolean; error?: string };
+        if (registry) {
+          res = await registry.invoke(tc.name, tc.arguments);
+        } else {
+          const def = defs.find((d) => d.name === tc.name);
+          if (!def) {
+            res = { result: `工具 ${tc.name} 不存在`, ok: false, error: 'NOT_FOUND' };
+          } else {
+            try {
+              const raw = await def.execute(tc.arguments || {});
+              res = { result: typeof raw === 'string' ? raw : JSON.stringify(raw), ok: true };
+            } catch (e: any) {
+              res = { result: `工具执行失败: ${e?.message}`, ok: false, error: e?.message };
+            }
+          }
+        }
+        await this.logService.logToolCall({
+          callLogId: result.callLogId,
+          toolName: tc.name,
+          arguments: JSON.stringify(tc.arguments),
+          result: res.result,
+          elapsedMs: Date.now() - started,
+          status: res.ok ? 1 : 0,
+          error: res.error,
+        });
+        transcript.push({ turn, name: tc.name, arguments: tc.arguments, result: res.result });
+        messages.push({ role: 'tool', tool_call_id: tc.id, content: res.result, name: tc.name });
+      }
+    }
+
+    return { content: lastContent, messages, turns, toolCalls: transcript };
+  }
+}

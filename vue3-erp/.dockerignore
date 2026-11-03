@@ -1,1 +1,9 @@
-IyDplZzlg4/mnoTlu7rkuIrkuIvmlofmjpLpmaTpobnvvJpkaXN0IOeUsemVnOWDj+WGhSB2aXRlIGJ1aWxkIOmHjeaWsOeUn+aIkO+8jAojIOacrOWcsCBub2RlX21vZHVsZXMg5LiO5a6/5Li75bmz5Y+w55u45YWz77yM5bim6L+b5Y675Y+N6ICM5Y+v6IO96KOF5Ye66LeR5LiN6LW35p2l55qE5Lqn54mpCm5vZGVfbW9kdWxlcwpkaXN0CmRpc3QtY2hlY2sKKi5sb2cKLmVudgouZW52LmxvY2FsCi5naXQK
+# 镜像构建上下文排除项：dist 由镜像内 vite build 重新生成，
+# 本地 node_modules 与宿主平台相关，带进去反而可能装出跑不起来的产物
+node_modules
+dist
+dist-check
+*.log
+.env
+.env.local
+.git

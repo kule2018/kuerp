@@ -1,1 +1,144 @@
-PHRlbXBsYXRlPg0KICA8ZGl2IGNsYXNzPSJhaS1jb3BpbG90Ij4NCiAgICA8IS0tIOaCrOa1ruWFpeWPo++8muWPs+S4i+inkuWchuW9ouaMiemSru+8jOeCueWHu+WxleW8gOWvueivnemdouadvyAtLT4NCiAgICA8YnV0dG9uIHYtaWY9IiFvcGVuIiBjbGFzcz0iYWktZmFiIiB0eXBlPSJidXR0b24iIHRpdGxlPSJBSSDnu4/okKXliqnmiYsiIEBjbGljaz0ib3BlbiA9IHRydWUiPg0KICAgICAgPEljb25Gb250IG5hbWU9Ik1hZ2ljIiA6c2l6ZT0iMjIiIC8+DQogICAgPC9idXR0b24+DQoNCiAgICA8IS0tIOWvueivnemdouadv++8muWkjeeUqCBEc0NoYXRWaWV3IOiwgyAvYWkvYWdlbnQgLS0+DQogICAgPGRpdiB2LWVsc2UgY2xhc3M9ImFpLXBhbmVsIj4NCiAgICAgIDxkaXYgY2xhc3M9ImFpLXBhbmVsLWhlYWQiPg0KICAgICAgICA8c3Bhbj48SWNvbkZvbnQgbmFtZT0iTWFnaWMiIDpzaXplPSIxNiIgLz4gQUkg57uP6JCl5Yqp5omLPC9zcGFuPg0KICAgICAgICA8YnV0dG9uIGNsYXNzPSJhaS1jbG9zZSIgdHlwZT0iYnV0dG9uIiB0aXRsZT0i5pS26LW3IiBAY2xpY2s9Im9wZW4gPSBmYWxzZSI+4pyVPC9idXR0b24+DQogICAgICA8L2Rpdj4NCg0KICAgICAgPGRpdiBjbGFzcz0iYWktY2hhdCI+DQogICAgICAgIDxEc0NoYXRWaWV3DQogICAgICAgICAgOm1lc3NhZ2VzPSJtZXNzYWdlcyINCiAgICAgICAgICBlbXB0eS10aXRsZT0i6ZqP5pe26Zeu5oiR57uP6JCl6Zeu6aKYIg0KICAgICAgICAgIGVtcHR5LWRlc2M9IuWmgu+8muacrOaciOmUgOWUruWSjOWIqea2puaAjuS5iOagt++8n+WTquS6m+WVhuWTgeW6k+WtmOWRiuaApe+8n+iwgei/mOasoOaIkeS7rOmSse+8nyINCiAgICAgICAgLz4NCiAgICAgIDwvZGl2Pg0KDQogICAgICA8ZGl2IHYtaWY9IiFtZXNzYWdlcy5sZW5ndGgiIGNsYXNzPSJhaS1xdWljayI+DQogICAgICAgIDxEc0J1dHRvbiB2LWZvcj0icSBpbiBxdWljayIgOmtleT0icSIgdmFyaWFudD0iZGVmYXVsdCIgc2l6ZT0ic20iIEBjbGljaz0iYXNrKHEpIj57eyBxIH19PC9Ec0J1dHRvbj4NCiAgICAgIDwvZGl2Pg0KDQogICAgICA8ZGl2IGNsYXNzPSJhaS1pbnB1dCI+DQogICAgICAgIDxEc0lucHV0DQogICAgICAgICAgdi1tb2RlbD0iaW5wdXQiDQogICAgICAgICAgdHlwZT0idGV4dGFyZWEiDQogICAgICAgICAgOnJvd3M9IjIiDQogICAgICAgICAgcGxhY2Vob2xkZXI9Iui+k+WFpee7j+iQpemXrumimO+8jEVudGVyIOWPkemAgSAvIFNoaWZ0K0VudGVyIOaNouihjCINCiAgICAgICAgICBAa2V5dXAuZW50ZXIuZXhhY3QucHJldmVudD0ic2VuZCINCiAgICAgICAgLz4NCiAgICAgICAgPERzQnV0dG9uIHZhcmlhbnQ9InByaW1hcnkiIDpsb2FkaW5nPSJzZW5kaW5nIiBAY2xpY2s9InNlbmQiPuWPkemAgTwvRHNCdXR0b24+DQogICAgICA8L2Rpdj4NCiAgICA8L2Rpdj4NCiAgPC9kaXY+DQo8L3RlbXBsYXRlPg0KDQo8c2NyaXB0IHNldHVwPg0KLyoqDQogKiDlhajlsYAgQUkg57uP6JCl5Yqp5omL77yI5oKs5rWu56qX77yJ44CCDQogKiDmjILlnKggbGF5b3V0L2luZGV4LnZ1ZSDnmoQgRHNBcHBTaGVsbCDlhoXjgIFyb3V0ZXItdmlldyDkuYvlpJbvvIzlm6DmraTot6jkuJrliqHpobXpnaLluLjpqbvvvIwNCiAqIOWvueivneS4iuS4i+aWh+S4jeS8muWboOi3r+eUseWIh+aNouiAjOS4ouWkseOAgumAu+i+keS4juOAjEFJIOe7j+iQpeWKqeaJi+OAjemhtemdouS4gOiHtO+8jOWdh+i1sCAvYWkvYWdlbnTjgIINCiAqLw0KaW1wb3J0IHsgcmVmIH0gZnJvbSAndnVlJzsNCmltcG9ydCB7IEljb25Gb250IH0gZnJvbSAnLi4vLi4vY29tcG9uZW50cyc7DQppbXBvcnQgeyBtZXNzYWdlIH0gZnJvbSAnQC91dGlscy91aSc7DQppbXBvcnQgcmVxdWVzdCBmcm9tICcuLi8uLi91dGlscy9yZXF1ZXN0JzsNCg0KY29uc3Qgb3BlbiA9IHJlZihmYWxzZSk7DQpjb25zdCBtZXNzYWdlcyA9IHJlZihbXSk7DQpjb25zdCBpbnB1dCA9IHJlZignJyk7DQpjb25zdCBzZW5kaW5nID0gcmVmKGZhbHNlKTsNCmxldCBpZFNlcSA9IDE7DQoNCi8qKiDlv6vmjbfmj5Dpl67vvIzpmY3kvY7kvb/nlKjpl6jmp5sgKi8NCmNvbnN0IHF1aWNrID0gWyfmnKzmnIjnu4/okKXmpoLop4gnLCAn5ZOq5Lqb5ZWG5ZOB5bqT5a2Y5ZGK5oCl77yfJywgJ+i/meS4quaciOWIqea2puWkmuWwke+8nycsICfosIHov5jmrKDmiJHku6zpkrHvvJ8nXTsNCg0KZnVuY3Rpb24gcHVzaFVzZXIodGV4dCkgew0KICBjb25zdCBtID0geyBpZDogaWRTZXErKywgcm9sZTogJ3VzZXInLCBjb250ZW50OiB0ZXh0IH07DQogIG1lc3NhZ2VzLnZhbHVlLnB1c2gobSk7DQogIHJldHVybiBtOw0KfQ0KZnVuY3Rpb24gcHVzaEFpKCkgew0KICBjb25zdCBpZCA9IGlkU2VxKys7DQogIG1lc3NhZ2VzLnZhbHVlLnB1c2goeyBpZCwgcm9sZTogJ2Fzc2lzdGFudCcsIGNvbnRlbnQ6ICcnLCBzdHJlYW1pbmc6IHRydWUgfSk7DQogIHJldHVybiBpZDsNCn0NCmZ1bmN0aW9uIGZpbmRBaShpZCkgew0KICByZXR1cm4gbWVzc2FnZXMudmFsdWUuZmluZCgobSkgPT4gbS5pZCA9PT0gaWQpOw0KfQ0KDQphc3luYyBmdW5jdGlvbiBzZW5kKCkgew0KICBjb25zdCB0ZXh0ID0gaW5wdXQudmFsdWUudHJpbSgpOw0KICBpZiAoIXRleHQgfHwgc2VuZGluZy52YWx1ZSkgcmV0dXJuOw0KICBwdXNoVXNlcih0ZXh0KTsNCiAgaW5wdXQudmFsdWUgPSAnJzsNCiAgY29uc3QgYWlJZCA9IHB1c2hBaSgpOw0KICBzZW5kaW5nLnZhbHVlID0gdHJ1ZTsNCiAgdHJ5IHsNCiAgICBjb25zdCByID0gYXdhaXQgcmVxdWVzdC5wb3N0KCcvYWkvYWdlbnQnLCB7IG1lc3NhZ2U6IHRleHQgfSk7DQogICAgY29uc3QgYWkgPSBmaW5kQWkoYWlJZCk7DQogICAgaWYgKGFpKSB7DQogICAgICBhaS5jb250ZW50ID0gcj8uY29udGVudCB8fCAnKOaXoOi/lOWbniknOw0KICAgICAgYWkuc3RyZWFtaW5nID0gZmFsc2U7DQogICAgICBhaS50b29sQ2FsbHMgPSByPy50b29sQ2FsbHMgfHwgW107DQogICAgfQ0KICB9IGNhdGNoIChlKSB7DQogICAgY29uc3QgYWkgPSBmaW5kQWkoYWlJZCk7DQogICAgaWYgKGFpKSB7DQogICAgICBhaS5jb250ZW50ID0gJ+iwg+eUqOWksei0pe+8micgKyAoZS5tZXNzYWdlIHx8IGUpOw0KICAgICAgYWkuc3RyZWFtaW5nID0gZmFsc2U7DQogICAgICBhaS5lcnJvciA9IHRydWU7DQogICAgfQ0KICAgIG1lc3NhZ2UuZXJyb3IoJ0FJIOiwg+eUqOWksei0pe+8jOivt+ehruiupOW3suWcqOOAjOaooeWei+mFjee9ruOAjeS4reiuvue9ruWPr+eUqOeahCBBSSDmqKHlnosnKTsNCiAgfSBmaW5hbGx5IHsNCiAgICBzZW5kaW5nLnZhbHVlID0gZmFsc2U7DQogIH0NCn0NCg0KLyoqIOW/q+aNt+aPkOmXrueCueWHu++8muebtOaOpeWPkemAgSAqLw0KZnVuY3Rpb24gYXNrKHEpIHsNCiAgaW5wdXQudmFsdWUgPSBxOw0KICBzZW5kKCk7DQp9DQo8L3NjcmlwdD4NCg0KPHN0eWxlIHNjb3BlZD4NCi8qIOaCrOa1ruWuueWZqO+8muWbuuWumuWPs+S4i+inku+8jOe9ruS6juWGheWuueS5i+S4iiAqLw0KLmFpLWNvcGlsb3QgeyBwb3NpdGlvbjogZml4ZWQ7IHJpZ2h0OiAyNHB4OyBib3R0b206IDI0cHg7IHotaW5kZXg6IDEwMDA7IH0NCg0KLmFpLWZhYiB7DQogIHdpZHRoOiA1MnB4OyBoZWlnaHQ6IDUycHg7IGJvcmRlci1yYWRpdXM6IDUwJTsgYm9yZGVyOiBub25lOyBjdXJzb3I6IHBvaW50ZXI7DQogIGJhY2tncm91bmQ6IHZhcigtLWRzLWJyYW5kLCAjNGY0NmU1KTsgY29sb3I6ICNmZmY7DQogIGRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGp1c3RpZnktY29udGVudDogY2VudGVyOw0KICBib3gtc2hhZG93OiAwIDZweCAyMHB4IHJnYmEoMCwgMCwgMCwgMC4xOCk7DQogIHRyYW5zaXRpb246IGZpbHRlciB2YXIoLS1kcy1kdXIsIDAuMTVzKSB2YXIoLS1kcy1lYXNlLCBlYXNlKTsNCn0NCi5haS1mYWI6aG92ZXIgeyBmaWx0ZXI6IGJyaWdodG5lc3MoMS4wNik7IH0NCg0KLyog5a+56K+d6Z2i5p2/ICovDQouYWktcGFuZWwgew0KICB3aWR0aDogNDIwcHg7IGhlaWdodDogNzJ2aDsgbWF4LWhlaWdodDogNzIwcHg7DQogIGJhY2tncm91bmQ6IHZhcigtLWRzLWJnLCAjZmZmKTsNCiAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tZHMtYm9yZGVyLCAjZTVlN2ViKTsNCiAgYm9yZGVyLXJhZGl1czogMTRweDsNCiAgYm94LXNoYWRvdzogMCAxMnB4IDQwcHggcmdiYSgwLCAwLCAwLCAwLjE4KTsNCiAgZGlzcGxheTogZmxleDsgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsgb3ZlcmZsb3c6IGhpZGRlbjsNCn0NCi5haS1wYW5lbC1oZWFkIHsNCiAgZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOyBnYXA6IDhweDsNCiAgcGFkZGluZzogMTBweCAxNHB4OyBib3JkZXItYm90dG9tOiAxcHggc29saWQgdmFyKC0tZHMtYm9yZGVyLCAjZTVlN2ViKTsgZm9udC13ZWlnaHQ6IDYwMDsNCn0NCi5haS1wYW5lbC1oZWFkIHNwYW4geyBkaXNwbGF5OiBpbmxpbmUtZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsgZ2FwOiA2cHg7IH0NCi5haS1jbG9zZSB7IGJvcmRlcjogbm9uZTsgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7IGN1cnNvcjogcG9pbnRlcjsgZm9udC1zaXplOiAxNnB4OyBjb2xvcjogdmFyKC0tZHMtdGV4dC0zLCAjOWNhM2FmKTsgfQ0KLmFpLWNsb3NlOmhvdmVyIHsgY29sb3I6IHZhcigtLWRzLXRleHQsICMzNzQxNTEpOyB9DQoNCi5haS1jaGF0IHsgZmxleDogMTsgbWluLWhlaWdodDogMDsgZGlzcGxheTogZmxleDsgfQ0KLmFpLXF1aWNrIHsgZGlzcGxheTogZmxleDsgZmxleC13cmFwOiB3cmFwOyBnYXA6IDZweDsgcGFkZGluZzogOHB4IDEycHg7IH0NCi5haS1pbnB1dCB7IGRpc3BsYXk6IGZsZXg7IGdhcDogOHB4OyBhbGlnbi1pdGVtczogZmxleC1lbmQ7IHBhZGRpbmc6IDEwcHggMTJweDsgYm9yZGVyLXRvcDogMXB4IHNvbGlkIHZhcigtLWRzLWJvcmRlciwgI2U1ZTdlYik7IH0NCi5haS1pbnB1dCA6ZGVlcCh0ZXh0YXJlYSkgeyBmbGV4OiAxOyB9DQo8L3N0eWxlPg0K
+<template>
+  <div class="ai-copilot">
+    <!-- 悬浮入口：右下角圆形按钮，点击展开对话面板 -->
+    <button v-if="!open" class="ai-fab" type="button" title="AI 经营助手" @click="open = true">
+      <IconFont name="Magic" :size="22" />
+    </button>
+
+    <!-- 对话面板：复用 DsChatView 调 /ai/agent -->
+    <div v-else class="ai-panel">
+      <div class="ai-panel-head">
+        <span><IconFont name="Magic" :size="16" /> AI 经营助手</span>
+        <button class="ai-close" type="button" title="收起" @click="open = false">✕</button>
+      </div>
+
+      <div class="ai-chat">
+        <DsChatView
+          :messages="messages"
+          empty-title="随时问我经营问题"
+          empty-desc="如：本月销售和利润怎么样？哪些商品库存告急？谁还欠我们钱？"
+        />
+      </div>
+
+      <div v-if="!messages.length" class="ai-quick">
+        <DsButton v-for="q in quick" :key="q" variant="default" size="sm" @click="ask(q)">{{ q }}</DsButton>
+      </div>
+
+      <div class="ai-input">
+        <DsInput
+          v-model="input"
+          type="textarea"
+          :rows="2"
+          placeholder="输入经营问题，Enter 发送 / Shift+Enter 换行"
+          @keyup.enter.exact.prevent="send"
+        />
+        <DsButton variant="primary" :loading="sending" @click="send">发送</DsButton>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup>
+/**
+ * 全局 AI 经营助手（悬浮窗）。
+ * 挂在 layout/index.vue 的 DsAppShell 内、router-view 之外，因此跨业务页面常驻，
+ * 对话上下文不会因路由切换而丢失。逻辑与「AI 经营助手」页面一致，均走 /ai/agent。
+ */
+import { ref } from 'vue';
+import { IconFont } from '../../components';
+import { message } from '@/utils/ui';
+import request from '../../utils/request';
+
+const open = ref(false);
+const messages = ref([]);
+const input = ref('');
+const sending = ref(false);
+let idSeq = 1;
+
+/** 快捷提问，降低使用门槛 */
+const quick = ['本月经营概览', '哪些商品库存告急？', '这个月利润多少？', '谁还欠我们钱？'];
+
+function pushUser(text) {
+  const m = { id: idSeq++, role: 'user', content: text };
+  messages.value.push(m);
+  return m;
+}
+function pushAi() {
+  const id = idSeq++;
+  messages.value.push({ id, role: 'assistant', content: '', streaming: true });
+  return id;
+}
+function findAi(id) {
+  return messages.value.find((m) => m.id === id);
+}
+
+async function send() {
+  const text = input.value.trim();
+  if (!text || sending.value) return;
+  pushUser(text);
+  input.value = '';
+  const aiId = pushAi();
+  sending.value = true;
+  try {
+    const r = await request.post('/ai/agent', { message: text });
+    const ai = findAi(aiId);
+    if (ai) {
+      ai.content = r?.content || '(无返回)';
+      ai.streaming = false;
+      ai.toolCalls = r?.toolCalls || [];
+    }
+  } catch (e) {
+    const ai = findAi(aiId);
+    if (ai) {
+      ai.content = '调用失败：' + (e.message || e);
+      ai.streaming = false;
+      ai.error = true;
+    }
+    message.error('AI 调用失败，请确认已在「模型配置」中设置可用的 AI 模型');
+  } finally {
+    sending.value = false;
+  }
+}
+
+/** 快捷提问点击：直接发送 */
+function ask(q) {
+  input.value = q;
+  send();
+}
+</script>
+
+<style scoped>
+/* 悬浮容器：固定右下角，置于内容之上 */
+.ai-copilot { position: fixed; right: 24px; bottom: 24px; z-index: 1000; }
+
+.ai-fab {
+  width: 52px; height: 52px; border-radius: 50%; border: none; cursor: pointer;
+  background: var(--ds-brand, #4f46e5); color: #fff;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+  transition: filter var(--ds-dur, 0.15s) var(--ds-ease, ease);
+}
+.ai-fab:hover { filter: brightness(1.06); }
+
+/* 对话面板 */
+.ai-panel {
+  width: 420px; height: 72vh; max-height: 720px;
+  background: var(--ds-bg, #fff);
+  border: 1px solid var(--ds-border, #e5e7eb);
+  border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  display: flex; flex-direction: column; overflow: hidden;
+}
+.ai-panel-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 10px 14px; border-bottom: 1px solid var(--ds-border, #e5e7eb); font-weight: 600;
+}
+.ai-panel-head span { display: inline-flex; align-items: center; gap: 6px; }
+.ai-close { border: none; background: transparent; cursor: pointer; font-size: 16px; color: var(--ds-text-3, #9ca3af); }
+.ai-close:hover { color: var(--ds-text, #374151); }
+
+.ai-chat { flex: 1; min-height: 0; display: flex; }
+.ai-quick { display: flex; flex-wrap: wrap; gap: 6px; padding: 8px 12px; }
+.ai-input { display: flex; gap: 8px; align-items: flex-end; padding: 10px 12px; border-top: 1px solid var(--ds-border, #e5e7eb); }
+.ai-input :deep(textarea) { flex: 1; }
+</style>

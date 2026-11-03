@@ -1,1 +1,4 @@
-ewogICJleHRlbmRzIjogIi4vdHNjb25maWcuanNvbiIsCiAgImV4Y2x1ZGUiOiBbIm5vZGVfbW9kdWxlcyIsICJ0ZXN0IiwgImRpc3QiLCAiKiovKnNwZWMudHMiLCAic2NyaXB0cyJdCn0K
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["node_modules", "test", "dist", "**/*spec.ts", "scripts"]
+}

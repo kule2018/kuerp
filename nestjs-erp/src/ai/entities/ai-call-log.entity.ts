@@ -1,1 +1,35 @@
-aW1wb3J0IHsgRW50aXR5LCBDb2x1bW4gfSBmcm9tICd0eXBlb3JtJzsKaW1wb3J0IHsgQmFzZUVudGl0eSB9IGZyb20gJy4uLy4uL2NvbW1vbi9iYXNlLmVudGl0eSc7CgovKioKICogQUkg6LCD55So5pel5b+X77yI6JC95bqT77yJ44CC6K6w5b2V5q+P5LiA5qyh5qih5Z6L6LCD55So55qE5YWl5Y+CL+WHuuWPgi/ogJfml7Yv54q25oCB77yM562J5pWIIFNwcmluZyBBSSDnmoQgT2JzZXJ2YXRpb24v5pel5b+XIEFkdmlzb3LjgIIKICovCkBFbnRpdHkoJ2FpX2NhbGxfbG9nJykKZXhwb3J0IGNsYXNzIEFpQ2FsbExvZyBleHRlbmRzIEJhc2VFbnRpdHkgewogIEBDb2x1bW4oeyB0eXBlOiAnaW50JywgZGVmYXVsdDogMCwgY29tbWVudDogJ+WFs+iBlOaooeWei+mFjee9rklEJyB9KQogIG1vZGVsQ29uZmlnSWQ6IG51bWJlcjsKCiAgQENvbHVtbih7IHR5cGU6ICd2YXJjaGFyJywgbGVuZ3RoOiAxMDAsIGRlZmF1bHQ6ICcnLCBjb21tZW50OiAn5qih5Z6LJyB9KQogIG1vZGVsOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAndGV4dCcsIGNvbW1lbnQ6ICfmj5DnpLror40o5ZCI5bm25ZCOKScgfSkKICBwcm9tcHQ6IHN0cmluZzsKCiAgQENvbHVtbih7IHR5cGU6ICd0ZXh0JywgY29tbWVudDogJ+aooeWei+i/lOWbnuWGheWuuScgfSkKICBjb21wbGV0aW9uOiBzdHJpbmc7CgogIEBDb2x1bW4oeyB0eXBlOiAnaW50JywgZGVmYXVsdDogMCwgY29tbWVudDogJ+aPkOekuiB0b2tlbiDmlbAnIH0pCiAgdG9rZW5zUHJvbXB0OiBudW1iZXI7CgogIEBDb2x1bW4oeyB0eXBlOiAnaW50JywgZGVmYXVsdDogMCwgY29tbWVudDogJ+ihpeWFqCB0b2tlbiDmlbAnIH0pCiAgdG9rZW5zQ29tcGxldGlvbjogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ2ludCcsIGRlZmF1bHQ6IDAsIGNvbW1lbnQ6ICfogJfml7YobXMpJyB9KQogIGVsYXBzZWRNczogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ3RpbnlpbnQnLCBkZWZhdWx0OiAxLCBjb21tZW50OiAn54q25oCBOjE95oiQ5YqfLDA95aSx6LSlJyB9KQogIHN0YXR1czogbnVtYmVyOwoKICBAQ29sdW1uKHsgdHlwZTogJ3RleHQnLCBjb21tZW50OiAn6ZSZ6K+v5L+h5oGvJyB9KQogIGVycm9yOiBzdHJpbmc7Cn0K
+import { Entity, Column } from 'typeorm';
+import { BaseEntity } from '../../common/base.entity';
+
+/**
+ * AI 调用日志（落库）。记录每一次模型调用的入参/出参/耗时/状态，等效 Spring AI 的 Observation/日志 Advisor。
+ */
+@Entity('ai_call_log')
+export class AiCallLog extends BaseEntity {
+  @Column({ type: 'int', default: 0, comment: '关联模型配置ID' })
+  modelConfigId: number;
+
+  @Column({ type: 'varchar', length: 100, default: '', comment: '模型' })
+  model: string;
+
+  @Column({ type: 'text', comment: '提示词(合并后)' })
+  prompt: string;
+
+  @Column({ type: 'text', comment: '模型返回内容' })
+  completion: string;
+
+  @Column({ type: 'int', default: 0, comment: '提示 token 数' })
+  tokensPrompt: number;
+
+  @Column({ type: 'int', default: 0, comment: '补全 token 数' })
+  tokensCompletion: number;
+
+  @Column({ type: 'int', default: 0, comment: '耗时(ms)' })
+  elapsedMs: number;
+
+  @Column({ type: 'tinyint', default: 1, comment: '状态:1=成功,0=失败' })
+  status: number;
+
+  @Column({ type: 'text', comment: '错误信息' })
+  error: string;
+}

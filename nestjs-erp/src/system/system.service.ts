@@ -1,1 +1,111 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgT25Nb2R1bGVJbml0IH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBJbmplY3RSZXBvc2l0b3J5IH0gZnJvbSAnQG5lc3Rqcy90eXBlb3JtJzsKaW1wb3J0IHsgRGF0YVNvdXJjZSwgUmVwb3NpdG9yeSB9IGZyb20gJ3R5cGVvcm0nOwppbXBvcnQgeyBBZG1pbiB9IGZyb20gJy4vZW50aXRpZXMvYWRtaW4uZW50aXR5JzsKaW1wb3J0IHsgbWFrZVNhbHQsIGVuY3J5cHRQYXNzd29yZCB9IGZyb20gJy4uL2NvbW1vbi91dGlscy9wYXNzd29yZCc7CmltcG9ydCB7IG5vd1NlYyB9IGZyb20gJy4uL2NvbW1vbi9iaWdpbnQudHJhbnNmb3JtZXInOwoKLyoqCiAqIOezu+e7n+acjeWKoe+8mueuoeeQhuWRmOi0puWPt+euoeeQhiArIOmmluasoeWQr+WKqOWGmeWFpem7mOiupOi0puWPtyhhZG1pbi8xMjM0NTYp44CCCiAqLwpASW5qZWN0YWJsZSgpCmV4cG9ydCBjbGFzcyBTeXN0ZW1TZXJ2aWNlIGltcGxlbWVudHMgT25Nb2R1bGVJbml0IHsKICBjb25zdHJ1Y3RvcigKICAgIEBJbmplY3RSZXBvc2l0b3J5KEFkbWluKSBwcml2YXRlIHJlYWRvbmx5IGFkbWluUmVwbzogUmVwb3NpdG9yeTxBZG1pbj4sCiAgICBwcml2YXRlIHJlYWRvbmx5IGRhdGFTb3VyY2U6IERhdGFTb3VyY2UsCiAgKSB7fQoKICBhc3luYyBvbk1vZHVsZUluaXQoKSB7CiAgICBhd2FpdCB0aGlzLnNlZWREZWZhdWx0QWRtaW4oKTsKICB9CgogIC8qKiDpppbmrKHlkK/liqjoi6Xml6DnrqHnkIblkZjliJnliJvlu7ogYWRtaW4gLyAxMjM0NTbvvIjkuI7ljp/ns7vnu58gZGVtbyDotKblj7fkuIDoh7TvvIkgKi8KICBwcml2YXRlIGFzeW5jIHNlZWREZWZhdWx0QWRtaW4oKSB7CiAgICBjb25zdCBjb3VudCA9IGF3YWl0IHRoaXMuYWRtaW5SZXBvLmNvdW50KCk7CiAgICBpZiAoY291bnQgPiAwKSByZXR1cm47CiAgICBjb25zdCBzYWx0ID0gbWFrZVNhbHQoKTsKICAgIGNvbnN0IGFkbWluID0gdGhpcy5hZG1pblJlcG8uY3JlYXRlKHsKICAgICAgdXNlcm5hbWU6ICdhZG1pbicsCiAgICAgIG5pY2tuYW1lOiAn6LaF57qn566h55CG5ZGYJywKICAgICAgc2FsdCwKICAgICAgcGFzc3dvcmQ6IGVuY3J5cHRQYXNzd29yZCgnMTIzNDU2Jywgc2FsdCksCiAgICAgIHN0YXR1czogMSwKICAgICAgY3JlYXRldGltZTogbm93U2VjKCksCiAgICAgIHVwZGF0ZXRpbWU6IG5vd1NlYygpLAogICAgICBkZWxldGV0aW1lOiAwLAogICAgfSBhcyBhbnkpOwogICAgYXdhaXQgdGhpcy5hZG1pblJlcG8uc2F2ZShhZG1pbik7CiAgfQoKICBhc3luYyBsaXN0KHF1ZXJ5OiB7IHBhZ2U/OiBudW1iZXI7IGxpbWl0PzogbnVtYmVyOyBzZWFyY2g/OiBzdHJpbmcgfSkgewogICAgY29uc3QgcWIgPSB0aGlzLmFkbWluUmVwby5jcmVhdGVRdWVyeUJ1aWxkZXIoJ2EnKS53aGVyZSgnYS5kZWxldGV0aW1lID0gMCBPUiBhLmRlbGV0ZXRpbWUgSVMgTlVMTCcpOwogICAgaWYgKHF1ZXJ5LnNlYXJjaCkgcWIuYW5kV2hlcmUoJ2EudXNlcm5hbWUgTElLRSA6a3cgT1IgYS5uaWNrbmFtZSBMSUtFIDprdycsIHsga3c6IGAlJHtxdWVyeS5zZWFyY2h9JWAgfSk7CiAgICBxYi5vcmRlckJ5KCdhLmlkJywgJ0RFU0MnKTsKICAgIGNvbnN0IHBhZ2UgPSBxdWVyeS5wYWdlIHx8IDE7CiAgICBjb25zdCBsaW1pdCA9IHF1ZXJ5LmxpbWl0IHx8IDEwOwogICAgY29uc3QgW2l0ZW1zLCBjb3VudF0gPSBhd2FpdCBxYi5za2lwKChwYWdlIC0gMSkgKiBsaW1pdCkudGFrZShsaW1pdCkuZ2V0TWFueUFuZENvdW50KCk7CiAgICAvLyDov57luKbmn6Xor6Lmr4/kuKrnrqHnkIblkZjnmoTop5LoibLnu4TvvIhhdXRoX2dyb3VwX2FjY2Vzc++8ie+8jOS+v+S6juWJjeerr+a4suafk+inkuiJsuWkmumAiQogICAgY29uc3QgbGlua3MgPSBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgICdTRUxFQ1QgYWRtaW5faWQsIEdST1VQX0NPTkNBVChncm91cF9pZCkgQVMgZ2lkcyBGUk9NIGt1ZXJwX2F1dGhfZ3JvdXBfYWNjZXNzIEdST1VQIEJZIGFkbWluX2lkJywKICAgICk7CiAgICBjb25zdCBnaWRNYXA6IFJlY29yZDxudW1iZXIsIG51bWJlcltdPiA9IHt9OwogICAgbGlua3MuZm9yRWFjaCgobDogYW55KSA9PiB7CiAgICAgIGdpZE1hcFtsLmFkbWluX2lkXSA9IFN0cmluZyhsLmdpZHMgfHwgJycpCiAgICAgICAgLnNwbGl0KCcsJykKICAgICAgICAuZmlsdGVyKEJvb2xlYW4pCiAgICAgICAgLm1hcChOdW1iZXIpOwogICAgfSk7CiAgICBjb25zdCBsaXN0ID0gaXRlbXMubWFwKChhOiBhbnkpID0+ICh7IC4uLmEsIGdyb3VwX2lkczogZ2lkTWFwW2EuaWRdIHx8IFtdIH0pKTsKICAgIHJldHVybiB7IGxpc3QsIGNvdW50LCBwYWdlLCBsaW1pdCB9OwogIH0KCiAgYXN5bmMgY3JlYXRlKGR0bzogUGFydGlhbDxBZG1pbj4pIHsKICAgIGNvbnN0IHNhbHQgPSBtYWtlU2FsdCgpOwogICAgY29uc3QgZW50aXR5ID0gdGhpcy5hZG1pblJlcG8uY3JlYXRlKHsKICAgICAgLi4uZHRvLAogICAgICBzYWx0LAogICAgICBwYXNzd29yZDogZW5jcnlwdFBhc3N3b3JkKGR0by5wYXNzd29yZCB8fCAnMTIzNDU2Jywgc2FsdCksCiAgICAgIGNyZWF0ZXRpbWU6IG5vd1NlYygpLAogICAgICB1cGRhdGV0aW1lOiBub3dTZWMoKSwKICAgICAgZGVsZXRldGltZTogMCwKICAgIH0gYXMgYW55KTsKICAgIGNvbnN0IHNhdmVkOiBhbnkgPSBhd2FpdCB0aGlzLmFkbWluUmVwby5zYXZlKGVudGl0eSk7CiAgICBpZiAoQXJyYXkuaXNBcnJheSgoZHRvIGFzIGFueSkuZ3JvdXBfaWRzKSkgewogICAgICBhd2FpdCB0aGlzLnN5bmNHcm91cHMoc2F2ZWQuaWQsIChkdG8gYXMgYW55KS5ncm91cF9pZHMpOwogICAgfQogICAgcmV0dXJuIHNhdmVkOwogIH0KCiAgYXN5bmMgdXBkYXRlKGlkOiBudW1iZXIsIGR0bzogUGFydGlhbDxBZG1pbj4pIHsKICAgIGNvbnN0IGRhdGE6IGFueSA9IHsgLi4uZHRvLCB1cGRhdGV0aW1lOiBub3dTZWMoKSB9OwogICAgaWYgKGR0by5wYXNzd29yZCkgewogICAgICBjb25zdCBzYWx0ID0gbWFrZVNhbHQoKTsKICAgICAgZGF0YS5zYWx0ID0gc2FsdDsKICAgICAgZGF0YS5wYXNzd29yZCA9IGVuY3J5cHRQYXNzd29yZChkdG8ucGFzc3dvcmQsIHNhbHQpOwogICAgfQogICAgYXdhaXQgdGhpcy5hZG1pblJlcG8udXBkYXRlKGlkLCBkYXRhKTsKICAgIC8vIOinkuiJsue7hOWPmOabtO+8muWJjeerr+S8oCBncm91cF9pZHMg5pe26YeN57uR77yI5LiN5Lyg5YiZ5L+d5oyB5Y6f5YWz6IGU77yJCiAgICBpZiAoQXJyYXkuaXNBcnJheSgoZHRvIGFzIGFueSkuZ3JvdXBfaWRzKSkgewogICAgICBhd2FpdCB0aGlzLnN5bmNHcm91cHMoaWQsIChkdG8gYXMgYW55KS5ncm91cF9pZHMpOwogICAgfQogICAgcmV0dXJuIHRoaXMuYWRtaW5SZXBvLmZpbmRPbmUoeyB3aGVyZTogeyBpZCB9IGFzIGFueSB9KTsKICB9CgogIC8qKiDph43nu5HnrqHnkIblkZgg4oaSIOinkuiJsue7hO+8iOWFiOWIoOWQjuaPku+8jOeugOWNleWPr+mdoO+8iSAqLwogIHByaXZhdGUgYXN5bmMgc3luY0dyb3VwcyhhZG1pbklkOiBudW1iZXIsIGdyb3VwSWRzOiBhbnlbXSkgewogICAgY29uc3QgaWRzID0gZ3JvdXBJZHMubWFwKE51bWJlcikuZmlsdGVyKChuKSA9PiAhTnVtYmVyLmlzTmFOKG4pKTsKICAgIGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgnREVMRVRFIEZST00ga3VlcnBfYXV0aF9ncm91cF9hY2Nlc3MgV0hFUkUgYWRtaW5faWQgPSA/JywgW2FkbWluSWRdKTsKICAgIGlmIChpZHMubGVuZ3RoKSB7CiAgICAgIGNvbnN0IHZhbHMgPSBpZHMubWFwKChnaWQpID0+IGAoJHthZG1pbklkfSwgJHtnaWR9KWApLmpvaW4oJywgJyk7CiAgICAgIGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgICBgSU5TRVJUIElOVE8ga3VlcnBfYXV0aF9ncm91cF9hY2Nlc3MgKGFkbWluX2lkLCBncm91cF9pZCkgVkFMVUVTICR7dmFsc31gLAogICAgICApOwogICAgfQogIH0KCiAgYXN5bmMgcmVtb3ZlKGlkOiBudW1iZXIpIHsKICAgIGF3YWl0IHRoaXMuYWRtaW5SZXBvLnVwZGF0ZShpZCwgeyBkZWxldGV0aW1lOiBub3dTZWMoKSB9IGFzIGFueSk7CiAgICBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoJ0RFTEVURSBGUk9NIGt1ZXJwX2F1dGhfZ3JvdXBfYWNjZXNzIFdIRVJFIGFkbWluX2lkID0gPycsIFtpZF0pOwogICAgcmV0dXJuIHRydWU7CiAgfQp9Cg==
+import { Injectable, OnModuleInit } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { DataSource, Repository } from 'typeorm';
+import { Admin } from './entities/admin.entity';
+import { makeSalt, encryptPassword } from '../common/utils/password';
+import { nowSec } from '../common/bigint.transformer';
+
+/**
+ * 系统服务：管理员账号管理 + 首次启动写入默认账号(admin/123456)。
+ */
+@Injectable()
+export class SystemService implements OnModuleInit {
+  constructor(
+    @InjectRepository(Admin) private readonly adminRepo: Repository<Admin>,
+    private readonly dataSource: DataSource,
+  ) {}
+
+  async onModuleInit() {
+    await this.seedDefaultAdmin();
+  }
+
+  /** 首次启动若无管理员则创建 admin / 123456（与原系统 demo 账号一致） */
+  private async seedDefaultAdmin() {
+    const count = await this.adminRepo.count();
+    if (count > 0) return;
+    const salt = makeSalt();
+    const admin = this.adminRepo.create({
+      username: 'admin',
+      nickname: '超级管理员',
+      salt,
+      password: encryptPassword('123456', salt),
+      status: 1,
+      createtime: nowSec(),
+      updatetime: nowSec(),
+      deletetime: 0,
+    } as any);
+    await this.adminRepo.save(admin);
+  }
+
+  async list(query: { page?: number; limit?: number; search?: string }) {
+    const qb = this.adminRepo.createQueryBuilder('a').where('a.deletetime = 0 OR a.deletetime IS NULL');
+    if (query.search) qb.andWhere('a.username LIKE :kw OR a.nickname LIKE :kw', { kw: `%${query.search}%` });
+    qb.orderBy('a.id', 'DESC');
+    const page = query.page || 1;
+    const limit = query.limit || 10;
+    const [items, count] = await qb.skip((page - 1) * limit).take(limit).getManyAndCount();
+    // 连带查询每个管理员的角色组（auth_group_access），便于前端渲染角色多选
+    const links = await this.dataSource.query(
+      'SELECT admin_id, GROUP_CONCAT(group_id) AS gids FROM kuerp_auth_group_access GROUP BY admin_id',
+    );
+    const gidMap: Record<number, number[]> = {};
+    links.forEach((l: any) => {
+      gidMap[l.admin_id] = String(l.gids || '')
+        .split(',')
+        .filter(Boolean)
+        .map(Number);
+    });
+    const list = items.map((a: any) => ({ ...a, group_ids: gidMap[a.id] || [] }));
+    return { list, count, page, limit };
+  }
+
+  async create(dto: Partial<Admin>) {
+    const salt = makeSalt();
+    const entity = this.adminRepo.create({
+      ...dto,
+      salt,
+      password: encryptPassword(dto.password || '123456', salt),
+      createtime: nowSec(),
+      updatetime: nowSec(),
+      deletetime: 0,
+    } as any);
+    const saved: any = await this.adminRepo.save(entity);
+    if (Array.isArray((dto as any).group_ids)) {
+      await this.syncGroups(saved.id, (dto as any).group_ids);
+    }
+    return saved;
+  }
+
+  async update(id: number, dto: Partial<Admin>) {
+    const data: any = { ...dto, updatetime: nowSec() };
+    if (dto.password) {
+      const salt = makeSalt();
+      data.salt = salt;
+      data.password = encryptPassword(dto.password, salt);
+    }
+    await this.adminRepo.update(id, data);
+    // 角色组变更：前端传 group_ids 时重绑（不传则保持原关联）
+    if (Array.isArray((dto as any).group_ids)) {
+      await this.syncGroups(id, (dto as any).group_ids);
+    }
+    return this.adminRepo.findOne({ where: { id } as any });
+  }
+
+  /** 重绑管理员 → 角色组（先删后插，简单可靠） */
+  private async syncGroups(adminId: number, groupIds: any[]) {
+    const ids = groupIds.map(Number).filter((n) => !Number.isNaN(n));
+    await this.dataSource.query('DELETE FROM kuerp_auth_group_access WHERE admin_id = ?', [adminId]);
+    if (ids.length) {
+      const vals = ids.map((gid) => `(${adminId}, ${gid})`).join(', ');
+      await this.dataSource.query(
+        `INSERT INTO kuerp_auth_group_access (admin_id, group_id) VALUES ${vals}`,
+      );
+    }
+  }
+
+  async remove(id: number) {
+    await this.adminRepo.update(id, { deletetime: nowSec() } as any);
+    await this.dataSource.query('DELETE FROM kuerp_auth_group_access WHERE admin_id = ?', [id]);
+    return true;
+  }
+}

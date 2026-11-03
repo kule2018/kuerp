@@ -1,1 +1,21 @@
-ewogICJuYW1lIjogInZ1ZTMtZXJwIiwKICAidmVyc2lvbiI6ICIxLjAuMCIsCiAgImRlc2NyaXB0aW9uIjogIui/m+mUgOWtmCBFUlAg566h55CG5YmN56uvIC0gVnVlMyArIERlZXBTZWVrIFVJKGRzIOe7hOS7tuW6kykgKyBWdWUtUm91dGVyICsgQXhpb3PvvIjliY3lkI7nq6/liIbnprvvvIkiLAogICJwcml2YXRlIjogdHJ1ZSwKICAic2NyaXB0cyI6IHsKICAgICJkZXYiOiAidml0ZSIsCiAgICAiYnVpbGQiOiAidml0ZSBidWlsZCIsCiAgICAicHJldmlldyI6ICJ2aXRlIHByZXZpZXciCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgImF4aW9zIjogIl4xLjcuNyIsCiAgICAicGluaWEiOiAiXjIuMi4yIiwKICAgICJ2dWUiOiAiXjMuNS4xMCIsCiAgICAidnVlLXJvdXRlciI6ICJeNC40LjUiCiAgfSwKICAiZGV2RGVwZW5kZW5jaWVzIjogewogICAgIkB2aXRlanMvcGx1Z2luLXZ1ZSI6ICJeNS4xLjQiLAogICAgInZpdGUiOiAiXjUuNC44IgogIH0KfQo=
+{
+  "name": "vue3-erp",
+  "version": "1.0.0",
+  "description": "进销存 ERP 管理前端 - Vue3 + DeepSeek UI(ds 组件库) + Vue-Router + Axios（前后端分离）",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "pinia": "^2.2.2",
+    "vue": "^3.5.10",
+    "vue-router": "^4.4.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "vite": "^5.4.8"
+  }
+}

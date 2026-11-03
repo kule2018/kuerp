@@ -1,1 +1,191 @@
-LS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci0tIOaJqeWxleiDveWKm+ihqO+8iOaTjeS9nOaXpeW/lyAvIOa2iOaBr+S4reW/gyAvIOWkmue6p+WuoeaJuSAvIOWumuaXtuS7u+WKoeaXpeW/l++8iQotLSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KLS0g5Yqg6L296aG65bqPIDA277yM6aG75ZyoIHNjaGVtYS5zcWwgKyBhZG1pbi1zY2hlbWEuc3FsICsgcmJhYy1zY2hlbWEuc3FsIOS5i+WQjuOAggotLSDov5nkupvooajkuI3mmK/ljp/ns7vnu58ga3VlcnBfKiDkuJrliqHooajnmoTkuIDpg6jliIbvvIzogIzmmK/orqnns7vnu5/og73kuIrnlJ/kuqfmiYDpnIDnmoTln7rnoYDorr7mlr3ooajvvJoKLS0gICAxKSBrdWVycF9hZG1pbl9sb2cgICAgICDmk43kvZzlrqHorqHvvIjosIHlnKjku4DkuYjml7blgJnmlLnkuobku4DkuYjvvIkKLS0gICAyKSBrdWVycF9tZXNzYWdlICAgICAgICDmtojmga/kuK3lv4PvvIjlupPlrZjpooToraYgLyDkv53otKjmnJ8gLyDotKbmnJ8gLyDlrqHmibnlvoXlip7vvIkKLS0gICAzKSBrdWVycF9hcHByb3ZhbF9mbG93ICDlpJrnuqflrqHmibnmtYHphY3nva7vvIjmjInljZXmja7nsbvlnosgKyDph5Hpop3ljLrpl7TlrprnuqfvvIkKLS0gICA0KSBrdWVycF9hcHByb3ZhbF9sb2cgICDlrqHmibnmtYHovazorrDlvZUKLS0gICA1KSBrdWVycF9qb2JfbG9nICAgICAgICDlrprml7bku7vliqHmiafooYzml6Xlv5cKLS0KLS0g5pe26Ze057qm5a6a5LiO5YWo5bqT5LiA6Ie077ya56eS57qnIGJpZ2ludCDml7bpl7TmiLPvvJvova/liKDpmaTnlKggZGVsZXRldGltZeOAggotLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KClNFVCBOQU1FUyB1dGY4bWI0OwoKLS0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCi0tIDEpIOaTjeS9nOaXpeW/l++8iOWuoeiuoe+8iQotLSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgYGt1ZXJwX2FkbWluX2xvZ2AgKAogIGBpZGAgYmlnaW50KDIwKSB1bnNpZ25lZCBOT1QgTlVMTCBBVVRPX0lOQ1JFTUVOVCwKICBgYWRtaW5faWRgIGludCgxMCkgdW5zaWduZWQgTk9UIE5VTEwgREVGQVVMVCAnMCcgQ09NTUVOVCAn5pON5L2c5Lq6SUQnLAogIGB1c2VybmFtZWAgdmFyY2hhcig1MCkgTk9UIE5VTEwgREVGQVVMVCAnJyBDT01NRU5UICfmk43kvZzkurrotKblj7cnLAogIGBtb2R1bGVgIHZhcmNoYXIoNjApIE5PVCBOVUxMIERFRkFVTFQgJycgQ09NTUVOVCAn5Lia5Yqh5qih5Z2XKOihqOWQjSzlpoIgZ29vZHMpJywKICBgYWN0aW9uYCB2YXJjaGFyKDMwKSBOT1QgTlVMTCBERUZBVUxUICcnIENPTU1FTlQgJ+WKqOS9nDphZGQvZWRpdC9kZWwvZXhhbWluZS9pbXBvcnQvZXhwb3J0L290aGVyJywKICBgbWV0aG9kYCB2YXJjaGFyKDEwKSBOT1QgTlVMTCBERUZBVUxUICcnIENPTU1FTlQgJ0hUVFAg5pa55rOVJywKICBgcGF0aGAgdmFyY2hhcigyNTUpIE5PVCBOVUxMIERFRkFVTFQgJycgQ09NTUVOVCAn6K+35rGC6Lev5b6EJywKICBgcm93X2lkYCB2YXJjaGFyKDYwKSBOT1QgTlVMTCBERUZBVUxUICcnIENPTU1FTlQgJ+WPl+W9seWTjeiusOW9lUlEKOWwveWKm+iAjOS4uiknLAogIGBwYXJhbXNgIHRleHQgQ09NTUVOVCAn6K+35rGC5Y+C5pWwKOW3suiEseaVj+W5tuaIquaWrSknLAogIGBzdWNjZXNzYCB0aW55aW50KDEpIE5PVCBOVUxMIERFRkFVTFQgJzEnIENPTU1FTlQgJ+aYr+WQpuaIkOWKnzoxPeaYrywwPeWQpicsCiAgYG1zZ2AgdmFyY2hhcig1MDApIE5PVCBOVUxMIERFRkFVTFQgJycgQ09NTUVOVCAn57uT5p6c5raI5oGvJywKICBgaXBgIHZhcmNoYXIoNjApIE5PVCBOVUxMIERFRkFVTFQgJycgQ09NTUVOVCAn5a6i5oi356uvSVAnLAogIGB1YWAgdmFyY2hhcigzMDApIE5PVCBOVUxMIERFRkFVTFQgJycgQ09NTUVOVCAnVXNlci1BZ2VudCcsCiAgYGNvc3RfbXNgIGludCgxMSkgTk9UIE5VTEwgREVGQVVMVCAnMCcgQ09NTUVOVCAn6ICX5pe25q+r56eSJywKICBgY3JlYXRldGltZWAgYmlnaW50KDE2KSBERUZBVUxUIE5VTEwgQ09NTUVOVCAn5Yib5bu65pe26Ze0JywKICBQUklNQVJZIEtFWSAoYGlkYCksCiAgS0VZIGBpZHhfYWRtaW5gIChgYWRtaW5faWRgKSwKICBLRVkgYGlkeF9tb2R1bGVgIChgbW9kdWxlYCksCiAgS0VZIGBpZHhfdGltZWAgKGBjcmVhdGV0aW1lYCksCiAgS0VZIGBpZHhfYWN0aW9uYCAoYGFjdGlvbmApCikgRU5HSU5FPUlubm9EQiBERUZBVUxUIENIQVJTRVQ9dXRmOG1iNCBDT01NRU5UPSfmk43kvZzml6Xlv5co5a6h6K6hKSc7CgotLSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KLS0gMikg5raI5oGv5Lit5b+DCi0tIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyBga3VlcnBfbWVzc2FnZWAgKAogIGBpZGAgYmlnaW50KDIwKSB1bnNpZ25lZCBOT1QgTlVMTCBBVVRPX0lOQ1JFTUVOVCwKICBgdG9fYWRtaW5faWRgIGludCgxMCkgdW5zaWduZWQgTk9UIE5VTEwgREVGQVVMVCAnMCcgQ09NTUVOVCAn5o6l5pS25Lq6SUQsMD3lhajlkZjlub/mkq0nLAogIGB0eXBlYCB2YXJjaGFyKDMwKSBOT1QgTlVMTCBERUZBVUxUICdzeXN0ZW0nIENPTU1FTlQgJ+exu+WeizpzdG9ja193YXJuaW5nL2JhdGNoX2V4cGlyeS9hcl9kdWUvYXBwcm92YWwvc3lzdGVtJywKICBgbGV2ZWxgIHZhcmNoYXIoMTApIE5PVCBOVUxMIERFRkFVTFQgJ2luZm8nIENPTU1FTlQgJ+e6p+WIqzppbmZvL3dhcm4vZGFuZ2VyJywKICBgdGl0bGVgIHZhcmNoYXIoMjAwKSBOT1QgTlVMTCBERUZBVUxUICcnIENPTU1FTlQgJ+agh+mimCcsCiAgYGNvbnRlbnRgIHZhcmNoYXIoMTAwMCkgTk9UIE5VTEwgREVGQVVMVCAnJyBDT01NRU5UICflhoXlrrknLAogIGBsaW5rYCB2YXJjaGFyKDI1NSkgTk9UIE5VTEwgREVGQVVMVCAnJyBDT01NRU5UICfliY3nq6/ot7Povazot6/nlLEnLAogIGByZWZfdGFibGVgIHZhcmNoYXIoNjApIE5PVCBOVUxMIERFRkFVTFQgJycgQ09NTUVOVCAn5YWz6IGU6KGoJywKICBgcmVmX2lkYCB2YXJjaGFyKDYwKSBOT1QgTlVMTCBERUZBVUxUICcnIENPTU1FTlQgJ+WFs+iBlOiusOW9lUlEJywKICBgaXNfcmVhZGAgdGlueWludCgxKSBOT1QgTlVMTCBERUZBVUxUICcwJyBDT01NRU5UICfmmK/lkKblt7Lor7s6MT3mmK8sMD3lkKYnLAogIGByZWFkdGltZWAgYmlnaW50KDE2KSBERUZBVUxUIE5VTEwgQ09NTUVOVCAn6ZiF6K+75pe26Ze0JywKICBgY3JlYXRldGltZWAgYmlnaW50KDE2KSBERUZBVUxUIE5VTEwgQ09NTUVOVCAn5Yib5bu65pe26Ze0JywKICBgZGVsZXRldGltZWAgYmlnaW50KDE2KSBERUZBVUxUIE5VTEwgQ09NTUVOVCAn6L2v5Yig6ZmkJywKICBQUklNQVJZIEtFWSAoYGlkYCksCiAgS0VZIGBpZHhfdG9fcmVhZGAgKGB0b19hZG1pbl9pZGAsYGlzX3JlYWRgKSwKICBLRVkgYGlkeF90eXBlYCAoYHR5cGVgKSwKICBLRVkgYGlkeF90aW1lYCAoYGNyZWF0ZXRpbWVgKQopIEVOR0lORT1Jbm5vREIgREVGQVVMVCBDSEFSU0VUPXV0ZjhtYjQgQ09NTUVOVD0n5raI5oGv5Lit5b+DJzsKCi0tIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQotLSAyYikg5bm/5pKt5raI5oGv5bey6K+75piO57uGCi0tIOivtOaYju+8mmt1ZXJwX21lc3NhZ2Ug55qEIHRvX2FkbWluX2lkPTAg6KGo56S65YWo5ZGY5bm/5pKt77yb6Iul55u05o6l5pS5IGlzX3JlYWTvvIwKLS0gICAgICDkuIDkuKrkurror7vkuobmiYDmnInkurrpg73kvJrlj5jlt7Lor7vvvIzmiYDku6Xlub/mkq3nmoTlt7Lor7vnirbmgIHljZXni6zokL3ov5nlvKDooajjgIIKLS0gICAgICDnp4HmnInmtojmga/vvIh0b19hZG1pbl9pZD4w77yJ5LuN55SoIGt1ZXJwX21lc3NhZ2UuaXNfcmVhZOOAggotLSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgYGt1ZXJwX21lc3NhZ2VfcmVhZGAgKAogIGBpZGAgYmlnaW50KDIwKSB1bnNpZ25lZCBOT1QgTlVMTCBBVVRPX0lOQ1JFTUVOVCwKICBgbWVzc2FnZV9pZGAgYmlnaW50KDIwKSB1bnNpZ25lZCBOT1QgTlVMTCBERUZBVUxUICcwJyBDT01NRU5UICfmtojmga9JRCcsCiAgYGFkbWluX2lkYCBpbnQoMTApIHVuc2lnbmVkIE5PVCBOVUxMIERFRkFVTFQgJzAnIENPTU1FTlQgJ+mYheivu+S6uklEJywKICBgcmVhZHRpbWVgIGJpZ2ludCgxNikgREVGQVVMVCBOVUxMIENPTU1FTlQgJ+mYheivu+aXtumXtCcsCiAgUFJJTUFSWSBLRVkgKGBpZGApLAogIFVOSVFVRSBLRVkgYHVrX21zZ19hZG1pbmAgKGBtZXNzYWdlX2lkYCxgYWRtaW5faWRgKSwKICBLRVkgYGlkeF9hZG1pbmAgKGBhZG1pbl9pZGApCikgRU5HSU5FPUlubm9EQiBERUZBVUxUIENIQVJTRVQ9dXRmOG1iNCBDT01NRU5UPSflub/mkq3mtojmga/lt7Lor7vmmI7nu4YnOwoKLS0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCi0tIDMpIOWkmue6p+WuoeaJuea1gemFjee9rgotLSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgYGt1ZXJwX2FwcHJvdmFsX2Zsb3dgICgKICBgaWRgIGludCgxMCkgdW5zaWduZWQgTk9UIE5VTEwgQVVUT19JTkNSRU1FTlQsCiAgYGRvY190YWJsZWAgdmFyY2hhcig2MCkgTk9UIE5VTEwgREVGQVVMVCAnJyBDT01NRU5UICfljZXmja7ooajlkI0o5LiN5ZCrIGt1ZXJwXyDliY3nvIAs5aaCIGdvb2RzX3B1cmNoYXNlX29yZGVyKScsCiAgYGxldmVsYCBpbnQoMTEpIE5PVCBOVUxMIERFRkFVTFQgJzEnIENPTU1FTlQgJ+WuoeaJuee6p+asoSjku44x5byA5aeLLOWNh+W6j+WuoeaJuSknLAogIGByb2xlX2lkYCBpbnQoMTApIHVuc2lnbmVkIE5PVCBOVUxMIERFRkFVTFQgJzAnIENPTU1FTlQgJ+WuoeaJueinkuiJsue7hElEKGt1ZXJwX2F1dGhfZ3JvdXAuaWQpLDA95LiN6ZmQJywKICBgbWluX2Ftb3VudGAgZGVjaW1hbCgxNiw0KSBOT1QgTlVMTCBERUZBVUxUICcwLjAwMDAnIENPTU1FTlQgJ+eUn+aViOmHkemineS4i+mZkCjlkKspJywKICBgbWF4X2Ftb3VudGAgZGVjaW1hbCgxNiw0KSBOT1QgTlVMTCBERUZBVUxUICcwLjAwMDAnIENPTU1FTlQgJ+eUn+aViOmHkemineS4iumZkCgwPeS4jemZkCknLAogIGBzdGF0dXNgIHRpbnlpbnQoMSkgTk9UIE5VTEwgREVGQVVMVCAnMScgQ09NTUVOVCAn5piv5ZCm5ZCv55SoOjE95pivLDA95ZCmJywKICBgbm90ZWAgdmFyY2hhcigyNTUpIE5PVCBOVUxMIERFRkFVTFQgJycgQ09NTUVOVCAn6K+05piOJywKICBgY3JlYXRldGltZWAgYmlnaW50KDE2KSBERUZBVUxUIE5VTEwgQ09NTUVOVCAn5Yib5bu65pe26Ze0JywKICBgdXBkYXRldGltZWAgYmlnaW50KDE2KSBERUZBVUxUIE5VTEwgQ09NTUVOVCAn5pu05paw5pe26Ze0JywKICBgZGVsZXRldGltZWAgYmlnaW50KDE2KSBERUZBVUxUIE5VTEwgQ09NTUVOVCAn6L2v5Yig6ZmkJywKICBQUklNQVJZIEtFWSAoYGlkYCksCiAgS0VZIGBpZHhfZG9jYCAoYGRvY190YWJsZWAsYGxldmVsYCksCiAgS0VZIGBpZHhfc3RhdHVzYCAoYHN0YXR1c2ApCikgRU5HSU5FPUlubm9EQiBERUZBVUxUIENIQVJTRVQ9dXRmOG1iNCBDT01NRU5UPSflpJrnuqflrqHmibnmtYHphY3nva4nOwoKLS0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCi0tIDQpIOWuoeaJuea1gei9rOiusOW9lQotLSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgYGt1ZXJwX2FwcHJvdmFsX2xvZ2AgKAogIGBpZGAgYmlnaW50KDIwKSB1bnNpZ25lZCBOT1QgTlVMTCBBVVRPX0lOQ1JFTUVOVCwKICBgZG9jX3RhYmxlYCB2YXJjaGFyKDYwKSBOT1QgTlVMTCBERUZBVUxUICcnIENPTU1FTlQgJ+WNleaNruihqOWQjSjkuI3lkKvliY3nvIApJywKICBgZG9jX2lkYCBiaWdpbnQoMjApIHVuc2lnbmVkIE5PVCBOVUxMIERFRkFVTFQgJzAnIENPTU1FTlQgJ+WNleaNrklEJywKICBgZG9jX2NvZGVgIHZhcmNoYXIoNjApIE5PVCBOVUxMIERFRkFVTFQgJycgQ09NTUVOVCAn5Y2V5o2u57yW5Y+3KOS+v+S6juS6uueciyknLAogIGBsZXZlbGAgaW50KDExKSBOT1QgTlVMTCBERUZBVUxUICcxJyBDT01NRU5UICflvZPliY3nuqfmrKEnLAogIGB0b3RhbF9sZXZlbGAgaW50KDExKSBOT1QgTlVMTCBERUZBVUxUICcxJyBDT01NRU5UICfmgLvnuqfmlbAnLAogIGBhcHByb3Zlcl9pZGAgaW50KDEwKSB1bnNpZ25lZCBOT1QgTlVMTCBERUZBVUxUICcwJyBDT01NRU5UICflrqHmibnkurpJRCcsCiAgYGFwcHJvdmVyX25hbWVgIHZhcmNoYXIoNTApIE5PVCBOVUxMIERFRkFVTFQgJycgQ09NTUVOVCAn5a6h5om55Lq66LSm5Y+3JywKICBgcmVzdWx0YCB2YXJjaGFyKDIwKSBOT1QgTlVMTCBERUZBVUxUICdwZW5kaW5nJyBDT01NRU5UICfnirbmgIE6cGVuZGluZz3lvoXlrqEscGFzcz3pgJrov4cscmVqZWN0Pemps+WbnicsCiAgYHJlbWFya2AgdmFyY2hhcig1MDApIE5PVCBOVUxMIERFRkFVTFQgJycgQ09NTUVOVCAn5a6h5om55oSP6KeBJywKICBgY3JlYXRldGltZWAgYmlnaW50KDE2KSBERUZBVUxUIE5VTEwgQ09NTUVOVCAn5Yib5bu65pe26Ze0JywKICBgdXBkYXRldGltZWAgYmlnaW50KDE2KSBERUZBVUxUIE5VTEwgQ09NTUVOVCAn5pu05paw5pe26Ze0JywKICBQUklNQVJZIEtFWSAoYGlkYCksCiAgS0VZIGBpZHhfZG9jYCAoYGRvY190YWJsZWAsYGRvY19pZGApLAogIEtFWSBgaWR4X3Jlc3VsdGAgKGByZXN1bHRgKSwKICBLRVkgYGlkeF9hcHByb3ZlcmAgKGBhcHByb3Zlcl9pZGApCikgRU5HSU5FPUlubm9EQiBERUZBVUxUIENIQVJTRVQ9dXRmOG1iNCBDT01NRU5UPSflrqHmibnmtYHovazorrDlvZUnOwoKLS0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCi0tIDUpIOWumuaXtuS7u+WKoeaJp+ihjOaXpeW/lwotLSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgYGt1ZXJwX2pvYl9sb2dgICgKICBgaWRgIGJpZ2ludCgyMCkgdW5zaWduZWQgTk9UIE5VTEwgQVVUT19JTkNSRU1FTlQsCiAgYGpvYl9uYW1lYCB2YXJjaGFyKDYwKSBOT1QgTlVMTCBERUZBVUxUICcnIENPTU1FTlQgJ+S7u+WKoeagh+ivhicsCiAgYGpvYl90aXRsZWAgdmFyY2hhcigxMDApIE5PVCBOVUxMIERFRkFVTFQgJycgQ09NTUVOVCAn5Lu75Yqh5ZCN56ewJywKICBgc3VjY2Vzc2AgdGlueWludCgxKSBOT1QgTlVMTCBERUZBVUxUICcxJyBDT01NRU5UICfmmK/lkKbmiJDlip8nLAogIGBjb3N0X21zYCBpbnQoMTEpIE5PVCBOVUxMIERFRkFVTFQgJzAnIENPTU1FTlQgJ+iAl+aXtuavq+enkicsCiAgYG1lc3NhZ2VgIHZhcmNoYXIoNTAwKSBOT1QgTlVMTCBERUZBVUxUICcnIENPTU1FTlQgJ+e7k+aenOaRmOimgScsCiAgYGRldGFpbGAgdGV4dCBDT01NRU5UICfor6bnu4bovpPlh7oo5oiq5patKScsCiAgYGNyZWF0ZXRpbWVgIGJpZ2ludCgxNikgREVGQVVMVCBOVUxMIENPTU1FTlQgJ+aJp+ihjOaXtumXtCcsCiAgUFJJTUFSWSBLRVkgKGBpZGApLAogIEtFWSBgaWR4X2pvYmAgKGBqb2JfbmFtZWApLAogIEtFWSBgaWR4X3RpbWVgIChgY3JlYXRldGltZWApCikgRU5HSU5FPUlubm9EQiBERUZBVUxUIENIQVJTRVQ9dXRmOG1iNCBDT01NRU5UPSflrprml7bku7vliqHmiafooYzml6Xlv5cnOwoKLS0gLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCi0tIOm7mOiupOWuoeaJuea1geenjeWtkO+8mui0rei0p+iuouWNlSAvIOmUgOi0p+iuouWNlSDlkITkuIDnuqfvvIjlj6/nlLHnlYzpnaLosIPmlbTvvIkKLS0g6K+05piO77ya5Y+q57uZ5Lik5byg6K6i5Y2V6KGo5bu66buY6K6k5rWB77yM5YW25L2Z5Y2V5o2u5L+d5oyB44CM5Y2V57qn5a6h5qC444CN6KGM5Li65LiN5Y+Y77ybCi0tICAgICAgIG1pbi9tYXgg6YO95Li6IDAg6KGo56S65LiN6ZmQ6YeR6aKd77yM5Lu75L2V6YeR6aKd6YO96ZyA6L+Z5LiA57qn5a6h5om544CCCi0tIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpJTlNFUlQgSU5UTyBga3VlcnBfYXBwcm92YWxfZmxvd2AgKGBkb2NfdGFibGVgLGBsZXZlbGAsYHJvbGVfaWRgLGBtaW5fYW1vdW50YCxgbWF4X2Ftb3VudGAsYHN0YXR1c2AsYG5vdGVgLGBjcmVhdGV0aW1lYCxgdXBkYXRldGltZWApClNFTEVDVCAnZ29vZHNfcHVyY2hhc2Vfb3JkZXInLDEsMCwwLjAwMDAsMC4wMDAwLDAsJ+i0rei0p+iuouWNlem7mOiupOS4gOe6p+WuoeaJuScsVU5JWF9USU1FU1RBTVAoKSxVTklYX1RJTUVTVEFNUCgpCldIRVJFIE5PVCBFWElTVFMgKFNFTEVDVCAxIEZST00gKFNFTEVDVCBpZCBGUk9NIGBrdWVycF9hcHByb3ZhbF9mbG93YCBXSEVSRSBkb2NfdGFibGU9J2dvb2RzX3B1cmNoYXNlX29yZGVyJykgdCk7CgpJTlNFUlQgSU5UTyBga3VlcnBfYXBwcm92YWxfZmxvd2AgKGBkb2NfdGFibGVgLGBsZXZlbGAsYHJvbGVfaWRgLGBtaW5fYW1vdW50YCxgbWF4X2Ftb3VudGAsYHN0YXR1c2AsYG5vdGVgLGBjcmVhdGV0aW1lYCxgdXBkYXRldGltZWApClNFTEVDVCAnZ29vZHNfc2FsZXNfb3JkZXInLDEsMCwwLjAwMDAsMC4wMDAwLDAsJ+mUgOi0p+iuouWNlem7mOiupOS4gOe6p+WuoeaJuScsVU5JWF9USU1FU1RBTVAoKSxVTklYX1RJTUVTVEFNUCgpCldIRVJFIE5PVCBFWElTVFMgKFNFTEVDVCAxIEZST00gKFNFTEVDVCBpZCBGUk9NIGBrdWVycF9hcHByb3ZhbF9mbG93YCBXSEVSRSBkb2NfdGFibGU9J2dvb2RzX3NhbGVzX29yZGVyJykgdCk7CgotLSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KLS0g5a6a5pe25L2c5Lia5byA5YWz77yIdHlwZT0177yM5Zyo44CM57O757uf5Y+C5pWw44CN6aG16KGo546w5Li65LiA5Liq54us56uL5YiG5Yy677yM5Yu+6YCJPeWQr+eUqO+8iQotLSB2YWx1ZTogJzEnIOaIluepuiA9IOWQr+eUqO+8jCcwJyA9IOWBnOeUqAotLSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KSU5TRVJUIElOVE8gYGt1ZXJwX3NldHNgIChgYWRtaW5faWRgLGB0eXBlYCxgbmFtZWAsYG5pY2tuYW1lYCxgdmFsdWVgLGBpc19lZGl0YCxgbm90aWNlYCxgZXhwbGFpbmAsYGlzX2NoZWNrZWRgLGBzZXRgKQpTRUxFQ1QgMSw1LCdqb2Jfd2VjaGF0X3Rva2VuJywn5a6a5pe25Yi35paw5b6u5L+hIGFjY2Vzc190b2tlbicsJzEnLCcwJyxOVUxMLCflsI/nqIvluo8gYWNjZXNzX3Rva2VuIOacieaViOacnyA3MjAwIOenku+8jOWBnOeUqOWQjumcgOaUueS4uuavj+asoeiwg+eUqOWJjeeOsOWcuuiOt+WPlu+8iOS8muaLluaFouaOpeWPo++8iScsMSxOVUxMCldIRVJFIE5PVCBFWElTVFMgKFNFTEVDVCAxIEZST00gKFNFTEVDVCBpZCBGUk9NIGBrdWVycF9zZXRzYCBXSEVSRSBuYW1lPSdqb2Jfd2VjaGF0X3Rva2VuJykgdCk7CgpJTlNFUlQgSU5UTyBga3VlcnBfc2V0c2AgKGBhZG1pbl9pZGAsYHR5cGVgLGBuYW1lYCxgbmlja25hbWVgLGB2YWx1ZWAsYGlzX2VkaXRgLGBub3RpY2VgLGBleHBsYWluYCxgaXNfY2hlY2tlZGAsYHNldGApClNFTEVDVCAxLDUsJ2pvYl9zdG9ja193YXJuaW5nJywn5q+P5pel5bqT5a2Y6aKE6K2m5omr5o+PJywnMScsJzAnLE5VTEwsJ+aMieWVhuWTgeeahOW6k+WtmOmihOitpuiuvue9ruaJq+aPj+aAu+W6k+WtmO+8jOS9juS6juS4i+mZkOaIlumrmOS6juS4iumZkOWGmeWFpea2iOaBr+S4reW/gycsMSxOVUxMCldIRVJFIE5PVCBFWElTVFMgKFNFTEVDVCAxIEZST00gKFNFTEVDVCBpZCBGUk9NIGBrdWVycF9zZXRzYCBXSEVSRSBuYW1lPSdqb2Jfc3RvY2tfd2FybmluZycpIHQpOwoKSU5TRVJUIElOVE8gYGt1ZXJwX3NldHNgIChgYWRtaW5faWRgLGB0eXBlYCxgbmFtZWAsYG5pY2tuYW1lYCxgdmFsdWVgLGBpc19lZGl0YCxgbm90aWNlYCxgZXhwbGFpbmAsYGlzX2NoZWNrZWRgLGBzZXRgKQpTRUxFQ1QgMSw1LCdqb2JfYmF0Y2hfZXhwaXJ5Jywn5q+P5pel5om55qyh5L+d6LSo5pyf6aKE6K2mJywnMScsJzAnLE5VTEwsJ+aMieWVhuWTgeeahOS/nei0qOacn+S4jumihOitpuWkqeaVsOaJq+aPj+aJueasoe+8jOS4tOacny/ov4fmnJ/lhpnlhaXmtojmga/kuK3lv4MnLDEsTlVMTApXSEVSRSBOT1QgRVhJU1RTIChTRUxFQ1QgMSBGUk9NIChTRUxFQ1QgaWQgRlJPTSBga3VlcnBfc2V0c2AgV0hFUkUgbmFtZT0nam9iX2JhdGNoX2V4cGlyeScpIHQpOwoKSU5TRVJUIElOVE8gYGt1ZXJwX3NldHNgIChgYWRtaW5faWRgLGB0eXBlYCxgbmFtZWAsYG5pY2tuYW1lYCxgdmFsdWVgLGBpc19lZGl0YCxgbm90aWNlYCxgZXhwbGFpbmAsYGlzX2NoZWNrZWRgLGBzZXRgKQpTRUxFQ1QgMSw1LCdqb2JfYXJfZHVlJywn5q+P5pel5bqU5pS26YC+5pyf5o+Q6YaSJywnMScsJzAnLE5VTEwsJ+aMieWuouaIt+i0puacn+iuoeeul+mAvuacn+eahOmUgOi0p+WNle+8iOacquaUtuasvi/pg6jliIbmlLbmrL7vvInlhpnlhaXmtojmga/kuK3lv4MnLDEsTlVMTApXSEVSRSBOT1QgRVhJU1RTIChTRUxFQ1QgMSBGUk9NIChTRUxFQ1QgaWQgRlJPTSBga3VlcnBfc2V0c2AgV0hFUkUgbmFtZT0nam9iX2FyX2R1ZScpIHQpOwoKSU5TRVJUIElOVE8gYGt1ZXJwX3NldHNgIChgYWRtaW5faWRgLGB0eXBlYCxgbmFtZWAsYG5pY2tuYW1lYCxgdmFsdWVgLGBpc19lZGl0YCxgbm90aWNlYCxgZXhwbGFpbmAsYGlzX2NoZWNrZWRgLGBzZXRgKQpTRUxFQ1QgMSw1LCdqb2JfbWVzc2FnZV9wdXJnZScsJ+a4heeQhui/h+acn+W3suivu+a2iOaBrycsJzAnLCcwJyxOVUxMLCfliKDpmaQgOTAg5aSp5YmN5bey6K+755qE5raI5oGv77yM6YG/5YWN5raI5oGv6KGo5peg6ZmQ5aKe6ZW/77yI6buY6K6k5YWz6Zet77yJJywwLE5VTEwKV0hFUkUgTk9UIEVYSVNUUyAoU0VMRUNUIDEgRlJPTSAoU0VMRUNUIGlkIEZST00gYGt1ZXJwX3NldHNgIFdIRVJFIG5hbWU9J2pvYl9tZXNzYWdlX3B1cmdlJykgdCk7CgotLSDkvZzkuJrlj4LmlbDvvIjpnZ7lvIDlhbPvvIzkvpvkvZzkuJror7vlj5bvvIkKSU5TRVJUIElOVE8gYGt1ZXJwX3NldHNgIChgYWRtaW5faWRgLGB0eXBlYCxgbmFtZWAsYG5pY2tuYW1lYCxgdmFsdWVgLGBpc19lZGl0YCxgbm90aWNlYCxgZXhwbGFpbmAsYGlzX2NoZWNrZWRgLGBzZXRgKQpTRUxFQ1QgMSw1LCdhcl9kdWVfZGF5cycsJ+W6lOaUtumAvuacn+WkqeaVsCcsJzMwJywnMCcsTlVMTCwn6ZSA6LSn5Y2V6LaF6L+H6K+l5aSp5pWw5LuN5pyq5pS25a6M5qy+5Y2z6KeG5Li66YC+5pyf77yM55So5LqO5q+P5pel5bqU5pS25o+Q6YaSJywxLE5VTEwKV0hFUkUgTk9UIEVYSVNUUyAoU0VMRUNUIDEgRlJPTSAoU0VMRUNUIGlkIEZST00gYGt1ZXJwX3NldHNgIFdIRVJFIG5hbWU9J2FyX2R1ZV9kYXlzJykgdCk7CgpJTlNFUlQgSU5UTyBga3VlcnBfc2V0c2AgKGBhZG1pbl9pZGAsYHR5cGVgLGBuYW1lYCxgbmlja25hbWVgLGB2YWx1ZWAsYGlzX2VkaXRgLGBub3RpY2VgLGBleHBsYWluYCxgaXNfY2hlY2tlZGAsYHNldGApClNFTEVDVCAxLDUsJ2JhdGNoX3dhcm5pbmdfZGF5cycsJ+aJueasoeS4tOacn+mihOitpuWkqeaVsCcsJzMwJywnMCcsTlVMTCwn5om55qyh5pyJ5pWI5pyf6Led5LuK5bCP5LqO6K+l5aSp5pWw5Y2z6KeG5Li65Li05pyf77yM55So5LqO5q+P5pel5L+d6LSo5pyf5o+Q6YaSJywxLE5VTEwKV0hFUkUgTk9UIEVYSVNUUyAoU0VMRUNUIDEgRlJPTSAoU0VMRUNUIGlkIEZST00gYGt1ZXJwX3NldHNgIFdIRVJFIG5hbWU9J2JhdGNoX3dhcm5pbmdfZGF5cycpIHQpOwoKLS0g6LSf5bqT5a2Y562W55Wl77yaMD3npoHmraLvvIjpu5jorqTvvIkvIDE96K2m5ZGK5pS+6KGMIC8gMj3lhYHorrjmlL7ooYwKLS0g55SxIFBvc3RpbmdTZXJ2aWNlLm5lZ2F0aXZlU3RvY2tQb2xpY3koKSDor7vlj5bvvJvmlL7ooYzml7bkvJrlhpkgd2FybiDml6Xlv5fkvr/kuo7kuovlkI7ov73muq/jgIIKSU5TRVJUIElOVE8gYGt1ZXJwX3NldHNgIChgYWRtaW5faWRgLGB0eXBlYCxgbmFtZWAsYG5pY2tuYW1lYCxgdmFsdWVgLGBpc19lZGl0YCxgbm90aWNlYCxgZXhwbGFpbmAsYGlzX2NoZWNrZWRgLGBzZXRgKQpTRUxFQ1QgMSw1LCdzdG9ja19uZWdhdGl2ZScsJ+i0n+W6k+WtmOWHuuW6k+etlueVpScsJzAnLCcwJyxOVUxMLCcwPeemgeatouWHuuW6kyjpu5jorqQpIDE96K2m5ZGK5L2G5pS+6KGMIDI95YWB6K645pS+6KGM77yb5pS+6KGM5Lya5Zyo5pyN5Yqh56uv6K6w5b2V5ZGK6K2m5pel5b+XJywxLE5VTEwKV0hFUkUgTk9UIEVYSVNUUyAoU0VMRUNUIDEgRlJPTSAoU0VMRUNUIGlkIEZST00gYGt1ZXJwX3NldHNgIFdIRVJFIG5hbWU9J3N0b2NrX25lZ2F0aXZlJykgdCk7Cg==
+-- =====================================================================
+-- 扩展能力表（操作日志 / 消息中心 / 多级审批 / 定时任务日志）
+-- ---------------------------------------------------------------------
+-- 加载顺序 06，须在 schema.sql + admin-schema.sql + rbac-schema.sql 之后。
+-- 这些表不是原系统 kuerp_* 业务表的一部分，而是让系统能上生产所需的基础设施表：
+--   1) kuerp_admin_log      操作审计（谁在什么时候改了什么）
+--   2) kuerp_message        消息中心（库存预警 / 保质期 / 账期 / 审批待办）
+--   3) kuerp_approval_flow  多级审批流配置（按单据类型 + 金额区间定级）
+--   4) kuerp_approval_log   审批流转记录
+--   5) kuerp_job_log        定时任务执行日志
+--
+-- 时间约定与全库一致：秒级 bigint 时间戳；软删除用 deletetime。
+-- =====================================================================
+
+SET NAMES utf8mb4;
+
+-- ---------------------------------------------------------------------
+-- 1) 操作日志（审计）
+-- ---------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS `kuerp_admin_log` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `admin_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '操作人ID',
+  `username` varchar(50) NOT NULL DEFAULT '' COMMENT '操作人账号',
+  `module` varchar(60) NOT NULL DEFAULT '' COMMENT '业务模块(表名,如 goods)',
+  `action` varchar(30) NOT NULL DEFAULT '' COMMENT '动作:add/edit/del/examine/import/export/other',
+  `method` varchar(10) NOT NULL DEFAULT '' COMMENT 'HTTP 方法',
+  `path` varchar(255) NOT NULL DEFAULT '' COMMENT '请求路径',
+  `row_id` varchar(60) NOT NULL DEFAULT '' COMMENT '受影响记录ID(尽力而为)',
+  `params` text COMMENT '请求参数(已脱敏并截断)',
+  `success` tinyint(1) NOT NULL DEFAULT '1' COMMENT '是否成功:1=是,0=否',
+  `msg` varchar(500) NOT NULL DEFAULT '' COMMENT '结果消息',
+  `ip` varchar(60) NOT NULL DEFAULT '' COMMENT '客户端IP',
+  `ua` varchar(300) NOT NULL DEFAULT '' COMMENT 'User-Agent',
+  `cost_ms` int(11) NOT NULL DEFAULT '0' COMMENT '耗时毫秒',
+  `createtime` bigint(16) DEFAULT NULL COMMENT '创建时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_admin` (`admin_id`),
+  KEY `idx_module` (`module`),
+  KEY `idx_time` (`createtime`),
+  KEY `idx_action` (`action`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='操作日志(审计)';
+
+-- ---------------------------------------------------------------------
+-- 2) 消息中心
+-- ---------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS `kuerp_message` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `to_admin_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '接收人ID,0=全员广播',
+  `type` varchar(30) NOT NULL DEFAULT 'system' COMMENT '类型:stock_warning/batch_expiry/ar_due/approval/system',
+  `level` varchar(10) NOT NULL DEFAULT 'info' COMMENT '级别:info/warn/danger',
+  `title` varchar(200) NOT NULL DEFAULT '' COMMENT '标题',
+  `content` varchar(1000) NOT NULL DEFAULT '' COMMENT '内容',
+  `link` varchar(255) NOT NULL DEFAULT '' COMMENT '前端跳转路由',
+  `ref_table` varchar(60) NOT NULL DEFAULT '' COMMENT '关联表',
+  `ref_id` varchar(60) NOT NULL DEFAULT '' COMMENT '关联记录ID',
+  `is_read` tinyint(1) NOT NULL DEFAULT '0' COMMENT '是否已读:1=是,0=否',
+  `readtime` bigint(16) DEFAULT NULL COMMENT '阅读时间',
+  `createtime` bigint(16) DEFAULT NULL COMMENT '创建时间',
+  `deletetime` bigint(16) DEFAULT NULL COMMENT '软删除',
+  PRIMARY KEY (`id`),
+  KEY `idx_to_read` (`to_admin_id`,`is_read`),
+  KEY `idx_type` (`type`),
+  KEY `idx_time` (`createtime`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='消息中心';
+
+-- ---------------------------------------------------------------------
+-- 2b) 广播消息已读明细
+-- 说明：kuerp_message 的 to_admin_id=0 表示全员广播；若直接改 is_read，
+--      一个人读了所有人都会变已读，所以广播的已读状态单独落这张表。
+--      私有消息（to_admin_id>0）仍用 kuerp_message.is_read。
+-- ---------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS `kuerp_message_read` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `message_id` bigint(20) unsigned NOT NULL DEFAULT '0' COMMENT '消息ID',
+  `admin_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '阅读人ID',
+  `readtime` bigint(16) DEFAULT NULL COMMENT '阅读时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_msg_admin` (`message_id`,`admin_id`),
+  KEY `idx_admin` (`admin_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='广播消息已读明细';
+
+-- ---------------------------------------------------------------------
+-- 3) 多级审批流配置
+-- ---------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS `kuerp_approval_flow` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `doc_table` varchar(60) NOT NULL DEFAULT '' COMMENT '单据表名(不含 kuerp_ 前缀,如 goods_purchase_order)',
+  `level` int(11) NOT NULL DEFAULT '1' COMMENT '审批级次(从1开始,升序审批)',
+  `role_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '审批角色组ID(kuerp_auth_group.id),0=不限',
+  `min_amount` decimal(16,4) NOT NULL DEFAULT '0.0000' COMMENT '生效金额下限(含)',
+  `max_amount` decimal(16,4) NOT NULL DEFAULT '0.0000' COMMENT '生效金额上限(0=不限)',
+  `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT '是否启用:1=是,0=否',
+  `note` varchar(255) NOT NULL DEFAULT '' COMMENT '说明',
+  `createtime` bigint(16) DEFAULT NULL COMMENT '创建时间',
+  `updatetime` bigint(16) DEFAULT NULL COMMENT '更新时间',
+  `deletetime` bigint(16) DEFAULT NULL COMMENT '软删除',
+  PRIMARY KEY (`id`),
+  KEY `idx_doc` (`doc_table`,`level`),
+  KEY `idx_status` (`status`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='多级审批流配置';
+
+-- ---------------------------------------------------------------------
+-- 4) 审批流转记录
+-- ---------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS `kuerp_approval_log` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `doc_table` varchar(60) NOT NULL DEFAULT '' COMMENT '单据表名(不含前缀)',
+  `doc_id` bigint(20) unsigned NOT NULL DEFAULT '0' COMMENT '单据ID',
+  `doc_code` varchar(60) NOT NULL DEFAULT '' COMMENT '单据编号(便于人看)',
+  `level` int(11) NOT NULL DEFAULT '1' COMMENT '当前级次',
+  `total_level` int(11) NOT NULL DEFAULT '1' COMMENT '总级数',
+  `approver_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '审批人ID',
+  `approver_name` varchar(50) NOT NULL DEFAULT '' COMMENT '审批人账号',
+  `result` varchar(20) NOT NULL DEFAULT 'pending' COMMENT '状态:pending=待审,pass=通过,reject=驳回',
+  `remark` varchar(500) NOT NULL DEFAULT '' COMMENT '审批意见',
+  `createtime` bigint(16) DEFAULT NULL COMMENT '创建时间',
+  `updatetime` bigint(16) DEFAULT NULL COMMENT '更新时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_doc` (`doc_table`,`doc_id`),
+  KEY `idx_result` (`result`),
+  KEY `idx_approver` (`approver_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='审批流转记录';
+
+-- ---------------------------------------------------------------------
+-- 5) 定时任务执行日志
+-- ---------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS `kuerp_job_log` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `job_name` varchar(60) NOT NULL DEFAULT '' COMMENT '任务标识',
+  `job_title` varchar(100) NOT NULL DEFAULT '' COMMENT '任务名称',
+  `success` tinyint(1) NOT NULL DEFAULT '1' COMMENT '是否成功',
+  `cost_ms` int(11) NOT NULL DEFAULT '0' COMMENT '耗时毫秒',
+  `message` varchar(500) NOT NULL DEFAULT '' COMMENT '结果摘要',
+  `detail` text COMMENT '详细输出(截断)',
+  `createtime` bigint(16) DEFAULT NULL COMMENT '执行时间',
+  PRIMARY KEY (`id`),
+  KEY `idx_job` (`job_name`),
+  KEY `idx_time` (`createtime`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='定时任务执行日志';
+
+-- ---------------------------------------------------------------------
+-- 默认审批流种子：购货订单 / 销货订单 各一级（可由界面调整）
+-- 说明：只给两张订单表建默认流，其余单据保持「单级审核」行为不变；
+--       min/max 都为 0 表示不限金额，任何金额都需这一级审批。
+-- ---------------------------------------------------------------------
+INSERT INTO `kuerp_approval_flow` (`doc_table`,`level`,`role_id`,`min_amount`,`max_amount`,`status`,`note`,`createtime`,`updatetime`)
+SELECT 'goods_purchase_order',1,0,0.0000,0.0000,0,'购货订单默认一级审批',UNIX_TIMESTAMP(),UNIX_TIMESTAMP()
+WHERE NOT EXISTS (SELECT 1 FROM (SELECT id FROM `kuerp_approval_flow` WHERE doc_table='goods_purchase_order') t);
+
+INSERT INTO `kuerp_approval_flow` (`doc_table`,`level`,`role_id`,`min_amount`,`max_amount`,`status`,`note`,`createtime`,`updatetime`)
+SELECT 'goods_sales_order',1,0,0.0000,0.0000,0,'销货订单默认一级审批',UNIX_TIMESTAMP(),UNIX_TIMESTAMP()
+WHERE NOT EXISTS (SELECT 1 FROM (SELECT id FROM `kuerp_approval_flow` WHERE doc_table='goods_sales_order') t);
+
+-- ---------------------------------------------------------------------
+-- 定时作业开关（type=5，在「系统参数」页表现为一个独立分区，勾选=启用）
+-- value: '1' 或空 = 启用，'0' = 停用
+-- ---------------------------------------------------------------------
+INSERT INTO `kuerp_sets` (`admin_id`,`type`,`name`,`nickname`,`value`,`is_edit`,`notice`,`explain`,`is_checked`,`set`)
+SELECT 1,5,'job_wechat_token','定时刷新微信 access_token','1','0',NULL,'小程序 access_token 有效期 7200 秒，停用后需改为每次调用前现场获取（会拖慢接口）',1,NULL
+WHERE NOT EXISTS (SELECT 1 FROM (SELECT id FROM `kuerp_sets` WHERE name='job_wechat_token') t);
+
+INSERT INTO `kuerp_sets` (`admin_id`,`type`,`name`,`nickname`,`value`,`is_edit`,`notice`,`explain`,`is_checked`,`set`)
+SELECT 1,5,'job_stock_warning','每日库存预警扫描','1','0',NULL,'按商品的库存预警设置扫描总库存，低于下限或高于上限写入消息中心',1,NULL
+WHERE NOT EXISTS (SELECT 1 FROM (SELECT id FROM `kuerp_sets` WHERE name='job_stock_warning') t);
+
+INSERT INTO `kuerp_sets` (`admin_id`,`type`,`name`,`nickname`,`value`,`is_edit`,`notice`,`explain`,`is_checked`,`set`)
+SELECT 1,5,'job_batch_expiry','每日批次保质期预警','1','0',NULL,'按商品的保质期与预警天数扫描批次，临期/过期写入消息中心',1,NULL
+WHERE NOT EXISTS (SELECT 1 FROM (SELECT id FROM `kuerp_sets` WHERE name='job_batch_expiry') t);
+
+INSERT INTO `kuerp_sets` (`admin_id`,`type`,`name`,`nickname`,`value`,`is_edit`,`notice`,`explain`,`is_checked`,`set`)
+SELECT 1,5,'job_ar_due','每日应收逾期提醒','1','0',NULL,'按客户账期计算逾期的销货单（未收款/部分收款）写入消息中心',1,NULL
+WHERE NOT EXISTS (SELECT 1 FROM (SELECT id FROM `kuerp_sets` WHERE name='job_ar_due') t);
+
+INSERT INTO `kuerp_sets` (`admin_id`,`type`,`name`,`nickname`,`value`,`is_edit`,`notice`,`explain`,`is_checked`,`set`)
+SELECT 1,5,'job_message_purge','清理过期已读消息','0','0',NULL,'删除 90 天前已读的消息，避免消息表无限增长（默认关闭）',0,NULL
+WHERE NOT EXISTS (SELECT 1 FROM (SELECT id FROM `kuerp_sets` WHERE name='job_message_purge') t);
+
+-- 作业参数（非开关，供作业读取）
+INSERT INTO `kuerp_sets` (`admin_id`,`type`,`name`,`nickname`,`value`,`is_edit`,`notice`,`explain`,`is_checked`,`set`)
+SELECT 1,5,'ar_due_days','应收逾期天数','30','0',NULL,'销货单超过该天数仍未收完款即视为逾期，用于每日应收提醒',1,NULL
+WHERE NOT EXISTS (SELECT 1 FROM (SELECT id FROM `kuerp_sets` WHERE name='ar_due_days') t);
+
+INSERT INTO `kuerp_sets` (`admin_id`,`type`,`name`,`nickname`,`value`,`is_edit`,`notice`,`explain`,`is_checked`,`set`)
+SELECT 1,5,'batch_warning_days','批次临期预警天数','30','0',NULL,'批次有效期距今小于该天数即视为临期，用于每日保质期提醒',1,NULL
+WHERE NOT EXISTS (SELECT 1 FROM (SELECT id FROM `kuerp_sets` WHERE name='batch_warning_days') t);
+
+-- 负库存策略：0=禁止（默认）/ 1=警告放行 / 2=允许放行
+-- 由 PostingService.negativeStockPolicy() 读取；放行时会写 warn 日志便于事后追溯。
+INSERT INTO `kuerp_sets` (`admin_id`,`type`,`name`,`nickname`,`value`,`is_edit`,`notice`,`explain`,`is_checked`,`set`)
+SELECT 1,5,'stock_negative','负库存出库策略','0','0',NULL,'0=禁止出库(默认) 1=警告但放行 2=允许放行；放行会在服务端记录告警日志',1,NULL
+WHERE NOT EXISTS (SELECT 1 FROM (SELECT id FROM `kuerp_sets` WHERE name='stock_negative') t);

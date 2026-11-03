@@ -1,1 +1,41 @@
-IyBzeW50YXg9ZG9ja2VyL2RvY2tlcmZpbGU6MQojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyDov5vplIDlrZggRVJQIOWJjeerr+mVnOWDj++8iFZ1ZTMgKyBWaXRlIOmdmeaAgeermeeCuSArIE5naW5477yJCiMKIyDlhbPplK7ngrnvvJrmnoTlu7rml7bmioogVklURV9BUElfQkFTRSDnva7nqbrjgIIKIyDliY3nq68gYXhpb3Mg55qEIGJhc2VVUkwg6buY6K6k5pivIGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMO+8jOmCo+aYr+acrOWcsOW8gOWPkeeahOWGmeazle+8mwojIOWuueWZqOmHjOiLpeS/neeVmeWug++8jOa1j+iniOWZqOS8muWOu+i/nueUqOaIt+iHquW3seeUteiEkeeahCAzMDAwIOerr+WPo++8jOW/heeEtuWksei0peOAggojIOe9ruepuuWQjuivt+axguWPmOaIkOWQjOa6kOebuOWvuei3r+W+hO+8iC9rdWVycC94eHjjgIEvYXBpL3VwbG9hZOKApu+8ie+8jAojIOWGjeeUseWQjOmVnOWDj+WGheeahCBuZ2lueCDlj43lkJHku6PnkIbliLDlkI7nq6/lrrnlmajvvIzpg6jnvbLljbPpgJrjgIIKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgojIC0tLS0tLS0tLS0g5p6E5bu66Zi25q61IC0tLS0tLS0tLS0KRlJPTSBub2RlOjE4LWFscGluZSBBUyBidWlsZGVyCldPUktESVIgL2FwcAoKQ09QWSBwYWNrYWdlLmpzb24gcGFja2FnZS1sb2NrLmpzb24qIC4vClJVTiBucG0gY2kgfHwgbnBtIGluc3RhbGwKCkNPUFkgLiAuCiMg5ZCM5rqQ6YOo572y77yaYmFzZVVSTCDnlZnnqbrvvIzkuqTnu5kgbmdpbngg5Y+N5LujCkFSRyBWSVRFX0FQSV9CQVNFPSIiCkVOViBWSVRFX0FQSV9CQVNFPSRWSVRFX0FQSV9CQVNFClJVTiBucHggdml0ZSBidWlsZAoKIyAtLS0tLS0tLS0tIOi/kOihjOmYtuautSAtLS0tLS0tLS0tCkZST00gbmdpbng6MS4yNS1hbHBpbmUgQVMgcnVubmVyCkVOViBUWj1Bc2lhL1NoYW5naGFpCgojIOaXtuWMuu+8muaXpeW/l+aXtumXtOS4juWQjuerr+S/neaMgeS4gOiHtO+8jOaOkuafpemXrumimOS4jeeUqOW/g+eulyA4IOWwj+aXtgpSVU4gYXBrIGFkZCAtLW5vLWNhY2hlIHR6ZGF0YSAmJiBcCiAgICBjcCAvdXNyL3NoYXJlL3pvbmVpbmZvL0FzaWEvU2hhbmdoYWkgL2V0Yy9sb2NhbHRpbWUgJiYgXAogICAgZWNobyAiQXNpYS9TaGFuZ2hhaSIgPiAvZXRjL3RpbWV6b25lCgpDT1BZIGRlcGxveS9uZ2lueC5jb25mIC9ldGMvbmdpbngvY29uZi5kL2RlZmF1bHQuY29uZgpDT1BZIC0tZnJvbT1idWlsZGVyIC9hcHAvZGlzdCAvdXNyL3NoYXJlL25naW54L2h0bWwKCkVYUE9TRSA4MApIRUFMVEhDSEVDSyAtLWludGVydmFsPTIwcyAtLXRpbWVvdXQ9NXMgLS1zdGFydC1wZXJpb2Q9MTBzIC0tcmV0cmllcz0zIFwKICBDTUQgd2dldCAtcSAtLXNwaWRlciBodHRwOi8vMTI3LjAuMC4xLyB8fCBleGl0IDEKCkNNRCBbIm5naW54IiwgIi1nIiwgImRhZW1vbiBvZmY7Il0K
+# syntax=docker/dockerfile:1
+# ============================================================================
+# 进销存 ERP 前端镜像（Vue3 + Vite 静态站点 + Nginx）
+#
+# 关键点：构建时把 VITE_API_BASE 置空。
+# 前端 axios 的 baseURL 默认是 http://localhost:3000，那是本地开发的写法；
+# 容器里若保留它，浏览器会去连用户自己电脑的 3000 端口，必然失败。
+# 置空后请求变成同源相对路径（/kuerp/xxx、/api/upload…），
+# 再由同镜像内的 nginx 反向代理到后端容器，部署即通。
+# ============================================================================
+
+# ---------- 构建阶段 ----------
+FROM node:18-alpine AS builder
+WORKDIR /app
+
+COPY package.json package-lock.json* ./
+RUN npm ci || npm install
+
+COPY . .
+# 同源部署：baseURL 留空，交给 nginx 反代
+ARG VITE_API_BASE=""
+ENV VITE_API_BASE=$VITE_API_BASE
+RUN npx vite build
+
+# ---------- 运行阶段 ----------
+FROM nginx:1.25-alpine AS runner
+ENV TZ=Asia/Shanghai
+
+# 时区：日志时间与后端保持一致，排查问题不用心算 8 小时
+RUN apk add --no-cache tzdata && \
+    cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
+    echo "Asia/Shanghai" > /etc/timezone
+
+COPY deploy/nginx.conf /etc/nginx/conf.d/default.conf
+COPY --from=builder /app/dist /usr/share/nginx/html
+
+EXPOSE 80
+HEALTHCHECK --interval=20s --timeout=5s --start-period=10s --retries=3 \
+  CMD wget -q --spider http://127.0.0.1/ || exit 1
+
+CMD ["nginx", "-g", "daemon off;"]

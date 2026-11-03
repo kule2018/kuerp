@@ -1,1 +1,22 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBUeXBlT3JtTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy90eXBlb3JtJzsKaW1wb3J0IHsgVGFibGVTZXJ2aWNlIH0gZnJvbSAnLi90YWJsZS5zZXJ2aWNlJzsKaW1wb3J0IHsgVGFibGVDb250cm9sbGVyIH0gZnJvbSAnLi90YWJsZS5jb250cm9sbGVyJzsKaW1wb3J0IHsgUmJhY0d1YXJkIH0gZnJvbSAnLi4vLi4vY29tbW9uL2d1YXJkcy9yYmFjLmd1YXJkJzsKaW1wb3J0IHsgUG9zdGluZ01vZHVsZSB9IGZyb20gJy4uL3Bvc3RpbmcvcG9zdGluZy5tb2R1bGUnOwppbXBvcnQgeyBGdW5kc01vZHVsZSB9IGZyb20gJy4uL2Z1bmRzL2Z1bmRzLm1vZHVsZSc7CgovKioKICog6YCa55So5Yqo5oCB6KGo5qih5Z2X77ya5ZCR5YWo6YOoIDE1OSDlvKAga3VlcnBfKiDooajmj5Dkvpvnu5/kuIAgQ1JVRC/lrqHmoLjmjqXlj6PjgIIKICog5LiO6LWE5paZL+i0rei0py/plIDotKcv5LuT5bqTL+i1hOmHkeetieWFt+S9k+S4muWKoeWFseeUqOWQjOS4gOWll+WunueOsO+8jOS/neivgeaOpeWPoyAxOjHjgIIKICogUmJhY0d1YXJkIOaPkOS+m+inkuiJsuiKgueCuemJtOadg++8iOetieaViOWOn+ezu+e7nyAkYXV0aC0+Y2hlY2vvvInjgIIKICog5a+85YWlIFBvc3RpbmdNb2R1bGUg5Lul5L6/IFRhYmxlU2VydmljZS5leGFtaW5lIOWuoeaguOaXtuiBlOWKqOW6k+WtmOi/h+i0pu+8mwogKiDlr7zlhaUgRnVuZHNNb2R1bGUg5Lul5L6/5a6h5qC45pe26IGU5Yqo6LWE6YeR6L+H6LSm77yI5pS25LuY5qy+L+aguOmUgC/ovazotKYv5pS25pSvL+i0remUgOWNleaNrui1hOmHkeWfn++8ieOAggogKi8KQE1vZHVsZSh7CiAgaW1wb3J0czogW1R5cGVPcm1Nb2R1bGUsIFBvc3RpbmdNb2R1bGUsIEZ1bmRzTW9kdWxlXSwKICBwcm92aWRlcnM6IFtUYWJsZVNlcnZpY2UsIFJiYWNHdWFyZF0sCiAgY29udHJvbGxlcnM6IFtUYWJsZUNvbnRyb2xsZXJdLAogIGV4cG9ydHM6IFtUYWJsZVNlcnZpY2VdLAp9KQpleHBvcnQgY2xhc3MgVGFibGVNb2R1bGUge30K
+import { Module } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { TableService } from './table.service';
+import { TableController } from './table.controller';
+import { RbacGuard } from '../../common/guards/rbac.guard';
+import { PostingModule } from '../posting/posting.module';
+import { FundsModule } from '../funds/funds.module';
+
+/**
+ * 通用动态表模块：向全部 159 张 kuerp_* 表提供统一 CRUD/审核接口。
+ * 与资料/购货/销货/仓库/资金等具体业务共用同一套实现，保证接口 1:1。
+ * RbacGuard 提供角色节点鉴权（等效原系统 $auth->check）。
+ * 导入 PostingModule 以便 TableService.examine 审核时联动库存过账；
+ * 导入 FundsModule 以便审核时联动资金过账（收付款/核销/转账/收支/购销单据资金域）。
+ */
+@Module({
+  imports: [TypeOrmModule, PostingModule, FundsModule],
+  providers: [TableService, RbacGuard],
+  controllers: [TableController],
+  exports: [TableService],
+})
+export class TableModule {}

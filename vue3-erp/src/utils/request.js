@@ -1,1 +1,58 @@
-aW1wb3J0IGF4aW9zIGZyb20gJ2F4aW9zJzsKaW1wb3J0IHsgbWVzc2FnZSB9IGZyb20gJ0AvdXRpbHMvdWknOwppbXBvcnQgcm91dGVyIGZyb20gJy4uL3JvdXRlcic7CmltcG9ydCB7IHVzZUF1dGhTdG9yZSB9IGZyb20gJ0Avc3RvcmUvYXV0aCc7Cgpjb25zdCByZXF1ZXN0ID0gYXhpb3MuY3JlYXRlKHsKICBiYXNlVVJMOiBpbXBvcnQubWV0YS5lbnYuVklURV9BUElfQkFTRSB8fCAnaHR0cDovL2xvY2FsaG9zdDozMDAwJywKICB0aW1lb3V0OiAzMDAwMCwKfSk7CgovKioKICog5Lya6K+d5aSx5pWI57uf5LiA5aSE55CG77ya5b+F6aG76LWwIHN0b3JlIOeahCBsb2dvdXQoKe+8jAogKiDlj6rmuIUgbG9jYWxTdG9yYWdlIOeahOivnSBQaW5pYSDph4znmoQgdG9rZW4g6L+Y5Zyo77yMCiAqIOi3r+eUseWuiOWNq+S8muiupOS4uuS7jeW3sueZu+W9le+8jOaKiiAvbG9naW4g5Y+I5by55Zue6aaW6aG177yM5b2i5oiQ5q275b6q546v44CCCiAqLwpmdW5jdGlvbiBmb3JjZUxvZ291dCh0aXAgPSAn55m75b2V5bey6L+H5pyf77yM6K+36YeN5paw55m75b2VJykgewogIHVzZUF1dGhTdG9yZSgpLmxvZ291dCgpOwogIG1lc3NhZ2UuZXJyb3IodGlwKTsKICByb3V0ZXIucmVwbGFjZSgnL2xvZ2luJyk7Cn0KCi8vIOivt+axguaLpuaIqu+8muazqOWFpSBKV1QKcmVxdWVzdC5pbnRlcmNlcHRvcnMucmVxdWVzdC51c2UoKGNvbmZpZykgPT4gewogIGNvbnN0IHRva2VuID0gbG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3Rva2VuJyk7CiAgaWYgKHRva2VuKSBjb25maWcuaGVhZGVycy5BdXRob3JpemF0aW9uID0gdG9rZW47CiAgcmV0dXJuIGNvbmZpZzsKfSk7CgovLyDlk43lupTmi6bmiKrvvJrnu5/kuIDop6PljIUgeyBjb2RlLCBtc2csIGRhdGEgfQpyZXF1ZXN0LmludGVyY2VwdG9ycy5yZXNwb25zZS51c2UoCiAgKHJlc3ApID0+IHsKICAgIGNvbnN0IGJvZHkgPSByZXNwLmRhdGE7CiAgICBpZiAoYm9keSAmJiB0eXBlb2YgYm9keS5jb2RlICE9PSAndW5kZWZpbmVkJykgewogICAgICBpZiAoYm9keS5jb2RlID09PSAxKSByZXR1cm4gYm9keS5kYXRhOwogICAgICBpZiAoYm9keS5jb2RlID09PSAwKSB7CiAgICAgICAgLy8g5Lya6K+d5aSx5pWI77yI5pyq55m75b2VIC8gdG9rZW4g6L+H5pyfIC8g6LSm5Y+36KKr56aB55So77yJ77ya5riF55m75b2V5oCB5bm25Zue55m75b2V6aG1CiAgICAgICAgaWYgKGJvZHkubXNnICYmIC/nmbvlvZV8VW5hdXRob3JpemVkfOi/h+acny8udGVzdChib2R5Lm1zZykpIHsKICAgICAgICAgIGZvcmNlTG9nb3V0KCk7CiAgICAgICAgICByZXR1cm4gUHJvbWlzZS5yZWplY3QobmV3IEVycm9yKGJvZHkubXNnKSk7CiAgICAgICAgfQogICAgICAgIG1lc3NhZ2UuZXJyb3IoYm9keS5tc2cgfHwgJ+aTjeS9nOWksei0pScpOwogICAgICAgIHJldHVybiBQcm9taXNlLnJlamVjdChuZXcgRXJyb3IoYm9keS5tc2cgfHwgJ2Vycm9yJykpOwogICAgICB9CiAgICB9CiAgICByZXR1cm4gYm9keTsKICB9LAogIChlcnJvcikgPT4gewogICAgY29uc3Qgc3RhdHVzID0gZXJyb3IucmVzcG9uc2U/LnN0YXR1czsKICAgIGlmIChzdGF0dXMgPT09IDQwMSkgewogICAgICBmb3JjZUxvZ291dChlcnJvci5yZXNwb25zZT8uZGF0YT8ubXNnIHx8ICfnmbvlvZXlt7Lov4fmnJ/vvIzor7fph43mlrDnmbvlvZUnKTsKICAgICAgcmV0dXJuIFByb21pc2UucmVqZWN0KGVycm9yKTsKICAgIH0KICAgIG1lc3NhZ2UuZXJyb3IoZXJyb3IucmVzcG9uc2U/LmRhdGE/Lm1zZyB8fCBlcnJvci5tZXNzYWdlIHx8ICfnvZHnu5zplJnor68nKTsKICAgIHJldHVybiBQcm9taXNlLnJlamVjdChlcnJvcik7CiAgfSwKKTsKCmV4cG9ydCBkZWZhdWx0IHJlcXVlc3Q7Cg==
+import axios from 'axios';
+import { message } from '@/utils/ui';
+import router from '../router';
+import { useAuthStore } from '@/store/auth';
+
+const request = axios.create({
+  baseURL: import.meta.env.VITE_API_BASE || 'http://localhost:3000',
+  timeout: 30000,
+});
+
+/**
+ * 会话失效统一处理：必须走 store 的 logout()，
+ * 只清 localStorage 的话 Pinia 里的 token 还在，
+ * 路由守卫会认为仍已登录，把 /login 又弹回首页，形成死循环。
+ */
+function forceLogout(tip = '登录已过期，请重新登录') {
+  useAuthStore().logout();
+  message.error(tip);
+  router.replace('/login');
+}
+
+// 请求拦截：注入 JWT
+request.interceptors.request.use((config) => {
+  const token = localStorage.getItem('token');
+  if (token) config.headers.Authorization = token;
+  return config;
+});
+
+// 响应拦截：统一解包 { code, msg, data }
+request.interceptors.response.use(
+  (resp) => {
+    const body = resp.data;
+    if (body && typeof body.code !== 'undefined') {
+      if (body.code === 1) return body.data;
+      if (body.code === 0) {
+        // 会话失效（未登录 / token 过期 / 账号被禁用）：清登录态并回登录页
+        if (body.msg && /登录|Unauthorized|过期/.test(body.msg)) {
+          forceLogout();
+          return Promise.reject(new Error(body.msg));
+        }
+        message.error(body.msg || '操作失败');
+        return Promise.reject(new Error(body.msg || 'error'));
+      }
+    }
+    return body;
+  },
+  (error) => {
+    const status = error.response?.status;
+    if (status === 401) {
+      forceLogout(error.response?.data?.msg || '登录已过期，请重新登录');
+      return Promise.reject(error);
+    }
+    message.error(error.response?.data?.msg || error.message || '网络错误');
+    return Promise.reject(error);
+  },
+);
+
+export default request;

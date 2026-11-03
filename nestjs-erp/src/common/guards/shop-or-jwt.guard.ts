@@ -1,1 +1,33 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgRXhlY3V0aW9uQ29udGV4dCB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsNCmltcG9ydCB7IEF1dGhHdWFyZCB9IGZyb20gJ0BuZXN0anMvcGFzc3BvcnQnOw0KaW1wb3J0IHsgU2hvcEF1dGhTZXJ2aWNlIH0gZnJvbSAnLi4vLi4vc2hvcC9zaG9wLWF1dGguc2VydmljZSc7DQoNCi8qKg0KICog6YCa55So6Ym05p2D5a6I5Y2r77ya5LiA5aWX5a6I5Y2r5ZCM5pe25YW85a655Lik56eN5Luk54mM77yMDQogKiAgMSkg6K6i6LSn6YCa5Lya5ZGY5Luk54mM77yIa3VlcnBfdXNlci50b2tlbu+8jFVVSUQg5piO5paH77yM5bCP56iL5bqP56uv6YCa6L+HIHRva2VuIOWktOaQuuW4pu+8ie+8mw0KICogIDIpIOWQjuWPsCBKV1TvvIjnrqHnkIblkZgv6IGM5ZGY77yMQXV0aG9yaXphdGlvbjogQmVhcmVy77yJ44CCDQogKg0KICog5bCP56iL5bqP56uv77yIVW5pYXBw77yJ55m75b2V5ou/55qE5piv6K6i6LSn6YCaIFVVSUQg5Luk54mM77yM6ICM5ZCO5Y+w566h55CG56uv6LWwIEpXVOOAgg0KICog5YWI5oyJ6K6i6LSn6YCa5Luk54mM5p+l5bqT5qCh6aqM77yM5ZG95Lit5Y2z5pS+6KGM77yb5pyq5ZG95Lit5YaN6YCA5YyW5Li6IHBhc3Nwb3J0LWp3dCDmoKHpqozvvIwNCiAqIOehruS/nSBDIOerr+S4juWQjuWPsOmDveiDveiuv+mXruWQjOS4gOe7hCAvc2hvcOOAgS9haeOAgS9hcGkvdXBsb2FkIOaOpeWPo+OAgg0KICovDQpASW5qZWN0YWJsZSgpDQpleHBvcnQgY2xhc3MgU2hvcE9ySnd0R3VhcmQgZXh0ZW5kcyBBdXRoR3VhcmQoJ2p3dCcpIHsNCiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBzaG9wQXV0aDogU2hvcEF1dGhTZXJ2aWNlKSB7DQogICAgc3VwZXIoKTsNCiAgfQ0KDQogIGFzeW5jIGNhbkFjdGl2YXRlKGNvbnRleHQ6IEV4ZWN1dGlvbkNvbnRleHQpOiBQcm9taXNlPGJvb2xlYW4+IHsNCiAgICBjb25zdCByZXEgPSBjb250ZXh0LnN3aXRjaFRvSHR0cCgpLmdldFJlcXVlc3QoKTsNCiAgICBjb25zdCB0b2tlbiA9IHRoaXMuc2hvcEF1dGgucGlja1Rva2VuKHJlcSwgKHJlcSBhcyBhbnkpLmJvZHkpOw0KICAgIGlmICh0b2tlbikgew0KICAgICAgY29uc3QgdXNlciA9IGF3YWl0IHRoaXMuc2hvcEF1dGguaW5pdCh0b2tlbik7DQogICAgICBpZiAodXNlcikgew0KICAgICAgICAocmVxIGFzIGFueSkudXNlciA9IHVzZXI7DQogICAgICAgIHJldHVybiB0cnVlOw0KICAgICAgfQ0KICAgIH0NCiAgICAvLyDpgIDljJbkuLrlkI7lj7AgSldU77yI566h55CG5ZGYL+iBjOWRmO+8ie+8m+aXoOaViOS7pOeJjOS8mueUsSBwYXNzcG9ydCDmipvlh7ogNDAxDQogICAgcmV0dXJuIChhd2FpdCBzdXBlci5jYW5BY3RpdmF0ZShjb250ZXh0KSkgYXMgYm9vbGVhbjsNCiAgfQ0KfQ0K
+import { Injectable, ExecutionContext } from '@nestjs/common';
+import { AuthGuard } from '@nestjs/passport';
+import { ShopAuthService } from '../../shop/shop-auth.service';
+
+/**
+ * 通用鉴权守卫：一套守卫同时兼容两种令牌，
+ *  1) 订货通会员令牌（kuerp_user.token，UUID 明文，小程序端通过 token 头携带）；
+ *  2) 后台 JWT（管理员/职员，Authorization: Bearer）。
+ *
+ * 小程序端（Uniapp）登录拿的是订货通 UUID 令牌，而后台管理端走 JWT。
+ * 先按订货通令牌查库校验，命中即放行；未命中再退化为 passport-jwt 校验，
+ * 确保 C 端与后台都能访问同一组 /shop、/ai、/api/upload 接口。
+ */
+@Injectable()
+export class ShopOrJwtGuard extends AuthGuard('jwt') {
+  constructor(private readonly shopAuth: ShopAuthService) {
+    super();
+  }
+
+  async canActivate(context: ExecutionContext): Promise<boolean> {
+    const req = context.switchToHttp().getRequest();
+    const token = this.shopAuth.pickToken(req, (req as any).body);
+    if (token) {
+      const user = await this.shopAuth.init(token);
+      if (user) {
+        (req as any).user = user;
+        return true;
+      }
+    }
+    // 退化为后台 JWT（管理员/职员）；无效令牌会由 passport 抛出 401
+    return (await super.canActivate(context)) as boolean;
+  }
+}

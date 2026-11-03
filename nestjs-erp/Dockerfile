@@ -1,1 +1,51 @@
-IyBzeW50YXg9ZG9ja2VyL2RvY2tlcmZpbGU6MQojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KIyDov5vplIDlrZggRVJQIOWQjuerr+mVnOWDj++8iE5lc3RKUyArIFR5cGVPUk3vvIkKIwojIOaehOW7uuaWueW8j++8muWkmumYtuauteOAgmJ1aWxkZXIg6Zi25q616KOF5YWo6YeP5L6d6LWW5bm257yW6K+RIFR5cGVTY3JpcHTvvIwKIyDov5DooYzpmLbmrrXlj6rkv53nlZkgZGlzdCArIOeUn+S6p+S+nei1lu+8jOmVnOWDj+S9k+enr+e6puS4uuWNlemYtuauteeahOS4gOWNiu+8jAojIOWQjOaXtumBv+WFjeaKiiB0eXBlc2NyaXB0L3RzLW5vZGUg6L+Z57G75p6E5bu65pyf5bel5YW35bim6L+b55Sf5Lqn546v5aKD44CCCiMKIyDkuLrku4DkuYjkuI3nm7TmjqXnlKggYG5lc3QgYnVpbGRg77ya5pys6aG555uu5p6E5bu65Y+q5L6d6LWWIHRzY++8jAojIOWwkeS4gOWxgiBAbmVzdGpzL2NsaSDkvp3otZblj6/ku6XorqnmnoTlu7rlnKjlj5fpmZDnvZHnu5zkuIvmm7TnqLPjgIIKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CgojIC0tLS0tLS0tLS0g5p6E5bu66Zi25q61IC0tLS0tLS0tLS0KRlJPTSBub2RlOjE4LWFscGluZSBBUyBidWlsZGVyCldPUktESVIgL2FwcAoKIyDlhYjlj6rmi7fotJ3muIXljZXmlofku7bvvIzliKnnlKggRG9ja2VyIOWxgue8k+WtmO+8mua6kOeggeaUueWKqOS4jeS8muinpuWPkemHjeaWsOijheS+nei1lgpDT1BZIHBhY2thZ2UuanNvbiBwYWNrYWdlLWxvY2suanNvbiogLi8KIyDmnIkgbG9jayDnlKggY2nvvIjlj6/lpI3njrDvvInvvIzmsqHmnInliJnpgIDlm54gaW5zdGFsbApSVU4gbnBtIGNpIHx8IG5wbSBpbnN0YWxsCgpDT1BZIHRzY29uZmlnLmpzb24gdHNjb25maWcuYnVpbGQuanNvbiAuLwpDT1BZIHNyYyAuL3NyYwpSVU4gbnB4IHRzYyAtcCB0c2NvbmZpZy5idWlsZC5qc29uCgojIC0tLS0tLS0tLS0g6L+Q6KGM6Zi25q61IC0tLS0tLS0tLS0KRlJPTSBub2RlOjE4LWFscGluZSBBUyBydW5uZXIKV09SS0RJUiAvYXBwCkVOViBOT0RFX0VOVj1wcm9kdWN0aW9uIFwKICAgIFRaPUFzaWEvU2hhbmdoYWkKCiMg5pe25Yy65pWw5o2u77ya5a655Zmo5YaFIG5ldyBEYXRlKCkg6LWw5pys5Zyw5pe25Yy677yM5ZCm5YiZ57uf6K6h5oql6KGo5oyJ5aSp5YiG57uE5Lya5YGP56e7IDgg5bCP5pe2ClJVTiBhcGsgYWRkIC0tbm8tY2FjaGUgdHpkYXRhICYmIFwKICAgIGNwIC91c3Ivc2hhcmUvem9uZWluZm8vQXNpYS9TaGFuZ2hhaSAvZXRjL2xvY2FsdGltZSAmJiBcCiAgICBlY2hvICJBc2lhL1NoYW5naGFpIiA+IC9ldGMvdGltZXpvbmUKCkNPUFkgcGFja2FnZS5qc29uIHBhY2thZ2UtbG9jay5qc29uKiAuLwpSVU4gbnBtIGNpIC0tb21pdD1kZXYgfHwgbnBtIGluc3RhbGwgLS1vbWl0PWRldgoKQ09QWSAtLWZyb209YnVpbGRlciAvYXBwL2Rpc3QgLi9kaXN0CiMg5LiK5Lyg55uu5b2V77ya5Lul5Y235oyC6L296KaG55uW77yM5a655Zmo6YeN5bu65ZCO5paH5Lu25LiN5LiiClJVTiBta2RpciAtcCAvYXBwL3VwbG9hZHMKVk9MVU1FIFsiL2FwcC91cGxvYWRzIl0KCkVYUE9TRSAzMDAwCiMg5YGl5bq35qOA5p+l6LWw5YWs5byA55qEIC9oZWFsdGjvvIjkvJrpobrluKbmiafooYwgU0VMRUNUIDEg6aqM6K+B5pWw5o2u5bqT6L+e6YCa77yJ77yMCiMg5LiN6IO955SoIC9rdWVycC94eHjvvJrpgqPkupvmjqXlj6PopoHnmbvlvZXvvIzmjqLpkojkvJrmlLbliLAgNDAxIOiAjOaKiuato+W4uOacjeWKoeWIpOaIkOS4jeWBpeW6twpIRUFMVEhDSEVDSyAtLWludGVydmFsPTIwcyAtLXRpbWVvdXQ9NXMgLS1zdGFydC1wZXJpb2Q9NDBzIC0tcmV0cmllcz01IFwKICBDTUQgbm9kZSAtZSAiZmV0Y2goJ2h0dHA6Ly8xMjcuMC4wLjE6MzAwMC9oZWFsdGgnKS50aGVuKHI9PnByb2Nlc3MuZXhpdChyLm9rPzA6MSkpLmNhdGNoKCgpPT5wcm9jZXNzLmV4aXQoMSkpIgoKQ01EIFsibm9kZSIsICJkaXN0L21haW4uanMiXQo=
+# syntax=docker/dockerfile:1
+# ============================================================================
+# 进销存 ERP 后端镜像（NestJS + TypeORM）
+#
+# 构建方式：多阶段。builder 阶段装全量依赖并编译 TypeScript，
+# 运行阶段只保留 dist + 生产依赖，镜像体积约为单阶段的一半，
+# 同时避免把 typescript/ts-node 这类构建期工具带进生产环境。
+#
+# 为什么不直接用 `nest build`：本项目构建只依赖 tsc，
+# 少一层 @nestjs/cli 依赖可以让构建在受限网络下更稳。
+# ============================================================================
+
+# ---------- 构建阶段 ----------
+FROM node:18-alpine AS builder
+WORKDIR /app
+
+# 先只拷贝清单文件，利用 Docker 层缓存：源码改动不会触发重新装依赖
+COPY package.json package-lock.json* ./
+# 有 lock 用 ci（可复现），没有则退回 install
+RUN npm ci || npm install
+
+COPY tsconfig.json tsconfig.build.json ./
+COPY src ./src
+RUN npx tsc -p tsconfig.build.json
+
+# ---------- 运行阶段 ----------
+FROM node:18-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production \
+    TZ=Asia/Shanghai
+
+# 时区数据：容器内 new Date() 走本地时区，否则统计报表按天分组会偏移 8 小时
+RUN apk add --no-cache tzdata && \
+    cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
+    echo "Asia/Shanghai" > /etc/timezone
+
+COPY package.json package-lock.json* ./
+RUN npm ci --omit=dev || npm install --omit=dev
+
+COPY --from=builder /app/dist ./dist
+# 上传目录：以卷挂载覆盖，容器重建后文件不丢
+RUN mkdir -p /app/uploads
+VOLUME ["/app/uploads"]
+
+EXPOSE 3000
+# 健康检查走公开的 /health（会顺带执行 SELECT 1 验证数据库连通），
+# 不能用 /kuerp/xxx：那些接口要登录，探针会收到 401 而把正常服务判成不健康
+HEALTHCHECK --interval=20s --timeout=5s --start-period=40s --retries=5 \
+  CMD node -e "fetch('http://127.0.0.1:3000/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"
+
+CMD ["node", "dist/main.js"]

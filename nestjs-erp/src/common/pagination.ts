@@ -1,1 +1,69 @@
-aW1wb3J0IHsgQmFzZUVudGl0eSB9IGZyb20gJy4vYmFzZS5lbnRpdHknOwoKLyoqCiAqIOWIl+ihqOafpeivoumAmueUqOWFpeWPgu+8iOS4juWOnyBGYXN0QWRtaW4g55qEIGZpbHRlci9zb3J0L29yZGVyL29mZnNldC9saW1pdCDlr7npvZDvvIkKICovCmV4cG9ydCBpbnRlcmZhY2UgTGlzdFF1ZXJ5IHsKICBwYWdlPzogbnVtYmVyOwogIGxpbWl0PzogbnVtYmVyOwogIG9mZnNldD86IG51bWJlcjsKICBzb3J0Pzogc3RyaW5nOwogIG9yZGVyPzogJ0FTQycgfCAnREVTQyc7CiAgZmlsdGVyPzogUmVjb3JkPHN0cmluZywgYW55PjsKICBzZWFyY2g/OiBzdHJpbmc7CiAgW2tleTogc3RyaW5nXTogYW55Owp9CgpleHBvcnQgaW50ZXJmYWNlIFBhZ2VSZXN1bHQ8VD4gewogIGxpc3Q6IFRbXTsKICBjb3VudDogbnVtYmVyOwogIHBhZ2U6IG51bWJlcjsKICBsaW1pdDogbnVtYmVyOwp9CgovKioKICog6YCa55So5YiG6aG1L+ajgOe0ouW3peWFt++8muWfuuS6jiBUeXBlT1JNIFJlcG9zaXRvcnkg5a6e546w5YWz6ZSu5a2X5pCc57SiICsg57K+56Gu6L+H5rukICsg5o6S5bqPICsg5YiG6aG144CCCiAqIOetieaViOi/mOWOn+WOn+ezu+e7n+eahCBpbmRleCDmjqXlj6PvvIhmaWx0ZXIg5Li6IEpTT04g5a2X56ym5Liy5oiW5a+56LGh5Z2H5Y+v77yJ44CCCiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcGFnaW5hdGU8VCBleHRlbmRzIEJhc2VFbnRpdHk+KAogIHJlcG86IGFueSwKICBxdWVyeTogTGlzdFF1ZXJ5LAogIG9wdGlvbnM6IHsKICAgIHNlYXJjaEZpZWxkcz86IHN0cmluZ1tdOwogICAgYWxpYXM/OiBzdHJpbmc7CiAgICByZWxhdGlvbnM/OiBzdHJpbmdbXTsKICB9ID0ge30sCik6IFByb21pc2U8UGFnZVJlc3VsdDxUPj4gewogIGNvbnN0IGFsaWFzID0gb3B0aW9ucy5hbGlhcyB8fCAndCc7CiAgY29uc3QgcWIgPSByZXBvLmNyZWF0ZVF1ZXJ5QnVpbGRlcihhbGlhcyk7CiAgaWYgKG9wdGlvbnMucmVsYXRpb25zKSB7CiAgICBvcHRpb25zLnJlbGF0aW9ucy5mb3JFYWNoKChyKSA9PiBxYi5sZWZ0Sm9pbkFuZFNlbGVjdChgJHthbGlhc30uJHtyfWAsIHIpKTsKICB9CiAgLy8g6L2v5Yig6Zmk6L+H5rukCiAgcWIuYW5kV2hlcmUoYCR7YWxpYXN9LmRlbGV0ZXRpbWUgSVMgTlVMTCBPUiAke2FsaWFzfS5kZWxldGV0aW1lID0gMGApOwoKICAvLyDlhbPplK7lrZfmkJzntKIKICBpZiAocXVlcnkuc2VhcmNoICYmIG9wdGlvbnMuc2VhcmNoRmllbGRzPy5sZW5ndGgpIHsKICAgIGNvbnN0IGxpa2VzID0gb3B0aW9ucy5zZWFyY2hGaWVsZHMubWFwKChmKSA9PiBgJHthbGlhc30uJHtmfSBMSUtFIDprd2ApOwogICAgcWIuYW5kV2hlcmUoYCgke2xpa2VzLmpvaW4oJyBPUiAnKX0pYCwgeyBrdzogYCUke3F1ZXJ5LnNlYXJjaH0lYCB9KTsKICB9CiAgLy8g57K+56Gu6L+H5rukCiAgaWYgKHF1ZXJ5LmZpbHRlciAmJiB0eXBlb2YgcXVlcnkuZmlsdGVyID09PSAnb2JqZWN0JykgewogICAgT2JqZWN0LmVudHJpZXMocXVlcnkuZmlsdGVyKS5mb3JFYWNoKChbaywgdl0pID0+IHsKICAgICAgaWYgKHYgIT09IHVuZGVmaW5lZCAmJiB2ICE9PSBudWxsICYmIHYgIT09ICcnKSB7CiAgICAgICAgcWIuYW5kV2hlcmUoYCR7YWxpYXN9LiR7a30gPSA6Zl8ke2t9YCwgeyBbYGZfJHtrfWBdOiB2IH0pOwogICAgICB9CiAgICB9KTsKICB9CiAgY29uc3Qgc29ydEZpZWxkID0gcXVlcnkuc29ydCAmJiBxdWVyeS5zb3J0ICE9PSAnaWQnID8gYCR7YWxpYXN9LiR7cXVlcnkuc29ydH1gIDogYCR7YWxpYXN9LmlkYDsKICBxYi5vcmRlckJ5KHNvcnRGaWVsZCwgcXVlcnkub3JkZXIgfHwgJ0RFU0MnKTsKCiAgY29uc3QgcGFnZSA9IHF1ZXJ5LnBhZ2UgJiYgcXVlcnkucGFnZSA+IDAgPyBxdWVyeS5wYWdlIDogMTsKICBjb25zdCBsaW1pdCA9IHF1ZXJ5LmxpbWl0ICYmIHF1ZXJ5LmxpbWl0ID4gMCA/IHF1ZXJ5LmxpbWl0IDogMTA7CiAgY29uc3Qgb2Zmc2V0ID0KICAgIHF1ZXJ5Lm9mZnNldCAhPT0gdW5kZWZpbmVkID8gcXVlcnkub2Zmc2V0IDogKHBhZ2UgLSAxKSAqIGxpbWl0OwogIHFiLnNraXAob2Zmc2V0KS50YWtlKGxpbWl0KTsKCiAgY29uc3QgW2xpc3QsIGNvdW50XSA9IGF3YWl0IHFiLmdldE1hbnlBbmRDb3VudCgpOwogIHJldHVybiB7IGxpc3QsIGNvdW50LCBwYWdlLCBsaW1pdCB9Owp9Cg==
+import { BaseEntity } from './base.entity';
+
+/**
+ * 列表查询通用入参（与原 FastAdmin 的 filter/sort/order/offset/limit 对齐）
+ */
+export interface ListQuery {
+  page?: number;
+  limit?: number;
+  offset?: number;
+  sort?: string;
+  order?: 'ASC' | 'DESC';
+  filter?: Record<string, any>;
+  search?: string;
+  [key: string]: any;
+}
+
+export interface PageResult<T> {
+  list: T[];
+  count: number;
+  page: number;
+  limit: number;
+}
+
+/**
+ * 通用分页/检索工具：基于 TypeORM Repository 实现关键字搜索 + 精确过滤 + 排序 + 分页。
+ * 等效还原原系统的 index 接口（filter 为 JSON 字符串或对象均可）。
+ */
+export async function paginate<T extends BaseEntity>(
+  repo: any,
+  query: ListQuery,
+  options: {
+    searchFields?: string[];
+    alias?: string;
+    relations?: string[];
+  } = {},
+): Promise<PageResult<T>> {
+  const alias = options.alias || 't';
+  const qb = repo.createQueryBuilder(alias);
+  if (options.relations) {
+    options.relations.forEach((r) => qb.leftJoinAndSelect(`${alias}.${r}`, r));
+  }
+  // 软删除过滤
+  qb.andWhere(`${alias}.deletetime IS NULL OR ${alias}.deletetime = 0`);
+
+  // 关键字搜索
+  if (query.search && options.searchFields?.length) {
+    const likes = options.searchFields.map((f) => `${alias}.${f} LIKE :kw`);
+    qb.andWhere(`(${likes.join(' OR ')})`, { kw: `%${query.search}%` });
+  }
+  // 精确过滤
+  if (query.filter && typeof query.filter === 'object') {
+    Object.entries(query.filter).forEach(([k, v]) => {
+      if (v !== undefined && v !== null && v !== '') {
+        qb.andWhere(`${alias}.${k} = :f_${k}`, { [`f_${k}`]: v });
+      }
+    });
+  }
+  const sortField = query.sort && query.sort !== 'id' ? `${alias}.${query.sort}` : `${alias}.id`;
+  qb.orderBy(sortField, query.order || 'DESC');
+
+  const page = query.page && query.page > 0 ? query.page : 1;
+  const limit = query.limit && query.limit > 0 ? query.limit : 10;
+  const offset =
+    query.offset !== undefined ? query.offset : (page - 1) * limit;
+  qb.skip(offset).take(limit);
+
+  const [list, count] = await qb.getManyAndCount();
+  return { list, count, page, limit };
+}

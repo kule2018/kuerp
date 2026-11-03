@@ -1,1 +1,19 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBCaXpDb250cm9sbGVyIH0gZnJvbSAnLi9iaXouY29udHJvbGxlcic7CmltcG9ydCB7IEJpelNlcnZpY2UgfSBmcm9tICcuL2Jpei5zZXJ2aWNlJzsKCi8qKgogKiDkuJrliqHmianlsZXmqKHlnZfjgIIKICoKICog5oqK5Y6f57O757uf5pWj6JC95Zyo5ZCE5o6n5Yi25Zmo6YeM55qE44CM5Y+W5pWw6L6F5YqpIC8g5by556qX6YCJ5oupIC8g5Lia5Yqh5Yqo5L2c44CN5o6l5Y+jCiAqIOe7n+S4gOaUtuaVm+WIsCAva3VlcnAvPOaooeWdlz4vPOWKqOS9nD7vvIzkuI7pgJrnlKjliqjmgIHooajmjqXlj6PkupLooaXvvJoKICogICAtIFRhYmxlTW9kdWxlICDotJ/otKPmoIflh4YgQ1JVRO+8iGluZGV4L2dldC9hZGQvZWRpdC9kZWwvZXhhbWluZeKApu+8iQogKiAgIC0gQml6TW9kdWxlICAgIOi0n+i0o+WNleaNruaJgOmcgOeahOiBlOWKqOWPluaVsOS4juS4muWKoeWKqOS9nO+8iOWNleS9jeS7t+agvOOAgeW6j+WIl+WPt+OAgQogKiAgICAgICAgICAgICAgICAgIOaguOmUgOa6kOWNleOAgeiuoui0p+WNleWPkei0p+OAgee7hOijheaLhuWNuOaooeadv+OAgeW6k+WtmOagoemqjOKApu+8iQogKi8KQE1vZHVsZSh7CiAgY29udHJvbGxlcnM6IFtCaXpDb250cm9sbGVyXSwKICBwcm92aWRlcnM6IFtCaXpTZXJ2aWNlXSwKICBleHBvcnRzOiBbQml6U2VydmljZV0sCn0pCmV4cG9ydCBjbGFzcyBCaXpNb2R1bGUge30K
+import { Module } from '@nestjs/common';
+import { BizController } from './biz.controller';
+import { BizService } from './biz.service';
+
+/**
+ * 业务扩展模块。
+ *
+ * 把原系统散落在各控制器里的「取数辅助 / 弹窗选择 / 业务动作」接口
+ * 统一收敛到 /kuerp/<模块>/<动作>，与通用动态表接口互补：
+ *   - TableModule  负责标准 CRUD（index/get/add/edit/del/examine…）
+ *   - BizModule    负责单据所需的联动取数与业务动作（单位价格、序列号、
+ *                  核销源单、订货单发货、组装拆卸模板、库存校验…）
+ */
+@Module({
+  controllers: [BizController],
+  providers: [BizService],
+  exports: [BizService],
+})
+export class BizModule {}

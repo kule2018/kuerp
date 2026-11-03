@@ -1,1 +1,156 @@
-LyoqCiAqIOWQjuerr+ijhemFjeWGkueDn+a1i+ivle+8iOaXoOmcgOecn+WunuaVsOaNruW6k++8ie+8mgogKiAxLiDnlKjmoakgRGF0YVNvdXJjZSDopobnm5YgVHlwZU9STe+8jOe8luivkeaVtOS4qiBBcHBNb2R1bGUg4oCU4oCUIOmqjOivgeWFqOmDqAogKiAgICDmjqfliLblmagv5pyN5YqhL+WuiOWNq+eahOS+nei1luazqOWFpeaOpee6v+aYr+WQpuato+ehru+8iOWmgiBSYmFjR3VhcmQg5piv5ZCm5Y+v6Kej5p6Q77yJ77ybCiAqIDIuIOaJk+WNsCBFeHByZXNzIOWunumZheazqOWGjOeahOi3r+eUseihqCDigJTigJQg5qC45a+5IC9rdWVycC86dGFibGUvKiDlhajph4/mjqXlj6PmmK/lkKbmjILovb3vvJsKICogMy4g5Lu75LiA546v6IqC5aSx6LSl5Y2z5Lul6Z2e6Zu256CB6YCA5Ye677yM5Y+v5o6l5YWlIENJ44CCCiAqCiAqIOi/kOihjO+8mm5vZGUgc2NyaXB0cy9zbW9rZS5qcwogKi8KY29uc3QgeyBUZXN0IH0gPSByZXF1aXJlKCdAbmVzdGpzL3Rlc3RpbmcnKTsKY29uc3QgeyBEYXRhU291cmNlIH0gPSByZXF1aXJlKCd0eXBlb3JtJyk7Ci8vIOijhemlsOWZqOWFg+aVsOaNruS+nei1lu+8mm1haW4udHMg5Lya5a+85YWl77yM5L2G5pys6ISa5pys55u05o6lIHJlcXVpcmUgZGlzdCDmqKHlnZfvvIzlv4XpobvlnKjmraTmj5DliY3liqDovb0KcmVxdWlyZSgncmVmbGVjdC1tZXRhZGF0YScpOwoKKGFzeW5jICgpID0+IHsKICAvLyDmoakgRGF0YVNvdXJjZe+8muWQr+WKqOacn+S4jeinpuW6k++8iOWQhOacjeWKoeS7heWcqOivt+axguWkhOeQhuaXtuaJjeS8miBxdWVyee+8ieOAggogIC8vIOazqOaEj++8mkBuZXN0anMvdHlwZW9ybSDnmoQgcmVwb3NpdG9yeSBwcm92aWRlciDlt6XljoLkvJror7sgZW50aXR5TWV0YWRhdGFzL2dldFJlcG9zaXRvcnnvvIwKICAvLyDov5nkupvlrZfmrrXlv4XpobvlrZjlnKjvvIjlj6/ov5Tlm57nqbrlgLzvvInvvIzlkKbliJkgcHJvdmlkZXIg5a6e5L6L5YyW5Y2z5oqb6ZSZ44CCCiAgLy8g5qGpIHJlcG9zaXRvcnkg6ZyA6KaG55uW5bi455So5pa55rOV77yM5L+d6K+BIFN5c3RlbVNlcnZpY2Uuc2VlZERlZmF1bHRBZG1pbiDnrYkKICAvLyBvbk1vZHVsZUluaXQg6ZKp5a2Q5Y+v5a6M5pW06LWw6YCa77yI5LiN6Kem5bqT44CB6L+U5Zue5ZCI55CG56m65YC877yJ44CCCiAgY29uc3QgbWFrZVJlcG8gPSAoKSA9PiAoewogICAgY291bnQ6IGFzeW5jICgpID0+IDAsCiAgICBmaW5kT25lOiBhc3luYyAoKSA9PiBudWxsLAogICAgZmluZDogYXN5bmMgKCkgPT4gW10sCiAgICBmaW5kQnk6IGFzeW5jICgpID0+IFtdLAogICAgc2F2ZTogYXN5bmMgKGUpID0+IGUsCiAgICBjcmVhdGU6IChlKSA9PiBlLAogICAgdXBkYXRlOiBhc3luYyAoKSA9PiAoeyBhZmZlY3RlZDogMSB9KSwKICAgIGRlbGV0ZTogYXN5bmMgKCkgPT4gKHsgYWZmZWN0ZWQ6IDEgfSksCiAgICBpbnNlcnQ6IGFzeW5jICgpID0+ICh7IHJhdzogW10gfSksCiAgICBjcmVhdGVRdWVyeUJ1aWxkZXI6ICgpID0+IHsKICAgICAgY29uc3QgcSA9IHsKICAgICAgICB3aGVyZTogKCkgPT4gcSwgYW5kV2hlcmU6ICgpID0+IHEsIG9yV2hlcmU6ICgpID0+IHEsCiAgICAgICAgb3JkZXJCeTogKCkgPT4gcSwgYWRkT3JkZXJCeTogKCkgPT4gcSwgc2tpcDogKCkgPT4gcSwgdGFrZTogKCkgPT4gcSwKICAgICAgICBsZWZ0Sm9pbjogKCkgPT4gcSwgaW5uZXJKb2luOiAoKSA9PiBxLCBsZWZ0Sm9pbkFuZFNlbGVjdDogKCkgPT4gcSwKICAgICAgICBzZWxlY3Q6ICgpID0+IHEsIGFkZFNlbGVjdDogKCkgPT4gcSwgZ3JvdXBCeTogKCkgPT4gcSwgaGF2aW5nOiAoKSA9PiBxLAogICAgICAgIGxpbWl0OiAoKSA9PiBxLCBvZmZzZXQ6ICgpID0+IHEsIHNldFBhcmFtZXRlcjogKCkgPT4gcSwgc2V0UGFyYW1ldGVyczogKCkgPT4gcSwKICAgICAgICBnZXRNYW55OiBhc3luYyAoKSA9PiBbXSwKICAgICAgICBnZXRPbmU6IGFzeW5jICgpID0+IG51bGwsCiAgICAgICAgZ2V0TWFueUFuZENvdW50OiBhc3luYyAoKSA9PiBbW10sIDBdLAogICAgICAgIGdldENvdW50OiBhc3luYyAoKSA9PiAwLAogICAgICAgIGdldFJhd01hbnk6IGFzeW5jICgpID0+IFtdLAogICAgICAgIGV4ZWN1dGU6IGFzeW5jICgpID0+ICh7IGFmZmVjdGVkOiAwIH0pLAogICAgICB9OwogICAgICByZXR1cm4gcTsKICAgIH0sCiAgfSk7CiAgY29uc3Qgc3R1YiA9IHsKICAgIG9wdGlvbnM6IHsgdHlwZTogJ215c3FsJyB9LAogICAgcXVlcnk6IGFzeW5jICgpID0+IFtdLAogICAgZW50aXR5TWV0YWRhdGFzOiBbXSwKICAgIG1hbmFnZXI6IG1ha2VSZXBvKCksCiAgICBnZXRSZXBvc2l0b3J5OiAoKSA9PiBtYWtlUmVwbygpLAogICAgZ2V0VHJlZVJlcG9zaXRvcnk6ICgpID0+IG1ha2VSZXBvKCksCiAgICBnZXRNb25nb1JlcG9zaXRvcnk6ICgpID0+IG1ha2VSZXBvKCksCiAgfTsKCiAgY29uc3QgeyBBcHBNb2R1bGUgfSA9IHJlcXVpcmUoJy4uL2Rpc3QvYXBwLm1vZHVsZScpOwoKICAvLyDigJTigJQg6LCD6K+V5o6i6ZKI77yaY29tcGlsZSDliY3lkI7nmoTlrp7kvZPms6jlhoznirbmgIEg4oCU4oCUCiAgY29uc3QgZHVtcFN0b3JhZ2UgPSAodGFnKSA9PiB7CiAgICBjb25zdCBnID0gZ2xvYmFsLnR5cGVvcm1NZXRhZGF0YUFyZ3NTdG9yYWdlOwogICAgY29uc29sZS5sb2coCiAgICAgIGBbcHJvYmUgJHt0YWd9XSBzdG9yYWdlPSR7dHlwZW9mIGd9IHRhYmxlcz0kewogICAgICAgIGcgJiYgZy50YWJsZXMgPyBnLnRhYmxlcy5sZW5ndGggOiAnVU5ERUZJTkVEJwogICAgICB9IGVudGl0aWVzPSR7ZyAmJiBnLnRhYmxlcyA/IGcudGFibGVzLm1hcCgodCkgPT4gdC50YXJnZXQgJiYgdC50YXJnZXQubmFtZSkuam9pbignLCcpIDogJy0nfWAsCiAgICApOwogIH07CiAgZHVtcFN0b3JhZ2UoJ2JlZm9yZS1jb21waWxlJyk7CgogIGNvbnN0IG1vZCA9IGF3YWl0IFRlc3QuY3JlYXRlVGVzdGluZ01vZHVsZSh7IGltcG9ydHM6IFtBcHBNb2R1bGVdIH0pCiAgICAub3ZlcnJpZGVQcm92aWRlcihEYXRhU291cmNlKQogICAgLnVzZVZhbHVlKHN0dWIpCiAgICAuY29tcGlsZSgpOwogIGR1bXBTdG9yYWdlKCdhZnRlci1jb21waWxlJyk7CgogIGNvbnN0IGFwcCA9IGF3YWl0IG1vZC5jcmVhdGVOZXN0QXBwbGljYXRpb24oKTsKICBhd2FpdCBhcHAuaW5pdCgpOwoKICAvLyDigJTigJQg5o+Q5Y+WIEV4cHJlc3Mg6Lev55Sx77yI5ZCr5a2Q6Lev55Sx5oyC6L295YmN57yA77yJ4oCU4oCUCiAgY29uc3Qgc2VydmVyID0gYXBwLmdldEh0dHBBZGFwdGVyICYmIGFwcC5nZXRIdHRwQWRhcHRlcigpLmdldEluc3RhbmNlCiAgICA/IGFwcC5nZXRIdHRwQWRhcHRlcigpLmdldEluc3RhbmNlKCkKICAgIDogYXBwLmdldEh0dHBTZXJ2ZXIoKTsKICBjb25zdCByb3V0ZXMgPSBbXTsKICBjb25zdCB3YWxrID0gKHN0YWNrLCBwcmVmaXgpID0+IHsKICAgIChzdGFjayB8fCBbXSkuZm9yRWFjaCgobCkgPT4gewogICAgICBpZiAobC5yb3V0ZSkgewogICAgICAgIGNvbnN0IG1ldGhvZHMgPSBPYmplY3Qua2V5cyhsLnJvdXRlLm1ldGhvZHMgfHwge30pLm1hcCgobSkgPT4gbS50b1VwcGVyQ2FzZSgpKS5qb2luKCcsJyk7CiAgICAgICAgcm91dGVzLnB1c2goYCR7bWV0aG9kcy5wYWRFbmQoMjApfSAke3ByZWZpeH0ke2wucm91dGUucGF0aH1gKTsKICAgICAgfSBlbHNlIGlmIChsLm5hbWUgPT09ICdyb3V0ZXInICYmIGwuaGFuZGxlICYmIGwuaGFuZGxlLnN0YWNrKSB7CiAgICAgICAgLy8gRXhwcmVzcyA0IOaMgui9veeCue+8muS7jiByZWdleHAg6L+Y5Y6f5YmN57yA77yI5aaCIC9eXC9rdWVycFwvPyg/PVwvfCQpL++8iQogICAgICAgIGxldCBtb3VudCA9ICcnOwogICAgICAgIGNvbnN0IG0gPSAvXlwvXF5cXFwvKFthLXowLTlfXC1dKylcXFwvXD8vLmV4ZWMobC5yZWdleHAgJiYgbC5yZWdleHAuc291cmNlKTsKICAgICAgICBpZiAobSkgbW91bnQgPSBgLyR7bVsxXX1gOwogICAgICAgIHdhbGsobC5oYW5kbGUuc3RhY2ssIHByZWZpeCArIG1vdW50KTsKICAgICAgfQogICAgfSk7CiAgfTsKICB3YWxrKHNlcnZlci5fcm91dGVyID8gc2VydmVyLl9yb3V0ZXIuc3RhY2sgOiBbXSwgJycpOwoKICBjb25zdCBrdWVycFJvdXRlcyA9IHJvdXRlcy5maWx0ZXIoKHIpID0+IHIuaW5jbHVkZXMoJy9rdWVycC8nKSkuc29ydCgpOwogIGNvbnN0IG90aGVyUm91dGVzID0gcm91dGVzLmZpbHRlcigocikgPT4gIXIuaW5jbHVkZXMoJy9rdWVycC8nKSkuc29ydCgpOwoKICBjb25zb2xlLmxvZygnPT09IERJIOe8luivkeaIkOWKn++8jOW6lOeUqOWQr+WKqOaXoOW8guW4uCA9PT0nKTsKICBjb25zb2xlLmxvZyhgXG49PT0g6Lev55Sx5oC75pWwOiAke3JvdXRlcy5sZW5ndGh977yIL2t1ZXJwIOS4muWKoSAke2t1ZXJwUm91dGVzLmxlbmd0aH3vvIzmoYbmnrYgJHtvdGhlclJvdXRlcy5sZW5ndGh977yJPT09XG5gKTsKICBjb25zb2xlLmxvZygnLS0tIC9rdWVycCDkuJrliqHmjqXlj6MgLS0tJyk7CiAga3VlcnBSb3V0ZXMuZm9yRWFjaCgocikgPT4gY29uc29sZS5sb2coJyAgJyArIHIpKTsKICBjb25zb2xlLmxvZygnXG4tLS0g5qGG5p625o6l5Y+jIC0tLScpOwogIG90aGVyUm91dGVzLmZvckVhY2goKHIpID0+IGNvbnNvbGUubG9nKCcgICcgKyByKSk7CgogIGF3YWl0IGFwcC5jbG9zZSgpOwoKICAvLyDigJTigJQg5YWz6ZSu5o6l5Y+j5pat6KiA77ya5Y6f57O757uf5qCH5YeG5Yqo5L2c5b+F6aG75YWo6YOo5oyC6L29IOKAlOKAlAogIGNvbnN0IG11c3RIYXZlID0gWwogICAgJ0dFVCAva3VlcnAvOnRhYmxlL2luZGV4JywKICAgICdHRVQgL2t1ZXJwLzp0YWJsZS9nZXQnLAogICAgJ0dFVCAva3VlcnAvOnRhYmxlL2NvbHVtbnMnLAogICAgJ0dFVCAva3VlcnAvOnRhYmxlL3JlY3ljbGViaW4nLAogICAgJ1BPU1QgL2t1ZXJwLzp0YWJsZS9hZGQnLAogICAgJ1BPU1QgL2t1ZXJwLzp0YWJsZS9lZGl0JywKICAgICdQT1NUIC9rdWVycC86dGFibGUvZGVsJywKICAgICdERUxFVEUgL2t1ZXJwLzp0YWJsZS9kZWwnLAogICAgJ1BPU1QgL2t1ZXJwLzp0YWJsZS9yZWR1Y3Rpb24nLAogICAgJ1BPU1QgL2t1ZXJwLzp0YWJsZS9yZWFsZGVsJywKICAgICdQT1NUIC9rdWVycC86dGFibGUvaW1wb3J0JywKICAgICdQT1NUIC9rdWVycC86dGFibGUvZXhhbWluZScsCiAgICAnUE9TVCAva3VlcnAvOnRhYmxlL2NvdW50ZXInLAogICAgJ1BPU1QgL2t1ZXJwL2luaXRpYWxpemUnLAogICAgJ0dFVCAva3VlcnAvdGFibGVzJywKICAgICdHRVQgL2t1ZXJwL3RhYmxlcy9zdGF0cycsCiAgICAnR0VUIC9rdWVycC9jaGVja291dC9jdXJyZW50JywKICAgICdQT1NUIC9rdWVycC9jaGVja291dC9zZXR0bGUnLAogICAgJ1BPU1QgL2t1ZXJwL2NoZWNrb3V0L3Vuc2V0dGxlJywKICAgICdHRVQgL2t1ZXJwL3ByZWZpeC9nZW4tY29kZScsCiAgICAnUE9TVCAva3VlcnAvc2V0cy9wcmVmaXgtc2F2ZScsCiAgICAnR0VUIC9rdWVycC9zdGF0aXN0aWNzL2Rhc2hib2FyZCcsCiAgICAnR0VUIC9rdWVycC9ib2FyZHMvcmVwbGVuaXNobWVudCcsCiAgICAnR0VUIC9rdWVycC9ib2FyZHMvcHVyY2hhc2VieScsCiAgICAnUE9TVCAva3VlcnAvYm9hcmRzL2dlbmVyYXRlJywKICAgICdQT1NUIC9rdWVycC9mdW5kcy9wb3N0JywKICAgICdQT1NUIC9rdWVycC9mdW5kcy91bnBvc3QnLAogICAgJ1BPU1QgL2F1dGgvbG9naW4nLAogIF07CiAgY29uc3Qgbm9ybSA9IChzKSA9PiBzLnJlcGxhY2UoL1xzKy9nLCAnICcpLnRyaW0oKTsKICBjb25zdCBtaXNzaW5nID0gbXVzdEhhdmUuZmlsdGVyKChtKSA9PiAhcm91dGVzLnNvbWUoKHIpID0+IG5vcm0ocikgPT09IG5vcm0obSkpKTsKICBpZiAobWlzc2luZy5sZW5ndGgpIHsKICAgIGNvbnNvbGUuZXJyb3IoJ1xu4p2MIOe8uuWwkeWFs+mUruaOpeWPozonLCBtaXNzaW5nKTsKICAgIHByb2Nlc3MuZXhpdCgxKTsKICB9CiAgY29uc29sZS5sb2coJ1xu4pyFIOWFs+mUruaOpeWPo+aWreiogOWFqOmDqOmAmui/h++8iCcgKyBtdXN0SGF2ZS5sZW5ndGggKyAnIOmhue+8iScpOwogIHByb2Nlc3MuZXhpdCgwKTsKfSkoKS5jYXRjaCgoZSkgPT4gewogIGNvbnNvbGUuZXJyb3IoJ+KdjCBTTU9LRSBGQUlMOicsIGUgJiYgZS5tZXNzYWdlID8gZS5tZXNzYWdlIDogZSk7CiAgaWYgKGUgJiYgZS5zdGFjaykgY29uc29sZS5lcnJvcihlLnN0YWNrLnNwbGl0KCdcbicpLnNsaWNlKDAsIDE1KS5qb2luKCdcbicpKTsKICBwcm9jZXNzLmV4aXQoMSk7Cn0pOwo=
+/**
+ * 后端装配冒烟测试（无需真实数据库）：
+ * 1. 用桩 DataSource 覆盖 TypeORM，编译整个 AppModule —— 验证全部
+ *    控制器/服务/守卫的依赖注入接线是否正确（如 RbacGuard 是否可解析）；
+ * 2. 打印 Express 实际注册的路由表 —— 核对 /kuerp/:table/* 全量接口是否挂载；
+ * 3. 任一环节失败即以非零码退出，可接入 CI。
+ *
+ * 运行：node scripts/smoke.js
+ */
+const { Test } = require('@nestjs/testing');
+const { DataSource } = require('typeorm');
+// 装饰器元数据依赖：main.ts 会导入，但本脚本直接 require dist 模块，必须在此提前加载
+require('reflect-metadata');
+
+(async () => {
+  // 桩 DataSource：启动期不触库（各服务仅在请求处理时才会 query）。
+  // 注意：@nestjs/typeorm 的 repository provider 工厂会读 entityMetadatas/getRepository，
+  // 这些字段必须存在（可返回空值），否则 provider 实例化即抛错。
+  // 桩 repository 需覆盖常用方法，保证 SystemService.seedDefaultAdmin 等
+  // onModuleInit 钩子可完整走通（不触库、返回合理空值）。
+  const makeRepo = () => ({
+    count: async () => 0,
+    findOne: async () => null,
+    find: async () => [],
+    findBy: async () => [],
+    save: async (e) => e,
+    create: (e) => e,
+    update: async () => ({ affected: 1 }),
+    delete: async () => ({ affected: 1 }),
+    insert: async () => ({ raw: [] }),
+    createQueryBuilder: () => {
+      const q = {
+        where: () => q, andWhere: () => q, orWhere: () => q,
+        orderBy: () => q, addOrderBy: () => q, skip: () => q, take: () => q,
+        leftJoin: () => q, innerJoin: () => q, leftJoinAndSelect: () => q,
+        select: () => q, addSelect: () => q, groupBy: () => q, having: () => q,
+        limit: () => q, offset: () => q, setParameter: () => q, setParameters: () => q,
+        getMany: async () => [],
+        getOne: async () => null,
+        getManyAndCount: async () => [[], 0],
+        getCount: async () => 0,
+        getRawMany: async () => [],
+        execute: async () => ({ affected: 0 }),
+      };
+      return q;
+    },
+  });
+  const stub = {
+    options: { type: 'mysql' },
+    query: async () => [],
+    entityMetadatas: [],
+    manager: makeRepo(),
+    getRepository: () => makeRepo(),
+    getTreeRepository: () => makeRepo(),
+    getMongoRepository: () => makeRepo(),
+  };
+
+  const { AppModule } = require('../dist/app.module');
+
+  // —— 调试探针：compile 前后的实体注册状态 ——
+  const dumpStorage = (tag) => {
+    const g = global.typeormMetadataArgsStorage;
+    console.log(
+      `[probe ${tag}] storage=${typeof g} tables=${
+        g && g.tables ? g.tables.length : 'UNDEFINED'
+      } entities=${g && g.tables ? g.tables.map((t) => t.target && t.target.name).join(',') : '-'}`,
+    );
+  };
+  dumpStorage('before-compile');
+
+  const mod = await Test.createTestingModule({ imports: [AppModule] })
+    .overrideProvider(DataSource)
+    .useValue(stub)
+    .compile();
+  dumpStorage('after-compile');
+
+  const app = await mod.createNestApplication();
+  await app.init();
+
+  // —— 提取 Express 路由（含子路由挂载前缀）——
+  const server = app.getHttpAdapter && app.getHttpAdapter().getInstance
+    ? app.getHttpAdapter().getInstance()
+    : app.getHttpServer();
+  const routes = [];
+  const walk = (stack, prefix) => {
+    (stack || []).forEach((l) => {
+      if (l.route) {
+        const methods = Object.keys(l.route.methods || {}).map((m) => m.toUpperCase()).join(',');
+        routes.push(`${methods.padEnd(20)} ${prefix}${l.route.path}`);
+      } else if (l.name === 'router' && l.handle && l.handle.stack) {
+        // Express 4 挂载点：从 regexp 还原前缀（如 /^\/kuerp\/?(?=\/|$)/）
+        let mount = '';
+        const m = /^\/\^\\\/([a-z0-9_\-]+)\\\/\?/.exec(l.regexp && l.regexp.source);
+        if (m) mount = `/${m[1]}`;
+        walk(l.handle.stack, prefix + mount);
+      }
+    });
+  };
+  walk(server._router ? server._router.stack : [], '');
+
+  const kuerpRoutes = routes.filter((r) => r.includes('/kuerp/')).sort();
+  const otherRoutes = routes.filter((r) => !r.includes('/kuerp/')).sort();
+
+  console.log('=== DI 编译成功，应用启动无异常 ===');
+  console.log(`\n=== 路由总数: ${routes.length}（/kuerp 业务 ${kuerpRoutes.length}，框架 ${otherRoutes.length}）===\n`);
+  console.log('--- /kuerp 业务接口 ---');
+  kuerpRoutes.forEach((r) => console.log('  ' + r));
+  console.log('\n--- 框架接口 ---');
+  otherRoutes.forEach((r) => console.log('  ' + r));
+
+  await app.close();
+
+  // —— 关键接口断言：原系统标准动作必须全部挂载 ——
+  const mustHave = [
+    'GET /kuerp/:table/index',
+    'GET /kuerp/:table/get',
+    'GET /kuerp/:table/columns',
+    'GET /kuerp/:table/recyclebin',
+    'POST /kuerp/:table/add',
+    'POST /kuerp/:table/edit',
+    'POST /kuerp/:table/del',
+    'DELETE /kuerp/:table/del',
+    'POST /kuerp/:table/reduction',
+    'POST /kuerp/:table/realdel',
+    'POST /kuerp/:table/import',
+    'POST /kuerp/:table/examine',
+    'POST /kuerp/:table/counter',
+    'POST /kuerp/initialize',
+    'GET /kuerp/tables',
+    'GET /kuerp/tables/stats',
+    'GET /kuerp/checkout/current',
+    'POST /kuerp/checkout/settle',
+    'POST /kuerp/checkout/unsettle',
+    'GET /kuerp/prefix/gen-code',
+    'POST /kuerp/sets/prefix-save',
+    'GET /kuerp/statistics/dashboard',
+    'GET /kuerp/boards/replenishment',
+    'GET /kuerp/boards/purchaseby',
+    'POST /kuerp/boards/generate',
+    'POST /kuerp/funds/post',
+    'POST /kuerp/funds/unpost',
+    'POST /auth/login',
+  ];
+  const norm = (s) => s.replace(/\s+/g, ' ').trim();
+  const missing = mustHave.filter((m) => !routes.some((r) => norm(r) === norm(m)));
+  if (missing.length) {
+    console.error('\n❌ 缺少关键接口:', missing);
+    process.exit(1);
+  }
+  console.log('\n✅ 关键接口断言全部通过（' + mustHave.length + ' 项）');
+  process.exit(0);
+})().catch((e) => {
+  console.error('❌ SMOKE FAIL:', e && e.message ? e.message : e);
+  if (e && e.stack) console.error(e.stack.split('\n').slice(0, 15).join('\n'));
+  process.exit(1);
+});

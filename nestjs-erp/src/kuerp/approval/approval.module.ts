@@ -1,1 +1,20 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBBcHByb3ZhbENvbnRyb2xsZXIgfSBmcm9tICcuL2FwcHJvdmFsLmNvbnRyb2xsZXInOwppbXBvcnQgeyBBcHByb3ZhbFNlcnZpY2UgfSBmcm9tICcuL2FwcHJvdmFsLnNlcnZpY2UnOwppbXBvcnQgeyBUYWJsZU1vZHVsZSB9IGZyb20gJy4uL3RhYmxlL3RhYmxlLm1vZHVsZSc7CgovKioKICog5aSa57qn5a6h5om55rWB5qih5Z2X44CCCiAqCiAqIOS+nei1liBUYWJsZU1vZHVsZSDogIzpnZ7nm7TmjqXkvp3otZYgUG9zdGluZ1NlcnZpY2XvvJoKICog5pyA5ZCO5LiA57qn6YCa6L+H5pe26LCD55SoIFRhYmxlU2VydmljZS5leGFtaW5lKCnvvIzorqnjgIzlrqHmoLgg4oaSIOi/h+i0puOAjei/meadoemTvui3rwogKiDkv53mjIHllK/kuIDlhaXlj6PvvIzpgb/lhY3lrqHmibnmtYHnu5XlvIDnu5PotKblrojljavjgIHlupPlrZjmoKHpqoznrYnml6LmnInkv53miqTjgIIKICogTWVzc2FnZU1vZHVsZSDmmK8gQEdsb2JhbCDnmoTvvIzov5nph4zml6DpnIAgaW1wb3J044CCCiAqLwpATW9kdWxlKHsKICBpbXBvcnRzOiBbVGFibGVNb2R1bGVdLAogIGNvbnRyb2xsZXJzOiBbQXBwcm92YWxDb250cm9sbGVyXSwKICBwcm92aWRlcnM6IFtBcHByb3ZhbFNlcnZpY2VdLAogIGV4cG9ydHM6IFtBcHByb3ZhbFNlcnZpY2VdLAp9KQpleHBvcnQgY2xhc3MgQXBwcm92YWxNb2R1bGUge30K
+import { Module } from '@nestjs/common';
+import { ApprovalController } from './approval.controller';
+import { ApprovalService } from './approval.service';
+import { TableModule } from '../table/table.module';
+
+/**
+ * 多级审批流模块。
+ *
+ * 依赖 TableModule 而非直接依赖 PostingService：
+ * 最后一级通过时调用 TableService.examine()，让「审核 → 过账」这条链路
+ * 保持唯一入口，避免审批流绕开结账守卫、库存校验等既有保护。
+ * MessageModule 是 @Global 的，这里无需 import。
+ */
+@Module({
+  imports: [TableModule],
+  controllers: [ApprovalController],
+  providers: [ApprovalService],
+  exports: [ApprovalService],
+})
+export class ApprovalModule {}

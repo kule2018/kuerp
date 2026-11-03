@@ -1,1 +1,171 @@
-LyoqCiAqIOS6lOauteW8jyBjcm9uIOino+aekOS4juWMuemFje+8iOmbtuS+nei1luWunueOsO+8ieOAggogKgogKiDkuLrku4DkuYjkuI3oo4UgQG5lc3Rqcy9zY2hlZHVsZe+8mgogKiDmnKzpobnnm67miYDlnKjnjq/looPnmoQgbnBtIOWuieijheS8muiiq+WuieWFqOmSqeWtkOS4reaWre+8iOWOhuWPsui4qeWdke+8ie+8jOiAjOiwg+W6pumcgOaxguWPquaciQogKiDjgIzmr4/lpKnlm7rlrprml7bliLsgKyDmr48gTiDliIbpkp/jgI3kuKTnsbvvvIzoh6rnoJTkuIDlpZfop6PmnpDlmajmiJDmnKzov5zkvY7kuo7lvJXlhaXkvp3otZbnmoTpo47pmanjgIIKICoKICog5pSv5oyB6K+t5rOV77yI5LiO5Y6f57O757ufIEZhc3RBZG1pbiDnmoQgY3JvbnRhYiDphY3nva7kuaDmg6/kuIDoh7TvvInvvJoKICogICAqICAgICAgICDku7vmhI/lgLwKICogICBuICAgICAgICDlhbfkvZPlgLwKICogICBhLWIgICAgICDojIPlm7TvvIjlkKvnq6/ngrnvvIkKICogICBhLGIsYyAgICDmnprkuL4KICogICAqIC9uICAgICDmraXplb/vvIjlkKsgYS1iL24g5b2i5byP77yJCiAqCiAqIOivreS5iee7huiKgu+8muaXpe+8iERPTe+8ieS4juWRqO+8iERPV++8iSoq5ZCM5pe2KirooqvpmZDlrprml7bmjInjgIzmiJbjgI3ljLnphY3vvIjkuI7moIflh4YgY3JvbiDkuIDoh7TvvInvvIwKICog5Y+q6ZmQ5a6a5YW25Lit5LiA5Liq5pe25oyJ44CM5LiU44CN5Yy56YWN44CCCiAqLwoKLyoqIOino+aekOWQjueahOWQhOWtl+auteWPluWAvOmbhuWQiCAqLwpleHBvcnQgaW50ZXJmYWNlIENyb25TcGVjIHsKICAvKiog5Y6f5aeL6KGo6L6+5byPICovCiAgZXhwcjogc3RyaW5nOwogIC8qKiDliIbpkp/vvIgwLTU577yJICovCiAgbWludXRlOiBTZXQ8bnVtYmVyPjsKICAvKiog5bCP5pe277yIMC0yM++8iSAqLwogIGhvdXI6IFNldDxudW1iZXI+OwogIC8qKiDml6XvvIgxLTMx77yJICovCiAgZGF5OiBTZXQ8bnVtYmVyPjsKICAvKiog5pyI77yIMS0xMu+8iSAqLwogIG1vbnRoOiBTZXQ8bnVtYmVyPjsKICAvKiog5pif5pyf77yIMC0277yMMD3lkajml6XvvIkgKi8KICBkb3c6IFNldDxudW1iZXI+OwogIC8qKiDml6XlrZfmrrXmmK/lkKbooqvpmZDlrprvvIjpnZ4gKu+8iSAqLwogIGRheVJlc3RyaWN0ZWQ6IGJvb2xlYW47CiAgLyoqIOWRqOWtl+auteaYr+WQpuiiq+mZkOWumu+8iOmdniAq77yJICovCiAgZG93UmVzdHJpY3RlZDogYm9vbGVhbjsKfQoKLyoqCiAqIOino+aekOWNleS4quWtl+auteS4uuWPluWAvOmbhuWQiOOAggogKiBAcGFyYW0gcmF3IOWOn+Wni+Wtl+auteaWh+acrAogKiBAcGFyYW0gbWluIOWFgeiuuOacgOWwj+WAvAogKiBAcGFyYW0gbWF4IOWFgeiuuOacgOWkp+WAvAogKiBAcmV0dXJucyDlj5blgLzpm4blkIgKICovCmZ1bmN0aW9uIHBhcnNlRmllbGQocmF3OiBzdHJpbmcsIG1pbjogbnVtYmVyLCBtYXg6IG51bWJlcik6IFNldDxudW1iZXI+IHsKICBjb25zdCBvdXQgPSBuZXcgU2V0PG51bWJlcj4oKTsKICBjb25zdCB0ZXh0ID0gU3RyaW5nKHJhdyB8fCAnKicpLnRyaW0oKTsKICBpZiAoIXRleHQgfHwgdGV4dCA9PT0gJyonKSB7CiAgICBmb3IgKGxldCBpID0gbWluOyBpIDw9IG1heDsgaSsrKSBvdXQuYWRkKGkpOwogICAgcmV0dXJuIG91dDsKICB9CgogIGZvciAoY29uc3QgcGFydCBvZiB0ZXh0LnNwbGl0KCcsJykpIHsKICAgIGNvbnN0IHNlZyA9IHBhcnQudHJpbSgpOwogICAgaWYgKCFzZWcpIGNvbnRpbnVlOwoKICAgIC8vIOatpemVv++8miovbuOAgWEtYi9u44CBYS9uCiAgICBsZXQgc3RlcCA9IDE7CiAgICBsZXQgYm9keSA9IHNlZzsKICAgIGNvbnN0IHNsYXNoID0gc2VnLmluZGV4T2YoJy8nKTsKICAgIGlmIChzbGFzaCA+PSAwKSB7CiAgICAgIGJvZHkgPSBzZWcuc2xpY2UoMCwgc2xhc2gpOwogICAgICBjb25zdCBuID0gTnVtYmVyKHNlZy5zbGljZShzbGFzaCArIDEpKTsKICAgICAgc3RlcCA9IE51bWJlci5pc0Zpbml0ZShuKSAmJiBuID4gMCA/IE1hdGguZmxvb3IobikgOiAxOwogICAgfQoKICAgIGxldCBmcm9tID0gbWluOwogICAgbGV0IHRvID0gbWF4OwogICAgaWYgKGJvZHkgPT09ICcqJyB8fCBib2R5ID09PSAnJykgewogICAgICAvLyDlhajojIPlm7QKICAgIH0gZWxzZSBpZiAoYm9keS5pbmNsdWRlcygnLScpKSB7CiAgICAgIGNvbnN0IFthLCBiXSA9IGJvZHkuc3BsaXQoJy0nKTsKICAgICAgY29uc3QgeCA9IE51bWJlcihhKTsKICAgICAgY29uc3QgeSA9IE51bWJlcihiKTsKICAgICAgaWYgKCFOdW1iZXIuaXNGaW5pdGUoeCkgfHwgIU51bWJlci5pc0Zpbml0ZSh5KSkgY29udGludWU7CiAgICAgIGZyb20gPSBNYXRoLm1heChtaW4sIE1hdGguZmxvb3IoeCkpOwogICAgICB0byA9IE1hdGgubWluKG1heCwgTWF0aC5mbG9vcih5KSk7CiAgICB9IGVsc2UgewogICAgICBjb25zdCB2ID0gTnVtYmVyKGJvZHkpOwogICAgICBpZiAoIU51bWJlci5pc0Zpbml0ZSh2KSkgY29udGludWU7CiAgICAgIGZyb20gPSBNYXRoLm1heChtaW4sIE1hdGguZmxvb3IodikpOwogICAgICAvLyDljZXlgLzml7boi6Xml6DmraXplb/vvIzlj6rlj5bor6XlgLwKICAgICAgdG8gPSBzdGVwID4gMSA/IG1heCA6IGZyb207CiAgICB9CgogICAgZm9yIChsZXQgaSA9IGZyb207IGkgPD0gdG87IGkgKz0gc3RlcCkgb3V0LmFkZChpKTsKICB9CgogIC8vIOWFnOW6le+8muino+aekOWksei0peaXtue7meWFqOiMg+WbtO+8jOWugeWPr+Wkmui3keS5n+S4jemdmem7mOS4jei3kQogIGlmICghb3V0LnNpemUpIGZvciAobGV0IGkgPSBtaW47IGkgPD0gbWF4OyBpKyspIG91dC5hZGQoaSk7CiAgcmV0dXJuIG91dDsKfQoKLyoqCiAqIOino+aekCBjcm9uIOihqOi+vuW8j+OAggogKiBAcGFyYW0gZXhwciDkupTmrrXlvI/ooajovr7lvI/vvIjliIYg5pe2IOaXpSDmnIgg5ZGo77yJCiAqIEByZXR1cm5zIOino+aekOe7k+aenAogKiBAdGhyb3dzIEVycm9yIOauteaVsOS4jeS4uiA1IOaXtuaKm+WHugogKi8KZXhwb3J0IGZ1bmN0aW9uIHBhcnNlQ3JvbihleHByOiBzdHJpbmcpOiBDcm9uU3BlYyB7CiAgY29uc3QgcGFydHMgPSBTdHJpbmcoZXhwciB8fCAnJykudHJpbSgpLnNwbGl0KC9ccysvKTsKICBpZiAocGFydHMubGVuZ3RoICE9PSA1KSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoYGNyb24g6KGo6L6+5byP6ZyA5Li6IDUg5q6177yI5YiGIOaXtiDml6Ug5pyIIOWRqO+8ie+8jOW9k+WJjSAke3BhcnRzLmxlbmd0aH0g5q6177yaJHtleHByfWApOwogIH0KICBjb25zdCBbbWksIGhvLCBkb20sIG1vLCBkb3ddID0gcGFydHM7CgogIC8vIOWRqOWtl+auteWFvOWuuSA3IOihqOekuuWRqOaXpQogIGNvbnN0IGRvd1NldCA9IHBhcnNlRmllbGQoZG93LCAwLCA2KTsKICBjb25zdCByYXdEb3cgPSBTdHJpbmcoZG93IHx8ICcnKTsKICBpZiAoLzcvLnRlc3QocmF3RG93KSkgZG93U2V0LmFkZCgwKTsKCiAgcmV0dXJuIHsKICAgIGV4cHI6IHBhcnRzLmpvaW4oJyAnKSwKICAgIG1pbnV0ZTogcGFyc2VGaWVsZChtaSwgMCwgNTkpLAogICAgaG91cjogcGFyc2VGaWVsZChobywgMCwgMjMpLAogICAgZGF5OiBwYXJzZUZpZWxkKGRvbSwgMSwgMzEpLAogICAgbW9udGg6IHBhcnNlRmllbGQobW8sIDEsIDEyKSwKICAgIGRvdzogZG93U2V0LAogICAgZGF5UmVzdHJpY3RlZDogU3RyaW5nKGRvbSkudHJpbSgpICE9PSAnKicsCiAgICBkb3dSZXN0cmljdGVkOiBTdHJpbmcoZG93KS50cmltKCkgIT09ICcqJywKICB9Owp9CgovKioKICog5Yik5pat5p+Q5Liq5pe25Yi75piv5ZCm5ZG95LitIGNyb27jgIIKICogQHBhcmFtIHNwZWMg6Kej5p6Q57uT5p6cCiAqIEBwYXJhbSBkIOW+heWIpOaWreaXtuWIuwogKiBAcmV0dXJucyDmmK/lkKblkb3kuK3vvIjnsr7noa7liLDliIbpkp/vvIkKICovCmV4cG9ydCBmdW5jdGlvbiBjcm9uTWF0Y2hlcyhzcGVjOiBDcm9uU3BlYywgZDogRGF0ZSk6IGJvb2xlYW4gewogIGlmICghc3BlYy5taW51dGUuaGFzKGQuZ2V0TWludXRlcygpKSkgcmV0dXJuIGZhbHNlOwogIGlmICghc3BlYy5ob3VyLmhhcyhkLmdldEhvdXJzKCkpKSByZXR1cm4gZmFsc2U7CiAgaWYgKCFzcGVjLm1vbnRoLmhhcyhkLmdldE1vbnRoKCkgKyAxKSkgcmV0dXJuIGZhbHNlOwoKICBjb25zdCBkb21IaXQgPSBzcGVjLmRheS5oYXMoZC5nZXREYXRlKCkpOwogIGNvbnN0IGRvd0hpdCA9IHNwZWMuZG93LmhhcyhkLmdldERheSgpKTsKICBpZiAoc3BlYy5kYXlSZXN0cmljdGVkICYmIHNwZWMuZG93UmVzdHJpY3RlZCkgcmV0dXJuIGRvbUhpdCB8fCBkb3dIaXQ7CiAgaWYgKHNwZWMuZGF5UmVzdHJpY3RlZCkgcmV0dXJuIGRvbUhpdDsKICBpZiAoc3BlYy5kb3dSZXN0cmljdGVkKSByZXR1cm4gZG93SGl0OwogIHJldHVybiB0cnVlOwp9CgovKioKICog6K6h566X5LiL5LiA5qyh5ZG95Lit5pe25Yi777yI55So5LqO566h55CG6aG15bGV56S644CM5LiL5qyh5omn6KGM5pe26Ze044CN77yJ44CCCiAqIEBwYXJhbSBzcGVjIOino+aekOe7k+aenAogKiBAcGFyYW0gZnJvbSDotbflp4vml7bliLvvvIjpu5jorqTlvZPliY3vvIkKICogQHJldHVybnMg5LiL5qyh5ZG95Lit5pe25Yi777yb5LiA5bm05YaF5peg5ZG95Lit6L+U5ZueIG51bGwKICovCmV4cG9ydCBmdW5jdGlvbiBuZXh0UnVuQXQoc3BlYzogQ3JvblNwZWMsIGZyb206IERhdGUgPSBuZXcgRGF0ZSgpKTogRGF0ZSB8IG51bGwgewogIGNvbnN0IGQgPSBuZXcgRGF0ZShmcm9tLmdldFRpbWUoKSk7CiAgZC5zZXRTZWNvbmRzKDAsIDApOwogIGQuc2V0TWludXRlcyhkLmdldE1pbnV0ZXMoKSArIDEpOyAvLyDku47kuIvkuIDliIbpkp/lvIDlp4vmib4KCiAgLy8g5LiA5bm0ID0gNTI1NjAwIOWIhumSn++8jOmAkOWIhumSn+aJq+aPj+i2s+Wkn+W/q++8iOWNleasoeino+aekOe7k+aenOW3sue8k+WtmOmbhuWQiO+8jOW+queOr+W8gOmUgOW+iOWwj++8iQogIGZvciAobGV0IGkgPSAwOyBpIDwgMzY2ICogMjQgKiA2MDsgaSsrKSB7CiAgICBpZiAoY3Jvbk1hdGNoZXMoc3BlYywgZCkpIHJldHVybiBuZXcgRGF0ZShkLmdldFRpbWUoKSk7CiAgICBkLnNldE1pbnV0ZXMoZC5nZXRNaW51dGVzKCkgKyAxKTsKICB9CiAgcmV0dXJuIG51bGw7Cn0KCi8qKgogKiDmioogRGF0ZSDljovmiJDjgIzliIbpkp/plK7jgI3vvIznlKjkuo7lkIzkuIDliIbpkp/lhoXnmoTljrvph43jgIIKICogQHBhcmFtIGQg5pe25Yi7CiAqIEByZXR1cm5zIOW9ouWmgiAyMDI2LTEwLTI2IDA4OjAwIOeahOmUrgogKi8KZXhwb3J0IGZ1bmN0aW9uIG1pbnV0ZUtleShkOiBEYXRlID0gbmV3IERhdGUoKSk6IHN0cmluZyB7CiAgY29uc3QgcCA9ICh4OiBudW1iZXIpID0+IFN0cmluZyh4KS5wYWRTdGFydCgyLCAnMCcpOwogIHJldHVybiBgJHtkLmdldEZ1bGxZZWFyKCl9LSR7cChkLmdldE1vbnRoKCkgKyAxKX0tJHtwKGQuZ2V0RGF0ZSgpKX0gJHtwKGQuZ2V0SG91cnMoKSl9OiR7cChkLmdldE1pbnV0ZXMoKSl9YDsKfQo=
+/**
+ * 五段式 cron 解析与匹配（零依赖实现）。
+ *
+ * 为什么不装 @nestjs/schedule：
+ * 本项目所在环境的 npm 安装会被安全钩子中断（历史踩坑），而调度需求只有
+ * 「每天固定时刻 + 每 N 分钟」两类，自研一套解析器成本远低于引入依赖的风险。
+ *
+ * 支持语法（与原系统 FastAdmin 的 crontab 配置习惯一致）：
+ *   *        任意值
+ *   n        具体值
+ *   a-b      范围（含端点）
+ *   a,b,c    枚举
+ *   * /n     步长（含 a-b/n 形式）
+ *
+ * 语义细节：日（DOM）与周（DOW）**同时**被限定时按「或」匹配（与标准 cron 一致），
+ * 只限定其中一个时按「且」匹配。
+ */
+
+/** 解析后的各字段取值集合 */
+export interface CronSpec {
+  /** 原始表达式 */
+  expr: string;
+  /** 分钟（0-59） */
+  minute: Set<number>;
+  /** 小时（0-23） */
+  hour: Set<number>;
+  /** 日（1-31） */
+  day: Set<number>;
+  /** 月（1-12） */
+  month: Set<number>;
+  /** 星期（0-6，0=周日） */
+  dow: Set<number>;
+  /** 日字段是否被限定（非 *） */
+  dayRestricted: boolean;
+  /** 周字段是否被限定（非 *） */
+  dowRestricted: boolean;
+}
+
+/**
+ * 解析单个字段为取值集合。
+ * @param raw 原始字段文本
+ * @param min 允许最小值
+ * @param max 允许最大值
+ * @returns 取值集合
+ */
+function parseField(raw: string, min: number, max: number): Set<number> {
+  const out = new Set<number>();
+  const text = String(raw || '*').trim();
+  if (!text || text === '*') {
+    for (let i = min; i <= max; i++) out.add(i);
+    return out;
+  }
+
+  for (const part of text.split(',')) {
+    const seg = part.trim();
+    if (!seg) continue;
+
+    // 步长：*/n、a-b/n、a/n
+    let step = 1;
+    let body = seg;
+    const slash = seg.indexOf('/');
+    if (slash >= 0) {
+      body = seg.slice(0, slash);
+      const n = Number(seg.slice(slash + 1));
+      step = Number.isFinite(n) && n > 0 ? Math.floor(n) : 1;
+    }
+
+    let from = min;
+    let to = max;
+    if (body === '*' || body === '') {
+      // 全范围
+    } else if (body.includes('-')) {
+      const [a, b] = body.split('-');
+      const x = Number(a);
+      const y = Number(b);
+      if (!Number.isFinite(x) || !Number.isFinite(y)) continue;
+      from = Math.max(min, Math.floor(x));
+      to = Math.min(max, Math.floor(y));
+    } else {
+      const v = Number(body);
+      if (!Number.isFinite(v)) continue;
+      from = Math.max(min, Math.floor(v));
+      // 单值时若无步长，只取该值
+      to = step > 1 ? max : from;
+    }
+
+    for (let i = from; i <= to; i += step) out.add(i);
+  }
+
+  // 兜底：解析失败时给全范围，宁可多跑也不静默不跑
+  if (!out.size) for (let i = min; i <= max; i++) out.add(i);
+  return out;
+}
+
+/**
+ * 解析 cron 表达式。
+ * @param expr 五段式表达式（分 时 日 月 周）
+ * @returns 解析结果
+ * @throws Error 段数不为 5 时抛出
+ */
+export function parseCron(expr: string): CronSpec {
+  const parts = String(expr || '').trim().split(/\s+/);
+  if (parts.length !== 5) {
+    throw new Error(`cron 表达式需为 5 段（分 时 日 月 周），当前 ${parts.length} 段：${expr}`);
+  }
+  const [mi, ho, dom, mo, dow] = parts;
+
+  // 周字段兼容 7 表示周日
+  const dowSet = parseField(dow, 0, 6);
+  const rawDow = String(dow || '');
+  if (/7/.test(rawDow)) dowSet.add(0);
+
+  return {
+    expr: parts.join(' '),
+    minute: parseField(mi, 0, 59),
+    hour: parseField(ho, 0, 23),
+    day: parseField(dom, 1, 31),
+    month: parseField(mo, 1, 12),
+    dow: dowSet,
+    dayRestricted: String(dom).trim() !== '*',
+    dowRestricted: String(dow).trim() !== '*',
+  };
+}
+
+/**
+ * 判断某个时刻是否命中 cron。
+ * @param spec 解析结果
+ * @param d 待判断时刻
+ * @returns 是否命中（精确到分钟）
+ */
+export function cronMatches(spec: CronSpec, d: Date): boolean {
+  if (!spec.minute.has(d.getMinutes())) return false;
+  if (!spec.hour.has(d.getHours())) return false;
+  if (!spec.month.has(d.getMonth() + 1)) return false;
+
+  const domHit = spec.day.has(d.getDate());
+  const dowHit = spec.dow.has(d.getDay());
+  if (spec.dayRestricted && spec.dowRestricted) return domHit || dowHit;
+  if (spec.dayRestricted) return domHit;
+  if (spec.dowRestricted) return dowHit;
+  return true;
+}
+
+/**
+ * 计算下一次命中时刻（用于管理页展示「下次执行时间」）。
+ * @param spec 解析结果
+ * @param from 起始时刻（默认当前）
+ * @returns 下次命中时刻；一年内无命中返回 null
+ */
+export function nextRunAt(spec: CronSpec, from: Date = new Date()): Date | null {
+  const d = new Date(from.getTime());
+  d.setSeconds(0, 0);
+  d.setMinutes(d.getMinutes() + 1); // 从下一分钟开始找
+
+  // 一年 = 525600 分钟，逐分钟扫描足够快（单次解析结果已缓存集合，循环开销很小）
+  for (let i = 0; i < 366 * 24 * 60; i++) {
+    if (cronMatches(spec, d)) return new Date(d.getTime());
+    d.setMinutes(d.getMinutes() + 1);
+  }
+  return null;
+}
+
+/**
+ * 把 Date 压成「分钟键」，用于同一分钟内的去重。
+ * @param d 时刻
+ * @returns 形如 2026-10-26 08:00 的键
+ */
+export function minuteKey(d: Date = new Date()): string {
+  const p = (x: number) => String(x).padStart(2, '0');
+  return `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}`;
+}

@@ -1,1 +1,177 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgUG9zdCwgQm9keSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsNCmltcG9ydCB7IE9wZW5BcGlTZXJ2aWNlIH0gZnJvbSAnLi9vcGVuYXBpLnNlcnZpY2UnOw0KDQovKioNCiAqIOW8gOaUvuWvueaOpSBBUEkg5o6n5Yi25Zmo77yI562J5Lu35Y6f57O757ufIGt1ZXJwL3RoaXJkIOeahCBHb29kcy9DdXN0b21lcnMvU2FsZXMg5LiJ57uE5o6l5Y+j77yJ44CCDQogKg0KICog6Lev55Sx5LiO5Y6f57O757ufIEFjdGlvbiDlkI0gMTox77yI5LiJ5pa557O757uf5oyJ5Y6fIEFQSSDmlofmoaPml6DpnIDmlLnliqjljbPlj6/mjqXlhaXvvInvvJoNCiAqICAgUE9TVCAvb3BlbmFwaS90aGlyZC9nb29kcy9nb29kc1R5cGVMaXN0ICAgICAg5ZWG5ZOB5YiG57G7DQogKiAgIFBPU1QgL29wZW5hcGkvdGhpcmQvZ29vZHMvZ2V0R29vZHNMaXN0ICAgICAgIOWVhuWTgeWIl+ihqA0KICogICBQT1NUIC9vcGVuYXBpL3RoaXJkL2dvb2RzL2dldEdvb2RzSW5mbyAgICAgICDllYblk4Hor6bmg4UNCiAqICAgUE9TVCAvb3BlbmFwaS90aGlyZC9jdXN0b21lcnMvZ2V0U2FsZXNMaXN0ICAg6IGM5ZGY5YiX6KGoDQogKiAgIFBPU1QgL29wZW5hcGkvdGhpcmQvY3VzdG9tZXJzL2dldEN1c3RvbWVyc0xpc3Qg5a6i5oi35YiX6KGoDQogKiAgIFBPU1QgL29wZW5hcGkvdGhpcmQvY3VzdG9tZXJzL2pvaW5DdXN0b21lcnMgIOa3u+WKoOWuouaItw0KICogICBQT1NUIC9vcGVuYXBpL3RoaXJkL2N1c3RvbWVycy9jdXN0b21lcnNJbmZvICDlrqLmiLfor6bmg4UNCiAqICAgUE9TVCAvb3BlbmFwaS90aGlyZC9jdXN0b21lcnMvZWRpdEN1c3RvbWVycyAg57yW6L6R5a6i5oi3DQogKiAgIFBPU1QgL29wZW5hcGkvdGhpcmQvY3VzdG9tZXJzL2RlbEN1c3RvbWVycyAgIOazqOmUgOWuouaItw0KICogICBQT1NUIC9vcGVuYXBpL3RoaXJkL3NhbGVzL2dldFNhbGVzTGlzdCAgICAgICDplIDotKfljZXliJfooagNCiAqICAgUE9TVCAvb3BlbmFwaS90aGlyZC9zYWxlcy9zYWxlcyAgICAgICAgICAgICAg5re75Yqg6ZSA6LSn5Y2VDQogKiAgIFBPU1QgL29wZW5hcGkvdGhpcmQvc2FsZXMvc2FsZXNJbmZvICAgICAgICAgIOmUgOi0p+WNleivpuaDhQ0KICogICBQT1NUIC9vcGVuYXBpL3RoaXJkL3NhbGVzL3JldHVyblNhbGVzICAgICAgICDmt7vliqDplIDotKfpgIDotKfljZUNCiAqICAgUE9TVCAvb3BlbmFwaS90aGlyZC9zYWxlcy9yZXR1cm5TYWxlc0luZm8gICAg6ZSA6LSn6YCA6LSn5Y2V6K+m5oOFDQogKg0KICog5ZON5bqU57uT5p6E5LiO5Y6f57O757uf5LiA6Ie077yaeyBjb2RlLCBtc2csIHRpbWUsIGRhdGEgfe+8mw0KICog6ZSZ6K+v56CB77yaMjAg5o6l5Y+j5Zyw5Z2A6ZSZ6K+vIC8gMjEg6LSm5oi35LiN5a2Y5ZyoIC8gMjIg6LSm5oi354q25oCB5byC5bi4IC8gMjMg5peg5pWI6K+35rGCIC8NCiAqICAgICAgICAgMjQg562+5ZCN6ZSZ6K+vIC8gMjUg5Y+C5pWw6ZSZ6K+vIC8gMjcg5Lia5Yqh5aSx6LSl44CC5YWo5bGA5ZON5bqU5oum5oiq5Zmo5a+55ZCrIGNvZGUrbXNnDQogKiDnmoTlr7nosaHnm7TmjqXpgI/kvKDvvIzmlYXlkITmjqXlj6Pnm7TmjqXov5Tlm57ljp/po47moLznu5PmnoTjgIINCiAqLw0KQENvbnRyb2xsZXIoJ29wZW5hcGkvdGhpcmQnKQ0KZXhwb3J0IGNsYXNzIE9wZW5BcGlDb250cm9sbGVyIHsNCiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBzdmM6IE9wZW5BcGlTZXJ2aWNlKSB7fQ0KDQogIC8vID09PT09PT09PT09PT09PT09PT09PSDllYblk4EgPT09PT09PT09PT09PT09PT09PT09DQoNCiAgLyoqDQogICAqIOWVhuWTgeWIhuexu+WIl+ihqOOAgg0KICAgKiBAcGFyYW0gYm9keSB7IGFjY291bnRJZCwgc2lnbiwgdGltZSwgcGFnZSwgbGltaXQgfSDlvIDmlL7lubPlj7DlhazlhbHlj4LmlbANCiAgICogQHJldHVybnMgeyBjb2RlLCBtc2csIGRhdGE6IFt7IGlkLCBuYW1lIH1dIH0NCiAgICovDQogIEBQb3N0KCdnb29kcy9nb29kc1R5cGVMaXN0JykNCiAgZ29vZHNUeXBlTGlzdChAQm9keSgpIGJvZHk6IGFueSkgew0KICAgIHJldHVybiB0aGlzLnN2Yy5nb29kc1R5cGVMaXN0KGJvZHkpOw0KICB9DQoNCiAgLyoqDQogICAqIOWVhuWTgeWIl+ihqO+8iOWIhumhte+8ieOAgg0KICAgKiBAcGFyYW0gYm9keSB7IGFjY291bnRJZCwgc2lnbiwgcGFnZSwgbGltaXQsIGtleXdvcmQg5Y+v6YCJIH0g5YWs5YWx5Y+C5pWwICsg5YiG6aG1DQogICAqIEByZXR1cm5zIHsgY29kZSwgbXNnLCBkYXRhOiB7IGxpc3QsIHRvdGFsIH0gfQ0KICAgKi8NCiAgQFBvc3QoJ2dvb2RzL2dldEdvb2RzTGlzdCcpDQogIGdldEdvb2RzTGlzdChAQm9keSgpIGJvZHk6IGFueSkgew0KICAgIHJldHVybiB0aGlzLnN2Yy5nZXRHb29kc0xpc3QoYm9keSk7DQogIH0NCg0KICAvKioNCiAgICog5ZWG5ZOB6K+m5oOF77yI5ZCr5aSa5Y2V5L2N44CB5Lu35qC844CB5bqT5a2Y77yJ44CCDQogICAqIEBwYXJhbSBib2R5IHsgYWNjb3VudElkLCBzaWduLCBnb29kc0lkIOaIliBnb29kc0NvZGUgfQ0KICAgKiBAcmV0dXJucyB7IGNvZGUsIG1zZywgZGF0YTog5ZWG5ZOB5a+56LGhIH0NCiAgICovDQogIEBQb3N0KCdnb29kcy9nZXRHb29kc0luZm8nKQ0KICBnZXRHb29kc0luZm8oQEJvZHkoKSBib2R5OiBhbnkpIHsNCiAgICByZXR1cm4gdGhpcy5zdmMuZ2V0R29vZHNJbmZvKGJvZHkpOw0KICB9DQoNCiAgLy8gPT09PT09PT09PT09PT09PT09PT09IOWuouaItyA9PT09PT09PT09PT09PT09PT09PT0NCg0KICAvKioNCiAgICog6IGM5ZGY77yI5Lia5Yqh5ZGY77yJ5YiX6KGo44CCDQogICAqIEBwYXJhbSBib2R5IHsgYWNjb3VudElkLCBzaWduIH0NCiAgICogQHJldHVybnMgeyBjb2RlLCBtc2csIGRhdGE6IFt7IGlkLCBuYW1lIH1dIH0NCiAgICovDQogIEBQb3N0KCdjdXN0b21lcnMvZ2V0U2FsZXNMaXN0JykNCiAgc3RhZmZMaXN0KEBCb2R5KCkgYm9keTogYW55KSB7DQogICAgcmV0dXJuIHRoaXMuc3ZjLnN0YWZmTGlzdChib2R5KTsNCiAgfQ0KDQogIC8qKg0KICAgKiDlrqLmiLfliJfooajvvIjliIbpobXvvInjgIINCiAgICogQHBhcmFtIGJvZHkgeyBhY2NvdW50SWQsIHNpZ24sIHBhZ2UsIGxpbWl0LCBrZXl3b3JkIOWPr+mAiSB9DQogICAqIEByZXR1cm5zIHsgY29kZSwgbXNnLCBkYXRhOiB7IGxpc3QsIHRvdGFsIH0gfQ0KICAgKi8NCiAgQFBvc3QoJ2N1c3RvbWVycy9nZXRDdXN0b21lcnNMaXN0JykNCiAgZ2V0Q3VzdG9tZXJzTGlzdChAQm9keSgpIGJvZHk6IGFueSkgew0KICAgIHJldHVybiB0aGlzLnN2Yy5nZXRDdXN0b21lcnNMaXN0KGJvZHkpOw0KICB9DQoNCiAgLyoqDQogICAqIOaWsOWinuWuouaIt+OAgg0KICAgKiBAcGFyYW0gYm9keSB7IGFjY291bnRJZCwgc2lnbiwgY3VzdG9tZXJzTmFtZSwgbW9iaWxlLCBhZGRyZXNzIC4uLiB9DQogICAqIEByZXR1cm5zIHsgY29kZSwgbXNnLCBkYXRhOiB7IGN1c3RvbWVyc0lkIH0gfQ0KICAgKi8NCiAgQFBvc3QoJ2N1c3RvbWVycy9qb2luQ3VzdG9tZXJzJykNCiAgam9pbkN1c3RvbWVycyhAQm9keSgpIGJvZHk6IGFueSkgew0KICAgIHJldHVybiB0aGlzLnN2Yy5qb2luQ3VzdG9tZXJzKGJvZHkpOw0KICB9DQoNCiAgLyoqDQogICAqIOWuouaIt+ivpuaDheOAgg0KICAgKiBAcGFyYW0gYm9keSB7IGFjY291bnRJZCwgc2lnbiwgY3VzdG9tZXJzSWQgfQ0KICAgKiBAcmV0dXJucyB7IGNvZGUsIG1zZywgZGF0YTog5a6i5oi35a+56LGhIH0NCiAgICovDQogIEBQb3N0KCdjdXN0b21lcnMvY3VzdG9tZXJzSW5mbycpDQogIGN1c3RvbWVyc0luZm8oQEJvZHkoKSBib2R5OiBhbnkpIHsNCiAgICByZXR1cm4gdGhpcy5zdmMuY3VzdG9tZXJzSW5mbyhib2R5KTsNCiAgfQ0KDQogIC8qKg0KICAgKiDnvJbovpHlrqLmiLfjgIINCiAgICogQHBhcmFtIGJvZHkgeyBhY2NvdW50SWQsIHNpZ24sIGN1c3RvbWVyc0lkLCAuLi7lvoXmlLnlrZfmrrUgfQ0KICAgKiBAcmV0dXJucyB7IGNvZGUsIG1zZyB9DQogICAqLw0KICBAUG9zdCgnY3VzdG9tZXJzL2VkaXRDdXN0b21lcnMnKQ0KICBlZGl0Q3VzdG9tZXJzKEBCb2R5KCkgYm9keTogYW55KSB7DQogICAgcmV0dXJuIHRoaXMuc3ZjLmVkaXRDdXN0b21lcnMoYm9keSk7DQogIH0NCg0KICAvKioNCiAgICog5rOo6ZSAL+WIoOmZpOWuouaIt+OAgg0KICAgKiBAcGFyYW0gYm9keSB7IGFjY291bnRJZCwgc2lnbiwgY3VzdG9tZXJzSWQgfQ0KICAgKiBAcmV0dXJucyB7IGNvZGUsIG1zZyB9DQogICAqLw0KICBAUG9zdCgnY3VzdG9tZXJzL2RlbEN1c3RvbWVycycpDQogIGRlbEN1c3RvbWVycyhAQm9keSgpIGJvZHk6IGFueSkgew0KICAgIHJldHVybiB0aGlzLnN2Yy5kZWxDdXN0b21lcnMoYm9keSk7DQogIH0NCg0KICAvLyA9PT09PT09PT09PT09PT09PT09PT0g6ZSA6LSnID09PT09PT09PT09PT09PT09PT09PQ0KDQogIC8qKg0KICAgKiDplIDotKfljZXliJfooajvvIjliIbpobXvvIzlj6/mjInml6XmnJ/ljLrpl7Tov4fmu6TvvInjgIINCiAgICogQHBhcmFtIGJvZHkgeyBhY2NvdW50SWQsIHNpZ24sIHBhZ2UsIGxpbWl0LCBzdGFydFRpbWUsIGVuZFRpbWUgfQ0KICAgKiBAcmV0dXJucyB7IGNvZGUsIG1zZywgZGF0YTogeyBsaXN0LCB0b3RhbCB9IH0NCiAgICovDQogIEBQb3N0KCdzYWxlcy9nZXRTYWxlc0xpc3QnKQ0KICBnZXRTYWxlc0xpc3QoQEJvZHkoKSBib2R5OiBhbnkpIHsNCiAgICByZXR1cm4gdGhpcy5zdmMuZ2V0U2FsZXNMaXN0KGJvZHkpOw0KICB9DQoNCiAgLyoqDQogICAqIOaWsOWinumUgOi0p+WNle+8iOWQq+aYjue7hu+8jOacjeWKoeerr+eUn+aIkOWNleWPt+W5tui/h+i0pu+8ieOAgg0KICAgKiBAcGFyYW0gYm9keSB7IGFjY291bnRJZCwgc2lnbiwgY3VzdG9tZXJzSWQsIGRhdGE6IFsgeyBnb29kc0lkLCBudW1iZXIsIHByaWNlLCBzdG9yZXNJZCB9IF0gfQ0KICAgKiBAcmV0dXJucyB7IGNvZGUsIG1zZywgZGF0YTogeyBzYWxlc0lkLCBzYWxlc0NvZGUgfSB9DQogICAqLw0KICBAUG9zdCgnc2FsZXMvc2FsZXMnKQ0KICBzYWxlcyhAQm9keSgpIGJvZHk6IGFueSkgew0KICAgIHJldHVybiB0aGlzLnN2Yy5zYWxlcyhib2R5KTsNCiAgfQ0KDQogIC8qKg0KICAgKiDplIDotKfljZXor6bmg4XvvIjooajlpLQgKyDmmI7nu4bvvInjgIINCiAgICogQHBhcmFtIGJvZHkgeyBhY2NvdW50SWQsIHNpZ24sIHNhbGVzSWQgfQ0KICAgKiBAcmV0dXJucyB7IGNvZGUsIG1zZywgZGF0YTog6ZSA6LSn5Y2V5a+56LGhIH0NCiAgICovDQogIEBQb3N0KCdzYWxlcy9zYWxlc0luZm8nKQ0KICBzYWxlc0luZm8oQEJvZHkoKSBib2R5OiBhbnkpIHsNCiAgICByZXR1cm4gdGhpcy5zdmMuc2FsZXNJbmZvKGJvZHkpOw0KICB9DQoNCiAgLyoqDQogICAqIOaWsOWinumUgOi0p+mAgOi0p+WNleOAgg0KICAgKiBAcGFyYW0gYm9keSB7IGFjY291bnRJZCwgc2lnbiwgY3VzdG9tZXJzSWQsIGRhdGE6IFsgeyBnb29kc0lkLCBudW1iZXIsIHByaWNlIH0gXSB9DQogICAqIEByZXR1cm5zIHsgY29kZSwgbXNnLCBkYXRhOiB7IHJldHVybklkLCByZXR1cm5Db2RlIH0gfQ0KICAgKi8NCiAgQFBvc3QoJ3NhbGVzL3JldHVyblNhbGVzJykNCiAgcmV0dXJuU2FsZXMoQEJvZHkoKSBib2R5OiBhbnkpIHsNCiAgICByZXR1cm4gdGhpcy5zdmMucmV0dXJuU2FsZXMoYm9keSk7DQogIH0NCg0KICAvKioNCiAgICog6ZSA6LSn6YCA6LSn5Y2V6K+m5oOF44CCDQogICAqIEBwYXJhbSBib2R5IHsgYWNjb3VudElkLCBzaWduLCByZXR1cm5JZCB9DQogICAqIEByZXR1cm5zIHsgY29kZSwgbXNnLCBkYXRhOiDpgIDotKfljZXlr7nosaEgfQ0KICAgKi8NCiAgQFBvc3QoJ3NhbGVzL3JldHVyblNhbGVzSW5mbycpDQogIHJldHVyblNhbGVzSW5mbyhAQm9keSgpIGJvZHk6IGFueSkgew0KICAgIHJldHVybiB0aGlzLnN2Yy5yZXR1cm5TYWxlc0luZm8oYm9keSk7DQogIH0NCn0NCg==
+import { Controller, Post, Body } from '@nestjs/common';
+import { OpenApiService } from './openapi.service';
+
+/**
+ * 开放对接 API 控制器（等价原系统 kuerp/third 的 Goods/Customers/Sales 三组接口）。
+ *
+ * 路由与原系统 Action 名 1:1（三方系统按原 API 文档无需改动即可接入）：
+ *   POST /openapi/third/goods/goodsTypeList      商品分类
+ *   POST /openapi/third/goods/getGoodsList       商品列表
+ *   POST /openapi/third/goods/getGoodsInfo       商品详情
+ *   POST /openapi/third/customers/getSalesList   职员列表
+ *   POST /openapi/third/customers/getCustomersList 客户列表
+ *   POST /openapi/third/customers/joinCustomers  添加客户
+ *   POST /openapi/third/customers/customersInfo  客户详情
+ *   POST /openapi/third/customers/editCustomers  编辑客户
+ *   POST /openapi/third/customers/delCustomers   注销客户
+ *   POST /openapi/third/sales/getSalesList       销货单列表
+ *   POST /openapi/third/sales/sales              添加销货单
+ *   POST /openapi/third/sales/salesInfo          销货单详情
+ *   POST /openapi/third/sales/returnSales        添加销货退货单
+ *   POST /openapi/third/sales/returnSalesInfo    销货退货单详情
+ *
+ * 响应结构与原系统一致：{ code, msg, time, data }；
+ * 错误码：20 接口地址错误 / 21 账户不存在 / 22 账户状态异常 / 23 无效请求 /
+ *         24 签名错误 / 25 参数错误 / 27 业务失败。全局响应拦截器对含 code+msg
+ * 的对象直接透传，故各接口直接返回原风格结构。
+ */
+@Controller('openapi/third')
+export class OpenApiController {
+  constructor(private readonly svc: OpenApiService) {}
+
+  // ===================== 商品 =====================
+
+  /**
+   * 商品分类列表。
+   * @param body { accountId, sign, time, page, limit } 开放平台公共参数
+   * @returns { code, msg, data: [{ id, name }] }
+   */
+  @Post('goods/goodsTypeList')
+  goodsTypeList(@Body() body: any) {
+    return this.svc.goodsTypeList(body);
+  }
+
+  /**
+   * 商品列表（分页）。
+   * @param body { accountId, sign, page, limit, keyword 可选 } 公共参数 + 分页
+   * @returns { code, msg, data: { list, total } }
+   */
+  @Post('goods/getGoodsList')
+  getGoodsList(@Body() body: any) {
+    return this.svc.getGoodsList(body);
+  }
+
+  /**
+   * 商品详情（含多单位、价格、库存）。
+   * @param body { accountId, sign, goodsId 或 goodsCode }
+   * @returns { code, msg, data: 商品对象 }
+   */
+  @Post('goods/getGoodsInfo')
+  getGoodsInfo(@Body() body: any) {
+    return this.svc.getGoodsInfo(body);
+  }
+
+  // ===================== 客户 =====================
+
+  /**
+   * 职员（业务员）列表。
+   * @param body { accountId, sign }
+   * @returns { code, msg, data: [{ id, name }] }
+   */
+  @Post('customers/getSalesList')
+  staffList(@Body() body: any) {
+    return this.svc.staffList(body);
+  }
+
+  /**
+   * 客户列表（分页）。
+   * @param body { accountId, sign, page, limit, keyword 可选 }
+   * @returns { code, msg, data: { list, total } }
+   */
+  @Post('customers/getCustomersList')
+  getCustomersList(@Body() body: any) {
+    return this.svc.getCustomersList(body);
+  }
+
+  /**
+   * 新增客户。
+   * @param body { accountId, sign, customersName, mobile, address ... }
+   * @returns { code, msg, data: { customersId } }
+   */
+  @Post('customers/joinCustomers')
+  joinCustomers(@Body() body: any) {
+    return this.svc.joinCustomers(body);
+  }
+
+  /**
+   * 客户详情。
+   * @param body { accountId, sign, customersId }
+   * @returns { code, msg, data: 客户对象 }
+   */
+  @Post('customers/customersInfo')
+  customersInfo(@Body() body: any) {
+    return this.svc.customersInfo(body);
+  }
+
+  /**
+   * 编辑客户。
+   * @param body { accountId, sign, customersId, ...待改字段 }
+   * @returns { code, msg }
+   */
+  @Post('customers/editCustomers')
+  editCustomers(@Body() body: any) {
+    return this.svc.editCustomers(body);
+  }
+
+  /**
+   * 注销/删除客户。
+   * @param body { accountId, sign, customersId }
+   * @returns { code, msg }
+   */
+  @Post('customers/delCustomers')
+  delCustomers(@Body() body: any) {
+    return this.svc.delCustomers(body);
+  }
+
+  // ===================== 销货 =====================
+
+  /**
+   * 销货单列表（分页，可按日期区间过滤）。
+   * @param body { accountId, sign, page, limit, startTime, endTime }
+   * @returns { code, msg, data: { list, total } }
+   */
+  @Post('sales/getSalesList')
+  getSalesList(@Body() body: any) {
+    return this.svc.getSalesList(body);
+  }
+
+  /**
+   * 新增销货单（含明细，服务端生成单号并过账）。
+   * @param body { accountId, sign, customersId, data: [ { goodsId, number, price, storesId } ] }
+   * @returns { code, msg, data: { salesId, salesCode } }
+   */
+  @Post('sales/sales')
+  sales(@Body() body: any) {
+    return this.svc.sales(body);
+  }
+
+  /**
+   * 销货单详情（表头 + 明细）。
+   * @param body { accountId, sign, salesId }
+   * @returns { code, msg, data: 销货单对象 }
+   */
+  @Post('sales/salesInfo')
+  salesInfo(@Body() body: any) {
+    return this.svc.salesInfo(body);
+  }
+
+  /**
+   * 新增销货退货单。
+   * @param body { accountId, sign, customersId, data: [ { goodsId, number, price } ] }
+   * @returns { code, msg, data: { returnId, returnCode } }
+   */
+  @Post('sales/returnSales')
+  returnSales(@Body() body: any) {
+    return this.svc.returnSales(body);
+  }
+
+  /**
+   * 销货退货单详情。
+   * @param body { accountId, sign, returnId }
+   * @returns { code, msg, data: 退货单对象 }
+   */
+  @Post('sales/returnSalesInfo')
+  returnSalesInfo(@Body() body: any) {
+    return this.svc.returnSalesInfo(body);
+  }
+}

@@ -1,1 +1,18 @@
-aW1wb3J0ICogYXMgY3J5cHRvIGZyb20gJ2NyeXB0byc7CgovKioKICog5a+G56CB5ZOI5biM5bel5YW377yI5LiN5L6d6LWWIGJjcnlwdO+8jOS9v+eUqCBzaGEyNTYgKyDpmo/mnLrnm5DvvIzmu6HotrPln7rmnKzlronlhajopoHmsYLvvInjgIIKICovCmV4cG9ydCBmdW5jdGlvbiBtYWtlU2FsdCgpOiBzdHJpbmcgewogIHJldHVybiBjcnlwdG8ucmFuZG9tQnl0ZXMoMTYpLnRvU3RyaW5nKCdoZXgnKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGVuY3J5cHRQYXNzd29yZChwYXNzd29yZDogc3RyaW5nLCBzYWx0OiBzdHJpbmcpOiBzdHJpbmcgewogIHJldHVybiBjcnlwdG8KICAgIC5wYmtkZjJTeW5jKHBhc3N3b3JkLCBzYWx0LCAxMDAwLCAzMiwgJ3NoYTI1NicpCiAgICAudG9TdHJpbmcoJ2hleCcpOwp9CgpleHBvcnQgZnVuY3Rpb24gdmVyaWZ5UGFzc3dvcmQocGFzc3dvcmQ6IHN0cmluZywgc2FsdDogc3RyaW5nLCBoYXNoOiBzdHJpbmcpOiBib29sZWFuIHsKICByZXR1cm4gZW5jcnlwdFBhc3N3b3JkKHBhc3N3b3JkLCBzYWx0KSA9PT0gaGFzaDsKfQo=
+import * as crypto from 'crypto';
+
+/**
+ * 密码哈希工具（不依赖 bcrypt，使用 sha256 + 随机盐，满足基本安全要求）。
+ */
+export function makeSalt(): string {
+  return crypto.randomBytes(16).toString('hex');
+}
+
+export function encryptPassword(password: string, salt: string): string {
+  return crypto
+    .pbkdf2Sync(password, salt, 1000, 32, 'sha256')
+    .toString('hex');
+}
+
+export function verifyPassword(password: string, salt: string, hash: string): boolean {
+  return encryptPassword(password, salt) === hash;
+}

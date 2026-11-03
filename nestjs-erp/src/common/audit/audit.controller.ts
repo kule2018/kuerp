@@ -1,1 +1,63 @@
-aW1wb3J0IHsgQ29udHJvbGxlciwgRm9yYmlkZGVuRXhjZXB0aW9uLCBHZXQsIFF1ZXJ5LCBVc2VHdWFyZHMgfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7CmltcG9ydCB7IEp3dEF1dGhHdWFyZCB9IGZyb20gJy4uL2d1YXJkcy9qd3QtYXV0aC5ndWFyZCc7CmltcG9ydCB7IEN1cnJlbnRVc2VyIH0gZnJvbSAnLi4vZGVjb3JhdG9ycy9jdXJyZW50LXVzZXIuZGVjb3JhdG9yJzsKaW1wb3J0IHsgb2sgfSBmcm9tICcuLi9yZXNwb25zZS5pbnRlcmNlcHRvcic7CmltcG9ydCB7IEF1ZGl0U2VydmljZSB9IGZyb20gJy4vYXVkaXQuc2VydmljZSc7CgovKioKICog5pON5L2c5pel5b+X5p+l6K+i5o6l5Y+j44CCCiAqCiAqIOi3r+eUseaMguWcqCAvc3lzdGVtL2xvZyDkuIvogIzkuI3mmK8gL2t1ZXJwLy4uLu+8mgogKiDlrqHorqHml6Xlv5fkuI3mmK/kuJrliqHooajvvIzotbAgL2t1ZXJwLyDkvJrooqsgUmJhY0d1YXJkIOW9k+aIkCAva3VlcnAvbG9nIOihqOWOu+agoemqjOiAjOivr+aLpuaIquOAggogKgogKiDorr/pl67mjqfliLbvvJrku4XotoXnuqfnrqHnkIblkZjvvIhpZD0x77yJ5Y+v6K+744CCCiAqIOeQhueUse+8muWuoeiuoeaXpeW/l+acrOi6q+WMheWQq+WFqOWFrOWPuOaTjeS9nOeXlei/ue+8jOaUvuW8gOe7meaZrumAmuinkuiJsuetieS6juaKiuOAjOiwgeWcqOWBmuS7gOS5iOOAjeWFrOW8gOS6huOAggogKi8KQENvbnRyb2xsZXIoJ3N5c3RlbS9sb2cnKQpAVXNlR3VhcmRzKEp3dEF1dGhHdWFyZCkKZXhwb3J0IGNsYXNzIEF1ZGl0Q29udHJvbGxlciB7CiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBhdWRpdDogQXVkaXRTZXJ2aWNlKSB7fQoKICAvKioKICAgKiDliIbpobXmn6Xor6Lmk43kvZzml6Xlv5fjgIIKICAgKiBAcGFyYW0gcXVlcnkg5p+l6K+i5p2h5Lu277yIcGFnZS9saW1pdC9zZWFyY2gvbW9kdWxlL2FjdGlvbi9mYWlsZWQvc3RhcnR0aW1lL2VuZHRpbWXvvIkKICAgKiBAcGFyYW0gdXNlciDlvZPliY3nmbvlvZXnlKjmiLcKICAgKiBAcmV0dXJucyB7IGxpc3QsIGNvdW50IH0KICAgKi8KICBAR2V0KCdpbmRleCcpCiAgYXN5bmMgaW5kZXgoQFF1ZXJ5KCkgcXVlcnk6IGFueSwgQEN1cnJlbnRVc2VyKCkgdXNlcjogYW55KSB7CiAgICB0aGlzLmFzc2VydFN1cGVyQWRtaW4odXNlcik7CiAgICBjb25zdCBkYXRhID0gYXdhaXQgdGhpcy5hdWRpdC5saXN0KHsKICAgICAgcGFnZTogTnVtYmVyKHF1ZXJ5LnBhZ2UpIHx8IDEsCiAgICAgIGxpbWl0OiBOdW1iZXIocXVlcnkubGltaXQpIHx8IDIwLAogICAgICBzZWFyY2g6IHF1ZXJ5LnNlYXJjaCB8fCAnJywKICAgICAgbW9kdWxlOiBxdWVyeS5tb2R1bGUgfHwgJycsCiAgICAgIGFjdGlvbjogcXVlcnkuYWN0aW9uIHx8ICcnLAogICAgICBmYWlsZWQ6IFN0cmluZyhxdWVyeS5mYWlsZWQgfHwgJycpID09PSAnMScgfHwgcXVlcnkuZmFpbGVkID09PSB0cnVlLAogICAgICBzdGFydHRpbWU6IHF1ZXJ5LnN0YXJ0dGltZSA/IE51bWJlcihxdWVyeS5zdGFydHRpbWUpIDogdW5kZWZpbmVkLAogICAgICBlbmR0aW1lOiBxdWVyeS5lbmR0aW1lID8gTnVtYmVyKHF1ZXJ5LmVuZHRpbWUpIDogdW5kZWZpbmVkLAogICAgfSk7CiAgICByZXR1cm4gb2soZGF0YSk7CiAgfQoKICAvKioKICAgKiDmqKHlnZfkuI7liqjkvZznmoTlgJnpgInlgLzvvIjkvpvliY3nq6/nrZvpgInkuIvmi4nvvInjgIIKICAgKiBAcGFyYW0gdXNlciDlvZPliY3nmbvlvZXnlKjmiLcKICAgKiBAcmV0dXJucyB7IG1vZHVsZXMsIGFjdGlvbnMgfQogICAqLwogIEBHZXQoJ2ZhY2V0cycpCiAgYXN5bmMgZmFjZXRzKEBDdXJyZW50VXNlcigpIHVzZXI6IGFueSkgewogICAgdGhpcy5hc3NlcnRTdXBlckFkbWluKHVzZXIpOwogICAgcmV0dXJuIG9rKGF3YWl0IHRoaXMuYXVkaXQuZmFjZXRzKCkpOwogIH0KCiAgLyoqCiAgICog5LuF6LaF566h5Y+v6K6/6Zeu55qE5pat6KiA44CCCiAgICogQHBhcmFtIHVzZXIg5b2T5YmN55m75b2V55So5oi3CiAgICovCiAgcHJpdmF0ZSBhc3NlcnRTdXBlckFkbWluKHVzZXI6IGFueSk6IHZvaWQgewogICAgaWYgKE51bWJlcih1c2VyPy5pZCkgIT09IDEpIHsKICAgICAgdGhyb3cgbmV3IEZvcmJpZGRlbkV4Y2VwdGlvbign5LuF6LaF57qn566h55CG5ZGY5Y+v5p+l55yL5pON5L2c5pel5b+XJyk7CiAgICB9CiAgfQp9Cg==
+import { Controller, ForbiddenException, Get, Query, UseGuards } from '@nestjs/common';
+import { JwtAuthGuard } from '../guards/jwt-auth.guard';
+import { CurrentUser } from '../decorators/current-user.decorator';
+import { ok } from '../response.interceptor';
+import { AuditService } from './audit.service';
+
+/**
+ * 操作日志查询接口。
+ *
+ * 路由挂在 /system/log 下而不是 /kuerp/...：
+ * 审计日志不是业务表，走 /kuerp/ 会被 RbacGuard 当成 /kuerp/log 表去校验而误拦截。
+ *
+ * 访问控制：仅超级管理员（id=1）可读。
+ * 理由：审计日志本身包含全公司操作痕迹，放开给普通角色等于把「谁在做什么」公开了。
+ */
+@Controller('system/log')
+@UseGuards(JwtAuthGuard)
+export class AuditController {
+  constructor(private readonly audit: AuditService) {}
+
+  /**
+   * 分页查询操作日志。
+   * @param query 查询条件（page/limit/search/module/action/failed/starttime/endtime）
+   * @param user 当前登录用户
+   * @returns { list, count }
+   */
+  @Get('index')
+  async index(@Query() query: any, @CurrentUser() user: any) {
+    this.assertSuperAdmin(user);
+    const data = await this.audit.list({
+      page: Number(query.page) || 1,
+      limit: Number(query.limit) || 20,
+      search: query.search || '',
+      module: query.module || '',
+      action: query.action || '',
+      failed: String(query.failed || '') === '1' || query.failed === true,
+      starttime: query.starttime ? Number(query.starttime) : undefined,
+      endtime: query.endtime ? Number(query.endtime) : undefined,
+    });
+    return ok(data);
+  }
+
+  /**
+   * 模块与动作的候选值（供前端筛选下拉）。
+   * @param user 当前登录用户
+   * @returns { modules, actions }
+   */
+  @Get('facets')
+  async facets(@CurrentUser() user: any) {
+    this.assertSuperAdmin(user);
+    return ok(await this.audit.facets());
+  }
+
+  /**
+   * 仅超管可访问的断言。
+   * @param user 当前登录用户
+   */
+  private assertSuperAdmin(user: any): void {
+    if (Number(user?.id) !== 1) {
+      throw new ForbiddenException('仅超级管理员可查看操作日志');
+    }
+  }
+}

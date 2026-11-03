@@ -1,1 +1,21 @@
-aW1wb3J0IHsgTW9kdWxlIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBUYWJsZU1vZHVsZSB9IGZyb20gJy4vdGFibGUvdGFibGUubW9kdWxlJzsKaW1wb3J0IHsgUG9zdGluZ01vZHVsZSB9IGZyb20gJy4vcG9zdGluZy9wb3N0aW5nLm1vZHVsZSc7CmltcG9ydCB7IEJpek1vZHVsZSB9IGZyb20gJy4vYml6L2Jpei5tb2R1bGUnOwppbXBvcnQgeyBBcHByb3ZhbE1vZHVsZSB9IGZyb20gJy4vYXBwcm92YWwvYXBwcm92YWwubW9kdWxlJzsKCi8qKgogKiDov5vplIDlrZjkuJrliqHogZrlkIjmqKHlnZfjgIIKICoKICog6YeH55So44CM6YCa55So5Yqo5oCB6KGo44CN5pa55qGI77yaVGFibGVDb250cm9sbGVyIOS7pSAva3VlcnAvOnRhYmxlLzxhY3Rpb24+IOi3r+eUsQogKiDlr7nlhajpg6gga3VlcnBfKiDooajvvIjllYblk4Ev57G75YirL+WNleS9jS/ku5PlupMv5a6i5oi3L+S+m+W6lOWVhi/otK3otKcv6ZSA6LSnL+S7k+W6ky/otYTph5Ev5oql6KGo4oCm77yJCiAqIOe7n+S4gOaatOmcsiBpbmRleC9nZXQvYWRkL2VkaXQvZGVsL2V4YW1pbmUg5o6l5Y+j77yM5LiO5Y6fIEZhc3RBZG1pbiDmjqXlj6MgMToxIOWvuem9kOOAggogKgogKiDpnIDopoHnibnmrorkuJrliqHpgLvovpHnmoTooajvvIjlpoLotK3otKcv6ZSA6LSn5a6h5qC46IGU5Yqo5bqT5a2Y44CB6LWE6YeR5qC46ZSA77yJ5Zyo5ZCO57ut6Zi25q615LulCiAqIOS4k+eUqOaOp+WItuWZqOWPoOWKoOWcqOWQjOS4gCAva3VlcnAvPOaooeWdlz4g5ZG95ZCN56m66Ze05LiL77yM6Z2Z5oCB6Lev55Sx5LyY5YWI5LqO5Yqo5oCB6Lev55Sx77yM5LqS5LiN5Yay56qB44CCCiAqIFBvc3RpbmdNb2R1bGUg5o+Q5L6b5a6h5qC46L+H6LSm5byV5pOO5LiO5Lul6ZSA5a6a6LStL+aZuuiDveihpei0p+eci+adv++8iC9rdWVycC9ib2FyZHMvKu+8ieOAggogKi8KQE1vZHVsZSh7CiAgaW1wb3J0czogW1RhYmxlTW9kdWxlLCBQb3N0aW5nTW9kdWxlLCBCaXpNb2R1bGUsIEFwcHJvdmFsTW9kdWxlXSwKfSkKZXhwb3J0IGNsYXNzIEt1ZXJwTW9kdWxlIHt9Cg==
+import { Module } from '@nestjs/common';
+import { TableModule } from './table/table.module';
+import { PostingModule } from './posting/posting.module';
+import { BizModule } from './biz/biz.module';
+import { ApprovalModule } from './approval/approval.module';
+
+/**
+ * 进销存业务聚合模块。
+ *
+ * 采用「通用动态表」方案：TableController 以 /kuerp/:table/<action> 路由
+ * 对全部 kuerp_* 表（商品/类别/单位/仓库/客户/供应商/购货/销货/仓库/资金/报表…）
+ * 统一暴露 index/get/add/edit/del/examine 接口，与原 FastAdmin 接口 1:1 对齐。
+ *
+ * 需要特殊业务逻辑的表（如购货/销货审核联动库存、资金核销）在后续阶段以
+ * 专用控制器叠加在同一 /kuerp/<模块> 命名空间下，静态路由优先于动态路由，互不冲突。
+ * PostingModule 提供审核过账引擎与以销定购/智能补货看板（/kuerp/boards/*）。
+ */
+@Module({
+  imports: [TableModule, PostingModule, BizModule, ApprovalModule],
+})
+export class KuerpModule {}

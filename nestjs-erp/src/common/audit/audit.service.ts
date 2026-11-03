@@ -1,1 +1,191 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSwgTG9nZ2VyIH0gZnJvbSAnQG5lc3Rqcy9jb21tb24nOwppbXBvcnQgeyBEYXRhU291cmNlIH0gZnJvbSAndHlwZW9ybSc7CgovKiog5LiA5p2h5b6F6JC95bqT55qE5pON5L2c5pel5b+XICovCmV4cG9ydCBpbnRlcmZhY2UgQXVkaXRFbnRyeSB7CiAgLyoqIOaTjeS9nOS6uklEICovCiAgYWRtaW5JZDogbnVtYmVyOwogIC8qKiDmk43kvZzkurrotKblj7cgKi8KICB1c2VybmFtZTogc3RyaW5nOwogIC8qKiDkuJrliqHmqKHlnZfvvIjooajlkI3vvIzlpoIgZ29vZHPvvJvmoYbmnrbmjqXlj6PkuLogc3lzdGVtL2FpIOetie+8iSAqLwogIG1vZHVsZTogc3RyaW5nOwogIC8qKiDliqjkvZzvvJphZGQvZWRpdC9kZWwvZXhhbWluZS9pbXBvcnQvZXhwb3J0L290aGVyICovCiAgYWN0aW9uOiBzdHJpbmc7CiAgLyoqIEhUVFAg5pa55rOVICovCiAgbWV0aG9kOiBzdHJpbmc7CiAgLyoqIOivt+axgui3r+W+hCAqLwogIHBhdGg6IHN0cmluZzsKICAvKiog5Y+X5b2x5ZON6K6w5b2VSUTvvIjlsL3lipvogIzkuLrvvIzlj5boh6ogYm9keS5pZO+8iSAqLwogIHJvd0lkOiBzdHJpbmc7CiAgLyoqIOivt+axguWPguaVsO+8iOW3suiEseaVjyArIOaIquaWre+8iSAqLwogIHBhcmFtczogc3RyaW5nOwogIC8qKiDmmK/lkKbmiJDlip8gKi8KICBzdWNjZXNzOiBib29sZWFuOwogIC8qKiDnu5Pmnpzmtojmga8gKi8KICBtc2c6IHN0cmluZzsKICAvKiog5a6i5oi356uvIElQICovCiAgaXA6IHN0cmluZzsKICAvKiogVXNlci1BZ2VudCAqLwogIHVhOiBzdHJpbmc7CiAgLyoqIOiAl+aXtuavq+enkiAqLwogIGNvc3RNczogbnVtYmVyOwp9CgovKiog5pel5b+X5p+l6K+i5p2h5Lu2ICovCmV4cG9ydCBpbnRlcmZhY2UgQXVkaXRRdWVyeSB7CiAgcGFnZT86IG51bWJlcjsKICBsaW1pdD86IG51bWJlcjsKICAvKiog5YWz6ZSu5a2X77ya6LSm5Y+3IC8g6Lev5b6EIC8g5raI5oGvICovCiAgc2VhcmNoPzogc3RyaW5nOwogIC8qKiDmqKHlnZfov4fmu6QgKi8KICBtb2R1bGU/OiBzdHJpbmc7CiAgLyoqIOWKqOS9nOi/h+a7pCAqLwogIGFjdGlvbj86IHN0cmluZzsKICAvKiog5LuF55yL5aSx6LSlICovCiAgZmFpbGVkPzogYm9vbGVhbjsKICAvKiog6LW35q2i5pe26Ze077yI56eS57qn5pe26Ze05oiz77yJICovCiAgc3RhcnR0aW1lPzogbnVtYmVyOwogIGVuZHRpbWU/OiBudW1iZXI7Cn0KCi8qKgogKiDmk43kvZzlrqHorqHmnI3liqHjgIIKICoKICog5Li65LuA5LmI55u05o6l55SoIERhdGFTb3VyY2Ug6LeR5Y6f55SfIFNRTCDogIzkuI3lu7ogRW50aXR577yaCiAqIDEuIOaXpeW/l+ihqOWPquWGmeS4jeivu++8iOmZpOafpeivoumhte+8ie+8jOS4jemcgOimgSBPUk0g55qE5YWz6IGU5LiO6ZKp5a2Q77ybCiAqIDIuIOmBv+WFjeS4jiBgc3luY2hyb25pemVgIOa3t+eUqOaXtuaKiuaXpeW/l+ihqOe7k+aehOe6s+WFpeiHquWKqOWQjOatpeiMg+WbtO+8mwogKiAzLiDlhpnml6Xlv5fmmK/ng63ot6/lvoTvvIzljp/nlJ8gSU5TRVJUIOavlCBFbnRpdHlNYW5hZ2VyLnNhdmUg5byA6ZSA5bCP44CCCiAqLwpASW5qZWN0YWJsZSgpCmV4cG9ydCBjbGFzcyBBdWRpdFNlcnZpY2UgewogIHByaXZhdGUgcmVhZG9ubHkgbG9nZ2VyID0gbmV3IExvZ2dlcihBdWRpdFNlcnZpY2UubmFtZSk7CiAgLyoqIOihqOaYr+WQpuW3suWwsee7qu+8mue8uuihqOaXtumdmem7mOi3s+i/h++8jOmBv+WFjeiAgeW6k+WNh+e6p+eql+WPo+acn+avj+S4quivt+axgumDveaKpemUmSAqLwogIHByaXZhdGUgcmVhZHkgPSBmYWxzZTsKCiAgY29uc3RydWN0b3IocHJpdmF0ZSByZWFkb25seSBkYXRhU291cmNlOiBEYXRhU291cmNlKSB7CiAgICB0aGlzLmNoZWNrUmVhZHkoKTsKICB9CgogIC8qKgogICAqIOaOoua1i+WuoeiuoeihqOaYr+WQpuWtmOWcqO+8iOW8guatpe+8jOS4jemYu+WhnuWQr+WKqO+8ieOAggogICAqIEByZXR1cm5zIFByb21pc2U8dm9pZD4KICAgKi8KICBwcml2YXRlIGFzeW5jIGNoZWNrUmVhZHkoKTogUHJvbWlzZTx2b2lkPiB7CiAgICB0cnkgewogICAgICBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoJ1NFTEVDVCAxIEZST00ga3VlcnBfYWRtaW5fbG9nIExJTUlUIDEnKTsKICAgICAgdGhpcy5yZWFkeSA9IHRydWU7CiAgICB9IGNhdGNoIHsKICAgICAgdGhpcy5yZWFkeSA9IGZhbHNlOwogICAgICB0aGlzLmxvZ2dlci53YXJuKCfmnKrmo4DmtYvliLAga3VlcnBfYWRtaW5fbG9n77yM5pON5L2c5pel5b+X5pqC5LiN6JC95bqT77yI6K+35omn6KGMIGRiL2V4dGVuc2lvbi1zY2hlbWEuc3Fs77yJJyk7CiAgICB9CiAgfQoKICAvKioKICAgKiDlhpnlhaXkuIDmnaHmk43kvZzml6Xlv5fjgIIKICAgKiDorr7orqHkuIrjgIzorrDml6Xlv5flpLHotKXnu53kuI3lvbHlk43kuJrliqHjgI3vvJrmiYDmnInlvILluLjpg73ooqvlkJ7mjonlubbpmY3nuqfkuLrlupTnlKjml6Xlv5fjgIIKICAgKiBAcGFyYW0gZSDml6Xlv5flhoXlrrkKICAgKiBAcmV0dXJucyBQcm9taXNlPHZvaWQ+CiAgICovCiAgYXN5bmMgd3JpdGUoZTogQXVkaXRFbnRyeSk6IFByb21pc2U8dm9pZD4gewogICAgaWYgKCF0aGlzLnJlYWR5KSByZXR1cm47CiAgICB0cnkgewogICAgICBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgICAgYElOU0VSVCBJTlRPIGt1ZXJwX2FkbWluX2xvZwogICAgICAgICAgIChhZG1pbl9pZCwgdXNlcm5hbWUsIG1vZHVsZSwgYWN0aW9uLCBtZXRob2QsIHBhdGgsIHJvd19pZCwgcGFyYW1zLCBzdWNjZXNzLCBtc2csIGlwLCB1YSwgY29zdF9tcywgY3JlYXRldGltZSkKICAgICAgICAgVkFMVUVTICg/LD8sPyw/LD8sPyw/LD8sPyw/LD8sPyw/LD8pYCwKICAgICAgICBbCiAgICAgICAgICBlLmFkbWluSWQgfHwgMCwKICAgICAgICAgIGN1dChlLnVzZXJuYW1lLCA1MCksCiAgICAgICAgICBjdXQoZS5tb2R1bGUsIDYwKSwKICAgICAgICAgIGN1dChlLmFjdGlvbiwgMzApLAogICAgICAgICAgY3V0KGUubWV0aG9kLCAxMCksCiAgICAgICAgICBjdXQoZS5wYXRoLCAyNTUpLAogICAgICAgICAgY3V0KGUucm93SWQsIDYwKSwKICAgICAgICAgIGN1dChlLnBhcmFtcywgMjAwMCksCiAgICAgICAgICBlLnN1Y2Nlc3MgPyAxIDogMCwKICAgICAgICAgIGN1dChlLm1zZywgNTAwKSwKICAgICAgICAgIGN1dChlLmlwLCA2MCksCiAgICAgICAgICBjdXQoZS51YSwgMzAwKSwKICAgICAgICAgIE1hdGgubWF4KDAsIE1hdGgucm91bmQoZS5jb3N0TXMgfHwgMCkpLAogICAgICAgICAgTWF0aC5mbG9vcihEYXRlLm5vdygpIC8gMTAwMCksCiAgICAgICAgXSwKICAgICAgKTsKICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgIHRoaXMubG9nZ2VyLndhcm4oYOaTjeS9nOaXpeW/l+WGmeWFpeWksei0pe+8miR7ZXJyPy5tZXNzYWdlIHx8IGVycn1gKTsKICAgIH0KICB9CgogIC8qKgogICAqIOWIhumhteafpeivouaTjeS9nOaXpeW/l++8iOS+m+OAjOaTjeS9nOaXpeW/l+OAjemhtemdouS9v+eUqO+8ieOAggogICAqIEBwYXJhbSBxIOafpeivouadoeS7tgogICAqIEByZXR1cm5zIHsgbGlzdCwgY291bnQgfQogICAqLwogIGFzeW5jIGxpc3QocTogQXVkaXRRdWVyeSk6IFByb21pc2U8eyBsaXN0OiBhbnlbXTsgY291bnQ6IG51bWJlciB9PiB7CiAgICBjb25zdCBwYWdlID0gTWF0aC5tYXgoMSwgTnVtYmVyKHEucGFnZSkgfHwgMSk7CiAgICBjb25zdCBsaW1pdCA9IE1hdGgubWluKDIwMCwgTWF0aC5tYXgoMSwgTnVtYmVyKHEubGltaXQpIHx8IDIwKSk7CiAgICBjb25zdCB3aGVyZTogc3RyaW5nW10gPSBbJzE9MSddOwogICAgY29uc3QgcGFyYW1zOiBhbnlbXSA9IFtdOwoKICAgIGlmIChxLm1vZHVsZSkgewogICAgICB3aGVyZS5wdXNoKCdtb2R1bGUgPSA/Jyk7CiAgICAgIHBhcmFtcy5wdXNoKHEubW9kdWxlKTsKICAgIH0KICAgIGlmIChxLmFjdGlvbikgewogICAgICB3aGVyZS5wdXNoKCdhY3Rpb24gPSA/Jyk7CiAgICAgIHBhcmFtcy5wdXNoKHEuYWN0aW9uKTsKICAgIH0KICAgIGlmIChxLmZhaWxlZCkgd2hlcmUucHVzaCgnc3VjY2VzcyA9IDAnKTsKICAgIGlmIChxLnN0YXJ0dGltZSkgewogICAgICB3aGVyZS5wdXNoKCdjcmVhdGV0aW1lID49ID8nKTsKICAgICAgcGFyYW1zLnB1c2goTnVtYmVyKHEuc3RhcnR0aW1lKSk7CiAgICB9CiAgICBpZiAocS5lbmR0aW1lKSB7CiAgICAgIHdoZXJlLnB1c2goJ2NyZWF0ZXRpbWUgPD0gPycpOwogICAgICBwYXJhbXMucHVzaChOdW1iZXIocS5lbmR0aW1lKSk7CiAgICB9CiAgICBpZiAocS5zZWFyY2gpIHsKICAgICAgd2hlcmUucHVzaCgnKHVzZXJuYW1lIExJS0UgPyBPUiBwYXRoIExJS0UgPyBPUiBtc2cgTElLRSA/KScpOwogICAgICBjb25zdCBrdyA9IGAlJHtxLnNlYXJjaH0lYDsKICAgICAgcGFyYW1zLnB1c2goa3csIGt3LCBrdyk7CiAgICB9CgogICAgY29uc3Qgc3FsV2hlcmUgPSB3aGVyZS5qb2luKCcgQU5EICcpOwogICAgY29uc3QgbGlzdCA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgYFNFTEVDVCAqIEZST00ga3VlcnBfYWRtaW5fbG9nIFdIRVJFICR7c3FsV2hlcmV9IE9SREVSIEJZIGlkIERFU0MgTElNSVQgPyBPRkZTRVQgP2AsCiAgICAgIFsuLi5wYXJhbXMsIGxpbWl0LCAocGFnZSAtIDEpICogbGltaXRdLAogICAgKTsKICAgIGNvbnN0IGNudCA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgYFNFTEVDVCBDT1VOVCgqKSBBUyBjIEZST00ga3VlcnBfYWRtaW5fbG9nIFdIRVJFICR7c3FsV2hlcmV9YCwKICAgICAgcGFyYW1zLAogICAgKTsKICAgIHJldHVybiB7IGxpc3QsIGNvdW50OiBOdW1iZXIoY250Py5bMF0/LmMgfHwgMCkgfTsKICB9CgogIC8qKgogICAqIOaTjeS9nOaXpeW/l+eahOaooeWdly/liqjkvZzljrvph43muIXljZXvvIjkvpvliY3nq6/nrZvpgInkuIvmi4nvvInjgIIKICAgKiBAcmV0dXJucyB7IG1vZHVsZXM6IHN0cmluZ1tdLCBhY3Rpb25zOiBzdHJpbmdbXSB9CiAgICovCiAgYXN5bmMgZmFjZXRzKCk6IFByb21pc2U8eyBtb2R1bGVzOiBzdHJpbmdbXTsgYWN0aW9uczogc3RyaW5nW10gfT4gewogICAgY29uc3QgbW9kcyA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgIlNFTEVDVCBESVNUSU5DVCBtb2R1bGUgRlJPTSBrdWVycF9hZG1pbl9sb2cgV0hFUkUgbW9kdWxlIDw+ICcnIE9SREVSIEJZIG1vZHVsZSIsCiAgICApOwogICAgY29uc3QgYWN0cyA9IGF3YWl0IHRoaXMuZGF0YVNvdXJjZS5xdWVyeSgKICAgICAgIlNFTEVDVCBESVNUSU5DVCBhY3Rpb24gRlJPTSBrdWVycF9hZG1pbl9sb2cgV0hFUkUgYWN0aW9uIDw+ICcnIE9SREVSIEJZIGFjdGlvbiIsCiAgICApOwogICAgcmV0dXJuIHsKICAgICAgbW9kdWxlczogKG1vZHMgfHwgW10pLm1hcCgocjogYW55KSA9PiByLm1vZHVsZSksCiAgICAgIGFjdGlvbnM6IChhY3RzIHx8IFtdKS5tYXAoKHI6IGFueSkgPT4gci5hY3Rpb24pLAogICAgfTsKICB9Cn0KCi8qKgogKiDmjInmnIDlpKfplb/luqbmiKrmlq3lrZfnrKbkuLLvvIjpmLLotoXplb/lj4LmlbDmkpHniIYgdmFyY2hhcu+8ieOAggogKiBAcGFyYW0gdiDljp/lgLwKICogQHBhcmFtIG1heCDmnIDlpKfplb/luqYKICogQHJldHVybnMg5oiq5pat57uT5p6cCiAqLwpmdW5jdGlvbiBjdXQodjogc3RyaW5nLCBtYXg6IG51bWJlcik6IHN0cmluZyB7CiAgY29uc3QgcyA9IFN0cmluZyh2ID8/ICcnKTsKICByZXR1cm4gcy5sZW5ndGggPiBtYXggPyBgJHtzLnNsaWNlKDAsIG1heCAtIDEpfeKApmAgOiBzOwp9Cg==
+import { Injectable, Logger } from '@nestjs/common';
+import { DataSource } from 'typeorm';
+
+/** 一条待落库的操作日志 */
+export interface AuditEntry {
+  /** 操作人ID */
+  adminId: number;
+  /** 操作人账号 */
+  username: string;
+  /** 业务模块（表名，如 goods；框架接口为 system/ai 等） */
+  module: string;
+  /** 动作：add/edit/del/examine/import/export/other */
+  action: string;
+  /** HTTP 方法 */
+  method: string;
+  /** 请求路径 */
+  path: string;
+  /** 受影响记录ID（尽力而为，取自 body.id） */
+  rowId: string;
+  /** 请求参数（已脱敏 + 截断） */
+  params: string;
+  /** 是否成功 */
+  success: boolean;
+  /** 结果消息 */
+  msg: string;
+  /** 客户端 IP */
+  ip: string;
+  /** User-Agent */
+  ua: string;
+  /** 耗时毫秒 */
+  costMs: number;
+}
+
+/** 日志查询条件 */
+export interface AuditQuery {
+  page?: number;
+  limit?: number;
+  /** 关键字：账号 / 路径 / 消息 */
+  search?: string;
+  /** 模块过滤 */
+  module?: string;
+  /** 动作过滤 */
+  action?: string;
+  /** 仅看失败 */
+  failed?: boolean;
+  /** 起止时间（秒级时间戳） */
+  starttime?: number;
+  endtime?: number;
+}
+
+/**
+ * 操作审计服务。
+ *
+ * 为什么直接用 DataSource 跑原生 SQL 而不建 Entity：
+ * 1. 日志表只写不读（除查询页），不需要 ORM 的关联与钩子；
+ * 2. 避免与 `synchronize` 混用时把日志表结构纳入自动同步范围；
+ * 3. 写日志是热路径，原生 INSERT 比 EntityManager.save 开销小。
+ */
+@Injectable()
+export class AuditService {
+  private readonly logger = new Logger(AuditService.name);
+  /** 表是否已就绪：缺表时静默跳过，避免老库升级窗口期每个请求都报错 */
+  private ready = false;
+
+  constructor(private readonly dataSource: DataSource) {
+    this.checkReady();
+  }
+
+  /**
+   * 探测审计表是否存在（异步，不阻塞启动）。
+   * @returns Promise<void>
+   */
+  private async checkReady(): Promise<void> {
+    try {
+      await this.dataSource.query('SELECT 1 FROM kuerp_admin_log LIMIT 1');
+      this.ready = true;
+    } catch {
+      this.ready = false;
+      this.logger.warn('未检测到 kuerp_admin_log，操作日志暂不落库（请执行 db/extension-schema.sql）');
+    }
+  }
+
+  /**
+   * 写入一条操作日志。
+   * 设计上「记日志失败绝不影响业务」：所有异常都被吞掉并降级为应用日志。
+   * @param e 日志内容
+   * @returns Promise<void>
+   */
+  async write(e: AuditEntry): Promise<void> {
+    if (!this.ready) return;
+    try {
+      await this.dataSource.query(
+        `INSERT INTO kuerp_admin_log
+           (admin_id, username, module, action, method, path, row_id, params, success, msg, ip, ua, cost_ms, createtime)
+         VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)`,
+        [
+          e.adminId || 0,
+          cut(e.username, 50),
+          cut(e.module, 60),
+          cut(e.action, 30),
+          cut(e.method, 10),
+          cut(e.path, 255),
+          cut(e.rowId, 60),
+          cut(e.params, 2000),
+          e.success ? 1 : 0,
+          cut(e.msg, 500),
+          cut(e.ip, 60),
+          cut(e.ua, 300),
+          Math.max(0, Math.round(e.costMs || 0)),
+          Math.floor(Date.now() / 1000),
+        ],
+      );
+    } catch (err: any) {
+      this.logger.warn(`操作日志写入失败：${err?.message || err}`);
+    }
+  }
+
+  /**
+   * 分页查询操作日志（供「操作日志」页面使用）。
+   * @param q 查询条件
+   * @returns { list, count }
+   */
+  async list(q: AuditQuery): Promise<{ list: any[]; count: number }> {
+    const page = Math.max(1, Number(q.page) || 1);
+    const limit = Math.min(200, Math.max(1, Number(q.limit) || 20));
+    const where: string[] = ['1=1'];
+    const params: any[] = [];
+
+    if (q.module) {
+      where.push('module = ?');
+      params.push(q.module);
+    }
+    if (q.action) {
+      where.push('action = ?');
+      params.push(q.action);
+    }
+    if (q.failed) where.push('success = 0');
+    if (q.starttime) {
+      where.push('createtime >= ?');
+      params.push(Number(q.starttime));
+    }
+    if (q.endtime) {
+      where.push('createtime <= ?');
+      params.push(Number(q.endtime));
+    }
+    if (q.search) {
+      where.push('(username LIKE ? OR path LIKE ? OR msg LIKE ?)');
+      const kw = `%${q.search}%`;
+      params.push(kw, kw, kw);
+    }
+
+    const sqlWhere = where.join(' AND ');
+    const list = await this.dataSource.query(
+      `SELECT * FROM kuerp_admin_log WHERE ${sqlWhere} ORDER BY id DESC LIMIT ? OFFSET ?`,
+      [...params, limit, (page - 1) * limit],
+    );
+    const cnt = await this.dataSource.query(
+      `SELECT COUNT(*) AS c FROM kuerp_admin_log WHERE ${sqlWhere}`,
+      params,
+    );
+    return { list, count: Number(cnt?.[0]?.c || 0) };
+  }
+
+  /**
+   * 操作日志的模块/动作去重清单（供前端筛选下拉）。
+   * @returns { modules: string[], actions: string[] }
+   */
+  async facets(): Promise<{ modules: string[]; actions: string[] }> {
+    const mods = await this.dataSource.query(
+      "SELECT DISTINCT module FROM kuerp_admin_log WHERE module <> '' ORDER BY module",
+    );
+    const acts = await this.dataSource.query(
+      "SELECT DISTINCT action FROM kuerp_admin_log WHERE action <> '' ORDER BY action",
+    );
+    return {
+      modules: (mods || []).map((r: any) => r.module),
+      actions: (acts || []).map((r: any) => r.action),
+    };
+  }
+}
+
+/**
+ * 按最大长度截断字符串（防超长参数撑爆 varchar）。
+ * @param v 原值
+ * @param max 最大长度
+ * @returns 截断结果
+ */
+function cut(v: string, max: number): string {
+  const s = String(v ?? '');
+  return s.length > max ? `${s.slice(0, max - 1)}…` : s;
+}

@@ -1,1 +1,409 @@
-aW1wb3J0IHsKICBDb250cm9sbGVyLAogIEdldCwKICBQb3N0LAogIERlbGV0ZSwKICBCb2R5LAogIFF1ZXJ5LAogIFVzZUd1YXJkcywKICBJbmplY3QsCiAgQmFkUmVxdWVzdEV4Y2VwdGlvbiwKfSBmcm9tICdAbmVzdGpzL2NvbW1vbic7CmltcG9ydCB7IFNob3BPckp3dEd1YXJkIH0gZnJvbSAnLi4vY29tbW9uL2d1YXJkcy9zaG9wLW9yLWp3dC5ndWFyZCc7CmltcG9ydCB7IG9rIH0gZnJvbSAnLi4vY29tbW9uL3Jlc3BvbnNlLmludGVyY2VwdG9yJzsKaW1wb3J0IHsgQWlNb2RlbENvbmZpZ1NlcnZpY2UgfSBmcm9tICcuL2FpLW1vZGVsLWNvbmZpZy5zZXJ2aWNlJzsKaW1wb3J0IHsgUHJvbXB0VGVtcGxhdGVTZXJ2aWNlIH0gZnJvbSAnLi9wcm9tcHQtdGVtcGxhdGUuc2VydmljZSc7CmltcG9ydCB7IENoYXRDbGllbnRTZXJ2aWNlIH0gZnJvbSAnLi9jaGF0LWNsaWVudCc7CmltcG9ydCB7IENoYXRNb2RlbFNlcnZpY2UsIENoYXRNZXNzYWdlIH0gZnJvbSAnLi9jaGF0LW1vZGVsLnNlcnZpY2UnOwppbXBvcnQgeyBBZ2VudFNlcnZpY2UgfSBmcm9tICcuL2FnZW50LnNlcnZpY2UnOwppbXBvcnQgeyBKc29uT3V0cHV0U2VydmljZSB9IGZyb20gJy4vanNvbi1vdXRwdXQuc2VydmljZSc7CmltcG9ydCB7IEtleXdvcmRSZXRyaWV2YWxTZXJ2aWNlIH0gZnJvbSAnLi9rZXl3b3JkLXJldHJpZXZhbC5zZXJ2aWNlJzsKaW1wb3J0IHsgVG9vbFJlZ2lzdHJ5IH0gZnJvbSAnLi90b29sLnJlZ2lzdHJ5JzsKaW1wb3J0IHsgQml6QWlUb29scyB9IGZyb20gJy4vYml6LXRvb2xzJzsKaW1wb3J0IHsgQWlMb2dTZXJ2aWNlIH0gZnJvbSAnLi9haS1sb2cuc2VydmljZSc7CmltcG9ydCB7IEluamVjdFJlcG9zaXRvcnkgfSBmcm9tICdAbmVzdGpzL3R5cGVvcm0nOwppbXBvcnQgeyBSZXBvc2l0b3J5IH0gZnJvbSAndHlwZW9ybSc7CmltcG9ydCB7IEFpQ2FsbExvZyB9IGZyb20gJy4vZW50aXRpZXMvYWktY2FsbC1sb2cuZW50aXR5JzsKaW1wb3J0IHsgQWlUb29sQ2FsbExvZyB9IGZyb20gJy4vZW50aXRpZXMvYWktdG9vbC1jYWxsLWxvZy5lbnRpdHknOwppbXBvcnQgeyBBaU1vZGVsQ29uZmlnIH0gZnJvbSAnLi9lbnRpdGllcy9haS1tb2RlbC1jb25maWcuZW50aXR5JzsKaW1wb3J0IHsgQWlQcm9tcHRUZW1wbGF0ZSB9IGZyb20gJy4vZW50aXRpZXMvYWktcHJvbXB0LXRlbXBsYXRlLmVudGl0eSc7CmltcG9ydCB7IERhdGFTb3VyY2UgfSBmcm9tICd0eXBlb3JtJzsKCi8qKgogKiBBSSDog73lipvlr7nlpJbmjqXlj6PvvJrmqKHlnovphY3nva7jgIFQcm9tcHQg5qih5p2/44CB5a+56K+d44CBQWdlbnTjgIHnu5PmnoTljJbovpPlh7rjgIHlhbPplK7or43mo4DntKLjgIHml6Xlv5fjgIIKICog5YWo6YOo6ZyA6KaB55m75b2V77yISnd0QXV0aEd1YXJk77yJ44CCCiAqLwpAQ29udHJvbGxlcignYWknKQpAVXNlR3VhcmRzKFNob3BPckp3dEd1YXJkKQpleHBvcnQgY2xhc3MgQWlDb250cm9sbGVyIHsKICBjb25zdHJ1Y3RvcigKICAgIHByaXZhdGUgcmVhZG9ubHkgbW9kZWxDb25maWdTdmM6IEFpTW9kZWxDb25maWdTZXJ2aWNlLAogICAgcHJpdmF0ZSByZWFkb25seSBwcm9tcHRTdmM6IFByb21wdFRlbXBsYXRlU2VydmljZSwKICAgIHByaXZhdGUgcmVhZG9ubHkgY2hhdENsaWVudFN2YzogQ2hhdENsaWVudFNlcnZpY2UsCiAgICBwcml2YXRlIHJlYWRvbmx5IGFnZW50U3ZjOiBBZ2VudFNlcnZpY2UsCiAgICBwcml2YXRlIHJlYWRvbmx5IGpzb25TdmM6IEpzb25PdXRwdXRTZXJ2aWNlLAogICAgcHJpdmF0ZSByZWFkb25seSByZXRyaWV2YWw6IEtleXdvcmRSZXRyaWV2YWxTZXJ2aWNlLAogICAgcHJpdmF0ZSByZWFkb25seSB0b29sUmVnaXN0cnk6IFRvb2xSZWdpc3RyeSwKICAgIHByaXZhdGUgcmVhZG9ubHkgbG9nU3ZjOiBBaUxvZ1NlcnZpY2UsCiAgICBwcml2YXRlIHJlYWRvbmx5IGRhdGFTb3VyY2U6IERhdGFTb3VyY2UsCiAgICBwcml2YXRlIHJlYWRvbmx5IGJpelRvb2xzOiBCaXpBaVRvb2xzLAogICAgcHJpdmF0ZSByZWFkb25seSBjaGF0TW9kZWw6IENoYXRNb2RlbFNlcnZpY2UsCiAgICBASW5qZWN0UmVwb3NpdG9yeShBaUNhbGxMb2cpIHByaXZhdGUgcmVhZG9ubHkgY2FsbExvZ1JlcG86IFJlcG9zaXRvcnk8QWlDYWxsTG9nPiwKICAgIEBJbmplY3RSZXBvc2l0b3J5KEFpVG9vbENhbGxMb2cpIHByaXZhdGUgcmVhZG9ubHkgdG9vbExvZ1JlcG86IFJlcG9zaXRvcnk8QWlUb29sQ2FsbExvZz4sCiAgKSB7fQoKICAvLyAtLS0tLS0tLS0tLS0tLS0tIOaooeWei+mFjee9ru+8iOaVsOaNruW6k+WMlu+8iS0tLS0tLS0tLS0tLS0tLS0KICAvKioKICAgKiDliJflh7rlhajpg6jmqKHlnovphY3nva7vvIjlkKvlgZznlKjorrDlvZXvvInjgIIKICAgKiBAcmV0dXJucyDmqKHlnovphY3nva7mlbDnu4TvvIzlkKsgYmFzZV91cmwgLyBtb2RlbCAvIHRlbXBlcmF0dXJlIOetieWtl+autQogICAqLwogIEBHZXQoJ21vZGVsLWNvbmZpZycpCiAgYXN5bmMgbW9kZWxDb25maWdzKCkgewogICAgcmV0dXJuIG9rKGF3YWl0IHRoaXMubW9kZWxDb25maWdTdmMubGlzdCgpKTsKICB9CgogIC8qKgogICAqIOaWsOWinuaooeWei+mFjee9ruOAggogICAqIEBwYXJhbSBkdG8g5qih5Z6L6YWN572u77yIbmFtZS9iYXNlX3VybC9hcGlfa2V5L21vZGVsL3RlbXBlcmF0dXJlL21heF90b2tlbnMvaXNfZGVmYXVsdO+8iQogICAqIEByZXR1cm5zIOaWsOWinuWQjueahOiusOW9lQogICAqLwogIEBQb3N0KCdtb2RlbC1jb25maWcvYWRkJykKICBhc3luYyBhZGRNb2RlbENvbmZpZyhAQm9keSgpIGR0bzogUGFydGlhbDxBaU1vZGVsQ29uZmlnPikgewogICAgcmV0dXJuIG9rKGF3YWl0IHRoaXMubW9kZWxDb25maWdTdmMuY3JlYXRlKGR0byksICfmt7vliqDmiJDlip8nKTsKICB9CgogIC8qKgogICAqIOS/ruaUueaooeWei+mFjee9ruOAggogICAqIEBwYXJhbSBpZCDphY3nva4gSUQKICAgKiBAcGFyYW0gZHRvIOW+heabtOaWsOWtl+autQogICAqIEByZXR1cm5zIOabtOaWsOWQjueahOiusOW9lQogICAqLwogIEBQb3N0KCdtb2RlbC1jb25maWcvZWRpdCcpCiAgYXN5bmMgZWRpdE1vZGVsQ29uZmlnKEBCb2R5KCdpZCcpIGlkOiBudW1iZXIsIEBCb2R5KCkgZHRvOiBQYXJ0aWFsPEFpTW9kZWxDb25maWc+KSB7CiAgICByZXR1cm4gb2soYXdhaXQgdGhpcy5tb2RlbENvbmZpZ1N2Yy51cGRhdGUoaWQsIGR0byksICfkv53lrZjmiJDlip8nKTsKICB9CgogIC8qKgogICAqIOWIoOmZpOaooeWei+mFjee9ruOAggogICAqIEBwYXJhbSBpZCDphY3nva4gSUQKICAgKiBAcmV0dXJucyBudWxsCiAgICovCiAgQERlbGV0ZSgnbW9kZWwtY29uZmlnL2RlbCcpCiAgYXN5bmMgZGVsTW9kZWxDb25maWcoQEJvZHkoJ2lkJykgaWQ6IG51bWJlcikgewogICAgYXdhaXQgdGhpcy5tb2RlbENvbmZpZ1N2Yy5yZW1vdmUoaWQpOwogICAgcmV0dXJuIG9rKG51bGwsICfliKDpmaTmiJDlip8nKTsKICB9CgogIC8vIC0tLS0tLS0tLS0tLS0tLS0gUHJvbXB0IOaooeadv+euoeeQhiAtLS0tLS0tLS0tLS0tLS0tCiAgLyoqCiAgICog5YiX5Ye65YWo6YOoIFByb21wdCDmqKHmnb/jgIIKICAgKiBAcmV0dXJucyDmqKHmnb/mlbDnu4TvvIzlkKsgY29kZSAvIGNvbnRlbnQgLyB2YXJpYWJsZXMKICAgKi8KICBAR2V0KCdwcm9tcHQtdGVtcGxhdGUnKQogIGFzeW5jIHByb21wdFRlbXBsYXRlcygpIHsKICAgIHJldHVybiBvayhhd2FpdCB0aGlzLnByb21wdFN2Yy5saXN0KCkpOwogIH0KCiAgLyoqCiAgICog5paw5aKeIFByb21wdCDmqKHmnb/jgIIKICAgKiBAcGFyYW0gZHRvIOaooeadv+WGheWuue+8iGNvZGUg5ZSv5LiA44CBY29udGVudCDmlK/mjIEge+WPmOmHj30g5Y2g5L2N77yJCiAgICogQHJldHVybnMg5paw5aKe5ZCO55qE6K6w5b2VCiAgICovCiAgQFBvc3QoJ3Byb21wdC10ZW1wbGF0ZS9hZGQnKQogIGFzeW5jIGFkZFByb21wdChAQm9keSgpIGR0bzogUGFydGlhbDxBaVByb21wdFRlbXBsYXRlPikgewogICAgcmV0dXJuIG9rKGF3YWl0IHRoaXMucHJvbXB0U3ZjLmNyZWF0ZShkdG8pLCAn5re75Yqg5oiQ5YqfJyk7CiAgfQoKICAvKioKICAgKiDkv67mlLkgUHJvbXB0IOaooeadv+OAggogICAqIEBwYXJhbSBpZCDmqKHmnb8gSUQKICAgKiBAcGFyYW0gZHRvIOW+heabtOaWsOWtl+autQogICAqIEByZXR1cm5zIOabtOaWsOWQjueahOiusOW9lQogICAqLwogIEBQb3N0KCdwcm9tcHQtdGVtcGxhdGUvZWRpdCcpCiAgYXN5bmMgZWRpdFByb21wdChAQm9keSgnaWQnKSBpZDogbnVtYmVyLCBAQm9keSgpIGR0bzogUGFydGlhbDxBaVByb21wdFRlbXBsYXRlPikgewogICAgcmV0dXJuIG9rKGF3YWl0IHRoaXMucHJvbXB0U3ZjLnVwZGF0ZShpZCwgZHRvKSwgJ+S/neWtmOaIkOWKnycpOwogIH0KCiAgLyoqCiAgICog5Yig6ZmkIFByb21wdCDmqKHmnb/jgIIKICAgKiBAcGFyYW0gaWQg5qih5p2/IElECiAgICogQHJldHVybnMgbnVsbAogICAqLwogIEBEZWxldGUoJ3Byb21wdC10ZW1wbGF0ZS9kZWwnKQogIGFzeW5jIGRlbFByb21wdChAQm9keSgnaWQnKSBpZDogbnVtYmVyKSB7CiAgICBhd2FpdCB0aGlzLnByb21wdFN2Yy5yZW1vdmUoaWQpOwogICAgcmV0dXJuIG9rKG51bGwsICfliKDpmaTmiJDlip8nKTsKICB9CgogIC8qKgogICAqIOaMieaooeadvyBjb2RlIOa4suafk+acgOe7iOaPkOekuuivje+8iOWPmOmHj+Whq+WFhe+8ieOAggogICAqIEBwYXJhbSBjb2RlIOaooeadv+WUr+S4gOe8lueggQogICAqIEBwYXJhbSB2YXJpYWJsZXMg5Y+Y6YeP5a2X5YW477yM5aaCIHsgbmFtZTogJ+W8oOS4iScsIGFtb3VudDogMTAwIH0KICAgKiBAcmV0dXJucyDmuLLmn5PlkI7nmoTmlofmnKwKICAgKi8KICBAUG9zdCgncHJvbXB0LXRlbXBsYXRlL3JlbmRlcicpCiAgYXN5bmMgcmVuZGVyUHJvbXB0KEBCb2R5KCdjb2RlJykgY29kZTogc3RyaW5nLCBAQm9keSgndmFyaWFibGVzJykgdmFyaWFibGVzOiBSZWNvcmQ8c3RyaW5nLCBhbnk+KSB7CiAgICByZXR1cm4gb2soYXdhaXQgdGhpcy5wcm9tcHRTdmMucmVuZGVyKGNvZGUsIHZhcmlhYmxlcyB8fCB7fSkpOwogIH0KCiAgLy8gLS0tLS0tLS0tLS0tLS0tLSDlt7Lms6jlhozlt6XlhbfvvIhGdW5jdGlvbiBDYWxsaW5n77yJLS0tLS0tLS0tLS0tLS0tLQogIC8qKgogICAqIOWIl+WHuuW9k+WJjeazqOWGjOeahCBBSSDlt6XlhbfvvIjkvpvliY3nq68v5qih5Z6L6YCJ5oup5Y+v55So6IO95Yqb77yJ44CCCiAgICogQHJldHVybnMgW3sgbmFtZSwgZGVzY3JpcHRpb24sIHBhcmFtZXRlcnMgfV0KICAgKi8KICBAR2V0KCd0b29scycpCiAgYXN5bmMgdG9vbHMoKSB7CiAgICByZXR1cm4gb2sodGhpcy50b29sUmVnaXN0cnkubGlzdCgpLm1hcCgodCkgPT4gKHsgbmFtZTogdC5uYW1lLCBkZXNjcmlwdGlvbjogdC5kZXNjcmlwdGlvbiwgcGFyYW1ldGVyczogdC5wYXJhbWV0ZXJzIH0pKSk7CiAgfQoKICAvLyAtLS0tLS0tLS0tLS0tLS0tIOS4muWKoeWcuuaZr++8muaZuuiDveihpei0pyBBSSDlu7rorq4gLS0tLS0tLS0tLS0tLS0tLQogIC8qKgogICAqIOaZuuiDveihpei0pyBBSSDlu7rorq7vvJrmjqXmlLbnnIvmnb/lvZPliY3ooaXotKfmuIXljZXvvIzkuqflh7rmr4/kuKrllYblk4HnmoTntKfmgKXluqYv55CG55SxL+mjjumZqSArIOaVtOS9k+W7uuiuruOAggogICAqIOWJjeerr+aZuuiDveihpei0p+eci+adv++8iGJvYXJkLnZ1Ze+8ieWcqOeUqOaIt+eCueOAjEFJIOaZuuiDveihpei0p+W7uuiuruOAjeaXtuiwg+eUqO+8jOa4heWNleeUseWJjeerr+S8oOW9k+WJjeeci+adv+ihjOOAggogICAqIEBwYXJhbSBkdG8uaXRlbXMg55yL5p2/6KGMIFt7IGdvb2RzX2NvZGUsIGdvb2RzX25hbWUsIHNhbGVfbnVtYmVyLCBzdG9jaywgc3VnZ2VzdF9udW1iZXIgfV0KICAgKiBAcGFyYW0gZHRvLm1vZGVsQ29uZmlnSWQg5Y+v6YCJ5qih5Z6L6YWN572uIElECiAgICogQHJldHVybnMgeyBpdGVtczpbe2dvb2RzX2NvZGUsZ29vZHNfbmFtZSxzdWdnZXN0X251bWJlcix1bml0X3ByaWNlLHJlY29tbWVuZGVkX3N1cHBsaWVyX2NvZGUscmVjb21tZW5kZWRfc3VwcGxpZXJfbmFtZSx1cmdlbmN5LHJlYXNvbixyaXNrfV0sIHN1bW1hcnkgfQogICAqLwogIEBQb3N0KCdyZXBsZW5pc2gtYWR2aWNlJykKICBhc3luYyByZXBsZW5pc2hBZHZpY2UoCiAgICBAQm9keSgpIGR0bzogeyBpdGVtcz86IGFueVtdOyBtb2RlbENvbmZpZ0lkPzogbnVtYmVyIH0sCiAgKSB7CiAgICBjb25zdCByYXdJdGVtcyA9IEFycmF5LmlzQXJyYXkoZHRvPy5pdGVtcykgPyBkdG8uaXRlbXMgOiBbXTsKICAgIGlmICghcmF3SXRlbXMubGVuZ3RoKSB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbign57y65bCR6KGl6LSn5riF5Y2V5pWw5o2uJyk7CiAgICB0cnkgewogICAgICAvLyDmibnph4/pmYTkuIrpu5jorqTph4fotK3ljZXku7fkuI7mjqjojZDkvpvlupTllYbvvIjlj5bmnIDov5HkuIDmrKHph4fotK3ljZXnmoTkvpvlupTllYbvvInvvIzlho3kuqTnu5nmqKHlnovlgZrnu5PmnoTljJblu7rorq4KICAgICAgY29uc3QgaXRlbXMgPSBhd2FpdCB0aGlzLmJpelRvb2xzLmVucmljaFJlcGxlbmlzaChyYXdJdGVtcy5zbGljZSgwLCAzMCkpOwogICAgICBjb25zdCBzY2hlbWEgPSB7CiAgICAgICAgaXRlbXM6IFsKICAgICAgICAgIHsKICAgICAgICAgICAgZ29vZHNfY29kZTogJ+WVhuWTgee8luWPtycsCiAgICAgICAgICAgIGdvb2RzX25hbWU6ICfllYblk4HlkI3np7AnLAogICAgICAgICAgICBzdWdnZXN0X251bWJlcjogMCwKICAgICAgICAgICAgdW5pdF9wcmljZTogJ+W7uuiurumHh+i0reWNleS7t++8iOebtOaOpemHh+eUqOaVsOaNruS4reeahCB1bml0X3ByaWNlIOWtl+aute+8iScsCiAgICAgICAgICAgIHJlY29tbWVuZGVkX3N1cHBsaWVyX2NvZGU6ICfmjqjojZDkvpvlupTllYbnvJblj7fvvIjlv4Xpobvljp/moLfph4fnlKjmlbDmja7kuK3mj5DkvpvnmoQgcmVjb21tZW5kZWRfc3VwcGxpZXJfY29kZSDlrZfmrrXlgLzvvIzml6DliJnnqbrlrZfnrKbkuLLvvIknLAogICAgICAgICAgICByZWNvbW1lbmRlZF9zdXBwbGllcl9uYW1lOiAn5o6o6I2Q5L6b5bqU5ZWG5ZCN56ew77yI5b+F6aG75Y6f5qC36YeH55So5pWw5o2u5Lit5o+Q5L6b55qEIHJlY29tbWVuZGVkX3N1cHBsaWVyX25hbWUg5a2X5q615YC877yM5peg5YiZ56m65a2X56ym5Liy77yJJywKICAgICAgICAgICAgdXJnZW5jeTogJ+mrmHzkuK185L2OJywKICAgICAgICAgICAgcmVhc29uOiAn5bu66K6u6YeH6LSt55CG55SxJywKICAgICAgICAgICAgcmlzazogJ+S4jeihpei0p+eahOmjjumZqScsCiAgICAgICAgICB9LAogICAgICAgIF0sCiAgICAgICAgc3VtbWFyeTogJ+aVtOS9k+mHh+i0reS8mOWFiOe6p+S4jui1hOmHkeWNoOeUqOW7uuiuricsCiAgICAgIH07CiAgICAgIGNvbnN0IHN5c3RlbSA9CiAgICAgICAgJ+S9oOaYr+i/m+mUgOWtmOezu+e7n+eahOi1hOa3semHh+i0reihpei0p+S4k+WutuOAguagueaNruavj+S4quWVhuWTgeeahOW+heWPkeaVsOmHj+OAgeW9k+WJjeW6k+WtmOOAgeW7uuiurumHh+i0reWNleS7t+S4juaOqOiNkOS+m+W6lOWVhu+8jCcgKwogICAgICAgICfnu5nlh7rlkIjnkIbnmoTph4fotK3kvJjlhYjnuqfkuI7po47pmanliKTmlq3jgIJ1cmdlbmN5IOWPquiDveWPliAi6auYIuOAgSLkuK0i44CBIuS9jiIg5LiJ5qGj5LmL5LiA44CCJyArCiAgICAgICAgJ3VuaXRfcHJpY2XjgIFyZWNvbW1lbmRlZF9zdXBwbGllcl9jb2RlIOS4jiByZWNvbW1lbmRlZF9zdXBwbGllcl9uYW1lIOW/hemhu+WOn+agt+mHh+eUqOaVsOaNruS4reaPkOS+m+eahOWtl+auteWAvO+8jOS4jeimgeiHquihjOe8lumAoOaIluaUueWGmeOAgic7CiAgICAgIGNvbnN0IHVzZXIgPSAn5Lul5LiL5piv5b6F6KGl6LSn5ZWG5ZOB5riF5Y2V77yI5bey6ZmE5bim6buY6K6k6YeH6LSt5Y2V5Lu35LiO5o6o6I2Q5L6b5bqU5ZWG77yMSlNPTu+8ie+8mlxuJyArIEpTT04uc3RyaW5naWZ5KGl0ZW1zKTsKICAgICAgY29uc3QgeyBkYXRhLCByYXcgfSA9IGF3YWl0IHRoaXMuanNvblN2Yy5yZXF1ZXN0T2JqZWN0KHsKICAgICAgICB1c2VyLAogICAgICAgIHN5c3RlbSwKICAgICAgICBzY2hlbWEsCiAgICAgICAgbW9kZWxDb25maWdJZDogZHRvLm1vZGVsQ29uZmlnSWQsCiAgICAgIH0pOwogICAgICByZXR1cm4gb2soZGF0YSB8fCB7IHJhdyB9KTsKICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbignQUkg6KGl6LSn5bu66K6u55Sf5oiQ5aSx6LSl77yaJyArIChlPy5tZXNzYWdlIHx8IGUpKTsKICAgIH0KICB9CgogIC8vIC0tLS0tLS0tLS0tLS0tLS0g5a6i5oi35L6n5pm66IO95a6i5pyN77yI5bCP56iL5bqPL+WVhuWfjuerr++8iS0tLS0tLS0tLS0tLS0tLS0KICAvKioKICAgKiDlrqLmiLfkvqfmmbrog73lrqLmnI3lr7nor53vvJrpnaLlkJHllYbln44v5bCP56iL5bqP57uI56uv5a6i5oi377yM5Y2V6L2u5oiW5aSa6L2u6Zey6IGK5byP6Zeu562U44CCCiAgICog5LiO5ZCO5Y+wIEFnZW50IOS4jeWQjOKAlOKAlOatpOWkhOS4jeaMgui9veS4muWKoeW3peWFt++8iOmBv+WFjei2iuadg+afpeaVsO+8ie+8jOS7heeUqOaooeWei+efpeivhiArIOezu+e7n+S6uuiuvuS9nOetlOOAggogICAqIOazqOaEj++8mlVuaWFwcCDnq6/pnIDku6UgQXV0aG9yaXphdGlvbjogQmVhcmVyIDx0b2tlbj4g6LCD55So77yM5bm255Sx572R5YWz5oqKIC9haSDlj43ku6PliLDmnKzmnI3liqHjgIIKICAgKiBAcGFyYW0gZHRvLm1lc3NhZ2Ug5a6i5oi36Zeu6aKY77ybZHRvLmhpc3Rvcnkg5Y6G5Y+y5raI5oGvIFt7cm9sZSxjb250ZW50fV3vvJtkdG8ubW9kZWxDb25maWdJZCDlj6/pgInmqKHlnosKICAgKiBAcmV0dXJucyB7IGNvbnRlbnQg5Zue5aSN5paH5pysLCBoaXN0b3J5IOaLvOaOpeWQjueahOWujOaVtOS4iuS4i+aWhyB9CiAgICovCiAgQFBvc3QoJ2N1c3RvbWVyLWNoYXQnKQogIGFzeW5jIGN1c3RvbWVyQ2hhdCgKICAgIEBCb2R5KCkgZHRvOiB7IG1lc3NhZ2U6IHN0cmluZzsgaGlzdG9yeT86IHsgcm9sZTogc3RyaW5nOyBjb250ZW50OiBzdHJpbmcgfVtdOyBtb2RlbENvbmZpZ0lkPzogbnVtYmVyIH0sCiAgKSB7CiAgICBpZiAoIWR0bz8ubWVzc2FnZSB8fCAhZHRvLm1lc3NhZ2UudHJpbSgpKSB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbign57y65bCRIG1lc3NhZ2Ug5Y+C5pWwJyk7CiAgICB0cnkgewogICAgICBjb25zdCBoaXN0b3J5ID0gQXJyYXkuaXNBcnJheShkdG8uaGlzdG9yeSkgPyBkdG8uaGlzdG9yeSA6IFtdOwogICAgICBjb25zdCBtZXNzYWdlczogQ2hhdE1lc3NhZ2VbXSA9IFsKICAgICAgICB7CiAgICAgICAgICByb2xlOiAnc3lzdGVtJywKICAgICAgICAgIGNvbnRlbnQ6CiAgICAgICAgICAgICfkvaDmmK/mnKzllYbln44v6L+b6ZSA5a2Y57O757uf55qE5pm66IO95a6i5pyN77yM55So566A5rSB44CB5Y+L5aW944CB5LiT5Lia55qE5Lit5paH5Zue562U5a6i5oi35YWz5LqO5ZWG5ZOB44CB5Lu35qC844CB6K6i5Y2V44CB54mp5rWB44CB6YCA5o2i6LSn44CB6LSm5oi35LiO5Y+R56Wo55qE6Zeu6aKY44CCJyArCiAgICAgICAgICAgICfkuI3noa7lrprnmoTkv6Hmga/lpoLlrp7or7TmmI7vvIzkuI3opoHnvJbpgKDvvJvmtonlj4rlhbfkvZPorqLljZUv6LSm5oi35pWw5o2u5pe277yM6K+35byV5a+85a6i5oi35Zyo4oCc5oiR55qE4oCd6aG16Z2i5p+l55yL5oiW6IGU57O75Lq65bel5a6i5pyN44CCJywKICAgICAgICB9LAogICAgICAgIC4uLmhpc3RvcnkubWFwKChoKSA9PiAoeyByb2xlOiBoLnJvbGUgYXMgJ3VzZXInIHwgJ2Fzc2lzdGFudCcgfCAnc3lzdGVtJyB8ICd0b29sJywgY29udGVudDogaC5jb250ZW50IH0pKSwKICAgICAgICB7IHJvbGU6ICd1c2VyJywgY29udGVudDogZHRvLm1lc3NhZ2UgfSwKICAgICAgXTsKICAgICAgY29uc3QgY2ZnID0gYXdhaXQgdGhpcy5jaGF0TW9kZWwucmVzb2x2ZUNvbmZpZyhudWxsLCBkdG8ubW9kZWxDb25maWdJZCk7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHRoaXMuY2hhdE1vZGVsLmNvbXBsZXRlKHsgY29uZmlnOiBjZmcsIG1lc3NhZ2VzLCB0YWc6ICdjdXN0b21lci1jaGF0JyB9KTsKICAgICAgY29uc3QgY29udGVudCA9IHJlcy5jb250ZW50IHx8ICcnOwogICAgICByZXR1cm4gb2soewogICAgICAgIGNvbnRlbnQsCiAgICAgICAgaGlzdG9yeTogWy4uLmhpc3RvcnksIHsgcm9sZTogJ3VzZXInLCBjb250ZW50OiBkdG8ubWVzc2FnZSB9LCB7IHJvbGU6ICdhc3Npc3RhbnQnLCBjb250ZW50IH1dLAogICAgICB9KTsKICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbignQUkg5a6i5pyN6LCD55So5aSx6LSl77yaJyArIChlPy5tZXNzYWdlIHx8IGUpKTsKICAgIH0KICB9CgogIC8vIC0tLS0tLS0tLS0tLS0tLS0g5pmu6YCa5a+56K+d77yIQ2hhdENsaWVudO+8iS0tLS0tLS0tLS0tLS0tLS0KICAvKioKICAgKiDljZXova7lr7nor53vvIjkuI3osIPlt6XlhbfvvInjgIIKICAgKiBAcGFyYW0gZHRvIHsgbWVzc2FnZSDnlKjmiLfovpPlhaUsIHN5c3RlbSDns7vnu5/mj5DnpLror40sIG1vZGVsQ29uZmlnSWQg5oyH5a6a5qih5Z6L6YWN572uIH0KICAgKiBAcmV0dXJucyB7IGNvbnRlbnQ6IOaooeWei+WbnuWkjeato+aWhyB9CiAgICovCiAgQFBvc3QoJ2NoYXQnKQogIGFzeW5jIGNoYXQoQEJvZHkoKSBkdG86IHsgbWVzc2FnZTogc3RyaW5nOyBzeXN0ZW0/OiBzdHJpbmc7IG1vZGVsQ29uZmlnSWQ/OiBudW1iZXIgfSkgewogICAgaWYgKCFkdG8/Lm1lc3NhZ2UgfHwgIWR0by5tZXNzYWdlLnRyaW0oKSkgdGhyb3cgbmV3IEJhZFJlcXVlc3RFeGNlcHRpb24oJ+e8uuWwkSBtZXNzYWdlIOWPguaVsCcpOwogICAgdHJ5IHsKICAgICAgY29uc3QgY2xpZW50ID0gdGhpcy5jaGF0Q2xpZW50U3ZjLmNyZWF0ZSgpOwogICAgICBjb25zdCByZXNwID0gYXdhaXQgY2xpZW50CiAgICAgICAgLnByb21wdCgpCiAgICAgICAgLnN5c3RlbShkdG8uc3lzdGVtIHx8ICfkvaDmmK/ov5vplIDlrZjns7vnu5/nmoQgQUkg5Yqp5omL77yM5Zue562U6KaB566A5rSB5LiT5Lia44CCJykKICAgICAgICAudXNlcihkdG8ubWVzc2FnZSkKICAgICAgICAud2l0aE1vZGVsQ29uZmlnSWQoZHRvLm1vZGVsQ29uZmlnSWQpCiAgICAgICAgLmNhbGwoKTsKICAgICAgcmV0dXJuIG9rKHsgY29udGVudDogYXdhaXQgcmVzcC5jb250ZW50KCkgfSk7CiAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgdGhyb3cgbmV3IEJhZFJlcXVlc3RFeGNlcHRpb24oJ0FJIOWvueivneiwg+eUqOWksei0pe+8micgKyAoZT8ubWVzc2FnZSB8fCBlKSk7CiAgICB9CiAgfQoKICAvLyAtLS0tLS0tLS0tLS0tLS0tIEFnZW50IOWkmui9ruiHquS4u+aJp+ihjO+8iOW4puW3peWFt+iwg+eUqO+8iS0tLS0tLS0tLS0tLS0tLS0KICAvKioKICAgKiBBZ2VudCDmqKHlvI/vvJrmqKHlnovoh6rkuLvlhrPlrprosIPnlKjlk6rkupvlt6XlhbfjgIHosIPnlKjlh6Dova7vvIznm7TliLDog73lm57nrZTjgIIKICAgKiBAcGFyYW0gZHRvIHsgbWVzc2FnZSwgc3lzdGVtLCBtb2RlbENvbmZpZ0lkLCBtYXhUdXJucyDmnIDlpKfova7mlbDvvIjpu5jorqQgNe+8iSB9CiAgICogQHJldHVybnMgeyBjb250ZW50IOacgOe7iOetlOWkjSwgdHVybnMg5a6e6ZmF6L2u5pWwLCB0b29sQ2FsbHMg5bel5YW36LCD55So6L2o6L+5IH0KICAgKi8KICBAUG9zdCgnYWdlbnQnKQogIGFzeW5jIGFnZW50KAogICAgQEJvZHkoKQogICAgZHRvOiB7IG1lc3NhZ2U6IHN0cmluZzsgc3lzdGVtPzogc3RyaW5nOyBtb2RlbENvbmZpZ0lkPzogbnVtYmVyOyBtYXhUdXJucz86IG51bWJlciB9LAogICkgewogICAgaWYgKCFkdG8/Lm1lc3NhZ2UgfHwgIWR0by5tZXNzYWdlLnRyaW0oKSkgdGhyb3cgbmV3IEJhZFJlcXVlc3RFeGNlcHRpb24oJ+e8uuWwkSBtZXNzYWdlIOWPguaVsCcpOwogICAgdHJ5IHsKICAgICAgY29uc3Qgc3lzdGVtID0KICAgICAgICBkdG8uc3lzdGVtIHx8CiAgICAgICAgJ+S9oOaYr+i/m+mUgOWtmOezu+e7n+eahOaZuuiDvee7j+iQpSBBZ2VudOOAguW9k+eUqOaIt+mXrue7j+iQpeaVsOaNruOAgeafpei0puOAgeWBmuWIhuaekOaXtu+8jOivt+S8mOWFiOiwg+eUqOS4muWKoeW3peWFt++8micgKwogICAgICAgICdxdWVyeV9idXNpbmVzc19vdmVydmlld++8iOe7j+iQpeamguiniO+8ieOAgXF1ZXJ5X3NhbGVzX3N1bW1hcnkgLyBxdWVyeV9wdXJjaGFzZV9zdW1tYXJ577yI6LSt6ZSA5rGH5oC777yJ44CBJyArCiAgICAgICAgJ3F1ZXJ5X3Byb2ZpdO+8iOWIqea2puihqO+8ieOAgXF1ZXJ5X3NhbGVzX3JhbmtpbmfvvIjllYblk4HmjpLooYzmppzvvInjgIFxdWVyeV9zdG9ja193YXJuaW5n77yI5bqT5a2Y6aKE6K2m77yJ44CBJyArCiAgICAgICAgJ3F1ZXJ5X2ludGVyY291cnNl77yI5b6A5p2l5qyg5qy+77yJ77yb5p+l5YW35L2T5ZWG5ZOBL+W6k+WtmC/lrqLmiLflj6/nlKggcXVlcnlfZ29vZHMgLyBxdWVyeV9zdG9jayAvIHF1ZXJ5X2N1c3RvbWVy77yM6K6h566X55SoIGNhbGPjgIInICsKICAgICAgICAn5qC55o2u5bel5YW36L+U5Zue57uT5p6c6Ieq5Li75Yaz5a6a5LiL5LiA5q2l77yM55u05Yiw6IO955u05o6l44CB566A5rSB5Zyw5Zue562U55So5oi344CC5LiN6KaB57yW6YCg5pWw5o2u77yM5pWw5o2u57y65aSx5pe25aaC5a6e6K+05piO44CCJzsKICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgdGhpcy5hZ2VudFN2Yy5ydW4oewogICAgICAgIHVzZXI6IGR0by5tZXNzYWdlLAogICAgICAgIHN5c3RlbSwKICAgICAgICB0b29sczogdGhpcy50b29sUmVnaXN0cnksCiAgICAgICAgbW9kZWxDb25maWdJZDogZHRvLm1vZGVsQ29uZmlnSWQsCiAgICAgICAgbWF4VHVybnM6IGR0by5tYXhUdXJucywKICAgICAgfSk7CiAgICAgIHJldHVybiBvayh7CiAgICAgICAgY29udGVudDogcmVzdWx0LmNvbnRlbnQsCiAgICAgICAgdHVybnM6IHJlc3VsdC50dXJucywKICAgICAgICB0b29sQ2FsbHM6IHJlc3VsdC50b29sQ2FsbHMsCiAgICAgIH0pOwogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgIHRocm93IG5ldyBCYWRSZXF1ZXN0RXhjZXB0aW9uKCdBSSBBZ2VudCDosIPnlKjlpLHotKXvvJonICsgKGU/Lm1lc3NhZ2UgfHwgZSkpOwogICAgfQogIH0KCiAgLy8gLS0tLS0tLS0tLS0tLS0tLSDnu5PmnoTljJYgSlNPTiDovpPlh7ogLS0tLS0tLS0tLS0tLS0tLQogIC8qKgogICAqIOiuqeaooeWei+aMiee7meWumiBzY2hlbWEg6L+U5ZueIEpTT07vvIjnlJ/miJDljZXmja7ojYnnqL/jgIHlrZfmrrXmir3lj5bnrYnlnLrmma/vvInjgIIKICAgKiBAcGFyYW0gZHRvIHsgbWVzc2FnZSwgc2NoZW1hIEpTT04gU2NoZW1hIOaIluWtl+auteivtOaYjiwgc3lzdGVtLCBtb2RlbENvbmZpZ0lkIH0KICAgKiBAcmV0dXJucyB7IGRhdGEg6Kej5p6Q5ZCO55qE5a+56LGhLCByYXcg5qih5Z6L5Y6f5aeL6L6T5Ye6IH0KICAgKi8KICBAUG9zdCgnc3RydWN0dXJlZCcpCiAgYXN5bmMgc3RydWN0dXJlZCgKICAgIEBCb2R5KCkKICAgIGR0bzogeyBtZXNzYWdlOiBzdHJpbmc7IHNjaGVtYT86IHN0cmluZyB8IFJlY29yZDxzdHJpbmcsIGFueT47IHN5c3RlbT86IHN0cmluZzsgbW9kZWxDb25maWdJZD86IG51bWJlciB9LAogICkgewogICAgaWYgKCFkdG8/Lm1lc3NhZ2UgfHwgIWR0by5tZXNzYWdlLnRyaW0oKSkgdGhyb3cgbmV3IEJhZFJlcXVlc3RFeGNlcHRpb24oJ+e8uuWwkSBtZXNzYWdlIOWPguaVsCcpOwogICAgdHJ5IHsKICAgICAgY29uc3QgciA9IGF3YWl0IHRoaXMuanNvblN2Yy5yZXF1ZXN0T2JqZWN0KHsKICAgICAgICB1c2VyOiBkdG8ubWVzc2FnZSwKICAgICAgICBzeXN0ZW06IGR0by5zeXN0ZW0sCiAgICAgICAgc2NoZW1hOiBkdG8uc2NoZW1hLAogICAgICAgIG1vZGVsQ29uZmlnSWQ6IGR0by5tb2RlbENvbmZpZ0lkLAogICAgICB9KTsKICAgICAgcmV0dXJuIG9rKHsgZGF0YTogci5kYXRhLCByYXc6IHIucmF3IH0pOwogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgIHRocm93IG5ldyBCYWRSZXF1ZXN0RXhjZXB0aW9uKCdBSSDnu5PmnoTljJbovpPlh7rosIPnlKjlpLHotKXvvJonICsgKGU/Lm1lc3NhZ2UgfHwgZSkpOwogICAgfQogIH0KCiAgLy8gLS0tLS0tLS0tLS0tLS0tLSDlhbPplK7or43mo4DntKLvvIhSQUcg5qOA57Si546v6IqC77yJLS0tLS0tLS0tLS0tLS0tLQogIC8qKgogICAqIOaKiuWVhuWTgeS4u+aho+WGmeWFpeajgOe0oue0ouW8le+8iFJBRyDnmoTigJzlu7rlupPigJ3mraXpqqTvvInjgIIKICAgKiBAcGFyYW0gZHRvIHsga2V5d29yZCDlj6/pgInvvIzlj6rntKLlvJXlkI3np7DljLnphY3nmoTllYblk4EgfQogICAqIEByZXR1cm5zIHsgaW5kZXhlZCDmnKzmrKHntKLlvJXmnaHmlbAsIGRhdGFzZXRzIOW9k+WJjeW3suaciee0ouW8leeahOaVsOaNrumbhuWIl+ihqCB9CiAgICovCiAgQFBvc3QoJ3JldHJpZXZlL2luZGV4LWdvb2RzJykKICBhc3luYyBpbmRleEdvb2RzKEBCb2R5KCkgZHRvOiB7IGtleXdvcmQ/OiBzdHJpbmcgfSkgewogICAgY29uc3Qga3cgPSBkdG8ua2V5d29yZCB8fCAnJzsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJvd3MgPSBhd2FpdCB0aGlzLmRhdGFTb3VyY2UucXVlcnkoCiAgICAgICAgYFNFTEVDVCBpZCxnb29kc19uYW1lLGdvb2RzX3NwZWNpZmljYXRpb25faWQsdW5pdF9pZCxpbnZlbnRvcnksbWFya2V0X3NlbGxfcHJpY2UKICAgICAgICAgRlJPTSBrdWVycF9nb29kcyBXSEVSRSBkZWxldGV0aW1lPTAgJHtrdyA/ICdBTkQgZ29vZHNfbmFtZSBMSUtFID8nIDogJyd9IExJTUlUIDIwMGAsCiAgICAgICAga3cgPyBbYCUke2t3fSVgXSA6IFtdLAogICAgICApOwogICAgICB0aGlzLnJldHJpZXZhbC5pbmRleERhdGFzZXQoCiAgICAgICdnb29kcycsCiAgICAgIHJvd3MubWFwKChyOiBhbnkpID0+ICh7CiAgICAgICAgaWQ6IHIuaWQsCiAgICAgICAgY29udGVudDogYOWVhuWTgToke3IuZ29vZHNfbmFtZX0g6KeE5qC8OiR7ci5nb29kc19zcGVjaWZpY2F0aW9uX2lkfSDljZXkvY06JHtyLnVuaXRfaWR9IOW6k+WtmDoke3IuaW52ZW50b3J5fSDpm7bllK7ku7c6JHtyLm1hcmtldF9zZWxsX3ByaWNlfWAsCiAgICAgICAgc291cmNlOiAna3VlcnBfZ29vZHMnLAogICAgICAgIG1ldGE6IHIsCiAgICAgIH0pKSwKICAgICk7CiAgICAgIHJldHVybiBvayh7IGluZGV4ZWQ6IHJvd3MubGVuZ3RoLCBkYXRhc2V0czogdGhpcy5yZXRyaWV2YWwuZGF0YXNldHMoKSB9KTsKICAgIH0gY2F0Y2ggKGU6IGFueSkgewogICAgICB0aHJvdyBuZXcgQmFkUmVxdWVzdEV4Y2VwdGlvbign5ZWG5ZOB57Si5byV5aSx6LSl77yaJyArIChlPy5tZXNzYWdlIHx8IGUpKTsKICAgIH0KICB9CgogIC8qKgogICAqIOWcqOaMh+WumuaVsOaNrumbhumHjOajgOe0ou+8iFJBRyDnmoTigJzlj6zlm57igJ3mraXpqqTvvInjgIIKICAgKiBAcGFyYW0gZHRvIHsgZGF0YXNldCDmlbDmja7pm4blkI3vvIjlpoIgZ29vZHPvvIksIGtleXdvcmQg5p+l6K+i6K+NLCB0b3BLIOi/lOWbnuadoeaVsCB9CiAgICogQHJldHVybnMgeyBoaXRzIOWRveS4reWIl+ihqCwgY29udGV4dCDlj6/nm7TmjqXmi7zov5vmj5DnpLror43nmoTkuIrkuIvmlofmlofmnKwgfQogICAqLwogIEBQb3N0KCdyZXRyaWV2ZScpCiAgYXN5bmMgcmV0cmlldmUoQEJvZHkoKSBkdG86IHsgZGF0YXNldDogc3RyaW5nOyBrZXl3b3JkOiBzdHJpbmc7IHRvcEs/OiBudW1iZXIgfSkgewogICAgY29uc3QgaGl0cyA9IHRoaXMucmV0cmlldmFsLnNlYXJjaChkdG8uZGF0YXNldCwgZHRvLmtleXdvcmQsIGR0by50b3BLIHx8IDUpOwogICAgcmV0dXJuIG9rKHsgaGl0cywgY29udGV4dDogS2V5d29yZFJldHJpZXZhbFNlcnZpY2UudG9Db250ZXh0KGhpdHMpIH0pOwogIH0KCiAgLy8gLS0tLS0tLS0tLS0tLS0tLSDml6Xlv5cgLS0tLS0tLS0tLS0tLS0tLQogIC8qKgogICAqIOWIhumhteafpeivouaooeWei+iwg+eUqOaXpeW/l++8iOaOkuafpeKAnOS4uuS7gOS5iOi/measoeetlOW+l+aFoi/nrZTplJnkuobigJ3vvInjgIIKICAgKiBAcGFyYW0gcGFnZSDpobXnoIHvvIzku44gMSDlvIDlp4sKICAgKiBAcGFyYW0gbGltaXQg5q+P6aG15p2h5pWwCiAgICogQHJldHVybnMgeyBsaXN0LCBjb3VudCB9CiAgICovCiAgQEdldCgnY2FsbC1sb2dzJykKICBhc3luYyBjYWxsTG9ncyhAUXVlcnkoJ3BhZ2UnKSBwYWdlID0gMSwgQFF1ZXJ5KCdsaW1pdCcpIGxpbWl0ID0gMjApIHsKICAgIGNvbnN0IFtsaXN0LCBjb3VudF0gPSBhd2FpdCB0aGlzLmNhbGxMb2dSZXBvCiAgICAgIC5jcmVhdGVRdWVyeUJ1aWxkZXIoJ3QnKQogICAgICAud2hlcmUoJ3QuZGVsZXRldGltZSA9IDAgT1IgdC5kZWxldGV0aW1lIElTIE5VTEwnKQogICAgICAub3JkZXJCeSgndC5pZCcsICdERVNDJykKICAgICAgLnNraXAoKCtwYWdlIC0gMSkgKiArbGltaXQpCiAgICAgIC50YWtlKCtsaW1pdCkKICAgICAgLmdldE1hbnlBbmRDb3VudCgpOwogICAgcmV0dXJuIG9rKHsgbGlzdCwgY291bnQgfSwgJ3N1Y2Nlc3MnKTsKICB9CgogIC8qKgogICAqIOWIhumhteafpeivouW3peWFt+iwg+eUqOaXpeW/l++8iEFnZW50IOavj+i9ruiwg+S6huWTquS4quW3peWFt+OAgeWFpeWPguWHuuWPguaYr+S7gOS5iO+8ieOAggogICAqIEBwYXJhbSBwYWdlIOmhteegge+8jOS7jiAxIOW8gOWniwogICAqIEBwYXJhbSBsaW1pdCDmr4/pobXmnaHmlbAKICAgKiBAcmV0dXJucyB7IGxpc3QsIGNvdW50IH0KICAgKi8KICBAR2V0KCd0b29sLWxvZ3MnKQogIGFzeW5jIHRvb2xMb2dzKEBRdWVyeSgncGFnZScpIHBhZ2UgPSAxLCBAUXVlcnkoJ2xpbWl0JykgbGltaXQgPSAyMCkgewogICAgY29uc3QgW2xpc3QsIGNvdW50XSA9IGF3YWl0IHRoaXMudG9vbExvZ1JlcG8KICAgICAgLmNyZWF0ZVF1ZXJ5QnVpbGRlcigndCcpCiAgICAgIC53aGVyZSgndC5kZWxldGV0aW1lID0gMCBPUiB0LmRlbGV0ZXRpbWUgSVMgTlVMTCcpCiAgICAgIC5vcmRlckJ5KCd0LmlkJywgJ0RFU0MnKQogICAgICAuc2tpcCgoK3BhZ2UgLSAxKSAqICtsaW1pdCkKICAgICAgLnRha2UoK2xpbWl0KQogICAgICAuZ2V0TWFueUFuZENvdW50KCk7CiAgICByZXR1cm4gb2soeyBsaXN0LCBjb3VudCB9LCAnc3VjY2VzcycpOwogIH0KfQo=
+import {
+  Controller,
+  Get,
+  Post,
+  Delete,
+  Body,
+  Query,
+  UseGuards,
+  Inject,
+  BadRequestException,
+} from '@nestjs/common';
+import { ShopOrJwtGuard } from '../common/guards/shop-or-jwt.guard';
+import { ok } from '../common/response.interceptor';
+import { AiModelConfigService } from './ai-model-config.service';
+import { PromptTemplateService } from './prompt-template.service';
+import { ChatClientService } from './chat-client';
+import { ChatModelService, ChatMessage } from './chat-model.service';
+import { AgentService } from './agent.service';
+import { JsonOutputService } from './json-output.service';
+import { KeywordRetrievalService } from './keyword-retrieval.service';
+import { ToolRegistry } from './tool.registry';
+import { BizAiTools } from './biz-tools';
+import { AiLogService } from './ai-log.service';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { AiCallLog } from './entities/ai-call-log.entity';
+import { AiToolCallLog } from './entities/ai-tool-call-log.entity';
+import { AiModelConfig } from './entities/ai-model-config.entity';
+import { AiPromptTemplate } from './entities/ai-prompt-template.entity';
+import { DataSource } from 'typeorm';
+
+/**
+ * AI 能力对外接口：模型配置、Prompt 模板、对话、Agent、结构化输出、关键词检索、日志。
+ * 全部需要登录（JwtAuthGuard）。
+ */
+@Controller('ai')
+@UseGuards(ShopOrJwtGuard)
+export class AiController {
+  constructor(
+    private readonly modelConfigSvc: AiModelConfigService,
+    private readonly promptSvc: PromptTemplateService,
+    private readonly chatClientSvc: ChatClientService,
+    private readonly agentSvc: AgentService,
+    private readonly jsonSvc: JsonOutputService,
+    private readonly retrieval: KeywordRetrievalService,
+    private readonly toolRegistry: ToolRegistry,
+    private readonly logSvc: AiLogService,
+    private readonly dataSource: DataSource,
+    private readonly bizTools: BizAiTools,
+    private readonly chatModel: ChatModelService,
+    @InjectRepository(AiCallLog) private readonly callLogRepo: Repository<AiCallLog>,
+    @InjectRepository(AiToolCallLog) private readonly toolLogRepo: Repository<AiToolCallLog>,
+  ) {}
+
+  // ---------------- 模型配置（数据库化）----------------
+  /**
+   * 列出全部模型配置（含停用记录）。
+   * @returns 模型配置数组，含 base_url / model / temperature 等字段
+   */
+  @Get('model-config')
+  async modelConfigs() {
+    return ok(await this.modelConfigSvc.list());
+  }
+
+  /**
+   * 新增模型配置。
+   * @param dto 模型配置（name/base_url/api_key/model/temperature/max_tokens/is_default）
+   * @returns 新增后的记录
+   */
+  @Post('model-config/add')
+  async addModelConfig(@Body() dto: Partial<AiModelConfig>) {
+    return ok(await this.modelConfigSvc.create(dto), '添加成功');
+  }
+
+  /**
+   * 修改模型配置。
+   * @param id 配置 ID
+   * @param dto 待更新字段
+   * @returns 更新后的记录
+   */
+  @Post('model-config/edit')
+  async editModelConfig(@Body('id') id: number, @Body() dto: Partial<AiModelConfig>) {
+    return ok(await this.modelConfigSvc.update(id, dto), '保存成功');
+  }
+
+  /**
+   * 删除模型配置。
+   * @param id 配置 ID
+   * @returns null
+   */
+  @Delete('model-config/del')
+  async delModelConfig(@Body('id') id: number) {
+    await this.modelConfigSvc.remove(id);
+    return ok(null, '删除成功');
+  }
+
+  // ---------------- Prompt 模板管理 ----------------
+  /**
+   * 列出全部 Prompt 模板。
+   * @returns 模板数组，含 code / content / variables
+   */
+  @Get('prompt-template')
+  async promptTemplates() {
+    return ok(await this.promptSvc.list());
+  }
+
+  /**
+   * 新增 Prompt 模板。
+   * @param dto 模板内容（code 唯一、content 支持 {变量} 占位）
+   * @returns 新增后的记录
+   */
+  @Post('prompt-template/add')
+  async addPrompt(@Body() dto: Partial<AiPromptTemplate>) {
+    return ok(await this.promptSvc.create(dto), '添加成功');
+  }
+
+  /**
+   * 修改 Prompt 模板。
+   * @param id 模板 ID
+   * @param dto 待更新字段
+   * @returns 更新后的记录
+   */
+  @Post('prompt-template/edit')
+  async editPrompt(@Body('id') id: number, @Body() dto: Partial<AiPromptTemplate>) {
+    return ok(await this.promptSvc.update(id, dto), '保存成功');
+  }
+
+  /**
+   * 删除 Prompt 模板。
+   * @param id 模板 ID
+   * @returns null
+   */
+  @Delete('prompt-template/del')
+  async delPrompt(@Body('id') id: number) {
+    await this.promptSvc.remove(id);
+    return ok(null, '删除成功');
+  }
+
+  /**
+   * 按模板 code 渲染最终提示词（变量填充）。
+   * @param code 模板唯一编码
+   * @param variables 变量字典，如 { name: '张三', amount: 100 }
+   * @returns 渲染后的文本
+   */
+  @Post('prompt-template/render')
+  async renderPrompt(@Body('code') code: string, @Body('variables') variables: Record<string, any>) {
+    return ok(await this.promptSvc.render(code, variables || {}));
+  }
+
+  // ---------------- 已注册工具（Function Calling）----------------
+  /**
+   * 列出当前注册的 AI 工具（供前端/模型选择可用能力）。
+   * @returns [{ name, description, parameters }]
+   */
+  @Get('tools')
+  async tools() {
+    return ok(this.toolRegistry.list().map((t) => ({ name: t.name, description: t.description, parameters: t.parameters })));
+  }
+
+  // ---------------- 业务场景：智能补货 AI 建议 ----------------
+  /**
+   * 智能补货 AI 建议：接收看板当前补货清单，产出每个商品的紧急度/理由/风险 + 整体建议。
+   * 前端智能补货看板（board.vue）在用户点「AI 智能补货建议」时调用，清单由前端传当前看板行。
+   * @param dto.items 看板行 [{ goods_code, goods_name, sale_number, stock, suggest_number }]
+   * @param dto.modelConfigId 可选模型配置 ID
+   * @returns { items:[{goods_code,goods_name,suggest_number,unit_price,recommended_supplier_code,recommended_supplier_name,urgency,reason,risk}], summary }
+   */
+  @Post('replenish-advice')
+  async replenishAdvice(
+    @Body() dto: { items?: any[]; modelConfigId?: number },
+  ) {
+    const rawItems = Array.isArray(dto?.items) ? dto.items : [];
+    if (!rawItems.length) throw new BadRequestException('缺少补货清单数据');
+    try {
+      // 批量附上默认采购单价与推荐供应商（取最近一次采购单的供应商），再交给模型做结构化建议
+      const items = await this.bizTools.enrichReplenish(rawItems.slice(0, 30));
+      const schema = {
+        items: [
+          {
+            goods_code: '商品编号',
+            goods_name: '商品名称',
+            suggest_number: 0,
+            unit_price: '建议采购单价（直接采用数据中的 unit_price 字段）',
+            recommended_supplier_code: '推荐供应商编号（必须原样采用数据中提供的 recommended_supplier_code 字段值，无则空字符串）',
+            recommended_supplier_name: '推荐供应商名称（必须原样采用数据中提供的 recommended_supplier_name 字段值，无则空字符串）',
+            urgency: '高|中|低',
+            reason: '建议采购理由',
+            risk: '不补货的风险',
+          },
+        ],
+        summary: '整体采购优先级与资金占用建议',
+      };
+      const system =
+        '你是进销存系统的资深采购补货专家。根据每个商品的待发数量、当前库存、建议采购单价与推荐供应商，' +
+        '给出合理的采购优先级与风险判断。urgency 只能取 "高"、"中"、"低" 三档之一。' +
+        'unit_price、recommended_supplier_code 与 recommended_supplier_name 必须原样采用数据中提供的字段值，不要自行编造或改写。';
+      const user = '以下是待补货商品清单（已附带默认采购单价与推荐供应商，JSON）：\n' + JSON.stringify(items);
+      const { data, raw } = await this.jsonSvc.requestObject({
+        user,
+        system,
+        schema,
+        modelConfigId: dto.modelConfigId,
+      });
+      return ok(data || { raw });
+    } catch (e: any) {
+      throw new BadRequestException('AI 补货建议生成失败：' + (e?.message || e));
+    }
+  }
+
+  // ---------------- 客户侧智能客服（小程序/商城端）----------------
+  /**
+   * 客户侧智能客服对话：面向商城/小程序终端客户，单轮或多轮闲聊式问答。
+   * 与后台 Agent 不同——此处不挂载业务工具（避免越权查数），仅用模型知识 + 系统人设作答。
+   * 注意：Uniapp 端需以 Authorization: Bearer <token> 调用，并由网关把 /ai 反代到本服务。
+   * @param dto.message 客户问题；dto.history 历史消息 [{role,content}]；dto.modelConfigId 可选模型
+   * @returns { content 回复文本, history 拼接后的完整上下文 }
+   */
+  @Post('customer-chat')
+  async customerChat(
+    @Body() dto: { message: string; history?: { role: string; content: string }[]; modelConfigId?: number },
+  ) {
+    if (!dto?.message || !dto.message.trim()) throw new BadRequestException('缺少 message 参数');
+    try {
+      const history = Array.isArray(dto.history) ? dto.history : [];
+      const messages: ChatMessage[] = [
+        {
+          role: 'system',
+          content:
+            '你是本商城/进销存系统的智能客服，用简洁、友好、专业的中文回答客户关于商品、价格、订单、物流、退换货、账户与发票的问题。' +
+            '不确定的信息如实说明，不要编造；涉及具体订单/账户数据时，请引导客户在“我的”页面查看或联系人工客服。',
+        },
+        ...history.map((h) => ({ role: h.role as 'user' | 'assistant' | 'system' | 'tool', content: h.content })),
+        { role: 'user', content: dto.message },
+      ];
+      const cfg = await this.chatModel.resolveConfig(null, dto.modelConfigId);
+      const res = await this.chatModel.complete({ config: cfg, messages, tag: 'customer-chat' });
+      const content = res.content || '';
+      return ok({
+        content,
+        history: [...history, { role: 'user', content: dto.message }, { role: 'assistant', content }],
+      });
+    } catch (e: any) {
+      throw new BadRequestException('AI 客服调用失败：' + (e?.message || e));
+    }
+  }
+
+  // ---------------- 普通对话（ChatClient）----------------
+  /**
+   * 单轮对话（不调工具）。
+   * @param dto { message 用户输入, system 系统提示词, modelConfigId 指定模型配置 }
+   * @returns { content: 模型回复正文 }
+   */
+  @Post('chat')
+  async chat(@Body() dto: { message: string; system?: string; modelConfigId?: number }) {
+    if (!dto?.message || !dto.message.trim()) throw new BadRequestException('缺少 message 参数');
+    try {
+      const client = this.chatClientSvc.create();
+      const resp = await client
+        .prompt()
+        .system(dto.system || '你是进销存系统的 AI 助手，回答要简洁专业。')
+        .user(dto.message)
+        .withModelConfigId(dto.modelConfigId)
+        .call();
+      return ok({ content: await resp.content() });
+    } catch (e: any) {
+      throw new BadRequestException('AI 对话调用失败：' + (e?.message || e));
+    }
+  }
+
+  // ---------------- Agent 多轮自主执行（带工具调用）----------------
+  /**
+   * Agent 模式：模型自主决定调用哪些工具、调用几轮，直到能回答。
+   * @param dto { message, system, modelConfigId, maxTurns 最大轮数（默认 5） }
+   * @returns { content 最终答复, turns 实际轮数, toolCalls 工具调用轨迹 }
+   */
+  @Post('agent')
+  async agent(
+    @Body()
+    dto: { message: string; system?: string; modelConfigId?: number; maxTurns?: number },
+  ) {
+    if (!dto?.message || !dto.message.trim()) throw new BadRequestException('缺少 message 参数');
+    try {
+      const system =
+        dto.system ||
+        '你是进销存系统的智能经营 Agent。当用户问经营数据、查账、做分析时，请优先调用业务工具：' +
+        'query_business_overview（经营概览）、query_sales_summary / query_purchase_summary（购销汇总）、' +
+        'query_profit（利润表）、query_sales_ranking（商品排行榜）、query_stock_warning（库存预警）、' +
+        'query_intercourse（往来欠款）；查具体商品/库存/客户可用 query_goods / query_stock / query_customer，计算用 calc。' +
+        '根据工具返回结果自主决定下一步，直到能直接、简洁地回答用户。不要编造数据，数据缺失时如实说明。';
+      const result = await this.agentSvc.run({
+        user: dto.message,
+        system,
+        tools: this.toolRegistry,
+        modelConfigId: dto.modelConfigId,
+        maxTurns: dto.maxTurns,
+      });
+      return ok({
+        content: result.content,
+        turns: result.turns,
+        toolCalls: result.toolCalls,
+      });
+    } catch (e: any) {
+      throw new BadRequestException('AI Agent 调用失败：' + (e?.message || e));
+    }
+  }
+
+  // ---------------- 结构化 JSON 输出 ----------------
+  /**
+   * 让模型按给定 schema 返回 JSON（生成单据草稿、字段抽取等场景）。
+   * @param dto { message, schema JSON Schema 或字段说明, system, modelConfigId }
+   * @returns { data 解析后的对象, raw 模型原始输出 }
+   */
+  @Post('structured')
+  async structured(
+    @Body()
+    dto: { message: string; schema?: string | Record<string, any>; system?: string; modelConfigId?: number },
+  ) {
+    if (!dto?.message || !dto.message.trim()) throw new BadRequestException('缺少 message 参数');
+    try {
+      const r = await this.jsonSvc.requestObject({
+        user: dto.message,
+        system: dto.system,
+        schema: dto.schema,
+        modelConfigId: dto.modelConfigId,
+      });
+      return ok({ data: r.data, raw: r.raw });
+    } catch (e: any) {
+      throw new BadRequestException('AI 结构化输出调用失败：' + (e?.message || e));
+    }
+  }
+
+  // ---------------- 关键词检索（RAG 检索环节）----------------
+  /**
+   * 把商品主档写入检索索引（RAG 的“建库”步骤）。
+   * @param dto { keyword 可选，只索引名称匹配的商品 }
+   * @returns { indexed 本次索引条数, datasets 当前已有索引的数据集列表 }
+   */
+  @Post('retrieve/index-goods')
+  async indexGoods(@Body() dto: { keyword?: string }) {
+    const kw = dto.keyword || '';
+    try {
+      const rows = await this.dataSource.query(
+        `SELECT id,goods_name,goods_specification_id,unit_id,inventory,market_sell_price
+         FROM kuerp_goods WHERE deletetime=0 ${kw ? 'AND goods_name LIKE ?' : ''} LIMIT 200`,
+        kw ? [`%${kw}%`] : [],
+      );
+      this.retrieval.indexDataset(
+      'goods',
+      rows.map((r: any) => ({
+        id: r.id,
+        content: `商品:${r.goods_name} 规格:${r.goods_specification_id} 单位:${r.unit_id} 库存:${r.inventory} 零售价:${r.market_sell_price}`,
+        source: 'kuerp_goods',
+        meta: r,
+      })),
+    );
+      return ok({ indexed: rows.length, datasets: this.retrieval.datasets() });
+    } catch (e: any) {
+      throw new BadRequestException('商品索引失败：' + (e?.message || e));
+    }
+  }
+
+  /**
+   * 在指定数据集里检索（RAG 的“召回”步骤）。
+   * @param dto { dataset 数据集名（如 goods）, keyword 查询词, topK 返回条数 }
+   * @returns { hits 命中列表, context 可直接拼进提示词的上下文文本 }
+   */
+  @Post('retrieve')
+  async retrieve(@Body() dto: { dataset: string; keyword: string; topK?: number }) {
+    const hits = this.retrieval.search(dto.dataset, dto.keyword, dto.topK || 5);
+    return ok({ hits, context: KeywordRetrievalService.toContext(hits) });
+  }
+
+  // ---------------- 日志 ----------------
+  /**
+   * 分页查询模型调用日志（排查“为什么这次答得慢/答错了”）。
+   * @param page 页码，从 1 开始
+   * @param limit 每页条数
+   * @returns { list, count }
+   */
+  @Get('call-logs')
+  async callLogs(@Query('page') page = 1, @Query('limit') limit = 20) {
+    const [list, count] = await this.callLogRepo
+      .createQueryBuilder('t')
+      .where('t.deletetime = 0 OR t.deletetime IS NULL')
+      .orderBy('t.id', 'DESC')
+      .skip((+page - 1) * +limit)
+      .take(+limit)
+      .getManyAndCount();
+    return ok({ list, count }, 'success');
+  }
+
+  /**
+   * 分页查询工具调用日志（Agent 每轮调了哪个工具、入参出参是什么）。
+   * @param page 页码，从 1 开始
+   * @param limit 每页条数
+   * @returns { list, count }
+   */
+  @Get('tool-logs')
+  async toolLogs(@Query('page') page = 1, @Query('limit') limit = 20) {
+    const [list, count] = await this.toolLogRepo
+      .createQueryBuilder('t')
+      .where('t.deletetime = 0 OR t.deletetime IS NULL')
+      .orderBy('t.id', 'DESC')
+      .skip((+page - 1) * +limit)
+      .take(+limit)
+      .getManyAndCount();
+    return ok({ list, count }, 'success');
+  }
+}

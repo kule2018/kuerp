@@ -1,1 +1,53 @@
-aW1wb3J0IHsgSW5qZWN0YWJsZSB9IGZyb20gJ0BuZXN0anMvY29tbW9uJzsKaW1wb3J0IHsgSW5qZWN0UmVwb3NpdG9yeSB9IGZyb20gJ0BuZXN0anMvdHlwZW9ybSc7CmltcG9ydCB7IFJlcG9zaXRvcnkgfSBmcm9tICd0eXBlb3JtJzsKaW1wb3J0IHsgQWlNb2RlbENvbmZpZyB9IGZyb20gJy4vZW50aXRpZXMvYWktbW9kZWwtY29uZmlnLmVudGl0eSc7CmltcG9ydCB7IG5vd1NlYyB9IGZyb20gJy4uL2NvbW1vbi9iaWdpbnQudHJhbnNmb3JtZXInOwoKLyoqCiAqIOaooeWei+mFjee9ruacjeWKoe+8mkNSVUQgKyDpgInmi6njgIzlkK/nlKjkuJTpu5jorqTjgI3nmoTphY3nva7kvZzkuLrov5DooYzml7bmqKHlnovjgIIKICog5pWw5o2u5bqT5YyW6YWN572u5oSP5ZGz552A5YiH5o2iIERlZXBTZWVrIC8gT3BlbkFJIC8g5pys5ZywIE9sbGFtYSDml6DpnIDmlLnku6PnoIHjgIIKICovCkBJbmplY3RhYmxlKCkKZXhwb3J0IGNsYXNzIEFpTW9kZWxDb25maWdTZXJ2aWNlIHsKICBjb25zdHJ1Y3RvcigKICAgIEBJbmplY3RSZXBvc2l0b3J5KEFpTW9kZWxDb25maWcpIHByaXZhdGUgcmVhZG9ubHkgcmVwbzogUmVwb3NpdG9yeTxBaU1vZGVsQ29uZmlnPiwKICApIHt9CgogIGFzeW5jIGxpc3QoKSB7CiAgICByZXR1cm4gdGhpcy5yZXBvLmZpbmQoeyB3aGVyZTogeyBkZWxldGV0aW1lOiAwIH0gYXMgYW55LCBvcmRlcjogeyBpZDogJ0RFU0MnIH0gfSk7CiAgfQoKICBhc3luYyBnZXQoaWQ6IG51bWJlcikgewogICAgcmV0dXJuIHRoaXMucmVwby5maW5kT25lKHsgd2hlcmU6IHsgaWQsIGRlbGV0ZXRpbWU6IDAgfSBhcyBhbnkgfSk7CiAgfQoKICBhc3luYyBjcmVhdGUoZHRvOiBQYXJ0aWFsPEFpTW9kZWxDb25maWc+KSB7CiAgICBjb25zdCBlbnRpdHkgPSB0aGlzLnJlcG8uY3JlYXRlKHsKICAgICAgLi4uZHRvLAogICAgICBjcmVhdGV0aW1lOiBub3dTZWMoKSwKICAgICAgdXBkYXRldGltZTogbm93U2VjKCksCiAgICAgIGRlbGV0ZXRpbWU6IDAsCiAgICB9IGFzIGFueSk7CiAgICByZXR1cm4gdGhpcy5yZXBvLnNhdmUoZW50aXR5KTsKICB9CgogIGFzeW5jIHVwZGF0ZShpZDogbnVtYmVyLCBkdG86IFBhcnRpYWw8QWlNb2RlbENvbmZpZz4pIHsKICAgIGF3YWl0IHRoaXMucmVwby51cGRhdGUoaWQsIHsgLi4uZHRvLCB1cGRhdGV0aW1lOiBub3dTZWMoKSB9IGFzIGFueSk7CiAgICByZXR1cm4gdGhpcy5yZXBvLmZpbmRPbmUoeyB3aGVyZTogeyBpZCB9IGFzIGFueSB9KTsKICB9CgogIGFzeW5jIHJlbW92ZShpZDogbnVtYmVyKSB7CiAgICBhd2FpdCB0aGlzLnJlcG8udXBkYXRlKGlkLCB7IGRlbGV0ZXRpbWU6IG5vd1NlYygpIH0gYXMgYW55KTsKICAgIHJldHVybiB0cnVlOwogIH0KCiAgLyoqCiAgICog5Y+W6L+Q6KGM5pe255Sf5pWI55qE6YWN572u77ya5LyY5YWI44CM5ZCv55So5LiU6buY6K6k44CN77yM5YW25qyh44CM5ZCv55So44CN5Lit55qE56ys5LiA5p2h77yb6YO95peg5YiZ5Zue6YCA5YiwIC5lbnYg6buY6K6k5YC844CCCiAgICovCiAgYXN5bmMgZ2V0QWN0aXZlQ29uZmlnKCk6IFByb21pc2U8QWlNb2RlbENvbmZpZyB8IG51bGw+IHsKICAgIGNvbnN0IGFsbCA9IGF3YWl0IHRoaXMucmVwby5maW5kKHsgd2hlcmU6IHsgZGVsZXRldGltZTogMCwgZW5hYmxlZDogMSB9IGFzIGFueSB9KTsKICAgIGlmIChhbGwubGVuZ3RoID09PSAwKSByZXR1cm4gbnVsbDsKICAgIHJldHVybiBhbGwuZmluZCgoYykgPT4gYy5pc0RlZmF1bHQgPT09IDEpIHx8IGFsbFswXTsKICB9Cn0K
+import { Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository } from 'typeorm';
+import { AiModelConfig } from './entities/ai-model-config.entity';
+import { nowSec } from '../common/bigint.transformer';
+
+/**
+ * 模型配置服务：CRUD + 选择「启用且默认」的配置作为运行时模型。
+ * 数据库化配置意味着切换 DeepSeek / OpenAI / 本地 Ollama 无需改代码。
+ */
+@Injectable()
+export class AiModelConfigService {
+  constructor(
+    @InjectRepository(AiModelConfig) private readonly repo: Repository<AiModelConfig>,
+  ) {}
+
+  async list() {
+    return this.repo.find({ where: { deletetime: 0 } as any, order: { id: 'DESC' } });
+  }
+
+  async get(id: number) {
+    return this.repo.findOne({ where: { id, deletetime: 0 } as any });
+  }
+
+  async create(dto: Partial<AiModelConfig>) {
+    const entity = this.repo.create({
+      ...dto,
+      createtime: nowSec(),
+      updatetime: nowSec(),
+      deletetime: 0,
+    } as any);
+    return this.repo.save(entity);
+  }
+
+  async update(id: number, dto: Partial<AiModelConfig>) {
+    await this.repo.update(id, { ...dto, updatetime: nowSec() } as any);
+    return this.repo.findOne({ where: { id } as any });
+  }
+
+  async remove(id: number) {
+    await this.repo.update(id, { deletetime: nowSec() } as any);
+    return true;
+  }
+
+  /**
+   * 取运行时生效的配置：优先「启用且默认」，其次「启用」中的第一条；都无则回退到 .env 默认值。
+   */
+  async getActiveConfig(): Promise<AiModelConfig | null> {
+    const all = await this.repo.find({ where: { deletetime: 0, enabled: 1 } as any });
+    if (all.length === 0) return null;
+    return all.find((c) => c.isDefault === 1) || all[0];
+  }
+}
